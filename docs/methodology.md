@@ -20,22 +20,17 @@ is added; price sorting uses proxies only.
   network assessments. These are not live timetables or accessibility measurements.
 - Quiet/condition: inherited coarse judgements with reasons; not measured exposure
   or neighbourhood quality. Deprivation is not equivalent to visual condition.
-- Safety: unknown for all locations in this attempt. Historical one-mile counts
-  and derived safety scores are archived, not comparable population-adjusted rates.
+- Safety: historical one-mile counts and derived scores are archived. Fresh crime
+  research is separate and not displayed yet.
 
 See the evidence CSV for recorded periods and limitations. Geographies and periods
 remain explicit rather than implicitly harmonised. This attempt reproducibly
 transforms surviving summaries; original-source acquisition is still needed for
 full source-to-output reproducibility.
 
-## Crime research added on 5 September 2026
+## Crime research
 
-The description above applies to the inherited comparison. Fresh crime research
-is separate: [crime replacement](crime-replacement.md) documents the
-CSP geography, April 2025–March 2026 window, matched rounded mid-2024 population,
-source snapshots and calculations. Violence and sexual-offence research rates
-are generated in CSV; ASB remains unknown. Material unallocated offences and
-unverified boundary vintage/completeness keep safety out of the browser.
-An April 2025 geography audit flags two LA-code mismatches and two split-LA cases.
-Matching codes do not establish matching footprints; the lookup date is not
-assigned to the offence workbook by inference.
+[Crime replacement](crime-replacement.md) is the current path. ONS CSP data supplies
+the offence rates; Police.uk ASB records are aggregated to PFA/CSP using a reusable
+archive-and-lookup pipeline. Both remain research-only until geography and coverage
+review passes.
