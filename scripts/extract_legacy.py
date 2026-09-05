@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract supplied handover offline; no claims of fresh source verification."""
+"""Extract the supplied handover offline; do not claim fresh verification."""
 import argparse
 import csv
 import hashlib
@@ -43,8 +43,8 @@ def extract(initialize=False):
     for name, rows in tables.items():
         write_csv(ARCHIVE / 'locations' / f'{name}.csv', rows)
     (ARCHIVE / 'metadata.json').write_text(json.dumps(data['meta'], indent=2) + '\n')
-    # Preserve every worksheet, including historical rankings. Read OOXML without
-    # third-party dependencies. Formula expressions are retained if no cache exists.
+    # Preserve every worksheet and read OOXML without third-party dependencies.
+    # Retain formula expressions when cached results are unavailable.
     ns = {'s': 'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
     with zipfile.ZipFile(LEGACY / 'UK_flat_location_research_Stages_0_2.xlsx') as z:
         strings = []
@@ -80,7 +80,7 @@ def extract(initialize=False):
                 csv.writer(f, lineterminator='\n').writerows(rows)
     write_csv(ARCHIVE / 'manifest.csv', [dict(path=str(p.relative_to(ROOT)), sha256=hashlib.sha256(p.read_bytes()).hexdigest(), role='supplied legacy artifact; not independently verified') for p in sorted(LEGACY.rglob('*')) if p.is_file()])
     if initialize:
-        # Keep observations/reasons, but remove inherited scores and decisions.
+        # Keep observations/reasons; remove inherited scores and decisions.
         excluded = {'safety'}
         for name, rows in tables.items():
             if name in excluded:

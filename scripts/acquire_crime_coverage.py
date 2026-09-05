@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Snapshot Police.uk coverage evidence separately from ONS observations."""
+"""Snapshot Police.uk coverage evidence separately from ONS data."""
 import argparse
 from datetime import datetime, timezone
 import hashlib

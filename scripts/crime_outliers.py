@@ -1,8 +1,4 @@
-"""List extreme research rates for contextual review.
-
-This is a QA aid only. It does not classify locations as safe or unsafe and
-never feeds the browser or a ranking.
-"""
+"""List extreme research rates for contextual QA; never classify or rank locations."""
 from decimal import Decimal
 
 from crime import read

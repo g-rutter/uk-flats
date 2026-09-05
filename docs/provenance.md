@@ -2,26 +2,24 @@
 
 ## What survived
 
-The untouched `data/archive/UK flats (attempt 2)/` directory is the supplied historical source.
-`data/archive/manifest.csv` records relative paths and SHA-256 hashes of all its
-files. This proves which local artifacts were imported, not the validity of their
-upstream claims. Retrieval dates such as 2026-09-05 are the previous attempt's
-recorded dates, not newly performed retrievals.
+The untouched `data/archive/UK flats (attempt 2)/` directory is the historical
+source. `data/archive/manifest.csv` records every file's path and SHA-256 hash.
+This identifies imported artifacts, not the validity of upstream claims. Dates
+such as 2026-09-05 are inherited, not newly retrieved.
 
-`extract_legacy.py` reads the JSON object in the old `locations.js` without executing
-JavaScript and splits it into CSV tables under `data/archive/locations/`. Every
-location field, including old scores and crime, survives there. Shared UI metadata
-is in `data/archive/metadata.json`. Every XLSX worksheet is exported separately
-under `data/archive/workbook/`, retaining historical rankings and QA/resume notes.
-The exports preserve cell values and positions, not workbook formatting; cached
-formula results are preferred, otherwise the formula expression is retained.
-The original XLSX remains authoritative for workbook formatting and formulas.
+`extract_legacy.py` reads the old `locations.js` JSON without executing JavaScript
+and exports CSV tables to `data/archive/locations/`. All location fields, including
+old scores and crime, survive there. UI metadata is in `metadata.json`; each XLSX
+worksheet is exported to `data/archive/workbook/` with rankings and QA notes.
+Exports preserve cell values and positions, not formatting. Cached formula results
+are preferred; otherwise the formula is retained. The XLSX remains authoritative
+for formatting and formulas.
 
-The workbook mentions unavailable checkpoint JSONs, affordability.json and other
+The workbook mentions unavailable checkpoint JSONs, `affordability.json` and other
 intermediates. No raw transaction downloads, API responses, portal captures or
-original calculation scripts were supplied. Historic claims of completed QA are
-not verification by this migration. The workbook and JS are separate snapshots;
-active inputs come from JS, without asserting they reconcile to every workbook cell.
+calculation scripts were supplied. Historical QA claims are not verified here.
+Workbook and JS are separate snapshots; active inputs come from JS without claiming
+they reconcile to every workbook cell.
 
 ## Canonical inputs
 
@@ -47,23 +45,22 @@ links by location live in sources.csv. These are source references rather than
 proof of a row-level observation; some point to general homepages or planners.
 Crime references remain for provenance but are hidden from the active browser view.
 
-Initial inputs remove `safety` entirely and fields containing score, unknowns,
-weakness or composite. All removed values remain in the archive. Active inputs
-are thereafter maintained independently; archive extraction never overwrites them.
+Initial inputs remove `safety` and fields containing score, unknowns, weakness or
+composite. Removed values remain archived. Active inputs are maintained separately;
+archive extraction never overwrites them.
 
 ## Generated outputs and checks
 
-`build.py` joins topic rows to identity by ID; missing topic rows become unknown.
+`build.py` joins topic rows to identities by ID; missing topic rows become unknown.
 It writes a flat dotted-column broad_screen.csv and the browser's JS data object.
 It validates unique identities, topic foreign keys, duplicate topic rows, numeric
 values and source URL schemes. It does not validate upstream statistical truth.
 No row count is hard-coded. Generation contains no clock timestamps or network calls.
 
-For future acquisitions, store dated raw CSV snapshots separately, include source
-URL/query, retrieval date, observation period, units and geography identifiers, and
-commit the script that transforms those observations. If a raw source isn't CSV,
-retain the original artifact and a scripted CSV extraction. Extend provenance to
-explicit row-level evidence IDs when multiple source periods enter one topic.
+For future acquisitions, store dated raw snapshots with source URL/query, retrieval
+date, observation period, units and geography identifiers, plus the transformation
+script. Retain non-CSV artifacts and scripted CSV extractions. Add row-level
+evidence IDs when multiple source periods enter one topic.
 
 ## Fresh crime research schema
 

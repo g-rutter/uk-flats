@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Acquire dated official workbooks; no transformation or browser changes."""
+"""Acquire dated official workbooks without transforming or publishing them."""
 import argparse
 import csv
 from datetime import datetime, timezone
@@ -37,5 +37,5 @@ def acquire(destination):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('destination', type=Path, help='New snapshot directory; refuses overwrite')
+    parser.add_argument('destination', type=Path, help='New snapshot directory (must not exist)')
     acquire(parser.parse_args().destination)

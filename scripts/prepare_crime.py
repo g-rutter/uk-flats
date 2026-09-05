@@ -2,7 +2,7 @@
 """Extract official crime observations into canonical CSVs, offline.
 
 Pinned to the inspected YE March 2026 workbook layout. Fail on changed headers,
-periods, hashes or geography. Rates are calculated separately by build.py.
+periods, hashes or geography. build.py calculates rates separately.
 """
 import argparse
 import csv

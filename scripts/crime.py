@@ -1,7 +1,4 @@
-"""Validate research-only crime evidence and calculate resident-population rates.
-
-This module deliberately does not supply safety measures to the browser.
-"""
+"""Validate research-only crime evidence and calculate population rates."""
 import csv
 from datetime import date
 from decimal import Decimal, InvalidOperation
@@ -63,7 +60,7 @@ def compile_crime(inputs, locations, evidence):
         if not row['source_url'].startswith('https://') or not re.fullmatch('[a-f0-9]{64}', row['source_sha256']):
             raise ValueError('Missing crime source provenance')
         date.fromisoformat(row['retrieval_date'][:10])
-        # A single explicit release/window is supported until a new source is reviewed.
+        # Support one explicit release/window until a new source is reviewed.
         if (row['period_start'], row['period_end'], row['population_period'], row['population_rounding']) != (
                 '2025-04-01', '2026-03-31', 'mid-2024', 'nearest 100'):
             raise ValueError('Unreviewed crime period or population basis')
@@ -77,8 +74,8 @@ def compile_crime(inputs, locations, evidence):
         if force is not None and ((count is not None and count > force) or (unallocated is not None and unallocated > force)):
             raise ValueError('Crime counts exceed force total')
         rate = count / population * 1000 if count is not None and population is not None else None
-        # C4 rates use unrounded populations, while supplied populations are rounded.
-        # Check that the published rate is possible within half a rounding interval.
+        # Supplied populations are rounded; check the published rate within half
+        # a rounding interval.
         if count is not None and population is not None and published is not None:
             if population <= 50 or not (count * 1000 / (population + 50) - Decimal('0.000001') <= published <= count * 1000 / (population - 50) + Decimal('0.000001')):
                 raise ValueError(f'Crime rate fails published-rate reconciliation: {ident} {category}')

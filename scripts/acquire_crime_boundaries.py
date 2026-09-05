@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Snapshot official CSP lookup and Police.uk geography definitions, without aggregation."""
+"""Snapshot the CSP lookup and Police.uk geography definitions; do not aggregate."""
 import argparse
 from datetime import datetime, timezone
 import hashlib

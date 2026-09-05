@@ -1,7 +1,4 @@
-"""Summarise force-level offences outside named CSP rows.
-
-Residuals are retained for review and are never allocated to a location.
-"""
+"""Summarise force-level offences outside named CSP rows for review."""
 from collections import defaultdict
 
 from crime import read

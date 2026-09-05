@@ -9,7 +9,7 @@
   function detail(location) {
     const groups = [['buy','Buying: all-flat proxy'],['rent','Renting: modelled one-bedroom LA mean'],['market','Market snapshot'],['localTransport','Local transport'],['nationalTransport','National rail'],['quiet','Quiet'],['condition','Local condition']];
     const links = data.sources.filter(s => s.location_id === location.id && s.topic !== 'crime');
-    $('details').innerHTML = `<h2>${escape(location.name)}</h2><p>Safety: pending replacement. All assessments below are inherited and unverified.</p>` + groups.map(([key, title]) => `<h3>${title}</h3><dl>${Object.entries(location[key]).map(([k,v]) => `<dt>${escape(k)}</dt><dd>${show(v)}</dd>`).join('')}</dl>`).join('') + `<h3>Recorded source links</h3><ul>${links.map(s => `<li>${escape(s.topic)}: <a href="${escape(s.url)}" target="_blank" rel="noopener noreferrer">${escape(s.url)}</a></li>`).join('')}</ul>`;
+    $('details').innerHTML = `<h2>${escape(location.name)}</h2><p>Safety: pending replacement. Assessments are inherited and unverified.</p>` + groups.map(([key, title]) => `<h3>${title}</h3><dl>${Object.entries(location[key]).map(([k,v]) => `<dt>${escape(k)}</dt><dd>${show(v)}</dd>`).join('')}</dl>`).join('') + `<h3>Source links</h3><ul>${links.map(s => `<li>${escape(s.topic)}: <a href="${escape(s.url)}" target="_blank" rel="noopener noreferrer">${escape(s.url)}</a></li>`).join('')}</ul>`;
   }
   function render() {
     const tenure = $('tenure').value;

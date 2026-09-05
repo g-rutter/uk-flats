@@ -1,32 +1,31 @@
 # Crime replacement research — 5 September 2026
 
-The acquisition and first calculation pass are implemented. **Safety remains
-pending**: the new figures are research outputs, excluded from the browser and
-any rankings. All 63 locations remain in scope. This is fresh evidence, separate
-from the unchanged historical one-mile counts.
+The first acquisition and calculation pass is implemented. **Safety remains
+pending**: these research outputs are excluded from the browser and rankings.
+All 63 locations remain in scope; the evidence is separate from historical
+one-mile counts.
 
 ## Source decision and common window
 
-Use Community Safety Partnerships (CSPs), investigating the official LA-scale
-route before smaller areas. The [ONS Police Force Area data tables](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables),
-YE March 2026 edition, supply CSP counts (C2), population and published rates (C4),
-and combined/split LA mappings (C1). The common numerator window is **1 April 2025
-to 31 March 2026**. C4 supplies **mid-2024 resident population rounded to 100**.
-This provides a matched denominator without trying to recover population from
-rounded rates or dividing the old radius counts by LA population.
+Use Community Safety Partnerships (CSPs), starting with the official LA-scale
+route. The [ONS Police Force Area data tables](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables),
+YE March 2026 edition, supply CSP counts (C2), populations and rates (C4), plus
+combined/split LA mappings (C1). The numerator window is **1 April 2025 to 31
+March 2026**; C4 supplies **mid-2024 resident populations rounded to 100**.
+This gives a matched denominator without recovering it from rounded rates or old
+radius counts.
 
-Both source workbooks were downloaded on 5 September 2026. Raw bytes, source URLs,
-retrieval dates and SHA-256 hashes are in `data/raw/crime/2026-09-05/`. Retrieval
-was by curl for this initial snapshot; `scripts/acquire_crime.py` reproduces the
-same HTTP downloads with urllib and records actual UTC retrieval times for future
-snapshots. It refuses to overwrite an existing directory. An upstream revision
-may change the bytes: retain the pinned snapshot for exact offline reproduction.
+Both workbooks were downloaded on 5 September 2026. Raw bytes, URLs, dates and
+SHA-256 hashes are in `data/raw/crime/2026-09-05/`. Initial retrieval used curl;
+`scripts/acquire_crime.py` reproduces the downloads with urllib and records UTC
+times. It refuses existing directories. Retain the pinned snapshot for exact
+offline reproduction if upstream bytes change.
 
 ## Geography and category definitions
 
-`crime_geographies.csv` maps each location to an explicit CSP code/name and LA
-code, with a reason. The main mapping uses the existing canonical LA name and
-C2's LA identity; it is not an independent settlement-boundary verification.
+`crime_geographies.csv` maps each location to a CSP code/name and LA code, with a
+reason. The main mapping uses the canonical LA name and C2's LA identity; it does
+not independently verify settlement boundaries.
 The workbook does not state an exact boundary vintage, so that field remains
 blank. The source edition is recorded separately and is not a claimed vintage.
 
@@ -237,6 +236,26 @@ Gwent was chosen to investigate the refreshed March gap, not as a location
 shortlist. This failed request is not evidence that Gwent's submission is absent.
 Next acquisition needs a working custom-download session or the published archive;
 retain all force/month files and inspect refreshes before calculating local totals.
+
+`scripts/asb.py` inspects retained Police.uk ZIPs. It counts exact
+`Anti-social behaviour` rows, checks each CSV has one month, records missing LSOA
+codes, omits absent files and labels results `asb_completeness=Unknown`. Reconcile
+observed rows with coverage notices and a verified LSOA-to-CSP lookup before
+counting them locally. `scripts/acquire_police_archive.py` downloads an archive
+and writes a SHA-256 manifest. Acquisition is opt-in because archives are large:
+
+```sh
+python3 scripts/acquire_police_archive.py 2026-03 data/raw/crime/police-2026-09-05
+```
+
+The helper creates a new directory and refuses overwrite. The inspector writes a
+review CSV; each row retains the archive SHA-256:
+
+```sh
+python3 scripts/asb.py data/raw/crime/police-2026-09-05/2026-03.zip /tmp/asb-review.csv
+```
+
+No ZIP is included here.
 
 To acquire a new geography snapshot:
 

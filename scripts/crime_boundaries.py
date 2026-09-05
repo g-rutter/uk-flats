@@ -1,7 +1,7 @@
 """Audit canonical crime mappings against a dated ONS relationship lookup.
 
-Matching codes do not establish identical boundary polygons or monthly coverage.
-This module deliberately does not produce an LSOA-to-CSP assignment.
+Matching codes do not establish identical boundaries or monthly coverage. This
+module does not assign LSOAs to CSPs.
 """
 from collections import defaultdict
 import hashlib
