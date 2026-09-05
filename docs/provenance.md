@@ -84,6 +84,11 @@ notices for review, and an explicitly unknown ASB completeness field. `BTP` is
 an internal provider identifier, not an invented ONS geography code. See the
 crime replacement document for acquisition and interpretation limits.
 
+`data/derived/crime_residual_audit.csv` is a build-generated force/category
+summary of offences outside named CSP rows. It deduplicates repeated force totals,
+retains the source evidence, and marks residuals of at least 5% for investigation.
+Residuals are review metadata and are never assigned to locations.
+
 See [crime replacement](crime-replacement.md) for source selection, limitations
 and reproduction. These observations are freshly retrieved, not legacy imports.
 

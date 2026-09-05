@@ -97,6 +97,12 @@ Initial review of the pinned snapshot:
 | Gloucestershire residual | 2.943% violence; 14.267% sexual offences outside named CSP totals |
 | Other notable sexual-offence residuals | South Yorkshire 6.819%; Cambridgeshire 6.090% |
 
+`data/derived/crime_residual_audit.csv` provides the reproducible force/category
+review table. It deduplicates repeated force totals across locations, preserves
+the source cells and evidence, and marks residuals at or above 5% as material.
+The threshold is a review trigger rather than a statistical correction: residual
+offences remain outside named CSP totals and are not distributed to locations.
+
 The extremes were checked for category, denominator and source-cell alignment,
 not independently explained. Rural/combined geographies and visitor-heavy areas
 are not like-for-like town comparisons. Resident population excludes commuters

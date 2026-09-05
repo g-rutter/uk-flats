@@ -25,6 +25,8 @@ Implemented first acquisition/calculation pass; see [crime research](crime-repla
   Northamptonshire CSPs; a join through current LA codes cannot resolve them.
 - [ ] Verify boundary vintage and monthly completeness; resolve material unallocated
   totals (especially Humberside and Gloucestershire) and investigate outliers.
+  `data/derived/crime_residual_audit.csv` now classifies each force/category
+  residual at a 5% review threshold; it does not allocate residuals.
 - [ ] Review comparability before displaying crime measures. Research CSV is
   available, but browser safety remains pending and combined rankings absent.
 

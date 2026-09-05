@@ -9,6 +9,8 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from build import compile_data, build
+from crime import read as read_crime
+from crime_residuals import audit as audit_residuals
 
 
 class PipelineTests(unittest.TestCase):
@@ -16,7 +18,8 @@ class PipelineTests(unittest.TestCase):
         outputs = [ROOT / 'data/derived/broad_screen.csv', ROOT / 'web/data.js',
                    ROOT / 'data/derived/crime_research.csv',
                    ROOT / 'data/derived/crime_boundary_audit.csv',
-                   ROOT / 'data/derived/crime_coverage.csv'] + sorted(
+                   ROOT / 'data/derived/crime_coverage.csv',
+                   ROOT / 'data/derived/crime_residual_audit.csv'] + sorted(
                        (ROOT / 'data/derived/crime_source_tables').glob('*.csv'))
         build()
         first = [p.read_bytes() for p in outputs]
@@ -44,6 +47,12 @@ class PipelineTests(unittest.TestCase):
         with (ROOT / 'data/archive/manifest.csv').open(newline='') as f:
             for row in csv.DictReader(f):
                 self.assertEqual(hashlib.sha256((ROOT / row['path']).read_bytes()).hexdigest(), row['sha256'])
+
+    def test_residual_audit_marks_material_for_review(self):
+        rows = audit_residuals(read_crime(ROOT / 'data/inputs/crime_observations.csv'))
+        humberside = [r for r in rows if r['force_code'] == 'E23000012']
+        self.assertEqual({r['review_status'] for r in humberside}, {'Material; investigate before comparison'})
+        self.assertEqual(len(rows), len({(r['force_code'], r['category']) for r in rows}))
 
 
 if __name__ == '__main__':
