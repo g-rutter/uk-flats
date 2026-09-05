@@ -1,0 +1,43 @@
+source_row,A,B,C,D
+1,Table C1: List of combined Local Authorities by Community Safety Partnership in England and Wales,,,
+2,This worksheet contains one table.,,,
+3,Link to table of contents,,,
+4,Police Force Area name,Community Safety Partnership name,Local Authority code,Local Authority name
+5,Devon and Cornwall,East and Mid Devon,E07000040,East Devon
+6,,,E07000042,Mid Devon
+7,Devon and Cornwall,North Devon,E07000043,North Devon
+8,,,E07000046,Torridge
+9,Devon and Cornwall,South Devon and Dartmoor,E07000044,South Hams
+10,,,E07000045,Teignbridge
+11,,,E07000047,West Devon
+12,Hampshire,North Hampshire,E07000084,Basingstoke and Deane
+13,,,E07000089,Hart
+14,,,E07000092,Rushmoor
+15,Kent,Dartford and Gravesham,E07000107,Dartford
+16,,,E07000109,Gravesham
+17,Northamptonshire ,Corby,E06000061,North Northamptonshire
+18,,East Northamptonshire,E06000061,North Northamptonshire
+19,,Kettering,E06000061,North Northamptonshire
+20,,Wellingborough,E06000061,North Northamptonshire
+21,,Northampton,E06000062,West Northamptonshire
+22,,Daventry and South Northamptonshire,E06000062,West Northamptonshire
+23,Nottinghamshire,South Nottinghamshire,E07000172,Broxtowe
+24,,,E07000173,Gedling
+25,,,E07000176,Rushcliffe
+26,South Wales,Cwm Taf,W06000024,Merthyr Tydfil
+27,,,W06000016,Rhondda Cynon Taf
+28,Suffolk,Western Suffolk,E07000200,Babergh
+29,,,E07000203,Mid Suffolk
+30,,,E07000245,West Suffolk
+31,Thames Valley,Aylesbury Vale,E06000060,Buckinghamshire
+32,,Chiltern,E06000060,Buckinghamshire
+33,,South Bucks,E06000060,Buckinghamshire
+34,,Wycombe,E06000060,Buckinghamshire
+35,Warwickshire,South Warwickshire,E07000221,Stratford-on-Avon
+36,,,E07000222,Warwick
+37,West Mercia,North Worcestershire,E07000234,Bromsgrove
+38,,,E07000236,Redditch
+39,,,E07000239,Wyre Forest
+40,West Mercia,South Worcester,E07000235,Malvern Hills
+41,,,E07000237,Worcester
+42,,,E07000238,Wychavon

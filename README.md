@@ -49,8 +49,9 @@ overwrite existing inputs. Normal updates never require re-extracting the archiv
 
 Data are **imported legacy claims, not independently verified fresh research**.
 Buying is an all-flat achieved-price proxy; renting is a modelled one-bedroom
-local-authority mean. Crime is excluded from the current comparison pending a
-population-normalised replacement. Combined rankings are deliberately absent.
+local-authority mean. Fresh ONS crime research now has a separate reproducible acquisition and
+calculation pipeline; see [crime research](docs/crime-replacement.md). Its rates
+remain excluded from the browser pending ASB, boundary and coverage review. Combined rankings are deliberately absent.
 
 See [orientation](AGENTS.md), [methodology](docs/methodology.md),
 [provenance and schema](docs/provenance.md), and [to-do list](docs/TODO.md).

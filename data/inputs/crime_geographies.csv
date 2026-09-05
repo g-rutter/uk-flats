@@ -1,0 +1,64 @@
+location_id,local_authority_code,csp_code,csp_name,boundary_vintage,boundary_basis,mapping_reason
+barnsley,E08000016,E22000259,Barnsley,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+birmingham,E08000025,E22000335,Birmingham,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+blackburn,E06000008,E22000150,Blackburn with Darwen,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+blackpool,E06000009,E22000151,Blackpool,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+bolton,E08000001,E22000099,Bolton,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+bradford,E08000032,E22000342,Bradford,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+burnley,E07000117,E22000152,Burnley,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+burton-on-trent,E07000193,E22000264,East Staffordshire,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+cardiff,W06000015,W14000015,Cardiff,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+chester,E06000050,E22000355,Cheshire West and Chester,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+chesterfield,E07000034,E22000039,Chesterfield,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+coventry,E08000026,E22000336,Coventry,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+darlington,E06000005,E22000072,Darlington,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+derby,E06000015,E22000040,Derby,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+doncaster,E08000017,E22000260,Doncaster,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+gateshead,E08000037,E22000244,Gateshead,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+gloucester,E07000081,E22000096,Gloucester,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+halifax,E08000033,E22000343,Calderdale,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+hartlepool,E06000001,E22000027,Hartlepool,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+huddersfield,E08000034,E22000344,Kirklees,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+hull-kingston-upon-hull,E06000010,E22000134,"Kingston upon Hull, City of",,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+ipswich,E07000202,E22000273,Ipswich,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+kettering,E06000061,E22000236,Kettering,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,"C1/C2: named CSP covers part of the current LA; use its own C4 population, not whole LA."
+lancaster,E07000121,E22000156,Lancaster,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+leeds,E08000035,E22000345,Leeds,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+leicester,E06000016,E22000168,Leicester,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+lincoln,E07000138,E22000175,Lincoln,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+liverpool,E08000012,E22000182,Liverpool,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+loughborough,E07000130,E22000165,Charnwood,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+manchester,E08000003,E22000101,Manchester,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+merthyr-tydfil,W06000024,W14000023,Cwm Taf,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,C1: combined CSP includes this LA and other LAs; use whole CSP numerator and population.
+middlesbrough,E06000002,E22000029,Middlesbrough,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+neath,W06000012,W14000012,Neath Port Talbot,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+newcastle-upon-tyne,E08000021,E22000245,Newcastle upon Tyne,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+newport,W06000022,W14000022,Newport,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+northampton,E06000062,E22000237,Northampton,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,"C1/C2: named CSP covers part of the current LA; use its own C4 population, not whole LA."
+norwich,E07000148,E22000223,Norwich,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+nottingham,E06000018,E22000257,Nottingham,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+peterborough,E06000031,E22000017,Peterborough,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+plymouth,E06000026,E22000056,Plymouth,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+portsmouth,E06000044,E22000118,Portsmouth,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+preston,E07000123,E22000158,Preston,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+rotherham,E08000018,E22000261,Rotherham,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+salford,E08000006,E22000104,Salford,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+sheffield,E08000019,E22000262,Sheffield,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+shrewsbury,E06000051,E22000360,Shropshire,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+st-helens,E08000013,E22000184,St. Helens,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+stafford,E07000197,E22000268,Stafford,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+stockport,E08000007,E22000105,Stockport,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+stockton-on-tees,E06000004,E22000030,Stockton-on-Tees,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+stoke-on-trent,E06000021,E22000270,Stoke-on-Trent,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+sunderland,E08000024,E22000248,Sunderland,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+swansea,W06000011,W14000011,Swansea,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+swindon,E06000030,E22000350,Swindon,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+telford,E06000020,E22000333,Telford and Wrekin,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+torbay,E06000027,E22000060,Torbay,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+wakefield,E08000036,E22000346,Wakefield,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+walsall,E08000030,E22000340,Walsall,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+warrington,E06000007,E22000026,Warrington,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+wigan,E08000010,E22000108,Wigan,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+wolverhampton,E08000031,E22000341,Wolverhampton,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+worcester,E07000237,E22000332,South Worcester,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,C1: combined CSP includes this LA and other LAs; use whole CSP numerator and population.
+wrexham,W06000006,W14000006,Wrexham,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.

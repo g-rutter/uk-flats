@@ -30,3 +30,12 @@ geographies and periods are retained explicitly, not harmonised by implication.
 The new attempt is a reproducible transformation of surviving summaries. Acquisition
 from original sources is still missing and must be added before claiming full
 source-to-output reproducibility.
+
+## Crime research added on 5 September 2026
+
+The migration description above applies to the inherited comparison. Fresh crime
+research is now separate: [crime replacement](crime-replacement.md) documents the
+CSP geography, April 2025–March 2026 window, matched rounded mid-2024 population,
+source snapshots and calculations. Violence and sexual-offence research rates
+are generated in CSV; ASB remains unknown. Material unallocated offences and
+unverified boundary vintage/completeness keep safety out of the browser.

@@ -1,0 +1,13 @@
+source_row,A,B
+1,CSP notes,
+2,This worksheet contains one table. ,
+3,Note number,Note text
+4,1,Caution must be taken when interpreting small numbers of offences.
+5,2,"The number of offences for CSPs for a small number of forces may be lower than the separately published force level totals. Some offences may not have an exact location so it may not be possible to allocate an offence to a CSP, these areas are referred to in the tables as 'Unassigned'. Furthermore, offences in some airports are recorded at the police force area level but are not allocated to a CSP."
+6,3,There may be negative offence numbers for some CSPs; this is likely owing to a police force transferring or cancelling (formerly 'no criming') offences from one period to the next.
+7,4,"Due to ongoing IT issues, crime data for Maidstone, Medway, Tonbridge and Malling, Dartford and Gravesham, and Tunbridge Wells are recorded under an unassigned CSP group from 2024 onwards."
+8,5,Percentage changes have not been calculated for 'Unassigned' CSPs
+9,6,"Caution needs to be taken when considering crime rates of city centre areas, due to the very small population and household levels in these areas. The very high reported crime rates in city centres are partly due to the use of small resident population and household figures as the denominator of the crime rate. The 'transient population' that migrates into these areas on a daily basis, either for work or leisure, will not be reflected in the resident population figures. Changes in population estimates between years must also be borne in mind when comparing changes in crime rates. "
+10,7,"Rates per 1,000 population are not calculable for 'Unassigned' CSPs, as no population size can be applied."
+11,8,"Rates per 1,000 population are not presented for City of London owing to its small resident population."
+12,9,"For the year ending March 2025, data for some areas within Derbyshire have been recorded under an unassigned CSP group. This issue is expected to be corrected for the next publication."

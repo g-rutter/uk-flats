@@ -13,7 +13,9 @@ from build import compile_data, build
 
 class PipelineTests(unittest.TestCase):
     def test_build_is_deterministic_and_excludes_safety(self):
-        outputs = [ROOT / 'data/derived/broad_screen.csv', ROOT / 'web/data.js']
+        outputs = [ROOT / 'data/derived/broad_screen.csv', ROOT / 'web/data.js',
+                   ROOT / 'data/derived/crime_research.csv'] + sorted(
+                       (ROOT / 'data/derived/crime_source_tables').glob('*.csv'))
         build()
         first = [p.read_bytes() for p in outputs]
         build()

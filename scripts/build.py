@@ -4,6 +4,7 @@ import csv
 import json
 from pathlib import Path
 from extract_legacy import write_csv
+from crime import compile_crime, export_source_tables
 
 ROOT = Path(__file__).resolve().parents[1]
 GROUPS = ('buy', 'rent', 'market', 'localTransport', 'nationalTransport', 'quiet', 'condition')
@@ -72,6 +73,9 @@ def compile_data(inputs):
 
 def build():
     data = compile_data(ROOT / 'data/inputs')
+    crime = compile_crime(ROOT / 'data/inputs', data['locations'], data['evidence'])
+    export_source_tables(ROOT)
+    write_csv(ROOT / 'data/derived/crime_research.csv', crime)
     rows = []
     for location in data['locations']:
         row = {k: v for k, v in location.items() if not isinstance(v, dict)}

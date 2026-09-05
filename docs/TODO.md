@@ -1,22 +1,22 @@
 # Next work
 
-## Priority: replace crime data (not implemented)
+## Priority: replace crime data (in progress)
 
-- Choose a scalable common geography for the broad comparison, favouring a
-  geography with official population estimates and comparable crime coverage.
-  Investigate local-authority-level evidence before attempting smaller areas.
-- Find compatible violence/sexual-offence and ASB numerators plus population
-  denominators. Record boundary codes/vintage and population reference period.
-  Do not divide the old one-mile counts by whole-town or LA population.
-- Establish one common 12-month window, category definitions and completeness
-  checks; document force gaps, especially the inherited Greater Manchester gap.
-  Missing reporting must remain unknown rather than appear unusually safe.
-- Calculate each category separately as count / matched population * 1,000, with
-  numerator, denominator, geography, dates, coverage, URLs and transformation in CSV.
-  Resident-population rates still reflect visitor/commuter activity and reporting;
-  they must not be presented as a person's probability of victimisation.
-- Review comparability and plausible outliers before displaying safety or proposing
-  any combined ranking. This is a future research design, not a verified source plan.
+Implemented first acquisition/calculation pass; see [crime research](crime-replacement.md).
+
+- [x] Investigate official LA-scale evidence and select CSP geography, retaining
+  codes, combined/split-LA exceptions and unknown boundary vintage explicitly.
+- [x] Preserve fresh ONS March 2026 workbooks, source hashes and acquisition script.
+- [x] Extract violence and sexual-offence counts with matched mid-2024 population
+  for all 63 places; calculate separate research rates for April 2025–March 2026.
+- [x] Reconcile calculations to published rates, quantify force unallocated totals,
+  inspect extremes, and distinguish ONS coverage from the Police.uk Manchester gap.
+- [ ] Acquire compatible local ASB counts. Inspected ONS appendix tables contain
+  national ASB totals only; all local ASB values remain unknown.
+- [ ] Verify boundary vintage and monthly completeness; resolve material unallocated
+  totals (especially Humberside and Gloucestershire) and investigate outliers.
+- [ ] Review comparability before displaying crime measures. Research CSV is
+  available, but browser safety remains pending and combined rankings absent.
 
 ## Reproducibility and evidence quality
 

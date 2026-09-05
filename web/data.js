@@ -8046,6 +8046,18 @@ window.FLATS_DATA = {
       "geography": "Candidate built-up areas",
       "coverage": "All 63 candidate locations",
       "limitations": "Map context supports identification of conspicuous roads, railways, airports, industrial land and broad urban form; it does not establish actual noise, dereliction or upkeep."
+    },
+    {
+      "id": "CRIME-ONS-2026-CSP",
+      "workstream": "geography_crime",
+      "title": "Fresh ONS CSP crime research; not approved safety measures",
+      "publisher": "Office for National Statistics / Home Office",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables",
+      "dataPeriod": "2025-04-01 to 2026-03-31; population mid-2024 rounded to 100",
+      "retrievalDate": "2026-09-05",
+      "geography": "CSP codes and names in crime_geographies.csv; boundary vintage not stated",
+      "coverage": "Explicit location IDs and source cells in crime_observations.csv",
+      "limitations": "Official statistics, not accredited official statistics. Recorded offences reflect reporting and recording; CSP unallocated offences excluded. Resident population excludes visitors and commuters. ASB not acquired. Research rates withheld from browser pending boundary and comparability review."
     }
   ]
 };

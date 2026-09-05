@@ -64,3 +64,30 @@ URL/query, retrieval date, observation period, units and geography identifiers, 
 commit the script that transforms those observations. If a raw source isn't CSV,
 retain the original artifact and a scripted CSV extraction. Extend provenance to
 explicit row-level evidence IDs when multiple source periods enter one topic.
+
+## Fresh crime research schema
+
+See [crime replacement](crime-replacement.md) for source selection, limitations
+and reproduction. These observations are freshly retrieved, not legacy imports.
+
+- `data/inputs/crime_geographies.csv`: one row per mapped location; LA code, CSP
+  code/name, boundary vintage (blank if unknown), source edition and mapping reason.
+- `data/inputs/crime_observations.csv`: key `(location_id, category)`; count, matched
+  CSP population, population period/rounding, crime dates, published rate, force
+  total and unallocated count, coverage, evidence ID, URL, retrieval date, source
+  cells and SHA-256. Counts are nonnegative integers or blank. The preparer writes
+  this table from the raw workbook and editable mapping.
+- `data/raw/crime/2026-09-05/manifest.csv`: original workbook filenames, exact
+  acquisition URLs, retrieval dates and hashes. Workbooks retained in full.
+- `data/derived/crime_source_tables/`: build-generated C1/C2/C4, CSP notes and ASB
+  D4/D5 CSV exports; `source_row` and Excel column letters preserve cell identity.
+- `data/derived/crime_research.csv`: build-generated row per location/category,
+  including unknown ASB and unmapped additions. Adds rate per 1,000 (3 decimals),
+  force unallocated percentage, transformation, missing reason and review status.
+  Rates use resident populations, not household denominators or old radius counts.
+
+Build checks crime foreign keys, duplicates, periods, evidence references, numeric
+validity, source hashes and compatibility with published rates allowing population
+rounding. Those checks are arithmetic/provenance checks, not evidence that every
+force reported all incidents. Crime research rows are excluded from `web/data.js`;
+the new source-level evidence entry is hidden with other crime evidence in the UI.
