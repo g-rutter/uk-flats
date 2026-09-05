@@ -27,7 +27,15 @@
   updates; do not conflate HMLR town, LA, portal region and centroid geographies.
 - Review coarse transport/quiet/condition judgements; preserve uncertainty and avoid
   interpreting deprivation as appearance or upkeep.
-- Reuse the archived map if useful; keep presentation dependent on generated data.
-  Current browser view has been statically checked, not manually browser-tested.
+
+## Interactive map
+
+- Make a proper interactive map like the original available in the current explorer.
+  Use `data/archive/UK flats (attempt 2)/uk-flat-stage1-visualisation/` as reference:
+  selectable location markers, hover/focus details, buy/rent switching, filters and
+  a linked evidence panel. Drive it from the current generated data and preserve
+  the broad-only scope with safety pending and no combined rankings.
+- Check the map in a browser, including keyboard interaction and mobile layout.
+  The current table view has been statically checked, not manually browser-tested.
 
 No shortlist, property sampling or neighbourhood drill-down is planned.

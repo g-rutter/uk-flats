@@ -10,7 +10,7 @@ import xml.etree.ElementTree as ET
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-LEGACY = ROOT / 'UK flats (attempt 2)'
+LEGACY = ROOT / 'data/archive/UK flats (attempt 2)'
 ARCHIVE = ROOT / 'data/archive'
 INPUTS = ROOT / 'data/inputs'
 

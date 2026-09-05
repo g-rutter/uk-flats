@@ -6,7 +6,7 @@ shortlist, neighbourhood drill-down, individual listings or final grades.
 
 Open **web/index.html** directly in a browser to compare locations. No server,
 network connection or package installation is required. The original map explorer
-is retained in `UK flats (attempt 2)/` for future reuse; its rankings are obsolete.
+is retained in `data/archive/UK flats (attempt 2)/` for future reuse; its rankings are obsolete.
 The new view is a simple searchable table with buy/rent modes and evidence details.
 
 ## Rebuild

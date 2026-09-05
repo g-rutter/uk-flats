@@ -1,10 +1,9 @@
 path,sha256,role
-UK flats (attempt 2)/.DS_Store,dd57488f0b8a817a00eeeebc7704d2a4d0138deeb5c19f11b67e9caf624b6469,supplied legacy artifact; not independently verified
-UK flats (attempt 2)/UK_flat_location_research_Stages_0_2.xlsx,7e8305e4beec08107adcc9c83bc2fabc02e6f7394e711a9a67f128e76dbd7abf,supplied legacy artifact; not independently verified
-UK flats (attempt 2)/locations.txt,6315e0576b0aba85c491d6a1dd60857f0fab3d758d7aad911cc93d70a5e90a51,supplied legacy artifact; not independently verified
-UK flats (attempt 2)/master plan.md,aef525196cdeadcab815b2a48aa71bf16dc63e37a3e812ebe2592a63ed5b8670,supplied legacy artifact; not independently verified
-UK flats (attempt 2)/uk-flat-stage1-visualisation/README.md,14a5bfa36cbb57958bb5e18a6aa3a800cf2119eb3788d0474cdb745f78ab4f85,supplied legacy artifact; not independently verified
-UK flats (attempt 2)/uk-flat-stage1-visualisation/app.js,8f0d790cffdf6c242c35be39f5e9998d28d70d8fcb91d1c4f793d204b751d0d6,supplied legacy artifact; not independently verified
-UK flats (attempt 2)/uk-flat-stage1-visualisation/index.html,bac0a69691a8db023f86d62e6d2048fb15b286ef71a6db0b4e2c93f6965f79ba,supplied legacy artifact; not independently verified
-UK flats (attempt 2)/uk-flat-stage1-visualisation/locations.js,fe5a6b675fdb978208bae1e95016ac24b133d44364cfe6efdfff31e26ea8bde2,supplied legacy artifact; not independently verified
-UK flats (attempt 2)/uk-flat-stage1-visualisation/styles.css,55a765b97962a18b2ec73567f883b4ebf568cc800564b65e05a8a26b6f789f6a,supplied legacy artifact; not independently verified
+data/archive/UK flats (attempt 2)/UK_flat_location_research_Stages_0_2.xlsx,7e8305e4beec08107adcc9c83bc2fabc02e6f7394e711a9a67f128e76dbd7abf,supplied legacy artifact; not independently verified
+data/archive/UK flats (attempt 2)/locations.txt,6315e0576b0aba85c491d6a1dd60857f0fab3d758d7aad911cc93d70a5e90a51,supplied legacy artifact; not independently verified
+data/archive/UK flats (attempt 2)/master plan.md,aef525196cdeadcab815b2a48aa71bf16dc63e37a3e812ebe2592a63ed5b8670,supplied legacy artifact; not independently verified
+data/archive/UK flats (attempt 2)/uk-flat-stage1-visualisation/README.md,14a5bfa36cbb57958bb5e18a6aa3a800cf2119eb3788d0474cdb745f78ab4f85,supplied legacy artifact; not independently verified
+data/archive/UK flats (attempt 2)/uk-flat-stage1-visualisation/app.js,8f0d790cffdf6c242c35be39f5e9998d28d70d8fcb91d1c4f793d204b751d0d6,supplied legacy artifact; not independently verified
+data/archive/UK flats (attempt 2)/uk-flat-stage1-visualisation/index.html,bac0a69691a8db023f86d62e6d2048fb15b286ef71a6db0b4e2c93f6965f79ba,supplied legacy artifact; not independently verified
+data/archive/UK flats (attempt 2)/uk-flat-stage1-visualisation/locations.js,fe5a6b675fdb978208bae1e95016ac24b133d44364cfe6efdfff31e26ea8bde2,supplied legacy artifact; not independently verified
+data/archive/UK flats (attempt 2)/uk-flat-stage1-visualisation/styles.css,55a765b97962a18b2ec73567f883b4ebf568cc800564b65e05a8a26b6f789f6a,supplied legacy artifact; not independently verified

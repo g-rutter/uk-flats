@@ -2,7 +2,7 @@
 
 ## What survived
 
-The untouched `UK flats (attempt 2)/` directory is the supplied historical source.
+The untouched `data/archive/UK flats (attempt 2)/` directory is the supplied historical source.
 `data/archive/manifest.csv` records relative paths and SHA-256 hashes of all its
 files. This proves which local artifacts were imported, not the validity of their
 upstream claims. Retrieval dates such as 2026-09-05 are the previous attempt's
