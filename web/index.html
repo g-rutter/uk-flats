@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UK flat location comparison</title>
+<link rel="stylesheet" href="styles.css">
+<main>
+<header><p>UK FLAT LOCATION RESEARCH</p><h1>Compare locations broadly</h1>
+<p>Buying and renting a one-bedroom flat · Initial coverage: England and Wales</p></header>
+<aside>Imported historical evidence, not freshly verified. Buying prices cover flats of all sizes. Safety is pending a population-normalised replacement; no combined rankings are shown.</aside>
+<section class="controls" aria-label="Comparison controls">
+<label>Search location <input id="search" type="search" placeholder="Name or local authority"></label>
+<label>Compare <select id="tenure"><option value="buy">Buying</option><option value="rent">Renting</option></select></label>
+<label>Sort <select id="sort"><option value="name">Location A–Z</option><option value="price">Price proxy: low to high</option><option value="stock">One-bedroom count: high to low</option></select></label>
+</section>
+<p id="count" aria-live="polite"></p>
+<div class="table-wrap"><table><thead><tr><th>Location / local authority</th><th id="price-heading">All-flat achieved median</th><th>One-bed portal count</th><th>London rail (min)</th><th>Birmingham rail (min)</th><th>Safety</th></tr></thead><tbody id="rows"></tbody></table></div>
+<section id="details" aria-live="polite"><h2>Evidence and limitations</h2><p>Select a location to read its evidence.</p></section>
+<details><summary>Recorded source periods and limitations</summary><div id="evidence"></div></details>
+<footer>CSV inputs: data/inputs · Rebuild with python3 scripts/build.py · See docs/provenance.md for the audit trail.</footer>
+</main><script src="data.js"></script><script src="app.js"></script>
+</html>

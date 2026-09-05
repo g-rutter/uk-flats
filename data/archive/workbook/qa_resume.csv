@@ -1,0 +1,29 @@
+Quality control and resumable checkpoint manifest,Quality control and resumable checkpoint manifest,Quality control and resumable checkpoint manifest,Quality control and resumable checkpoint manifest,Quality control and resumable checkpoint manifest,Quality control and resumable checkpoint manifest
+
+Check,Value,Status,Checkpoint,Date,Note
+locations,63,Completed,checkpoints/integration_qa.json,2026-09-05,Manager-validated integration check
+distinct_locations,63,Completed,checkpoints/integration_qa.json,2026-09-05,Manager-validated integration check
+buy_proxy_missing,0,Completed,checkpoints/integration_qa.json,2026-09-05,Manager-validated integration check
+rent_proxy_missing,0,Completed,checkpoints/integration_qa.json,2026-09-05,Manager-validated integration check
+crime_score_missing,5,Completed,checkpoints/integration_qa.json,2026-09-05,Manager-validated integration check
+buy_market_count_missing,0,Completed,checkpoints/integration_qa.json,2026-09-05,Manager-validated integration check
+rent_market_count_missing,0,Completed,checkpoints/integration_qa.json,2026-09-05,Manager-validated integration check
+shortlist_size,16,Completed,checkpoints/integration_qa.json,2026-09-05,Manager-validated integration check
+shortlist_top_buy_covered,12,Completed,checkpoints/integration_qa.json,2026-09-05,Manager-validated integration check
+shortlist_top_rent_covered,12,Completed,checkpoints/integration_qa.json,2026-09-05,Manager-validated integration check
+buy_tertile_thresholds,110000 to 137000,Completed,checkpoints/integration_qa.json,2026-09-05,Manager-validated integration check
+rent_tertile_thresholds,578 to 696,Completed,checkpoints/integration_qa.json,2026-09-05,Manager-validated integration check
+
+
+
+
+Checkpoint,Path / gate,Status,Contents
+Stage 0,checkpoints/stage0_framework.md,Complete,Frozen rubric and shortlist rule
+Stage 1 geography/crime,checkpoints/geography_crime.json,Complete,63-row source-backed proxy
+Stage 1 affordability,checkpoints/affordability.json,Complete,63-row buy/rent proxies
+Stage 1 market,checkpoints/market_thickness.json,Complete,63-row buy/rent portal-count snapshot
+Stage 1 transport,checkpoints/transport.json,Complete,63-row transport screen
+Stage 1 environment,checkpoints/environment.json,Complete,63-row quiet/condition screen
+Integrated data,checkpoints/stage1_broad_screen.json,Complete,Canonical merged checkpoint
+Stage 2,checkpoints/stage2_rankings.json,Complete,Separate rankings and proposed shortlist
+Next action,User approval,Pending,Do not begin Stage 3 before approval

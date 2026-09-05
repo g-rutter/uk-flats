@@ -1,0 +1,18 @@
+Stage 0–2 methodology and thresholds,Stage 0–2 methodology and thresholds,Stage 0–2 methodology and thresholds,Stage 0–2 methodology and thresholds,Stage 0–2 methodology and thresholds,Stage 0–2 methodology and thresholds
+
+Item,Value,Weight,Status,Interpretation,Limitation
+Scope,"Stages 0, 1 and 2 only",,Frozen,63-location broad screen and proposed shortlist,No Stage 3 subarea/listing/building research
+Affordability,Tenure-specific tertiles,15,Screening,Cheapest third 5; middle third 3; most expensive third 1,Buy is all-flat achieved proxy; rent is modelled one-bed average
+Safety,1–5 relative centre indicator,15,Screening,Lower violent/sexual and ASB counts are favourable,Fixed-radius centre proxy; not population-normalised or neighbourhood evidence
+Local transport,1–5 coarse car-free score,15,Screening,"Bus, rail and urban transit breadth",Not stop/frequency/walkability modelling
+Local condition,1–5 coarse judgement,15,Screening,Broadly pleasant and cared-for urban fabric,No detailed visual survey
+Quiet,1–5 coarse judgement,15,Screening,Lower conspicuous road/rail/airport/industry/nightlife exposure,Not street or building noise modelling
+One-bed/tower stock,Market score with tower adjustment,15,Screening,"Known +0.5; Likely 0; Unclear -0.5, capped 1–5",Portal snapshot; tower remains unverified until Stage 3
+National transport,1–5 journey score,10,Screening,Representative weekday journeys to London/Birmingham,Timetables and gateway stations require recheck
+Weighted total,0–100,100,Preliminary,Sum(score × weight) ÷ 5,Not a final A–E grade
+Confidence,"High=3, Medium=2, Low=1",,Separate,Displayed independently of factor score,Does not silently turn unknown into average
+Shortlist,"Top 12 each tenure, union capped at 20",,Proposed,"Tie-break: score, weakness, priority subtotal, confidence",Requires user approval
+Buy cheap-third ceiling,110000,,Calculated,Score 5 at or below,Ties are kept together
+Buy expensive-third floor,137000,,Calculated,Score 1 at or above,Ties are kept together
+Rent cheap-third ceiling,578,,Calculated,Score 5 at or below,Ties are kept together
+Rent expensive-third floor,696,,Calculated,Score 1 at or above,Ties are kept together

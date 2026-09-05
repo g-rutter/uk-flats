@@ -1,0 +1,64 @@
+Rank,Location,Screen score /100,One-bed modelled rent pcm,Affordability,Safety,Local transport,Condition,Quiet,Stock,National transport,Priority subtotal /75,Serious weaknesses,Confidence /3,Unknowns,Shortlist,Qualified via
+1,Shrewsbury,75.5,605,3,5,3,5,4,2.5,4,60,0,2,0,Proposed,Both
+2,Chesterfield,74.5,538,5,4,3,4,3,2.5,5,57,0,2,0,Proposed,Rent
+3,Chester,72.5,721,1,5,4,5,4,2.5,4,57,0,2,0,Proposed,Both
+4,Stafford,71.5,629,3,5,3,4,4,1.5,5,57,0,2,0,Proposed,Both
+5,Halifax,70.5,546,5,4,4,3,3,2.5,3,57,0,2,0,Proposed,Rent
+6,Hull (Kingston upon Hull),70.5,498,5,4,4,3,2,3.5,3,54,0,1.8571428571428572,0,Proposed,Both
+7,Wakefield,69.5,572,5,4,4,3,2,2.5,4,54,0,2,0,Proposed,Rent
+8,Sheffield,69.5,689,3,1,5,4,3,4.5,4,48,1,2.142857142857143,0,Proposed,Rent
+9,Lancaster,68,596,3,4,4,4,4,1,4,57,0,2,0,Proposed,Both
+10,Wigan,67.6470588235294,541,5,0,4,3,3,1.5,4,56.25,0,1.8571428571428572,1,Proposed,Both
+11,Manchester,67.6470588235294,998,1,0,5,4,2,4.5,4,45,0,2,1,Proposed,Both
+12,Huddersfield,67.5,582,3,4,4,3,3,3.5,3,51,0,2,0,Proposed,Both
+13,Rotherham,66.5,486,5,4,4,2,2,2.5,4,51,0,2,0,Not proposed,
+14,Worcester,66.5,709,1,4,3,5,4,2.5,4,51,0,1.8571428571428572,0,Proposed,Buy
+15,Norwich,66.5,781,1,2,4,5,4,3.5,4,48,0,2,0,Not proposed,
+16,Preston,66.5,578,5,2,4,3,2,3.5,4,48,0,1.8571428571428572,0,Not proposed,
+17,Liverpool,66.5,683,3,1,5,4,2,4.5,4,45,1,2.142857142857143,0,Not proposed,
+18,Neath,66,498,5,5,3,3,3,1,3,57,0,1.8571428571428572,0,Not proposed,
+19,Loughborough,65.5,677,3,5,3,3,3,1.5,5,51,0,1.8571428571428572,0,Not proposed,
+20,Doncaster,65.5,491,5,3,4,2,2,2.5,5,48,0,2,0,Not proposed,
+21,Gloucester,65.5,743,1,4,4,4,3,2.5,5,48,0,2,0,Not proposed,
+22,Burton-on-Trent,65.5,610,3,5,3,3,2,2.5,5,48,0,1.8571428571428572,0,Proposed,Buy
+23,Kettering,65.5,681,3,4,3,3,3,2.5,5,48,0,1.8571428571428572,0,Not proposed,
+24,Stoke-on-Trent,65.5,515,5,3,4,2,2,2.5,5,48,0,1.8571428571428572,0,Not proposed,
+25,Warrington,65.5,670,3,4,4,3,2,2.5,5,48,0,1.8571428571428572,0,Not proposed,
+26,Wolverhampton,65.5,671,3,4,4,2,2,3.5,5,45,0,2,0,Not proposed,
+27,Derby,65.5,606,3,2,4,3,2,4.5,5,42,0,1.8571428571428572,0,Not proposed,
+28,Darlington,64.5,494,5,3,4,3,3,1.5,3,54,0,1.8571428571428572,0,Not proposed,
+29,Torbay,64.5,617,3,3,3,4,4,2.5,3,51,0,1.8571428571428572,0,Not proposed,
+30,Bolton,64.11764705882354,647,3,0,4,2,3,3.5,4,45,0,1.8571428571428572,1,Not proposed,
+31,Salford,64.11764705882354,886,1,0,5,3,2,4.5,4,41.25,0,1.7142857142857142,1,Not proposed,
+32,Barnsley,63.5,505,5,4,3,2,3,1.5,4,51,0,2,0,Proposed,Buy
+33,Telford,63.5,600,3,5,3,3,3,1.5,4,51,0,2,0,Proposed,Buy
+34,Ipswich,63.5,743,1,4,4,3,3,3.5,4,45,0,1.8571428571428572,0,Not proposed,
+35,Cardiff,63.5,902,1,2,5,4,2,4.5,4,42,0,2.142857142857143,0,Not proposed,
+36,Leeds,63.5,779,1,2,5,4,2,4.5,4,42,0,2.142857142857143,0,Not proposed,
+37,Sunderland,62.5,521,5,3,4,3,2,2.5,2,51,0,1.8571428571428572,0,Not proposed,
+38,Walsall,62.5,648,3,4,4,2,2,2.5,5,45,0,2,0,Not proposed,
+39,Birmingham,62.5,825,1,2,5,3,2,4.5,5,39,0,2,0,Not proposed,
+40,Nottingham,62.5,734,1,1,5,4,2,4.5,5,39,1,2.142857142857143,0,Not proposed,
+41,Swansea,61.5,684,3,3,4,4,3,1.5,3,51,0,2.142857142857143,0,Not proposed,
+42,Stockton-on-Tees,61.5,537,5,3,3,3,2,2.5,3,48,0,1.7142857142857142,0,Not proposed,
+43,Bradford,61.5,553,5,2,4,2,2,3.5,3,45,0,2,0,Not proposed,
+44,Merthyr Tydfil,61,552,5,5,3,2,3,1,2,54,0,1.8571428571428572,0,Not proposed,
+45,Stockport,60.588235294117645,807,1,0,4,4,2,3.5,4,41.25,0,2,1,Not proposed,
+46,Wrexham,60.5,594,3,4,3,3,3,1.5,4,48,0,2,0,Not proposed,
+47,Lincoln,60.5,661,3,2,3,4,3,2.5,4,45,0,2,0,Not proposed,
+48,Coventry,59.5,759,1,3,4,3,2,3.5,5,39,0,2,0,Not proposed,
+49,Burnley,58.5,463,5,3,3,2,3,1.5,3,48,0,1.8571428571428572,0,Not proposed,
+50,Gateshead,58.5,587,3,2,5,3,2,2.5,3,45,0,1.8571428571428572,0,Not proposed,
+51,Middlesbrough,58.5,499,5,2,4,2,2,2.5,3,45,0,1.8571428571428572,0,Not proposed,
+52,Blackpool,58.5,498,5,1,4,2,2,3.5,3,42,1,2,0,Not proposed,
+53,Portsmouth,57.5,900,1,2,4,4,2,3.5,4,39,0,2,0,Not proposed,
+54,Blackburn,57,534,5,3,3,2,3,1,3,48,0,1.8571428571428572,0,Not proposed,
+55,Peterborough,56.5,703,1,2,4,3,2,3.5,5,36,0,1.8571428571428572,0,Not proposed,
+56,Swindon,56.5,816,1,2,4,3,2,3.5,5,36,0,1.8571428571428572,0,Not proposed,
+57,Leicester,56.5,717,1,1,4,3,2,4.5,5,33,1,1.8571428571428572,0,Not proposed,
+58,Newcastle upon Tyne,55.5,810,1,1,5,4,2,3.5,3,39,1,2.142857142857143,0,Not proposed,
+59,Hartlepool,55,400,5,3,3,2,3,1,2,48,0,1.8571428571428572,0,Not proposed,
+60,St Helens,54.5,590,3,4,3,2,2,1.5,4,42,0,2,0,Not proposed,
+61,Plymouth,53.5,703,1,1,4,4,3,3.5,2,39,1,2,0,Not proposed,
+62,Northampton,53.5,748,1,1,4,3,2,3.5,5,33,1,1.8571428571428572,0,Not proposed,
+63,Newport,50.5,696,1,2,4,2,2,2.5,5,33,0,2,0,Not proposed,

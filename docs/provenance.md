@@ -1,0 +1,66 @@
+# Provenance and CSV schema
+
+## What survived
+
+The untouched `UK flats (attempt 2)/` directory is the supplied historical source.
+`data/archive/manifest.csv` records relative paths and SHA-256 hashes of all its
+files. This proves which local artifacts were imported, not the validity of their
+upstream claims. Retrieval dates such as 2026-09-05 are the previous attempt's
+recorded dates, not newly performed retrievals.
+
+`extract_legacy.py` reads the JSON object in the old `locations.js` without executing
+JavaScript and splits it into CSV tables under `data/archive/locations/`. Every
+location field, including old scores and crime, survives there. Shared UI metadata
+is in `data/archive/metadata.json`. Every XLSX worksheet is exported separately
+under `data/archive/workbook/`, retaining historical rankings and QA/resume notes.
+The exports preserve cell values and positions, not workbook formatting; cached
+formula results are preferred, otherwise the formula expression is retained.
+The original XLSX remains authoritative for workbook formatting and formulas.
+
+The workbook mentions unavailable checkpoint JSONs, affordability.json and other
+intermediates. No raw transaction downloads, API responses, portal captures or
+original calculation scripts were supplied. Historic claims of completed QA are
+not verification by this migration. The workbook and JS are separate snapshots;
+active inputs come from JS, without asserting they reconcile to every workbook cell.
+
+## Canonical inputs
+
+CSV encoding is UTF-8, comma separated, with a header row and LF line endings.
+Blank numeric cells mean unknown; zero is an actual recorded zero. Identifiers are
+stable strings. Numeric counts/minutes/GBP are whole numbers; coordinates are
+signed decimal degrees. Original camelCase names are retained for traceability.
+
+| File | Key and contents | Historical source context |
+| --- | --- | --- |
+| locations.csv | `id`; name, country, localAuthority, lat, lon | JS top-level identity; GC01/GC02 |
+| buy.csv | `location_id`; proxyMedian (GBP), transactions, oneBedCount, affordabilityConfidence/Reason | JS buy; AFF-BUY-PPD-2024-26; counts use MT-RM-SEARCH-20260905 |
+| rent.csv | `location_id`; proxyMonthly (GBP/month), oneBedCount, affordabilityConfidence/Reason | JS rent; AFF-RENT-PIPR-2026-07; counts use MT-RM-SEARCH-20260905 |
+| market.csv | `location_id`; towerSignal and reason | JS market; MT-RM-SEARCH-20260905 / MT-RM-LOS-20260905 |
+| localTransport.csv | `location_id`; confidence and reason | JS localTransport; TR source series and per-location transport links |
+| nationalTransport.csv | `location_id`; londonMinutes/Changes, birminghamMinutes/Changes, confidence and reason | JS nationalTransport; TR01 and per-location transport links |
+| quiet.csv, condition.csv | `location_id`; confidence and reason | JS same-named groups; ENV series and per-location environment links |
+| sources.csv | `location_id`, topic, url; multiple rows per location/topic | JS sources; original links, including archived crime context |
+| evidence.csv | `id`; workstream, title, publisher, url, dataPeriod, retrievalDate, geography, coverage, limitations | JS evidence; inherited source-level metadata |
+
+The topic-to-evidence mapping above documents the inherited common periods. Exact
+links by location live in sources.csv. These are source references rather than
+proof of a row-level observation; some point to general homepages or planners.
+Crime references remain for provenance but are hidden from the active browser view.
+
+Initial inputs remove `safety` entirely and fields containing score, unknowns,
+weakness or composite. All removed values remain in the archive. Active inputs
+are thereafter maintained independently; archive extraction never overwrites them.
+
+## Generated outputs and checks
+
+`build.py` joins topic rows to identity by ID; missing topic rows become unknown.
+It writes a flat dotted-column broad_screen.csv and the browser's JS data object.
+It validates unique identities, topic foreign keys, duplicate topic rows, numeric
+values and source URL schemes. It does not validate upstream statistical truth.
+No row count is hard-coded. Generation contains no clock timestamps or network calls.
+
+For future acquisitions, store dated raw CSV snapshots separately, include source
+URL/query, retrieval date, observation period, units and geography identifiers, and
+commit the script that transforms those observations. If a raw source isn't CSV,
+retain the original artifact and a scripted CSV extraction. Extend provenance to
+explicit row-level evidence IDs when multiple source periods enter one topic.

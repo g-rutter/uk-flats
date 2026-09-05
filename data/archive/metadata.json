@@ -1,0 +1,27 @@
+{
+  "title": "UK one-bedroom flat locations \u2014 Stage 1 broad screen",
+  "stage": "Stage 1 broad screen",
+  "locationCount": 63,
+  "retrievalDate": "2026-09-05",
+  "weights": {
+    "affordability": 15,
+    "safety": 15,
+    "localTransport": 15,
+    "condition": 15,
+    "quiet": 15,
+    "stock": 15,
+    "nationalTransport": 10
+  },
+  "buyProxy": "24-month achieved all-flat median (not one-bedroom)",
+  "rentProxy": "ONS one-bedroom modelled average (not a new-let asking median)",
+  "cautions": [
+    "Screening scores are preliminary relative scores, not final A\u2013E grades.",
+    "Buying affordability is an all-flat achieved-price proxy, not a one-bedroom purchase median.",
+    "Rent is an official one-bedroom modelled average for the local authority, not a new-let asking median.",
+    "Crime is a fixed one-mile centre indicator and is not population-normalised or neighbourhood evidence.",
+    "One-bedroom market counts are a single Rightmove snapshot and may include duplicates or portal-boundary effects.",
+    "Tower/high-rise availability is unresolved at Stage 1; all tower signals are Unclear.",
+    "Quiet and local condition are deliberately coarse town/city-level judgements.",
+    "National journey times are representative rounded weekday screening values and should be rechecked for travel planning."
+  ]
+}

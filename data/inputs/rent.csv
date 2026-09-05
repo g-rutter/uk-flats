@@ -1,0 +1,64 @@
+location_id,proxyMonthly,affordabilityConfidence,oneBedCount,affordabilityReason
+barnsley,505,Medium,21,Official one-bedroom modelled average for Barnsley LA; underlying observation count is not published in the table.
+birmingham,825,Medium,1257,Official one-bedroom modelled average for Birmingham LA; underlying observation count is not published in the table.
+blackburn,534,Medium,2,Official one-bedroom modelled average for Blackburn with Darwen LA; underlying observation count is not published in the table and the LA is broader than the named town.
+blackpool,498,Medium,75,Official one-bedroom modelled average for Blackpool LA; underlying observation count is not published in the table.
+bolton,647,Medium,78,Official one-bedroom modelled average for Bolton LA; underlying observation count is not published in the table.
+bradford,553,Medium,91,Official one-bedroom modelled average for Bradford LA; underlying observation count is not published in the table.
+burnley,463,Medium,22,Official one-bedroom modelled average for Burnley LA; underlying observation count is not published in the table.
+burton-on-trent,610,Medium,34,Official one-bedroom modelled average for East Staffordshire LA; underlying observation count is not published in the table and the LA is broader than the named town.
+cardiff,902,Medium,468,Official one-bedroom modelled average for Cardiff LA; underlying observation count is not published in the table.
+chester,721,Medium,54,Official one-bedroom modelled average for Cheshire West and Chester LA; underlying observation count is not published in the table and the LA is broader than the named town.
+chesterfield,538,Medium,31,Official one-bedroom modelled average for Chesterfield LA; underlying observation count is not published in the table.
+coventry,759,Medium,184,Official one-bedroom modelled average for Coventry LA; underlying observation count is not published in the table.
+darlington,494,Medium,24,Official one-bedroom modelled average for Darlington LA; underlying observation count is not published in the table.
+derby,606,Medium,214,Official one-bedroom modelled average for Derby LA; underlying observation count is not published in the table.
+doncaster,491,Medium,27,Official one-bedroom modelled average for Doncaster LA; underlying observation count is not published in the table.
+gateshead,587,Medium,27,Official one-bedroom modelled average for Gateshead LA; underlying observation count is not published in the table.
+gloucester,743,Medium,65,Official one-bedroom modelled average for Gloucester LA; underlying observation count is not published in the table.
+halifax,546,Medium,49,Official one-bedroom modelled average for Calderdale LA; underlying observation count is not published in the table and the LA is broader than the named town.
+hartlepool,400,Medium,9,Official one-bedroom modelled average for Hartlepool LA; underlying observation count is not published in the table.
+huddersfield,582,Medium,91,Official one-bedroom modelled average for Kirklees LA; underlying observation count is not published in the table and the LA is broader than the named town.
+hull-kingston-upon-hull,498,Medium,128,"Official one-bedroom modelled average for Kingston upon Hull, City of LA; underlying observation count is not published in the table."
+ipswich,743,Medium,80,Official one-bedroom modelled average for Ipswich LA; underlying observation count is not published in the table.
+kettering,681,Medium,30,Official one-bedroom modelled average for North Northamptonshire LA; underlying observation count is not published in the table and the LA is broader than the named town.
+lancaster,596,Medium,9,Official one-bedroom modelled average for Lancaster LA; underlying observation count is not published in the table.
+leeds,779,Medium,627,Official one-bedroom modelled average for Leeds LA; underlying observation count is not published in the table.
+leicester,717,Medium,386,Official one-bedroom modelled average for Leicester LA; underlying observation count is not published in the table.
+lincoln,661,Medium,68,Official one-bedroom modelled average for Lincoln LA; underlying observation count is not published in the table.
+liverpool,683,Medium,347,Official one-bedroom modelled average for Liverpool LA; underlying observation count is not published in the table.
+loughborough,677,Medium,20,Official one-bedroom modelled average for Charnwood LA; underlying observation count is not published in the table and the LA is broader than the named town.
+manchester,998,Medium,1456,Official one-bedroom modelled average for Manchester LA; underlying observation count is not published in the table.
+merthyr-tydfil,552,Medium,3,Official one-bedroom modelled average for Merthyr Tydfil LA; underlying observation count is not published in the table.
+middlesbrough,499,Medium,50,Official one-bedroom modelled average for Middlesbrough LA; underlying observation count is not published in the table.
+neath,498,Medium,3,Official one-bedroom modelled average for Neath Port Talbot LA; underlying observation count is not published in the table and the LA is broader than the named town.
+newcastle-upon-tyne,810,Medium,124,Official one-bedroom modelled average for Newcastle upon Tyne LA; underlying observation count is not published in the table.
+newport,696,Medium,43,Official one-bedroom modelled average for Newport LA; underlying observation count is not published in the table.
+northampton,748,Medium,137,Official one-bedroom modelled average for West Northamptonshire LA; underlying observation count is not published in the table and the LA is broader than the named town.
+norwich,781,Medium,112,Official one-bedroom modelled average for Norwich LA; underlying observation count is not published in the table.
+nottingham,734,Medium,509,Official one-bedroom modelled average for Nottingham LA; underlying observation count is not published in the table.
+peterborough,703,Medium,134,Official one-bedroom modelled average for Peterborough LA; underlying observation count is not published in the table.
+plymouth,703,Medium,124,Official one-bedroom modelled average for Plymouth LA; underlying observation count is not published in the table.
+portsmouth,900,Medium,176,Official one-bedroom modelled average for Portsmouth LA; underlying observation count is not published in the table.
+preston,578,Medium,136,Official one-bedroom modelled average for Preston LA; underlying observation count is not published in the table.
+rotherham,486,Medium,25,Official one-bedroom modelled average for Rotherham LA; underlying observation count is not published in the table.
+salford,886,Medium,531,Official one-bedroom modelled average for Salford LA; underlying observation count is not published in the table.
+sheffield,689,Medium,401,Official one-bedroom modelled average for Sheffield LA; underlying observation count is not published in the table.
+shrewsbury,605,Medium,33,Official one-bedroom modelled average for Shropshire LA; underlying observation count is not published in the table and the LA is broader than the named town.
+st-helens,590,Medium,24,Official one-bedroom modelled average for St. Helens LA; underlying observation count is not published in the table.
+stafford,629,Medium,20,Official one-bedroom modelled average for Stafford LA; underlying observation count is not published in the table.
+stockport,807,Medium,89,Official one-bedroom modelled average for Stockport LA; underlying observation count is not published in the table.
+stockton-on-tees,537,Medium,36,Official one-bedroom modelled average for Stockton-on-Tees LA; underlying observation count is not published in the table.
+stoke-on-trent,515,Medium,53,Official one-bedroom modelled average for Stoke-on-Trent LA; underlying observation count is not published in the table.
+sunderland,521,Medium,56,Official one-bedroom modelled average for Sunderland LA; underlying observation count is not published in the table.
+swansea,684,Medium,16,Official one-bedroom modelled average for Swansea LA; underlying observation count is not published in the table.
+swindon,816,Medium,121,Official one-bedroom modelled average for Swindon LA; underlying observation count is not published in the table.
+telford,600,Medium,22,Official one-bedroom modelled average for Telford and Wrekin LA; underlying observation count is not published in the table and the LA is broader than the named town.
+torbay,617,Medium,51,Official one-bedroom modelled average for Torbay LA; underlying observation count is not published in the table.
+wakefield,572,Medium,46,Official one-bedroom modelled average for Wakefield LA; underlying observation count is not published in the table.
+walsall,648,Medium,44,Official one-bedroom modelled average for Walsall LA; underlying observation count is not published in the table.
+warrington,670,Medium,40,Official one-bedroom modelled average for Warrington LA; underlying observation count is not published in the table.
+wigan,541,Medium,23,Official one-bedroom modelled average for Wigan LA; underlying observation count is not published in the table.
+wolverhampton,671,Medium,94,Official one-bedroom modelled average for Wolverhampton LA; underlying observation count is not published in the table.
+worcester,709,Medium,52,Official one-bedroom modelled average for Worcester LA; underlying observation count is not published in the table.
+wrexham,594,Medium,11,Official one-bedroom modelled average for Wrexham LA; underlying observation count is not published in the table.

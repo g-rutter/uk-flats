@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>UK one-bedroom flat locations — Stage 1 broad screen</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="topbar">
+      <div class="title-block">
+        <div class="eyebrow">UK one-bedroom flat location research</div>
+        <h1>Stage 1 broad-screen explorer</h1>
+        <p class="subtitle">Explore the 63 England and Wales locations using the early, scalable screening evidence. Buying and renting remain separate; all values and factor scores are screening proxies rather than final neighbourhood conclusions.</p>
+      </div>
+      <div class="mode-switch" role="group" aria-label="Tenure">
+        <button id="buyToggle" type="button" aria-pressed="true">Buy</button>
+        <button id="rentToggle" type="button" aria-pressed="false">Rent</button>
+      </div>
+    </header>
+
+    <div class="notice" role="note">
+      <strong>Early-data view</strong>
+      <span>No final A–E grades are shown. Purchase affordability is an all-flat achieved-price proxy; rental affordability is an official one-bedroom modelled average; tower stock is still unverified everywhere.</span>
+    </div>
+
+    <section class="stats-strip" aria-label="Screen summary">
+      <div class="stat-card"><span>Current view</span><strong id="modeLabel">Buying screen</strong></div>
+      <div class="stat-card"><span>Visible locations</span><strong id="statVisible">63/63</strong></div>
+      <div class="stat-card"><span>Median screen score</span><strong id="statMedian">—</strong></div>
+      <div class="stat-card"><span>Highest screen score</span><strong id="statHighest">—</strong></div>
+    </section>
+
+    <section class="filters" aria-label="Filters">
+      <div class="field search-field">
+        <label for="searchInput">Location or local authority</label>
+        <input id="searchInput" type="search" placeholder="e.g. Chester, Cardiff, Wigan">
+      </div>
+      <div class="field">
+        <label for="minScore">Minimum screening score</label>
+        <div class="range-row"><input id="minScore" type="range" min="0" max="80" step="0.5" value="0"><span id="minScoreValue" class="range-value">Any</span></div>
+      </div>
+      <div class="field">
+        <label for="safetyFilter">Minimum safety score</label>
+        <select id="safetyFilter">
+          <option value="any">Any / unknown</option>
+          <option value="3">3/5 or better</option>
+          <option value="4">4/5 or better</option>
+          <option value="5">5/5 only</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="countryFilter">Country</label>
+        <select id="countryFilter"><option value="all">England + Wales</option><option value="England">England</option><option value="Wales">Wales</option></select>
+      </div>
+      <div class="field">
+        <label for="confidenceFilter">Composite confidence</label>
+        <select id="confidenceFilter"><option value="0">Any</option><option value="1.8">At least 1.8/3</option><option value="2">At least 2.0/3</option><option value="2.2">At least 2.2/3</option></select>
+      </div>
+      <div class="field">
+        <label for="sortSelect">Sort table</label>
+        <select id="sortSelect"><option value="score-desc">Screen score, high to low</option><option value="headline-asc">Affordability proxy, low to high</option><option value="market-desc">One-bed count, high to low</option><option value="name-asc">Location A–Z</option></select>
+      </div>
+      <button id="resetFilters" class="secondary-button" type="button">Reset</button>
+    </section>
+
+    <section class="workspace">
+      <article class="map-card">
+        <div class="panel-title"><h2>Map</h2><span>Click or focus a marker</span></div>
+        <div class="map-wrap" id="mapWrap">
+          <svg viewBox="0 0 560 720" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Map of Great Britain showing screened locations in England and Wales">
+            <path class="gb-land" d="M 220.41 425.45 L 230.33 380.52 L 184.67 331.74 L 103.72 318.12 L 87.83 297.17 L 112.06 262.57 L 90.13 241.24 L 54.24 277.85 L 50.33 203.22 L 16.67 163.74 L 40.88 83.70 L 92.67 20.90 L 145.90 27.03 L 226.33 20.52 L 155.08 104.28 L 223.00 93.68 L 296.05 94.08 L 278.67 157.16 L 218.73 226.55 L 287.67 231.48 L 352.33 330.97 L 397.97 343.40 L 439.00 431.61 L 458.00 462.19 L 538.77 476.94 L 530.67 526.45 L 496.70 549.15 L 523.32 589.21 L 463.36 629.75 L 374.17 629.03 L 260.67 650.32 L 229.58 635.08 L 185.50 671.35 L 123.83 662.57 L 77.00 692.13 L 41.56 676.67 L 139.33 595.35 L 199.01 578.63 L 94.38 565.67 L 75.51 534.86 L 145.18 510.86 L 108.67 469.16 L 121.33 418.45 L 220.41 425.45 Z"></path>
+            <g id="mapMarkers"></g>
+          </svg>
+          <div id="mapTooltip" class="map-tooltip" hidden></div>
+        </div>
+        <div class="map-footer">
+          <div class="legend" aria-label="Screen score visual bands">
+            <span><i class="band-strongest"></i>70+</span>
+            <span><i class="band-strong"></i>65–69.9</span>
+            <span><i class="band-middle"></i>60–64.9</span>
+            <span><i class="band-lower"></i>&lt;60</span>
+            <span>visual bands, not grades</span>
+          </div>
+          <span>Outline: Natural Earth, public domain</span>
+        </div>
+      </article>
+
+      <aside id="detailPanel" class="detail-panel" aria-live="polite"></aside>
+    </section>
+
+    <section class="results-card">
+      <div class="results-head"><h2>All visible locations</h2><span id="resultSummary">Showing 63 of 63 locations</span></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Location</th><th>Screen</th><th id="headlineHeader">Buy proxy</th><th>Safety</th><th id="marketHeader">Sale stock</th><th>Local transport</th><th>Quiet</th><th>Condition</th><th>Confidence</th></tr></thead>
+          <tbody id="resultsBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <details class="methodology-card">
+      <summary>Stage 1 interpretation notes and limitations</summary>
+      <ul id="methodologyList"></ul>
+    </details>
+
+    <footer class="footer">Research retrieval date: 5 September 2026 · Data loaded locally from <code>locations.js</code> · No network connection is required to use this explorer.</footer>
+  </main>
+
+  <script src="locations.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

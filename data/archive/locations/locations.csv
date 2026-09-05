@@ -1,0 +1,64 @@
+id,name,country,localAuthority,lat,lon,seriousPriorityWeaknesses
+barnsley,Barnsley,England,Barnsley,53.553523,-1.482593,0
+birmingham,Birmingham,England,Birmingham,52.479284,-1.902941,0
+blackburn,Blackburn,England,Blackburn with Darwen,53.750073,-2.481528,0
+blackpool,Blackpool,England,Blackpool,53.82086,-3.051542,1
+bolton,Bolton,England,Bolton,53.577709,-2.431041,0
+bradford,Bradford,England,Bradford,53.790778,-1.754561,0
+burnley,Burnley,England,Burnley,53.787517,-2.24439,0
+burton-on-trent,Burton-on-Trent,England,East Staffordshire,52.807376,-1.644791,0
+cardiff,Cardiff,Wales,Cardiff,51.480005,-3.176855,0
+chester,Chester,England,Cheshire West and Chester,53.190204,-2.891644,0
+chesterfield,Chesterfield,England,Chesterfield,53.23633,-1.429206,0
+coventry,Coventry,England,Coventry,52.407707,-1.506857,0
+darlington,Darlington,England,Darlington,54.523274,-1.553611,0
+derby,Derby,England,Derby,52.924693,-1.478054,0
+doncaster,Doncaster,England,Doncaster,53.522723,-1.132352,0
+gateshead,Gateshead,England,Gateshead,54.959914,-1.604945,0
+gloucester,Gloucester,England,Gloucester,51.86455,-2.246934,0
+halifax,Halifax,England,Calderdale,53.722827,-1.860176,0
+hartlepool,Hartlepool,England,Hartlepool,54.685388,-1.212911,0
+huddersfield,Huddersfield,England,Kirklees,53.644281,-1.782201,0
+hull-kingston-upon-hull,Hull (Kingston upon Hull),England,"Kingston upon Hull, City of",53.744587,-0.332576,0
+ipswich,Ipswich,England,Ipswich,52.057066,1.152832,0
+kettering,Kettering,England,North Northamptonshire,52.399947,-0.728307,0
+lancaster,Lancaster,England,Lancaster,54.050069,-2.803161,0
+leeds,Leeds,England,Leeds,53.800703,-1.550264,0
+leicester,Leicester,England,Leicester,52.633614,-1.133462,1
+lincoln,Lincoln,England,Lincoln,53.234841,-0.53844,0
+liverpool,Liverpool,England,Liverpool,53.40935,-2.978495,1
+loughborough,Loughborough,England,Charnwood,52.7721,-1.206164,0
+manchester,Manchester,England,Manchester,53.47894,-2.245278,0
+merthyr-tydfil,Merthyr Tydfil,Wales,Merthyr Tydfil,51.745911,-3.378347,0
+middlesbrough,Middlesbrough,England,Middlesbrough,54.576431,-1.236825,0
+neath,Neath,Wales,Neath Port Talbot,51.664226,-3.803389,0
+newcastle-upon-tyne,Newcastle upon Tyne,England,Newcastle upon Tyne,54.978011,-1.610189,1
+newport,Newport,Wales,Newport,51.587902,-2.996742,0
+northampton,Northampton,England,West Northamptonshire,52.237858,-0.895046,1
+norwich,Norwich,England,Norwich,52.628869,1.293307,0
+nottingham,Nottingham,England,Nottingham,52.956196,-1.151204,1
+peterborough,Peterborough,England,Peterborough,52.572509,-0.242498,0
+plymouth,Plymouth,England,Plymouth,50.370015,-4.142068,1
+portsmouth,Portsmouth,England,Portsmouth,50.79685,-1.09117,0
+preston,Preston,England,Preston,53.760554,-2.698528,0
+rotherham,Rotherham,England,Rotherham,53.43072,-1.354738,0
+salford,Salford,England,Salford,53.480643,-2.294998,0
+sheffield,Sheffield,England,Sheffield,53.382508,-1.468536,1
+shrewsbury,Shrewsbury,England,Shropshire,52.708167,-2.754329,0
+st-helens,St Helens,England,St. Helens,53.455338,-2.738189,0
+stafford,Stafford,England,Stafford,52.8058,-2.116656,0
+stockport,Stockport,England,Stockport,53.408023,-2.158961,0
+stockton-on-tees,Stockton-on-Tees,England,Stockton-on-Tees,54.563971,-1.312668,0
+stoke-on-trent,Stoke-on-Trent,England,Stoke-on-Trent,53.022184,-2.173369,0
+sunderland,Sunderland,England,Sunderland,54.902165,-1.383803,0
+swansea,Swansea,Wales,Swansea,51.62011,-3.941418,0
+swindon,Swindon,England,Swindon,51.561532,-1.785458,0
+telford,Telford,England,Telford and Wrekin,52.675404,-2.448752,0
+torbay,Torbay,England,Torbay,50.468826,-3.531407,0
+wakefield,Wakefield,England,Wakefield,53.683704,-1.498169,0
+walsall,Walsall,England,Walsall,52.586221,-1.980341,0
+warrington,Warrington,England,Warrington,53.38957,-2.590897,0
+wigan,Wigan,England,Wigan,53.545539,-2.629695,0
+wolverhampton,Wolverhampton,England,Wolverhampton,52.586205,-2.129916,0
+worcester,Worcester,England,Worcester,52.192932,-2.221088,0
+wrexham,Wrexham,Wales,Wrexham,53.047921,-2.994781,0
