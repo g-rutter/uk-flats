@@ -39,3 +39,8 @@
   The current table view has been statically checked, not manually browser-tested.
 
 No shortlist, property sampling or neighbourhood drill-down is planned.
+
+## Expand location list
+
+Work with the user to check if more locations can and should be added within Wales and England.
+If so, the data will need to be collected for these.
