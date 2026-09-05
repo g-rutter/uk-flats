@@ -39,3 +39,6 @@ CSP geography, April 2025–March 2026 window, matched rounded mid-2024 populati
 source snapshots and calculations. Violence and sexual-offence research rates
 are generated in CSV; ASB remains unknown. Material unallocated offences and
 unverified boundary vintage/completeness keep safety out of the browser.
+An additional April 2025 geography lookup audit flags two LA-code mismatches and
+two split-LA cases. Code agreement elsewhere does not establish matching boundary
+footprints; the lookup date is not assigned to the offence workbook by inference.

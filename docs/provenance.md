@@ -67,6 +67,23 @@ explicit row-level evidence IDs when multiple source periods enter one topic.
 
 ## Fresh crime research schema
 
+`data/derived/crime_boundary_audit.csv` is a build-generated location-level
+comparison with the pinned ONS April 2025 LA/CSP/PFA relationship table. It retains
+canonical codes, lookup member LAs and force codes, pair agreement, split-LA flags,
+review reasons, lookup date and source/metadata URLs, timestamps and hashes.
+`boundary_compatibility` remains unverified and `lsoa_to_csp_ready` remains no.
+The raw table, item metadata and Police.uk geography definitions are in
+`data/raw/crime/boundaries-2026-09-05/`; acquisition is separate in
+`scripts/acquire_crime_boundaries.py`. This audit does not amend input mappings
+or assert matching population boundaries.
+
+`data/derived/crime_coverage.csv` is a separate build-generated Police.uk notice
+audit keyed by force and month, sourced from the hashed raw coverage snapshot.
+It retains source URLs/timestamps/hashes, monthly and ongoing notices, later
+notices for review, and an explicitly unknown ASB completeness field. `BTP` is
+an internal provider identifier, not an invented ONS geography code. See the
+crime replacement document for acquisition and interpretation limits.
+
 See [crime replacement](crime-replacement.md) for source selection, limitations
 and reproduction. These observations are freshly retrieved, not legacy imports.
 

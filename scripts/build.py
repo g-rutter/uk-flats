@@ -5,6 +5,8 @@ import json
 from pathlib import Path
 from extract_legacy import write_csv
 from crime import compile_crime, export_source_tables
+from crime_coverage import export_coverage
+from crime_boundaries import export_boundaries
 
 ROOT = Path(__file__).resolve().parents[1]
 GROUPS = ('buy', 'rent', 'market', 'localTransport', 'nationalTransport', 'quiet', 'condition')
@@ -75,6 +77,8 @@ def build():
     data = compile_data(ROOT / 'data/inputs')
     crime = compile_crime(ROOT / 'data/inputs', data['locations'], data['evidence'])
     export_source_tables(ROOT)
+    export_coverage(ROOT)
+    export_boundaries(ROOT)
     write_csv(ROOT / 'data/derived/crime_research.csv', crime)
     rows = []
     for location in data['locations']:

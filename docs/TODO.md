@@ -13,10 +13,26 @@ Implemented first acquisition/calculation pass; see [crime research](crime-repla
   inspect extremes, and distinguish ONS coverage from the Police.uk Manchester gap.
 - [ ] Acquire compatible local ASB counts. Inspected ONS appendix tables contain
   national ASB totals only; all local ASB values remain unknown.
+- [x] Snapshot Police.uk coverage evidence and generate a 12-month force audit
+  for the ASB fallback, retaining known issues and later refresh notices. This
+  audits published notices, not actual submission completeness.
+- [ ] Check actual ASB submissions against the coverage audit and a verified
+  LSOA-to-CSP lookup; resolve refreshed gaps before aggregating any local counts.
+- [x] Snapshot the official April 2025 LA-to-CSP relationship lookup and audit
+  every canonical mapping, retaining mismatches and split-LA ambiguity.
+- [ ] Reconcile Barnsley/Sheffield's 2025 LA boundary changes with the ONS crime
+  workbook and population basis. Obtain LSOA membership for the split
+  Northamptonshire CSPs; a join through current LA codes cannot resolve them.
 - [ ] Verify boundary vintage and monthly completeness; resolve material unallocated
   totals (especially Humberside and Gloucestershire) and investigate outliers.
 - [ ] Review comparability before displaying crime measures. Research CSV is
   available, but browser safety remains pending and combined rankings absent.
+
+Latest pass: `data/derived/crime_boundary_audit.csv` identifies 59 code-agreeing
+locations, two LA-code mismatches and two split-LA cases. These are relationship
+checks, not verified footprints. Police.uk custom ASB download returned HTTP 403;
+actual submissions and refresh reconciliation remain outstanding. See the crime
+research document for the precise request and source findings.
 
 ## Reproducibility and evidence quality
 
