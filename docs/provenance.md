@@ -89,6 +89,11 @@ summary of offences outside named CSP rows. It deduplicates repeated force total
 retains the source evidence, and marks residuals of at least 5% for investigation.
 Residuals are review metadata and are never assigned to locations.
 
+`data/derived/crime_outlier_audit.csv` is a build-generated QA queue containing
+the three lowest and highest available calculated rates for each offence category.
+It retains counts, populations, geographies, force residuals and source evidence.
+It is contextual review metadata only and does not create a safety score.
+
 See [crime replacement](crime-replacement.md) for source selection, limitations
 and reproduction. These observations are freshly retrieved, not legacy imports.
 

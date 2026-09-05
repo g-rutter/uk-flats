@@ -103,6 +103,13 @@ the source cells and evidence, and marks residuals at or above 5% as material.
 The threshold is a review trigger rather than a statistical correction: residual
 offences remain outside named CSP totals and are not distributed to locations.
 
+`data/derived/crime_outlier_audit.csv` lists the three lowest and highest
+available calculated rates in each offence category. It retains the underlying
+counts, population, geography, force residual and source evidence so the
+extremes can be checked against boundary, completeness and recording context.
+The list is a deterministic QA queue; it is not a safety classification, score
+or ranking input.
+
 The extremes were checked for category, denominator and source-cell alignment,
 not independently explained. Rural/combined geographies and visitor-heavy areas
 are not like-for-like town comparisons. Resident population excludes commuters

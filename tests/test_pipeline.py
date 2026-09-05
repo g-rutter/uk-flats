@@ -11,6 +11,7 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 from build import compile_data, build
 from crime import read as read_crime
 from crime_residuals import audit as audit_residuals
+from crime_outliers import audit as audit_outliers
 
 
 class PipelineTests(unittest.TestCase):
@@ -19,7 +20,8 @@ class PipelineTests(unittest.TestCase):
                    ROOT / 'data/derived/crime_research.csv',
                    ROOT / 'data/derived/crime_boundary_audit.csv',
                    ROOT / 'data/derived/crime_coverage.csv',
-                   ROOT / 'data/derived/crime_residual_audit.csv'] + sorted(
+                   ROOT / 'data/derived/crime_residual_audit.csv',
+                   ROOT / 'data/derived/crime_outlier_audit.csv'] + sorted(
                        (ROOT / 'data/derived/crime_source_tables').glob('*.csv'))
         build()
         first = [p.read_bytes() for p in outputs]
@@ -53,6 +55,12 @@ class PipelineTests(unittest.TestCase):
         humberside = [r for r in rows if r['force_code'] == 'E23000012']
         self.assertEqual({r['review_status'] for r in humberside}, {'Material; investigate before comparison'})
         self.assertEqual(len(rows), len({(r['force_code'], r['category']) for r in rows}))
+
+    def test_outlier_audit_is_bounded_and_review_only(self):
+        rows = audit_outliers(read_crime(ROOT / 'data/inputs/crime_observations.csv'))
+        self.assertEqual(len(rows), 12)
+        self.assertEqual({r['direction'] for r in rows}, {'lowest', 'highest'})
+        self.assertTrue(all('no safety interpretation' in r['review_status'] for r in rows))
 
 
 if __name__ == '__main__':

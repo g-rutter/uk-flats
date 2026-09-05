@@ -26,7 +26,9 @@ Implemented first acquisition/calculation pass; see [crime research](crime-repla
 - [ ] Verify boundary vintage and monthly completeness; resolve material unallocated
   totals (especially Humberside and Gloucestershire) and investigate outliers.
   `data/derived/crime_residual_audit.csv` now classifies each force/category
-  residual at a 5% review threshold; it does not allocate residuals.
+  residual at a 5% review threshold; `data/derived/crime_outlier_audit.csv`
+  lists the three lowest and highest available rates per category for contextual
+  review. Neither audit allocates residuals or creates a safety score.
 - [ ] Review comparability before displaying crime measures. Research CSV is
   available, but browser safety remains pending and combined rankings absent.
 
