@@ -6,6 +6,7 @@
   <meta name="color-scheme" content="light">
   <title>UK flat location comparison</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="help.css">
 </head>
 <body>
   <main class="page-shell">
@@ -20,11 +21,9 @@
         <button id="rentToggle" type="button" aria-pressed="false">Renting</button>
       </div>
     </header>
-    <aside class="notice">Imported historical evidence, not freshly verified. Scores are broad screening proxies, not final grades. Buying prices are all-flat achieved-price proxies; rents are modelled one-bedroom local-authority means. The safety component uses ONS recorded-offence rates; ASB is excluded pending coverage review.</aside>
     <section class="controls" aria-label="Map controls">
-      <label class="search-field">Search location or local authority <input id="search" type="search" placeholder="e.g. Chester, Cardiff, Wigan"></label>
+      <label class="search-field">Location <select id="locationSelect"><option value="">All locations</option></select></label>
       <label>Country <select id="country"><option value="all">England and Wales</option><option value="England">England</option><option value="Wales">Wales</option></select></label>
-      <label>Order list <select id="sort"><option value="score">Screening score: high to low</option><option value="name">Location A–Z</option><option value="price">Price proxy: low to high</option><option value="stock">One-bedroom count: high to low</option></select></label>
       <button id="reset" class="secondary-button" type="button">Reset view</button>
     </section>
     <p id="count" class="result-count" aria-live="polite"></p>
@@ -32,22 +31,21 @@
       <article class="map-card">
         <div class="panel-title"><h2>Location map</h2><span>Click or focus a marker</span></div>
         <div id="mapWrap" class="map-wrap">
-          <svg viewBox="0 0 560 720" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Map of Great Britain showing the broad-screen locations">
+          <svg viewBox="0 0 560 720" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Map of Great Britain showing selected locations">
             <path class="gb-land" d="M 220.41 425.45 L 230.33 380.52 L 184.67 331.74 L 103.72 318.12 L 87.83 297.17 L 112.06 262.57 L 90.13 241.24 L 54.24 277.85 L 50.33 203.22 L 16.67 163.74 L 40.88 83.70 L 92.67 20.90 L 145.90 27.03 L 226.33 20.52 L 155.08 104.28 L 223.00 93.68 L 296.05 94.08 L 278.67 157.16 L 218.73 226.55 L 287.67 231.48 L 352.33 330.97 L 397.97 343.40 L 439.00 431.61 L 458.00 462.19 L 538.77 476.94 L 530.67 526.45 L 496.70 549.15 L 523.32 589.21 L 463.36 629.75 L 374.17 629.03 L 260.67 650.32 L 229.58 635.08 L 185.50 671.35 L 123.83 662.57 L 77.00 692.13 L 41.56 676.67 L 139.33 595.35 L 199.01 578.63 L 94.38 565.67 L 75.51 534.86 L 145.18 510.86 L 108.67 469.16 L 121.33 418.45 L 220.41 425.45 Z"></path>
             <g id="mapMarkers"></g>
           </svg>
           <div id="mapTooltip" class="map-tooltip" hidden></div>
         </div>
-        <div class="map-footer"><span><i class="marker score-high"></i> 70+ screen</span><span><i class="marker score-mid"></i> 55–69.9 screen</span><span><i class="marker score-low"></i> Under 55 screen</span><span><i class="marker score-unknown"></i> Incomplete score</span><span>Outline: Natural Earth, public domain</span></div>
+        <div class="map-footer" aria-label="Map colour key"><span class="legend-title">Marker colour: screening score</span><span><i class="marker score-high"></i>70–100</span><span><i class="marker score-mid"></i>55–69.9</span><span><i class="marker score-low"></i>Below 55</span><span><i class="marker score-unknown"></i>Not available</span><span>Outline: Natural Earth, public domain</span></div>
       </article>
       <aside id="details" class="detail-panel" aria-live="polite"><p>Select a location on the map or in the list for its evidence.</p></aside>
     </section>
     <section class="results-card">
-      <div class="panel-title"><h2>All visible locations</h2><span id="resultSummary"></span></div>
-      <div class="table-wrap"><table><thead><tr><th>Location / local authority</th><th>Screen /100</th><th id="priceHeading">All-flat achieved median</th><th>One-bed portal count</th><th>London rail</th><th>Birmingham rail</th><th>Violence / 1,000</th><th>Sexual offences / 1,000</th></tr></thead><tbody id="rows"></tbody></table></div>
+      <div class="panel-title results-title"><div><h2>All visible locations</h2><span id="resultSummary"></span></div><label class="list-order">Order this list <select id="sort"><option value="score">Screening score: high to low</option><option value="name">Location A–Z</option><option value="price">Price: low to high</option><option value="stock">One-bedroom listings: high to low</option></select></label></div>
+      <div class="table-wrap"><table><thead><tr><th>Location / local authority</th><th>Screening score<br>out of 100</th><th id="priceHeading">Typical achieved flat price</th><th>One-bedroom listings</th><th>London rail</th><th>Birmingham rail</th><th>Violence / 1,000</th><th>Sexual offences / 1,000</th></tr></thead><tbody id="rows"></tbody></table></div>
     </section>
     <details class="methodology-card"><summary>Source periods and limits</summary><div id="evidence"></div></details>
-    <footer>Inputs: <code>data/inputs</code> · Rebuild: <code>python3 scripts/build.py</code> · Visualisation notes: <code>docs/visualisation.md</code></footer>
   </main>
   <script src="data.js"></script>
   <script src="app.js"></script>

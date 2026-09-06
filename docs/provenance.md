@@ -33,7 +33,7 @@ signed decimal degrees. Original camelCase names are retained for traceability.
 | locations.csv | `id`; name, country, localAuthority, lat, lon | JS top-level identity; GC01/GC02 |
 | buy.csv | `location_id`; proxyMedian (GBP), transactions, oneBedCount, affordabilityConfidence/Reason | JS buy; AFF-BUY-PPD-2024-26; counts use MT-RM-SEARCH-20260905 |
 | rent.csv | `location_id`; proxyMonthly (GBP/month), oneBedCount, affordabilityConfidence/Reason | JS rent; AFF-RENT-PIPR-2026-07; counts use MT-RM-SEARCH-20260905 |
-| market.csv | `location_id`; towerSignal and reason | JS market; MT-RM-SEARCH-20260905 / MT-RM-LOS-20260905 |
+| market.csv | `location_id`; reason | JS market; MT-RM-SEARCH-20260905 / MT-RM-LOS-20260905 |
 | localTransport.csv | `location_id`; confidence and reason | JS localTransport; TR source series and per-location transport links |
 | nationalTransport.csv | `location_id`; londonMinutes/Changes, birminghamMinutes/Changes, confidence and reason | JS nationalTransport; TR01 and per-location transport links |
 | quiet.csv, condition.csv | `location_id`; confidence and reason | JS same-named groups; ENV series and per-location environment links |

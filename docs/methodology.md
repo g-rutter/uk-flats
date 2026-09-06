@@ -22,7 +22,7 @@ scores, rankings, shortlists or decisions.
 | Local transport | 15 | The current documented broad assessment maps dense multimodal, useful bus-and-rail and basic bus-and-rail coverage to 5, 4 and 3. |
 | Local condition | 15 | Current reasons categorised as highest, favourable/broadly pleasant, or mixed/uneven score 5, 4 and 2. |
 | Quiet | 15 | Current reasons categorised as comparatively persistent/widespread noise, mixed exposure, or lower-intensity/calmer fabric score 2, 3 and 4. |
-| One-bed stock | 15 | Current tenure-specific portal counts of under 10, 10--24, 25--74, 75--249 and 250+ score 1--5. Tower availability remains Unclear and is not scored. |
+| One-bed stock | 15 | Current tenure-specific portal counts of under 10, 10--24, 25--74, 75--249 and 250+ score 1--5. |
 | National transport | 10 | London and Birmingham routes score 5, 4, 3, 2 or 1 at effective journey times (minutes plus 15 per change) of <=75, <=120, <=165, <=210 or >210. The two route scores are averaged. |
 
 The weighted score is `sum(weight * factor score / 5)`. All seven inputs must be
@@ -41,7 +41,6 @@ dated archive and geography/coverage review supports comparable CSP rates.
 - Renting: recorded July 2026 ONS one-bedroom modelled LA mean, not an asking median.
   No observation counts survive for this series. Town and LA boundaries differ.
 - Stock: recorded 5 September 2026 portal headline counts, not deduplicated listings.
-  Tower stock remains unverified; do not require tower availability for inclusion.
 - Transport: rounded historical representative rail times, plus qualitative local
   network assessments. These are not live timetables or accessibility measurements.
 - Quiet/condition: inherited coarse judgements with reasons; not measured exposure
