@@ -2,9 +2,9 @@
 
 This project compares broad UK locations for buying or renting a one-bedroom flat.
 The initial list contains 63 places in England and Wales. Keep all locations in the
-screen; do not progress to shortlists, neighbourhoods, buildings or listing samples
-unless the user explicitly changes the scope. The previous attempt's master plan
-is historical reference, not the current instruction set.
+screen; do not progress to neighbourhoods, buildings or listing samples unless the
+user explicitly changes the scope. Do not inherit material from
+`data/archive/UK flats (attempt 2)/` unless the user asks for it.
 
 ## Structure and workflow
 
@@ -35,8 +35,7 @@ Portal counts are snapshots; transport and environment assessments are coarse.
 The crime replacement is complete for the current screen: reviewed ONS CSP
 violence-against-the-person and sexual-offence rates are displayed separately for
 all 63 locations. Preserve historical counts only in the archive; do not use them
-as comparable safety measures, scores or ranking inputs. Police.uk ASB remains
-research-only until a dated archive passes coverage and geography review. Do not
-publish combined rankings or inherit shortlist decisions. Keep data acquisition,
+as comparable safety measures. Police.uk ASB remains research-only until a dated
+archive passes coverage and geography review. Keep data acquisition,
 transformation and presentation separate. New locations must flow through the
 same CSV/build process without hard-coded row counts.

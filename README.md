@@ -1,13 +1,13 @@
 # UK flat location comparison
 
-A reproducible broad comparison of places to buy or rent a one-bedroom flat. It
-covers the previous attempt's 63 England and Wales locations. No shortlist,
-neighbourhood, listing or final-grade analysis is included.
+A reproducible broad comparison of 63 England and Wales locations for buying or
+renting a one-bedroom flat. It does not cover neighbourhoods, individual
+buildings or listings.
 
 Open **web/index.html** directly in a browser. No server, network or package
-installation is required. The original map explorer is retained in
-`data/archive/UK flats (attempt 2)/`; its rankings are obsolete. The current view
-is a searchable table with buy/rent modes and evidence details.
+installation is required. The current view is a searchable, map-based explorer
+with buy/rent modes and evidence details. Archived material is not active input
+unless explicitly requested. See [visualisation notes](docs/visualisation.md).
 
 ## Rebuild
 
@@ -46,12 +46,10 @@ existing inputs. Normal updates do not require archive extraction.
 
 ## Current status
 
-Data are **imported legacy claims, not independently verified research**. Buying is
-an all-flat achieved-price proxy; renting is a modelled one-bedroom local-authority
-mean. Crime research has a separate pipeline; see [crime research](docs/crime-replacement.md).
-The screen shows separate ONS CSP recorded-offence rates for all 63 locations; ASB
-remains excluded pending coverage review. These rates are not safety scores and
-combined rankings are absent.
+Data are **imported historical claims, not independently verified research**.
+Buying is an all-flat achieved-price proxy; renting is a modelled one-bedroom
+local-authority mean. The screen shows separate ONS CSP recorded-offence rates;
+ASB remains excluded pending coverage review. See [crime research](docs/crime-replacement.md).
 
 See [orientation](AGENTS.md), [methodology](docs/methodology.md),
 [provenance and schema](docs/provenance.md), and [to-do list](docs/TODO.md).

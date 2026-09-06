@@ -1,41 +1,106 @@
 (() => {
   'use strict';
   const data = window.FLATS_DATA;
+  if (!data || !Array.isArray(data.locations)) return;
+  // Matches the archived offline Great Britain outline in index.html.
+  const MAP = { minLon: -6.4, maxLon: 2, minLat: 49.6, maxLat: 58.9, width: 560, height: 720 };
   const $ = id => document.getElementById(id);
-  const escape = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const known = v => v !== null && v !== undefined && v !== '';
-  const show = v => known(v) ? escape(v) : 'Unknown';
-  const money = v => known(v) ? new Intl.NumberFormat('en-GB', {style:'currency', currency:'GBP', maximumFractionDigits:0}).format(v) : 'Unknown';
+  const byId = new Map(data.locations.map(location => [location.id, location]));
   const crimeByLocation = new Map();
   data.crimeResearch.forEach(row => {
     if (!crimeByLocation.has(row.location_id)) crimeByLocation.set(row.location_id, {});
     crimeByLocation.get(row.location_id)[row.category] = row;
   });
+  const state = { tenure: 'buy', search: '', country: 'all', sort: 'name', selectedId: data.locations[0]?.id };
+  const escape = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
+  const known = value => value !== null && value !== undefined && value !== '';
+  const show = value => known(value) ? escape(value) : 'Unknown';
+  const money = value => known(value) ? new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP', maximumFractionDigits: 0 }).format(value) : 'Unknown';
+  const minutes = (value, changes) => known(value) ? `${value} min${known(changes) ? ` · ${changes} change${changes === 1 ? '' : 's'}` : ''}` : 'Unknown';
+  const price = location => location[state.tenure][state.tenure === 'buy' ? 'proxyMedian' : 'proxyMonthly'];
+  const stock = location => location[state.tenure].oneBedCount;
   const rate = (location, category) => crimeByLocation.get(location.id)?.[category]?.rate_per_1000;
-  function detail(location) {
-    const groups = [['buy','Buying: all-flat proxy'],['rent','Renting: modelled one-bedroom LA mean'],['market','Market snapshot'],['localTransport','Local transport'],['nationalTransport','National rail'],['quiet','Quiet'],['condition','Local condition']];
-    const links = data.sources.filter(s => s.location_id === location.id && s.topic !== 'crime');
-    const crime = crimeByLocation.get(location.id);
-    const crimeDetail = crime ? `<h3>Recorded offences (CSP; Apr 2025–Mar 2026)</h3><p>Rates are per 1,000 mid-2024 residents. They are separate measures, not a safety score; recorded offences are affected by reporting and recording practice.</p><dl>${[['Violence against the person', crime.violence_against_person], ['Sexual offences', crime.sexual_offences]].map(([label, row]) => `<dt>${escape(label)}</dt><dd>${show(row?.rate_per_1000)} per 1,000${row ? ` · ${escape(row.csp_name)} CSP · ${show(row.count)} offences` : ''}</dd>`).join('')}</dl>` : `<h3>Recorded offences</h3><p>Unknown: no reviewed CSP observation is available for this location.</p>`;
-    $('details').innerHTML = `<h2>${escape(location.name)}</h2>${crimeDetail}` + groups.map(([key, title]) => `<h3>${title}</h3><dl>${Object.entries(location[key]).map(([k,v]) => `<dt>${escape(k)}</dt><dd>${show(v)}</dd>`).join('')}</dl>`).join('') + `<h3>Source links</h3><ul>${links.map(s => `<li>${escape(s.topic)}: <a href="${escape(s.url)}" target="_blank" rel="noopener noreferrer">${escape(s.url)}</a></li>`).join('')}</ul>`;
-  }
-  function render() {
-    const tenure = $('tenure').value;
-    const price = l => l[tenure][tenure === 'buy' ? 'proxyMedian' : 'proxyMonthly'];
-    const query = $('search').value.toLowerCase();
-    const rows = data.locations.filter(l => `${l.name} ${l.localAuthority}`.toLowerCase().includes(query));
-    rows.sort((a,b) => {
-      let diff = 0;
-      if ($('sort').value === 'price') diff = (price(a) ?? Infinity) - (price(b) ?? Infinity);
-      if ($('sort').value === 'stock') diff = (b[tenure].oneBedCount ?? -Infinity) - (a[tenure].oneBedCount ?? -Infinity);
-      return diff || a.name.localeCompare(b.name);
+  const project = location => [((location.lon - MAP.minLon) / (MAP.maxLon - MAP.minLon)) * MAP.width, MAP.height - ((location.lat - MAP.minLat) / (MAP.maxLat - MAP.minLat)) * MAP.height];
+
+  function visibleLocations() {
+    const query = state.search.trim().toLowerCase();
+    return data.locations.filter(location => (!query || `${location.name} ${location.localAuthority}`.toLowerCase().includes(query)) && (state.country === 'all' || location.country === state.country)).sort((a, b) => {
+      if (state.sort === 'price') return (price(a) ?? Infinity) - (price(b) ?? Infinity) || a.name.localeCompare(b.name);
+      if (state.sort === 'stock') return (stock(b) ?? -Infinity) - (stock(a) ?? -Infinity) || a.name.localeCompare(b.name);
+      return a.name.localeCompare(b.name);
     });
-    $('price-heading').textContent = tenure === 'buy' ? 'All-flat achieved median (£)' : 'One-bed LA modelled mean (£/month)';
-    $('count').textContent = `${rows.length} of ${data.locations.length} locations`;
-    $('rows').innerHTML = rows.map(l => `<tr><td><button data-id="${escape(l.id)}">${escape(l.name)}</button><small>${escape(l.localAuthority)}</small></td><td>${money(price(l))}${tenure === 'buy' ? `<small>${show(l.buy.transactions)} transactions</small>` : ''}</td><td>${show(l[tenure].oneBedCount)}</td><td>${show(l.nationalTransport.londonMinutes)}</td><td>${show(l.nationalTransport.birminghamMinutes)}</td><td>${show(rate(l, 'violence_against_person'))}</td><td>${show(rate(l, 'sexual_offences'))}</td></tr>`).join('');
-    $('rows').querySelectorAll('button').forEach(button => button.addEventListener('click', () => detail(data.locations.find(l => l.id === button.dataset.id))));
   }
-  ['search','tenure','sort'].forEach(id => $(id).addEventListener('input', render));
-  $('evidence').innerHTML = data.evidence.filter(e => e.workstream !== 'geography_crime' || e.id === 'CRIME-ONS-2026-CSP').map(e => `<h3>${escape(e.title)}</h3><p>${escape(e.dataPeriod)} · Recorded retrieval: ${escape(e.retrievalDate)} · ${escape(e.geography)}</p><p>${escape(e.limitations)}</p>`).join('');
+
+  function tooltip(location, target) {
+    const box = $('mapWrap').getBoundingClientRect();
+    const marker = target.getBoundingClientRect();
+    $('mapTooltip').innerHTML = `<strong>${escape(location.name)}</strong><span>${money(price(location))}${state.tenure === 'rent' ? ' per month' : ''}</span><span>${show(stock(location))} one-bed portal results</span>`;
+    $('mapTooltip').style.left = `${marker.left - box.left + marker.width / 2}px`;
+    $('mapTooltip').style.top = `${marker.top - box.top - 8}px`;
+    $('mapTooltip').hidden = false;
+  }
+
+  function renderMap(locations) {
+    const markerGroup = $('mapMarkers');
+    markerGroup.replaceChildren();
+    const ids = new Set(locations.map(location => location.id));
+    if (!ids.has(state.selectedId)) state.selectedId = locations[0]?.id;
+    locations.filter(location => known(location.lat) && known(location.lon)).forEach(location => {
+      const [x, y] = project(location);
+      const marker = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      marker.setAttribute('cx', x.toFixed(2)); marker.setAttribute('cy', y.toFixed(2));
+      marker.setAttribute('r', location.id === state.selectedId ? '9' : '6');
+      marker.setAttribute('class', `map-marker ${location.country === 'Wales' ? 'wales' : 'england'}${location.id === state.selectedId ? ' selected' : ''}`);
+      marker.setAttribute('tabindex', '0'); marker.setAttribute('role', 'button');
+      marker.setAttribute('aria-label', `${location.name}, ${location.country}: ${money(price(location))}; ${show(stock(location))} one-bed portal results`);
+      marker.addEventListener('mouseenter', () => tooltip(location, marker));
+      marker.addEventListener('mouseleave', () => { $('mapTooltip').hidden = true; });
+      marker.addEventListener('focus', () => tooltip(location, marker));
+      marker.addEventListener('blur', () => { $('mapTooltip').hidden = true; });
+      marker.addEventListener('click', () => select(location.id));
+      marker.addEventListener('keydown', event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); select(location.id); } });
+      markerGroup.appendChild(marker);
+      if (location.id === state.selectedId) {
+        const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        label.setAttribute('x', (x + 13).toFixed(2)); label.setAttribute('y', (y + 4).toFixed(2)); label.setAttribute('class', 'selected-map-label'); label.textContent = location.name;
+        markerGroup.appendChild(label);
+      }
+    });
+  }
+
+  function sourceLinks(location) {
+    const sources = data.sources.filter(source => source.location_id === location.id && source.topic !== 'crime');
+    return sources.length ? `<h3>Source links</h3><ul class="source-links">${sources.map(source => `<li>${escape(source.topic)}: <a href="${escape(source.url)}" target="_blank" rel="noopener noreferrer">${escape(source.url)}</a></li>`).join('')}</ul>` : '';
+  }
+
+  function renderDetail() {
+    const location = byId.get(state.selectedId);
+    if (!location) { $('details').innerHTML = '<p>No location matches the current view.</p>'; return; }
+    const crime = crimeByLocation.get(location.id);
+    const groups = [['buy', 'Buying: all-flat proxy'], ['rent', 'Renting: modelled one-bedroom LA mean'], ['market', 'Market snapshot'], ['localTransport', 'Local transport'], ['nationalTransport', 'National rail'], ['quiet', 'Quiet'], ['condition', 'Local condition']];
+    $('details').innerHTML = `<p class="eyebrow">${escape(location.country)} · ${escape(location.localAuthority)}</p><h2>${escape(location.name)}</h2><div class="headline-grid"><div><span>${state.tenure === 'buy' ? 'All-flat achieved median' : 'Modelled one-bed LA mean'}</span><strong>${money(price(location))}${state.tenure === 'rent' ? '<small>per month</small>' : ''}</strong></div><div><span>One-bed portal count</span><strong>${show(stock(location))}</strong></div></div><section class="detail-section"><h3>Recorded offences (CSP; Apr 2025–Mar 2026)</h3><p>Separate recorded-offence measures per 1,000 mid-2024 residents; not a safety score or ranking input.</p><dl><dt>Violence against the person</dt><dd>${show(crime?.violence_against_person?.rate_per_1000)} per 1,000${crime?.violence_against_person ? ` · ${escape(crime.violence_against_person.csp_name)} CSP · ${show(crime.violence_against_person.count)} offences` : ''}</dd><dt>Sexual offences</dt><dd>${show(crime?.sexual_offences?.rate_per_1000)} per 1,000${crime?.sexual_offences ? ` · ${escape(crime.sexual_offences.csp_name)} CSP · ${show(crime.sexual_offences.count)} offences` : ''}</dd></dl></section>${groups.map(([key, label]) => `<section class="detail-section"><h3>${label}</h3><dl>${Object.entries(location[key]).map(([field, value]) => `<dt>${escape(field)}</dt><dd>${show(value)}</dd>`).join('')}</dl></section>`).join('')}${sourceLinks(location)}`;
+  }
+
+  function renderTable(locations) {
+    $('priceHeading').textContent = state.tenure === 'buy' ? 'All-flat achieved median' : 'One-bed LA modelled mean / month';
+    $('rows').innerHTML = locations.map(location => `<tr class="${location.id === state.selectedId ? 'is-selected' : ''}"><td><button data-id="${escape(location.id)}">${escape(location.name)}</button><small>${escape(location.localAuthority)} · ${escape(location.country)}</small></td><td>${money(price(location))}${state.tenure === 'buy' && known(location.buy.transactions) ? `<small>${location.buy.transactions} transactions</small>` : ''}</td><td>${show(stock(location))}</td><td>${minutes(location.nationalTransport.londonMinutes, location.nationalTransport.londonChanges)}</td><td>${minutes(location.nationalTransport.birminghamMinutes, location.nationalTransport.birminghamChanges)}</td><td>${show(rate(location, 'violence_against_person'))}</td><td>${show(rate(location, 'sexual_offences'))}</td></tr>`).join('');
+    $('rows').querySelectorAll('button').forEach(button => button.addEventListener('click', () => select(button.dataset.id, true)));
+  }
+
+  function render() {
+    const locations = visibleLocations();
+    $('count').textContent = `${locations.length} of ${data.locations.length} locations shown on the map`;
+    $('resultSummary').textContent = `Showing ${locations.length} of ${data.locations.length}`;
+    renderMap(locations); renderDetail(); renderTable(locations);
+  }
+  function select(id, scrollDetail = false) { state.selectedId = id; render(); if (scrollDetail && matchMedia('(max-width: 920px)').matches) $('details').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  function setTenure(tenure) { state.tenure = tenure; $('buyToggle').setAttribute('aria-pressed', tenure === 'buy'); $('rentToggle').setAttribute('aria-pressed', tenure === 'rent'); render(); }
+  $('search').addEventListener('input', event => { state.search = event.target.value; render(); });
+  $('country').addEventListener('input', event => { state.country = event.target.value; render(); });
+  $('sort').addEventListener('input', event => { state.sort = event.target.value; render(); });
+  $('buyToggle').addEventListener('click', () => setTenure('buy'));
+  $('rentToggle').addEventListener('click', () => setTenure('rent'));
+  $('reset').addEventListener('click', () => { state.search = ''; state.country = 'all'; state.sort = 'name'; $('search').value = ''; $('country').value = 'all'; $('sort').value = 'name'; render(); });
+  $('evidence').innerHTML = data.evidence.filter(entry => entry.workstream !== 'geography_crime' || entry.id === 'CRIME-ONS-2026-CSP').map(entry => `<h3>${escape(entry.title)}</h3><p>${escape(entry.dataPeriod)} · Recorded retrieval: ${escape(entry.retrievalDate)} · ${escape(entry.geography)}</p><p>${escape(entry.limitations)}</p>`).join('');
   render();
 })();
