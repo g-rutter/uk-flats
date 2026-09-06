@@ -116,6 +116,10 @@
     };
     return list.length ? `<details class="source-details"><summary>Source links</summary><ul class="source-links">${list.map(s => `<li><span>${escape(topic(s.topic))}</span> <a href="${escape(s.url)}" target="_blank" rel="noopener noreferrer">${escape(label(s))}</a></li>`).join('')}</ul></details>` : '';
   }
+  function closeHelp() {
+    $('details').querySelectorAll('.help-text').forEach(text => { text.hidden = true; });
+    $('details').querySelectorAll('.help').forEach(button => button.setAttribute('aria-expanded', 'false'));
+  }
   function renderDetail() {
     const x = byId.get(state.selectedId); if (!x) { $('details').innerHTML = '<p>No location matches the current view.</p>'; return; }
     const factorValues = data.screening.results[x.id].tenures[state.tenure].factors;
@@ -129,8 +133,7 @@
     $('details').innerHTML = `<p class="eyebrow">${escape(x.country)} · ${escape(x.localAuthority)}</p><h2>${escape(x.name)}</h2><div class="headline-grid"><div class="score-card ${band(x)}"><span>${state.tenure === 'buy' ? 'Buying' : 'Renting'} screening score</span><strong>${show(score(x))}<small>out of 100</small></strong></div><div><span>${state.tenure === 'buy' ? help('Recent sales price', recentSalesDefinition) : 'Typical one-bedroom rent'}</span><strong>${money(price(x))}${state.tenure === 'rent' ? '<small>per month</small>' : ''}</strong></div></div><section class="detail-section score-section"><div class="section-heading"><h3>Screen components</h3><span>Each score is out of 5</span></div><div class="component-grid">${factorRows}</div></section>${section(state.tenure === 'buy' ? 'Buying evidence' : 'Renting evidence', priceRows, [['Price', factorValues.affordability], ['Listings', factorValues.stock]])}${section('Rail connections', [row('To London', minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)), row('To Birmingham', minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges))], [['Rail', factorValues.national_transport]])}${section('Recorded offences', [row('Violence against the person', `${show(offences?.violence_against_person?.rate_per_1000)} per 1,000${offences?.violence_against_person ? ` · ${escape(offences.violence_against_person.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.'), row('Sexual offences', `${show(offences?.sexual_offences?.rate_per_1000)} per 1,000${offences?.sexual_offences ? ` · ${escape(offences.sexual_offences.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.')], [['Offences', factorValues.safety]])}${section('Local picture', localRows, [['Transport', factorValues.local_transport], ['Quiet', factorValues.quiet], ['Condition', factorValues.condition]])}${sources(x)}`;
     $('details').querySelectorAll('.help').forEach(button => button.addEventListener('click', () => {
       const text = button.nextElementSibling, willOpen = text.hidden;
-      $('details').querySelectorAll('.help-text').forEach(other => { other.hidden = true; });
-      $('details').querySelectorAll('.help').forEach(other => other.setAttribute('aria-expanded', 'false'));
+      closeHelp();
       text.hidden = !willOpen;
       button.setAttribute('aria-expanded', String(willOpen));
     }));
@@ -161,6 +164,8 @@
   $('country').addEventListener('input', e => { state.country = e.target.value; render(); });
   $('buyToggle').addEventListener('click', () => setTenure('buy')); $('rentToggle').addEventListener('click', () => setTenure('rent'));
   $('reset').addEventListener('click', () => { state.locationId = ''; state.country = 'all'; state.sort = 'score'; state.sortDirection = 'desc'; $('locationSelect').value = ''; $('country').value = 'all'; render(); });
+  document.addEventListener('click', event => { if (!event.target.closest('.help-wrap')) closeHelp(); });
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') closeHelp(); });
   $('evidence').innerHTML = data.evidence.filter(x => x.workstream !== 'geography_crime' || x.id === 'CRIME-ONS-2026-CSP').map(x => `<h3>${escape(x.title)}</h3><p>${escape(x.dataPeriod)} · Recorded retrieval: ${escape(x.retrievalDate)} · ${escape(x.geography)}</p><p>${escape(x.limitations)}</p>`).join('');
   render();
 })();
