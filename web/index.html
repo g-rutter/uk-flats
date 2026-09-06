@@ -20,11 +20,11 @@
         <button id="rentToggle" type="button" aria-pressed="false">Renting</button>
       </div>
     </header>
-    <aside class="notice">Imported historical evidence, not freshly verified. Buying prices are all-flat achieved-price proxies; rents are modelled one-bedroom local-authority means. Recorded-offence rates are separate measures, not safety scores. No combined ranking is shown.</aside>
+    <aside class="notice">Imported historical evidence, not freshly verified. Scores are broad screening proxies, not final grades. Buying prices are all-flat achieved-price proxies; rents are modelled one-bedroom local-authority means. The safety component uses ONS recorded-offence rates; ASB is excluded pending coverage review.</aside>
     <section class="controls" aria-label="Map controls">
       <label class="search-field">Search location or local authority <input id="search" type="search" placeholder="e.g. Chester, Cardiff, Wigan"></label>
       <label>Country <select id="country"><option value="all">England and Wales</option><option value="England">England</option><option value="Wales">Wales</option></select></label>
-      <label>Order list <select id="sort"><option value="name">Location A–Z</option><option value="price">Price proxy: low to high</option><option value="stock">One-bedroom count: high to low</option></select></label>
+      <label>Order list <select id="sort"><option value="score">Screening score: high to low</option><option value="name">Location A–Z</option><option value="price">Price proxy: low to high</option><option value="stock">One-bedroom count: high to low</option></select></label>
       <button id="reset" class="secondary-button" type="button">Reset view</button>
     </section>
     <p id="count" class="result-count" aria-live="polite"></p>
@@ -38,13 +38,13 @@
           </svg>
           <div id="mapTooltip" class="map-tooltip" hidden></div>
         </div>
-        <div class="map-footer"><span><i class="marker england"></i> England</span><span><i class="marker wales"></i> Wales</span><span>Outline: Natural Earth, public domain</span></div>
+        <div class="map-footer"><span><i class="marker score-high"></i> 70+ screen</span><span><i class="marker score-mid"></i> 55–69.9 screen</span><span><i class="marker score-low"></i> Under 55 screen</span><span><i class="marker score-unknown"></i> Incomplete score</span><span>Outline: Natural Earth, public domain</span></div>
       </article>
       <aside id="details" class="detail-panel" aria-live="polite"><p>Select a location on the map or in the list for its evidence.</p></aside>
     </section>
     <section class="results-card">
       <div class="panel-title"><h2>All visible locations</h2><span id="resultSummary"></span></div>
-      <div class="table-wrap"><table><thead><tr><th>Location / local authority</th><th id="priceHeading">All-flat achieved median</th><th>One-bed portal count</th><th>London rail</th><th>Birmingham rail</th><th>Violence / 1,000</th><th>Sexual offences / 1,000</th></tr></thead><tbody id="rows"></tbody></table></div>
+      <div class="table-wrap"><table><thead><tr><th>Location / local authority</th><th>Screen /100</th><th id="priceHeading">All-flat achieved median</th><th>One-bed portal count</th><th>London rail</th><th>Birmingham rail</th><th>Violence / 1,000</th><th>Sexual offences / 1,000</th></tr></thead><tbody id="rows"></tbody></table></div>
     </section>
     <details class="methodology-card"><summary>Source periods and limits</summary><div id="evidence"></div></details>
     <footer>Inputs: <code>data/inputs</code> · Rebuild: <code>python3 scripts/build.py</code> · Visualisation notes: <code>docs/visualisation.md</code></footer>

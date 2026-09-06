@@ -1,7 +1,8 @@
 # Crime replacement
 
-Status: reviewed ONS CSP offence rates are displayed separately; ASB is research
-only. No crime or safety ranking is produced.
+Status: reviewed ONS CSP offence rates are displayed separately and supply the
+limited recorded-offence safety proxy in the broad screening score. ASB is
+research-only.
 
 ## Selected path
 
@@ -28,8 +29,10 @@ coarse context; CSP aggregation is preferred where the lookup supports it. See
 
 The retained ONS March 2026 workbook supplies CSP violence and sexual-offence
 counts with matched mid-2024 populations for April 2025–March 2026. Rates are
-`count / CSP population * 1,000`, rounded to three decimals. Keep categories
-separate and do not create a combined crime score.
+`count / CSP population * 1,000`, rounded to three decimals. The browser retains
+the categories separately and derives its limited safety proxy from equally
+weighted fresh quintile bands, with lower recorded rates scoring higher. This is
+not a measure of victimisation risk or personal safety; see the methodology.
 
 ## Current checkpoint
 

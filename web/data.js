@@ -8060,6 +8060,1849 @@ window.FLATS_DATA = {
       "limitations": "Official statistics, not accredited official statistics. Recorded offences reflect reporting and recording; CSP unallocated offences are not assigned. Resident population excludes visitors and commuters. ASB is excluded pending coverage review. Separate offence rates are not a safety score or ranking."
     }
   ],
+  "screening": {
+    "title": "Broad screening score",
+    "weights": {
+      "affordability": 15,
+      "safety": 15,
+      "local_transport": 15,
+      "condition": 15,
+      "quiet": 15,
+      "stock": 15,
+      "national_transport": 10
+    },
+    "safety_label": "Recorded-offence safety proxy",
+    "safety_note": "Equal-weighted quintile scores for ONS CSP violence-against-the-person and sexual-offence rates; lower recorded rates score higher. ASB is excluded pending coverage review.",
+    "results": {
+      "barnsley": {
+        "safety": 3.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 65.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 5,
+              "stock": 2
+            },
+            "score": 62.5
+          }
+        }
+      },
+      "birmingham": {
+        "safety": 1.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": 5,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 4.5,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 57.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": 5,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 4.5,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 57.0
+          }
+        }
+      },
+      "blackburn": {
+        "safety": 4.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.5,
+              "affordability": 5,
+              "stock": 1
+            },
+            "score": 59.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.5,
+              "affordability": 5,
+              "stock": 1
+            },
+            "score": 59.0
+          }
+        }
+      },
+      "blackpool": {
+        "safety": 1.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.5,
+              "affordability": 5,
+              "stock": 4
+            },
+            "score": 62.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.5,
+              "affordability": 5,
+              "stock": 4
+            },
+            "score": 62.0
+          }
+        }
+      },
+      "bolton": {
+        "safety": 2.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.5,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 57.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.5,
+              "affordability": 3,
+              "stock": 4
+            },
+            "score": 60.5
+          }
+        }
+      },
+      "bradford": {
+        "safety": 1.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.5,
+              "affordability": 5,
+              "stock": 4
+            },
+            "score": 63.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.5,
+              "affordability": 5,
+              "stock": 4
+            },
+            "score": 63.5
+          }
+        }
+      },
+      "burnley": {
+        "safety": 2.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 1.5,
+              "affordability": 5,
+              "stock": 1
+            },
+            "score": 51.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 1.5,
+              "affordability": 5,
+              "stock": 2
+            },
+            "score": 54.0
+          }
+        }
+      },
+      "burton-on-trent": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 72.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 66.0
+          }
+        }
+      },
+      "cardiff": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 5,
+              "condition": 4,
+              "quiet": 3,
+              "national_transport": 4.0,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 77.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 5,
+              "condition": 4,
+              "quiet": 3,
+              "national_transport": 4.0,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 77.0
+          }
+        }
+      },
+      "chester": {
+        "safety": 4.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": 4,
+              "condition": 4,
+              "quiet": 3,
+              "national_transport": 4.0,
+              "affordability": 1,
+              "stock": 3
+            },
+            "score": 66.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": 4,
+              "condition": 4,
+              "quiet": 3,
+              "national_transport": 4.0,
+              "affordability": 1,
+              "stock": 3
+            },
+            "score": 66.5
+          }
+        }
+      },
+      "chesterfield": {
+        "safety": 2.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": 3,
+              "condition": 4,
+              "quiet": 4,
+              "national_transport": 4.5,
+              "affordability": 3,
+              "stock": 2
+            },
+            "score": 63.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": 3,
+              "condition": 4,
+              "quiet": 4,
+              "national_transport": 4.5,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 72.0
+          }
+        }
+      },
+      "coventry": {
+        "safety": 4.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 5.0,
+              "affordability": 3,
+              "stock": 4
+            },
+            "score": 67.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 5.0,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 61.0
+          }
+        }
+      },
+      "darlington": {
+        "safety": 3.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.0,
+              "affordability": 5,
+              "stock": 2
+            },
+            "score": 64.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.0,
+              "affordability": 5,
+              "stock": 2
+            },
+            "score": 64.5
+          }
+        }
+      },
+      "derby": {
+        "safety": 1.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 57.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 3,
+              "stock": 4
+            },
+            "score": 60.0
+          }
+        }
+      },
+      "doncaster": {
+        "safety": 2.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 4.0,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 63.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 4.0,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 63.5
+          }
+        }
+      },
+      "gateshead": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 5,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.0,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 73.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 5,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.0,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 67.0
+          }
+        }
+      },
+      "gloucester": {
+        "safety": 2.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": 4,
+              "condition": 4,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 1,
+              "stock": 3
+            },
+            "score": 61.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": 4,
+              "condition": 4,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 1,
+              "stock": 3
+            },
+            "score": 61.5
+          }
+        }
+      },
+      "halifax": {
+        "safety": 1.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.5,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 54.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.5,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 60.5
+          }
+        }
+      },
+      "hartlepool": {
+        "safety": 1.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.0,
+              "affordability": 5,
+              "stock": 2
+            },
+            "score": 52.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.0,
+              "affordability": 5,
+              "stock": 1
+            },
+            "score": 49.0
+          }
+        }
+      },
+      "huddersfield": {
+        "safety": 3.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 4,
+              "national_transport": 2.5,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 69.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 4,
+              "national_transport": 2.5,
+              "affordability": 3,
+              "stock": 4
+            },
+            "score": 66.5
+          }
+        }
+      },
+      "hull-kingston-upon-hull": {
+        "safety": 1.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 3.0,
+              "affordability": 5,
+              "stock": 4
+            },
+            "score": 61.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 3.0,
+              "affordability": 5,
+              "stock": 4
+            },
+            "score": 61.5
+          }
+        }
+      },
+      "ipswich": {
+        "safety": 3.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 58.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 58.0
+          }
+        }
+      },
+      "kettering": {
+        "safety": 4.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 4,
+              "national_transport": 5.0,
+              "affordability": 3,
+              "stock": 2
+            },
+            "score": 64.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 4,
+              "national_transport": 5.0,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 67.0
+          }
+        }
+      },
+      "lancaster": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 4,
+              "condition": 4,
+              "quiet": 4,
+              "national_transport": 3.5,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 76.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 4,
+              "condition": 4,
+              "quiet": 4,
+              "national_transport": 3.5,
+              "affordability": 3,
+              "stock": 1
+            },
+            "score": 70.0
+          }
+        }
+      },
+      "leeds": {
+        "safety": 2.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": 5,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 61.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": 5,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 61.0
+          }
+        }
+      },
+      "leicester": {
+        "safety": 3.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 5.0,
+              "affordability": 3,
+              "stock": 4
+            },
+            "score": 67.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 5.0,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 64.0
+          }
+        }
+      },
+      "lincoln": {
+        "safety": 1.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 3,
+              "condition": 4,
+              "quiet": 4,
+              "national_transport": 4.0,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 63.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 3,
+              "condition": 4,
+              "quiet": 4,
+              "national_transport": 4.0,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 63.5
+          }
+        }
+      },
+      "liverpool": {
+        "safety": 2.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": 5,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 61.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": 5,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 3,
+              "stock": 5
+            },
+            "score": 67.0
+          }
+        }
+      },
+      "loughborough": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 5.0,
+              "affordability": 3,
+              "stock": 2
+            },
+            "score": 64.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 5.0,
+              "affordability": 3,
+              "stock": 2
+            },
+            "score": 64.0
+          }
+        }
+      },
+      "manchester": {
+        "safety": 1.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": 5,
+              "condition": 4,
+              "quiet": 2,
+              "national_transport": 3.5,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 61.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": 5,
+              "condition": 4,
+              "quiet": 2,
+              "national_transport": 3.5,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 61.0
+          }
+        }
+      },
+      "merthyr-tydfil": {
+        "safety": 4.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 1.0,
+              "affordability": 5,
+              "stock": 1
+            },
+            "score": 56.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 1.0,
+              "affordability": 5,
+              "stock": 1
+            },
+            "score": 56.0
+          }
+        }
+      },
+      "middlesbrough": {
+        "safety": 1.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 2.0,
+              "affordability": 5,
+              "stock": 2
+            },
+            "score": 52.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 2.0,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 55.0
+          }
+        }
+      },
+      "neath": {
+        "safety": 4.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.5,
+              "affordability": 5,
+              "stock": 1
+            },
+            "score": 60.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 2.5,
+              "affordability": 5,
+              "stock": 1
+            },
+            "score": 60.5
+          }
+        }
+      },
+      "newcastle-upon-tyne": {
+        "safety": 2.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": 5,
+              "condition": 4,
+              "quiet": 3,
+              "national_transport": 2.0,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 62.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": 5,
+              "condition": 4,
+              "quiet": 3,
+              "national_transport": 2.0,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 62.5
+          }
+        }
+      },
+      "newport": {
+        "safety": 3.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 4.0,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 59.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 4.0,
+              "affordability": 1,
+              "stock": 3
+            },
+            "score": 53.0
+          }
+        }
+      },
+      "northampton": {
+        "safety": 3.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 5.0,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 61.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 5.0,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 61.0
+          }
+        }
+      },
+      "norwich": {
+        "safety": 2.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": 4,
+              "condition": 5,
+              "quiet": 4,
+              "national_transport": 2.5,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 65.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": 4,
+              "condition": 5,
+              "quiet": 4,
+              "national_transport": 2.5,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 65.0
+          }
+        }
+      },
+      "nottingham": {
+        "safety": 1.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 5,
+              "condition": 4,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 64.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 5,
+              "condition": 4,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 67.5
+          }
+        }
+      },
+      "peterborough": {
+        "safety": 2.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 4.5,
+              "affordability": 3,
+              "stock": 4
+            },
+            "score": 60.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 4.5,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 54.0
+          }
+        }
+      },
+      "plymouth": {
+        "safety": 1.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 4,
+              "condition": 4,
+              "quiet": 4,
+              "national_transport": 2.0,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 59.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 4,
+              "condition": 4,
+              "quiet": 4,
+              "national_transport": 2.0,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 59.5
+          }
+        }
+      },
+      "portsmouth": {
+        "safety": 1.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 3.5,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 50.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 3.5,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 50.5
+          }
+        }
+      },
+      "preston": {
+        "safety": 2.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 65.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 5,
+              "stock": 4
+            },
+            "score": 68.5
+          }
+        }
+      },
+      "rotherham": {
+        "safety": 3.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 3.5,
+              "affordability": 3,
+              "stock": 2
+            },
+            "score": 56.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 3.5,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 65.5
+          }
+        }
+      },
+      "salford": {
+        "safety": 2.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": 5,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 3.5,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 59.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": 5,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 3.5,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 59.5
+          }
+        }
+      },
+      "sheffield": {
+        "safety": 4.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": 5,
+              "condition": 4,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 75.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": 5,
+              "condition": 4,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 3,
+              "stock": 5
+            },
+            "score": 81.0
+          }
+        }
+      },
+      "shrewsbury": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 3,
+              "condition": 5,
+              "quiet": 4,
+              "national_transport": 4.0,
+              "affordability": 1,
+              "stock": 3
+            },
+            "score": 71.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 3,
+              "condition": 5,
+              "quiet": 4,
+              "national_transport": 4.0,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 77.0
+          }
+        }
+      },
+      "st-helens": {
+        "safety": 4.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 5,
+              "stock": 1
+            },
+            "score": 62.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 3,
+              "stock": 2
+            },
+            "score": 59.5
+          }
+        }
+      },
+      "stafford": {
+        "safety": 4.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": 3,
+              "condition": 4,
+              "quiet": 4,
+              "national_transport": 5.0,
+              "affordability": 3,
+              "stock": 2
+            },
+            "score": 71.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": 3,
+              "condition": 4,
+              "quiet": 4,
+              "national_transport": 5.0,
+              "affordability": 3,
+              "stock": 2
+            },
+            "score": 71.5
+          }
+        }
+      },
+      "stockport": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 4,
+              "condition": 4,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 1,
+              "stock": 3
+            },
+            "score": 69.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 4,
+              "condition": 4,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 72.0
+          }
+        }
+      },
+      "stockton-on-tees": {
+        "safety": 2.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 2.0,
+              "affordability": 5,
+              "stock": 2
+            },
+            "score": 53.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 2.0,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 56.5
+          }
+        }
+      },
+      "stoke-on-trent": {
+        "safety": 1.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 64.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 64.5
+          }
+        }
+      },
+      "sunderland": {
+        "safety": 3.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 1.5,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 64.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 1.5,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 64.5
+          }
+        }
+      },
+      "swansea": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 4,
+              "condition": 4,
+              "quiet": 4,
+              "national_transport": 2.0,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 73.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 4,
+              "condition": 4,
+              "quiet": 4,
+              "national_transport": 2.0,
+              "affordability": 3,
+              "stock": 2
+            },
+            "score": 70.0
+          }
+        }
+      },
+      "swindon": {
+        "safety": 4.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 64.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 4.5,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 64.5
+          }
+        }
+      },
+      "telford": {
+        "safety": 3.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 4.0,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 60.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 4.0,
+              "affordability": 3,
+              "stock": 2
+            },
+            "score": 57.5
+          }
+        }
+      },
+      "torbay": {
+        "safety": 2.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": 3,
+              "condition": 4,
+              "quiet": 4,
+              "national_transport": 2.0,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 58.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": 3,
+              "condition": 4,
+              "quiet": 4,
+              "national_transport": 2.0,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 61.0
+          }
+        }
+      },
+      "wakefield": {
+        "safety": 1.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 3.5,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 53.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 3.5,
+              "affordability": 5,
+              "stock": 3
+            },
+            "score": 59.5
+          }
+        }
+      },
+      "walsall": {
+        "safety": 4.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 4.0,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 66.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 4.0,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 66.5
+          }
+        }
+      },
+      "warrington": {
+        "safety": 4.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 4.5,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 63.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 4.5,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 63.0
+          }
+        }
+      },
+      "wigan": {
+        "safety": 3.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 4.0,
+              "affordability": 5,
+              "stock": 2
+            },
+            "score": 66.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 4.0,
+              "affordability": 5,
+              "stock": 2
+            },
+            "score": 66.5
+          }
+        }
+      },
+      "wolverhampton": {
+        "safety": 3.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 4.5,
+              "affordability": 3,
+              "stock": 3
+            },
+            "score": 61.5
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 4.5,
+              "affordability": 3,
+              "stock": 4
+            },
+            "score": 64.5
+          }
+        }
+      },
+      "worcester": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 3,
+              "condition": 5,
+              "quiet": 4,
+              "national_transport": 4.0,
+              "affordability": 1,
+              "stock": 3
+            },
+            "score": 71.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 3,
+              "condition": 5,
+              "quiet": 4,
+              "national_transport": 4.0,
+              "affordability": 1,
+              "stock": 3
+            },
+            "score": 71.0
+          }
+        }
+      },
+      "wrexham": {
+        "safety": 4.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 3,
+              "stock": 1
+            },
+            "score": 55.0
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": 3,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 3,
+              "stock": 2
+            },
+            "score": 58.0
+          }
+        }
+      }
+    }
+  },
   "crimeResearch": [
     {
       "location_id": "barnsley",

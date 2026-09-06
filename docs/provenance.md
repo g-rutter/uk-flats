@@ -89,7 +89,7 @@ Residuals are review metadata and are never assigned to locations.
 `data/derived/crime_outlier_audit.csv` is a build-generated QA queue containing
 the three lowest and highest available calculated rates for each offence category.
 It retains counts, populations, geographies, force residuals and source evidence.
-It is contextual review metadata only and does not create a safety score.
+It is contextual review metadata only; it is not an additional safety input.
 
 See [crime replacement](crime-replacement.md) for source selection, limitations
 and reproduction. These observations are freshly retrieved, not legacy imports.
@@ -119,4 +119,5 @@ Build checks crime foreign keys, duplicates, periods, evidence references, numer
 validity, source hashes and compatibility with published rates allowing population
 rounding. Those checks are arithmetic/provenance checks, not evidence that every
 force reported all incidents. Reviewed ONS CSP offence rows are emitted into
-`web/data.js` as separate measures; ASB and all combined safety measures are excluded.
+`web/data.js` as separate measures. The documented broad score derives its limited
+recorded-offence proxy from the two ONS rates; ASB remains excluded.

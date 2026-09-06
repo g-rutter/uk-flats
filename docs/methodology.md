@@ -8,12 +8,33 @@ The current inputs import historical numbers and assessments without refreshing 
 endorsing them. They add no source research. Confidence labels and reasons remain
 historical assessments. Do not reuse archived scores, rankings or decisions.
 
-## Future composite score
+## Composite screening score
 
-No composite score is currently defined. Before adding one to the map, decide and
-document its purpose, buy/rent treatment, inputs, missing-data policy, weighting,
-confidence treatment and presentation. It must be newly calculated from current
-inputs, rather than inherited from the archive.
+The broad screen calculates separate 0--100 Buying and Renting screening scores.
+They compare only the current location set and are not final grades, price advice,
+or neighbourhood conclusions. The calculation is new: it does not use archived
+scores, rankings, shortlists or decisions.
+
+| Factor | Weight | Calculation |
+| --- | ---: | --- |
+| Affordability | 15 | Within each tenure, the cheapest, middle and most-expensive thirds of the current proxy distribution score 5, 3 and 1 respectively. |
+| Recorded-offence safety proxy | 15 | Equal mean of fresh 1--5 quintile scores for the ONS CSP violence-against-the-person and sexual-offence rates; lower recorded rates score higher. |
+| Local transport | 15 | The current documented broad assessment maps dense multimodal, useful bus-and-rail and basic bus-and-rail coverage to 5, 4 and 3. |
+| Local condition | 15 | Current reasons categorised as highest, favourable/broadly pleasant, or mixed/uneven score 5, 4 and 2. |
+| Quiet | 15 | Current reasons categorised as comparatively persistent/widespread noise, mixed exposure, or lower-intensity/calmer fabric score 2, 3 and 4. |
+| One-bed stock | 15 | Current tenure-specific portal counts of under 10, 10--24, 25--74, 75--249 and 250+ score 1--5. Tower availability remains Unclear and is not scored. |
+| National transport | 10 | London and Birmingham routes score 5, 4, 3, 2 or 1 at effective journey times (minutes plus 15 per change) of <=75, <=120, <=165, <=210 or >210. The two route scores are averaged. |
+
+The weighted score is `sum(weight * factor score / 5)`. All seven inputs must be
+known or the tenure score remains blank; missing data are never zero-filled.
+Confidence labels and buy transaction counts remain evidence context and do not
+arbitrarily change scores. The browser shows the component values and raw measures.
+
+The safety proxy is a limited comparison of recorded offences, not victimisation
+risk, personal safety, or a neighbourhood measure. It excludes ASB: the Police.uk
+archive lacks verified force/month completeness, including missing Greater
+Manchester files, and has unassigned split/unmapped records. Add ASB only after a
+dated archive and geography/coverage review supports comparable CSP rates.
 
 - Buying: recorded 24-month HMLR category-A flat/maisonette median across all sizes,
   with transaction count. Uses the Town/City field, except Torbay's district proxy.
@@ -25,9 +46,10 @@ inputs, rather than inherited from the archive.
   network assessments. These are not live timetables or accessibility measurements.
 - Quiet/condition: inherited coarse judgements with reasons; not measured exposure
   or neighbourhood quality. Deprivation is not equivalent to visual condition.
-- Recorded offences: separate ONS CSP violence-against-the-person and sexual-offence
-  rates per 1,000 mid-2024 residents for April 2025–March 2026 are shown for all 63
-  locations. They are recorded-offence measures, not direct measures of safety.
+- Recorded offences: ONS CSP violence-against-the-person and sexual-offence rates
+  per 1,000 mid-2024 residents for April 2025–March 2026 are shown for all 63
+  locations and are the limited recorded-offence component of the screening score.
+  They are not direct measures of safety.
   Kettering and Northampton use their
   directly named CSP rows and matching CSP populations, rather than whole-LA
   values. ASB remains excluded because the Police.uk archive has incomplete

@@ -27,7 +27,7 @@ marker rather than inventing a position.
   rendering and the table. Its simple local projection is aligned to that outline.
 - `web/styles.css` owns responsive presentation only.
 
-Marker colour currently distinguishes England and Wales only. A future score or
-metric layer must follow the documented methodology and use current generated
-data; do not copy archived scoring or ranking logic. Crime measures remain
-separate evidence until their treatment is decided in that methodology.
+Marker colour shows the current tenure's documented screening-score band. It is
+calculated by the build from current canonical inputs; do not copy archived scores
+or ranking logic. The two underlying ONS offence rates remain visible alongside
+the limited recorded-offence safety proxy, and ASB remains excluded.

@@ -12,12 +12,14 @@ is the matching published CSP population. The build recomputes the rates and
 checks them against the published rates within the stated population rounding
 interval.
 
-This decision does not create a safety measure: the rates are not combined,
-scored, sorted, or interpreted as victimisation risk. They remain affected by
-reporting, recording practice, visitors and commuters, and CSP/town boundary
-mismatch. Kettering and Northampton are shown from their directly named ONS CSP
-rows and matching CSP populations; no whole-LA numerator, population or allocation
-is used despite the dated relationship lookup showing each LA spans multiple CSPs.
+The documented broad-screen methodology now combines fresh, equally weighted
+quintile bands from these two rates into a limited recorded-offence safety proxy.
+It does not claim to measure victimisation risk or personal safety. The rates and
+proxy remain affected by reporting, recording practice, visitors and commuters,
+and CSP/town boundary mismatch. Kettering and Northampton are shown from their
+directly named ONS CSP rows and matching CSP populations; no whole-LA numerator,
+population or allocation is used despite the dated relationship lookup showing
+each LA spans multiple CSPs.
 
 ## Residual review
 
