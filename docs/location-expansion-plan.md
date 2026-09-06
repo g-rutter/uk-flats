@@ -283,6 +283,13 @@ outputs and documentation together.
 
 ## Suggested implementation order
 
+Implementation status, 6 September 2026: the registry, manifest controls,
+release audit and predeclared sample are in place. The ONS PIPR July-2026 probe
+has reproduced all 12 selected rent values from the retained 19-August edition.
+The HMLR price artifact acquisition and its comparison remain outstanding; do
+not treat the rent result as validation of the price method or of all baseline
+rows.
+
 1. Create the validation sample and its comparison sheet before looking at any
    newly calculated values.
 2. Parameterise and test the existing ONS crime preparer; implement minimal

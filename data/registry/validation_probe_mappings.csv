@@ -1,0 +1,13 @@
+location_id,price_query_field,price_query_value,rent_la_code,rent_la_name,mapping_reason
+barnsley,Town/City,Barnsley,E08000038,Barnsley,Direct named place and LA.
+manchester,Town/City,Manchester,E08000003,Manchester,Direct named place and LA.
+cardiff,Town/City,Cardiff,W06000015,Cardiff,Direct named place and LA.
+merthyr-tydfil,Town/City,Merthyr Tydfil,W06000024,Merthyr Tydfil,Direct named place and LA.
+wrexham,Town/City,Wrexham,W06000006,Wrexham,Direct named place and LA.
+torbay,District,Torbay,E06000027,Torbay,Documented district price-query exception.
+kettering,Town/City,Kettering,E06000061,North Northamptonshire,Named price query with LA rent proxy.
+northampton,Town/City,Northampton,E06000062,West Northamptonshire,Named price query with LA rent proxy.
+burton-on-trent,Town/City,Burton-on-Trent,E07000193,East Staffordshire,Named price query with LA rent proxy.
+loughborough,Town/City,Loughborough,E07000130,Charnwood,Named price query with LA rent proxy.
+hull-kingston-upon-hull,Town/City,Hull,E06000010,"Kingston upon Hull, City of",Documented town-name query alias with LA rent proxy.
+st-helens,Town/City,St Helens,E08000013,St. Helens,Documented punctuation variant between price and rent sources.

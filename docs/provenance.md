@@ -92,6 +92,26 @@ probe described in the expansion plan. Its result columns remain blank until a
 separate retained release is run and discrepancies can be recorded without
 altering imported baseline values.
 
+## July 2026 price and rent probe
+
+The initial probe release is `data/raw/releases/2026-09-06-baseline-probe/`.
+It uses the ONS PIPR workbook edition published 19 August 2026 and extracts its
+July 2026 (`2026-07`) one-bedroom LA means. `prepare_rent.py` checks the
+workbook layout, LA code and LA name, and emits a source-cell and SHA-256 audit
+to ignored `data/staging/<release>/`. The twelve predeclared rent rows reproduce
+the imported values exactly; that confirms the rent extraction rule only, not
+the provenance of any other baseline row.
+
+`validation_probe_mappings.csv` is the reviewed, explicit mapping sheet for the
+probe only. It records HMLR Town/City/District query values and ONS LA codes;
+it does not make the legacy baseline a reviewed expansion registry.
+
+`acquire_price_paid.py` retains a reviewed list of HMLR bulk-file or report-
+builder requests, while `prepare_buy.py` applies the fixed 2024-07-01 to
+2026-06-30, category-A, flat/maisonette rule offline and retains selected values
+and exclusions. HMLR artifacts have not yet been retained, so no buy probe
+result has been claimed.
+
 ## Fresh crime research schema
 
 `data/derived/crime_boundary_audit.csv` is a build-generated location-level
