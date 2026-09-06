@@ -26,7 +26,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 145,
@@ -70,7 +70,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a dense multimodal network"
+        "reason": "A dense multimodal network"
       },
       "nationalTransport": {
         "londonMinutes": 82,
@@ -114,7 +114,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 170,
@@ -158,7 +158,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 185,
@@ -202,7 +202,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 155,
@@ -246,7 +246,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 170,
@@ -290,7 +290,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 190,
@@ -334,7 +334,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 95,
@@ -378,7 +378,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a dense multimodal network"
+        "reason": "A dense multimodal network"
       },
       "nationalTransport": {
         "londonMinutes": 110,
@@ -422,7 +422,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 125,
@@ -466,7 +466,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 115,
@@ -510,7 +510,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 60,
@@ -554,7 +554,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 135,
@@ -598,7 +598,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 90,
@@ -642,7 +642,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 100,
@@ -686,7 +686,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a dense multimodal network"
+        "reason": "A dense multimodal network"
       },
       "nationalTransport": {
         "londonMinutes": 180,
@@ -730,7 +730,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 105,
@@ -774,7 +774,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 180,
@@ -818,7 +818,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 195,
@@ -862,7 +862,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 175,
@@ -906,7 +906,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 165,
@@ -950,7 +950,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 65,
@@ -994,7 +994,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 55,
@@ -1038,7 +1038,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 145,
@@ -1082,7 +1082,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a dense multimodal network"
+        "reason": "A dense multimodal network"
       },
       "nationalTransport": {
         "londonMinutes": 130,
@@ -1126,7 +1126,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 65,
@@ -1170,7 +1170,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 120,
@@ -1214,7 +1214,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a dense multimodal network"
+        "reason": "A dense multimodal network"
       },
       "nationalTransport": {
         "londonMinutes": 135,
@@ -1258,7 +1258,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 75,
@@ -1302,7 +1302,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a dense multimodal network"
+        "reason": "A dense multimodal network"
       },
       "nationalTransport": {
         "londonMinutes": 125,
@@ -1346,7 +1346,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 205,
@@ -1390,7 +1390,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 180,
@@ -1434,7 +1434,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 150,
@@ -1478,7 +1478,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a dense multimodal network"
+        "reason": "A dense multimodal network"
       },
       "nationalTransport": {
         "londonMinutes": 170,
@@ -1522,7 +1522,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 100,
@@ -1566,7 +1566,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 60,
@@ -1610,7 +1610,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 110,
@@ -1654,7 +1654,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a dense multimodal network"
+        "reason": "A dense multimodal network"
       },
       "nationalTransport": {
         "londonMinutes": 100,
@@ -1698,7 +1698,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 50,
@@ -1742,7 +1742,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 190,
@@ -1786,7 +1786,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 95,
@@ -1830,7 +1830,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 130,
@@ -1874,7 +1874,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 145,
@@ -1918,7 +1918,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a dense multimodal network"
+        "reason": "A dense multimodal network"
       },
       "nationalTransport": {
         "londonMinutes": 135,
@@ -1962,7 +1962,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a dense multimodal network"
+        "reason": "A dense multimodal network"
       },
       "nationalTransport": {
         "londonMinutes": 120,
@@ -2006,7 +2006,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 150,
@@ -2050,7 +2050,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 145,
@@ -2094,7 +2094,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 75,
@@ -2138,7 +2138,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 120,
@@ -2182,7 +2182,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 185,
@@ -2226,7 +2226,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 85,
@@ -2270,7 +2270,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 195,
@@ -2314,7 +2314,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 170,
@@ -2358,7 +2358,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 55,
@@ -2402,7 +2402,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 125,
@@ -2446,7 +2446,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 180,
@@ -2490,7 +2490,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 120,
@@ -2534,7 +2534,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 115,
@@ -2578,7 +2578,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 105,
@@ -2622,7 +2622,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 120,
@@ -2666,7 +2666,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "a useful town/city bus-and-rail network"
+        "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
         "londonMinutes": 105,
@@ -2710,7 +2710,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "Medium",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 125,
@@ -2754,7 +2754,7 @@ window.FLATS_DATA = {
       },
       "localTransport": {
         "confidence": "High",
-        "reason": "basic bus and rail coverage with less network depth"
+        "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
         "londonMinutes": 140,

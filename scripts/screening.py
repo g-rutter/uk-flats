@@ -57,7 +57,8 @@ def stock_score(count):
 def local_transport_score(reason):
     if not reason:
         return None
-    return 5 if 'dense multimodal' in reason else 4 if 'useful town/city' in reason else 3 if 'basic bus and rail' in reason else None
+    text = reason.lower()
+    return 5 if 'dense multimodal' in text else 4 if 'useful town/city' in text else 3 if 'basic bus and rail' in text else None
 
 
 def condition_score(reason):
