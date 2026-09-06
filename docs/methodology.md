@@ -29,6 +29,11 @@ The weighted score is `sum(weight * factor score / 5)`. All seven inputs must be
 known or the tenure score remains blank; missing data are never zero-filled.
 Confidence labels and buy transaction counts remain evidence context and do not
 arbitrarily change scores. The browser shows the component values and raw measures.
+For the map only, each tenure's known scores are grouped into lowest, middle and
+highest thirds. Tied scores stay together, so groups are as even as possible
+without giving the same score different colours. This visual grouping does not
+alter the score or table order. The inclusive score bounds for each group are
+generated with the screen and displayed in the map key.
 
 The safety proxy is a limited comparison of recorded offences, not victimisation
 risk, personal safety, or a neighbourhood measure. It excludes ASB: the Police.uk

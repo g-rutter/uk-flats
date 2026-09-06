@@ -104,6 +104,35 @@ def weighted_score(factors):
     return round(sum(WEIGHTS[name] * value / 5 for name, value in factors.items()), 1)
 
 
+def assign_score_bands(results, tenure):
+    """Assign near-equal score thirds without splitting locations tied on score."""
+    grouped = defaultdict(list)
+    for location_id, result in results.items():
+        score = result['tenures'][tenure]['score']
+        if score is not None:
+            grouped[score].append(location_id)
+        else:
+            result['tenures'][tenure]['band'] = 'unknown'
+    ordered = sorted(grouped.items())
+    total, rank = sum(len(ids) for _, ids in ordered), 0
+    bands = {band: {'count': 0, 'minimum': None, 'maximum': None}
+             for band in ('low', 'mid', 'high')}
+    for score, location_ids in ordered:
+        finish = rank + len(location_ids)
+        mean_rank = (rank + 1 + finish) / 2
+        band = 'low' if mean_rank <= total / 3 else 'mid' if mean_rank <= total * 2 / 3 else 'high'
+        for location_id in location_ids:
+            results[location_id]['tenures'][tenure]['band'] = band
+        bands[band]['count'] += len(location_ids)
+        if bands[band]['minimum'] is None:
+            bands[band]['minimum'] = score
+        bands[band]['maximum'] = score
+        rank = finish
+    bands['unknown'] = sum(1 for result in results.values()
+                           if result['tenures'][tenure]['band'] == 'unknown')
+    return bands
+
+
 def compile_screening(locations, crime):
     """Return score metadata and per-location values; never use legacy scores."""
     violence = {row['location_id']: row['rate_per_1000'] for row in crime
@@ -130,10 +159,12 @@ def compile_screening(locations, crime):
             factors = dict(common, affordability=affordability[tenure].get(row['id']),
                            stock=stock_score(row[tenure].get('oneBedCount')))
             results[row['id']]['tenures'][tenure] = dict(factors=factors, score=weighted_score(factors))
+    score_bands = {tenure: assign_score_bands(results, tenure) for tenure in ('buy', 'rent')}
     return {
         'title': 'Broad screening score',
         'weights': WEIGHTS,
         'safety_label': 'Recorded-offence safety proxy',
         'safety_note': 'Equal-weighted quintile scores for ONS CSP violence-against-the-person and sexual-offence rates; lower recorded rates score higher. ASB is excluded pending coverage review.',
+        'score_bands': score_bands,
         'results': results,
     }

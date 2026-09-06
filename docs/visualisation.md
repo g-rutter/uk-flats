@@ -32,7 +32,10 @@ Location and country controls filter both the map and the list. Each table-colum
 heading changes only the table order; it never changes marker colours, scores or
 map inclusion.
 
-Marker colour shows the current tenure's documented screening-score band. It is
-calculated by the build from current canonical inputs; do not copy archived scores
-or ranking logic. The two underlying ONS offence rates remain visible alongside
+Marker colour shows each tenure's generated highest, middle and lowest score
+thirds, using the shared pine, amber and clay palette. Tied scores remain in the
+same group, so the groups are as evenly populated as ties allow. The grouping is
+calculated by the build from current canonical inputs, which also emits the
+inclusive score bounds displayed in the map key; do not copy archived scores or
+ranking logic. The two underlying ONS offence rates remain visible alongside
 the limited recorded-offence safety proxy, and ASB remains excluded.

@@ -97,6 +97,7 @@ def build():
         row['screening.safety'] = screening['safety']
         for tenure in ('buy', 'rent'):
             row[f'screening.{tenure}.score'] = screening['tenures'][tenure]['score']
+            row[f'screening.{tenure}.band'] = screening['tenures'][tenure]['band']
             for factor, value in screening['tenures'][tenure]['factors'].items():
                 row[f'screening.{tenure}.{factor}'] = value
         rows.append(row)

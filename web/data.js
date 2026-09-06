@@ -8010,6 +8010,44 @@ window.FLATS_DATA = {
     },
     "safety_label": "Recorded-offence safety proxy",
     "safety_note": "Equal-weighted quintile scores for ONS CSP violence-against-the-person and sexual-offence rates; lower recorded rates score higher. ASB is excluded pending coverage review.",
+    "score_bands": {
+      "buy": {
+        "low": {
+          "count": 20,
+          "minimum": 50.5,
+          "maximum": 60.0
+        },
+        "mid": {
+          "count": 24,
+          "minimum": 60.5,
+          "maximum": 64.5
+        },
+        "high": {
+          "count": 19,
+          "minimum": 65.0,
+          "maximum": 77.0
+        },
+        "unknown": 0
+      },
+      "rent": {
+        "low": {
+          "count": 21,
+          "minimum": 49.0,
+          "maximum": 60.5
+        },
+        "mid": {
+          "count": 21,
+          "minimum": 61.0,
+          "maximum": 64.5
+        },
+        "high": {
+          "count": 21,
+          "minimum": 65.0,
+          "maximum": 81.0
+        },
+        "unknown": 0
+      }
+    },
     "results": {
       "barnsley": {
         "safety": 3.5,
@@ -8024,7 +8062,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 65.5
+            "score": 65.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -8036,7 +8075,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 2
             },
-            "score": 62.5
+            "score": 62.5,
+            "band": "mid"
           }
         }
       },
@@ -8053,7 +8093,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 57.0
+            "score": 57.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -8065,7 +8106,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 57.0
+            "score": 57.0,
+            "band": "low"
           }
         }
       },
@@ -8082,7 +8124,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 1
             },
-            "score": 59.0
+            "score": 59.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -8094,7 +8137,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 1
             },
-            "score": 59.0
+            "score": 59.0,
+            "band": "low"
           }
         }
       },
@@ -8111,7 +8155,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 4
             },
-            "score": 62.0
+            "score": 62.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -8123,7 +8168,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 4
             },
-            "score": 62.0
+            "score": 62.0,
+            "band": "mid"
           }
         }
       },
@@ -8140,7 +8186,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 57.5
+            "score": 57.5,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -8152,7 +8199,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 4
             },
-            "score": 60.5
+            "score": 60.5,
+            "band": "low"
           }
         }
       },
@@ -8169,7 +8217,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 4
             },
-            "score": 63.5
+            "score": 63.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -8181,7 +8230,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 4
             },
-            "score": 63.5
+            "score": 63.5,
+            "band": "mid"
           }
         }
       },
@@ -8198,7 +8248,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 1
             },
-            "score": 51.0
+            "score": 51.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -8210,7 +8261,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 2
             },
-            "score": 54.0
+            "score": 54.0,
+            "band": "low"
           }
         }
       },
@@ -8227,7 +8279,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 72.0
+            "score": 72.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -8239,7 +8292,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 66.0
+            "score": 66.0,
+            "band": "high"
           }
         }
       },
@@ -8256,7 +8310,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 77.0
+            "score": 77.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -8268,7 +8323,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 77.0
+            "score": 77.0,
+            "band": "high"
           }
         }
       },
@@ -8285,7 +8341,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 3
             },
-            "score": 66.5
+            "score": 66.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -8297,7 +8354,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 3
             },
-            "score": 66.5
+            "score": 66.5,
+            "band": "high"
           }
         }
       },
@@ -8314,7 +8372,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 2
             },
-            "score": 63.0
+            "score": 63.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -8326,7 +8385,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 72.0
+            "score": 72.0,
+            "band": "high"
           }
         }
       },
@@ -8343,7 +8403,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 4
             },
-            "score": 67.0
+            "score": 67.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -8355,7 +8416,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 61.0
+            "score": 61.0,
+            "band": "mid"
           }
         }
       },
@@ -8372,7 +8434,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 2
             },
-            "score": 64.5
+            "score": 64.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -8384,7 +8447,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 2
             },
-            "score": 64.5
+            "score": 64.5,
+            "band": "mid"
           }
         }
       },
@@ -8401,7 +8465,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 57.0
+            "score": 57.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -8413,7 +8478,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 4
             },
-            "score": 60.0
+            "score": 60.0,
+            "band": "low"
           }
         }
       },
@@ -8430,7 +8496,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 63.5
+            "score": 63.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -8442,7 +8509,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 63.5
+            "score": 63.5,
+            "band": "mid"
           }
         }
       },
@@ -8459,7 +8527,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 73.0
+            "score": 73.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -8471,7 +8540,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 67.0
+            "score": 67.0,
+            "band": "high"
           }
         }
       },
@@ -8488,7 +8558,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 3
             },
-            "score": 61.5
+            "score": 61.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -8500,7 +8571,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 3
             },
-            "score": 61.5
+            "score": 61.5,
+            "band": "mid"
           }
         }
       },
@@ -8517,7 +8589,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 54.5
+            "score": 54.5,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -8529,7 +8602,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 60.5
+            "score": 60.5,
+            "band": "low"
           }
         }
       },
@@ -8546,7 +8620,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 2
             },
-            "score": 52.0
+            "score": 52.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -8558,7 +8633,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 1
             },
-            "score": 49.0
+            "score": 49.0,
+            "band": "low"
           }
         }
       },
@@ -8575,7 +8651,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 69.5
+            "score": 69.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -8587,7 +8664,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 4
             },
-            "score": 66.5
+            "score": 66.5,
+            "band": "high"
           }
         }
       },
@@ -8604,7 +8682,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 4
             },
-            "score": 61.5
+            "score": 61.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -8616,7 +8695,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 4
             },
-            "score": 61.5
+            "score": 61.5,
+            "band": "mid"
           }
         }
       },
@@ -8633,7 +8713,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 58.0
+            "score": 58.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -8645,7 +8726,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 58.0
+            "score": 58.0,
+            "band": "low"
           }
         }
       },
@@ -8662,7 +8744,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 2
             },
-            "score": 64.0
+            "score": 64.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -8674,7 +8757,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 67.0
+            "score": 67.0,
+            "band": "high"
           }
         }
       },
@@ -8691,7 +8775,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 76.0
+            "score": 76.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -8703,7 +8788,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 1
             },
-            "score": 70.0
+            "score": 70.0,
+            "band": "high"
           }
         }
       },
@@ -8720,7 +8806,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 61.0
+            "score": 61.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -8732,7 +8819,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 61.0
+            "score": 61.0,
+            "band": "mid"
           }
         }
       },
@@ -8749,7 +8837,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 4
             },
-            "score": 67.0
+            "score": 67.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -8761,7 +8850,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 64.0
+            "score": 64.0,
+            "band": "mid"
           }
         }
       },
@@ -8778,7 +8868,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 63.5
+            "score": 63.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -8790,7 +8881,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 63.5
+            "score": 63.5,
+            "band": "mid"
           }
         }
       },
@@ -8807,7 +8899,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 61.0
+            "score": 61.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -8819,7 +8912,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 5
             },
-            "score": 67.0
+            "score": 67.0,
+            "band": "high"
           }
         }
       },
@@ -8836,7 +8930,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 2
             },
-            "score": 64.0
+            "score": 64.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -8848,7 +8943,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 2
             },
-            "score": 64.0
+            "score": 64.0,
+            "band": "mid"
           }
         }
       },
@@ -8865,7 +8961,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 61.0
+            "score": 61.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -8877,7 +8974,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 61.0
+            "score": 61.0,
+            "band": "mid"
           }
         }
       },
@@ -8894,7 +8992,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 1
             },
-            "score": 56.0
+            "score": 56.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -8906,7 +9005,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 1
             },
-            "score": 56.0
+            "score": 56.0,
+            "band": "low"
           }
         }
       },
@@ -8923,7 +9023,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 2
             },
-            "score": 52.0
+            "score": 52.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -8935,7 +9036,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 55.0
+            "score": 55.0,
+            "band": "low"
           }
         }
       },
@@ -8952,7 +9054,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 1
             },
-            "score": 60.5
+            "score": 60.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -8964,7 +9067,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 1
             },
-            "score": 60.5
+            "score": 60.5,
+            "band": "low"
           }
         }
       },
@@ -8981,7 +9085,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 62.5
+            "score": 62.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -8993,7 +9098,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 62.5
+            "score": 62.5,
+            "band": "mid"
           }
         }
       },
@@ -9010,7 +9116,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 59.0
+            "score": 59.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -9022,7 +9129,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 3
             },
-            "score": 53.0
+            "score": 53.0,
+            "band": "low"
           }
         }
       },
@@ -9039,7 +9147,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 61.0
+            "score": 61.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -9051,7 +9160,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 61.0
+            "score": 61.0,
+            "band": "mid"
           }
         }
       },
@@ -9068,7 +9178,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 65.0
+            "score": 65.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -9080,7 +9191,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 65.0
+            "score": 65.0,
+            "band": "high"
           }
         }
       },
@@ -9097,7 +9209,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 64.5
+            "score": 64.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -9109,7 +9222,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 67.5
+            "score": 67.5,
+            "band": "high"
           }
         }
       },
@@ -9126,7 +9240,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 4
             },
-            "score": 60.0
+            "score": 60.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -9138,7 +9253,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 54.0
+            "score": 54.0,
+            "band": "low"
           }
         }
       },
@@ -9155,7 +9271,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 59.5
+            "score": 59.5,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -9167,7 +9284,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 59.5
+            "score": 59.5,
+            "band": "low"
           }
         }
       },
@@ -9184,7 +9302,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 50.5
+            "score": 50.5,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -9196,7 +9315,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 50.5
+            "score": 50.5,
+            "band": "low"
           }
         }
       },
@@ -9213,7 +9333,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 65.5
+            "score": 65.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -9225,7 +9346,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 4
             },
-            "score": 68.5
+            "score": 68.5,
+            "band": "high"
           }
         }
       },
@@ -9242,7 +9364,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 2
             },
-            "score": 56.5
+            "score": 56.5,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -9254,7 +9377,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 65.5
+            "score": 65.5,
+            "band": "high"
           }
         }
       },
@@ -9271,7 +9395,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 59.5
+            "score": 59.5,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -9283,7 +9408,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 59.5
+            "score": 59.5,
+            "band": "low"
           }
         }
       },
@@ -9300,7 +9426,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 75.0
+            "score": 75.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -9312,7 +9439,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 5
             },
-            "score": 81.0
+            "score": 81.0,
+            "band": "high"
           }
         }
       },
@@ -9329,7 +9457,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 3
             },
-            "score": 71.0
+            "score": 71.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -9341,7 +9470,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 77.0
+            "score": 77.0,
+            "band": "high"
           }
         }
       },
@@ -9358,7 +9488,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 1
             },
-            "score": 62.5
+            "score": 62.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -9370,7 +9501,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 2
             },
-            "score": 59.5
+            "score": 59.5,
+            "band": "low"
           }
         }
       },
@@ -9387,7 +9519,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 2
             },
-            "score": 71.5
+            "score": 71.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -9399,7 +9532,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 2
             },
-            "score": 71.5
+            "score": 71.5,
+            "band": "high"
           }
         }
       },
@@ -9416,7 +9550,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 3
             },
-            "score": 69.0
+            "score": 69.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -9428,7 +9563,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 72.0
+            "score": 72.0,
+            "band": "high"
           }
         }
       },
@@ -9445,7 +9581,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 2
             },
-            "score": 53.5
+            "score": 53.5,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -9457,7 +9594,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 56.5
+            "score": 56.5,
+            "band": "low"
           }
         }
       },
@@ -9474,7 +9612,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 64.5
+            "score": 64.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -9486,7 +9625,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 64.5
+            "score": 64.5,
+            "band": "mid"
           }
         }
       },
@@ -9503,7 +9643,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 64.5
+            "score": 64.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -9515,7 +9656,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 64.5
+            "score": 64.5,
+            "band": "mid"
           }
         }
       },
@@ -9532,7 +9674,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 73.0
+            "score": 73.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -9544,7 +9687,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 2
             },
-            "score": 70.0
+            "score": 70.0,
+            "band": "high"
           }
         }
       },
@@ -9561,7 +9705,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 64.5
+            "score": 64.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -9573,7 +9718,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 64.5
+            "score": 64.5,
+            "band": "mid"
           }
         }
       },
@@ -9590,7 +9736,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 60.5
+            "score": 60.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -9602,7 +9749,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 2
             },
-            "score": 57.5
+            "score": 57.5,
+            "band": "low"
           }
         }
       },
@@ -9619,7 +9767,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 58.0
+            "score": 58.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -9631,7 +9780,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 61.0
+            "score": 61.0,
+            "band": "mid"
           }
         }
       },
@@ -9648,7 +9798,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 53.5
+            "score": 53.5,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -9660,7 +9811,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 59.5
+            "score": 59.5,
+            "band": "low"
           }
         }
       },
@@ -9677,7 +9829,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 66.5
+            "score": 66.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -9689,7 +9842,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 66.5
+            "score": 66.5,
+            "band": "high"
           }
         }
       },
@@ -9706,7 +9860,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 63.0
+            "score": 63.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -9718,7 +9873,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 63.0
+            "score": 63.0,
+            "band": "mid"
           }
         }
       },
@@ -9735,7 +9891,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 2
             },
-            "score": 66.5
+            "score": 66.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -9747,7 +9904,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 2
             },
-            "score": 66.5
+            "score": 66.5,
+            "band": "high"
           }
         }
       },
@@ -9764,7 +9922,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 61.5
+            "score": 61.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -9776,7 +9935,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 4
             },
-            "score": 64.5
+            "score": 64.5,
+            "band": "mid"
           }
         }
       },
@@ -9793,7 +9953,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 3
             },
-            "score": 71.0
+            "score": 71.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -9805,7 +9966,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 3
             },
-            "score": 71.0
+            "score": 71.0,
+            "band": "high"
           }
         }
       },
@@ -9822,7 +9984,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 1
             },
-            "score": 55.0
+            "score": 55.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -9834,7 +9997,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 2
             },
-            "score": 58.0
+            "score": 58.0,
+            "band": "low"
           }
         }
       }

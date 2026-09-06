@@ -16,7 +16,7 @@
   const price = x => x[state.tenure][state.tenure === 'buy' ? 'proxyMedian' : 'proxyMonthly'];
   const stock = x => x[state.tenure].oneBedCount;
   const score = x => data.screening.results[x.id].tenures[state.tenure].score;
-  const band = x => !known(score(x)) ? 'score-unknown' : score(x) >= 70 ? 'score-high' : score(x) >= 55 ? 'score-mid' : 'score-low';
+  const band = x => `score-${data.screening.results[x.id].tenures[state.tenure].band || 'unknown'}`;
   const rate = (x, category) => crime.get(x.id)?.[category]?.rate_per_1000;
   const localTransportDefinition = 'This is a broad town or city judgement of bus and rail coverage. It does not assess accessibility for a specific neighbourhood, street or home.';
   const recentSalesDefinition = '“Recent” means completed flat and maisonette sales dated 1 July 2024 to 30 June 2026. The figure is the median across all flat sizes, not a one-bedroom estimate; recent transactions can be incomplete because registration lags.';
@@ -156,7 +156,18 @@
       state.sort = key; render();
     }));
   }
-  function render() { const locations = filtered(); $('count').textContent = `${locations.length} of ${data.locations.length} locations shown on the map`; $('resultSummary').textContent = `Showing ${locations.length} of ${data.locations.length}`; renderMap(locations); renderDetail(); renderTable(ordered(locations)); renderSortHeadings(); }
+  function renderMapKey() {
+    const format = value => Number.isInteger(value) ? String(value) : String(value).replace(/\.0$/, '');
+    ['high', 'mid', 'low'].forEach(bandName => {
+      const range = data.screening.score_bands[state.tenure][bandName];
+      const item = $(`${bandName}ScoreRange`).parentElement;
+      item.hidden = !range.count;
+      if (!range.count) return;
+      $(`${bandName}ScoreRange`).textContent = range.minimum === range.maximum
+        ? format(range.minimum) : `${format(range.minimum)}–${format(range.maximum)}`;
+    });
+  }
+  function render() { const locations = filtered(); $('count').textContent = `${locations.length} of ${data.locations.length} locations shown on the map`; $('resultSummary').textContent = `Showing ${locations.length} of ${data.locations.length}`; renderMapKey(); renderMap(locations); renderDetail(); renderTable(ordered(locations)); renderSortHeadings(); }
   function select(id, scroll = false) { state.selectedId = id; render(); if (scroll && matchMedia('(max-width: 920px)').matches) $('details').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
   function setTenure(tenure) { state.tenure = tenure; $('buyToggle').setAttribute('aria-pressed', tenure === 'buy'); $('rentToggle').setAttribute('aria-pressed', tenure === 'rent'); render(); }
   populateLocations();

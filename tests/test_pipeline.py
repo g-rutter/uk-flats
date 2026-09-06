@@ -37,6 +37,15 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(payload['screening']['weights']['safety'], 15)
         self.assertTrue(all(payload['screening']['results'][location['id']]['tenures']['buy']['score'] is not None
                             for location in payload['locations']))
+        for tenure in ('buy', 'rent'):
+            bands = payload['screening']['score_bands'][tenure]
+            self.assertEqual(sum(bands[band]['count'] for band in ('low', 'mid', 'high')) + bands['unknown'], 63)
+            self.assertTrue(all(bands[band]['count'] for band in ('low', 'mid', 'high')))
+            band_by_score = {}
+            for location in payload['locations']:
+                result = payload['screening']['results'][location['id']]['tenures'][tenure]
+                band_by_score.setdefault(result['score'], result['band'])
+                self.assertEqual(band_by_score[result['score']], result['band'])
 
     def test_new_location_can_have_unknown_metrics_and_orphans_fail(self):
         with tempfile.TemporaryDirectory() as tmp:
