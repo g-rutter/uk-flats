@@ -281,32 +281,61 @@ baseline and the new cohort separately. Commit canonical inputs, scripts, raw
 manifests (and retained raw artifacts where repository size permits), generated
 outputs and documentation together.
 
-## Suggested implementation order
+## Completed foundation and remaining probe work
 
-Implementation status, 6 September 2026: the registry, manifest controls,
-release audit and predeclared sample are in place. The ONS PIPR July-2026 probe
-has reproduced all 12 selected rent values from the retained 19-August edition.
-The HMLR price artifact acquisition and its comparison remain outstanding; do
-not treat the rent result as validation of the price method or of all baseline
-rows.
+Status at 6 September 2026:
 
-1. Create the validation sample and its comparison sheet before looking at any
-   newly calculated values.
-2. Parameterise and test the existing ONS crime preparer; implement minimal
-   HMLR and ONS rent probe preparers and retain their manifests.
-3. Resolve every probe mismatch or record why the imported value cannot be
-   reproduced. Only then approve the release method.
-4. Approve the scope and mapping rules, including London and portal-data
-   authority, then implement the location registry, manifest helper and
-   release-audit validator.
-5. Generalise the proven price and rent preparers to all locations.
-6. Decide the authorised stock source; implement it or support controlled blank
-   values/manual evidence captures.
-7. Agree whether the three qualitative factors become data-driven or reviewed;
-   implement the selected rubric and checks.
-8. Publish the validated legacy baseline plus the new, fully evidenced cohort.
-   Consider a full baseline refresh only when a uniform source release is worth
-   the additional collection work.
+- The predeclared, stratified 12-place probe is in
+  `data/registry/validation_probe.csv`. Its reviewed price and rent mappings
+  are in `data/registry/validation_probe_mappings.csv`; result cells are not
+  pre-filled.
+- The empty expansion registry, registry preparer, release-manifest controls
+  and generated release audit are in place. The audit deliberately continues to
+  mark imported non-crime baseline rows as `review-required`; no missing value
+  is converted to zero.
+- The retained 19 August 2026 ONS PIPR workbook has been prepared for the
+  `2026-09-06-baseline-probe` release. All 12 July 2026 one-bedroom LA rent
+  values match the imported values. This validates only the stated rent
+  extraction and mappings for those rows.
+- `acquire_price_paid.py`, `prepare_buy.py` and the probe comparison utility
+  exist. They have not been run against an HMLR artifact or export for this
+  release.
+
+The only remaining substantive probe step is therefore the buy comparison. It
+must not be described as complete, matching, validated or reproducible until
+the following evidence chain exists and is reviewed.
+
+1. Obtain the exact HMLR Price Paid Data bulk artifacts or report-builder
+   exports needed to cover **1 July 2024 through 30 June 2026 inclusive**. Do
+   not substitute a current report, a differently bounded window, or an
+   undocumented summary. Retain the original files/exports under
+   `data/raw/releases/2026-09-06-baseline-probe/price/` and record every
+   artifact's URL, complete request/query, retrieval timestamp, source period,
+   SHA-256 and limitations in that release's `manifest.csv`.
+2. Confirm that the retained artifacts have the expected HMLR fields and that
+   together they cover the whole declared window. Preserve the reviewed query
+   keys, including Torbay's `District` exception; do not infer or normalise
+   query values while processing.
+3. Run `prepare_buy.py` offline with the retained release, the reviewed probe
+   mappings and the predeclared probe list. It must apply exactly the fixed
+   inclusive dates, category-A and flat/maisonette filters, then retain the
+   prepared values and its row-level audit outside the canonical imported
+   baseline inputs.
+4. Run the comparison utility against the imported buy values. Record a result
+   for every probe location: `match`, or a specific evidenced discrepancy such
+   as date-boundary, query-field, source-revision or filter difference. Do not
+   alter an imported buy value merely to make the result match.
+5. Only after all twelve comparisons are recorded may the price method be
+   called method-validated for the sample. Even then, it does not validate
+   untested baseline rows or convert the legacy baseline into a fully
+   source-to-output reproducible release.
+
+After that buy probe is resolved, the next decisions remain product and scope
+decisions rather than unfinished mechanics: approve the expansion cohort and
+London treatment, authorise a stock-data source or controlled manual protocol,
+and choose a reproducible or reviewed rubric for qualitative factors. A full
+baseline refresh is optional and should be undertaken only when a uniform
+source release is worth the collection work.
 
 ## What this will and will not solve
 
