@@ -79,6 +79,7 @@
   function renderMap(locations) {
     const group = $('mapMarkers'); group.replaceChildren();
     const ids = new Set(locations.map(x => x.id)); if (!ids.has(state.selectedId)) state.selectedId = locations[0]?.id;
+    let selectedLabel;
     locations.filter(x => known(x.lat) && known(x.lon)).forEach(x => {
       const [cx, cy] = project(x), marker = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
       marker.setAttribute('cx', cx.toFixed(2)); marker.setAttribute('cy', cy.toFixed(2)); marker.setAttribute('r', x.id === state.selectedId ? '9' : '6');
@@ -87,8 +88,9 @@
       marker.addEventListener('mouseenter', () => tooltip(x, marker)); marker.addEventListener('mouseleave', () => { $('mapTooltip').hidden = true; });
       marker.addEventListener('focus', () => tooltip(x, marker)); marker.addEventListener('blur', () => { $('mapTooltip').hidden = true; });
       marker.addEventListener('click', () => select(x.id)); marker.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); select(x.id); } }); group.appendChild(marker);
-      if (x.id === state.selectedId) { const label = document.createElementNS('http://www.w3.org/2000/svg', 'text'); label.setAttribute('x', (cx + 13).toFixed(2)); label.setAttribute('y', (cy + 4).toFixed(2)); label.setAttribute('class', 'selected-map-label'); label.textContent = x.name; group.appendChild(label); }
+      if (x.id === state.selectedId) { selectedLabel = document.createElementNS('http://www.w3.org/2000/svg', 'text'); selectedLabel.setAttribute('x', (cx + 13).toFixed(2)); selectedLabel.setAttribute('y', (cy + 4).toFixed(2)); selectedLabel.setAttribute('class', 'selected-map-label'); selectedLabel.textContent = x.name; }
     });
+    if (selectedLabel) group.appendChild(selectedLabel);
   }
   function sources(x) {
     const searches = data.sources.filter(s => s.location_id === x.id && isRightmoveSearch(s));
