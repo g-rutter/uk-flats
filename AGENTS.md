@@ -42,4 +42,4 @@ same CSV/build process without hard-coded row counts.
 
 ## Other rules
 
-Always commit and push an accepted change. The user will say 'Accepted'.
+Always commit and push an accepted change. The user will say 'Accepted', or send a one-word message with any prefix string of 'Accepted' including 'A'.
