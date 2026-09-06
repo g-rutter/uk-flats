@@ -25,14 +25,24 @@ def read_sources(path):
 
 
 def acquire(destination, source_rows):
-    if destination.exists():
-        raise ValueError(f'Destination already exists: {destination}')
-    destination.mkdir(parents=True)
+    if destination.exists() and not (destination / 'manifest.csv').is_file():
+        raise ValueError(f'Destination exists without a release manifest: {destination}')
+    destination.mkdir(parents=True, exist_ok=True)
+    existing = []
+    manifest_path = destination / 'manifest.csv'
+    if manifest_path.exists():
+        with manifest_path.open(newline='', encoding='utf-8') as source:
+            existing = list(csv.DictReader(source))
+        if {key for row in existing for key in row} != set(REQUIRED_COLUMNS):
+            raise ValueError(f'Invalid existing manifest: {manifest_path}')
+    existing_paths = {row['relative_path'] for row in existing}
     manifest_rows = []
     for source in source_rows:
         relative = Path(source['relative_path'])
         if relative.is_absolute() or '..' in relative.parts or not str(relative).startswith('price/'):
             raise ValueError(f'Unsafe or non-price artifact path: {relative}')
+        if relative.as_posix() in existing_paths:
+            raise ValueError(f'Artifact already retained: {relative}')
         path = destination / relative
         path.parent.mkdir(parents=True, exist_ok=True)
         with urlopen(source['original_url'], timeout=300) as response:
@@ -47,9 +57,10 @@ def acquire(destination, source_rows):
             'HM Land Registry', source.get('licence_or_terms') or 'Open Government Licence v3.0',
             source.get('coverage_limitations') or 'Category-A transactions; registrations may lag.',
         ))))
-    with (destination / 'manifest.csv').open('w', newline='', encoding='utf-8') as target:
+    with manifest_path.open('w', newline='', encoding='utf-8') as target:
         writer = csv.DictWriter(target, fieldnames=REQUIRED_COLUMNS, lineterminator='\n')
         writer.writeheader()
+        writer.writerows(existing)
         writer.writerows(manifest_rows)
 
 

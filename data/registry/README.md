@@ -15,5 +15,6 @@ Blank mappings are allowed only for `proposed` rows and must have a
 mapping from a nearby location or display name.
 
 `validation_probe.csv` predeclares a 12-place method-validation sample. Its
-result columns are intentionally blank until a dated probe release is prepared;
-it is a comparison sheet, not new evidence or an expansion cohort.
+rent and buy result columns record the completed dated probe; the remaining
+topic columns stay blank until their own reviewed probes are prepared. It is a
+comparison sheet, not new evidence or an expansion cohort.

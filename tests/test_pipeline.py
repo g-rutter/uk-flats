@@ -106,16 +106,17 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(len(rows), 8)
             self.assertTrue(all(row['status'] == 'missing' for row in rows))
 
-    def test_validation_probe_is_predeclared_and_has_no_results(self):
+    def test_validation_probe_is_predeclared_and_records_completed_quantitative_results(self):
         with (ROOT / 'data/registry/validation_probe.csv').open(newline='') as source:
             rows = list(csv.DictReader(source))
         ids = {row['id'] for row in compile_data(ROOT / 'data/inputs')['locations']}
         self.assertEqual(len(rows), 12)
         self.assertEqual(len({row['location_id'] for row in rows}), len(rows))
         self.assertTrue(all(row['location_id'] in ids for row in rows))
+        self.assertTrue(all(row[field] == 'match' for row in rows
+                            for field in ('rent_result', 'buy_result')))
         self.assertTrue(all(not row[field].strip() for row in rows
-                            for field in ('crime_result', 'rent_result', 'buy_result',
-                                          'stock_result', 'transport_result')))
+                            for field in ('crime_result', 'stock_result', 'transport_result')))
 
     def test_new_location_can_have_unknown_metrics_and_orphans_fail(self):
         with tempfile.TemporaryDirectory() as tmp:

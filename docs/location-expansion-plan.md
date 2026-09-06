@@ -287,8 +287,9 @@ Status at 6 September 2026:
 
 - The predeclared, stratified 12-place probe is in
   `data/registry/validation_probe.csv`. Its reviewed price and rent mappings
-  are in `data/registry/validation_probe_mappings.csv`; result cells are not
-  pre-filled.
+  are in `data/registry/validation_probe_mappings.csv`. Its completed rent and
+  buy result cells are generated from the retained release comparison; other
+  topic results remain blank.
 - The empty expansion registry, registry preparer, release-manifest controls
   and generated release audit are in place. The audit deliberately continues to
   mark imported non-crime baseline rows as `review-required`; no missing value
@@ -297,13 +298,17 @@ Status at 6 September 2026:
   `2026-09-06-baseline-probe` release. All 12 July 2026 one-bedroom LA rent
   values match the imported values. This validates only the stated rent
   extraction and mappings for those rows.
-- `acquire_price_paid.py`, `prepare_buy.py` and the probe comparison utility
-  exist. They have not been run against an HMLR artifact or export for this
-  release.
+- The official 2024, 2025 and 2026 HMLR yearly CSV artifacts are retained in
+  the probe release and recorded in its manifest. The offline price preparation
+  and comparison have been run for all 12 predeclared locations. All medians
+  and transaction counts match the imported baseline after documenting the
+  whole-pound half-up median rule; their source-field keys are explicitly
+  uppercase as supplied in HMLR bulk files. This validates the price method for
+  the sample only.
 
-The only remaining substantive probe step is therefore the buy comparison. It
-must not be described as complete, matching, validated or reproducible until
-the following evidence chain exists and is reviewed.
+The price comparison evidence chain is now complete and reviewed for the
+predeclared sample. The steps below record the completed standard; they remain
+the required procedure for any future probe.
 
 1. Obtain the exact HMLR Price Paid Data bulk artifacts or report-builder
    exports needed to cover **1 July 2024 through 30 June 2026 inclusive**. Do

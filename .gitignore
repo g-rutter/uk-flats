@@ -3,3 +3,7 @@ __pycache__/
 *.py[cod]
 .venv/
 data/staging/
+# HMLR yearly bulk CSVs exceed GitHub's per-file limit.  They are retained
+# locally with a checksummed release manifest and can be reacquired with the
+# reviewed request list.
+data/raw/releases/*/price/*.csv

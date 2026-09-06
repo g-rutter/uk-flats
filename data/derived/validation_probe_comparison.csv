@@ -1,0 +1,13 @@
+location_id,buy_result,rent_result,buy_baseline,buy_prepared,buy_transactions_baseline,buy_transactions_prepared,rent_baseline,rent_prepared
+barnsley,match,match,100000,100000,214,214,505,505
+burton-on-trent,match,match,104000,104000,147,147,610,610
+cardiff,match,match,165000,165000,1883,1883,902,902
+hull-kingston-upon-hull,match,match,95000,95000,406,406,498,498
+kettering,match,match,129475,129475,210,210,681,681
+loughborough,match,match,132000,132000,206,206,677,677
+manchester,match,match,192500,192500,4478,4478,998,998
+merthyr-tydfil,match,match,66248,66248,22,22,552,552
+northampton,match,match,150000,150000,717,717,748,748
+st-helens,match,match,94000,94000,146,146,590,590
+torbay,match,match,148000,148000,936,936,617,617
+wrexham,match,match,112500,112500,186,186,594,594

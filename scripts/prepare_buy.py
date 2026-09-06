@@ -3,6 +3,7 @@
 import argparse
 import csv
 from datetime import date
+from itertools import chain
 from pathlib import Path
 from statistics import median
 
@@ -11,11 +12,36 @@ from release_manifest import load
 
 START, END = date(2024, 7, 1), date(2026, 6, 30)
 REQUIRED = ('Price', 'Date of Transfer', 'Property Type', 'PPDCategory Type', 'Town/City', 'District')
+HMLR_COLUMNS = ('Transaction unique identifier', 'Price', 'Date of Transfer', 'Postcode',
+                'Property Type', 'Old/New', 'Duration', 'PAON', 'SAON', 'Street', 'Locality',
+                'Town/City', 'District', 'County', 'PPDCategory Type', 'Record Status')
 
 
 def read_csv(path):
     with Path(path).open(newline='', encoding='utf-8') as source:
         return list(csv.DictReader(source))
+
+
+def price_rows(path, artifact):
+    """Read either a headered review export or HMLR's 16-column bulk CSV."""
+    with Path(path).open(newline='', encoding='utf-8') as source:
+        reader = csv.reader(source)
+        first = next(reader, None)
+        if first is None:
+            raise ValueError(f'{artifact}: empty Price Paid artifact')
+        if tuple(first) == HMLR_COLUMNS:
+            rows = reader
+        elif set(REQUIRED).issubset(first):
+            yield from csv.DictReader(source, fieldnames=first)
+            return
+        elif len(first) == len(HMLR_COLUMNS):
+            rows = chain((first,), reader)
+        else:
+            raise ValueError(f'{artifact}: unexpected Price Paid schema')
+        for values in rows:
+            if len(values) != len(HMLR_COLUMNS):
+                raise ValueError(f'{artifact}: unexpected Price Paid schema')
+            yield dict(zip(HMLR_COLUMNS, values))
 
 
 def mappings(path, selected):
@@ -24,9 +50,11 @@ def mappings(path, selected):
         ident = row.get('location_id', '')
         if ident not in selected or ident in result:
             continue
-        if row.get('query_field') not in ('Town/City', 'District') or not row.get('query_value'):
+        query_field = row.get('price_query_field', row.get('query_field', ''))
+        query_value = row.get('price_query_value', row.get('query_value', ''))
+        if query_field not in ('Town/City', 'District') or not query_value:
             raise ValueError(f'{ident}: query_field must be Town/City or District and query_value is required')
-        result[ident] = row
+        result[ident] = {**row, 'query_field': query_field, 'query_value': query_value}
     missing = selected - set(result)
     if missing:
         raise ValueError(f'No reviewed price mapping for: {", ".join(sorted(missing))}')
@@ -45,11 +73,7 @@ def prepare(release, mapping_csv, probe_csv, output, audit_output):
     exclusions = {ident: dict(outside_window=0, non_flat=0, non_category_a=0, other_query=0) for ident in selected}
     for artifact, metadata in artifacts:
         path = Path(release) / artifact
-        with path.open(newline='', encoding='utf-8') as source:
-            reader = csv.DictReader(source)
-            if not reader.fieldnames or not set(REQUIRED).issubset(reader.fieldnames):
-                raise ValueError(f'{artifact}: unexpected Price Paid schema')
-            for row in reader:
+        for row in price_rows(path, artifact):
                 try:
                     transfer = date.fromisoformat(row['Date of Transfer'][:10])
                 except ValueError as exc:
@@ -69,19 +93,23 @@ def prepare(release, mapping_csv, probe_csv, output, audit_output):
     rows, audits = [], []
     for ident in sorted(selected):
         chosen = sorted(values[ident])
-        value = median(chosen) if chosen else ''
-        rendered = str(int(value)) if value != '' and value == int(value) else str(value)
+        raw_median = median(chosen) if chosen else ''
+        # The display proxy is whole pounds.  For the only possible fractional
+        # median (the midpoint of two integer prices), retain the established
+        # half-up rounding rule rather than Python's ties-to-even behaviour.
+        value = (int(raw_median * 2 + 1) // 2) if raw_median != '' else ''
+        rendered = str(value) if value != '' else ''
         rows.append(dict(location_id=ident, proxyMedian=rendered, transactions=len(chosen)))
         rule = mapping[ident]
         audits.append(dict(location_id=ident, query_field=rule['query_field'], query_value=rule['query_value'],
             period_start=START.isoformat(), period_end=END.isoformat(), selected_rows=len(chosen),
-            proxy_median=rendered, selected_prices=';'.join(map(str, chosen)),
+            raw_median=str(raw_median), proxy_median=rendered, selected_prices=';'.join(map(str, chosen)),
             source_artifacts=';'.join(name for name, _ in artifacts),
             source_sha256=';'.join(metadata['sha256'] for _, metadata in artifacts),
             **exclusions[ident]))
     write_csv(output, rows, ('location_id', 'proxyMedian', 'transactions'))
     write_csv(audit_output, audits, ('location_id', 'query_field', 'query_value', 'period_start', 'period_end',
-              'selected_rows', 'proxy_median', 'selected_prices', 'source_artifacts', 'source_sha256',
+              'selected_rows', 'raw_median', 'proxy_median', 'selected_prices', 'source_artifacts', 'source_sha256',
               'outside_window', 'non_flat', 'non_category_a', 'other_query'))
 
 

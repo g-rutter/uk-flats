@@ -88,9 +88,8 @@ coverage limitations. `scripts/release_audit.py`, run by `build.py`, writes
 crime rows are `ready` only because their retained workbook hash is present.
 
 `data/registry/validation_probe.csv` predeclares the 12-place stratified method
-probe described in the expansion plan. Its result columns remain blank until a
-separate retained release is run and discrepancies can be recorded without
-altering imported baseline values.
+probe described in the expansion plan. Its completed rent and buy result columns
+record the retained release comparison without altering imported baseline values.
 
 ## July 2026 price and rent probe
 
@@ -103,14 +102,20 @@ the imported values exactly; that confirms the rent extraction rule only, not
 the provenance of any other baseline row.
 
 `validation_probe_mappings.csv` is the reviewed, explicit mapping sheet for the
-probe only. It records HMLR Town/City/District query values and ONS LA codes;
-it does not make the legacy baseline a reviewed expansion registry.
+probe only. It records the exact HMLR bulk Town/City/District values and ONS LA
+codes; it does not make the legacy baseline a reviewed expansion registry.
 
-`acquire_price_paid.py` retains a reviewed list of HMLR bulk-file or report-
-builder requests, while `prepare_buy.py` applies the fixed 2024-07-01 to
-2026-06-30, category-A, flat/maisonette rule offline and retains selected values
-and exclusions. HMLR artifacts have not yet been retained, so no buy probe
-result has been claimed.
+`acquire_price_paid.py` retained the official 2024, 2025 and 2026 HMLR yearly
+CSV files in that release, with their hashes and retrieval records. The 2024
+and 2026 whole-year artifacts are filtered to the inclusive 2024-07-01 to
+2026-06-30 window. `prepare_buy.py` accepts HMLR's 16-column bulk schema,
+uses the reviewed exact uppercase Town/City or District keys, applies the
+category-A and flat/maisonette filters offline, and retains selected values and
+exclusions. The display value is a whole-pound median; an exact half-pound
+midpoint rounds up. All twelve price medians and transaction counts match the
+imported baseline after that documented rounding rule. Together with the
+already matching rent results, this validates the stated methods and mappings
+for this sample only; it does not make untested baseline rows reproducible.
 
 ## Fresh crime research schema
 

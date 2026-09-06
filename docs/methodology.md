@@ -42,7 +42,8 @@ Manchester files, and has unassigned split/unmapped records. Add ASB only after 
 dated archive and geography/coverage review supports comparable CSP rates.
 
 - Buying: recorded 24-month HMLR category-A flat/maisonette median across all sizes,
-  with transaction count. Uses the Town/City field, except Torbay's district proxy.
+  with transaction count. The displayed whole-pound median rounds an exact .5
+  midpoint up. Uses the Town/City field, except Torbay's district proxy.
 - Renting: recorded July 2026 ONS one-bedroom modelled LA mean, not an asking median.
   No observation counts survive for this series. Town and LA boundaries differ.
 - Stock: recorded 5 September 2026 Rightmove headline counts, not deduplicated listings.
