@@ -118,5 +118,5 @@ and reproduction. These observations are freshly retrieved, not legacy imports.
 Build checks crime foreign keys, duplicates, periods, evidence references, numeric
 validity, source hashes and compatibility with published rates allowing population
 rounding. Those checks are arithmetic/provenance checks, not evidence that every
-force reported all incidents. Crime research rows are excluded from `web/data.js`;
-the new source-level evidence entry is hidden with other crime evidence in the UI.
+force reported all incidents. Reviewed ONS CSP offence rows are emitted into
+`web/data.js` as separate measures; ASB and all combined safety measures are excluded.

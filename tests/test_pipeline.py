@@ -1,5 +1,6 @@
 import csv
 import hashlib
+import json
 from pathlib import Path
 import shutil
 import sys
@@ -15,7 +16,7 @@ from crime_outliers import audit as audit_outliers
 
 
 class PipelineTests(unittest.TestCase):
-    def test_build_is_deterministic_and_excludes_safety(self):
+    def test_build_is_deterministic_and_excludes_combined_safety(self):
         outputs = [ROOT / 'data/derived/broad_screen.csv', ROOT / 'web/data.js',
                    ROOT / 'data/derived/crime_research.csv',
                    ROOT / 'data/derived/crime_boundary_audit.csv',
@@ -29,6 +30,10 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(first, [p.read_bytes() for p in outputs])
         self.assertNotIn(b'violenceSexualIndicator', first[1])
         self.assertNotIn(b'screenScore', first[1])
+        payload = json.loads(first[1].decode('utf-8').split(' = ', 1)[1].rstrip(';\n'))
+        for category in ('violence_against_person', 'sexual_offences'):
+            rows = [r for r in payload['crimeResearch'] if r['category'] == category]
+            self.assertEqual(sum(bool(r['rate_per_1000']) for r in rows), 63)
         self.assertEqual(len(compile_data(ROOT / 'data/inputs')['locations']), 63)
 
     def test_new_location_can_have_unknown_metrics_and_orphans_fail(self):

@@ -14,16 +14,19 @@ shortlists.
 - [x] Run and review ASB PFA/CSP aggregation. Keep split-LA and incomplete
   force/month results unknown; never annualise, impute or deduplicate ASB by Crime ID.
 - [x] Reconcile Barnsley/Sheffield boundary changes and Northamptonshire splits.
-- [ ] Review material ONS residuals and crime outliers.
-- [ ] Decide whether reviewed crime measures are comparable enough to display.
+- [x] Review material ONS residuals and crime outliers.
+- [x] Decide whether reviewed crime measures are comparable enough to display.
 
 ## Checkpoint
 
-Current checkpoint: ONS offence research is reproducible; ASB acquisition artifacts
-and the reusable aggregator are retained; the April 2025–March 2026 aggregation is
-in `data/derived/asb_2025-04_2026-03*.csv`. Barnsley and Sheffield LA code changes
-are reconciled; Kettering and Northampton remain split-LA unknowns, Manchester has
-no force files in the archive, and no ASB values are in canonical inputs.
+Current checkpoint: the separate ONS CSP violence and sexual-offence rates are
+displayed for all 63 locations after the documented residual/outlier review.
+Barnsley and Sheffield LA code changes are reconciled; Kettering and Northampton
+use directly named CSP rows and matching CSP populations rather than whole-LA
+values. ASB acquisition artifacts and the reusable aggregator are retained, but
+ASB is not comparable enough to display: Manchester has no force files in the
+archive and force/month completeness is unresolved. No ASB values are in canonical
+inputs.
 
 ```sh
 python3 scripts/prepare_crime.py

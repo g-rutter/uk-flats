@@ -1,6 +1,7 @@
 # Crime replacement
 
-Status: research only. Crime is not in the browser or rankings.
+Status: reviewed ONS CSP offence rates are displayed separately; ASB is research
+only. No crime or safety ranking is produced.
 
 ## Selected path
 
@@ -37,9 +38,10 @@ and Police.uk coverage snapshots, the March 2026 Police.uk archive, and the
 LSOA-to-LAD lookup. The archive is 1.6 GB and is retained for research. No ASB
 values have been added to `data/inputs/crime_observations.csv`.
 
-The ONS pass has 61 code-agreeing locations after reconciling Barnsley and Sheffield
-2025 LA codes; Kettering and Northampton remain split-LA cases. The completed ASB
-research output records 853,367 assigned records and 96,558 unmapped or split
-records, with force/month completeness still unknown. Force residuals and boundary
-compatibility still require review. See
-[TODO](TODO.md) for the checkpoint commands and remaining gates.
+The ONS pass covers all 63 locations after reconciling Barnsley and Sheffield 2025
+LA codes. Kettering and Northampton use their directly named CSP rows and matching
+CSP populations, rather than an ambiguous whole-LA allocation. The residual and
+outlier review supports displaying the two ONS rates separately, as documented in
+[the review decision](crime-review.md). The completed ASB research output records
+853,367 assigned records and 96,558 unmapped or split records, with force/month
+completeness still unknown; ASB remains excluded.

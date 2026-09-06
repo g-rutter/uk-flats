@@ -49,8 +49,9 @@ existing inputs. Normal updates do not require archive extraction.
 Data are **imported legacy claims, not independently verified research**. Buying is
 an all-flat achieved-price proxy; renting is a modelled one-bedroom local-authority
 mean. Crime research has a separate pipeline; see [crime research](docs/crime-replacement.md).
-Police.uk ASB aggregation is the selected replacement path, but crime rates remain
-excluded pending geography and coverage review. Combined rankings are absent.
+The screen shows separate ONS CSP recorded-offence rates for 61 locations; ASB
+remains excluded pending coverage review. These rates are not safety scores and
+combined rankings are absent.
 
 See [orientation](AGENTS.md), [methodology](docs/methodology.md),
 [provenance and schema](docs/provenance.md), and [to-do list](docs/TODO.md).

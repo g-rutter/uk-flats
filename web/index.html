@@ -7,14 +7,14 @@
 <main>
 <header><p>UK FLAT LOCATION RESEARCH</p><h1>Compare locations broadly</h1>
 <p>Buy or rent a one-bedroom flat · England and Wales</p></header>
-<aside>Imported historical evidence, not freshly verified. Buying prices cover all flat sizes. Safety awaits a population-normalised replacement; combined rankings are hidden.</aside>
+<aside>Imported historical evidence, not freshly verified. Buying prices cover all flat sizes. Separate CSP-level recorded-offence rates are shown where mapped; they are not a safety score. ASB remains excluded because coverage is incomplete. Combined rankings are hidden.</aside>
 <section class="controls" aria-label="Comparison controls">
 <label>Search <input id="search" type="search" placeholder="Name or local authority"></label>
 <label>Compare <select id="tenure"><option value="buy">Buying</option><option value="rent">Renting</option></select></label>
 <label>Sort <select id="sort"><option value="name">Location A–Z</option><option value="price">Price proxy: low to high</option><option value="stock">One-bedroom count: high to low</option></select></label>
 </section>
 <p id="count" aria-live="polite"></p>
-<div class="table-wrap"><table><thead><tr><th>Location / local authority</th><th id="price-heading">All-flat achieved median</th><th>One-bed portal count</th><th>London rail (min)</th><th>Birmingham rail (min)</th><th>Safety</th></tr></thead><tbody id="rows"></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>Location / local authority</th><th id="price-heading">All-flat achieved median</th><th>One-bed portal count</th><th>London rail (min)</th><th>Birmingham rail (min)</th><th>Violence offences / 1,000</th><th>Sexual offences / 1,000</th></tr></thead><tbody id="rows"></tbody></table></div>
 <section id="details" aria-live="polite"><h2>Evidence and limits</h2><p>Select a location for its evidence.</p></section>
 <details><summary>Source periods and limits</summary><div id="evidence"></div></details>
 <footer>Inputs: data/inputs · Rebuild: python3 scripts/build.py · Audit: docs/provenance.md</footer>

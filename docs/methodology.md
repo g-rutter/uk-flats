@@ -20,8 +20,13 @@ is added; price sorting uses proxies only.
   network assessments. These are not live timetables or accessibility measurements.
 - Quiet/condition: inherited coarse judgements with reasons; not measured exposure
   or neighbourhood quality. Deprivation is not equivalent to visual condition.
-- Safety: historical one-mile counts and derived scores are archived. Fresh crime
-  research is separate and not displayed yet.
+- Recorded offences: separate ONS CSP violence-against-the-person and sexual-offence
+  rates per 1,000 mid-2024 residents for April 2025–March 2026 are shown for all 63
+  locations. They are recorded-offence measures, not safety scores, and must not
+  be combined or used to rank locations. Kettering and Northampton use their
+  directly named CSP rows and matching CSP populations, rather than whole-LA
+  values. ASB remains excluded because the Police.uk archive has incomplete
+  force/month coverage.
 
 See the evidence CSV for recorded periods and limitations. Geographies and periods
 remain explicit rather than implicitly harmonised. This attempt reproducibly
@@ -30,7 +35,7 @@ full source-to-output reproducibility.
 
 ## Crime research
 
-[Crime replacement](crime-replacement.md) is the current path. ONS CSP data supplies
-the offence rates; Police.uk ASB records are aggregated to PFA/CSP using a reusable
-archive-and-lookup pipeline. Both remain research-only until geography and coverage
-review passes.
+[Crime replacement](crime-replacement.md) records the review decision. ONS CSP data
+supplies the displayed separate offence rates. Police.uk ASB records are aggregated
+to PFA/CSP using a reusable archive-and-lookup pipeline, but remain research-only
+pending coverage review.

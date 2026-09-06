@@ -93,7 +93,10 @@ def compile_crime(inputs, locations, evidence):
             result.setdefault('count', '')
             result.setdefault('population', '')
             result.setdefault('rate_per_1000', '')
-            result['review_status'] = 'Research only; safety pending ASB and comparability review'
+            result['review_status'] = (
+                'Reviewed separate CSP recorded-offence rate; no safety interpretation'
+                if category != 'asb' and observation else
+                'ASB excluded pending force/month coverage and geography review')
             result['missing_reason'] = ('Source count or population unavailable' if observation and (observation['count'] == '' or observation['population'] == '') else '') if observation else (
                 'No verified compatible CSP ASB numerator acquired; ONS appendix D4/D5 are national totals' if category == 'asb' else
                 'No verified observation acquired for this location')
