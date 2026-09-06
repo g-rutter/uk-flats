@@ -48,7 +48,7 @@ existing inputs. Normal updates do not require archive extraction.
 
 Data are **imported historical claims, not independently verified research**.
 Buying is an all-flat achieved-price proxy; renting is a modelled one-bedroom
-local-authority mean. The screen calculates separate Buy/Rent broad screening
+local-authority mean. The screen calculates separate Buy/Rent broad composite
 scores; their safety component uses the separate ONS CSP recorded-offence rates.
 ASB remains excluded pending coverage review. See [crime research](docs/crime-replacement.md).
 

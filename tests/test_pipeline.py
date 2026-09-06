@@ -16,7 +16,7 @@ from crime_outliers import audit as audit_outliers
 
 
 class PipelineTests(unittest.TestCase):
-    def test_build_is_deterministic_and_calculates_screening_scores(self):
+    def test_build_is_deterministic_and_calculates_composite_scores(self):
         outputs = [ROOT / 'data/derived/broad_screen.csv', ROOT / 'web/data.js',
                    ROOT / 'data/derived/crime_research.csv',
                    ROOT / 'data/derived/crime_boundary_audit.csv',
@@ -34,16 +34,16 @@ class PipelineTests(unittest.TestCase):
             rows = [r for r in payload['crimeResearch'] if r['category'] == category]
             self.assertEqual(sum(bool(r['rate_per_1000']) for r in rows), 63)
         self.assertEqual(len(compile_data(ROOT / 'data/inputs')['locations']), 63)
-        self.assertEqual(payload['screening']['weights']['safety'], 15)
-        self.assertTrue(all(payload['screening']['results'][location['id']]['tenures']['buy']['score'] is not None
+        self.assertEqual(payload['composite']['weights']['safety'], 15)
+        self.assertTrue(all(payload['composite']['results'][location['id']]['tenures']['buy']['score'] is not None
                             for location in payload['locations']))
         for tenure in ('buy', 'rent'):
-            bands = payload['screening']['score_bands'][tenure]
+            bands = payload['composite']['score_bands'][tenure]
             self.assertEqual(sum(bands[band]['count'] for band in ('low', 'mid', 'high')) + bands['unknown'], 63)
             self.assertTrue(all(bands[band]['count'] for band in ('low', 'mid', 'high')))
             band_by_score = {}
             for location in payload['locations']:
-                result = payload['screening']['results'][location['id']]['tenures'][tenure]
+                result = payload['composite']['results'][location['id']]['tenures'][tenure]
                 band_by_score.setdefault(result['score'], result['band'])
                 self.assertEqual(band_by_score[result['score']], result['band'])
 

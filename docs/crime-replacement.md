@@ -1,7 +1,7 @@
 # Crime replacement
 
 Status: reviewed ONS CSP offence rates are displayed separately and supply the
-limited recorded-offence safety proxy in the broad screening score. ASB is
+limited recorded-offence safety proxy in the broad composite score. ASB is
 research-only.
 
 ## Selected path

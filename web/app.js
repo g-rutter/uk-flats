@@ -15,8 +15,8 @@
   const minutes = (v, c) => known(v) ? `${v} min${known(c) ? ` · ${c} change${c === 1 ? '' : 's'}` : ''}` : 'Not available';
   const price = x => x[state.tenure][state.tenure === 'buy' ? 'proxyMedian' : 'proxyMonthly'];
   const stock = x => x[state.tenure].oneBedCount;
-  const score = x => data.screening.results[x.id].tenures[state.tenure].score;
-  const band = x => `score-${data.screening.results[x.id].tenures[state.tenure].band || 'unknown'}`;
+  const score = x => data.composite.results[x.id].tenures[state.tenure].score;
+  const band = x => `score-${data.composite.results[x.id].tenures[state.tenure].band || 'unknown'}`;
   const rate = (x, category) => crime.get(x.id)?.[category]?.rate_per_1000;
   const localTransportDefinition = 'This is a broad town or city judgement of bus and rail coverage. It does not assess accessibility for a specific neighbourhood, street or home.';
   const recentSalesDefinition = '“Recent” means completed flat and maisonette sales dated 1 July 2024 to 30 June 2026. The figure is the median across all flat sizes, not a one-bedroom estimate; recent transactions can be incomplete because registration lags.';
@@ -68,7 +68,7 @@
   }
   function tooltip(x, target) {
     const box = $('mapWrap').getBoundingClientRect(), marker = target.getBoundingClientRect();
-    $('mapTooltip').innerHTML = `<strong>${escape(x.name)}</strong><span>Screening score: ${show(score(x))} out of 100</span><span>${money(price(x))}${state.tenure === 'rent' ? ' per month' : ''} · ${show(stock(x))} one-bedroom listings</span>`;
+    $('mapTooltip').innerHTML = `<strong>${escape(x.name)}</strong><span>Composite score: ${show(score(x))} out of 100</span><span>${money(price(x))}${state.tenure === 'rent' ? ' per month' : ''} · ${show(stock(x))} one-bedroom listings</span>`;
     $('mapTooltip').style.left = `${marker.left - box.left + marker.width / 2}px`; $('mapTooltip').style.top = `${marker.top - box.top - 8}px`; $('mapTooltip').hidden = false;
   }
   function renderMap(locations) {
@@ -78,7 +78,7 @@
       const [cx, cy] = project(x), marker = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
       marker.setAttribute('cx', cx.toFixed(2)); marker.setAttribute('cy', cy.toFixed(2)); marker.setAttribute('r', x.id === state.selectedId ? '9' : '6');
       marker.setAttribute('class', `map-marker ${band(x)}${x.id === state.selectedId ? ' selected' : ''}`); marker.setAttribute('tabindex', '0'); marker.setAttribute('role', 'button');
-      marker.setAttribute('aria-label', `${x.name}: screening score ${show(score(x))} out of 100`);
+      marker.setAttribute('aria-label', `${x.name}: composite score ${show(score(x))} out of 100`);
       marker.addEventListener('mouseenter', () => tooltip(x, marker)); marker.addEventListener('mouseleave', () => { $('mapTooltip').hidden = true; });
       marker.addEventListener('focus', () => tooltip(x, marker)); marker.addEventListener('blur', () => { $('mapTooltip').hidden = true; });
       marker.addEventListener('click', () => select(x.id)); marker.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); select(x.id); } }); group.appendChild(marker);
@@ -130,7 +130,7 @@
   }
   function renderDetail() {
     const x = byId.get(state.selectedId); if (!x) { $('details').innerHTML = '<p>No location matches the current view.</p>'; return; }
-    const factorValues = data.screening.results[x.id].tenures[state.tenure].factors;
+    const factorValues = data.composite.results[x.id].tenures[state.tenure].factors;
     const offences = crime.get(x.id), factorRows = Object.entries(factorValues).map(([key, value]) => {
       const [label, note] = factors[key] || [key, '']; return `<div class="component"><span>${help(label, note)}</span><strong class="score-pill score-${known(value) ? Math.ceil(value) : 'unknown'}">${show(value)}</strong></div>`;
     }).join('');
@@ -138,7 +138,7 @@
       ? [row('Recent sales price', money(x.buy.proxyMedian), recentSalesDefinition), row('Completed sales in sample', known(x.buy.transactions) ? `${show(x.buy.transactions)} sales` : 'Not available'), row('One-bedroom listings', known(x.buy.oneBedCount) ? `${show(x.buy.oneBedCount)} listings` : 'Not available', 'Rightmove headline count at the recorded snapshot; listings are not deduplicated.')]
       : [row('Typical one-bedroom rent', `${money(x.rent.proxyMonthly)}${known(x.rent.proxyMonthly) ? ' per month' : ''}`, 'Modelled monthly local-authority average; not an asking-rent median.'), row('One-bedroom listings', known(x.rent.oneBedCount) ? `${show(x.rent.oneBedCount)} listings` : 'Not available', 'Rightmove headline count at the recorded snapshot; listings are not deduplicated.')];
     const localRows = [row('Local transport', show(x.localTransport.reason), localTransportDefinition), row('Quietness', show(x.quiet.reason)), row('Local condition', show(x.condition.reason))];
-    $('details').innerHTML = `<p class="eyebrow">${escape(x.country)} · ${escape(x.localAuthority)}</p><h2>${escape(x.name)}</h2><div class="headline-grid"><div class="score-card ${band(x)}"><span>${state.tenure === 'buy' ? 'Buying' : 'Renting'} screening score</span><strong>${show(score(x))}<small>out of 100</small></strong></div><div><span>${state.tenure === 'buy' ? help('Recent sales price', recentSalesDefinition) : 'Typical one-bedroom rent'}</span><strong>${money(price(x))}${state.tenure === 'rent' ? '<small>per month</small>' : ''}</strong></div></div><section class="detail-section score-section"><div class="section-heading"><h3>Screen components</h3><span>Each score is out of 5</span></div><div class="component-grid">${factorRows}</div></section>${section(state.tenure === 'buy' ? 'Buying evidence' : 'Renting evidence', priceRows, [['Price', factorValues.affordability], ['Listings', factorValues.stock]])}${section('Rail connections', [row('To London', minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)), row('To Birmingham', minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges))], [['Rail', factorValues.national_transport]])}${section('Recorded offences', [row('Violence against the person', `${show(offences?.violence_against_person?.rate_per_1000)} per 1,000${offences?.violence_against_person ? ` · ${escape(offences.violence_against_person.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.'), row('Sexual offences', `${show(offences?.sexual_offences?.rate_per_1000)} per 1,000${offences?.sexual_offences ? ` · ${escape(offences.sexual_offences.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.')], [['Offences', factorValues.safety]])}${section('Local picture', localRows, [['Transport', factorValues.local_transport], ['Quiet', factorValues.quiet], ['Condition', factorValues.condition]])}${sources(x)}`;
+    $('details').innerHTML = `<p class="eyebrow">${escape(x.country)} · ${escape(x.localAuthority)}</p><h2>${escape(x.name)}</h2><div class="headline-grid"><div class="score-card ${band(x)}"><span>${state.tenure === 'buy' ? 'Buying' : 'Renting'} composite score</span><strong>${show(score(x))}<small>out of 100</small></strong></div><div><span>${state.tenure === 'buy' ? help('Recent sales price', recentSalesDefinition) : 'Typical one-bedroom rent'}</span><strong>${money(price(x))}${state.tenure === 'rent' ? '<small>per month</small>' : ''}</strong></div></div><section class="detail-section score-section"><div class="section-heading"><h3>Score components</h3><span>Each score is out of 5</span></div><div class="component-grid">${factorRows}</div></section>${section(state.tenure === 'buy' ? 'Buying evidence' : 'Renting evidence', priceRows, [['Price', factorValues.affordability], ['Listings', factorValues.stock]])}${section('Rail connections', [row('To London', minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)), row('To Birmingham', minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges))], [['Rail', factorValues.national_transport]])}${section('Recorded offences', [row('Violence against the person', `${show(offences?.violence_against_person?.rate_per_1000)} per 1,000${offences?.violence_against_person ? ` · ${escape(offences.violence_against_person.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.'), row('Sexual offences', `${show(offences?.sexual_offences?.rate_per_1000)} per 1,000${offences?.sexual_offences ? ` · ${escape(offences.sexual_offences.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.')], [['Offences', factorValues.safety]])}${section('Local picture', localRows, [['Transport', factorValues.local_transport], ['Quiet', factorValues.quiet], ['Condition', factorValues.condition]])}${sources(x)}`;
     $('details').querySelectorAll('.help').forEach(button => button.addEventListener('click', () => {
       const text = button.nextElementSibling, willOpen = text.hidden;
       closeHelp();
@@ -152,7 +152,7 @@
   }
   function renderSortHeadings() {
     const headings = { name: 'nameHeading', score: 'scoreHeading', price: 'priceHeading', stock: 'stockHeading', london: 'londonHeading', birmingham: 'birminghamHeading', violence: 'violenceHeading', sexual: 'sexualHeading' };
-    const labels = { name: 'Location / local authority', score: 'Screening score out of 100', price: state.tenure === 'buy' ? 'Recent sales price' : 'Typical one-bedroom rent / month', stock: 'One-bedroom listings', london: 'London rail', birmingham: 'Birmingham rail', violence: 'Violence / 1,000', sexual: 'Sexual offences / 1,000' };
+    const labels = { name: 'Location / local authority', score: 'Composite score out of 100', price: state.tenure === 'buy' ? 'Recent sales price' : 'Typical one-bedroom rent / month', stock: 'One-bedroom listings', london: 'London rail', birmingham: 'Birmingham rail', violence: 'Violence / 1,000', sexual: 'Sexual offences / 1,000' };
     Object.entries(headings).forEach(([key, id]) => {
       const heading = $(id), active = state.sort === key, label = labels[key];
       heading.setAttribute('aria-sort', active ? (state.sortDirection === 'asc' ? 'ascending' : 'descending') : 'none');
@@ -167,7 +167,7 @@
   function renderMapKey() {
     const format = value => Number.isInteger(value) ? String(value) : String(value).replace(/\.0$/, '');
     ['high', 'mid', 'low'].forEach(bandName => {
-      const range = data.screening.score_bands[state.tenure][bandName];
+      const range = data.composite.score_bands[state.tenure][bandName];
       const item = $(`${bandName}ScoreRange`).parentElement;
       item.hidden = !range.count;
       if (!range.count) return;

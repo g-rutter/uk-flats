@@ -133,7 +133,7 @@ def assign_score_bands(results, tenure):
     return bands
 
 
-def compile_screening(locations, crime):
+def compile_composite(locations, crime):
     """Return score metadata and per-location values; never use legacy scores."""
     violence = {row['location_id']: row['rate_per_1000'] for row in crime
                 if row['category'] == 'violence_against_person' and known(row['rate_per_1000'])}
@@ -161,7 +161,7 @@ def compile_screening(locations, crime):
             results[row['id']]['tenures'][tenure] = dict(factors=factors, score=weighted_score(factors))
     score_bands = {tenure: assign_score_bands(results, tenure) for tenure in ('buy', 'rent')}
     return {
-        'title': 'Broad screening score',
+        'title': 'Broad composite score',
         'weights': WEIGHTS,
         'safety_label': 'Recorded-offence safety proxy',
         'safety_note': 'Equal-weighted quintile scores for ONS CSP violence-against-the-person and sexual-offence rates; lower recorded rates score higher. ASB is excluded pending coverage review.',

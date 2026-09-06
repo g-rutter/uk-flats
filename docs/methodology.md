@@ -8,9 +8,9 @@ The current inputs import historical numbers and assessments without refreshing 
 endorsing them. They add no source research. Confidence labels and reasons remain
 historical assessments. Do not reuse archived scores, rankings or decisions.
 
-## Composite screening score
+## Composite score
 
-The broad screen calculates separate 0--100 Buying and Renting screening scores.
+The broad screen calculates separate 0--100 Buying and Renting composite scores.
 They compare only the current location set and are not final grades, price advice,
 or neighbourhood conclusions. The calculation is new: it does not use archived
 scores, rankings, shortlists or decisions.
@@ -52,7 +52,7 @@ dated archive and geography/coverage review supports comparable CSP rates.
   or neighbourhood quality. Deprivation is not equivalent to visual condition.
 - Recorded offences: ONS CSP violence-against-the-person and sexual-offence rates
   per 1,000 mid-2024 residents for April 2025–March 2026 are shown for all 63
-  locations and are the limited recorded-offence component of the screening score.
+  locations and are the limited recorded-offence component of the composite score.
   They are not direct measures of safety.
   Kettering and Northampton use their
   directly named CSP rows and matching CSP populations, rather than whole-LA

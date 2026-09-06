@@ -13,7 +13,7 @@ window.FLATS_DATA = {
         "transactions": 214,
         "affordabilityConfidence": "High",
         "oneBedCount": 25,
-        "affordabilityReason": "Median of 214 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 214 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 505,
@@ -57,7 +57,7 @@ window.FLATS_DATA = {
         "transactions": 3183,
         "affordabilityConfidence": "High",
         "oneBedCount": 854,
-        "affordabilityReason": "Median of 3183 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 3183 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 825,
@@ -101,7 +101,7 @@ window.FLATS_DATA = {
         "transactions": 141,
         "affordabilityConfidence": "High",
         "oneBedCount": 8,
-        "affordabilityReason": "Median of 141 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 141 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 534,
@@ -145,7 +145,7 @@ window.FLATS_DATA = {
         "transactions": 297,
         "affordabilityConfidence": "High",
         "oneBedCount": 77,
-        "affordabilityReason": "Median of 297 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 297 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 498,
@@ -189,7 +189,7 @@ window.FLATS_DATA = {
         "transactions": 493,
         "affordabilityConfidence": "High",
         "oneBedCount": 64,
-        "affordabilityReason": "Median of 493 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 493 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 647,
@@ -233,7 +233,7 @@ window.FLATS_DATA = {
         "transactions": 453,
         "affordabilityConfidence": "High",
         "oneBedCount": 76,
-        "affordabilityReason": "Median of 453 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 453 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 553,
@@ -277,7 +277,7 @@ window.FLATS_DATA = {
         "transactions": 98,
         "affordabilityConfidence": "Medium",
         "oneBedCount": 5,
-        "affordabilityReason": "Median of 98 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 98 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 463,
@@ -321,7 +321,7 @@ window.FLATS_DATA = {
         "transactions": 147,
         "affordabilityConfidence": "High",
         "oneBedCount": 26,
-        "affordabilityReason": "Median of 147 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 147 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 610,
@@ -365,7 +365,7 @@ window.FLATS_DATA = {
         "transactions": 1883,
         "affordabilityConfidence": "High",
         "oneBedCount": 259,
-        "affordabilityReason": "Median of 1883 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 1883 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 902,
@@ -409,7 +409,7 @@ window.FLATS_DATA = {
         "transactions": 570,
         "affordabilityConfidence": "High",
         "oneBedCount": 43,
-        "affordabilityReason": "Median of 570 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 570 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 721,
@@ -453,7 +453,7 @@ window.FLATS_DATA = {
         "transactions": 204,
         "affordabilityConfidence": "High",
         "oneBedCount": 14,
-        "affordabilityReason": "Median of 204 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 204 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 538,
@@ -497,7 +497,7 @@ window.FLATS_DATA = {
         "transactions": 830,
         "affordabilityConfidence": "High",
         "oneBedCount": 88,
-        "affordabilityReason": "Median of 830 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 830 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 759,
@@ -541,7 +541,7 @@ window.FLATS_DATA = {
         "transactions": 220,
         "affordabilityConfidence": "High",
         "oneBedCount": 23,
-        "affordabilityReason": "Median of 220 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 220 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 494,
@@ -585,7 +585,7 @@ window.FLATS_DATA = {
         "transactions": 532,
         "affordabilityConfidence": "High",
         "oneBedCount": 73,
-        "affordabilityReason": "Median of 532 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 532 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 606,
@@ -629,7 +629,7 @@ window.FLATS_DATA = {
         "transactions": 281,
         "affordabilityConfidence": "High",
         "oneBedCount": 25,
-        "affordabilityReason": "Median of 281 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 281 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 491,
@@ -673,7 +673,7 @@ window.FLATS_DATA = {
         "transactions": 597,
         "affordabilityConfidence": "High",
         "oneBedCount": 32,
-        "affordabilityReason": "Median of 597 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 597 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 587,
@@ -717,7 +717,7 @@ window.FLATS_DATA = {
         "transactions": 681,
         "affordabilityConfidence": "High",
         "oneBedCount": 74,
-        "affordabilityReason": "Median of 681 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 681 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 743,
@@ -761,7 +761,7 @@ window.FLATS_DATA = {
         "transactions": 216,
         "affordabilityConfidence": "High",
         "oneBedCount": 34,
-        "affordabilityReason": "Median of 216 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 216 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 546,
@@ -805,7 +805,7 @@ window.FLATS_DATA = {
         "transactions": 106,
         "affordabilityConfidence": "High",
         "oneBedCount": 16,
-        "affordabilityReason": "Median of 106 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 106 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 400,
@@ -849,7 +849,7 @@ window.FLATS_DATA = {
         "transactions": 288,
         "affordabilityConfidence": "High",
         "oneBedCount": 33,
-        "affordabilityReason": "Median of 288 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 288 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 582,
@@ -893,7 +893,7 @@ window.FLATS_DATA = {
         "transactions": 406,
         "affordabilityConfidence": "High",
         "oneBedCount": 92,
-        "affordabilityReason": "Median of 406 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 406 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 498,
@@ -937,7 +937,7 @@ window.FLATS_DATA = {
         "transactions": 545,
         "affordabilityConfidence": "High",
         "oneBedCount": 117,
-        "affordabilityReason": "Median of 545 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 545 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 743,
@@ -981,7 +981,7 @@ window.FLATS_DATA = {
         "transactions": 210,
         "affordabilityConfidence": "High",
         "oneBedCount": 15,
-        "affordabilityReason": "Median of 210 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 210 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 681,
@@ -1025,7 +1025,7 @@ window.FLATS_DATA = {
         "transactions": 231,
         "affordabilityConfidence": "High",
         "oneBedCount": 26,
-        "affordabilityReason": "Median of 231 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 231 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 596,
@@ -1069,7 +1069,7 @@ window.FLATS_DATA = {
         "transactions": 2152,
         "affordabilityConfidence": "High",
         "oneBedCount": 453,
-        "affordabilityReason": "Median of 2152 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 2152 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 779,
@@ -1113,7 +1113,7 @@ window.FLATS_DATA = {
         "transactions": 803,
         "affordabilityConfidence": "High",
         "oneBedCount": 190,
-        "affordabilityReason": "Median of 803 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 803 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 717,
@@ -1157,7 +1157,7 @@ window.FLATS_DATA = {
         "transactions": 285,
         "affordabilityConfidence": "High",
         "oneBedCount": 47,
-        "affordabilityReason": "Median of 285 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 285 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 661,
@@ -1201,7 +1201,7 @@ window.FLATS_DATA = {
         "transactions": 2356,
         "affordabilityConfidence": "High",
         "oneBedCount": 965,
-        "affordabilityReason": "Median of 2356 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 2356 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 683,
@@ -1245,7 +1245,7 @@ window.FLATS_DATA = {
         "transactions": 206,
         "affordabilityConfidence": "High",
         "oneBedCount": 17,
-        "affordabilityReason": "Median of 206 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 206 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 677,
@@ -1289,7 +1289,7 @@ window.FLATS_DATA = {
         "transactions": 4478,
         "affordabilityConfidence": "High",
         "oneBedCount": 1372,
-        "affordabilityReason": "Median of 4478 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 4478 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 998,
@@ -1333,7 +1333,7 @@ window.FLATS_DATA = {
         "transactions": 22,
         "affordabilityConfidence": "Low",
         "oneBedCount": 3,
-        "affordabilityReason": "Median of 22 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 22 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 552,
@@ -1377,7 +1377,7 @@ window.FLATS_DATA = {
         "transactions": 183,
         "affordabilityConfidence": "High",
         "oneBedCount": 14,
-        "affordabilityReason": "Median of 183 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 183 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 499,
@@ -1421,7 +1421,7 @@ window.FLATS_DATA = {
         "transactions": 42,
         "affordabilityConfidence": "Medium",
         "oneBedCount": 3,
-        "affordabilityReason": "Median of 42 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 42 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 498,
@@ -1465,7 +1465,7 @@ window.FLATS_DATA = {
         "transactions": 1733,
         "affordabilityConfidence": "High",
         "oneBedCount": 119,
-        "affordabilityReason": "Median of 1733 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 1733 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 810,
@@ -1509,7 +1509,7 @@ window.FLATS_DATA = {
         "transactions": 541,
         "affordabilityConfidence": "High",
         "oneBedCount": 31,
-        "affordabilityReason": "Median of 541 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 541 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 696,
@@ -1553,7 +1553,7 @@ window.FLATS_DATA = {
         "transactions": 717,
         "affordabilityConfidence": "High",
         "oneBedCount": 104,
-        "affordabilityReason": "Median of 717 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 717 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 748,
@@ -1597,7 +1597,7 @@ window.FLATS_DATA = {
         "transactions": 1272,
         "affordabilityConfidence": "High",
         "oneBedCount": 144,
-        "affordabilityReason": "Median of 1272 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 1272 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 781,
@@ -1641,7 +1641,7 @@ window.FLATS_DATA = {
         "transactions": 1524,
         "affordabilityConfidence": "High",
         "oneBedCount": 225,
-        "affordabilityReason": "Median of 1524 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 1524 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 734,
@@ -1685,7 +1685,7 @@ window.FLATS_DATA = {
         "transactions": 420,
         "affordabilityConfidence": "High",
         "oneBedCount": 91,
-        "affordabilityReason": "Median of 420 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 420 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 703,
@@ -1729,7 +1729,7 @@ window.FLATS_DATA = {
         "transactions": 1343,
         "affordabilityConfidence": "High",
         "oneBedCount": 147,
-        "affordabilityReason": "Median of 1343 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 1343 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 703,
@@ -1773,7 +1773,7 @@ window.FLATS_DATA = {
         "transactions": 541,
         "affordabilityConfidence": "High",
         "oneBedCount": 177,
-        "affordabilityReason": "Median of 541 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 541 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 900,
@@ -1817,7 +1817,7 @@ window.FLATS_DATA = {
         "transactions": 470,
         "affordabilityConfidence": "High",
         "oneBedCount": 72,
-        "affordabilityReason": "Median of 470 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 470 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 578,
@@ -1861,7 +1861,7 @@ window.FLATS_DATA = {
         "transactions": 260,
         "affordabilityConfidence": "High",
         "oneBedCount": 19,
-        "affordabilityReason": "Median of 260 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 260 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 486,
@@ -1905,7 +1905,7 @@ window.FLATS_DATA = {
         "transactions": 1850,
         "affordabilityConfidence": "High",
         "oneBedCount": 513,
-        "affordabilityReason": "Median of 1850 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 1850 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 886,
@@ -1949,7 +1949,7 @@ window.FLATS_DATA = {
         "transactions": 1707,
         "affordabilityConfidence": "High",
         "oneBedCount": 257,
-        "affordabilityReason": "Median of 1707 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 1707 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 689,
@@ -1993,7 +1993,7 @@ window.FLATS_DATA = {
         "transactions": 309,
         "affordabilityConfidence": "High",
         "oneBedCount": 33,
-        "affordabilityReason": "Median of 309 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 309 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 605,
@@ -2037,7 +2037,7 @@ window.FLATS_DATA = {
         "transactions": 146,
         "affordabilityConfidence": "High",
         "oneBedCount": 9,
-        "affordabilityReason": "Median of 146 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 146 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 590,
@@ -2081,7 +2081,7 @@ window.FLATS_DATA = {
         "transactions": 203,
         "affordabilityConfidence": "High",
         "oneBedCount": 20,
-        "affordabilityReason": "Median of 203 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 203 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 629,
@@ -2125,7 +2125,7 @@ window.FLATS_DATA = {
         "transactions": 830,
         "affordabilityConfidence": "High",
         "oneBedCount": 41,
-        "affordabilityReason": "Median of 830 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 830 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 807,
@@ -2169,7 +2169,7 @@ window.FLATS_DATA = {
         "transactions": 188,
         "affordabilityConfidence": "High",
         "oneBedCount": 14,
-        "affordabilityReason": "Median of 188 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 188 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 537,
@@ -2213,7 +2213,7 @@ window.FLATS_DATA = {
         "transactions": 346,
         "affordabilityConfidence": "High",
         "oneBedCount": 26,
-        "affordabilityReason": "Median of 346 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 346 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 515,
@@ -2257,7 +2257,7 @@ window.FLATS_DATA = {
         "transactions": 363,
         "affordabilityConfidence": "High",
         "oneBedCount": 49,
-        "affordabilityReason": "Median of 363 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 363 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 521,
@@ -2301,7 +2301,7 @@ window.FLATS_DATA = {
         "transactions": 455,
         "affordabilityConfidence": "High",
         "oneBedCount": 25,
-        "affordabilityReason": "Median of 455 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 455 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 684,
@@ -2345,7 +2345,7 @@ window.FLATS_DATA = {
         "transactions": 906,
         "affordabilityConfidence": "High",
         "oneBedCount": 87,
-        "affordabilityReason": "Median of 906 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 906 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 816,
@@ -2389,7 +2389,7 @@ window.FLATS_DATA = {
         "transactions": 180,
         "affordabilityConfidence": "High",
         "oneBedCount": 31,
-        "affordabilityReason": "Median of 180 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 180 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 600,
@@ -2433,7 +2433,7 @@ window.FLATS_DATA = {
         "transactions": 936,
         "affordabilityConfidence": "High",
         "oneBedCount": 165,
-        "affordabilityReason": "Median of 936 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 936 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 617,
@@ -2477,7 +2477,7 @@ window.FLATS_DATA = {
         "transactions": 273,
         "affordabilityConfidence": "High",
         "oneBedCount": 46,
-        "affordabilityReason": "Median of 273 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 273 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 572,
@@ -2521,7 +2521,7 @@ window.FLATS_DATA = {
         "transactions": 404,
         "affordabilityConfidence": "High",
         "oneBedCount": 36,
-        "affordabilityReason": "Median of 404 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 404 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 648,
@@ -2565,7 +2565,7 @@ window.FLATS_DATA = {
         "transactions": 498,
         "affordabilityConfidence": "High",
         "oneBedCount": 56,
-        "affordabilityReason": "Median of 498 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 498 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 670,
@@ -2609,7 +2609,7 @@ window.FLATS_DATA = {
         "transactions": 200,
         "affordabilityConfidence": "High",
         "oneBedCount": 15,
-        "affordabilityReason": "Median of 200 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 200 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 541,
@@ -2653,7 +2653,7 @@ window.FLATS_DATA = {
         "transactions": 462,
         "affordabilityConfidence": "High",
         "oneBedCount": 51,
-        "affordabilityReason": "Median of 462 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 462 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 671,
@@ -2697,7 +2697,7 @@ window.FLATS_DATA = {
         "transactions": 466,
         "affordabilityConfidence": "High",
         "oneBedCount": 52,
-        "affordabilityReason": "Median of 466 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 466 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 709,
@@ -2741,7 +2741,7 @@ window.FLATS_DATA = {
         "transactions": 186,
         "affordabilityConfidence": "High",
         "oneBedCount": 3,
-        "affordabilityReason": "Median of 186 achieved standard flat/maisonette sales; this is an all-size flat screening proxy, not a one-bedroom estimate."
+        "affordabilityReason": "Median of 186 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 594,
@@ -7802,7 +7802,7 @@ window.FLATS_DATA = {
       "retrievalDate": "2026-09-05",
       "geography": "England and Wales rail network",
       "coverage": "All 63 locations",
-      "limitations": "Journey duration varies by date/time and disruption; values are rounded screening snapshots, not guaranteed schedules."
+      "limitations": "Journey duration varies by date/time and disruption; values are rounded recorded snapshots, not guaranteed schedules."
     },
     {
       "id": "TR02",
@@ -7997,8 +7997,8 @@ window.FLATS_DATA = {
       "limitations": "Official statistics, not accredited official statistics. Recorded offences reflect reporting and recording; CSP unallocated offences are not assigned. Resident population excludes visitors and commuters. ASB is excluded pending coverage review. Separate offence rates are not a safety score or ranking."
     }
   ],
-  "screening": {
-    "title": "Broad screening score",
+  "composite": {
+    "title": "Broad composite score",
     "weights": {
       "affordability": 15,
       "safety": 15,
