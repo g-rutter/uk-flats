@@ -32,8 +32,11 @@ Buying values are achieved all-size flat proxies, not one-bedroom estimates.
 Rent values are modelled one-bedroom LA means, not asking rents or medians.
 Portal counts are snapshots; transport and environment assessments are coarse.
 
-Crime replacement is a TODO. Preserve historical counts only in the archive;
-do not use them as comparable safety measures, scores or ranking inputs. Do not
-publish combined rankings or inherit shortlist decisions while safety is unresolved.
-Keep data acquisition, transformation and presentation separate. New locations
-must flow through the same CSV/build process without hard-coded row counts.
+The crime replacement is complete for the current screen: reviewed ONS CSP
+violence-against-the-person and sexual-offence rates are displayed separately for
+all 63 locations. Preserve historical counts only in the archive; do not use them
+as comparable safety measures, scores or ranking inputs. Police.uk ASB remains
+research-only until a dated archive passes coverage and geography review. Do not
+publish combined rankings or inherit shortlist decisions. Keep data acquisition,
+transformation and presentation separate. New locations must flow through the
+same CSV/build process without hard-coded row counts.
