@@ -10,9 +10,10 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from build import compile_data, build
-from crime import read as read_crime
+from crime import compile_crime, read as read_crime
 from crime_residuals import audit as audit_residuals
 from crime_outliers import audit as audit_outliers
+from composite import ASSESSMENT_SCORES, assessment_score, compile_composite
 
 
 class PipelineTests(unittest.TestCase):
@@ -59,6 +60,45 @@ class PipelineTests(unittest.TestCase):
             with (inputs / 'sources.csv').open('a', newline='') as f:
                 csv.writer(f).writerow(['nonexistent', 'buy', 'https://example.com'])
             with self.assertRaises(ValueError):
+                compile_data(inputs)
+
+    def test_explicit_assessments_are_validated_and_reasons_do_not_score(self):
+        self.assertEqual(assessment_score('localTransport', 'dense_multimodal'), 5)
+        self.assertEqual(assessment_score('localTransport', 'useful_bus_rail'), 4)
+        self.assertEqual(assessment_score('localTransport', 'basic_bus_rail'), 3)
+        self.assertEqual(assessment_score('condition', 'highest'), 5)
+        self.assertEqual(assessment_score('condition', 'favourable'), 4)
+        self.assertEqual(assessment_score('condition', 'mixed'), 2)
+        self.assertEqual(assessment_score('quiet', 'persistent_noise'), 2)
+        self.assertEqual(assessment_score('quiet', 'mixed_exposure'), 3)
+        self.assertEqual(assessment_score('quiet', 'lower_intensity'), 4)
+        self.assertIsNone(assessment_score('quiet', ''))
+        self.assertEqual(set(ASSESSMENT_SCORES), {'localTransport', 'condition', 'quiet'})
+        baseline_data = compile_data(ROOT / 'data/inputs')
+        baseline_crime = compile_crime(ROOT / 'data/inputs', baseline_data['locations'], baseline_data['evidence'])
+        baseline_score = compile_composite(baseline_data['locations'], baseline_crime)['results']['barnsley']['tenures']['buy']['score']
+        with tempfile.TemporaryDirectory() as tmp:
+            inputs = Path(tmp) / 'inputs'
+            shutil.copytree(ROOT / 'data/inputs', inputs)
+            with (inputs / 'quiet.csv').open(newline='') as f:
+                rows = list(csv.DictReader(f))
+            original_assessment = rows[0]['assessment']
+            rows[0]['reason'] = 'Completely rewritten evidence text.'
+            with (inputs / 'quiet.csv').open('w', newline='') as f:
+                writer = csv.DictWriter(f, fieldnames=rows[0].keys())
+                writer.writeheader()
+                writer.writerows(rows)
+            data = compile_data(inputs)
+            self.assertEqual(data['locations'][0]['quiet']['assessment'], original_assessment)
+            changed_crime = compile_crime(inputs, data['locations'], data['evidence'])
+            changed_score = compile_composite(data['locations'], changed_crime)['results']['barnsley']['tenures']['buy']['score']
+            self.assertEqual(changed_score, baseline_score)
+            rows[0]['assessment'] = 'synonymous_but_invalid'
+            with (inputs / 'quiet.csv').open('w', newline='') as f:
+                writer = csv.DictWriter(f, fieldnames=rows[0].keys())
+                writer.writeheader()
+                writer.writerows(rows)
+            with self.assertRaisesRegex(ValueError, 'invalid assessment'):
                 compile_data(inputs)
 
     def test_original_artifact_hashes(self):

@@ -25,7 +25,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 25 sale and 21 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -37,11 +40,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Barnsley: London 145 min (1 change), Birmingham 105 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Major radial roads, rail and nearby M1 create exposed corridors, but this is a mixed town-wide noise screen."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Industrial legacy and uneven renewal make the overall fabric less consistently cared-for; this is a coarse judgement."
       }
     },
@@ -69,7 +78,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 854 sale and 1257 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "dense_multimodal",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
@@ -81,11 +93,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Birmingham New Street: London 82 min (0 changes), Birmingham 0 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "persistent_noise",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Dense road and rail corridors, airport influence and a large nightlife core make persistent noise exposure comparatively likely."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Major renewed central districts coexist with extensive uneven and deprived urban fabric, producing a mixed city-wide judgement."
       }
     },
@@ -113,7 +131,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 8 sale and 2 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -125,11 +146,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Blackburn: London 170 min (1 change), Birmingham 135 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "The M65, arterial roads and rail create noisy corridors, while much of the wider urban area is less intensively active."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Strong heritage assets are offset by visibly uneven town-centre and industrial-era fabric in this broad proxy assessment."
       }
     },
@@ -157,7 +184,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 77 sale and 75 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -169,11 +199,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Blackpool North: London 185 min (1 change), Birmingham 130 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Visitor traffic, entertainment/nightlife and the promenade corridor raise evening and seasonal noise risk."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Distinctive resort heritage is offset by concentrated deprivation and uneven upkeep, so pleasantness is not consistent town-wide."
       }
     },
@@ -201,7 +237,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 64 sale and 78 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -213,11 +252,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Bolton: London 155 min (1 change), Birmingham 110 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M61 access, busy radial roads and rail create local noise pressure, with quieter residential parts away from them."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Civic and heritage pockets coexist with substantial deprived and uneven post-industrial fabric."
       }
     },
@@ -245,7 +290,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 76 sale and 91 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -257,11 +305,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Bradford Interchange: London 170 min (1 change), Birmingham 145 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Dense radial traffic, rail corridors, industry and a sizeable nightlife centre make quietness inconsistent."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "High-quality historic architecture is offset by vacancy, deprivation and uneven upkeep across the built-up area."
       }
     },
@@ -289,7 +343,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 5 sale and 22 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -301,11 +358,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Burnley Manchester Road: London 190 min (2 changes), Birmingham 155 min (2 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M65, rail and industrial corridors are conspicuous, but the town is less continuously busy than a major city."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Industrial heritage and nearby landscape are positives, but deprivation and uneven town-centre fabric weaken the broad condition score."
       }
     },
@@ -333,7 +396,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 26 sale and 34 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -345,11 +411,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Burton-on-Trent: London 95 min (1 change), Birmingham 30 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "The A38, railways and major brewing/industrial activity create conspicuous transport and industrial noise corridors."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A serviceable centre and riverside assets are balanced by traffic-dominated and industrial urban fabric."
       }
     },
@@ -377,7 +449,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 259 sale and 468 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "dense_multimodal",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
@@ -389,11 +464,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Cardiff Central: London 110 min (0 changes), Birmingham 120 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV002;ENV004;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Capital-city traffic, dense rail approaches, major events and nightlife make central noise exposure comparatively likely."
       },
       "condition": {
+        "assessment": "favourable",
         "confidence": "Medium",
+        "evidence_ids": "ENV002;ENV004;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Substantial civic, park and renewed waterfront assets make the city broadly pleasant despite uneven inner corridors."
       }
     },
@@ -421,7 +502,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 43 sale and 54 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -433,11 +517,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Chester: London 125 min (0 changes), Birmingham 75 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "The A55 and railways are clear noise sources, but the compact city has many areas away from intensive urban activity."
       },
       "condition": {
+        "assessment": "favourable",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Exceptional historic fabric, river setting and generally strong public realm support a strongly favourable broad judgement."
       }
     },
@@ -465,7 +555,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 14 sale and 31 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -477,11 +570,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Chesterfield: London 115 min (0 changes), Birmingham 65 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "lower_intensity",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "The A61, rail and industrial corridors bring noise, while the town's scale leaves plausible calmer areas."
       },
       "condition": {
+        "assessment": "favourable",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A coherent historic centre and nearby landscape support a favourable judgement despite some post-industrial and arterial-road fabric."
       }
     },
@@ -509,7 +608,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 88 sale and 184 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -521,11 +623,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Coventry: London 60 min (0 changes), Birmingham 20 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "persistent_noise",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "The inner ring road, motorway approaches, rail and a substantial night-time economy create widespread noise pressure."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Major public-realm renewal and heritage pockets coexist with traffic-heavy and uneven reconstructed urban fabric."
       }
     },
@@ -553,7 +661,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 23 sale and 24 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -565,11 +676,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Darlington: London 135 min (0 changes), Birmingham 145 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A1(M)/A66 approaches and a major rail corridor are conspicuous, but the town is not continuously high-intensity."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Victorian and civic assets are balanced by ordinary and sometimes uneven edge and centre fabric."
       }
     },
@@ -597,7 +714,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 73 sale and 214 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -609,11 +729,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Derby: London 90 min (0 changes), Birmingham 35 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Ring roads, a major rail corridor, industry and proximity to East Midlands Airport increase transport-noise exposure."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Renewal and historic pockets coexist with traffic-dominated approaches and extensive industrial urban form."
       }
     },
@@ -641,7 +767,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 25 sale and 27 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -653,11 +782,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Doncaster: London 100 min (0 changes), Birmingham 95 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "persistent_noise",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Motorways, a nationally important railway and extensive logistics/industrial land create multiple persistent noise corridors."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Civic assets and renewal are offset by extensive post-industrial, logistics and deprived urban fabric."
       }
     },
@@ -685,7 +820,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 32 sale and 27 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "dense_multimodal",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
@@ -697,11 +835,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Newcastle used; short Metro connection from Gateshead: London 180 min (0 changes), Birmingham 190 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "The A1/A184, rail, river crossings and adjacency to Newcastle's urban core make noise exposure likely."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Strong riverside cultural assets and regeneration coexist with large traffic corridors and uneven post-industrial fabric."
       }
     },
@@ -729,7 +873,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 74 sale and 65 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -741,11 +888,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Gloucester: London 105 min (0 changes), Birmingham 55 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M5 access, rail and industrial/port approaches create noise corridors, with calmer fabric beyond them."
       },
       "condition": {
+        "assessment": "favourable",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Historic core and renewed docks support a favourable broad judgement, although arterial and edge areas are mixed."
       }
     },
@@ -773,7 +926,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 34 sale and 49 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -785,11 +941,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Halifax: London 180 min (1 change), Birmingham 145 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Valley roads, rail and town-centre activity create concentrated noise, while the wider hilly urban area is mixed."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Outstanding civic and industrial architecture is tempered by deprivation and uneven upkeep in parts of the town."
       }
     },
@@ -817,7 +979,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 16 sale and 9 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -829,11 +994,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Hartlepool: London 195 min (1 change), Birmingham 195 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Port industry, rail and arterial traffic are conspicuous, but overall urban intensity is moderate."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "The marina and heritage areas are positives, while deprivation and extensive industrial/post-industrial fabric reduce consistency."
       }
     },
@@ -861,7 +1032,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 33 sale and 91 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -873,11 +1047,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Huddersfield: London 175 min (1 change), Birmingham 135 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "lower_intensity",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Ring-road traffic, rail and town-centre nightlife are evident, with lower-intensity residential areas beyond."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Strong stone architecture and landscape setting are balanced by traffic-heavy approaches and uneven central upkeep."
       }
     },
@@ -905,7 +1085,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 92 sale and 128 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -917,11 +1100,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Hull: London 165 min (0 changes), Birmingham 145 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "persistent_noise",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Port, industry, freight traffic and broad arterial roads create substantial persistent-noise exposure."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Renewed old town and waterfront areas coexist with extensive deprived and industrial urban fabric."
       }
     },
@@ -949,7 +1138,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 117 sale and 80 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -961,11 +1153,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Ipswich: London 65 min (0 changes), Birmingham 170 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A14 approaches, rail and port activity create noise corridors, but the town's overall intensity is moderate."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Waterfront renewal and historic fabric are balanced by uneven centre, arterial and industrial areas."
       }
     },
@@ -993,7 +1191,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 15 sale and 30 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -1005,11 +1206,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Kettering: London 55 min (0 changes), Birmingham 70 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "lower_intensity",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A14 traffic and the Midland Main Line are conspicuous, while the smaller town scale allows calmer areas."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Historic pockets and ordinary maintained suburbs are balanced by traffic and commercial-edge fabric."
       }
     },
@@ -1037,7 +1244,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 26 sale and 9 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -1049,11 +1259,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Lancaster: London 145 min (0 changes), Birmingham 110 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "lower_intensity",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M6 and West Coast Main Line corridors are clear sources, but the compact historic city has substantial lower-intensity fabric."
       },
       "condition": {
+        "assessment": "favourable",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Coherent historic architecture, river and nearby landscape support a favourable broad condition judgement."
       }
     },
@@ -1081,7 +1297,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 453 sale and 627 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "dense_multimodal",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
@@ -1093,11 +1312,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Leeds: London 130 min (0 changes), Birmingham 115 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Motorways, dense rail, arterial traffic, nightlife and airport influence make quietness inconsistent across the large city."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A strong renewed centre, civic fabric and parks support pleasantness, though conditions vary considerably."
       }
     },
@@ -1125,7 +1350,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 190 sale and 386 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -1137,11 +1365,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Leicester: London 65 min (0 changes), Birmingham 55 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Dense radial traffic, ring roads, rail and a large night-time economy create widespread urban noise pressure."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Historic and renewed central pockets coexist with traffic-heavy and uneven fabric, yielding a mixed judgement."
       }
     },
@@ -1169,7 +1403,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 47 sale and 68 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -1181,11 +1418,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Lincoln: London 120 min (0 changes), Birmingham 105 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "lower_intensity",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "The A46, rail, tourism and student/nightlife activity create concentrated noise, with calmer areas elsewhere."
       },
       "condition": {
+        "assessment": "favourable",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Cathedral-quarter heritage and a distinctive setting support a favourable judgement despite mixed lower-city approaches."
       }
     },
@@ -1213,7 +1456,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 965 sale and 347 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "dense_multimodal",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
@@ -1225,11 +1471,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Liverpool Lime Street: London 135 min (0 changes), Birmingham 95 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Port activity, dense road and rail infrastructure and a major nightlife economy create substantial noise pressure."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Exceptional civic and waterfront fabric plus renewal outweigh, but do not remove, marked variation and deprived areas."
       }
     },
@@ -1257,7 +1509,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 17 sale and 20 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -1269,11 +1524,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Loughborough: London 75 min (0 changes), Birmingham 75 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M1 proximity, rail and university/nightlife activity create noise corridors but not continuous big-city intensity."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A functional centre and greener university/residential fabric are balanced by ordinary industrial and arterial areas."
       }
     },
@@ -1301,7 +1562,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 1372 sale and 1456 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "dense_multimodal",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
@@ -1313,11 +1577,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Manchester Piccadilly: London 125 min (0 changes), Birmingham 90 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "persistent_noise",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Dense road, tram and rail networks, major nightlife and airport-related activity make persistent quiet comparatively scarce."
       },
       "condition": {
+        "assessment": "favourable",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Extensive renewal, civic architecture and active public realm support a favourable score despite pronounced spatial inequality."
       }
     },
@@ -1345,7 +1615,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 3 sale and 3 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -1357,11 +1630,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Merthyr Tydfil: London 205 min (1 change), Birmingham 185 min (2 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV002;ENV004;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "The A470, valley rail and industrial legacy create linear noise corridors, while surrounding low-density landscape moderates the town-wide picture."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV002;ENV004;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Dramatic landscape and heritage are offset by concentrated deprivation and uneven post-industrial town fabric."
       }
     },
@@ -1389,7 +1668,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 14 sale and 50 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -1401,11 +1683,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Middlesbrough: London 180 min (0 changes), Birmingham 175 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "persistent_noise",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A66 traffic, rail, port and heavy Teesside industry create conspicuous and persistent noise sources."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Regeneration and civic assets are outweighed in the broad screen by deprived, industrial and traffic-dominated fabric."
       }
     },
@@ -1433,7 +1721,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 3 sale and 3 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -1445,11 +1736,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Neath: London 150 min (0 changes), Birmingham 165 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV002;ENV004;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M4, rail and nearby industry create strong linear noise sources, but the smaller centre and valley setting moderate intensity."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV002;ENV004;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Historic and landscape assets are balanced by traffic, industry and uneven post-industrial fabric."
       }
     },
@@ -1477,7 +1774,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 119 sale and 124 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "dense_multimodal",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
@@ -1489,11 +1789,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Newcastle: London 170 min (0 changes), Birmingham 185 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A1/A167 traffic, rail, metro and a major nightlife core make central quietness comparatively weak."
       },
       "condition": {
+        "assessment": "favourable",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Strong historic streets, river setting and public realm support a favourable condition score despite uneven outer fabric."
       }
     },
@@ -1521,7 +1827,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 31 sale and 43 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -1533,11 +1842,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Newport (South Wales): London 100 min (0 changes), Birmingham 105 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "persistent_noise",
         "confidence": "Medium",
+        "evidence_ids": "ENV002;ENV004;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M4, dense rail approaches, port industry and arterial traffic create multiple persistent noise corridors."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV002;ENV004;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Riverfront renewal and heritage pockets are offset by substantial deprived, traffic-heavy and post-industrial fabric."
       }
     },
@@ -1565,7 +1880,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 104 sale and 137 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -1577,11 +1895,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Northampton: London 60 min (0 changes), Birmingham 60 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M1/A45 traffic, a major rail corridor and extensive logistics activity create notable noise exposure."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Historic and maintained residential pockets are balanced by road-dominated growth and uneven central fabric."
       }
     },
@@ -1609,7 +1933,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 144 sale and 112 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -1621,11 +1948,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Norwich: London 110 min (0 changes), Birmingham 210 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "lower_intensity",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "With no urban motorway, noise is concentrated on ring roads, rail and the nightlife core rather than dominating city-wide."
       },
       "condition": {
+        "assessment": "highest",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Exceptionally coherent historic fabric, waterways, parks and a generally attractive centre support the highest condition score."
       }
     },
@@ -1653,7 +1986,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 225 sale and 509 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "dense_multimodal",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
@@ -1665,11 +2001,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Nottingham: London 100 min (0 changes), Birmingham 75 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Ring roads, rail, tram corridors and a major nightlife economy create substantial urban noise pressure."
       },
       "condition": {
+        "assessment": "favourable",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Historic, civic and renewed central districts plus strong parks support a favourable score despite spatial variation."
       }
     },
@@ -1697,7 +2039,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 91 sale and 134 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -1709,11 +2054,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Peterborough: London 50 min (0 changes), Birmingham 100 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "persistent_noise",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A1/A47 traffic, a very busy rail corridor and logistics/industrial land create multiple persistent noise sources."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Cathedral and riverside assets are balanced by traffic-dominated modern growth and uneven central/edge fabric."
       }
     },
@@ -1741,7 +2092,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 147 sale and 124 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -1753,11 +2107,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Plymouth: London 190 min (0 changes), Birmingham 205 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "lower_intensity",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A38, rail, naval/port activity and nightlife create noise corridors, while coastal topography provides lower-intensity areas."
       },
       "condition": {
+        "assessment": "favourable",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Waterfront, parks and historic assets support a favourable judgement despite reconstructed and uneven inner fabric."
       }
     },
@@ -1785,7 +2145,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 177 sale and 176 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -1797,11 +2160,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Portsmouth & Southsea: London 95 min (0 changes), Birmingham 165 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "persistent_noise",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Dense island roads, rail, ferry/naval port activity and nightlife make quietness relatively difficult at city scale."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Historic waterfront, seafront and coherent terraces support pleasantness, despite density and traffic pressure."
       }
     },
@@ -1829,7 +2198,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 72 sale and 136 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -1841,11 +2213,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Preston: London 130 min (0 changes), Birmingham 100 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M6/M55 approaches, major rail, ring-road traffic and nightlife create substantial transport-noise exposure."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Civic and park assets are balanced by traffic-heavy approaches and uneven centre/industrial fabric."
       }
     },
@@ -1873,7 +2251,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 19 sale and 25 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -1885,11 +2266,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Rotherham Central: London 145 min (1 change), Birmingham 100 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "persistent_noise",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M1/M18 approaches, rail, steel industry and freight corridors create conspicuous persistent noise sources."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Renewal and heritage pockets are outweighed by extensive industrial, arterial and deprived urban fabric."
       }
     },
@@ -1917,7 +2304,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 513 sale and 531 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "dense_multimodal",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
@@ -1929,11 +2319,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Manchester Piccadilly used; Salford origin is ambiguous: London 135 min (0 changes), Birmingham 95 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "persistent_noise",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Motorways, rail, dense Manchester urban activity and nightlife/venue areas create widespread noise pressure."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Major waterfront regeneration coexists with traffic infrastructure, deprivation and highly uneven urban fabric."
       }
     },
@@ -1961,7 +2357,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 257 sale and 401 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "dense_multimodal",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
@@ -1973,11 +2372,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Sheffield: London 120 min (0 changes), Birmingham 75 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Arterial roads, rail, tram, industry and nightlife create busy corridors, but hills and extensive green space moderate the city-wide score."
       },
       "condition": {
+        "assessment": "favourable",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Strong parks, stone neighbourhood fabric and renewed centre support a favourable judgement despite marked variation."
       }
     },
@@ -2005,7 +2410,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 33 sale and 33 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -2017,11 +2425,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Shrewsbury: London 150 min (1 change), Birmingham 60 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "lower_intensity",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Bypass roads and rail are clear sources, but the compact town and rural edge offer broadly lower urban intensity."
       },
       "condition": {
+        "assessment": "highest",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Exceptional historic fabric, river setting and coherent public realm support the highest broad condition score."
       }
     },
@@ -2049,7 +2463,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 9 sale and 24 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -2061,11 +2478,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from St Helens Central: London 145 min (1 change), Birmingham 90 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M62 access, arterial roads, rail and industrial/logistics land create multiple noise corridors."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Regeneration efforts are offset by extensive post-industrial, deprived and traffic-dominated fabric."
       }
     },
@@ -2093,7 +2516,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 20 sale and 20 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -2105,11 +2531,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Stafford: London 75 min (0 changes), Birmingham 35 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "lower_intensity",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M6 and West Coast Main Line corridors are conspicuous, but the smaller town has substantial quieter fabric away from them."
       },
       "condition": {
+        "assessment": "favourable",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Historic centre, waterways and generally maintained residential fabric support a favourable broad judgement."
       }
     },
@@ -2137,7 +2569,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 41 sale and 89 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -2149,11 +2584,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Stockport: London 120 min (0 changes), Birmingham 75 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M60, A6, dense rail and Manchester Airport flight paths create significant transport-noise exposure."
       },
       "condition": {
+        "assessment": "favourable",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A strong historic market core, viaduct and generally attractive residential fabric support a favourable score despite traffic corridors."
       }
     },
@@ -2181,7 +2622,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 14 sale and 36 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -2193,11 +2637,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Thornaby used for representative mainline journeys: London 185 min (1 change), Birmingham 180 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "persistent_noise",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A19/A66, rail and nearby Teesside industry create prominent and persistent noise sources."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "High-street and riverside renewal is balanced by industrial, deprived and uneven surrounding fabric."
       }
     },
@@ -2225,7 +2675,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 26 sale and 53 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -2237,11 +2690,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Stoke-on-Trent: London 85 min (0 changes), Birmingham 50 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A500/M6 access, rail and dispersed industrial land create widespread road and industrial noise corridors."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Ceramic heritage and renewal pockets are offset by vacancy, deprivation and fragmented post-industrial urban fabric."
       }
     },
@@ -2269,7 +2728,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 49 sale and 56 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -2281,11 +2743,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Sunderland; direct London service is limited: London 195 min (0 changes), Birmingham 205 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A19 approaches, Metro/rail, port industry and nightlife create multiple urban noise sources."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Seafront and renewed riverside/civic areas are positives, while deprived and post-industrial fabric remains extensive."
       }
     },
@@ -2313,7 +2781,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 25 sale and 16 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -2325,11 +2796,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Swansea: London 170 min (0 changes), Birmingham 185 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "lower_intensity",
         "confidence": "Medium",
+        "evidence_ids": "ENV002;ENV004;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M4/A483 approaches, rail, port and nightlife create corridors of noise, moderated by the coastal setting and lower-intensity areas."
       },
       "condition": {
+        "assessment": "favourable",
         "confidence": "Medium",
+        "evidence_ids": "ENV002;ENV004;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Bay, parks and waterfront renewal support a favourable judgement despite uneven centre and post-industrial corridors."
       }
     },
@@ -2357,7 +2834,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 87 sale and 121 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -2369,11 +2849,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Swindon: London 55 min (0 changes), Birmingham 95 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M4 access, a busy rail corridor and broad arterial roads create substantial transport-noise exposure."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Maintained residential and park areas are balanced by road-dominated modern form and uneven central fabric."
       }
     },
@@ -2401,7 +2887,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 31 sale and 22 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -2413,11 +2902,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Telford Central: London 125 min (1 change), Birmingham 40 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M54/A442 traffic and dispersed industrial estates create local noise, but low-density form reduces continuous urban intensity."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Green space and maintained newer districts are balanced by fragmented, car-oriented townscape and industrial edges."
       }
     },
@@ -2445,7 +2940,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 165 sale and 51 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -2457,11 +2955,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Torquay used; some faster itineraries connect at Newton Abbot: London 180 min (1 change), Birmingham 195 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "lower_intensity",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Seasonal visitor traffic, rail and resort nightlife create hotspots, but much of the coastal conurbation is lower-intensity."
       },
       "condition": {
+        "assessment": "favourable",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Coastal scenery, parks and resort heritage support a favourable score despite pockets of deprivation and uneven upkeep."
       }
     },
@@ -2489,7 +2993,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 46 sale and 46 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -2501,11 +3008,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Wakefield Westgate: London 120 min (0 changes), Birmingham 110 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "persistent_noise",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M1/M62 approaches, major rail and arterial traffic create multiple persistent noise corridors."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Historic and cultural assets are balanced by traffic infrastructure and uneven post-industrial urban fabric."
       }
     },
@@ -2533,7 +3046,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 36 sale and 44 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -2545,11 +3061,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Walsall: London 115 min (1 change), Birmingham 25 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M6, dense arterial roads, rail and industrial land create widespread transport and industrial noise pressure."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Civic and park pockets are outweighed by traffic-dominated, industrial and deprived urban fabric in the broad screen."
       }
     },
@@ -2577,7 +3099,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 56 sale and 40 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -2589,11 +3114,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Warrington Bank Quay: London 105 min (0 changes), Birmingham 70 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "persistent_noise",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M6/M62/M56, busy railways and extensive logistics/industry create unusually dense transport-noise corridors."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Waterways and maintained districts are balanced by logistics, road infrastructure and a mixed town centre."
       }
     },
@@ -2621,7 +3152,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 15 sale and 23 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -2633,11 +3167,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Wigan North Western: London 120 min (0 changes), Birmingham 85 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M6/M61 access, rail and arterial roads create clear corridors, but overall activity is below major-city intensity."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Renewal and historic pockets are balanced by post-industrial, traffic-heavy and uneven centre fabric."
       }
     },
@@ -2665,7 +3205,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 51 sale and 94 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "useful_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
@@ -2677,11 +3220,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Wolverhampton: London 105 min (0 changes), Birmingham 20 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "persistent_noise",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Ring roads, rail/Metro, industry and nearby motorway corridors create substantial persistent noise pressure."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Civic assets and renewal are offset by extensive deprived, traffic-dominated and post-industrial fabric."
       }
     },
@@ -2709,7 +3258,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 52 sale and 52 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "Medium",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -2721,11 +3273,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Worcester Foregate Street; city has multiple stations: London 125 min (0 changes), Birmingham 45 min (0 changes); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "lower_intensity",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "M5 and railways create defined corridors, but the small historic city has much lower-intensity fabric away from them."
       },
       "condition": {
+        "assessment": "highest",
         "confidence": "Medium",
+        "evidence_ids": "ENV001;ENV003;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Coherent historic centre, river setting and generally attractive urban fabric support the highest condition score."
       }
     },
@@ -2753,7 +3311,10 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 3 sale and 11 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
+        "assessment": "basic_bus_rail",
         "confidence": "High",
+        "evidence_ids": "TR02",
+        "method_version": "broad-assessment-v1",
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
@@ -2765,11 +3326,17 @@ window.FLATS_DATA = {
         "reason": "Approximate representative faster weekday journey from Wrexham General: London 140 min (1 change), Birmingham 75 min (1 change); recheck against the exact travel date."
       },
       "quiet": {
+        "assessment": "mixed_exposure",
         "confidence": "Medium",
+        "evidence_ids": "ENV002;ENV004;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "A483, rail and large industrial estates create noticeable corridors, while the town's scale limits continuous intensity."
       },
       "condition": {
+        "assessment": "mixed",
         "confidence": "Low",
+        "evidence_ids": "ENV002;ENV004;ENV005",
+        "method_version": "broad-assessment-v1",
         "reason": "Historic and maintained pockets are balanced by industrial edges and a mixed, sometimes uneven centre."
       }
     }

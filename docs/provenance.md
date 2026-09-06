@@ -34,14 +34,18 @@ signed decimal degrees. Original camelCase names are retained for traceability.
 | buy.csv | `location_id`; proxyMedian (GBP), transactions, oneBedCount, affordabilityConfidence/Reason | JS buy; AFF-BUY-PPD-2024-26; counts use MT-RM-SEARCH-20260905 |
 | rent.csv | `location_id`; proxyMonthly (GBP/month), oneBedCount, affordabilityConfidence/Reason | JS rent; AFF-RENT-PIPR-2026-07; counts use MT-RM-SEARCH-20260905 |
 | market.csv | `location_id`; reason | JS market; MT-RM-SEARCH-20260905 / MT-RM-LOS-20260905 |
-| localTransport.csv | `location_id`; confidence and reason | JS localTransport; TR source series and per-location transport links |
+| localTransport.csv | `location_id`; explicit assessment, confidence, evidence IDs, method version and reason | Current broad assessment; the band drives the score while reason is explanatory context |
 | nationalTransport.csv | `location_id`; londonMinutes/Changes, birminghamMinutes/Changes, confidence and reason | JS nationalTransport; TR01 and per-location transport links |
-| quiet.csv, condition.csv | `location_id`; confidence and reason | JS same-named groups; ENV series and per-location environment links |
+| quiet.csv, condition.csv | `location_id`; explicit assessment, confidence, evidence IDs, method version and reason | Current broad assessment; the band drives the score while reason is explanatory context |
 | sources.csv | `location_id`, topic, url; multiple rows per location/topic | JS sources; original links, including archived crime context |
 | evidence.csv | `id`; workstream, title, publisher, url, dataPeriod, retrievalDate, geography, coverage, limitations | JS evidence; inherited source-level metadata |
 
 The topic-to-evidence mapping above documents the inherited common periods. Exact
-links by location live in sources.csv. These are source references rather than
+links by location live in sources.csv. For local transport, quietness and
+condition, `evidence_ids` is a semicolon-separated list of evidence-catalogue
+IDs and `method_version` identifies the assessment rubric. `assessment` is a
+validated enum and is the only input to the associated composite factor; reasons
+are never parsed to derive a score. These are source references rather than
 proof of a row-level observation; some point to general homepages or planners.
 Crime references remain for provenance but are hidden from the active browser view.
 

@@ -1,64 +1,64 @@
-location_id,confidence,reason
-barnsley,High,"Basic bus and rail coverage with less network depth"
-birmingham,High,"A dense multimodal network"
-blackburn,Medium,"Basic bus and rail coverage with less network depth"
-blackpool,High,"A useful town/city bus-and-rail network"
-bolton,High,"A useful town/city bus-and-rail network"
-bradford,High,"A useful town/city bus-and-rail network"
-burnley,Medium,"Basic bus and rail coverage with less network depth"
-burton-on-trent,Medium,"Basic bus and rail coverage with less network depth"
-cardiff,High,"A dense multimodal network"
-chester,Medium,"A useful town/city bus-and-rail network"
-chesterfield,Medium,"Basic bus and rail coverage with less network depth"
-coventry,High,"A useful town/city bus-and-rail network"
-darlington,Medium,"A useful town/city bus-and-rail network"
-derby,Medium,"A useful town/city bus-and-rail network"
-doncaster,High,"A useful town/city bus-and-rail network"
-gateshead,High,"A dense multimodal network"
-gloucester,Medium,"A useful town/city bus-and-rail network"
-halifax,High,"A useful town/city bus-and-rail network"
-hartlepool,Medium,"Basic bus and rail coverage with less network depth"
-huddersfield,High,"A useful town/city bus-and-rail network"
-hull-kingston-upon-hull,Medium,"A useful town/city bus-and-rail network"
-ipswich,Medium,"A useful town/city bus-and-rail network"
-kettering,Medium,"Basic bus and rail coverage with less network depth"
-lancaster,Medium,"A useful town/city bus-and-rail network"
-leeds,High,"A dense multimodal network"
-leicester,Medium,"A useful town/city bus-and-rail network"
-lincoln,Medium,"Basic bus and rail coverage with less network depth"
-liverpool,High,"A dense multimodal network"
-loughborough,Medium,"Basic bus and rail coverage with less network depth"
-manchester,High,"A dense multimodal network"
-merthyr-tydfil,High,"Basic bus and rail coverage with less network depth"
-middlesbrough,Medium,"A useful town/city bus-and-rail network"
-neath,High,"Basic bus and rail coverage with less network depth"
-newcastle-upon-tyne,High,"A dense multimodal network"
-newport,High,"A useful town/city bus-and-rail network"
-northampton,Medium,"A useful town/city bus-and-rail network"
-norwich,Medium,"A useful town/city bus-and-rail network"
-nottingham,High,"A dense multimodal network"
-peterborough,Medium,"A useful town/city bus-and-rail network"
-plymouth,Medium,"A useful town/city bus-and-rail network"
-portsmouth,Medium,"A useful town/city bus-and-rail network"
-preston,Medium,"A useful town/city bus-and-rail network"
-rotherham,High,"A useful town/city bus-and-rail network"
-salford,High,"A dense multimodal network"
-sheffield,High,"A dense multimodal network"
-shrewsbury,Medium,"Basic bus and rail coverage with less network depth"
-st-helens,High,"Basic bus and rail coverage with less network depth"
-stafford,Medium,"Basic bus and rail coverage with less network depth"
-stockport,High,"A useful town/city bus-and-rail network"
-stockton-on-tees,Medium,"Basic bus and rail coverage with less network depth"
-stoke-on-trent,Medium,"A useful town/city bus-and-rail network"
-sunderland,High,"A useful town/city bus-and-rail network"
-swansea,High,"A useful town/city bus-and-rail network"
-swindon,Medium,"A useful town/city bus-and-rail network"
-telford,High,"Basic bus and rail coverage with less network depth"
-torbay,Medium,"Basic bus and rail coverage with less network depth"
-wakefield,High,"A useful town/city bus-and-rail network"
-walsall,High,"A useful town/city bus-and-rail network"
-warrington,Medium,"A useful town/city bus-and-rail network"
-wigan,High,"A useful town/city bus-and-rail network"
-wolverhampton,High,"A useful town/city bus-and-rail network"
-worcester,Medium,"Basic bus and rail coverage with less network depth"
-wrexham,High,"Basic bus and rail coverage with less network depth"
+location_id,assessment,confidence,evidence_ids,method_version,reason
+barnsley,basic_bus_rail,High,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+birmingham,dense_multimodal,High,TR02,broad-assessment-v1,A dense multimodal network
+blackburn,basic_bus_rail,Medium,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+blackpool,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+bolton,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+bradford,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+burnley,basic_bus_rail,Medium,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+burton-on-trent,basic_bus_rail,Medium,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+cardiff,dense_multimodal,High,TR02,broad-assessment-v1,A dense multimodal network
+chester,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+chesterfield,basic_bus_rail,Medium,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+coventry,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+darlington,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+derby,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+doncaster,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+gateshead,dense_multimodal,High,TR02,broad-assessment-v1,A dense multimodal network
+gloucester,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+halifax,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+hartlepool,basic_bus_rail,Medium,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+huddersfield,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+hull-kingston-upon-hull,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+ipswich,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+kettering,basic_bus_rail,Medium,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+lancaster,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+leeds,dense_multimodal,High,TR02,broad-assessment-v1,A dense multimodal network
+leicester,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+lincoln,basic_bus_rail,Medium,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+liverpool,dense_multimodal,High,TR02,broad-assessment-v1,A dense multimodal network
+loughborough,basic_bus_rail,Medium,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+manchester,dense_multimodal,High,TR02,broad-assessment-v1,A dense multimodal network
+merthyr-tydfil,basic_bus_rail,High,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+middlesbrough,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+neath,basic_bus_rail,High,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+newcastle-upon-tyne,dense_multimodal,High,TR02,broad-assessment-v1,A dense multimodal network
+newport,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+northampton,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+norwich,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+nottingham,dense_multimodal,High,TR02,broad-assessment-v1,A dense multimodal network
+peterborough,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+plymouth,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+portsmouth,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+preston,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+rotherham,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+salford,dense_multimodal,High,TR02,broad-assessment-v1,A dense multimodal network
+sheffield,dense_multimodal,High,TR02,broad-assessment-v1,A dense multimodal network
+shrewsbury,basic_bus_rail,Medium,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+st-helens,basic_bus_rail,High,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+stafford,basic_bus_rail,Medium,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+stockport,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+stockton-on-tees,basic_bus_rail,Medium,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+stoke-on-trent,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+sunderland,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+swansea,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+swindon,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+telford,basic_bus_rail,High,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+torbay,basic_bus_rail,Medium,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+wakefield,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+walsall,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+warrington,useful_bus_rail,Medium,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+wigan,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+wolverhampton,useful_bus_rail,High,TR02,broad-assessment-v1,A useful town/city bus-and-rail network
+worcester,basic_bus_rail,Medium,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth
+wrexham,basic_bus_rail,High,TR02,broad-assessment-v1,Basic bus and rail coverage with less network depth

@@ -9,11 +9,24 @@ from crime_coverage import export_coverage
 from crime_boundaries import export_boundaries
 from crime_residuals import export_residuals
 from crime_outliers import export_outliers
-from composite import compile_composite
+from composite import ASSESSMENT_SCORES, compile_composite
 
 ROOT = Path(__file__).resolve().parents[1]
 GROUPS = ('buy', 'rent', 'market', 'localTransport', 'nationalTransport', 'quiet', 'condition')
 NUMERIC = {'lat', 'lon', 'proxyMedian', 'transactions', 'proxyMonthly', 'oneBedCount', 'londonMinutes', 'londonChanges', 'birminghamMinutes', 'birminghamChanges'}
+REQUIRED_COLUMNS = {
+    'locations.csv': {'id', 'name', 'country', 'localAuthority', 'lat', 'lon'},
+    'buy.csv': {'location_id', 'proxyMedian', 'transactions', 'affordabilityConfidence', 'oneBedCount', 'affordabilityReason'},
+    'rent.csv': {'location_id', 'proxyMonthly', 'affordabilityConfidence', 'oneBedCount', 'affordabilityReason'},
+    'market.csv': {'location_id', 'reason'},
+    'localTransport.csv': {'location_id', 'assessment', 'confidence', 'evidence_ids', 'method_version', 'reason'},
+    'nationalTransport.csv': {'location_id', 'londonMinutes', 'londonChanges', 'birminghamMinutes', 'birminghamChanges', 'confidence', 'reason'},
+    'quiet.csv': {'location_id', 'assessment', 'confidence', 'evidence_ids', 'method_version', 'reason'},
+    'condition.csv': {'location_id', 'assessment', 'confidence', 'evidence_ids', 'method_version', 'reason'},
+    'sources.csv': {'location_id', 'topic', 'url'},
+    'evidence.csv': {'id', 'workstream', 'title', 'publisher', 'url', 'dataPeriod', 'retrievalDate', 'geography', 'coverage', 'limitations'},
+}
+ASSESSMENT_TOPICS = ('localTransport', 'condition', 'quiet')
 
 
 def read(path):
@@ -21,6 +34,10 @@ def read(path):
         reader = csv.DictReader(f)
         if not reader.fieldnames or len(set(reader.fieldnames)) != len(reader.fieldnames):
             raise ValueError(f'{path}: missing or duplicate columns')
+        required = REQUIRED_COLUMNS.get(path.name)
+        if required and not required.issubset(reader.fieldnames):
+            missing = ', '.join(sorted(required - set(reader.fieldnames)))
+            raise ValueError(f'{path}: missing required columns: {missing}')
         rows = list(reader)
     for row in rows:
         if None in row or None in row.values():
@@ -71,8 +88,25 @@ def compile_data(inputs):
         if not source['url'].startswith(('https://', 'http://')):
             raise ValueError('Source URL must use http(s)')
     evidence = read(inputs / 'evidence.csv')
-    if len({r['id'] for r in evidence}) != len(evidence):
+    evidence_ids = {r['id'] for r in evidence}
+    if len(evidence_ids) != len(evidence):
         raise ValueError('Duplicate evidence id')
+    for group in ASSESSMENT_TOPICS:
+        for location in locations:
+            row = location[group]
+            if not row:
+                continue
+            assessment = row['assessment']
+            if assessment not in ASSESSMENT_SCORES[group]:
+                allowed = ', '.join(sorted(ASSESSMENT_SCORES[group]))
+                raise ValueError(f'{group}: invalid assessment {assessment!r}; expected one of {allowed}')
+            if row['confidence'] not in ('High', 'Medium', 'Low'):
+                raise ValueError(f'{group}: invalid confidence for {location["id"]}')
+            if not row['reason'] or not row['method_version']:
+                raise ValueError(f'{group}: assessment requires reason and method_version for {location["id"]}')
+            row_evidence_ids = row['evidence_ids'].split(';') if row['evidence_ids'] else []
+            if not row_evidence_ids or any(not item or item not in evidence_ids for item in row_evidence_ids):
+                raise ValueError(f'{group}: invalid evidence_ids for {location["id"]}')
     return dict(locations=locations, sources=sources, evidence=evidence)
 
 

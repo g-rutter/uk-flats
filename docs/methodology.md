@@ -19,9 +19,9 @@ scores, rankings, shortlists or decisions.
 | --- | ---: | --- |
 | Affordability | 15 | Within each tenure, the cheapest, middle and most-expensive thirds of the current proxy distribution score 5, 3 and 1 respectively. |
 | Recorded-offence safety proxy | 15 | Equal mean of fresh 1--5 quintile scores for the ONS CSP violence-against-the-person and sexual-offence rates; lower recorded rates score higher. |
-| Local transport | 15 | The current documented broad assessment maps dense multimodal, useful bus-and-rail and basic bus-and-rail coverage to 5, 4 and 3. |
-| Local condition | 15 | Current reasons categorised as highest, favourable/broadly pleasant, or mixed/uneven score 5, 4 and 2. |
-| Quiet | 15 | Current reasons categorised as comparatively persistent/widespread noise, mixed exposure, or lower-intensity/calmer fabric score 2, 3 and 4. |
+| Local transport | 15 | The explicit `assessment` field maps `dense_multimodal`, `useful_bus_rail` and `basic_bus_rail` to 5, 4 and 3. |
+| Local condition | 15 | The explicit `assessment` field maps `highest`, `favourable` and `mixed` to 5, 4 and 2. |
+| Quiet | 15 | The explicit `assessment` field maps `persistent_noise`, `mixed_exposure` and `lower_intensity` to 2, 3 and 4. |
 | One-bed stock | 15 | Current tenure-specific Rightmove headline counts of under 10, 10--24, 25--74, 75--249 and 250+ score 1--5. |
 | National transport | 10 | London and Birmingham routes score 5, 4, 3, 2 or 1 at effective journey times (minutes plus 15 per change) of <=75, <=120, <=165, <=210 or >210. The two route scores are averaged. |
 
@@ -48,8 +48,11 @@ dated archive and geography/coverage review supports comparable CSP rates.
 - Stock: recorded 5 September 2026 Rightmove headline counts, not deduplicated listings.
 - Transport: rounded historical representative rail times, plus qualitative local
   network assessments. These are not live timetables or accessibility measurements.
-- Quiet/condition: inherited coarse judgements with reasons; not measured exposure
-  or neighbourhood quality. Deprivation is not equivalent to visual condition.
+- Quiet/condition: inherited coarse judgements with an explicit assessment band,
+  reason, evidence IDs and `broad-assessment-v1` method version. The reason is
+  explanatory evidence and never controls the score. These are not measured
+  exposure or neighbourhood quality. Deprivation is not equivalent to visual
+  condition.
 - Recorded offences: ONS CSP violence-against-the-person and sexual-offence rates
   per 1,000 mid-2024 residents for April 2025–March 2026 are shown for all 63
   locations and are the limited recorded-offence component of the composite score.

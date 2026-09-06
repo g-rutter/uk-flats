@@ -13,6 +13,26 @@ WEIGHTS = {
     'national_transport': 10,
 }
 
+# These are deliberately explicit editorial assessment bands.  Narrative reasons
+# are evidence context for people; they must never determine a score.
+ASSESSMENT_SCORES = {
+    'localTransport': {
+        'dense_multimodal': 5,
+        'useful_bus_rail': 4,
+        'basic_bus_rail': 3,
+    },
+    'condition': {
+        'highest': 5,
+        'favourable': 4,
+        'mixed': 2,
+    },
+    'quiet': {
+        'persistent_noise': 2,
+        'mixed_exposure': 3,
+        'lower_intensity': 4,
+    },
+}
+
 
 def known(value):
     return value is not None and value != ''
@@ -54,33 +74,11 @@ def stock_score(count):
     return 1 if count < 10 else 2 if count < 25 else 3 if count < 75 else 4 if count < 250 else 5
 
 
-def local_transport_score(reason):
-    if not reason:
+def assessment_score(topic, assessment):
+    """Return the documented score for an explicit assessment band."""
+    if not known(assessment):
         return None
-    text = reason.lower()
-    return 5 if 'dense multimodal' in text else 4 if 'useful town/city' in text else 3 if 'basic bus and rail' in text else None
-
-
-def condition_score(reason):
-    if not reason:
-        return None
-    text = reason.lower()
-    if 'highest condition score' in text or 'highest broad condition' in text:
-        return 5
-    return 4 if 'favourable' in text or 'broadly pleasant' in text else 2
-
-
-def quiet_score(reason):
-    if not reason:
-        return None
-    text = reason.lower()
-    severe = ('persistent noise', 'widespread noise', 'comparatively scarce',
-              'relatively difficult', 'substantial persistent', 'unusually dense')
-    calmer = ('lower-intensity', 'quieter fabric', 'calmer areas', 'rural edge',
-              'no urban motorway', 'smaller town has substantial quieter')
-    if any(term in text for term in severe):
-        return 2
-    return 4 if any(term in text for term in calmer) else 3
+    return ASSESSMENT_SCORES[topic][assessment]
 
 
 def route_score(minutes, changes):
@@ -149,9 +147,9 @@ def compile_composite(locations, crime):
     for row in locations:
         common = {
             'safety': safety.get(row['id']),
-            'local_transport': local_transport_score(row['localTransport'].get('reason')),
-            'condition': condition_score(row['condition'].get('reason')),
-            'quiet': quiet_score(row['quiet'].get('reason')),
+            'local_transport': assessment_score('localTransport', row['localTransport'].get('assessment')),
+            'condition': assessment_score('condition', row['condition'].get('assessment')),
+            'quiet': assessment_score('quiet', row['quiet'].get('assessment')),
             'national_transport': national_transport_score(row['nationalTransport']),
         }
         results[row['id']] = {'safety': common['safety'], 'tenures': {}}
