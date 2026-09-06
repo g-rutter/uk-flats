@@ -117,6 +117,13 @@ imported baseline after that documented rounding rule. Together with the
 already matching rent results, this validates the stated methods and mappings
 for this sample only; it does not make untested baseline rows reproducible.
 
+The three HMLR yearly CSVs exceed GitHub's per-file size limit and are therefore
+not in Git. Their committed release-manifest rows retain the URLs, retrieval
+times and SHA-256 values. After cloning, run
+`python3 scripts/rehydrate_raw.py data/raw/releases/2026-09-06-baseline-probe`.
+It downloads only missing artifacts and fails if their bytes do not agree with
+the committed manifest; it never overwrites the recorded provenance.
+
 ## Fresh crime research schema
 
 `data/derived/crime_boundary_audit.csv` is a build-generated location-level
@@ -163,6 +170,12 @@ and reproduction. These observations are freshly retrieved, not legacy imports.
   translations document the Barnsley and Sheffield 2025 code changes. The
   `data/derived/asb_2025-04_2026-03*.csv` outputs are not canonical until
   coverage and split-LA review is complete.
+- `data/raw/crime/police-2026-09-05/manifest.csv`: the retained Police.uk March
+  2026 archive's URL, retrieval time, size and SHA-256. Its 1.6 GB ZIP exceeds
+  GitHub's per-file limit and is not in Git. After cloning, restore it with
+  `python3 scripts/rehydrate_raw.py data/raw/crime/police-2026-09-05`; the
+  command downloads only a missing ZIP and verifies its committed checksum and
+  size before writing it.
 - `data/derived/crime_source_tables/`: build-generated C1/C2/C4, CSP notes and ASB
   D4/D5 CSV exports; `source_row` and Excel column letters preserve cell identity.
 - `data/derived/crime_research.csv`: build-generated row per location/category,

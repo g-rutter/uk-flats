@@ -32,6 +32,20 @@ python3 scripts/extract_legacy.py
 `--initialize` is for fresh checkouts with no input CSVs; it refuses to overwrite
 existing inputs. Normal updates do not require archive extraction.
 
+## Rehydrate large raw artifacts
+
+Some retained raw downloads exceed GitHub's per-file limit, so a clone contains
+their manifests, URLs and SHA-256 checksums but not the binary files. Restore
+and verify only the missing artifacts with:
+
+```sh
+python3 scripts/rehydrate_raw.py data/raw/releases/2026-09-06-baseline-probe
+python3 scripts/rehydrate_raw.py data/raw/crime/police-2026-09-05
+```
+
+The command never updates a manifest. It fails if either a download or an
+existing local artifact differs from its committed checksum.
+
 ## Adding locations and updating evidence
 
 1. Add a unique, stable `id` and identity fields to `data/inputs/locations.csv`.

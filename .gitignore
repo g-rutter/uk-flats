@@ -7,3 +7,6 @@ data/staging/
 # locally with a checksummed release manifest and can be reacquired with the
 # reviewed request list.
 data/raw/releases/*/price/*.csv
+# The Police.uk monthly archive is retained locally; its committed manifest
+# records the immutable download URL and checksum for rehydration.
+data/raw/crime/police-*/*.zip

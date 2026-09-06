@@ -1,5 +1,6 @@
 import csv
 import hashlib
+import io
 import json
 from pathlib import Path
 import shutil
@@ -16,6 +17,7 @@ from crime_outliers import audit as audit_outliers
 from composite import ASSESSMENT_SCORES, assessment_score, compile_composite
 from prepare_locations import prepare
 from release_audit import audit as release_audit
+from rehydrate_raw import rehydrate
 
 
 class PipelineTests(unittest.TestCase):
@@ -95,6 +97,21 @@ class PipelineTests(unittest.TestCase):
                 writer.writerow(row)
             with self.assertRaisesRegex(ValueError, 'not retained'):
                 prepare(registry, root / 'raw', locations, crime)
+
+    def test_rehydrate_restores_missing_manifest_artifact_and_rejects_changed_bytes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            directory = Path(tmp)
+            payload = b'retained source bytes'
+            digest = hashlib.sha256(payload).hexdigest()
+            (directory / 'manifest.csv').write_text(
+                'file,month,url,retrieved_at,sha256,size_bytes\n'
+                f'archive.zip,2026-03,https://example.test/archive,2026-09-05T00:00:00Z,{digest},{len(payload)}\n',
+                encoding='utf-8')
+            self.assertEqual(rehydrate(directory, lambda url, timeout: io.BytesIO(payload)), ['archive.zip'])
+            self.assertEqual((directory / 'archive.zip').read_bytes(), payload)
+            (directory / 'archive.zip').write_bytes(b'changed')
+            with self.assertRaisesRegex(ValueError, 'local SHA-256'):
+                rehydrate(directory, lambda url, timeout: io.BytesIO(payload))
 
     def test_release_audit_marks_missing_addition_without_zero_filling(self):
         with tempfile.TemporaryDirectory() as tmp:
