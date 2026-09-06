@@ -1,0 +1,505 @@
+location_id,topic,status,geography,source_period,artifact_hash,reason
+barnsley,buy,review-required,Barnsley,,,Imported baseline value has no retained row-level raw artifact
+barnsley,rent,review-required,Barnsley,,,Imported baseline value has no retained row-level raw artifact
+barnsley,market,review-required,Barnsley,,,Imported baseline value has no retained row-level raw artifact
+barnsley,localTransport,review-required,Barnsley,,,Imported baseline value has no retained row-level raw artifact
+barnsley,nationalTransport,review-required,Barnsley,,,Imported baseline value has no retained row-level raw artifact
+barnsley,quiet,review-required,Barnsley,,,Imported baseline value has no retained row-level raw artifact
+barnsley,condition,review-required,Barnsley,,,Imported baseline value has no retained row-level raw artifact
+barnsley,crime,ready,E22000259,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+birmingham,buy,review-required,Birmingham,,,Imported baseline value has no retained row-level raw artifact
+birmingham,rent,review-required,Birmingham,,,Imported baseline value has no retained row-level raw artifact
+birmingham,market,review-required,Birmingham,,,Imported baseline value has no retained row-level raw artifact
+birmingham,localTransport,review-required,Birmingham,,,Imported baseline value has no retained row-level raw artifact
+birmingham,nationalTransport,review-required,Birmingham,,,Imported baseline value has no retained row-level raw artifact
+birmingham,quiet,review-required,Birmingham,,,Imported baseline value has no retained row-level raw artifact
+birmingham,condition,review-required,Birmingham,,,Imported baseline value has no retained row-level raw artifact
+birmingham,crime,ready,E22000335,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+blackburn,buy,review-required,Blackburn with Darwen,,,Imported baseline value has no retained row-level raw artifact
+blackburn,rent,review-required,Blackburn with Darwen,,,Imported baseline value has no retained row-level raw artifact
+blackburn,market,review-required,Blackburn with Darwen,,,Imported baseline value has no retained row-level raw artifact
+blackburn,localTransport,review-required,Blackburn with Darwen,,,Imported baseline value has no retained row-level raw artifact
+blackburn,nationalTransport,review-required,Blackburn with Darwen,,,Imported baseline value has no retained row-level raw artifact
+blackburn,quiet,review-required,Blackburn with Darwen,,,Imported baseline value has no retained row-level raw artifact
+blackburn,condition,review-required,Blackburn with Darwen,,,Imported baseline value has no retained row-level raw artifact
+blackburn,crime,ready,E22000150,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+blackpool,buy,review-required,Blackpool,,,Imported baseline value has no retained row-level raw artifact
+blackpool,rent,review-required,Blackpool,,,Imported baseline value has no retained row-level raw artifact
+blackpool,market,review-required,Blackpool,,,Imported baseline value has no retained row-level raw artifact
+blackpool,localTransport,review-required,Blackpool,,,Imported baseline value has no retained row-level raw artifact
+blackpool,nationalTransport,review-required,Blackpool,,,Imported baseline value has no retained row-level raw artifact
+blackpool,quiet,review-required,Blackpool,,,Imported baseline value has no retained row-level raw artifact
+blackpool,condition,review-required,Blackpool,,,Imported baseline value has no retained row-level raw artifact
+blackpool,crime,ready,E22000151,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+bolton,buy,review-required,Bolton,,,Imported baseline value has no retained row-level raw artifact
+bolton,rent,review-required,Bolton,,,Imported baseline value has no retained row-level raw artifact
+bolton,market,review-required,Bolton,,,Imported baseline value has no retained row-level raw artifact
+bolton,localTransport,review-required,Bolton,,,Imported baseline value has no retained row-level raw artifact
+bolton,nationalTransport,review-required,Bolton,,,Imported baseline value has no retained row-level raw artifact
+bolton,quiet,review-required,Bolton,,,Imported baseline value has no retained row-level raw artifact
+bolton,condition,review-required,Bolton,,,Imported baseline value has no retained row-level raw artifact
+bolton,crime,ready,E22000099,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+bradford,buy,review-required,Bradford,,,Imported baseline value has no retained row-level raw artifact
+bradford,rent,review-required,Bradford,,,Imported baseline value has no retained row-level raw artifact
+bradford,market,review-required,Bradford,,,Imported baseline value has no retained row-level raw artifact
+bradford,localTransport,review-required,Bradford,,,Imported baseline value has no retained row-level raw artifact
+bradford,nationalTransport,review-required,Bradford,,,Imported baseline value has no retained row-level raw artifact
+bradford,quiet,review-required,Bradford,,,Imported baseline value has no retained row-level raw artifact
+bradford,condition,review-required,Bradford,,,Imported baseline value has no retained row-level raw artifact
+bradford,crime,ready,E22000342,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+burnley,buy,review-required,Burnley,,,Imported baseline value has no retained row-level raw artifact
+burnley,rent,review-required,Burnley,,,Imported baseline value has no retained row-level raw artifact
+burnley,market,review-required,Burnley,,,Imported baseline value has no retained row-level raw artifact
+burnley,localTransport,review-required,Burnley,,,Imported baseline value has no retained row-level raw artifact
+burnley,nationalTransport,review-required,Burnley,,,Imported baseline value has no retained row-level raw artifact
+burnley,quiet,review-required,Burnley,,,Imported baseline value has no retained row-level raw artifact
+burnley,condition,review-required,Burnley,,,Imported baseline value has no retained row-level raw artifact
+burnley,crime,ready,E22000152,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+burton-on-trent,buy,review-required,East Staffordshire,,,Imported baseline value has no retained row-level raw artifact
+burton-on-trent,rent,review-required,East Staffordshire,,,Imported baseline value has no retained row-level raw artifact
+burton-on-trent,market,review-required,East Staffordshire,,,Imported baseline value has no retained row-level raw artifact
+burton-on-trent,localTransport,review-required,East Staffordshire,,,Imported baseline value has no retained row-level raw artifact
+burton-on-trent,nationalTransport,review-required,East Staffordshire,,,Imported baseline value has no retained row-level raw artifact
+burton-on-trent,quiet,review-required,East Staffordshire,,,Imported baseline value has no retained row-level raw artifact
+burton-on-trent,condition,review-required,East Staffordshire,,,Imported baseline value has no retained row-level raw artifact
+burton-on-trent,crime,ready,E22000264,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+cardiff,buy,review-required,Cardiff,,,Imported baseline value has no retained row-level raw artifact
+cardiff,rent,review-required,Cardiff,,,Imported baseline value has no retained row-level raw artifact
+cardiff,market,review-required,Cardiff,,,Imported baseline value has no retained row-level raw artifact
+cardiff,localTransport,review-required,Cardiff,,,Imported baseline value has no retained row-level raw artifact
+cardiff,nationalTransport,review-required,Cardiff,,,Imported baseline value has no retained row-level raw artifact
+cardiff,quiet,review-required,Cardiff,,,Imported baseline value has no retained row-level raw artifact
+cardiff,condition,review-required,Cardiff,,,Imported baseline value has no retained row-level raw artifact
+cardiff,crime,ready,W14000015,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+chester,buy,review-required,Cheshire West and Chester,,,Imported baseline value has no retained row-level raw artifact
+chester,rent,review-required,Cheshire West and Chester,,,Imported baseline value has no retained row-level raw artifact
+chester,market,review-required,Cheshire West and Chester,,,Imported baseline value has no retained row-level raw artifact
+chester,localTransport,review-required,Cheshire West and Chester,,,Imported baseline value has no retained row-level raw artifact
+chester,nationalTransport,review-required,Cheshire West and Chester,,,Imported baseline value has no retained row-level raw artifact
+chester,quiet,review-required,Cheshire West and Chester,,,Imported baseline value has no retained row-level raw artifact
+chester,condition,review-required,Cheshire West and Chester,,,Imported baseline value has no retained row-level raw artifact
+chester,crime,ready,E22000355,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+chesterfield,buy,review-required,Chesterfield,,,Imported baseline value has no retained row-level raw artifact
+chesterfield,rent,review-required,Chesterfield,,,Imported baseline value has no retained row-level raw artifact
+chesterfield,market,review-required,Chesterfield,,,Imported baseline value has no retained row-level raw artifact
+chesterfield,localTransport,review-required,Chesterfield,,,Imported baseline value has no retained row-level raw artifact
+chesterfield,nationalTransport,review-required,Chesterfield,,,Imported baseline value has no retained row-level raw artifact
+chesterfield,quiet,review-required,Chesterfield,,,Imported baseline value has no retained row-level raw artifact
+chesterfield,condition,review-required,Chesterfield,,,Imported baseline value has no retained row-level raw artifact
+chesterfield,crime,ready,E22000039,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+coventry,buy,review-required,Coventry,,,Imported baseline value has no retained row-level raw artifact
+coventry,rent,review-required,Coventry,,,Imported baseline value has no retained row-level raw artifact
+coventry,market,review-required,Coventry,,,Imported baseline value has no retained row-level raw artifact
+coventry,localTransport,review-required,Coventry,,,Imported baseline value has no retained row-level raw artifact
+coventry,nationalTransport,review-required,Coventry,,,Imported baseline value has no retained row-level raw artifact
+coventry,quiet,review-required,Coventry,,,Imported baseline value has no retained row-level raw artifact
+coventry,condition,review-required,Coventry,,,Imported baseline value has no retained row-level raw artifact
+coventry,crime,ready,E22000336,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+darlington,buy,review-required,Darlington,,,Imported baseline value has no retained row-level raw artifact
+darlington,rent,review-required,Darlington,,,Imported baseline value has no retained row-level raw artifact
+darlington,market,review-required,Darlington,,,Imported baseline value has no retained row-level raw artifact
+darlington,localTransport,review-required,Darlington,,,Imported baseline value has no retained row-level raw artifact
+darlington,nationalTransport,review-required,Darlington,,,Imported baseline value has no retained row-level raw artifact
+darlington,quiet,review-required,Darlington,,,Imported baseline value has no retained row-level raw artifact
+darlington,condition,review-required,Darlington,,,Imported baseline value has no retained row-level raw artifact
+darlington,crime,ready,E22000072,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+derby,buy,review-required,Derby,,,Imported baseline value has no retained row-level raw artifact
+derby,rent,review-required,Derby,,,Imported baseline value has no retained row-level raw artifact
+derby,market,review-required,Derby,,,Imported baseline value has no retained row-level raw artifact
+derby,localTransport,review-required,Derby,,,Imported baseline value has no retained row-level raw artifact
+derby,nationalTransport,review-required,Derby,,,Imported baseline value has no retained row-level raw artifact
+derby,quiet,review-required,Derby,,,Imported baseline value has no retained row-level raw artifact
+derby,condition,review-required,Derby,,,Imported baseline value has no retained row-level raw artifact
+derby,crime,ready,E22000040,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+doncaster,buy,review-required,Doncaster,,,Imported baseline value has no retained row-level raw artifact
+doncaster,rent,review-required,Doncaster,,,Imported baseline value has no retained row-level raw artifact
+doncaster,market,review-required,Doncaster,,,Imported baseline value has no retained row-level raw artifact
+doncaster,localTransport,review-required,Doncaster,,,Imported baseline value has no retained row-level raw artifact
+doncaster,nationalTransport,review-required,Doncaster,,,Imported baseline value has no retained row-level raw artifact
+doncaster,quiet,review-required,Doncaster,,,Imported baseline value has no retained row-level raw artifact
+doncaster,condition,review-required,Doncaster,,,Imported baseline value has no retained row-level raw artifact
+doncaster,crime,ready,E22000260,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+gateshead,buy,review-required,Gateshead,,,Imported baseline value has no retained row-level raw artifact
+gateshead,rent,review-required,Gateshead,,,Imported baseline value has no retained row-level raw artifact
+gateshead,market,review-required,Gateshead,,,Imported baseline value has no retained row-level raw artifact
+gateshead,localTransport,review-required,Gateshead,,,Imported baseline value has no retained row-level raw artifact
+gateshead,nationalTransport,review-required,Gateshead,,,Imported baseline value has no retained row-level raw artifact
+gateshead,quiet,review-required,Gateshead,,,Imported baseline value has no retained row-level raw artifact
+gateshead,condition,review-required,Gateshead,,,Imported baseline value has no retained row-level raw artifact
+gateshead,crime,ready,E22000244,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+gloucester,buy,review-required,Gloucester,,,Imported baseline value has no retained row-level raw artifact
+gloucester,rent,review-required,Gloucester,,,Imported baseline value has no retained row-level raw artifact
+gloucester,market,review-required,Gloucester,,,Imported baseline value has no retained row-level raw artifact
+gloucester,localTransport,review-required,Gloucester,,,Imported baseline value has no retained row-level raw artifact
+gloucester,nationalTransport,review-required,Gloucester,,,Imported baseline value has no retained row-level raw artifact
+gloucester,quiet,review-required,Gloucester,,,Imported baseline value has no retained row-level raw artifact
+gloucester,condition,review-required,Gloucester,,,Imported baseline value has no retained row-level raw artifact
+gloucester,crime,ready,E22000096,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+halifax,buy,review-required,Calderdale,,,Imported baseline value has no retained row-level raw artifact
+halifax,rent,review-required,Calderdale,,,Imported baseline value has no retained row-level raw artifact
+halifax,market,review-required,Calderdale,,,Imported baseline value has no retained row-level raw artifact
+halifax,localTransport,review-required,Calderdale,,,Imported baseline value has no retained row-level raw artifact
+halifax,nationalTransport,review-required,Calderdale,,,Imported baseline value has no retained row-level raw artifact
+halifax,quiet,review-required,Calderdale,,,Imported baseline value has no retained row-level raw artifact
+halifax,condition,review-required,Calderdale,,,Imported baseline value has no retained row-level raw artifact
+halifax,crime,ready,E22000343,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+hartlepool,buy,review-required,Hartlepool,,,Imported baseline value has no retained row-level raw artifact
+hartlepool,rent,review-required,Hartlepool,,,Imported baseline value has no retained row-level raw artifact
+hartlepool,market,review-required,Hartlepool,,,Imported baseline value has no retained row-level raw artifact
+hartlepool,localTransport,review-required,Hartlepool,,,Imported baseline value has no retained row-level raw artifact
+hartlepool,nationalTransport,review-required,Hartlepool,,,Imported baseline value has no retained row-level raw artifact
+hartlepool,quiet,review-required,Hartlepool,,,Imported baseline value has no retained row-level raw artifact
+hartlepool,condition,review-required,Hartlepool,,,Imported baseline value has no retained row-level raw artifact
+hartlepool,crime,ready,E22000027,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+huddersfield,buy,review-required,Kirklees,,,Imported baseline value has no retained row-level raw artifact
+huddersfield,rent,review-required,Kirklees,,,Imported baseline value has no retained row-level raw artifact
+huddersfield,market,review-required,Kirklees,,,Imported baseline value has no retained row-level raw artifact
+huddersfield,localTransport,review-required,Kirklees,,,Imported baseline value has no retained row-level raw artifact
+huddersfield,nationalTransport,review-required,Kirklees,,,Imported baseline value has no retained row-level raw artifact
+huddersfield,quiet,review-required,Kirklees,,,Imported baseline value has no retained row-level raw artifact
+huddersfield,condition,review-required,Kirklees,,,Imported baseline value has no retained row-level raw artifact
+huddersfield,crime,ready,E22000344,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+hull-kingston-upon-hull,buy,review-required,"Kingston upon Hull, City of",,,Imported baseline value has no retained row-level raw artifact
+hull-kingston-upon-hull,rent,review-required,"Kingston upon Hull, City of",,,Imported baseline value has no retained row-level raw artifact
+hull-kingston-upon-hull,market,review-required,"Kingston upon Hull, City of",,,Imported baseline value has no retained row-level raw artifact
+hull-kingston-upon-hull,localTransport,review-required,"Kingston upon Hull, City of",,,Imported baseline value has no retained row-level raw artifact
+hull-kingston-upon-hull,nationalTransport,review-required,"Kingston upon Hull, City of",,,Imported baseline value has no retained row-level raw artifact
+hull-kingston-upon-hull,quiet,review-required,"Kingston upon Hull, City of",,,Imported baseline value has no retained row-level raw artifact
+hull-kingston-upon-hull,condition,review-required,"Kingston upon Hull, City of",,,Imported baseline value has no retained row-level raw artifact
+hull-kingston-upon-hull,crime,ready,E22000134,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+ipswich,buy,review-required,Ipswich,,,Imported baseline value has no retained row-level raw artifact
+ipswich,rent,review-required,Ipswich,,,Imported baseline value has no retained row-level raw artifact
+ipswich,market,review-required,Ipswich,,,Imported baseline value has no retained row-level raw artifact
+ipswich,localTransport,review-required,Ipswich,,,Imported baseline value has no retained row-level raw artifact
+ipswich,nationalTransport,review-required,Ipswich,,,Imported baseline value has no retained row-level raw artifact
+ipswich,quiet,review-required,Ipswich,,,Imported baseline value has no retained row-level raw artifact
+ipswich,condition,review-required,Ipswich,,,Imported baseline value has no retained row-level raw artifact
+ipswich,crime,ready,E22000273,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+kettering,buy,review-required,North Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
+kettering,rent,review-required,North Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
+kettering,market,review-required,North Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
+kettering,localTransport,review-required,North Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
+kettering,nationalTransport,review-required,North Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
+kettering,quiet,review-required,North Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
+kettering,condition,review-required,North Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
+kettering,crime,ready,E22000236,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+lancaster,buy,review-required,Lancaster,,,Imported baseline value has no retained row-level raw artifact
+lancaster,rent,review-required,Lancaster,,,Imported baseline value has no retained row-level raw artifact
+lancaster,market,review-required,Lancaster,,,Imported baseline value has no retained row-level raw artifact
+lancaster,localTransport,review-required,Lancaster,,,Imported baseline value has no retained row-level raw artifact
+lancaster,nationalTransport,review-required,Lancaster,,,Imported baseline value has no retained row-level raw artifact
+lancaster,quiet,review-required,Lancaster,,,Imported baseline value has no retained row-level raw artifact
+lancaster,condition,review-required,Lancaster,,,Imported baseline value has no retained row-level raw artifact
+lancaster,crime,ready,E22000156,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+leeds,buy,review-required,Leeds,,,Imported baseline value has no retained row-level raw artifact
+leeds,rent,review-required,Leeds,,,Imported baseline value has no retained row-level raw artifact
+leeds,market,review-required,Leeds,,,Imported baseline value has no retained row-level raw artifact
+leeds,localTransport,review-required,Leeds,,,Imported baseline value has no retained row-level raw artifact
+leeds,nationalTransport,review-required,Leeds,,,Imported baseline value has no retained row-level raw artifact
+leeds,quiet,review-required,Leeds,,,Imported baseline value has no retained row-level raw artifact
+leeds,condition,review-required,Leeds,,,Imported baseline value has no retained row-level raw artifact
+leeds,crime,ready,E22000345,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+leicester,buy,review-required,Leicester,,,Imported baseline value has no retained row-level raw artifact
+leicester,rent,review-required,Leicester,,,Imported baseline value has no retained row-level raw artifact
+leicester,market,review-required,Leicester,,,Imported baseline value has no retained row-level raw artifact
+leicester,localTransport,review-required,Leicester,,,Imported baseline value has no retained row-level raw artifact
+leicester,nationalTransport,review-required,Leicester,,,Imported baseline value has no retained row-level raw artifact
+leicester,quiet,review-required,Leicester,,,Imported baseline value has no retained row-level raw artifact
+leicester,condition,review-required,Leicester,,,Imported baseline value has no retained row-level raw artifact
+leicester,crime,ready,E22000168,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+lincoln,buy,review-required,Lincoln,,,Imported baseline value has no retained row-level raw artifact
+lincoln,rent,review-required,Lincoln,,,Imported baseline value has no retained row-level raw artifact
+lincoln,market,review-required,Lincoln,,,Imported baseline value has no retained row-level raw artifact
+lincoln,localTransport,review-required,Lincoln,,,Imported baseline value has no retained row-level raw artifact
+lincoln,nationalTransport,review-required,Lincoln,,,Imported baseline value has no retained row-level raw artifact
+lincoln,quiet,review-required,Lincoln,,,Imported baseline value has no retained row-level raw artifact
+lincoln,condition,review-required,Lincoln,,,Imported baseline value has no retained row-level raw artifact
+lincoln,crime,ready,E22000175,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+liverpool,buy,review-required,Liverpool,,,Imported baseline value has no retained row-level raw artifact
+liverpool,rent,review-required,Liverpool,,,Imported baseline value has no retained row-level raw artifact
+liverpool,market,review-required,Liverpool,,,Imported baseline value has no retained row-level raw artifact
+liverpool,localTransport,review-required,Liverpool,,,Imported baseline value has no retained row-level raw artifact
+liverpool,nationalTransport,review-required,Liverpool,,,Imported baseline value has no retained row-level raw artifact
+liverpool,quiet,review-required,Liverpool,,,Imported baseline value has no retained row-level raw artifact
+liverpool,condition,review-required,Liverpool,,,Imported baseline value has no retained row-level raw artifact
+liverpool,crime,ready,E22000182,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+loughborough,buy,review-required,Charnwood,,,Imported baseline value has no retained row-level raw artifact
+loughborough,rent,review-required,Charnwood,,,Imported baseline value has no retained row-level raw artifact
+loughborough,market,review-required,Charnwood,,,Imported baseline value has no retained row-level raw artifact
+loughborough,localTransport,review-required,Charnwood,,,Imported baseline value has no retained row-level raw artifact
+loughborough,nationalTransport,review-required,Charnwood,,,Imported baseline value has no retained row-level raw artifact
+loughborough,quiet,review-required,Charnwood,,,Imported baseline value has no retained row-level raw artifact
+loughborough,condition,review-required,Charnwood,,,Imported baseline value has no retained row-level raw artifact
+loughborough,crime,ready,E22000165,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+manchester,buy,review-required,Manchester,,,Imported baseline value has no retained row-level raw artifact
+manchester,rent,review-required,Manchester,,,Imported baseline value has no retained row-level raw artifact
+manchester,market,review-required,Manchester,,,Imported baseline value has no retained row-level raw artifact
+manchester,localTransport,review-required,Manchester,,,Imported baseline value has no retained row-level raw artifact
+manchester,nationalTransport,review-required,Manchester,,,Imported baseline value has no retained row-level raw artifact
+manchester,quiet,review-required,Manchester,,,Imported baseline value has no retained row-level raw artifact
+manchester,condition,review-required,Manchester,,,Imported baseline value has no retained row-level raw artifact
+manchester,crime,ready,E22000101,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+merthyr-tydfil,buy,review-required,Merthyr Tydfil,,,Imported baseline value has no retained row-level raw artifact
+merthyr-tydfil,rent,review-required,Merthyr Tydfil,,,Imported baseline value has no retained row-level raw artifact
+merthyr-tydfil,market,review-required,Merthyr Tydfil,,,Imported baseline value has no retained row-level raw artifact
+merthyr-tydfil,localTransport,review-required,Merthyr Tydfil,,,Imported baseline value has no retained row-level raw artifact
+merthyr-tydfil,nationalTransport,review-required,Merthyr Tydfil,,,Imported baseline value has no retained row-level raw artifact
+merthyr-tydfil,quiet,review-required,Merthyr Tydfil,,,Imported baseline value has no retained row-level raw artifact
+merthyr-tydfil,condition,review-required,Merthyr Tydfil,,,Imported baseline value has no retained row-level raw artifact
+merthyr-tydfil,crime,ready,W14000023,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+middlesbrough,buy,review-required,Middlesbrough,,,Imported baseline value has no retained row-level raw artifact
+middlesbrough,rent,review-required,Middlesbrough,,,Imported baseline value has no retained row-level raw artifact
+middlesbrough,market,review-required,Middlesbrough,,,Imported baseline value has no retained row-level raw artifact
+middlesbrough,localTransport,review-required,Middlesbrough,,,Imported baseline value has no retained row-level raw artifact
+middlesbrough,nationalTransport,review-required,Middlesbrough,,,Imported baseline value has no retained row-level raw artifact
+middlesbrough,quiet,review-required,Middlesbrough,,,Imported baseline value has no retained row-level raw artifact
+middlesbrough,condition,review-required,Middlesbrough,,,Imported baseline value has no retained row-level raw artifact
+middlesbrough,crime,ready,E22000029,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+neath,buy,review-required,Neath Port Talbot,,,Imported baseline value has no retained row-level raw artifact
+neath,rent,review-required,Neath Port Talbot,,,Imported baseline value has no retained row-level raw artifact
+neath,market,review-required,Neath Port Talbot,,,Imported baseline value has no retained row-level raw artifact
+neath,localTransport,review-required,Neath Port Talbot,,,Imported baseline value has no retained row-level raw artifact
+neath,nationalTransport,review-required,Neath Port Talbot,,,Imported baseline value has no retained row-level raw artifact
+neath,quiet,review-required,Neath Port Talbot,,,Imported baseline value has no retained row-level raw artifact
+neath,condition,review-required,Neath Port Talbot,,,Imported baseline value has no retained row-level raw artifact
+neath,crime,ready,W14000012,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+newcastle-upon-tyne,buy,review-required,Newcastle upon Tyne,,,Imported baseline value has no retained row-level raw artifact
+newcastle-upon-tyne,rent,review-required,Newcastle upon Tyne,,,Imported baseline value has no retained row-level raw artifact
+newcastle-upon-tyne,market,review-required,Newcastle upon Tyne,,,Imported baseline value has no retained row-level raw artifact
+newcastle-upon-tyne,localTransport,review-required,Newcastle upon Tyne,,,Imported baseline value has no retained row-level raw artifact
+newcastle-upon-tyne,nationalTransport,review-required,Newcastle upon Tyne,,,Imported baseline value has no retained row-level raw artifact
+newcastle-upon-tyne,quiet,review-required,Newcastle upon Tyne,,,Imported baseline value has no retained row-level raw artifact
+newcastle-upon-tyne,condition,review-required,Newcastle upon Tyne,,,Imported baseline value has no retained row-level raw artifact
+newcastle-upon-tyne,crime,ready,E22000245,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+newport,buy,review-required,Newport,,,Imported baseline value has no retained row-level raw artifact
+newport,rent,review-required,Newport,,,Imported baseline value has no retained row-level raw artifact
+newport,market,review-required,Newport,,,Imported baseline value has no retained row-level raw artifact
+newport,localTransport,review-required,Newport,,,Imported baseline value has no retained row-level raw artifact
+newport,nationalTransport,review-required,Newport,,,Imported baseline value has no retained row-level raw artifact
+newport,quiet,review-required,Newport,,,Imported baseline value has no retained row-level raw artifact
+newport,condition,review-required,Newport,,,Imported baseline value has no retained row-level raw artifact
+newport,crime,ready,W14000022,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+northampton,buy,review-required,West Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
+northampton,rent,review-required,West Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
+northampton,market,review-required,West Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
+northampton,localTransport,review-required,West Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
+northampton,nationalTransport,review-required,West Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
+northampton,quiet,review-required,West Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
+northampton,condition,review-required,West Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
+northampton,crime,ready,E22000237,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+norwich,buy,review-required,Norwich,,,Imported baseline value has no retained row-level raw artifact
+norwich,rent,review-required,Norwich,,,Imported baseline value has no retained row-level raw artifact
+norwich,market,review-required,Norwich,,,Imported baseline value has no retained row-level raw artifact
+norwich,localTransport,review-required,Norwich,,,Imported baseline value has no retained row-level raw artifact
+norwich,nationalTransport,review-required,Norwich,,,Imported baseline value has no retained row-level raw artifact
+norwich,quiet,review-required,Norwich,,,Imported baseline value has no retained row-level raw artifact
+norwich,condition,review-required,Norwich,,,Imported baseline value has no retained row-level raw artifact
+norwich,crime,ready,E22000223,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+nottingham,buy,review-required,Nottingham,,,Imported baseline value has no retained row-level raw artifact
+nottingham,rent,review-required,Nottingham,,,Imported baseline value has no retained row-level raw artifact
+nottingham,market,review-required,Nottingham,,,Imported baseline value has no retained row-level raw artifact
+nottingham,localTransport,review-required,Nottingham,,,Imported baseline value has no retained row-level raw artifact
+nottingham,nationalTransport,review-required,Nottingham,,,Imported baseline value has no retained row-level raw artifact
+nottingham,quiet,review-required,Nottingham,,,Imported baseline value has no retained row-level raw artifact
+nottingham,condition,review-required,Nottingham,,,Imported baseline value has no retained row-level raw artifact
+nottingham,crime,ready,E22000257,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+peterborough,buy,review-required,Peterborough,,,Imported baseline value has no retained row-level raw artifact
+peterborough,rent,review-required,Peterborough,,,Imported baseline value has no retained row-level raw artifact
+peterborough,market,review-required,Peterborough,,,Imported baseline value has no retained row-level raw artifact
+peterborough,localTransport,review-required,Peterborough,,,Imported baseline value has no retained row-level raw artifact
+peterborough,nationalTransport,review-required,Peterborough,,,Imported baseline value has no retained row-level raw artifact
+peterborough,quiet,review-required,Peterborough,,,Imported baseline value has no retained row-level raw artifact
+peterborough,condition,review-required,Peterborough,,,Imported baseline value has no retained row-level raw artifact
+peterborough,crime,ready,E22000017,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+plymouth,buy,review-required,Plymouth,,,Imported baseline value has no retained row-level raw artifact
+plymouth,rent,review-required,Plymouth,,,Imported baseline value has no retained row-level raw artifact
+plymouth,market,review-required,Plymouth,,,Imported baseline value has no retained row-level raw artifact
+plymouth,localTransport,review-required,Plymouth,,,Imported baseline value has no retained row-level raw artifact
+plymouth,nationalTransport,review-required,Plymouth,,,Imported baseline value has no retained row-level raw artifact
+plymouth,quiet,review-required,Plymouth,,,Imported baseline value has no retained row-level raw artifact
+plymouth,condition,review-required,Plymouth,,,Imported baseline value has no retained row-level raw artifact
+plymouth,crime,ready,E22000056,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+portsmouth,buy,review-required,Portsmouth,,,Imported baseline value has no retained row-level raw artifact
+portsmouth,rent,review-required,Portsmouth,,,Imported baseline value has no retained row-level raw artifact
+portsmouth,market,review-required,Portsmouth,,,Imported baseline value has no retained row-level raw artifact
+portsmouth,localTransport,review-required,Portsmouth,,,Imported baseline value has no retained row-level raw artifact
+portsmouth,nationalTransport,review-required,Portsmouth,,,Imported baseline value has no retained row-level raw artifact
+portsmouth,quiet,review-required,Portsmouth,,,Imported baseline value has no retained row-level raw artifact
+portsmouth,condition,review-required,Portsmouth,,,Imported baseline value has no retained row-level raw artifact
+portsmouth,crime,ready,E22000118,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+preston,buy,review-required,Preston,,,Imported baseline value has no retained row-level raw artifact
+preston,rent,review-required,Preston,,,Imported baseline value has no retained row-level raw artifact
+preston,market,review-required,Preston,,,Imported baseline value has no retained row-level raw artifact
+preston,localTransport,review-required,Preston,,,Imported baseline value has no retained row-level raw artifact
+preston,nationalTransport,review-required,Preston,,,Imported baseline value has no retained row-level raw artifact
+preston,quiet,review-required,Preston,,,Imported baseline value has no retained row-level raw artifact
+preston,condition,review-required,Preston,,,Imported baseline value has no retained row-level raw artifact
+preston,crime,ready,E22000158,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+rotherham,buy,review-required,Rotherham,,,Imported baseline value has no retained row-level raw artifact
+rotherham,rent,review-required,Rotherham,,,Imported baseline value has no retained row-level raw artifact
+rotherham,market,review-required,Rotherham,,,Imported baseline value has no retained row-level raw artifact
+rotherham,localTransport,review-required,Rotherham,,,Imported baseline value has no retained row-level raw artifact
+rotherham,nationalTransport,review-required,Rotherham,,,Imported baseline value has no retained row-level raw artifact
+rotherham,quiet,review-required,Rotherham,,,Imported baseline value has no retained row-level raw artifact
+rotherham,condition,review-required,Rotherham,,,Imported baseline value has no retained row-level raw artifact
+rotherham,crime,ready,E22000261,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+salford,buy,review-required,Salford,,,Imported baseline value has no retained row-level raw artifact
+salford,rent,review-required,Salford,,,Imported baseline value has no retained row-level raw artifact
+salford,market,review-required,Salford,,,Imported baseline value has no retained row-level raw artifact
+salford,localTransport,review-required,Salford,,,Imported baseline value has no retained row-level raw artifact
+salford,nationalTransport,review-required,Salford,,,Imported baseline value has no retained row-level raw artifact
+salford,quiet,review-required,Salford,,,Imported baseline value has no retained row-level raw artifact
+salford,condition,review-required,Salford,,,Imported baseline value has no retained row-level raw artifact
+salford,crime,ready,E22000104,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+sheffield,buy,review-required,Sheffield,,,Imported baseline value has no retained row-level raw artifact
+sheffield,rent,review-required,Sheffield,,,Imported baseline value has no retained row-level raw artifact
+sheffield,market,review-required,Sheffield,,,Imported baseline value has no retained row-level raw artifact
+sheffield,localTransport,review-required,Sheffield,,,Imported baseline value has no retained row-level raw artifact
+sheffield,nationalTransport,review-required,Sheffield,,,Imported baseline value has no retained row-level raw artifact
+sheffield,quiet,review-required,Sheffield,,,Imported baseline value has no retained row-level raw artifact
+sheffield,condition,review-required,Sheffield,,,Imported baseline value has no retained row-level raw artifact
+sheffield,crime,ready,E22000262,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+shrewsbury,buy,review-required,Shropshire,,,Imported baseline value has no retained row-level raw artifact
+shrewsbury,rent,review-required,Shropshire,,,Imported baseline value has no retained row-level raw artifact
+shrewsbury,market,review-required,Shropshire,,,Imported baseline value has no retained row-level raw artifact
+shrewsbury,localTransport,review-required,Shropshire,,,Imported baseline value has no retained row-level raw artifact
+shrewsbury,nationalTransport,review-required,Shropshire,,,Imported baseline value has no retained row-level raw artifact
+shrewsbury,quiet,review-required,Shropshire,,,Imported baseline value has no retained row-level raw artifact
+shrewsbury,condition,review-required,Shropshire,,,Imported baseline value has no retained row-level raw artifact
+shrewsbury,crime,ready,E22000360,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+st-helens,buy,review-required,St. Helens,,,Imported baseline value has no retained row-level raw artifact
+st-helens,rent,review-required,St. Helens,,,Imported baseline value has no retained row-level raw artifact
+st-helens,market,review-required,St. Helens,,,Imported baseline value has no retained row-level raw artifact
+st-helens,localTransport,review-required,St. Helens,,,Imported baseline value has no retained row-level raw artifact
+st-helens,nationalTransport,review-required,St. Helens,,,Imported baseline value has no retained row-level raw artifact
+st-helens,quiet,review-required,St. Helens,,,Imported baseline value has no retained row-level raw artifact
+st-helens,condition,review-required,St. Helens,,,Imported baseline value has no retained row-level raw artifact
+st-helens,crime,ready,E22000184,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+stafford,buy,review-required,Stafford,,,Imported baseline value has no retained row-level raw artifact
+stafford,rent,review-required,Stafford,,,Imported baseline value has no retained row-level raw artifact
+stafford,market,review-required,Stafford,,,Imported baseline value has no retained row-level raw artifact
+stafford,localTransport,review-required,Stafford,,,Imported baseline value has no retained row-level raw artifact
+stafford,nationalTransport,review-required,Stafford,,,Imported baseline value has no retained row-level raw artifact
+stafford,quiet,review-required,Stafford,,,Imported baseline value has no retained row-level raw artifact
+stafford,condition,review-required,Stafford,,,Imported baseline value has no retained row-level raw artifact
+stafford,crime,ready,E22000268,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+stockport,buy,review-required,Stockport,,,Imported baseline value has no retained row-level raw artifact
+stockport,rent,review-required,Stockport,,,Imported baseline value has no retained row-level raw artifact
+stockport,market,review-required,Stockport,,,Imported baseline value has no retained row-level raw artifact
+stockport,localTransport,review-required,Stockport,,,Imported baseline value has no retained row-level raw artifact
+stockport,nationalTransport,review-required,Stockport,,,Imported baseline value has no retained row-level raw artifact
+stockport,quiet,review-required,Stockport,,,Imported baseline value has no retained row-level raw artifact
+stockport,condition,review-required,Stockport,,,Imported baseline value has no retained row-level raw artifact
+stockport,crime,ready,E22000105,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+stockton-on-tees,buy,review-required,Stockton-on-Tees,,,Imported baseline value has no retained row-level raw artifact
+stockton-on-tees,rent,review-required,Stockton-on-Tees,,,Imported baseline value has no retained row-level raw artifact
+stockton-on-tees,market,review-required,Stockton-on-Tees,,,Imported baseline value has no retained row-level raw artifact
+stockton-on-tees,localTransport,review-required,Stockton-on-Tees,,,Imported baseline value has no retained row-level raw artifact
+stockton-on-tees,nationalTransport,review-required,Stockton-on-Tees,,,Imported baseline value has no retained row-level raw artifact
+stockton-on-tees,quiet,review-required,Stockton-on-Tees,,,Imported baseline value has no retained row-level raw artifact
+stockton-on-tees,condition,review-required,Stockton-on-Tees,,,Imported baseline value has no retained row-level raw artifact
+stockton-on-tees,crime,ready,E22000030,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+stoke-on-trent,buy,review-required,Stoke-on-Trent,,,Imported baseline value has no retained row-level raw artifact
+stoke-on-trent,rent,review-required,Stoke-on-Trent,,,Imported baseline value has no retained row-level raw artifact
+stoke-on-trent,market,review-required,Stoke-on-Trent,,,Imported baseline value has no retained row-level raw artifact
+stoke-on-trent,localTransport,review-required,Stoke-on-Trent,,,Imported baseline value has no retained row-level raw artifact
+stoke-on-trent,nationalTransport,review-required,Stoke-on-Trent,,,Imported baseline value has no retained row-level raw artifact
+stoke-on-trent,quiet,review-required,Stoke-on-Trent,,,Imported baseline value has no retained row-level raw artifact
+stoke-on-trent,condition,review-required,Stoke-on-Trent,,,Imported baseline value has no retained row-level raw artifact
+stoke-on-trent,crime,ready,E22000270,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+sunderland,buy,review-required,Sunderland,,,Imported baseline value has no retained row-level raw artifact
+sunderland,rent,review-required,Sunderland,,,Imported baseline value has no retained row-level raw artifact
+sunderland,market,review-required,Sunderland,,,Imported baseline value has no retained row-level raw artifact
+sunderland,localTransport,review-required,Sunderland,,,Imported baseline value has no retained row-level raw artifact
+sunderland,nationalTransport,review-required,Sunderland,,,Imported baseline value has no retained row-level raw artifact
+sunderland,quiet,review-required,Sunderland,,,Imported baseline value has no retained row-level raw artifact
+sunderland,condition,review-required,Sunderland,,,Imported baseline value has no retained row-level raw artifact
+sunderland,crime,ready,E22000248,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+swansea,buy,review-required,Swansea,,,Imported baseline value has no retained row-level raw artifact
+swansea,rent,review-required,Swansea,,,Imported baseline value has no retained row-level raw artifact
+swansea,market,review-required,Swansea,,,Imported baseline value has no retained row-level raw artifact
+swansea,localTransport,review-required,Swansea,,,Imported baseline value has no retained row-level raw artifact
+swansea,nationalTransport,review-required,Swansea,,,Imported baseline value has no retained row-level raw artifact
+swansea,quiet,review-required,Swansea,,,Imported baseline value has no retained row-level raw artifact
+swansea,condition,review-required,Swansea,,,Imported baseline value has no retained row-level raw artifact
+swansea,crime,ready,W14000011,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+swindon,buy,review-required,Swindon,,,Imported baseline value has no retained row-level raw artifact
+swindon,rent,review-required,Swindon,,,Imported baseline value has no retained row-level raw artifact
+swindon,market,review-required,Swindon,,,Imported baseline value has no retained row-level raw artifact
+swindon,localTransport,review-required,Swindon,,,Imported baseline value has no retained row-level raw artifact
+swindon,nationalTransport,review-required,Swindon,,,Imported baseline value has no retained row-level raw artifact
+swindon,quiet,review-required,Swindon,,,Imported baseline value has no retained row-level raw artifact
+swindon,condition,review-required,Swindon,,,Imported baseline value has no retained row-level raw artifact
+swindon,crime,ready,E22000350,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+telford,buy,review-required,Telford and Wrekin,,,Imported baseline value has no retained row-level raw artifact
+telford,rent,review-required,Telford and Wrekin,,,Imported baseline value has no retained row-level raw artifact
+telford,market,review-required,Telford and Wrekin,,,Imported baseline value has no retained row-level raw artifact
+telford,localTransport,review-required,Telford and Wrekin,,,Imported baseline value has no retained row-level raw artifact
+telford,nationalTransport,review-required,Telford and Wrekin,,,Imported baseline value has no retained row-level raw artifact
+telford,quiet,review-required,Telford and Wrekin,,,Imported baseline value has no retained row-level raw artifact
+telford,condition,review-required,Telford and Wrekin,,,Imported baseline value has no retained row-level raw artifact
+telford,crime,ready,E22000333,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+torbay,buy,review-required,Torbay,,,Imported baseline value has no retained row-level raw artifact
+torbay,rent,review-required,Torbay,,,Imported baseline value has no retained row-level raw artifact
+torbay,market,review-required,Torbay,,,Imported baseline value has no retained row-level raw artifact
+torbay,localTransport,review-required,Torbay,,,Imported baseline value has no retained row-level raw artifact
+torbay,nationalTransport,review-required,Torbay,,,Imported baseline value has no retained row-level raw artifact
+torbay,quiet,review-required,Torbay,,,Imported baseline value has no retained row-level raw artifact
+torbay,condition,review-required,Torbay,,,Imported baseline value has no retained row-level raw artifact
+torbay,crime,ready,E22000060,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+wakefield,buy,review-required,Wakefield,,,Imported baseline value has no retained row-level raw artifact
+wakefield,rent,review-required,Wakefield,,,Imported baseline value has no retained row-level raw artifact
+wakefield,market,review-required,Wakefield,,,Imported baseline value has no retained row-level raw artifact
+wakefield,localTransport,review-required,Wakefield,,,Imported baseline value has no retained row-level raw artifact
+wakefield,nationalTransport,review-required,Wakefield,,,Imported baseline value has no retained row-level raw artifact
+wakefield,quiet,review-required,Wakefield,,,Imported baseline value has no retained row-level raw artifact
+wakefield,condition,review-required,Wakefield,,,Imported baseline value has no retained row-level raw artifact
+wakefield,crime,ready,E22000346,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+walsall,buy,review-required,Walsall,,,Imported baseline value has no retained row-level raw artifact
+walsall,rent,review-required,Walsall,,,Imported baseline value has no retained row-level raw artifact
+walsall,market,review-required,Walsall,,,Imported baseline value has no retained row-level raw artifact
+walsall,localTransport,review-required,Walsall,,,Imported baseline value has no retained row-level raw artifact
+walsall,nationalTransport,review-required,Walsall,,,Imported baseline value has no retained row-level raw artifact
+walsall,quiet,review-required,Walsall,,,Imported baseline value has no retained row-level raw artifact
+walsall,condition,review-required,Walsall,,,Imported baseline value has no retained row-level raw artifact
+walsall,crime,ready,E22000340,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+warrington,buy,review-required,Warrington,,,Imported baseline value has no retained row-level raw artifact
+warrington,rent,review-required,Warrington,,,Imported baseline value has no retained row-level raw artifact
+warrington,market,review-required,Warrington,,,Imported baseline value has no retained row-level raw artifact
+warrington,localTransport,review-required,Warrington,,,Imported baseline value has no retained row-level raw artifact
+warrington,nationalTransport,review-required,Warrington,,,Imported baseline value has no retained row-level raw artifact
+warrington,quiet,review-required,Warrington,,,Imported baseline value has no retained row-level raw artifact
+warrington,condition,review-required,Warrington,,,Imported baseline value has no retained row-level raw artifact
+warrington,crime,ready,E22000026,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+wigan,buy,review-required,Wigan,,,Imported baseline value has no retained row-level raw artifact
+wigan,rent,review-required,Wigan,,,Imported baseline value has no retained row-level raw artifact
+wigan,market,review-required,Wigan,,,Imported baseline value has no retained row-level raw artifact
+wigan,localTransport,review-required,Wigan,,,Imported baseline value has no retained row-level raw artifact
+wigan,nationalTransport,review-required,Wigan,,,Imported baseline value has no retained row-level raw artifact
+wigan,quiet,review-required,Wigan,,,Imported baseline value has no retained row-level raw artifact
+wigan,condition,review-required,Wigan,,,Imported baseline value has no retained row-level raw artifact
+wigan,crime,ready,E22000108,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+wolverhampton,buy,review-required,Wolverhampton,,,Imported baseline value has no retained row-level raw artifact
+wolverhampton,rent,review-required,Wolverhampton,,,Imported baseline value has no retained row-level raw artifact
+wolverhampton,market,review-required,Wolverhampton,,,Imported baseline value has no retained row-level raw artifact
+wolverhampton,localTransport,review-required,Wolverhampton,,,Imported baseline value has no retained row-level raw artifact
+wolverhampton,nationalTransport,review-required,Wolverhampton,,,Imported baseline value has no retained row-level raw artifact
+wolverhampton,quiet,review-required,Wolverhampton,,,Imported baseline value has no retained row-level raw artifact
+wolverhampton,condition,review-required,Wolverhampton,,,Imported baseline value has no retained row-level raw artifact
+wolverhampton,crime,ready,E22000341,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+worcester,buy,review-required,Worcester,,,Imported baseline value has no retained row-level raw artifact
+worcester,rent,review-required,Worcester,,,Imported baseline value has no retained row-level raw artifact
+worcester,market,review-required,Worcester,,,Imported baseline value has no retained row-level raw artifact
+worcester,localTransport,review-required,Worcester,,,Imported baseline value has no retained row-level raw artifact
+worcester,nationalTransport,review-required,Worcester,,,Imported baseline value has no retained row-level raw artifact
+worcester,quiet,review-required,Worcester,,,Imported baseline value has no retained row-level raw artifact
+worcester,condition,review-required,Worcester,,,Imported baseline value has no retained row-level raw artifact
+worcester,crime,ready,E22000332,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+wrexham,buy,review-required,Wrexham,,,Imported baseline value has no retained row-level raw artifact
+wrexham,rent,review-required,Wrexham,,,Imported baseline value has no retained row-level raw artifact
+wrexham,market,review-required,Wrexham,,,Imported baseline value has no retained row-level raw artifact
+wrexham,localTransport,review-required,Wrexham,,,Imported baseline value has no retained row-level raw artifact
+wrexham,nationalTransport,review-required,Wrexham,,,Imported baseline value has no retained row-level raw artifact
+wrexham,quiet,review-required,Wrexham,,,Imported baseline value has no retained row-level raw artifact
+wrexham,condition,review-required,Wrexham,,,Imported baseline value has no retained row-level raw artifact
+wrexham,crime,ready,W14000006,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,

@@ -1,0 +1,1 @@
+location_id,status,release_id,display_name,country,lat,lon,centroid_source,centroid_query,local_authority_code,local_authority_name,price_query_field,price_query_value,rent_la_code,csp_code,csp_name,portal_resolver_query,portal_region_id,lookup_artifact,lookup_edition,exception_rationale,missing_data_reason

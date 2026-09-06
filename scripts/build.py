@@ -9,6 +9,7 @@ from crime_coverage import export_coverage
 from crime_boundaries import export_boundaries
 from crime_residuals import export_residuals
 from crime_outliers import export_outliers
+from release_audit import export as export_release_audit
 from composite import ASSESSMENT_SCORES, compile_composite
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -119,6 +120,7 @@ def build():
     export_boundaries(ROOT)
     export_residuals(ROOT)
     export_outliers(ROOT)
+    export_release_audit(ROOT)
     write_csv(ROOT / 'data/derived/crime_research.csv', crime)
     # Separate recorded-offence research rows; never use them in broad-screen sorts.
     data['crimeResearch'] = [row for row in crime if row['category'] != 'asb']

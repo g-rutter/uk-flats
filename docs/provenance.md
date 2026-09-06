@@ -66,6 +66,32 @@ date, observation period, units and geography identifiers, plus the transformati
 script. Retain non-CSV artifacts and scripted CSV extractions. Add row-level
 evidence IDs when multiple source periods enter one topic.
 
+## Expansion release controls
+
+`data/registry/location_registry.csv` is an intentionally empty, editable intake
+register for future places. The legacy 63 are not copied into it, because doing so
+would falsely make their unresolved price, rent and portal mappings look reviewed.
+Accepted registry rows must identify all topic geographies and a retained lookup
+artifact in `data/raw/releases/<release>/manifest.csv`; proposed rows instead
+state why a mapping is missing. `scripts/prepare_locations.py` fail-closes on
+duplicate IDs, unresolved mappings, absent release artifacts, bad checksums and
+out-of-scope countries, and produces explicit review candidates rather than
+changing canonical inputs by default.
+
+Every new raw release has a `manifest.csv` with the columns documented in
+`scripts/release_manifest.py`: relative artifact path, URL, complete request/query,
+retrieval time, data period, SHA-256, MIME type, publisher, licence/terms and
+coverage limitations. `scripts/release_audit.py`, run by `build.py`, writes
+`data/derived/release_audit.csv`. It is one location/topic checklist row with
+`ready`, `missing` or `review-required`; current non-crime baseline values remain
+`review-required` because their row-level raw artifacts do not survive. The ONS
+crime rows are `ready` only because their retained workbook hash is present.
+
+`data/registry/validation_probe.csv` predeclares the 12-place stratified method
+probe described in the expansion plan. Its result columns remain blank until a
+separate retained release is run and discrepancies can be recorded without
+altering imported baseline values.
+
 ## Fresh crime research schema
 
 `data/derived/crime_boundary_audit.csv` is a build-generated location-level

@@ -1,0 +1,13 @@
+location_id,selection_rationale,crime_result,rent_result,buy_result,stock_result,transport_result,notes
+barnsley,English lower-price-range baseline,,,,,,
+manchester,Large English higher-price-range baseline,,,,,,
+cardiff,Large Welsh place,,,,,,
+merthyr-tydfil,Smaller Welsh place with combined CSP proxy,,,,,,
+wrexham,Welsh place with directly named CSP proxy,,,,,,
+torbay,Documented district price-query exception,,,,,,
+kettering,Documented directly named partial-LA CSP exception,,,,,,
+northampton,Documented directly named partial-LA CSP exception,,,,,,
+burton-on-trent,Two-tier English town and documented portal alias,,,,,,
+loughborough,Named place whose LA proxy differs materially,,,,,,
+hull-kingston-upon-hull,Documented portal-name alias,,,,,,
+st-helens,Documented portal-name alias,,,,,,

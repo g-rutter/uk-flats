@@ -12,6 +12,11 @@
 
 ## Possible location expansion
 
+The location-expansion foundation is in place: use the separate registry,
+release manifest and generated release audit described in `docs/provenance.md`.
+It deliberately does not approve any candidate, collect data, or alter the
+imported baseline.
+
 Do not add locations without an explicit user request. The following is a
 candidate list for a future broad-screen expansion, not an approved shortlist or
 research finding. Any addition must follow the normal canonical CSV, evidence and

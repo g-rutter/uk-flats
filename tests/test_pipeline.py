@@ -14,6 +14,8 @@ from crime import compile_crime, read as read_crime
 from crime_residuals import audit as audit_residuals
 from crime_outliers import audit as audit_outliers
 from composite import ASSESSMENT_SCORES, assessment_score, compile_composite
+from prepare_locations import prepare
+from release_audit import audit as release_audit
 
 
 class PipelineTests(unittest.TestCase):
@@ -23,7 +25,8 @@ class PipelineTests(unittest.TestCase):
                    ROOT / 'data/derived/crime_boundary_audit.csv',
                    ROOT / 'data/derived/crime_coverage.csv',
                    ROOT / 'data/derived/crime_residual_audit.csv',
-                   ROOT / 'data/derived/crime_outlier_audit.csv'] + sorted(
+                   ROOT / 'data/derived/crime_outlier_audit.csv',
+                   ROOT / 'data/derived/release_audit.csv'] + sorted(
                        (ROOT / 'data/derived/crime_source_tables').glob('*.csv'))
         build()
         first = [p.read_bytes() for p in outputs]
@@ -47,6 +50,72 @@ class PipelineTests(unittest.TestCase):
                 result = payload['composite']['results'][location['id']]['tenures'][tenure]
                 band_by_score.setdefault(result['score'], result['band'])
                 self.assertEqual(band_by_score[result['score']], result['band'])
+        with (ROOT / 'data/derived/release_audit.csv').open(newline='') as source:
+            release_rows = list(csv.DictReader(source))
+        self.assertEqual(len(release_rows), 63 * 8)
+        self.assertEqual({row['status'] for row in release_rows if row['topic'] == 'crime'}, {'ready'})
+        self.assertEqual({row['status'] for row in release_rows if row['topic'] == 'buy'}, {'review-required'})
+
+    def test_registry_rejects_unretained_or_unresolved_accepted_mapping(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            raw = root / 'raw' / '2027-03-15'
+            raw.mkdir(parents=True)
+            lookup = raw / 'geography.csv'
+            lookup.write_text('code,name\nE22000001,Example\n', encoding='utf-8')
+            digest = hashlib.sha256(lookup.read_bytes()).hexdigest()
+            (raw / 'manifest.csv').write_text(
+                'relative_path,original_url,request_query,retrieved_at,data_period,sha256,mime_type,publisher,licence_or_terms,coverage_limitations\n'
+                f'geography.csv,https://example.com,query,2027-03-15T00:00:00Z,2027-03,{digest},text/csv,Example,terms,none\n',
+                encoding='utf-8')
+            registry = root / 'registry.csv'
+            fields = ('location_id', 'status', 'release_id', 'display_name', 'country', 'lat', 'lon',
+                      'centroid_source', 'centroid_query', 'local_authority_code', 'local_authority_name',
+                      'price_query_field', 'price_query_value', 'rent_la_code', 'csp_code', 'csp_name',
+                      'portal_resolver_query', 'portal_region_id', 'lookup_artifact', 'lookup_edition',
+                      'exception_rationale', 'missing_data_reason')
+            row = dict.fromkeys(fields, 'x')
+            row.update(location_id='example-place', status='accepted', release_id='2027-03-15',
+                       display_name='Example Place', country='England', lat='51', lon='-1',
+                       csp_code='E22000001', csp_name='Example', lookup_artifact='geography.csv',
+                       lookup_edition='2027', exception_rationale='Direct reviewed mapping.',
+                       missing_data_reason='')
+            with registry.open('w', newline='', encoding='utf-8') as target:
+                writer = csv.DictWriter(target, fieldnames=fields)
+                writer.writeheader()
+                writer.writerow(row)
+            locations, crime = root / 'locations.csv', root / 'crime.csv'
+            prepare(registry, root / 'raw', locations, crime)
+            with locations.open(newline='') as source:
+                self.assertEqual(list(csv.DictReader(source))[0]['id'], 'example-place')
+            row['lookup_artifact'] = 'not-retained.csv'
+            with registry.open('w', newline='', encoding='utf-8') as target:
+                writer = csv.DictWriter(target, fieldnames=fields)
+                writer.writeheader()
+                writer.writerow(row)
+            with self.assertRaisesRegex(ValueError, 'not retained'):
+                prepare(registry, root / 'raw', locations, crime)
+
+    def test_release_audit_marks_missing_addition_without_zero_filling(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            inputs = Path(tmp) / 'inputs'
+            shutil.copytree(ROOT / 'data/inputs', inputs)
+            with (inputs / 'locations.csv').open('a', newline='') as target:
+                csv.writer(target).writerow(['test-place', 'Test Place', 'England', '', '', ''])
+            rows = [row for row in release_audit(inputs) if row['location_id'] == 'test-place']
+            self.assertEqual(len(rows), 8)
+            self.assertTrue(all(row['status'] == 'missing' for row in rows))
+
+    def test_validation_probe_is_predeclared_and_has_no_results(self):
+        with (ROOT / 'data/registry/validation_probe.csv').open(newline='') as source:
+            rows = list(csv.DictReader(source))
+        ids = {row['id'] for row in compile_data(ROOT / 'data/inputs')['locations']}
+        self.assertEqual(len(rows), 12)
+        self.assertEqual(len({row['location_id'] for row in rows}), len(rows))
+        self.assertTrue(all(row['location_id'] in ids for row in rows))
+        self.assertTrue(all(not row[field].strip() for row in rows
+                            for field in ('crime_result', 'rent_result', 'buy_result',
+                                          'stock_result', 'transport_result')))
 
     def test_new_location_can_have_unknown_metrics_and_orphans_fail(self):
         with tempfile.TemporaryDirectory() as tmp:
