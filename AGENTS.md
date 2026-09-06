@@ -39,3 +39,7 @@ as comparable safety measures. Police.uk ASB remains research-only until a dated
 archive passes coverage and geography review. Keep data acquisition,
 transformation and presentation separate. New locations must flow through the
 same CSV/build process without hard-coded row counts.
+
+## Other rules
+
+Always commit and push an accepted change. The user will say 'Accepted'.
