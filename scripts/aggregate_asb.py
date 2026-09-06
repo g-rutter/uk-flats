@@ -37,13 +37,14 @@ def months(start, end):
     return result
 
 
-def read_lsoa_lad(path):
+def read_lsoa_lad(path, code_map=None):
+    code_map = code_map or {}
     result = defaultdict(set)
     with Path(path).open(newline="", encoding="utf-8-sig") as stream:
         for row in csv.DictReader(stream):
             lsoa, lad = row.get("LSOA21CD", "").strip(), row.get("LAD22CD", "").strip()
             if lsoa and lad:
-                result[lsoa].add(lad)
+                result[lsoa].add(code_map.get(lad, lad))
     return result
 
 
@@ -95,8 +96,11 @@ def write_csv(path, rows):
     rows = list(rows)
     if not rows:
         raise ValueError("No rows to write")
+    fieldnames = list(rows[0])
+    for row in rows[1:]:
+        fieldnames.extend(key for key in row if key not in fieldnames)
     with Path(path).open("w", newline="", encoding="utf-8") as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(stream, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
 
@@ -104,7 +108,15 @@ def write_csv(path, rows):
 def export(args):
     start, end = month(args.start), month(args.end)
     period = months(start, end)
-    lsoa_lad = read_lsoa_lad(args.lsoa_lad)
+    code_map = {}
+    for mapping in getattr(args, "lad_code_map", []):
+        old, separator, new = mapping.partition("=")
+        if not separator or not old or not new:
+            raise ValueError(f"Invalid --lad-code-map: {mapping}; expected OLD=NEW")
+        if old in code_map and code_map[old] != new:
+            raise ValueError(f"Conflicting --lad-code-map for {old}")
+        code_map[old] = new
+    lsoa_lad = read_lsoa_lad(args.lsoa_lad, code_map)
     lad_csp = read_csp_lookup(args.csp_lookup)
     counts, names, force_months, stats = aggregate(args.archive, start, end, lsoa_lad, lad_csp)
     rows = []
@@ -122,6 +134,8 @@ def export(args):
                    {"metric": "unmapped_or_split_records", "value": stats["unmapped_or_split"]},
                    {"metric": "lsoa_lookup_rows", "value": len(lsoa_lad)},
                    {"metric": "la_csp_rows", "value": sum(len(rows) for rows in lad_csp.values())}]
+    review_rows.extend({"metric": "lad_code_translation", "old_lad_code": old,
+                        "new_lad_code": new} for old, new in sorted(code_map.items()))
     review_rows.extend({"metric": "assigned_lsoa", "lsoa_code": key[1], "csp_code": key[2],
                         "value": value} for key, value in sorted(stats.items(), key=str)
                        if isinstance(key, tuple) and key[0] == "assigned_lsoa")
@@ -139,4 +153,6 @@ if __name__ == "__main__":
     parser.add_argument("output", type=Path)
     parser.add_argument("--start", required=True)
     parser.add_argument("--end", required=True)
+    parser.add_argument("--lad-code-map", action="append", default=[],
+                        help="Translate an old LSOA lookup LAD code to the dated CSP lookup code (OLD=NEW)")
     export(parser.parse_args())

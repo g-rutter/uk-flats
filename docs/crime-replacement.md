@@ -37,6 +37,9 @@ and Police.uk coverage snapshots, the March 2026 Police.uk archive, and the
 LSOA-to-LAD lookup. The archive is 1.6 GB and is retained for research. No ASB
 values have been added to `data/inputs/crime_observations.csv`.
 
-The ONS pass has 59 code-agreeing locations, two LA-code changes and two split-LA
-cases. Force residuals and boundary compatibility still require review. See
+The ONS pass has 61 code-agreeing locations after reconciling Barnsley and Sheffield
+2025 LA codes; Kettering and Northampton remain split-LA cases. The completed ASB
+research output records 853,367 assigned records and 96,558 unmapped or split
+records, with force/month completeness still unknown. Force residuals and boundary
+compatibility still require review. See
 [TODO](TODO.md) for the checkpoint commands and remaining gates.

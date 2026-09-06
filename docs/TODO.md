@@ -11,16 +11,19 @@ shortlists.
 - [x] Acquire dated ONS LA-to-CSP and Police.uk coverage snapshots.
 - [x] Acquire the official Police.uk March 2026 archive for ASB research.
 - [x] Add `scripts/aggregate_asb.py` with period, archive and lookup parameters.
-- [ ] Run and review ASB PFA/CSP aggregation. Keep split-LA and incomplete
+- [x] Run and review ASB PFA/CSP aggregation. Keep split-LA and incomplete
   force/month results unknown; never annualise, impute or deduplicate ASB by Crime ID.
-- [ ] Reconcile Barnsley/Sheffield boundary changes and Northamptonshire splits.
+- [x] Reconcile Barnsley/Sheffield boundary changes and Northamptonshire splits.
 - [ ] Review material ONS residuals and crime outliers.
 - [ ] Decide whether reviewed crime measures are comparable enough to display.
 
 ## Checkpoint
 
 Current checkpoint: ONS offence research is reproducible; ASB acquisition artifacts
-and the reusable aggregator are retained; no ASB values are in canonical inputs.
+and the reusable aggregator are retained; the April 2025–March 2026 aggregation is
+in `data/derived/asb_2025-04_2026-03*.csv`. Barnsley and Sheffield LA code changes
+are reconciled; Kettering and Northampton remain split-LA unknowns, Manchester has
+no force files in the archive, and no ASB values are in canonical inputs.
 
 ```sh
 python3 scripts/prepare_crime.py
@@ -33,7 +36,7 @@ Continue ASB research with a new dated archive and period:
 ```sh
 python3 scripts/acquire_police_archive.py YYYY-MM data/raw/crime/new-snapshot
 python3 scripts/aggregate_asb.py ARCHIVE LSOA_LAD_CSV CSP_LOOKUP_JSON OUTPUT.csv \
-  --start YYYY-MM --end YYYY-MM
+  --start YYYY-MM --end YYYY-MM [--lad-code-map OLD=NEW]
 ```
 
 Retain each source URL, retrieval time and SHA-256. Review generated output before

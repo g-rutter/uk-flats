@@ -24,8 +24,7 @@ class BoundaryTests(unittest.TestCase):
         by_id = {r['location_id']: r for r in rows}
         self.assertEqual(len(rows), len(locations))
         for place in ('barnsley', 'sheffield'):
-            self.assertEqual(by_id[place]['pair_match'], 'no')
-            self.assertIn('reconcile code', by_id[place]['review_reason'])
+            self.assertEqual(by_id[place]['pair_match'], 'yes')
         for place in ('kettering', 'northampton'):
             self.assertEqual(by_id[place]['pair_match'], 'yes')
             self.assertEqual(by_id[place]['includes_split_la'], 'yes')

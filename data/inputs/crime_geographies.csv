@@ -1,5 +1,5 @@
 location_id,local_authority_code,csp_code,csp_name,boundary_vintage,boundary_basis,mapping_reason
-barnsley,E08000016,E22000259,Barnsley,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+barnsley,E08000038,E22000259,Barnsley,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; 2025 lookup code reconciled from former E08000016; CSP proxy for the place.
 birmingham,E08000025,E22000335,Birmingham,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
 blackburn,E06000008,E22000150,Blackburn with Darwen,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
 blackpool,E06000009,E22000151,Blackpool,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
@@ -43,7 +43,7 @@ portsmouth,E06000044,E22000118,Portsmouth,,ONS YE March 2026 C1/C2/C4; exact bou
 preston,E07000123,E22000158,Preston,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
 rotherham,E08000018,E22000261,Rotherham,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
 salford,E08000006,E22000104,Salford,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
-sheffield,E08000019,E22000262,Sheffield,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+sheffield,E08000039,E22000262,Sheffield,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; 2025 lookup code reconciled from former E08000019; CSP proxy for the place.
 shrewsbury,E06000051,E22000360,Shropshire,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
 st-helens,E08000013,E22000184,St. Helens,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
 stafford,E07000197,E22000268,Stafford,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.

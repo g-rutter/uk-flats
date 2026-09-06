@@ -104,8 +104,10 @@ and reproduction. These observations are freshly retrieved, not legacy imports.
 - `data/raw/crime/2026-09-05/manifest.csv`: original workbook filenames, exact
   acquisition URLs, retrieval dates and hashes. Workbooks retained in full.
 - `scripts/aggregate_asb.py`: research-only Police.uk ASB aggregator. It accepts
-  an archive, period and dated ONS geography lookups; output is not canonical
-  until coverage and split-LA review is complete.
+  an archive, period and dated ONS geography lookups; explicit LAD code
+  translations document the Barnsley and Sheffield 2025 code changes. The
+  `data/derived/asb_2025-04_2026-03*.csv` outputs are not canonical until
+  coverage and split-LA review is complete.
 - `data/derived/crime_source_tables/`: build-generated C1/C2/C4, CSP notes and ASB
   D4/D5 CSV exports; `source_row` and Excel column letters preserve cell identity.
 - `data/derived/crime_research.csv`: build-generated row per location/category,
