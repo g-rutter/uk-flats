@@ -22,7 +22,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Barnsley LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 25 sale and 21 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 25 sale and 21 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -66,7 +66,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Birmingham LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 854 sale and 1257 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 854 sale and 1257 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -110,7 +110,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Blackburn with Darwen LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 8 sale and 2 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 8 sale and 2 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -154,7 +154,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Blackpool LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 77 sale and 75 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 77 sale and 75 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -198,7 +198,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Bolton LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 64 sale and 78 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 64 sale and 78 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -242,7 +242,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Bradford LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 76 sale and 91 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 76 sale and 91 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -286,7 +286,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Burnley LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 5 sale and 22 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 5 sale and 22 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -330,7 +330,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for East Staffordshire LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 26 sale and 34 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 26 sale and 34 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -374,7 +374,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Cardiff LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 259 sale and 468 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 259 sale and 468 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -418,7 +418,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Cheshire West and Chester LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 43 sale and 54 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 43 sale and 54 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -462,7 +462,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Chesterfield LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 14 sale and 31 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 14 sale and 31 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -506,7 +506,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Coventry LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 88 sale and 184 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 88 sale and 184 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -550,7 +550,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Darlington LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 23 sale and 24 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 23 sale and 24 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -594,7 +594,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Derby LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 73 sale and 214 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 73 sale and 214 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -638,7 +638,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Doncaster LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 25 sale and 27 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 25 sale and 27 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -682,7 +682,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Gateshead LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 32 sale and 27 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 32 sale and 27 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -726,7 +726,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Gloucester LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 74 sale and 65 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 74 sale and 65 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -770,7 +770,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Calderdale LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 34 sale and 49 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 34 sale and 49 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -814,7 +814,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Hartlepool LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 16 sale and 9 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 16 sale and 9 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -858,7 +858,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Kirklees LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 33 sale and 91 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 33 sale and 91 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -902,7 +902,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Kingston upon Hull, City of LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 92 sale and 128 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 92 sale and 128 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -946,7 +946,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Ipswich LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 117 sale and 80 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 117 sale and 80 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -990,7 +990,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for North Northamptonshire LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 15 sale and 30 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 15 sale and 30 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -1034,7 +1034,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Lancaster LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 26 sale and 9 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 26 sale and 9 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -1078,7 +1078,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Leeds LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 453 sale and 627 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 453 sale and 627 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -1122,7 +1122,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Leicester LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 190 sale and 386 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 190 sale and 386 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -1166,7 +1166,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Lincoln LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 47 sale and 68 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 47 sale and 68 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -1210,7 +1210,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Liverpool LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 965 sale and 347 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 965 sale and 347 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -1254,7 +1254,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Charnwood LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 17 sale and 20 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 17 sale and 20 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -1298,7 +1298,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Manchester LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 1372 sale and 1456 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 1372 sale and 1456 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -1342,7 +1342,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Merthyr Tydfil LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 3 sale and 3 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 3 sale and 3 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -1386,7 +1386,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Middlesbrough LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 14 sale and 50 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 14 sale and 50 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -1430,7 +1430,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Neath Port Talbot LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 3 sale and 3 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 3 sale and 3 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -1474,7 +1474,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Newcastle upon Tyne LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 119 sale and 124 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 119 sale and 124 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -1518,7 +1518,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Newport LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 31 sale and 43 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 31 sale and 43 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -1562,7 +1562,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for West Northamptonshire LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 104 sale and 137 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 104 sale and 137 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -1606,7 +1606,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Norwich LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 144 sale and 112 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 144 sale and 112 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -1650,7 +1650,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Nottingham LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 225 sale and 509 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 225 sale and 509 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -1694,7 +1694,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Peterborough LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 91 sale and 134 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 91 sale and 134 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -1738,7 +1738,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Plymouth LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 147 sale and 124 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 147 sale and 124 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -1782,7 +1782,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Portsmouth LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 177 sale and 176 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 177 sale and 176 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -1826,7 +1826,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Preston LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 72 sale and 136 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 72 sale and 136 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -1870,7 +1870,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Rotherham LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 19 sale and 25 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 19 sale and 25 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -1914,7 +1914,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Salford LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 513 sale and 531 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 513 sale and 531 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -1958,7 +1958,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Sheffield LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 257 sale and 401 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 257 sale and 401 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -2002,7 +2002,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Shropshire LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 33 sale and 33 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 33 sale and 33 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -2046,7 +2046,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for St. Helens LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 9 sale and 24 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 9 sale and 24 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -2090,7 +2090,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Stafford LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 20 sale and 20 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 20 sale and 20 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -2134,7 +2134,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Stockport LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 41 sale and 89 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 41 sale and 89 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -2178,7 +2178,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Stockton-on-Tees LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 14 sale and 36 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 14 sale and 36 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -2222,7 +2222,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Stoke-on-Trent LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 26 sale and 53 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 26 sale and 53 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -2266,7 +2266,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Sunderland LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 49 sale and 56 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 49 sale and 56 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -2310,7 +2310,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Swansea LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 25 sale and 16 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 25 sale and 16 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -2354,7 +2354,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Swindon LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 87 sale and 121 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 87 sale and 121 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -2398,7 +2398,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Telford and Wrekin LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 31 sale and 22 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 31 sale and 22 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -2442,7 +2442,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Torbay LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 165 sale and 51 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 165 sale and 51 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -2486,7 +2486,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Wakefield LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 46 sale and 46 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 46 sale and 46 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -2530,7 +2530,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Walsall LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 36 sale and 44 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 36 sale and 44 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -2574,7 +2574,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Warrington LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 56 sale and 40 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 56 sale and 40 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -2618,7 +2618,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Wigan LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 15 sale and 23 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 15 sale and 23 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -2662,7 +2662,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Wolverhampton LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 51 sale and 94 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 51 sale and 94 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -2706,7 +2706,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Worcester LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 52 sale and 52 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 52 sale and 52 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "Medium",
@@ -2750,7 +2750,7 @@ window.FLATS_DATA = {
         "affordabilityReason": "Official one-bedroom modelled average for Wrexham LA; underlying observation count is not published in the table."
       },
       "market": {
-        "reason": "Rightmove's filtered snapshot returned 3 sale and 11 rental results; these are portal headline counts, not deduplicated properties, and the query does not verify tower stock."
+        "reason": "Rightmove's filtered snapshot returned 3 sale and 11 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
         "confidence": "High",
@@ -7778,7 +7778,7 @@ window.FLATS_DATA = {
       "retrievalDate": "2026-09-05",
       "geography": "Rightmove town/city REGION identifiers, recorded per JSON row",
       "coverage": "126 headline result counts: separate sale and rent queries for all 63 locations",
-      "limitations": "Live advertised-stock snapshot; portal-defined boundaries; counts may include duplicates and are not achieved transactions. No listing pages were opened or coded. Sale and rent exclusions differ as documented per row."
+      "limitations": "Live advertised-stock snapshot; Rightmove-defined boundaries; counts may include duplicates and are not achieved transactions. No listing pages were opened or coded. Sale and rent exclusions differ as documented per row."
     },
     {
       "id": "MT-RM-LOS-20260905",
