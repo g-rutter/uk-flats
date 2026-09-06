@@ -7,7 +7,7 @@
   const byId = new Map(data.locations.map(x => [x.id, x]));
   const crime = new Map();
   data.crimeResearch.forEach(x => { if (!crime.has(x.location_id)) crime.set(x.location_id, {}); crime.get(x.location_id)[x.category] = x; });
-  const state = { tenure: 'buy', locationId: '', country: 'all', sort: 'score', selectedId: data.locations[0]?.id };
+  const state = { tenure: 'buy', locationId: '', country: 'all', sort: 'score', sortDirection: 'desc', selectedId: data.locations[0]?.id };
   const escape = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const known = v => v !== null && v !== undefined && v !== '';
   const show = v => known(v) ? escape(v) : 'Not available';
@@ -18,6 +18,7 @@
   const score = x => data.screening.results[x.id].tenures[state.tenure].score;
   const band = x => !known(score(x)) ? 'score-unknown' : score(x) >= 70 ? 'score-high' : score(x) >= 55 ? 'score-mid' : 'score-low';
   const rate = (x, category) => crime.get(x.id)?.[category]?.rate_per_1000;
+  const localTransportDefinition = 'This is a broad town or city judgement of bus and rail coverage. It does not assess accessibility for a specific neighbourhood, street or home.';
   const project = x => [((x.lon - MAP.minLon) / (MAP.maxLon - MAP.minLon)) * MAP.width, MAP.height - ((x.lat - MAP.minLat) / (MAP.maxLat - MAP.minLat)) * MAP.height];
   const help = (label, text = '') => `${escape(label)}${text ? ` <span class="help-wrap"><button class="help" type="button" aria-expanded="false" aria-label="Show more information about ${escape(label)}">?</button><span class="help-text" hidden>${escape(text)}</span></span>` : ''}`;
   const row = (label, value, text = '') => `<dt>${help(label, text)}</dt><dd>${value}</dd>`;
@@ -29,7 +30,7 @@
   const factors = {
     affordability: ['Affordability', 'Compared with the other locations shown; lower prices score higher.'],
     safety: ['Recorded offences', 'Compares recorded rates for two offence types across broad CSP areas. Rates can be affected by reporting, recording practice, visitors and commuters, and area boundaries; they do not describe unreported crime, personal risk, or variation between streets and times.'],
-    local_transport: ['Local transport', 'Broad town or city assessment of bus and rail coverage.'],
+    local_transport: ['Local transport', localTransportDefinition],
     condition: ['Local condition', 'Broad assessment of the town or city’s physical condition.'],
     quiet: ['Quietness', 'Broad assessment of likely noise exposure across the town or city.'],
     stock: ['One-bedroom listings', 'Portal headline count at the recorded snapshot; listings are not deduplicated.'],
@@ -38,11 +39,25 @@
 
   function filtered() { return data.locations.filter(x => (!state.locationId || x.id === state.locationId) && (state.country === 'all' || x.country === state.country)); }
   function ordered(locations) {
+    const compareValue = (a, b) => {
+      const aKnown = known(a), bKnown = known(b);
+      if (!aKnown || !bKnown) return aKnown === bKnown ? 0 : aKnown ? -1 : 1;
+      return typeof a === 'string' ? a.localeCompare(b) : a - b;
+    };
+    const journey = (x, destination) => {
+      const minutes = x.nationalTransport[`${destination}Minutes`];
+      return known(minutes) ? [minutes, x.nationalTransport[`${destination}Changes`] ?? 0] : null;
+    };
+    const value = x => ({ name: x.name, score: score(x), price: price(x), stock: stock(x), london: journey(x, 'london'), birmingham: journey(x, 'birmingham'), violence: rate(x, 'violence_against_person'), sexual: rate(x, 'sexual_offences') }[state.sort]);
     return [...locations].sort((a, b) => {
-      if (state.sort === 'score') return (score(b) ?? -Infinity) - (score(a) ?? -Infinity) || a.name.localeCompare(b.name);
-      if (state.sort === 'price') return (price(a) ?? Infinity) - (price(b) ?? Infinity) || a.name.localeCompare(b.name);
-      if (state.sort === 'stock') return (stock(b) ?? -Infinity) - (stock(a) ?? -Infinity) || a.name.localeCompare(b.name);
-      return a.name.localeCompare(b.name);
+      const aValue = value(a), bValue = value(b);
+      const aKnown = Array.isArray(aValue) ? known(aValue[0]) : known(aValue);
+      const bKnown = Array.isArray(bValue) ? known(bValue[0]) : known(bValue);
+      if (aKnown !== bKnown) return aKnown ? -1 : 1;
+      const result = Array.isArray(aValue) || Array.isArray(bValue)
+        ? compareValue(aValue?.[0], bValue?.[0]) || compareValue(aValue?.[1], bValue?.[1])
+        : compareValue(aValue, bValue);
+      return result * (state.sortDirection === 'asc' ? 1 : -1) || a.name.localeCompare(b.name);
     });
   }
   function populateLocations() {
@@ -109,7 +124,7 @@
     const priceRows = state.tenure === 'buy'
       ? [row('Typical achieved flat price', money(x.buy.proxyMedian), 'Median completed price for flats of all sizes; not a one-bedroom estimate.'), row('Completed sales in sample', known(x.buy.transactions) ? `${show(x.buy.transactions)} sales` : 'Not available'), row('One-bedroom listings', known(x.buy.oneBedCount) ? `${show(x.buy.oneBedCount)} listings` : 'Not available', 'Portal headline count at the recorded snapshot; listings are not deduplicated.')]
       : [row('Typical one-bedroom rent', `${money(x.rent.proxyMonthly)}${known(x.rent.proxyMonthly) ? ' per month' : ''}`, 'Modelled monthly local-authority average; not an asking-rent median.'), row('One-bedroom listings', known(x.rent.oneBedCount) ? `${show(x.rent.oneBedCount)} listings` : 'Not available', 'Portal headline count at the recorded snapshot; listings are not deduplicated.')];
-    const localRows = [row('Local transport', show(x.localTransport.reason)), row('Quietness', show(x.quiet.reason)), row('Local condition', show(x.condition.reason))];
+    const localRows = [row('Local transport', show(x.localTransport.reason), localTransportDefinition), row('Quietness', show(x.quiet.reason)), row('Local condition', show(x.condition.reason))];
     $('details').innerHTML = `<p class="eyebrow">${escape(x.country)} · ${escape(x.localAuthority)}</p><h2>${escape(x.name)}</h2><div class="headline-grid"><div class="score-card ${band(x)}"><span>${state.tenure === 'buy' ? 'Buying' : 'Renting'} screening score</span><strong>${show(score(x))}<small>out of 100</small></strong></div><div><span>${state.tenure === 'buy' ? 'Typical achieved flat price' : 'Typical one-bedroom rent'}</span><strong>${money(price(x))}${state.tenure === 'rent' ? '<small>per month</small>' : ''}</strong></div></div><section class="detail-section score-section"><div class="section-heading"><h3>Screen components</h3><span>Each score is out of 5</span></div><div class="component-grid">${factorRows}</div></section>${section(state.tenure === 'buy' ? 'Buying evidence' : 'Renting evidence', priceRows, [['Price', factorValues.affordability], ['Listings', factorValues.stock]])}${section('Rail connections', [row('To London', minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)), row('To Birmingham', minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges))], [['Rail', factorValues.national_transport]])}${section('Recorded offences', [row('Violence against the person', `${show(offences?.violence_against_person?.rate_per_1000)} per 1,000${offences?.violence_against_person ? ` · ${escape(offences.violence_against_person.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.'), row('Sexual offences', `${show(offences?.sexual_offences?.rate_per_1000)} per 1,000${offences?.sexual_offences ? ` · ${escape(offences.sexual_offences.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.')], [['Offences', factorValues.safety]])}${section('Local picture', localRows, [['Transport', factorValues.local_transport], ['Quiet', factorValues.quiet], ['Condition', factorValues.condition]])}${sources(x)}`;
     $('details').querySelectorAll('.help').forEach(button => button.addEventListener('click', () => {
       const text = button.nextElementSibling, willOpen = text.hidden;
@@ -120,19 +135,31 @@
     }));
   }
   function renderTable(locations) {
-    $('priceHeading').textContent = state.tenure === 'buy' ? 'Typical achieved flat price' : 'Typical one-bedroom rent / month';
     $('rows').innerHTML = locations.map(x => `<tr class="${x.id === state.selectedId ? 'is-selected' : ''}"><td><button data-id="${escape(x.id)}">${escape(x.name)}</button><small>${escape(x.localAuthority)} · ${escape(x.country)}</small></td><td><strong>${show(score(x))}</strong><small>out of 100</small></td><td>${money(price(x))}${state.tenure === 'buy' && known(x.buy.transactions) ? `<small>${x.buy.transactions} completed sales</small>` : ''}</td><td>${show(stock(x))}</td><td>${minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)}</td><td>${minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges)}</td><td>${show(rate(x, 'violence_against_person'))}</td><td>${show(rate(x, 'sexual_offences'))}</td></tr>`).join('');
     $('rows').querySelectorAll('button').forEach(button => button.addEventListener('click', () => select(button.dataset.id, true)));
   }
-  function render() { const locations = filtered(); $('count').textContent = `${locations.length} of ${data.locations.length} locations shown on the map`; $('resultSummary').textContent = `Showing ${locations.length} of ${data.locations.length}`; renderMap(locations); renderDetail(); renderTable(ordered(locations)); }
+  function renderSortHeadings() {
+    const headings = { name: 'nameHeading', score: 'scoreHeading', price: 'priceHeading', stock: 'stockHeading', london: 'londonHeading', birmingham: 'birminghamHeading', violence: 'violenceHeading', sexual: 'sexualHeading' };
+    const labels = { name: 'Location / local authority', score: 'Screening score out of 100', price: state.tenure === 'buy' ? 'Typical achieved flat price' : 'Typical one-bedroom rent / month', stock: 'One-bedroom listings', london: 'London rail', birmingham: 'Birmingham rail', violence: 'Violence / 1,000', sexual: 'Sexual offences / 1,000' };
+    Object.entries(headings).forEach(([key, id]) => {
+      const heading = $(id), active = state.sort === key, label = labels[key];
+      heading.setAttribute('aria-sort', active ? (state.sortDirection === 'asc' ? 'ascending' : 'descending') : 'none');
+      heading.innerHTML = `<button type="button" class="sort-button" data-sort="${key}" aria-label="Order this list by ${escape(label)}${active ? `, currently ${state.sortDirection === 'asc' ? 'ascending' : 'descending'}` : ''}">${escape(label)}${active ? `<span aria-hidden="true"> ${state.sortDirection === 'asc' ? '↑' : '↓'}</span>` : ''}</button>`;
+    });
+    document.querySelectorAll('.sort-button').forEach(button => button.addEventListener('click', () => {
+      const key = button.dataset.sort;
+      state.sortDirection = state.sort === key ? (state.sortDirection === 'asc' ? 'desc' : 'asc') : ({ name: 'asc', score: 'desc', price: 'asc', stock: 'desc', london: 'asc', birmingham: 'asc', violence: 'asc', sexual: 'asc' }[key]);
+      state.sort = key; render();
+    }));
+  }
+  function render() { const locations = filtered(); $('count').textContent = `${locations.length} of ${data.locations.length} locations shown on the map`; $('resultSummary').textContent = `Showing ${locations.length} of ${data.locations.length}`; renderMap(locations); renderDetail(); renderTable(ordered(locations)); renderSortHeadings(); }
   function select(id, scroll = false) { state.selectedId = id; render(); if (scroll && matchMedia('(max-width: 920px)').matches) $('details').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
   function setTenure(tenure) { state.tenure = tenure; $('buyToggle').setAttribute('aria-pressed', tenure === 'buy'); $('rentToggle').setAttribute('aria-pressed', tenure === 'rent'); render(); }
   populateLocations();
   $('locationSelect').addEventListener('input', e => { state.locationId = e.target.value; render(); });
   $('country').addEventListener('input', e => { state.country = e.target.value; render(); });
-  $('sort').addEventListener('input', e => { state.sort = e.target.value; render(); });
   $('buyToggle').addEventListener('click', () => setTenure('buy')); $('rentToggle').addEventListener('click', () => setTenure('rent'));
-  $('reset').addEventListener('click', () => { state.locationId = ''; state.country = 'all'; state.sort = 'score'; $('locationSelect').value = ''; $('country').value = 'all'; $('sort').value = 'score'; render(); });
+  $('reset').addEventListener('click', () => { state.locationId = ''; state.country = 'all'; state.sort = 'score'; state.sortDirection = 'desc'; $('locationSelect').value = ''; $('country').value = 'all'; render(); });
   $('evidence').innerHTML = data.evidence.filter(x => x.workstream !== 'geography_crime' || x.id === 'CRIME-ONS-2026-CSP').map(x => `<h3>${escape(x.title)}</h3><p>${escape(x.dataPeriod)} · Recorded retrieval: ${escape(x.retrievalDate)} · ${escape(x.geography)}</p><p>${escape(x.limitations)}</p>`).join('');
   render();
 })();

@@ -28,9 +28,9 @@ marker rather than inventing a position.
 - `web/styles.css` owns the shared responsive presentation; `web/help.css`
   styles the click-to-open explanations in the detail panel.
 
-Location and country controls filter both the map and the list. The "Order this
-list" control changes only the table order; it never changes marker colours,
-scores or map inclusion.
+Location and country controls filter both the map and the list. Each table-column
+heading changes only the table order; it never changes marker colours, scores or
+map inclusion.
 
 Marker colour shows the current tenure's documented screening-score band. It is
 calculated by the build from current canonical inputs; do not copy archived scores

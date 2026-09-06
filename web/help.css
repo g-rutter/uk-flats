@@ -82,3 +82,22 @@
     margin-top: 6px;
   }
 }
+
+.sort-button {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: 750;
+  text-align: left;
+  cursor: pointer;
+}
+
+.sort-button:hover,
+.sort-button:focus-visible {
+  color: var(--pine);
+  outline: none;
+  text-decoration: underline;
+}
