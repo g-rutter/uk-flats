@@ -86,7 +86,8 @@
     });
   }
   function sources(x) {
-    const list = data.sources.filter(s => s.location_id === x.id && s.topic !== 'crime');
+    const searches = data.sources.filter(s => s.location_id === x.id && isRightmoveSearch(s));
+    const list = data.sources.filter(s => s.location_id === x.id && s.topic !== 'crime' && !isRightmoveSearch(s));
     const topic = value => ({ buy: 'Buying', rent: 'Renting', market: 'Market', localTransport: 'Local transport', nationalTransport: 'Rail connections', quiet: 'Quietness', condition: 'Local condition' }[value] || value);
     const label = source => {
       const url = source.url;
@@ -114,7 +115,14 @@
       if (url.includes('openstreetmap.org')) return 'OpenStreetMap location map';
       return new URL(url).hostname.replace(/^www\./, '');
     };
-    return list.length ? `<details class="source-details"><summary>Source links</summary><ul class="source-links">${list.map(s => `<li><span>${escape(topic(s.topic))}</span> <a href="${escape(s.url)}" target="_blank" rel="noopener noreferrer">${escape(label(s))}</a></li>`).join('')}</ul></details>` : '';
+    const sale = searches.find(s => s.url.includes('/property-for-sale/'));
+    const rent = searches.find(s => s.url.includes('/property-to-rent/'));
+    const propertySearches = sale || rent ? `<section class="property-searches" aria-label="Rightmove property searches"><h3>Explore current listings</h3><p>Open the recorded one-bedroom flat searches for this location.</p><div class="property-search-links">${sale ? `<a class="property-search-link" href="${escape(sale.url)}" target="_blank" rel="noopener noreferrer">Buy on Rightmove <span aria-hidden="true">↗</span></a>` : ''}${rent ? `<a class="property-search-link" href="${escape(rent.url)}" target="_blank" rel="noopener noreferrer">Rent on Rightmove <span aria-hidden="true">↗</span></a>` : ''}</div></section>` : '';
+    const sourceLinks = list.length ? `<details class="source-details"><summary>Source links</summary><ul class="source-links">${list.map(s => `<li><span>${escape(topic(s.topic))}</span> <a href="${escape(s.url)}" target="_blank" rel="noopener noreferrer">${escape(label(s))}</a></li>`).join('')}</ul></details>` : '';
+    return propertySearches + sourceLinks;
+  }
+  function isRightmoveSearch(source) {
+    return /^https:\/\/www\.rightmove\.co\.uk\/property-(for-sale|to-rent)\//.test(source.url);
   }
   function closeHelp() {
     $('details').querySelectorAll('.help-text').forEach(text => { text.hidden = true; });
