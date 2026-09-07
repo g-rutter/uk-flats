@@ -62,3 +62,22 @@ wigan,E08000010,E22000108,Wigan,,ONS YE March 2026 C1/C2/C4; exact boundary vint
 wolverhampton,E08000031,E22000341,Wolverhampton,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
 worcester,E07000237,E22000332,South Worcester,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,C1: combined CSP includes this LA and other LAs; use whole CSP numerator and population.
 wrexham,W06000006,W14000006,Wrexham,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+bristol,E06000023,E22000002,"Bristol, City of",,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+southampton,E06000045,E22000120,Southampton,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+bournemouth-poole,E06000058,E22000367,Dorset,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,The current combined BCP local authority maps to the Dorset CSP row in the retained lookup; this broad CSP is not a Bournemouth–Poole-only measure.
+brighton-hove,E06000043,E22000292,Brighton and Hove,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+exeter,E07000041,E22000049,Exeter,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+reading,E06000038,E22000309,Reading,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+milton-keynes,E06000042,E22000307,Milton Keynes,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+luton,E06000032,E22000010,Luton,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+southend-on-sea,E06000033,E22000089,Southend-on-Sea,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+cambridge,E07000008,E22000013,Cambridge,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+colchester,E07000071,E22000084,Colchester,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+oxford,E07000178,E22000308,Oxford,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+bath,E06000022,E22000001,Bath and North East Somerset,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+bridgend,W06000013,W14000013,Bridgend,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+llanelli,W06000010,W14000010,Carmarthenshire,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Llanelli uses the Carmarthenshire CSP and LA rent proxy; it is not a town-only measure.
+bangor,W06000002,W14000002,Gwynedd,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Bangor uses the Gwynedd CSP and LA rent proxy; it is not a town-only measure.
+rhyl,W06000004,W14000004,Denbighshire,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Rhyl uses the Denbighshire CSP and LA rent proxy; it is not a town-only measure.
+york,E06000014,E22000371,City of York,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+durham,E06000047,E22000365,County Durham,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Durham uses the County Durham CSP and LA rent proxy; it is not a city-only measure.

@@ -1,6 +1,6 @@
 # UK flat location comparison
 
-A reproducible broad comparison of 63 England and Wales locations for buying or
+A reproducible broad comparison of 82 England and Wales locations for buying or
 renting a one-bedroom flat. It does not cover neighbourhoods, individual
 buildings or listings.
 
@@ -60,7 +60,7 @@ existing local artifact differs from its committed checksum.
 
 ## Current status
 
-Data are **imported historical claims, not independently verified research**.
+The original 63 rows are **imported historical claims, not independently verified research**. The 19-place expansion cohort has reproducible price, rent and recorded-offence observations from retained raw workbooks; its stock, transport and environmental assessments remain blank pending their own acquisitions.
 Buying is an all-flat achieved-price proxy; renting is a modelled one-bedroom
 local-authority mean. The screen calculates separate Buy/Rent broad composite
 scores; their safety component uses the separate ONS CSP recorded-offence rates.

@@ -503,3 +503,155 @@ wrexham,nationalTransport,review-required,Wrexham,,,Imported baseline value has 
 wrexham,quiet,review-required,Wrexham,,,Imported baseline value has no retained row-level raw artifact
 wrexham,condition,review-required,Wrexham,,,Imported baseline value has no retained row-level raw artifact
 wrexham,crime,ready,W14000006,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+bristol,buy,review-required,"Bristol, City of",,,Imported baseline value has no retained row-level raw artifact
+bristol,rent,review-required,"Bristol, City of",,,Imported baseline value has no retained row-level raw artifact
+bristol,market,missing,"Bristol, City of",,,No observation supplied
+bristol,localTransport,missing,"Bristol, City of",,,No observation supplied
+bristol,nationalTransport,missing,"Bristol, City of",,,No observation supplied
+bristol,quiet,missing,"Bristol, City of",,,No observation supplied
+bristol,condition,missing,"Bristol, City of",,,No observation supplied
+bristol,crime,ready,E22000002,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+southampton,buy,review-required,Southampton,,,Imported baseline value has no retained row-level raw artifact
+southampton,rent,review-required,Southampton,,,Imported baseline value has no retained row-level raw artifact
+southampton,market,missing,Southampton,,,No observation supplied
+southampton,localTransport,missing,Southampton,,,No observation supplied
+southampton,nationalTransport,missing,Southampton,,,No observation supplied
+southampton,quiet,missing,Southampton,,,No observation supplied
+southampton,condition,missing,Southampton,,,No observation supplied
+southampton,crime,ready,E22000120,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+bournemouth-poole,buy,review-required,"Bournemouth, Christchurch and Poole",,,Imported baseline value has no retained row-level raw artifact
+bournemouth-poole,rent,review-required,"Bournemouth, Christchurch and Poole",,,Imported baseline value has no retained row-level raw artifact
+bournemouth-poole,market,missing,"Bournemouth, Christchurch and Poole",,,No observation supplied
+bournemouth-poole,localTransport,missing,"Bournemouth, Christchurch and Poole",,,No observation supplied
+bournemouth-poole,nationalTransport,missing,"Bournemouth, Christchurch and Poole",,,No observation supplied
+bournemouth-poole,quiet,missing,"Bournemouth, Christchurch and Poole",,,No observation supplied
+bournemouth-poole,condition,missing,"Bournemouth, Christchurch and Poole",,,No observation supplied
+bournemouth-poole,crime,ready,E22000367,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+brighton-hove,buy,review-required,Brighton and Hove,,,Imported baseline value has no retained row-level raw artifact
+brighton-hove,rent,review-required,Brighton and Hove,,,Imported baseline value has no retained row-level raw artifact
+brighton-hove,market,missing,Brighton and Hove,,,No observation supplied
+brighton-hove,localTransport,missing,Brighton and Hove,,,No observation supplied
+brighton-hove,nationalTransport,missing,Brighton and Hove,,,No observation supplied
+brighton-hove,quiet,missing,Brighton and Hove,,,No observation supplied
+brighton-hove,condition,missing,Brighton and Hove,,,No observation supplied
+brighton-hove,crime,ready,E22000292,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+exeter,buy,review-required,Exeter,,,Imported baseline value has no retained row-level raw artifact
+exeter,rent,review-required,Exeter,,,Imported baseline value has no retained row-level raw artifact
+exeter,market,missing,Exeter,,,No observation supplied
+exeter,localTransport,missing,Exeter,,,No observation supplied
+exeter,nationalTransport,missing,Exeter,,,No observation supplied
+exeter,quiet,missing,Exeter,,,No observation supplied
+exeter,condition,missing,Exeter,,,No observation supplied
+exeter,crime,ready,E22000049,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+reading,buy,review-required,Reading,,,Imported baseline value has no retained row-level raw artifact
+reading,rent,review-required,Reading,,,Imported baseline value has no retained row-level raw artifact
+reading,market,missing,Reading,,,No observation supplied
+reading,localTransport,missing,Reading,,,No observation supplied
+reading,nationalTransport,missing,Reading,,,No observation supplied
+reading,quiet,missing,Reading,,,No observation supplied
+reading,condition,missing,Reading,,,No observation supplied
+reading,crime,ready,E22000309,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+milton-keynes,buy,review-required,Milton Keynes,,,Imported baseline value has no retained row-level raw artifact
+milton-keynes,rent,review-required,Milton Keynes,,,Imported baseline value has no retained row-level raw artifact
+milton-keynes,market,missing,Milton Keynes,,,No observation supplied
+milton-keynes,localTransport,missing,Milton Keynes,,,No observation supplied
+milton-keynes,nationalTransport,missing,Milton Keynes,,,No observation supplied
+milton-keynes,quiet,missing,Milton Keynes,,,No observation supplied
+milton-keynes,condition,missing,Milton Keynes,,,No observation supplied
+milton-keynes,crime,ready,E22000307,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+luton,buy,review-required,Luton,,,Imported baseline value has no retained row-level raw artifact
+luton,rent,review-required,Luton,,,Imported baseline value has no retained row-level raw artifact
+luton,market,missing,Luton,,,No observation supplied
+luton,localTransport,missing,Luton,,,No observation supplied
+luton,nationalTransport,missing,Luton,,,No observation supplied
+luton,quiet,missing,Luton,,,No observation supplied
+luton,condition,missing,Luton,,,No observation supplied
+luton,crime,ready,E22000010,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+southend-on-sea,buy,review-required,Southend-on-Sea,,,Imported baseline value has no retained row-level raw artifact
+southend-on-sea,rent,review-required,Southend-on-Sea,,,Imported baseline value has no retained row-level raw artifact
+southend-on-sea,market,missing,Southend-on-Sea,,,No observation supplied
+southend-on-sea,localTransport,missing,Southend-on-Sea,,,No observation supplied
+southend-on-sea,nationalTransport,missing,Southend-on-Sea,,,No observation supplied
+southend-on-sea,quiet,missing,Southend-on-Sea,,,No observation supplied
+southend-on-sea,condition,missing,Southend-on-Sea,,,No observation supplied
+southend-on-sea,crime,ready,E22000089,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+cambridge,buy,review-required,Cambridge,,,Imported baseline value has no retained row-level raw artifact
+cambridge,rent,review-required,Cambridge,,,Imported baseline value has no retained row-level raw artifact
+cambridge,market,missing,Cambridge,,,No observation supplied
+cambridge,localTransport,missing,Cambridge,,,No observation supplied
+cambridge,nationalTransport,missing,Cambridge,,,No observation supplied
+cambridge,quiet,missing,Cambridge,,,No observation supplied
+cambridge,condition,missing,Cambridge,,,No observation supplied
+cambridge,crime,ready,E22000013,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+colchester,buy,review-required,Colchester,,,Imported baseline value has no retained row-level raw artifact
+colchester,rent,review-required,Colchester,,,Imported baseline value has no retained row-level raw artifact
+colchester,market,missing,Colchester,,,No observation supplied
+colchester,localTransport,missing,Colchester,,,No observation supplied
+colchester,nationalTransport,missing,Colchester,,,No observation supplied
+colchester,quiet,missing,Colchester,,,No observation supplied
+colchester,condition,missing,Colchester,,,No observation supplied
+colchester,crime,ready,E22000084,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+oxford,buy,review-required,Oxford,,,Imported baseline value has no retained row-level raw artifact
+oxford,rent,review-required,Oxford,,,Imported baseline value has no retained row-level raw artifact
+oxford,market,missing,Oxford,,,No observation supplied
+oxford,localTransport,missing,Oxford,,,No observation supplied
+oxford,nationalTransport,missing,Oxford,,,No observation supplied
+oxford,quiet,missing,Oxford,,,No observation supplied
+oxford,condition,missing,Oxford,,,No observation supplied
+oxford,crime,ready,E22000308,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+bath,buy,review-required,Bath and North East Somerset,,,Imported baseline value has no retained row-level raw artifact
+bath,rent,review-required,Bath and North East Somerset,,,Imported baseline value has no retained row-level raw artifact
+bath,market,missing,Bath and North East Somerset,,,No observation supplied
+bath,localTransport,missing,Bath and North East Somerset,,,No observation supplied
+bath,nationalTransport,missing,Bath and North East Somerset,,,No observation supplied
+bath,quiet,missing,Bath and North East Somerset,,,No observation supplied
+bath,condition,missing,Bath and North East Somerset,,,No observation supplied
+bath,crime,ready,E22000001,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+bridgend,buy,review-required,Bridgend,,,Imported baseline value has no retained row-level raw artifact
+bridgend,rent,review-required,Bridgend,,,Imported baseline value has no retained row-level raw artifact
+bridgend,market,missing,Bridgend,,,No observation supplied
+bridgend,localTransport,missing,Bridgend,,,No observation supplied
+bridgend,nationalTransport,missing,Bridgend,,,No observation supplied
+bridgend,quiet,missing,Bridgend,,,No observation supplied
+bridgend,condition,missing,Bridgend,,,No observation supplied
+bridgend,crime,ready,W14000013,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+llanelli,buy,review-required,Carmarthenshire,,,Imported baseline value has no retained row-level raw artifact
+llanelli,rent,review-required,Carmarthenshire,,,Imported baseline value has no retained row-level raw artifact
+llanelli,market,missing,Carmarthenshire,,,No observation supplied
+llanelli,localTransport,missing,Carmarthenshire,,,No observation supplied
+llanelli,nationalTransport,missing,Carmarthenshire,,,No observation supplied
+llanelli,quiet,missing,Carmarthenshire,,,No observation supplied
+llanelli,condition,missing,Carmarthenshire,,,No observation supplied
+llanelli,crime,ready,W14000010,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+bangor,buy,review-required,Gwynedd,,,Imported baseline value has no retained row-level raw artifact
+bangor,rent,review-required,Gwynedd,,,Imported baseline value has no retained row-level raw artifact
+bangor,market,missing,Gwynedd,,,No observation supplied
+bangor,localTransport,missing,Gwynedd,,,No observation supplied
+bangor,nationalTransport,missing,Gwynedd,,,No observation supplied
+bangor,quiet,missing,Gwynedd,,,No observation supplied
+bangor,condition,missing,Gwynedd,,,No observation supplied
+bangor,crime,ready,W14000002,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+rhyl,buy,review-required,Denbighshire,,,Imported baseline value has no retained row-level raw artifact
+rhyl,rent,review-required,Denbighshire,,,Imported baseline value has no retained row-level raw artifact
+rhyl,market,missing,Denbighshire,,,No observation supplied
+rhyl,localTransport,missing,Denbighshire,,,No observation supplied
+rhyl,nationalTransport,missing,Denbighshire,,,No observation supplied
+rhyl,quiet,missing,Denbighshire,,,No observation supplied
+rhyl,condition,missing,Denbighshire,,,No observation supplied
+rhyl,crime,ready,W14000004,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+york,buy,review-required,York,,,Imported baseline value has no retained row-level raw artifact
+york,rent,review-required,York,,,Imported baseline value has no retained row-level raw artifact
+york,market,missing,York,,,No observation supplied
+york,localTransport,missing,York,,,No observation supplied
+york,nationalTransport,missing,York,,,No observation supplied
+york,quiet,missing,York,,,No observation supplied
+york,condition,missing,York,,,No observation supplied
+york,crime,ready,E22000371,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+durham,buy,review-required,County Durham,,,Imported baseline value has no retained row-level raw artifact
+durham,rent,review-required,County Durham,,,Imported baseline value has no retained row-level raw artifact
+durham,market,missing,County Durham,,,No observation supplied
+durham,localTransport,missing,County Durham,,,No observation supplied
+durham,nationalTransport,missing,County Durham,,,No observation supplied
+durham,quiet,missing,County Durham,,,No observation supplied
+durham,condition,missing,County Durham,,,No observation supplied
+durham,crime,ready,E22000365,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,

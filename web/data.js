@@ -3339,6 +3339,500 @@ window.FLATS_DATA = {
         "method_version": "broad-assessment-v1",
         "reason": "Historic and maintained pockets are balanced by industrial edges and a mixed, sometimes uneven centre."
       }
+    },
+    {
+      "id": "bristol",
+      "name": "Bristol",
+      "country": "England",
+      "localAuthority": "Bristol, City of",
+      "lat": 51.454513,
+      "lon": -2.58791,
+      "buy": {
+        "proxyMedian": 242500,
+        "transactions": 5367,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 5367 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 1223,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Bristol City LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "southampton",
+      "name": "Southampton",
+      "country": "England",
+      "localAuthority": "Southampton",
+      "lat": 50.9097,
+      "lon": -1.404351,
+      "buy": {
+        "proxyMedian": 172000,
+        "transactions": 2356,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 2356 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 879,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Southampton LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "bournemouth-poole",
+      "name": "Bournemouth–Poole",
+      "country": "England",
+      "localAuthority": "Bournemouth, Christchurch and Poole",
+      "lat": 50.758,
+      "lon": -1.879,
+      "buy": {
+        "proxyMedian": 218000,
+        "transactions": 3735,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 3735 achieved standard flat/maisonette sales in the Bournemouth, Christchurch and Poole district; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 919,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Bournemouth Christchurch and Poole LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "brighton-hove",
+      "name": "Brighton & Hove",
+      "country": "England",
+      "localAuthority": "Brighton and Hove",
+      "lat": 50.82253,
+      "lon": -0.137163,
+      "buy": {
+        "proxyMedian": 285000,
+        "transactions": 1766,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 1766 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 1190,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Brighton and Hove LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "exeter",
+      "name": "Exeter",
+      "country": "England",
+      "localAuthority": "Exeter",
+      "lat": 50.718412,
+      "lon": -3.533899,
+      "buy": {
+        "proxyMedian": 185000,
+        "transactions": 664,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 664 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 917,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Exeter LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "reading",
+      "name": "Reading",
+      "country": "England",
+      "localAuthority": "Reading",
+      "lat": 51.454264,
+      "lon": -0.97813,
+      "buy": {
+        "proxyMedian": 238000,
+        "transactions": 1755,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 1755 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 1115,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Reading LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "milton-keynes",
+      "name": "Milton Keynes",
+      "country": "England",
+      "localAuthority": "Milton Keynes",
+      "lat": 52.040623,
+      "lon": -0.759417,
+      "buy": {
+        "proxyMedian": 185000,
+        "transactions": 1000,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 1000 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 977,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Milton Keynes LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "luton",
+      "name": "Luton",
+      "country": "England",
+      "localAuthority": "Luton",
+      "lat": 51.87867,
+      "lon": -0.420025,
+      "buy": {
+        "proxyMedian": 164500,
+        "transactions": 431,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 431 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 907,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Luton LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "southend-on-sea",
+      "name": "Southend-on-Sea",
+      "country": "England",
+      "localAuthority": "Southend-on-Sea",
+      "lat": 51.545926,
+      "lon": 0.707713,
+      "buy": {
+        "proxyMedian": 200000,
+        "transactions": 619,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 619 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 872,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Southend-on-Sea LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "cambridge",
+      "name": "Cambridge",
+      "country": "England",
+      "localAuthority": "Cambridge",
+      "lat": 52.205337,
+      "lon": 0.121817,
+      "buy": {
+        "proxyMedian": 299000,
+        "transactions": 1017,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 1017 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 1257,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Cambridge LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "colchester",
+      "name": "Colchester",
+      "country": "England",
+      "localAuthority": "Colchester",
+      "lat": 51.88921,
+      "lon": 0.90421,
+      "buy": {
+        "proxyMedian": 175000,
+        "transactions": 905,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 905 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 819,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Colchester LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "oxford",
+      "name": "Oxford",
+      "country": "England",
+      "localAuthority": "Oxford",
+      "lat": 51.752021,
+      "lon": -1.257726,
+      "buy": {
+        "proxyMedian": 315000,
+        "transactions": 710,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 710 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 1353,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Oxford LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "bath",
+      "name": "Bath",
+      "country": "England",
+      "localAuthority": "Bath and North East Somerset",
+      "lat": 51.381064,
+      "lon": -2.359016,
+      "buy": {
+        "proxyMedian": 315000,
+        "transactions": 809,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 809 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 1205,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Bath and North East Somerset LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "bridgend",
+      "name": "Bridgend",
+      "country": "Wales",
+      "localAuthority": "Bridgend",
+      "lat": 51.505829,
+      "lon": -3.576945,
+      "buy": {
+        "proxyMedian": 122250,
+        "transactions": 86,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 86 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 559,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Bridgend LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "llanelli",
+      "name": "Llanelli",
+      "country": "Wales",
+      "localAuthority": "Carmarthenshire",
+      "lat": 51.681,
+      "lon": -4.161,
+      "buy": {
+        "proxyMedian": 112500,
+        "transactions": 25,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 25 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 499,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Carmarthenshire LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "bangor",
+      "name": "Bangor",
+      "country": "Wales",
+      "localAuthority": "Gwynedd",
+      "lat": 53.227409,
+      "lon": -4.129263,
+      "buy": {
+        "proxyMedian": 90000,
+        "transactions": 29,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 29 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 558,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Gwynedd LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "rhyl",
+      "name": "Rhyl",
+      "country": "Wales",
+      "localAuthority": "Denbighshire",
+      "lat": 53.319141,
+      "lon": -3.491635,
+      "buy": {
+        "proxyMedian": 94000,
+        "transactions": 43,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 43 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 545,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Denbighshire LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "york",
+      "name": "York",
+      "country": "England",
+      "localAuthority": "York",
+      "lat": 53.959055,
+      "lon": -1.081536,
+      "buy": {
+        "proxyMedian": 187000,
+        "transactions": 955,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 955 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 871,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for York LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
+    },
+    {
+      "id": "durham",
+      "name": "Durham",
+      "country": "England",
+      "localAuthority": "County Durham",
+      "lat": 54.77525,
+      "lon": -1.584852,
+      "buy": {
+        "proxyMedian": 112500,
+        "transactions": 151,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 151 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 453,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for County Durham LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
     }
   ],
   "sources": [
@@ -8203,6 +8697,196 @@ window.FLATS_DATA = {
       "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E1489&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
     },
     {
+      "location_id": "bristol",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "bristol",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "southampton",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "southampton",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "bournemouth-poole",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "bournemouth-poole",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "brighton-hove",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "brighton-hove",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "exeter",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "exeter",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "reading",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "reading",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "milton-keynes",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "milton-keynes",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "luton",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "luton",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "southend-on-sea",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "southend-on-sea",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "cambridge",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "cambridge",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "colchester",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "colchester",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "oxford",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "oxford",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "bath",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "bath",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "bridgend",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "bridgend",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "llanelli",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "llanelli",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "bangor",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "bangor",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "rhyl",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "rhyl",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "york",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "york",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "durham",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "durham",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
       "location_id": "wrexham",
       "topic": "market",
       "url": "https://los.rightmove.co.uk/typeahead?query=Wrexham"
@@ -8582,37 +9266,37 @@ window.FLATS_DATA = {
         "low": {
           "count": 20,
           "minimum": 50.5,
-          "maximum": 60.0
-        },
-        "mid": {
-          "count": 24,
-          "minimum": 60.5,
-          "maximum": 64.5
-        },
-        "high": {
-          "count": 19,
-          "minimum": 65.0,
-          "maximum": 77.0
-        },
-        "unknown": 0
-      },
-      "rent": {
-        "low": {
-          "count": 21,
-          "minimum": 49.0,
           "maximum": 60.5
         },
         "mid": {
           "count": 21,
           "minimum": 61.0,
-          "maximum": 64.5
+          "maximum": 65.0
         },
         "high": {
-          "count": 21,
-          "minimum": 65.0,
+          "count": 22,
+          "minimum": 65.5,
           "maximum": 81.0
         },
-        "unknown": 0
+        "unknown": 19
+      },
+      "rent": {
+        "low": {
+          "count": 20,
+          "minimum": 49.0,
+          "maximum": 60.0
+        },
+        "mid": {
+          "count": 21,
+          "minimum": 60.5,
+          "maximum": 65.0
+        },
+        "high": {
+          "count": 22,
+          "minimum": 65.5,
+          "maximum": 81.0
+        },
+        "unknown": 19
       }
     },
     "results": {
@@ -8767,7 +9451,7 @@ window.FLATS_DATA = {
               "stock": 4
             },
             "score": 60.5,
-            "band": "low"
+            "band": "mid"
           }
         }
       },
@@ -8865,11 +9549,11 @@ window.FLATS_DATA = {
         }
       },
       "cardiff": {
-        "safety": 5.0,
+        "safety": 4.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 5.0,
+              "safety": 4.5,
               "local_transport": 5,
               "condition": 4,
               "quiet": 3,
@@ -8877,12 +9561,12 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 77.0,
+            "score": 75.5,
             "band": "high"
           },
           "rent": {
             "factors": {
-              "safety": 5.0,
+              "safety": 4.5,
               "local_transport": 5,
               "condition": 4,
               "quiet": 3,
@@ -8890,7 +9574,7 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 77.0,
+            "score": 75.5,
             "band": "high"
           }
         }
@@ -8918,10 +9602,10 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 3
             },
-            "score": 66.5,
+            "score": 72.5,
             "band": "high"
           }
         }
@@ -8958,37 +9642,6 @@ window.FLATS_DATA = {
         }
       },
       "coventry": {
-        "safety": 4.0,
-        "tenures": {
-          "buy": {
-            "factors": {
-              "safety": 4.0,
-              "local_transport": 4,
-              "condition": 2,
-              "quiet": 2,
-              "national_transport": 5.0,
-              "affordability": 3,
-              "stock": 4
-            },
-            "score": 67.0,
-            "band": "high"
-          },
-          "rent": {
-            "factors": {
-              "safety": 4.0,
-              "local_transport": 4,
-              "condition": 2,
-              "quiet": 2,
-              "national_transport": 5.0,
-              "affordability": 1,
-              "stock": 4
-            },
-            "score": 61.0,
-            "band": "mid"
-          }
-        }
-      },
-      "darlington": {
         "safety": 3.5,
         "tenures": {
           "buy": {
@@ -8996,17 +9649,35 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
-              "national_transport": 3.0,
-              "affordability": 5,
-              "stock": 2
+              "quiet": 2,
+              "national_transport": 5.0,
+              "affordability": 3,
+              "stock": 4
             },
-            "score": 64.5,
-            "band": "mid"
+            "score": 65.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 3.5,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 2,
+              "national_transport": 5.0,
+              "affordability": 1,
+              "stock": 4
+            },
+            "score": 59.5,
+            "band": "low"
+          }
+        }
+      },
+      "darlington": {
+        "safety": 3.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.0,
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
@@ -9014,7 +9685,20 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 2
             },
-            "score": 64.5,
+            "score": 63.0,
+            "band": "mid"
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": 4,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.0,
+              "affordability": 5,
+              "stock": 2
+            },
+            "score": 63.0,
             "band": "mid"
           }
         }
@@ -9082,11 +9766,11 @@ window.FLATS_DATA = {
         }
       },
       "gateshead": {
-        "safety": 5.0,
+        "safety": 4.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 5.0,
+              "safety": 4.5,
               "local_transport": 5,
               "condition": 2,
               "quiet": 3,
@@ -9094,20 +9778,20 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 73.0,
+            "score": 71.5,
             "band": "high"
           },
           "rent": {
             "factors": {
-              "safety": 5.0,
+              "safety": 4.5,
               "local_transport": 5,
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.0,
-              "affordability": 3,
+              "affordability": 5,
               "stock": 3
             },
-            "score": 67.0,
+            "score": 71.5,
             "band": "high"
           }
         }
@@ -9122,11 +9806,11 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.5,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 3
             },
-            "score": 61.5,
-            "band": "mid"
+            "score": 67.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -9135,11 +9819,11 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.5,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 3
             },
-            "score": 61.5,
-            "band": "mid"
+            "score": 67.5,
+            "band": "high"
           }
         }
       },
@@ -9170,7 +9854,7 @@ window.FLATS_DATA = {
               "stock": 3
             },
             "score": 60.5,
-            "band": "low"
+            "band": "mid"
           }
         }
       },
@@ -9206,11 +9890,11 @@ window.FLATS_DATA = {
         }
       },
       "huddersfield": {
-        "safety": 3.5,
+        "safety": 3.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 3.5,
+              "safety": 3.0,
               "local_transport": 4,
               "condition": 2,
               "quiet": 4,
@@ -9218,20 +9902,20 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 69.5,
+            "score": 68.0,
             "band": "high"
           },
           "rent": {
             "factors": {
-              "safety": 3.5,
+              "safety": 3.0,
               "local_transport": 4,
               "condition": 2,
               "quiet": 4,
               "national_transport": 2.5,
-              "affordability": 3,
+              "affordability": 5,
               "stock": 4
             },
-            "score": 66.5,
+            "score": 71.0,
             "band": "high"
           }
         }
@@ -9277,11 +9961,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 4
             },
-            "score": 58.0,
-            "band": "low"
+            "score": 64.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -9361,42 +10045,42 @@ window.FLATS_DATA = {
         }
       },
       "leeds": {
+        "safety": 1.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 5,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 59.5,
+            "band": "low"
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.5,
+              "local_transport": 5,
+              "condition": 2,
+              "quiet": 3,
+              "national_transport": 3.5,
+              "affordability": 1,
+              "stock": 5
+            },
+            "score": 59.5,
+            "band": "low"
+          }
+        }
+      },
+      "leicester": {
         "safety": 2.0,
         "tenures": {
           "buy": {
             "factors": {
               "safety": 2.0,
-              "local_transport": 5,
-              "condition": 2,
-              "quiet": 3,
-              "national_transport": 3.5,
-              "affordability": 1,
-              "stock": 5
-            },
-            "score": 61.0,
-            "band": "mid"
-          },
-          "rent": {
-            "factors": {
-              "safety": 2.0,
-              "local_transport": 5,
-              "condition": 2,
-              "quiet": 3,
-              "national_transport": 3.5,
-              "affordability": 1,
-              "stock": 5
-            },
-            "score": 61.0,
-            "band": "mid"
-          }
-        }
-      },
-      "leicester": {
-        "safety": 3.0,
-        "tenures": {
-          "buy": {
-            "factors": {
-              "safety": 3.0,
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
@@ -9404,21 +10088,21 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 4
             },
-            "score": 67.0,
-            "band": "high"
+            "score": 64.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
-              "safety": 3.0,
+              "safety": 2.0,
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
               "national_transport": 5.0,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 5
             },
-            "score": 64.0,
-            "band": "mid"
+            "score": 67.0,
+            "band": "high"
           }
         }
       },
@@ -9463,11 +10147,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 5
             },
-            "score": 61.0,
-            "band": "mid"
+            "score": 67.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -9622,7 +10306,7 @@ window.FLATS_DATA = {
               "stock": 1
             },
             "score": 60.5,
-            "band": "mid"
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -9635,7 +10319,7 @@ window.FLATS_DATA = {
               "stock": 1
             },
             "score": 60.5,
-            "band": "low"
+            "band": "mid"
           }
         }
       },
@@ -9649,11 +10333,11 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 2.0,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 4
             },
-            "score": 62.5,
-            "band": "mid"
+            "score": 68.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -9671,11 +10355,11 @@ window.FLATS_DATA = {
         }
       },
       "newport": {
-        "safety": 3.0,
+        "safety": 2.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 3.0,
+              "safety": 2.5,
               "local_transport": 4,
               "condition": 2,
               "quiet": 2,
@@ -9683,30 +10367,30 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 59.0,
+            "score": 57.5,
             "band": "low"
           },
           "rent": {
             "factors": {
-              "safety": 3.0,
+              "safety": 2.5,
               "local_transport": 4,
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 3
             },
-            "score": 53.0,
+            "score": 57.5,
             "band": "low"
           }
         }
       },
       "northampton": {
-        "safety": 3.0,
+        "safety": 2.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 3.0,
+              "safety": 2.5,
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
@@ -9714,12 +10398,12 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 61.0,
-            "band": "mid"
+            "score": 59.5,
+            "band": "low"
           },
           "rent": {
             "factors": {
-              "safety": 3.0,
+              "safety": 2.5,
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
@@ -9727,8 +10411,8 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 61.0,
-            "band": "mid"
+            "score": 59.5,
+            "band": "low"
           }
         }
       },
@@ -9746,7 +10430,7 @@ window.FLATS_DATA = {
               "stock": 4
             },
             "score": 65.0,
-            "band": "high"
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -9759,7 +10443,7 @@ window.FLATS_DATA = {
               "stock": 4
             },
             "score": 65.0,
-            "band": "high"
+            "band": "mid"
           }
         }
       },
@@ -9773,11 +10457,11 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.5,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 4
             },
-            "score": 64.5,
-            "band": "mid"
+            "score": 70.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -9786,10 +10470,10 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.5,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 5
             },
-            "score": 67.5,
+            "score": 73.5,
             "band": "high"
           }
         }
@@ -9817,10 +10501,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.5,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 4
             },
-            "score": 54.0,
+            "score": 60.0,
             "band": "low"
           }
         }
@@ -9835,11 +10519,11 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 2.0,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 4
             },
-            "score": 59.5,
-            "band": "low"
+            "score": 65.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -9848,11 +10532,11 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 2.0,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 4
             },
-            "score": 59.5,
-            "band": "low"
+            "score": 65.5,
+            "band": "high"
           }
         }
       },
@@ -9928,11 +10612,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 3.5,
-              "affordability": 3,
+              "affordability": 5,
               "stock": 2
             },
-            "score": 56.5,
-            "band": "low"
+            "score": 62.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -9950,11 +10634,11 @@ window.FLATS_DATA = {
         }
       },
       "salford": {
-        "safety": 2.5,
+        "safety": 2.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 2.5,
+              "safety": 2.0,
               "local_transport": 5,
               "condition": 2,
               "quiet": 2,
@@ -9962,12 +10646,12 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 59.5,
+            "score": 58.0,
             "band": "low"
           },
           "rent": {
             "factors": {
-              "safety": 2.5,
+              "safety": 2.0,
               "local_transport": 5,
               "condition": 2,
               "quiet": 2,
@@ -9975,7 +10659,7 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 5
             },
-            "score": 59.5,
+            "score": 58.0,
             "band": "low"
           }
         }
@@ -9990,10 +10674,10 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.5,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 5
             },
-            "score": 75.0,
+            "score": 81.0,
             "band": "high"
           },
           "rent": {
@@ -10043,11 +10727,11 @@ window.FLATS_DATA = {
         }
       },
       "st-helens": {
-        "safety": 4.5,
+        "safety": 4.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 4.5,
+              "safety": 4.0,
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
@@ -10055,12 +10739,12 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 1
             },
-            "score": 62.5,
+            "score": 61.0,
             "band": "mid"
           },
           "rent": {
             "factors": {
-              "safety": 4.5,
+              "safety": 4.0,
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
@@ -10068,7 +10752,7 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 2
             },
-            "score": 59.5,
+            "score": 58.0,
             "band": "low"
           }
         }
@@ -10136,11 +10820,11 @@ window.FLATS_DATA = {
         }
       },
       "stockton-on-tees": {
-        "safety": 2.5,
+        "safety": 1.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 2.5,
+              "safety": 1.5,
               "local_transport": 3,
               "condition": 2,
               "quiet": 2,
@@ -10148,12 +10832,12 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 2
             },
-            "score": 53.5,
+            "score": 50.5,
             "band": "low"
           },
           "rent": {
             "factors": {
-              "safety": 2.5,
+              "safety": 1.5,
               "local_transport": 3,
               "condition": 2,
               "quiet": 2,
@@ -10161,17 +10845,17 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 56.5,
+            "score": 53.5,
             "band": "low"
           }
         }
       },
       "stoke-on-trent": {
-        "safety": 1.5,
+        "safety": 1.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 1.5,
+              "safety": 1.0,
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
@@ -10179,12 +10863,12 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 64.5,
+            "score": 63.0,
             "band": "mid"
           },
           "rent": {
             "factors": {
-              "safety": 1.5,
+              "safety": 1.0,
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
@@ -10192,7 +10876,7 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 3
             },
-            "score": 64.5,
+            "score": 63.0,
             "band": "mid"
           }
         }
@@ -10229,11 +10913,11 @@ window.FLATS_DATA = {
         }
       },
       "swansea": {
-        "safety": 5.0,
+        "safety": 4.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 5.0,
+              "safety": 4.5,
               "local_transport": 4,
               "condition": 4,
               "quiet": 4,
@@ -10241,12 +10925,12 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 73.0,
+            "score": 71.5,
             "band": "high"
           },
           "rent": {
             "factors": {
-              "safety": 5.0,
+              "safety": 4.5,
               "local_transport": 4,
               "condition": 4,
               "quiet": 4,
@@ -10254,7 +10938,7 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 2
             },
-            "score": 70.0,
+            "score": 68.5,
             "band": "high"
           }
         }
@@ -10300,11 +10984,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 3,
+              "affordability": 5,
               "stock": 3
             },
-            "score": 60.5,
-            "band": "mid"
+            "score": 66.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -10384,11 +11068,11 @@ window.FLATS_DATA = {
         }
       },
       "walsall": {
-        "safety": 4.5,
+        "safety": 4.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 4.5,
+              "safety": 4.0,
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
@@ -10396,12 +11080,12 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 66.5,
-            "band": "high"
+            "score": 65.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
-              "safety": 4.5,
+              "safety": 4.0,
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
@@ -10409,8 +11093,8 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 3
             },
-            "score": 66.5,
-            "band": "high"
+            "score": 65.0,
+            "band": "mid"
           }
         }
       },
@@ -10517,10 +11201,10 @@ window.FLATS_DATA = {
               "condition": 5,
               "quiet": 4,
               "national_transport": 4.0,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 3
             },
-            "score": 71.0,
+            "score": 77.0,
             "band": "high"
           },
           "rent": {
@@ -10530,33 +11214,33 @@ window.FLATS_DATA = {
               "condition": 5,
               "quiet": 4,
               "national_transport": 4.0,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 3
             },
-            "score": 71.0,
+            "score": 77.0,
             "band": "high"
           }
         }
       },
       "wrexham": {
-        "safety": 4.0,
+        "safety": 3.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 4.0,
+              "safety": 3.5,
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
-              "affordability": 3,
+              "affordability": 5,
               "stock": 1
             },
-            "score": 55.0,
+            "score": 59.5,
             "band": "low"
           },
           "rent": {
             "factors": {
-              "safety": 4.0,
+              "safety": 3.5,
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
@@ -10564,8 +11248,597 @@ window.FLATS_DATA = {
               "affordability": 3,
               "stock": 2
             },
-            "score": 58.0,
+            "score": 56.5,
             "band": "low"
+          }
+        }
+      },
+      "bristol": {
+        "safety": 1.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "southampton": {
+        "safety": 1.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 1.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "bournemouth-poole": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "brighton-hove": {
+        "safety": 3.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "exeter": {
+        "safety": 2.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "reading": {
+        "safety": 3.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "milton-keynes": {
+        "safety": 3.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "luton": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "southend-on-sea": {
+        "safety": 2.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "cambridge": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "colchester": {
+        "safety": 3.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "oxford": {
+        "safety": 3.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "bath": {
+        "safety": 4.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "bridgend": {
+        "safety": 4.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 3,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 5,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "llanelli": {
+        "safety": 4.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 5,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 5,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "bangor": {
+        "safety": 4.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 5,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 5,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "rhyl": {
+        "safety": 2.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 5,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 2.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 5,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "york": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "durham": {
+        "safety": 3.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 5,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.5,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 5,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
           }
         }
       }
@@ -14600,6 +15873,1222 @@ window.FLATS_DATA = {
       "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
       "rate_per_1000": "3.698",
       "force_unallocated_percent": "0.194",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "bristol",
+      "category": "violence_against_person",
+      "local_authority_code": "E06000023",
+      "csp_code": "E22000002",
+      "csp_name": "Bristol, City of",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000036",
+      "force_name": "Avon and Somerset",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "23438",
+      "population": "494400",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "47.407053816856425",
+      "force_count": "69922",
+      "force_unallocated_count": "1365",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H11; Table C4!G11; Table C4!J11",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "47.407",
+      "force_unallocated_percent": "1.952",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "bristol",
+      "category": "sexual_offences",
+      "local_authority_code": "E06000023",
+      "csp_code": "E22000002",
+      "csp_name": "Bristol, City of",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000036",
+      "force_name": "Avon and Somerset",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "2553",
+      "population": "494400",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "5.1638453961274191",
+      "force_count": "7765",
+      "force_unallocated_count": "394",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N11; Table C4!G11; Table C4!P11",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "5.164",
+      "force_unallocated_percent": "5.074",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "southampton",
+      "category": "violence_against_person",
+      "local_authority_code": "E06000045",
+      "csp_code": "E22000120",
+      "csp_name": "Southampton",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000030",
+      "force_name": "Hampshire",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "11696",
+      "population": "259400",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "45.084494880967064",
+      "force_count": "62298",
+      "force_unallocated_count": "1322",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H140; Table C4!G140; Table C4!J140",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "45.089",
+      "force_unallocated_percent": "2.122",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "southampton",
+      "category": "sexual_offences",
+      "local_authority_code": "E06000045",
+      "csp_code": "E22000120",
+      "csp_name": "Southampton",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000030",
+      "force_name": "Hampshire",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "1286",
+      "population": "259400",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "4.9571358085605031",
+      "force_count": "7120",
+      "force_unallocated_count": "281",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N140; Table C4!G140; Table C4!P140",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "4.958",
+      "force_unallocated_percent": "3.947",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "bournemouth-poole",
+      "category": "violence_against_person",
+      "local_authority_code": "E06000058",
+      "csp_code": "E22000367",
+      "csp_name": "Dorset",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "The current combined BCP local authority maps to the Dorset CSP row in the retained lookup; this broad CSP is not a Bournemouth–Poole-only measure.",
+      "force_code": "E23000039",
+      "force_name": "Dorset",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "8306",
+      "population": "439900",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "18.88104893706014",
+      "force_count": "18452",
+      "force_unallocated_count": "199",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H73; Table C4!G73; Table C4!J73",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "18.882",
+      "force_unallocated_percent": "1.078",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "bournemouth-poole",
+      "category": "sexual_offences",
+      "local_authority_code": "E06000058",
+      "csp_code": "E22000367",
+      "csp_name": "Dorset",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "The current combined BCP local authority maps to the Dorset CSP row in the retained lookup; this broad CSP is not a Bournemouth–Poole-only measure.",
+      "force_code": "E23000039",
+      "force_name": "Dorset",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "995",
+      "population": "439900",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "2.2618159995635492",
+      "force_count": "2247",
+      "force_unallocated_count": "58",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N73; Table C4!G73; Table C4!P73",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "2.262",
+      "force_unallocated_percent": "2.581",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "brighton-hove",
+      "category": "violence_against_person",
+      "local_authority_code": "E06000043",
+      "csp_code": "E22000292",
+      "csp_name": "Brighton and Hove",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000033",
+      "force_name": "Sussex",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "9193",
+      "population": "283900",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "32.384542220030298",
+      "force_count": "46496",
+      "force_unallocated_count": "899",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H345; Table C4!G345; Table C4!J345",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "32.381",
+      "force_unallocated_percent": "1.933",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "brighton-hove",
+      "category": "sexual_offences",
+      "local_authority_code": "E06000043",
+      "csp_code": "E22000292",
+      "csp_name": "Brighton and Hove",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000033",
+      "force_name": "Sussex",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "1227",
+      "population": "283900",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "4.3224010990946562",
+      "force_count": "5882",
+      "force_unallocated_count": "344",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N345; Table C4!G345; Table C4!P345",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "4.322",
+      "force_unallocated_percent": "5.848",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "exeter",
+      "category": "violence_against_person",
+      "local_authority_code": "E07000041",
+      "csp_code": "E22000049",
+      "csp_name": "Exeter",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000035",
+      "force_name": "Devon and Cornwall",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "5548",
+      "population": "138400",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "40.086994848228677",
+      "force_count": "56685",
+      "force_unallocated_count": "1",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H64; Table C4!G64; Table C4!J64",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "40.087",
+      "force_unallocated_percent": "0.002",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "exeter",
+      "category": "sexual_offences",
+      "local_authority_code": "E07000041",
+      "csp_code": "E22000049",
+      "csp_name": "Exeter",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000035",
+      "force_name": "Devon and Cornwall",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "678",
+      "population": "138400",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "4.898879327162768",
+      "force_count": "6678",
+      "force_unallocated_count": "2",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N64; Table C4!G64; Table C4!P64",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "4.899",
+      "force_unallocated_percent": "0.030",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "reading",
+      "category": "violence_against_person",
+      "local_authority_code": "E06000038",
+      "csp_code": "E22000309",
+      "csp_name": "Reading",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000029",
+      "force_name": "Thames Valley",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "6152",
+      "population": "182900",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "33.634579321731806",
+      "force_count": "63490",
+      "force_unallocated_count": "377",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H364; Table C4!G364; Table C4!J364",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "33.636",
+      "force_unallocated_percent": "0.594",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "reading",
+      "category": "sexual_offences",
+      "local_authority_code": "E06000038",
+      "csp_code": "E22000309",
+      "csp_name": "Reading",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000029",
+      "force_name": "Thames Valley",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "738",
+      "population": "182900",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "4.0348373763715983",
+      "force_count": "7345",
+      "force_unallocated_count": "128",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N364; Table C4!G364; Table C4!P364",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "4.035",
+      "force_unallocated_percent": "1.743",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "milton-keynes",
+      "category": "violence_against_person",
+      "local_authority_code": "E06000042",
+      "csp_code": "E22000307",
+      "csp_name": "Milton Keynes",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000029",
+      "force_name": "Thames Valley",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "10369",
+      "population": "305900",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "33.898471315923679",
+      "force_count": "63490",
+      "force_unallocated_count": "377",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H362; Table C4!G362; Table C4!J362",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "33.897",
+      "force_unallocated_percent": "0.594",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "milton-keynes",
+      "category": "sexual_offences",
+      "local_authority_code": "E06000042",
+      "csp_code": "E22000307",
+      "csp_name": "Milton Keynes",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000029",
+      "force_name": "Thames Valley",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "1206",
+      "population": "305900",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.942671077924965",
+      "force_count": "7345",
+      "force_unallocated_count": "128",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N362; Table C4!G362; Table C4!P362",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.942",
+      "force_unallocated_percent": "1.743",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "luton",
+      "category": "violence_against_person",
+      "local_authority_code": "E06000032",
+      "csp_code": "E22000010",
+      "csp_name": "Luton",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000026",
+      "force_name": "Bedfordshire",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "7260",
+      "population": "239100",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "30.365134468191894",
+      "force_count": "19200",
+      "force_unallocated_count": "666",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H19; Table C4!G19; Table C4!J19",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "30.364",
+      "force_unallocated_percent": "3.469",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "luton",
+      "category": "sexual_offences",
+      "local_authority_code": "E06000032",
+      "csp_code": "E22000010",
+      "csp_name": "Luton",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000026",
+      "force_name": "Bedfordshire",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "779",
+      "population": "239100",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.2581872934878078",
+      "force_count": "2290",
+      "force_unallocated_count": "203",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N19; Table C4!G19; Table C4!P19",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.258",
+      "force_unallocated_percent": "8.865",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "southend-on-sea",
+      "category": "violence_against_person",
+      "local_authority_code": "E06000033",
+      "csp_code": "E22000089",
+      "csp_name": "Southend-on-Sea",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000028",
+      "force_name": "Essex",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "7519",
+      "population": "185300",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "40.587079500798893",
+      "force_count": "58849",
+      "force_unallocated_count": "1111",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H97; Table C4!G97; Table C4!J97",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "40.577",
+      "force_unallocated_percent": "1.888",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "southend-on-sea",
+      "category": "sexual_offences",
+      "local_authority_code": "E06000033",
+      "csp_code": "E22000089",
+      "csp_name": "Southend-on-Sea",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000028",
+      "force_name": "Essex",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "793",
+      "population": "185300",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "4.2805631126657167",
+      "force_count": "6170",
+      "force_unallocated_count": "315",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N97; Table C4!G97; Table C4!P97",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "4.280",
+      "force_unallocated_percent": "5.105",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "cambridge",
+      "category": "violence_against_person",
+      "local_authority_code": "E07000008",
+      "csp_code": "E22000013",
+      "csp_name": "Cambridge",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000023",
+      "force_name": "Cambridgeshire",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "4095",
+      "population": "149400",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "27.418447694038246",
+      "force_count": "26485",
+      "force_unallocated_count": "382",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H22; Table C4!G22; Table C4!J22",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "27.410",
+      "force_unallocated_percent": "1.442",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "cambridge",
+      "category": "sexual_offences",
+      "local_authority_code": "E07000008",
+      "csp_code": "E22000013",
+      "csp_name": "Cambridge",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000023",
+      "force_name": "Cambridgeshire",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "449",
+      "population": "149400",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.006320638491617",
+      "force_count": "3087",
+      "force_unallocated_count": "188",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N22; Table C4!G22; Table C4!P22",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.005",
+      "force_unallocated_percent": "6.090",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "colchester",
+      "category": "violence_against_person",
+      "local_authority_code": "E07000071",
+      "csp_code": "E22000084",
+      "csp_name": "Colchester",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000028",
+      "force_name": "Essex",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "7156",
+      "population": "200200",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "35.740328235658417",
+      "force_count": "58849",
+      "force_unallocated_count": "1111",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H92; Table C4!G92; Table C4!J92",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "35.744",
+      "force_unallocated_percent": "1.888",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "colchester",
+      "category": "sexual_offences",
+      "local_authority_code": "E07000071",
+      "csp_code": "E22000084",
+      "csp_name": "Colchester",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000028",
+      "force_name": "Essex",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "798",
+      "population": "200200",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.9855760106282023",
+      "force_count": "6170",
+      "force_unallocated_count": "315",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N92; Table C4!G92; Table C4!P92",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.986",
+      "force_unallocated_percent": "5.105",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "oxford",
+      "category": "violence_against_person",
+      "local_authority_code": "E07000178",
+      "csp_code": "E22000308",
+      "csp_name": "Oxford",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000029",
+      "force_name": "Thames Valley",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "5099",
+      "population": "166000",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "30.710577351626775",
+      "force_count": "63490",
+      "force_unallocated_count": "377",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H363; Table C4!G363; Table C4!J363",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "30.717",
+      "force_unallocated_percent": "0.594",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "oxford",
+      "category": "sexual_offences",
+      "local_authority_code": "E07000178",
+      "csp_code": "E22000308",
+      "csp_name": "Oxford",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000029",
+      "force_name": "Thames Valley",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "652",
+      "population": "166000",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.9269065372152689",
+      "force_count": "7345",
+      "force_unallocated_count": "128",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N363; Table C4!G363; Table C4!P363",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.928",
+      "force_unallocated_percent": "1.743",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "bath",
+      "category": "violence_against_person",
+      "local_authority_code": "E06000022",
+      "csp_code": "E22000001",
+      "csp_name": "Bath and North East Somerset",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000036",
+      "force_name": "Avon and Somerset",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "6300",
+      "population": "200000",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "31.495590617313578",
+      "force_count": "69922",
+      "force_unallocated_count": "1365",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H10; Table C4!G10; Table C4!J10",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "31.500",
+      "force_unallocated_percent": "1.952",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "bath",
+      "category": "sexual_offences",
+      "local_authority_code": "E06000022",
+      "csp_code": "E22000001",
+      "csp_name": "Bath and North East Somerset",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000036",
+      "force_name": "Avon and Somerset",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "626",
+      "population": "200000",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.1295618613394125",
+      "force_count": "7765",
+      "force_unallocated_count": "394",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N10; Table C4!G10; Table C4!P10",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.130",
+      "force_unallocated_percent": "5.074",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "bridgend",
+      "category": "violence_against_person",
+      "local_authority_code": "W06000013",
+      "csp_code": "W14000013",
+      "csp_name": "Bridgend",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "W15000003",
+      "force_name": "South Wales",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "4532",
+      "population": "147500",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "30.719175760862196",
+      "force_count": "41549",
+      "force_unallocated_count": "290",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H299; Table C4!G299; Table C4!J299",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "30.725",
+      "force_unallocated_percent": "0.698",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "bridgend",
+      "category": "sexual_offences",
+      "local_authority_code": "W06000013",
+      "csp_code": "W14000013",
+      "csp_name": "Bridgend",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "W15000003",
+      "force_name": "South Wales",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "510",
+      "population": "147500",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.4569240154544838",
+      "force_count": "4678",
+      "force_unallocated_count": "55",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N299; Table C4!G299; Table C4!P299",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.458",
+      "force_unallocated_percent": "1.176",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "llanelli",
+      "category": "violence_against_person",
+      "local_authority_code": "W06000010",
+      "csp_code": "W14000010",
+      "csp_name": "Carmarthenshire",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Llanelli uses the Carmarthenshire CSP and LA rent proxy; it is not a town-only measure.",
+      "force_code": "W15000004",
+      "force_name": "Dyfed-Powys",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "5711",
+      "population": "190800",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "29.931865828092242",
+      "force_count": "16746",
+      "force_unallocated_count": "1298",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H81; Table C4!G81; Table C4!J81",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "29.932",
+      "force_unallocated_percent": "7.751",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "llanelli",
+      "category": "sexual_offences",
+      "local_authority_code": "W06000010",
+      "csp_code": "W14000010",
+      "csp_name": "Carmarthenshire",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Llanelli uses the Carmarthenshire CSP and LA rent proxy; it is not a town-only measure.",
+      "force_code": "W15000004",
+      "force_name": "Dyfed-Powys",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "689",
+      "population": "190800",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.6111111111111112",
+      "force_count": "2047",
+      "force_unallocated_count": "175",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N81; Table C4!G81; Table C4!P81",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.611",
+      "force_unallocated_percent": "8.549",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "bangor",
+      "category": "violence_against_person",
+      "local_authority_code": "W06000002",
+      "csp_code": "W14000002",
+      "csp_name": "Gwynedd",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Bangor uses the Gwynedd CSP and LA rent proxy; it is not a town-only measure.",
+      "force_code": "W15000001",
+      "force_name": "North Wales",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "3734",
+      "population": "120800",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "30.907269913006051",
+      "force_count": "23879",
+      "force_unallocated_count": "12",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H266; Table C4!G266; Table C4!J266",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "30.911",
+      "force_unallocated_percent": "0.050",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "bangor",
+      "category": "sexual_offences",
+      "local_authority_code": "W06000002",
+      "csp_code": "W14000002",
+      "csp_name": "Gwynedd",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Bangor uses the Gwynedd CSP and LA rent proxy; it is not a town-only measure.",
+      "force_code": "W15000001",
+      "force_name": "North Wales",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "448",
+      "population": "120800",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.7082102091662321",
+      "force_count": "2582",
+      "force_unallocated_count": "5",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N266; Table C4!G266; Table C4!P266",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.709",
+      "force_unallocated_percent": "0.194",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "rhyl",
+      "category": "violence_against_person",
+      "local_authority_code": "W06000004",
+      "csp_code": "W14000004",
+      "csp_name": "Denbighshire",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Rhyl uses the Denbighshire CSP and LA rent proxy; it is not a town-only measure.",
+      "force_code": "W15000001",
+      "force_name": "North Wales",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "4391",
+      "population": "98200",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "44.713956945887048",
+      "force_count": "23879",
+      "force_unallocated_count": "12",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H264; Table C4!G264; Table C4!J264",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "44.715",
+      "force_unallocated_percent": "0.050",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "rhyl",
+      "category": "sexual_offences",
+      "local_authority_code": "W06000004",
+      "csp_code": "W14000004",
+      "csp_name": "Denbighshire",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Rhyl uses the Denbighshire CSP and LA rent proxy; it is not a town-only measure.",
+      "force_code": "W15000001",
+      "force_name": "North Wales",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "437",
+      "population": "98200",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "4.4500112014011934",
+      "force_count": "2582",
+      "force_unallocated_count": "5",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N264; Table C4!G264; Table C4!P264",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "4.450",
+      "force_unallocated_percent": "0.194",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "york",
+      "category": "violence_against_person",
+      "local_authority_code": "E06000014",
+      "csp_code": "E22000371",
+      "csp_name": "City of York",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000009",
+      "force_name": "North Yorkshire",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "5076",
+      "population": "209300",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "24.252153596972782",
+      "force_count": "17902",
+      "force_unallocated_count": "89",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H271; Table C4!G271; Table C4!J271",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "24.252",
+      "force_unallocated_percent": "0.497",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "york",
+      "category": "sexual_offences",
+      "local_authority_code": "E06000014",
+      "csp_code": "E22000371",
+      "csp_name": "City of York",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000009",
+      "force_name": "North Yorkshire",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "629",
+      "population": "209300",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.0052412554168395",
+      "force_count": "2244",
+      "force_unallocated_count": "17",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N271; Table C4!G271; Table C4!P271",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.005",
+      "force_unallocated_percent": "0.758",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "durham",
+      "category": "violence_against_person",
+      "local_authority_code": "E06000047",
+      "csp_code": "E22000365",
+      "csp_name": "County Durham",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Durham uses the County Durham CSP and LA rent proxy; it is not a city-only measure.",
+      "force_code": "E23000008",
+      "force_name": "Durham",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "18873",
+      "population": "538000",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "35.079208417671758",
+      "force_count": "22999",
+      "force_unallocated_count": "186",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H77; Table C4!G77; Table C4!J77",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "35.080",
+      "force_unallocated_percent": "0.809",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "durham",
+      "category": "sexual_offences",
+      "local_authority_code": "E06000047",
+      "csp_code": "E22000365",
+      "csp_name": "County Durham",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Durham uses the County Durham CSP and LA rent proxy; it is not a city-only measure.",
+      "force_code": "E23000008",
+      "force_name": "Durham",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "2014",
+      "population": "538000",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.7434178855079172",
+      "force_count": "2536",
+      "force_unallocated_count": "66",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N77; Table C4!G77; Table C4!P77",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.743",
+      "force_unallocated_percent": "2.603",
       "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
       "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
       "missing_reason": ""
