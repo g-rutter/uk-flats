@@ -655,3 +655,11 @@ durham,nationalTransport,missing,County Durham,,,No observation supplied
 durham,quiet,missing,County Durham,,,No observation supplied
 durham,condition,missing,County Durham,,,No observation supplied
 durham,crime,ready,E22000365,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
+cheltenham,buy,review-required,Cheltenham,,,Imported baseline value has no retained row-level raw artifact
+cheltenham,rent,review-required,Cheltenham,,,Imported baseline value has no retained row-level raw artifact
+cheltenham,market,missing,Cheltenham,,,No observation supplied
+cheltenham,localTransport,missing,Cheltenham,,,No observation supplied
+cheltenham,nationalTransport,missing,Cheltenham,,,No observation supplied
+cheltenham,quiet,missing,Cheltenham,,,No observation supplied
+cheltenham,condition,missing,Cheltenham,,,No observation supplied
+cheltenham,crime,ready,E22000093,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,

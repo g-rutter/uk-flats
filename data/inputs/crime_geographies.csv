@@ -81,3 +81,4 @@ bangor,W06000002,W14000002,Gwynedd,,ONS YE March 2026 C1/C2/C4; exact boundary v
 rhyl,W06000004,W14000004,Denbighshire,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Rhyl uses the Denbighshire CSP and LA rent proxy; it is not a town-only measure.
 york,E06000014,E22000371,City of York,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
 durham,E06000047,E22000365,County Durham,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Durham uses the County Durham CSP and LA rent proxy; it is not a city-only measure.
+cheltenham,E07000078,E22000093,Cheltenham,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.

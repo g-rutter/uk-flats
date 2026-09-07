@@ -1,6 +1,6 @@
 # UK flat location comparison
 
-A reproducible broad comparison of 82 England and Wales locations for buying or
+A reproducible broad comparison of 83 England and Wales locations for buying or
 renting a one-bedroom flat. It does not cover neighbourhoods, individual
 buildings or listings.
 

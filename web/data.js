@@ -3833,6 +3833,32 @@ window.FLATS_DATA = {
       "nationalTransport": {},
       "quiet": {},
       "condition": {}
+    },
+    {
+      "id": "cheltenham",
+      "name": "Cheltenham",
+      "country": "England",
+      "localAuthority": "Cheltenham",
+      "lat": 51.90073045590095,
+      "lon": -2.076692699758725,
+      "buy": {
+        "proxyMedian": 200000,
+        "transactions": 1067,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Median of 1067 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 869,
+        "affordabilityConfidence": "High",
+        "oneBedCount": null,
+        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Cheltenham LA; underlying observation count is not published in the table."
+      },
+      "market": {},
+      "localTransport": {},
+      "nationalTransport": {},
+      "quiet": {},
+      "condition": {}
     }
   ],
   "sources": [
@@ -8887,6 +8913,21 @@ window.FLATS_DATA = {
       "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
     },
     {
+      "location_id": "cheltenham",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "cheltenham",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "cheltenham",
+      "topic": "crime",
+      "url": "https://api.postcodes.io/places?q=Cheltenham"
+    },
+    {
       "location_id": "wrexham",
       "topic": "market",
       "url": "https://los.rightmove.co.uk/typeahead?query=Wrexham"
@@ -8994,6 +9035,18 @@ window.FLATS_DATA = {
       "geography": "Force-level data availability",
       "coverage": "Greater Manchester Police coverage warning",
       "limitations": "Police.uk reports Greater Manchester Police crime data unavailable; sparse API point returns may be cross-force records and are not used as a safety indicator."
+    },
+    {
+      "id": "GC07",
+      "workstream": "geography",
+      "title": "Places lookup for Cheltenham",
+      "publisher": "Postcodes.io",
+      "url": "https://api.postcodes.io/places?q=Cheltenham",
+      "dataPeriod": "Current lookup",
+      "retrievalDate": "2026-09-07",
+      "geography": "Named place centroid",
+      "coverage": "Cheltenham",
+      "limitations": "The selected Town response identifies a practical broad-place centroid; it is not a statutory boundary lookup."
     },
     {
       "id": "AFF-BUY-PPD-2024-26",
@@ -9244,7 +9297,7 @@ window.FLATS_DATA = {
       "dataPeriod": "2025-04-01 to 2026-03-31; population mid-2024 rounded to 100",
       "retrievalDate": "2026-09-05",
       "geography": "CSP codes and names in crime_geographies.csv; boundary vintage not stated",
-      "coverage": "All 63 locations have named CSP source cells; Kettering and Northampton use matching CSP populations rather than whole-LA values",
+      "coverage": "All 83 locations have named CSP source cells; Kettering and Northampton use matching CSP populations rather than whole-LA values",
       "limitations": "Official statistics, not accredited official statistics. Recorded offences reflect reporting and recording; CSP unallocated offences are not assigned. Resident population excludes visitors and commuters. ASB is excluded pending coverage review. Separate offence rates are not a safety score or ranking."
     }
   ],
@@ -9264,13 +9317,13 @@ window.FLATS_DATA = {
     "score_bands": {
       "buy": {
         "low": {
-          "count": 20,
+          "count": 21,
           "minimum": 50.5,
-          "maximum": 60.5
+          "maximum": 61.0
         },
         "mid": {
-          "count": 21,
-          "minimum": 61.0,
+          "count": 20,
+          "minimum": 61.5,
           "maximum": 65.0
         },
         "high": {
@@ -9278,7 +9331,7 @@ window.FLATS_DATA = {
           "minimum": 65.5,
           "maximum": 81.0
         },
-        "unknown": 19
+        "unknown": 20
       },
       "rent": {
         "low": {
@@ -9296,7 +9349,7 @@ window.FLATS_DATA = {
           "minimum": 65.5,
           "maximum": 81.0
         },
-        "unknown": 19
+        "unknown": 20
       }
     },
     "results": {
@@ -9974,11 +10027,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 4
             },
-            "score": 58.0,
-            "band": "low"
+            "score": 64.0,
+            "band": "mid"
           }
         }
       },
@@ -10213,7 +10266,7 @@ window.FLATS_DATA = {
               "stock": 5
             },
             "score": 61.0,
-            "band": "mid"
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -10293,11 +10346,11 @@ window.FLATS_DATA = {
         }
       },
       "neath": {
-        "safety": 4.5,
+        "safety": 4.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 4.5,
+              "safety": 4.0,
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
@@ -10305,12 +10358,12 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 1
             },
-            "score": 60.5,
+            "score": 59.0,
             "band": "low"
           },
           "rent": {
             "factors": {
-              "safety": 4.5,
+              "safety": 4.0,
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
@@ -10318,8 +10371,8 @@ window.FLATS_DATA = {
               "affordability": 5,
               "stock": 1
             },
-            "score": 60.5,
-            "band": "mid"
+            "score": 59.0,
+            "band": "low"
           }
         }
       },
@@ -10417,11 +10470,11 @@ window.FLATS_DATA = {
         }
       },
       "norwich": {
-        "safety": 2.0,
+        "safety": 1.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 2.0,
+              "safety": 1.5,
               "local_transport": 4,
               "condition": 5,
               "quiet": 4,
@@ -10429,12 +10482,12 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 65.0,
+            "score": 63.5,
             "band": "mid"
           },
           "rent": {
             "factors": {
-              "safety": 2.0,
+              "safety": 1.5,
               "local_transport": 4,
               "condition": 5,
               "quiet": 4,
@@ -10442,7 +10495,7 @@ window.FLATS_DATA = {
               "affordability": 1,
               "stock": 4
             },
-            "score": 65.0,
+            "score": 63.5,
             "band": "mid"
           }
         }
@@ -10740,7 +10793,7 @@ window.FLATS_DATA = {
               "stock": 1
             },
             "score": 61.0,
-            "band": "mid"
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -11015,11 +11068,11 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 2.0,
-              "affordability": 1,
+              "affordability": 3,
               "stock": 4
             },
-            "score": 58.0,
-            "band": "low"
+            "score": 64.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -11471,11 +11524,11 @@ window.FLATS_DATA = {
         }
       },
       "luton": {
-        "safety": 5.0,
+        "safety": 4.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 5.0,
+              "safety": 4.5,
               "local_transport": null,
               "condition": null,
               "quiet": null,
@@ -11488,7 +11541,7 @@ window.FLATS_DATA = {
           },
           "rent": {
             "factors": {
-              "safety": 5.0,
+              "safety": 4.5,
               "local_transport": null,
               "condition": null,
               "quiet": null,
@@ -11502,11 +11555,11 @@ window.FLATS_DATA = {
         }
       },
       "southend-on-sea": {
-        "safety": 2.5,
+        "safety": 2.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 2.5,
+              "safety": 2.0,
               "local_transport": null,
               "condition": null,
               "quiet": null,
@@ -11519,7 +11572,7 @@ window.FLATS_DATA = {
           },
           "rent": {
             "factors": {
-              "safety": 2.5,
+              "safety": 2.0,
               "local_transport": null,
               "condition": null,
               "quiet": null,
@@ -11835,6 +11888,37 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 5,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "cheltenham": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": null,
+              "condition": null,
+              "quiet": null,
+              "national_transport": null,
+              "affordability": 1,
               "stock": null
             },
             "score": null,
@@ -17089,6 +17173,70 @@ window.FLATS_DATA = {
       "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
       "rate_per_1000": "3.743",
       "force_unallocated_percent": "2.603",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "cheltenham",
+      "category": "violence_against_person",
+      "local_authority_code": "E07000078",
+      "csp_code": "E22000093",
+      "csp_name": "Cheltenham",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000037",
+      "force_name": "Gloucestershire",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "3313",
+      "population": "121700",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "27.213957729240427",
+      "force_count": "18177",
+      "force_unallocated_count": "535",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H103; Table C4!G103; Table C4!J103",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "27.223",
+      "force_unallocated_percent": "2.943",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "cheltenham",
+      "category": "sexual_offences",
+      "local_authority_code": "E07000078",
+      "csp_code": "E22000093",
+      "csp_name": "Cheltenham",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000037",
+      "force_name": "Gloucestershire",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "377",
+      "population": "121700",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.0967890322739628",
+      "force_count": "2250",
+      "force_unallocated_count": "321",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N103; Table C4!G103; Table C4!P103",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.098",
+      "force_unallocated_percent": "14.267",
       "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
       "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
       "missing_reason": ""

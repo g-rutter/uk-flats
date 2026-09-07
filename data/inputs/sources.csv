@@ -1009,6 +1009,9 @@ york,buy,https://www.gov.uk/government/statistical-data-sets/price-paid-data-dow
 york,rent,https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics
 durham,buy,https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads
 durham,rent,https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics
+cheltenham,buy,https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads
+cheltenham,rent,https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics
+cheltenham,crime,https://api.postcodes.io/places?q=Cheltenham
 wrexham,market,https://los.rightmove.co.uk/typeahead?query=Wrexham
 wrexham,transport,https://www.nationalrail.co.uk/journey-planner/
 wrexham,transport,https://www.traveline.info/

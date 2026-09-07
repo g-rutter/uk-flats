@@ -1,6 +1,6 @@
 # Broad comparison methodology
 
-Keep all 63 candidates in view. Broad price, stock, transport, quiet and condition
+Keep all 83 candidates in view. Broad price, stock, transport, quiet and condition
 data are in scope; building, subarea and listing research are not. Buying and
 renting remain separate.
 
@@ -55,7 +55,7 @@ dated archive and geography/coverage review supports comparable CSP rates.
   exposure or neighbourhood quality. Deprivation is not equivalent to visual
   condition.
 - Recorded offences: ONS CSP violence-against-the-person and sexual-offence rates
-  per 1,000 mid-2024 residents for April 2025–March 2026 are shown for all 63
+  per 1,000 mid-2024 residents for April 2025–March 2026 are shown for all 83
   locations and are the limited recorded-offence component of the composite score.
   They are not direct measures of safety.
   Kettering and Northampton use their
