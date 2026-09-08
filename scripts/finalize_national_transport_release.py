@@ -11,6 +11,7 @@ import hashlib
 import mimetypes
 from pathlib import Path
 
+from csv_io import write_csv
 from release_manifest import REQUIRED_COLUMNS
 
 
@@ -48,11 +49,7 @@ def finalize(release_dir, draft_path, manifest_path, overwrite=False):
             'sha256': hashlib.sha256(artifact.read_bytes()).hexdigest(),
             'mime_type': mime_type,
         })
-    manifest_path.parent.mkdir(parents=True, exist_ok=True)
-    with manifest_path.open('w', newline='', encoding='utf-8') as target:
-        writer = csv.DictWriter(target, fieldnames=REQUIRED_COLUMNS, lineterminator='\n')
-        writer.writeheader()
-        writer.writerows(output)
+    write_csv(manifest_path, output, REQUIRED_COLUMNS)
     return output
 
 

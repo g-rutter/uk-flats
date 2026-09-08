@@ -6,6 +6,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
+from csv_io import write_csv
 from prepare_national_transport import ROUTE_COLUMNS
 from release_manifest import load as load_manifest
 
@@ -92,10 +93,7 @@ def main():
     if args.out.exists() and not args.overwrite:
         raise ValueError(f'{args.out} already exists; refusing to replace reviewed observations')
     rows = review(args.release, args.stations, args.evidence_id, not args.no_self_route)
-    with args.out.open('w', newline='', encoding='utf-8') as target:
-        writer = csv.DictWriter(target, fieldnames=ROUTE_COLUMNS, lineterminator='\n')
-        writer.writeheader()
-        writer.writerows(rows)
+    write_csv(args.out, rows, ROUTE_COLUMNS)
 
 
 if __name__ == '__main__':

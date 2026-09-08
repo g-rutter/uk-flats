@@ -12,6 +12,7 @@ import hashlib
 from pathlib import Path
 from urllib.request import urlopen
 
+from csv_io import write_csv
 from release_manifest import REQUIRED_COLUMNS
 
 
@@ -57,11 +58,7 @@ def acquire(destination, source_rows):
             'HM Land Registry', source.get('licence_or_terms') or 'Open Government Licence v3.0',
             source.get('coverage_limitations') or 'Category-A transactions; registrations may lag.',
         ))))
-    with manifest_path.open('w', newline='', encoding='utf-8') as target:
-        writer = csv.DictWriter(target, fieldnames=REQUIRED_COLUMNS, lineterminator='\n')
-        writer.writeheader()
-        writer.writerows(existing)
-        writer.writerows(manifest_rows)
+    write_csv(manifest_path, existing + manifest_rows, REQUIRED_COLUMNS)
 
 
 if __name__ == '__main__':

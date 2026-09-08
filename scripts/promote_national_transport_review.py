@@ -3,6 +3,7 @@
 import argparse
 import csv
 from pathlib import Path
+from csv_io import write_csv
 
 
 FIELDS = ('location_id', 'londonMinutes', 'londonChanges', 'birminghamMinutes',
@@ -40,10 +41,7 @@ def main():
     if not args.accept:
         raise ValueError('Pass --accept only after review approval')
     rows = promote(args.review, args.locations)
-    with args.out.open('w', newline='', encoding='utf-8') as target:
-        writer = csv.DictWriter(target, fieldnames=FIELDS, lineterminator='\n')
-        writer.writeheader()
-        writer.writerows(rows)
+    write_csv(args.out, rows, FIELDS)
 
 
 if __name__ == '__main__':

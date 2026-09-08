@@ -8,6 +8,7 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 import zipfile
 
+from csv_io import write_csv
 from release_manifest import REQUIRED_COLUMNS
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -38,10 +39,7 @@ def write_manifest(destination, payload, url):
     else:
         destination.mkdir(parents=True, exist_ok=True)
         existing = []
-    with manifest.open('w', newline='', encoding='utf-8') as target:
-        writer = csv.DictWriter(target, fieldnames=REQUIRED_COLUMNS, lineterminator='\n')
-        writer.writeheader()
-        writer.writerows(existing + [row])
+    write_csv(manifest, existing + [row], REQUIRED_COLUMNS)
 
 
 def acquire(destination, url=JULY_2026_URL):

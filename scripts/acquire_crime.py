@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Acquire dated official workbooks without transforming or publishing them."""
 import argparse
-import csv
 from datetime import datetime, timezone
 import hashlib
 from pathlib import Path
 from urllib.request import urlopen
 import zipfile
+from csv_io import write_csv
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/'
@@ -29,10 +29,7 @@ def acquire(destination):
         rows.append(dict(file=name, url=url,
                          retrieved_at=datetime.now(timezone.utc).isoformat(),
                          sha256=hashlib.sha256(payload).hexdigest()))
-    with (destination / 'manifest.csv').open('w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=rows[0], lineterminator='\n')
-        writer.writeheader()
-        writer.writerows(rows)
+    write_csv(destination / 'manifest.csv', rows, rows[0])
 
 
 if __name__ == '__main__':

@@ -3,6 +3,7 @@
 import argparse
 import csv
 from pathlib import Path
+from csv_io import write_csv
 
 
 FIELDS = ('location_id', 'location_name', 'review_london_minutes', 'imported_london_minutes',
@@ -44,10 +45,7 @@ def main():
     args = parser.parse_args()
     if args.out.exists():
         raise ValueError(f'{args.out}: refusing to replace comparison output')
-    with args.out.open('w', newline='', encoding='utf-8') as target:
-        writer = csv.DictWriter(target, fieldnames=FIELDS, lineterminator='\n')
-        writer.writeheader()
-        writer.writerows(rows(args.locations, args.imported, args.review))
+    write_csv(args.out, rows(args.locations, args.imported, args.review), FIELDS)
 
 
 if __name__ == '__main__':

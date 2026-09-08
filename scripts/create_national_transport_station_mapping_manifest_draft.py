@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Create a manifest draft for a National Rail station-mapping capture."""
 import argparse
-import csv
 import json
 from pathlib import Path
 
+from csv_io import write_csv
 from finalize_national_transport_release import DRAFT_COLUMNS
 
 
@@ -55,10 +55,7 @@ def create(release_dir, out_path):
     if out_path.exists():
         raise ValueError(f'{out_path} already exists; refusing to replace a release draft')
     rows = draft_rows(release_dir)
-    with out_path.open('w', newline='', encoding='utf-8') as target:
-        writer = csv.DictWriter(target, fieldnames=DRAFT_COLUMNS, lineterminator='\n')
-        writer.writeheader()
-        writer.writerows(rows)
+    write_csv(out_path, rows, DRAFT_COLUMNS)
     return rows
 
 

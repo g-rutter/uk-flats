@@ -26,7 +26,9 @@ python3 scripts/collect_national_transport_http.py \
 
 For the London rail gateway use the reviewed group CRS/identifier and pass `--destination-group`; retain that identifier in the request JSON. Restrict a validation capture to one explicit search with `--search-time 10:00`. Do not treat a successful response for one route as authority to run the rest of the queue.
 
-Review the response JSON across the whole 10:00–14:00 window. Select the shortest returned National Rail Journey Planner itinerary; do not exclude an itinerary based on its public-transport mode. Record scheduled departure and arrival, elapsed minutes and returned-leg changes, and frequency context only where directly supported by the retained response.
+Review the responses using the itinerary-selection, mode, change-count and
+frequency rules in the methodology. Record only fields directly supported by the
+retained response.
 
 ## Finalise and review
 

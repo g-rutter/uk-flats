@@ -7,6 +7,7 @@ which the direct JSON collector carries out after station-mapping review.
 import argparse
 import csv
 from pathlib import Path
+from csv_io import write_csv
 
 
 DESTINATIONS = (
@@ -83,11 +84,7 @@ def write_queue(path, rows, overwrite=False):
     path = Path(path)
     if path.exists() and not overwrite:
         raise ValueError(f'{path} already exists; use --overwrite only after retaining the prior queue.')
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open('w', newline='', encoding='utf-8') as target:
-        writer = csv.DictWriter(target, fieldnames=FIELDS)
-        writer.writeheader()
-        writer.writerows(rows)
+    write_csv(path, rows, FIELDS)
 
 
 def main():
