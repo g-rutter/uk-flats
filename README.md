@@ -68,3 +68,5 @@ ASB remains excluded pending coverage review. See [crime research](docs/crime-re
 
 See [orientation](AGENTS.md), [methodology](docs/methodology.md),
 [provenance and schema](docs/provenance.md), and [to-do list](docs/TODO.md).
+The planned replacement of imported national-rail figures is documented in the
+[national transport methodology](docs/national-transport-methodology.md).

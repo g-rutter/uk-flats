@@ -1,0 +1,2 @@
+location_id,station_crs,station_name,selection_reason,confidence,evidence_ids
+barnsley,BNY,Barnsley,"Visible National Rail planner suggestion for the broad-place name; selected as the town's primary National Rail station for this pilot route.",Medium,TR-NATIONAL-20260908-PILOT

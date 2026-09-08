@@ -9488,6 +9488,18 @@ window.FLATS_DATA = {
       "limitations": "Journey duration varies by date/time and disruption; values are rounded recorded snapshots, not guaranteed schedules."
     },
     {
+      "id": "TR-NATIONAL-20260908-PILOT",
+      "workstream": "transport",
+      "title": "National Rail Journey Planner: Barnsley to Birmingham New Street pilot",
+      "publisher": "Rail Delivery Group",
+      "url": "https://www.nationalrail.co.uk/journey-planner/",
+      "dataPeriod": "Journey date 2026-09-11; query/retrieval 2026-09-08",
+      "retrievalDate": "2026-09-08",
+      "geography": "Barnsley (BNY) to Birmingham New Street (BHM)",
+      "coverage": "One reviewed route observation; retained screenshots and manifest in 2026-09-08-national-transport-pilot",
+      "limitations": "Dated public-planner snapshot. The 104-minute one-change selection is the shortest suitable itinerary displayed for departures in 10:00-14:00 after one later-results action. It is not a guarantee, fare/accessibility assessment, frequency measure or door-to-door time. London route and remaining pilot locations are incomplete."
+    },
+    {
       "id": "TR02",
       "workstream": "transport",
       "title": "Traveline journey planner",

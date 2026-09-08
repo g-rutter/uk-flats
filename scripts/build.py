@@ -22,6 +22,8 @@ REQUIRED_COLUMNS = {
     'market.csv': {'location_id', 'reason'},
     'localTransport.csv': {'location_id', 'assessment', 'confidence', 'evidence_ids', 'method_version', 'reason'},
     'nationalTransport.csv': {'location_id', 'londonMinutes', 'londonChanges', 'birminghamMinutes', 'birminghamChanges', 'confidence', 'reason'},
+    'transport_stations.csv': {'location_id', 'station_crs', 'station_name', 'selection_reason', 'confidence', 'evidence_ids'},
+    'transport_route_observations.csv': {'location_id', 'destination_id', 'origin_crs', 'destination_crs', 'measurement_date', 'selection_window_start_local', 'selection_window_end_local', 'planner_search_times', 'query_timestamp_local', 'selected_departure_local', 'selected_arrival_local', 'elapsed_minutes', 'changes', 'frequency_window_start_local', 'frequency_window_end_local', 'usable_departures_in_window', 'source_url', 'raw_capture_path', 'retrieval_timestamp', 'confidence', 'evidence_id', 'reason'},
     'quiet.csv': {'location_id', 'assessment', 'confidence', 'evidence_ids', 'method_version', 'reason'},
     'condition.csv': {'location_id', 'assessment', 'confidence', 'evidence_ids', 'method_version', 'reason'},
     'sources.csv': {'location_id', 'topic', 'url'},
@@ -92,6 +94,16 @@ def compile_data(inputs):
     evidence_ids = {r['id'] for r in evidence}
     if len(evidence_ids) != len(evidence):
         raise ValueError('Duplicate evidence id')
+    for filename in ('transport_stations.csv', 'transport_route_observations.csv'):
+        seen = set()
+        for row in read(inputs / filename):
+            location_id = row['location_id']
+            if location_id not in by_id:
+                raise ValueError(f'{filename}: orphan location_id {location_id}')
+            key = (location_id, row.get('destination_id', ''))
+            if key in seen:
+                raise ValueError(f'{filename}: duplicate location/destination row')
+            seen.add(key)
     for group in ASSESSMENT_TOPICS:
         for location in locations:
             row = location[group]

@@ -16,11 +16,38 @@ from crime_residuals import audit as audit_residuals
 from crime_outliers import audit as audit_outliers
 from composite import ASSESSMENT_SCORES, assessment_score, compile_composite
 from prepare_locations import prepare
+from prepare_national_transport import prepare as prepare_national_transport
 from release_audit import audit as release_audit
 from rehydrate_raw import rehydrate
 
 
 class PipelineTests(unittest.TestCase):
+    def test_national_transport_preparer_requires_hashed_capture_and_stages_pivot(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            release = root / 'release'
+            release.mkdir()
+            capture = release / 'london.html'
+            capture.write_text('<html>Recorded planner result</html>\n', encoding='utf-8')
+            digest = hashlib.sha256(capture.read_bytes()).hexdigest()
+            (release / 'manifest.csv').write_text(
+                'relative_path,original_url,request_query,retrieved_at,data_period,sha256,mime_type,publisher,licence_or_terms,coverage_limitations\n'
+                f'london.html,https://www.nationalrail.co.uk/journey-planner/,Barnsley to London,{"2026-09-08T10:00:00+01:00"},{"2026-09-11"},{digest},text/html,Rail Delivery Group,Public browser snapshot,Example test capture\n',
+                encoding='utf-8')
+            stations = root / 'stations.csv'
+            stations.write_text(
+                'location_id,station_crs,station_name,selection_reason,confidence,evidence_ids\n'
+                'barnsley,BNY,Barnsley,Primary National Rail station,High,TR-NATIONAL-TEST\n', encoding='utf-8')
+            observations = root / 'observations.csv'
+            observations.write_text(
+                'location_id,destination_id,origin_crs,destination_crs,measurement_date,selection_window_start_local,selection_window_end_local,planner_search_times,query_timestamp_local,selected_departure_local,selected_arrival_local,elapsed_minutes,changes,frequency_window_start_local,frequency_window_end_local,usable_departures_in_window,source_url,raw_capture_path,retrieval_timestamp,confidence,evidence_id,reason\n'
+                'barnsley,london,BNY,1072,2026-09-11,2026-09-11T10:00:00+01:00,2026-09-11T14:00:00+01:00,10:00,2026-09-08T10:00:00+01:00,2026-09-11T10:03:00+01:00,2026-09-11T11:31:00+01:00,88,0,,,,https://www.nationalrail.co.uk/journey-planner/,london.html,2026-09-08T10:01:00+01:00,High,TR-NATIONAL-TEST,Selected shortest suitable itinerary.\n',
+                encoding='utf-8')
+            reviewed, pivot = prepare_national_transport(release, stations, observations, root / 'out', '2026-09-11')
+            self.assertEqual(len(reviewed), 1)
+            self.assertEqual(pivot[0]['londonMinutes'], '88')
+            self.assertEqual(pivot[0]['birminghamMinutes'], '')
+
     def test_build_is_deterministic_and_calculates_composite_scores(self):
         outputs = [ROOT / 'data/derived/broad_screen.csv', ROOT / 'web/data.js',
                    ROOT / 'data/derived/crime_research.csv',
