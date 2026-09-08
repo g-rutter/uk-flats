@@ -12,11 +12,6 @@
 - Extend the map to colour locations by either the composite score or an individual score component.
 - Add map overlays where suitably sourced evidence is available, beginning with noise or air pollution, recorded offences, market thickness and isochrone travel times.
 - Repo health:
-  - Continue provenance normalisation. The canonical schema and methodology are
-    uniform, and cohort labels have been removed from active documentation. Do not
-    erase the per-observation audit distinction until retained raw artifacts make
-    the evidence genuinely equivalent.
-  - Purged stale review material and duplicate helper code; keep removing only
-    superseded material, not evidence or reproducibility controls.
-  - Shared CSV serialization is now centralised. Continue to consolidate a process
-    only when its input, output and review gate are genuinely the same.
+  - Homogenise the original and existing location information such that there is no longer any reference in the repo that they are distinct. They should indeed be identical at this point. Identically acquired, uniformly recorded, methods of acquistion identical with no remaining mention of any differences in methodology because there are none. It should not be recorded that one part is an expansion and the other the original.
+  - Thoroughly purge the code base of bloat in both code and natural language.
+  - Look for fragmentation and unify the same processes or documentation being repeated
