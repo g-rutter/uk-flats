@@ -3351,16 +3351,18 @@ window.FLATS_DATA = {
         "proxyMedian": 242500,
         "transactions": 5367,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 483,
         "affordabilityReason": "Median of 5367 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 1223,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 442,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Bristol City LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 483 sale and 442 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3377,16 +3379,18 @@ window.FLATS_DATA = {
         "proxyMedian": 172000,
         "transactions": 2356,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 339,
         "affordabilityReason": "Median of 2356 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 879,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 343,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Southampton LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 339 sale and 343 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3403,16 +3407,18 @@ window.FLATS_DATA = {
         "proxyMedian": 218000,
         "transactions": 3735,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 454,
         "affordabilityReason": "Median of 3735 achieved standard flat/maisonette sales in the Bournemouth, Christchurch and Poole district; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 919,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 357,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Bournemouth Christchurch and Poole LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 454 sale and 357 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock. Bournemouth–Poole sums separate Bournemouth and Poole portal regions; their proprietary boundaries may overlap or omit parts of the broad comparison geography."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3429,16 +3435,18 @@ window.FLATS_DATA = {
         "proxyMedian": 285000,
         "transactions": 1766,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 553,
         "affordabilityReason": "Median of 1766 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 1190,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 436,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Brighton and Hove LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 553 sale and 436 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3455,16 +3463,18 @@ window.FLATS_DATA = {
         "proxyMedian": 185000,
         "transactions": 664,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 84,
         "affordabilityReason": "Median of 664 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 917,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 57,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Exeter LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 84 sale and 57 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3481,16 +3491,18 @@ window.FLATS_DATA = {
         "proxyMedian": 238000,
         "transactions": 1755,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 207,
         "affordabilityReason": "Median of 1755 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 1115,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 332,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Reading LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 207 sale and 332 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3507,16 +3519,18 @@ window.FLATS_DATA = {
         "proxyMedian": 185000,
         "transactions": 1000,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 161,
         "affordabilityReason": "Median of 1000 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 977,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 240,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Milton Keynes LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 161 sale and 240 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3533,16 +3547,18 @@ window.FLATS_DATA = {
         "proxyMedian": 164500,
         "transactions": 431,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 179,
         "affordabilityReason": "Median of 431 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 907,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 222,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Luton LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 179 sale and 222 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3559,16 +3575,18 @@ window.FLATS_DATA = {
         "proxyMedian": 200000,
         "transactions": 619,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 147,
         "affordabilityReason": "Median of 619 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 872,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 73,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Southend-on-Sea LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 147 sale and 73 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3585,16 +3603,18 @@ window.FLATS_DATA = {
         "proxyMedian": 299000,
         "transactions": 1017,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 126,
         "affordabilityReason": "Median of 1017 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 1257,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 212,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Cambridge LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 126 sale and 212 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3611,16 +3631,18 @@ window.FLATS_DATA = {
         "proxyMedian": 175000,
         "transactions": 905,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 118,
         "affordabilityReason": "Median of 905 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 819,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 114,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Colchester LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 118 sale and 114 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3637,16 +3659,18 @@ window.FLATS_DATA = {
         "proxyMedian": 315000,
         "transactions": 710,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 88,
         "affordabilityReason": "Median of 710 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 1353,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 185,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Oxford LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 88 sale and 185 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3663,16 +3687,18 @@ window.FLATS_DATA = {
         "proxyMedian": 315000,
         "transactions": 809,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 104,
         "affordabilityReason": "Median of 809 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 1205,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 90,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Bath and North East Somerset LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 104 sale and 90 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3689,16 +3715,18 @@ window.FLATS_DATA = {
         "proxyMedian": 122250,
         "transactions": 86,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 2,
         "affordabilityReason": "Median of 86 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 559,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 0,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Bridgend LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 2 sale and 0 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3715,16 +3743,18 @@ window.FLATS_DATA = {
         "proxyMedian": 112500,
         "transactions": 25,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 0,
         "affordabilityReason": "Median of 25 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 499,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 0,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Carmarthenshire LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 0 sale and 0 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3741,16 +3771,18 @@ window.FLATS_DATA = {
         "proxyMedian": 90000,
         "transactions": 29,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 8,
         "affordabilityReason": "Median of 29 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 558,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 1,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Gwynedd LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 8 sale and 1 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3767,16 +3799,18 @@ window.FLATS_DATA = {
         "proxyMedian": 94000,
         "transactions": 43,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 1,
         "affordabilityReason": "Median of 43 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 545,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 5,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Denbighshire LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 1 sale and 5 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3793,16 +3827,18 @@ window.FLATS_DATA = {
         "proxyMedian": 187000,
         "transactions": 955,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 115,
         "affordabilityReason": "Median of 955 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 871,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 75,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for York LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 115 sale and 75 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3819,16 +3855,18 @@ window.FLATS_DATA = {
         "proxyMedian": 112500,
         "transactions": 151,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 9,
         "affordabilityReason": "Median of 151 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 453,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 8,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for County Durham LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 9 sale and 8 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -3845,16 +3883,18 @@ window.FLATS_DATA = {
         "proxyMedian": 200000,
         "transactions": 1067,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 107,
         "affordabilityReason": "Median of 1067 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 869,
         "affordabilityConfidence": "High",
-        "oneBedCount": null,
+        "oneBedCount": 113,
         "affordabilityReason": "Official July 2026 one-bedroom modelled average for Cheltenham LA; underlying observation count is not published in the table."
       },
-      "market": {},
+      "market": {
+        "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 107 sale and 113 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
+      },
       "localTransport": {},
       "nationalTransport": {},
       "quiet": {},
@@ -8961,6 +9001,321 @@ window.FLATS_DATA = {
       "location_id": "wrexham",
       "topic": "environment",
       "url": "https://www.openstreetmap.org/search?query=Wrexham%2C%20UK"
+    },
+    {
+      "location_id": "bristol",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Bristol"
+    },
+    {
+      "location_id": "bristol",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E219&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "bristol",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E219&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "southampton",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Southampton"
+    },
+    {
+      "location_id": "southampton",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1231&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "southampton",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E1231&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "bournemouth-poole",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Bournemouth"
+    },
+    {
+      "location_id": "bournemouth-poole",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E194&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "bournemouth-poole",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E194&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "bournemouth-poole",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Poole"
+    },
+    {
+      "location_id": "bournemouth-poole",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1079&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "bournemouth-poole",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E1079&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "brighton-hove",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Brighton"
+    },
+    {
+      "location_id": "brighton-hove",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E61480&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "brighton-hove",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E61480&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "exeter",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Exeter"
+    },
+    {
+      "location_id": "exeter",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E494&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "exeter",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E494&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "reading",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Reading"
+    },
+    {
+      "location_id": "reading",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1114&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "reading",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E1114&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "milton-keynes",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Milton%20Keynes"
+    },
+    {
+      "location_id": "milton-keynes",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E940&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "milton-keynes",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E940&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "luton",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Luton"
+    },
+    {
+      "location_id": "luton",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E876&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "luton",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E876&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "southend-on-sea",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Southend%20On%20Sea"
+    },
+    {
+      "location_id": "southend-on-sea",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1232&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "southend-on-sea",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E1232&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "cambridge",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Cambridge"
+    },
+    {
+      "location_id": "cambridge",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E274&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "cambridge",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E274&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "colchester",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Colchester"
+    },
+    {
+      "location_id": "colchester",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E347&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "colchester",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E347&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "oxford",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Oxford"
+    },
+    {
+      "location_id": "oxford",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1036&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "oxford",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E1036&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "bath",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Bath"
+    },
+    {
+      "location_id": "bath",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E116&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "bath",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E116&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "bridgend",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Bridgend"
+    },
+    {
+      "location_id": "bridgend",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E210&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "bridgend",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E210&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "llanelli",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Llanelli"
+    },
+    {
+      "location_id": "llanelli",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E827&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "llanelli",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E827&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "bangor",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Bangor"
+    },
+    {
+      "location_id": "bangor",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E98&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "bangor",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E98&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "rhyl",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Rhyl"
+    },
+    {
+      "location_id": "rhyl",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1125&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "rhyl",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E1125&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "york",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=York"
+    },
+    {
+      "location_id": "york",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1498&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "york",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E1498&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "durham",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Durham"
+    },
+    {
+      "location_id": "durham",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E460&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "durham",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E460&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "cheltenham",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Cheltenham"
+    },
+    {
+      "location_id": "cheltenham",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E308&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&mustHave=&dontShow=retirement%2CsharedOwnership&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "cheltenham",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E308&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
     }
   ],
   "evidence": [
@@ -9095,6 +9450,30 @@ window.FLATS_DATA = {
       "geography": "Place-name resolution to Rightmove REGION identifiers",
       "coverage": "All 63 supplied location names; corrected aliases for Burton-on-Trent, Stoke-on-Trent, Stockton-on-Tees, Kingston upon Hull and St Helens",
       "limitations": "Portal geographies are proprietary and may not match administrative boundaries; Merthyr Tydfil and Neath resolver labels contain anomalous historic-county wording and are low-confidence."
+    },
+    {
+      "id": "MT-RM-SEARCH-20260907",
+      "workstream": "market_thickness",
+      "title": "Rightmove controlled one-bedroom flat result captures",
+      "publisher": "Rightmove",
+      "url": "https://www.rightmove.co.uk/property-for-sale.html | https://www.rightmove.co.uk/property-to-rent.html",
+      "dataPeriod": "Snapshot 2026-09-07",
+      "retrievalDate": "2026-09-07",
+      "geography": "Rightmove REGION identifiers retained per captured response",
+      "coverage": "40 new broad comparison locations: separate sale and rent captures for 20 expansion locations; Bournemouth–Poole is the sum of two named portal regions",
+      "limitations": "Controlled light-use capture; exact request URLs, timestamps and HTML response hashes are retained in the expansion release. Headline advertised-result counts are not deduplicated inventories or achieved transactions. Sale and rent exclusions differ. Bournemouth and Poole portal regions may overlap or omit parts of the broad comparison geography."
+    },
+    {
+      "id": "MT-RM-LOS-20260907",
+      "workstream": "market_thickness",
+      "title": "Rightmove controlled location resolver captures",
+      "publisher": "Rightmove",
+      "url": "https://los.rightmove.co.uk/typeahead",
+      "dataPeriod": "Snapshot 2026-09-07",
+      "retrievalDate": "2026-09-07",
+      "geography": "Place-name resolver queries retained per captured response",
+      "coverage": "20 expansion locations, plus component resolver queries for Bournemouth–Poole and Brighton & Hove",
+      "limitations": "Portal geographies are proprietary. The retained resolver response is required to validate each displayed REGION mapping; broad place and portal geography need not coincide."
     },
     {
       "id": "TR01",
@@ -11317,7 +11696,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 5
             },
             "score": null,
             "band": "unknown"
@@ -11330,7 +11709,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 5
             },
             "score": null,
             "band": "unknown"
@@ -11348,7 +11727,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 5
             },
             "score": null,
             "band": "unknown"
@@ -11361,7 +11740,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 5
             },
             "score": null,
             "band": "unknown"
@@ -11379,7 +11758,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 5
             },
             "score": null,
             "band": "unknown"
@@ -11392,7 +11771,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 5
             },
             "score": null,
             "band": "unknown"
@@ -11410,7 +11789,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 5
             },
             "score": null,
             "band": "unknown"
@@ -11423,7 +11802,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 5
             },
             "score": null,
             "band": "unknown"
@@ -11441,7 +11820,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11454,7 +11833,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 3
             },
             "score": null,
             "band": "unknown"
@@ -11472,7 +11851,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11485,7 +11864,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 5
             },
             "score": null,
             "band": "unknown"
@@ -11503,7 +11882,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11516,7 +11895,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11534,7 +11913,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11547,7 +11926,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11565,7 +11944,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11578,7 +11957,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 3
             },
             "score": null,
             "band": "unknown"
@@ -11596,7 +11975,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11609,7 +11988,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11627,7 +12006,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11640,7 +12019,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11658,7 +12037,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11671,7 +12050,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11689,7 +12068,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11702,7 +12081,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11720,7 +12099,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 3,
-              "stock": null
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -11733,7 +12112,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 5,
-              "stock": null
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -11751,7 +12130,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 5,
-              "stock": null
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -11764,7 +12143,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 5,
-              "stock": null
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -11782,7 +12161,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 5,
-              "stock": null
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -11795,7 +12174,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 5,
-              "stock": null
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -11813,7 +12192,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 5,
-              "stock": null
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -11826,7 +12205,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 5,
-              "stock": null
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -11844,7 +12223,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11857,7 +12236,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11875,7 +12254,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 5,
-              "stock": null
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -11888,7 +12267,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 5,
-              "stock": null
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -11906,7 +12285,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"
@@ -11919,7 +12298,7 @@ window.FLATS_DATA = {
               "quiet": null,
               "national_transport": null,
               "affordability": 1,
-              "stock": null
+              "stock": 4
             },
             "score": null,
             "band": "unknown"

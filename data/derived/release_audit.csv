@@ -505,7 +505,7 @@ wrexham,condition,review-required,Wrexham,,,Imported baseline value has no retai
 wrexham,crime,ready,W14000006,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 bristol,buy,review-required,"Bristol, City of",,,Imported baseline value has no retained row-level raw artifact
 bristol,rent,review-required,"Bristol, City of",,,Imported baseline value has no retained row-level raw artifact
-bristol,market,missing,"Bristol, City of",,,No observation supplied
+bristol,market,ready,REGION^219 Bristol,,212d3a1eb811382410066414c6c2fd15efba541664debee31c3ac7a6d58242ed;11f2c8ea90bb658bfa95314d80d1a2075ff285e28d254cca6b032ec23079caa0;39f89cd6b16bddf266ecc05afaa3ad9e0140f275febf7f7aab219b461b898adb,
 bristol,localTransport,missing,"Bristol, City of",,,No observation supplied
 bristol,nationalTransport,missing,"Bristol, City of",,,No observation supplied
 bristol,quiet,missing,"Bristol, City of",,,No observation supplied
@@ -513,7 +513,7 @@ bristol,condition,missing,"Bristol, City of",,,No observation supplied
 bristol,crime,ready,E22000002,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 southampton,buy,review-required,Southampton,,,Imported baseline value has no retained row-level raw artifact
 southampton,rent,review-required,Southampton,,,Imported baseline value has no retained row-level raw artifact
-southampton,market,missing,Southampton,,,No observation supplied
+southampton,market,ready,"REGION^1231 Southampton, Hampshire",,57433b6d05b364ae8abe4b44529fdd21f2305da8cbf84f10300d9f4df532fbc7;b243e90c92a7bc252b40bb3611559f81ceb2c146d312f1fbdfca9ca25f76746b;ff05531aed641013d72a93b0c94300889dc5212658ec42dd6461f17ed5729f9e,
 southampton,localTransport,missing,Southampton,,,No observation supplied
 southampton,nationalTransport,missing,Southampton,,,No observation supplied
 southampton,quiet,missing,Southampton,,,No observation supplied
@@ -521,7 +521,7 @@ southampton,condition,missing,Southampton,,,No observation supplied
 southampton,crime,ready,E22000120,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 bournemouth-poole,buy,review-required,"Bournemouth, Christchurch and Poole",,,Imported baseline value has no retained row-level raw artifact
 bournemouth-poole,rent,review-required,"Bournemouth, Christchurch and Poole",,,Imported baseline value has no retained row-level raw artifact
-bournemouth-poole,market,missing,"Bournemouth, Christchurch and Poole",,,No observation supplied
+bournemouth-poole,market,ready,"REGION^194 Bournemouth, Dorset; REGION^1079 Poole, Dorset",,7eb71afb0e5cfc294e13995f58e286bd48d4cd56bb41bfb1df58c4bc85c9d359;483f0c316f8b7fb4bb7d7eb138e292f2943e4104a9562c69eb49599134b9aaba;9ff5e22923dee14a981f7655efb51b7864b545d5c78508182a3e8708e7bc458f;4bcf9fe2eca172be1400fa2693d437d1e52f552f82b7bcefed1bc5c9ef75a078;66bf60b104518ce9b1c41e5ec0aa31302ed73d7f577e243f35c94db60cc86356;92da85e683627f423ceaea9eabd379aff5117cf2a6de5543ea0ad55a7820f595,
 bournemouth-poole,localTransport,missing,"Bournemouth, Christchurch and Poole",,,No observation supplied
 bournemouth-poole,nationalTransport,missing,"Bournemouth, Christchurch and Poole",,,No observation supplied
 bournemouth-poole,quiet,missing,"Bournemouth, Christchurch and Poole",,,No observation supplied
@@ -529,7 +529,7 @@ bournemouth-poole,condition,missing,"Bournemouth, Christchurch and Poole",,,No o
 bournemouth-poole,crime,ready,E22000367,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 brighton-hove,buy,review-required,Brighton and Hove,,,Imported baseline value has no retained row-level raw artifact
 brighton-hove,rent,review-required,Brighton and Hove,,,Imported baseline value has no retained row-level raw artifact
-brighton-hove,market,missing,Brighton and Hove,,,No observation supplied
+brighton-hove,market,ready,REGION^61480 Brighton and Hove,,90d6fc5d5e2f28fc509f938a30c2910e3d26204290bf7f748496871cfd286113;54b32ef9d1a4f90b45d929405525a2178220ab18c63e6a675b707f2a503aebc8;0e060dcb82c9a602e9ef72015d4fd0fc48c11125610760b808c883197900cfdb,
 brighton-hove,localTransport,missing,Brighton and Hove,,,No observation supplied
 brighton-hove,nationalTransport,missing,Brighton and Hove,,,No observation supplied
 brighton-hove,quiet,missing,Brighton and Hove,,,No observation supplied
@@ -537,7 +537,7 @@ brighton-hove,condition,missing,Brighton and Hove,,,No observation supplied
 brighton-hove,crime,ready,E22000292,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 exeter,buy,review-required,Exeter,,,Imported baseline value has no retained row-level raw artifact
 exeter,rent,review-required,Exeter,,,Imported baseline value has no retained row-level raw artifact
-exeter,market,missing,Exeter,,,No observation supplied
+exeter,market,ready,"REGION^494 Exeter, Devon",,b9c3676b8091cc99fbb59645ceede5c39284e708b7646827667381f97935c9ac;56a87b15802451a53d06cef191e88e6f0df181cfde8a8cc871362971ad11bb84;6f2ec710d5199689567bafd6c6dc3888b43364ea94ce115340d44ee5f01d6879,
 exeter,localTransport,missing,Exeter,,,No observation supplied
 exeter,nationalTransport,missing,Exeter,,,No observation supplied
 exeter,quiet,missing,Exeter,,,No observation supplied
@@ -545,7 +545,7 @@ exeter,condition,missing,Exeter,,,No observation supplied
 exeter,crime,ready,E22000049,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 reading,buy,review-required,Reading,,,Imported baseline value has no retained row-level raw artifact
 reading,rent,review-required,Reading,,,Imported baseline value has no retained row-level raw artifact
-reading,market,missing,Reading,,,No observation supplied
+reading,market,ready,"REGION^1114 Reading, Berkshire",,753f6e9ea403429af292f71325224b9ecb16d688ea16a1ccab915e603a531207;94bf20df40b25901ce8891234cb19d6624855e20d515e58bcf1f2112f420e155;da3bdb8d7898aa750e517c641315e1ca4b006c839348be3cd169b93c2f3b16ff,
 reading,localTransport,missing,Reading,,,No observation supplied
 reading,nationalTransport,missing,Reading,,,No observation supplied
 reading,quiet,missing,Reading,,,No observation supplied
@@ -553,7 +553,7 @@ reading,condition,missing,Reading,,,No observation supplied
 reading,crime,ready,E22000309,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 milton-keynes,buy,review-required,Milton Keynes,,,Imported baseline value has no retained row-level raw artifact
 milton-keynes,rent,review-required,Milton Keynes,,,Imported baseline value has no retained row-level raw artifact
-milton-keynes,market,missing,Milton Keynes,,,No observation supplied
+milton-keynes,market,ready,"REGION^940 Milton Keynes, Buckinghamshire",,7f58b5bcf1e9455bffcf1c8c3edc513392e4b1928dcfc8f69c87a4526a8de0eb;179f5319c518c888708b10be33740865c6300131e7cf05f5a4cc0c22a4e25ae9;a52d39845dbda3d8adb375f30e5301d5a11e69b5b47d244e453441de045ffe3e,
 milton-keynes,localTransport,missing,Milton Keynes,,,No observation supplied
 milton-keynes,nationalTransport,missing,Milton Keynes,,,No observation supplied
 milton-keynes,quiet,missing,Milton Keynes,,,No observation supplied
@@ -561,7 +561,7 @@ milton-keynes,condition,missing,Milton Keynes,,,No observation supplied
 milton-keynes,crime,ready,E22000307,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 luton,buy,review-required,Luton,,,Imported baseline value has no retained row-level raw artifact
 luton,rent,review-required,Luton,,,Imported baseline value has no retained row-level raw artifact
-luton,market,missing,Luton,,,No observation supplied
+luton,market,ready,"REGION^876 Luton, Bedfordshire",,6b09f73fffaac46631c3f523018327f1f3c5666356969618bb33c5e083fea0b4;117b92f87ee6e0315875102ccb938803423f0168ca08500b2431638bdcfd7143;d2d65cde7995c46670ac254b0b9a5d5d6950952ba9864045d0fb24528be55ebb,
 luton,localTransport,missing,Luton,,,No observation supplied
 luton,nationalTransport,missing,Luton,,,No observation supplied
 luton,quiet,missing,Luton,,,No observation supplied
@@ -569,7 +569,7 @@ luton,condition,missing,Luton,,,No observation supplied
 luton,crime,ready,E22000010,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 southend-on-sea,buy,review-required,Southend-on-Sea,,,Imported baseline value has no retained row-level raw artifact
 southend-on-sea,rent,review-required,Southend-on-Sea,,,Imported baseline value has no retained row-level raw artifact
-southend-on-sea,market,missing,Southend-on-Sea,,,No observation supplied
+southend-on-sea,market,ready,"REGION^1232 Southend-On-Sea, Essex",,edc34d971bf0e96a1cf5d000c308f1c9365baaff874fdd35a7ffbad9f9a40802;8ca82dc2300436a42cf870fc848606655c3892e89d2e67d621e3086073dcbacf;060ce9d301c6bdf4b4e7190b1d9d1d2c8cddd3fc2a9dc5732fd4f5e5985a5733,
 southend-on-sea,localTransport,missing,Southend-on-Sea,,,No observation supplied
 southend-on-sea,nationalTransport,missing,Southend-on-Sea,,,No observation supplied
 southend-on-sea,quiet,missing,Southend-on-Sea,,,No observation supplied
@@ -577,7 +577,7 @@ southend-on-sea,condition,missing,Southend-on-Sea,,,No observation supplied
 southend-on-sea,crime,ready,E22000089,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 cambridge,buy,review-required,Cambridge,,,Imported baseline value has no retained row-level raw artifact
 cambridge,rent,review-required,Cambridge,,,Imported baseline value has no retained row-level raw artifact
-cambridge,market,missing,Cambridge,,,No observation supplied
+cambridge,market,ready,"REGION^274 Cambridge, Cambridgeshire",,ed8b0c35faef06d963b4a348f8a54e7976478b46319eb313dd17412af9f31511;77fa02394b89085d452e171b30d1e7244685c6867a654bac7cf41888c3c7057f;507ad13f1d312f0d2d1a432846eae14027a0e1dd1604becf6475a4a204ad1c11,
 cambridge,localTransport,missing,Cambridge,,,No observation supplied
 cambridge,nationalTransport,missing,Cambridge,,,No observation supplied
 cambridge,quiet,missing,Cambridge,,,No observation supplied
@@ -585,7 +585,7 @@ cambridge,condition,missing,Cambridge,,,No observation supplied
 cambridge,crime,ready,E22000013,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 colchester,buy,review-required,Colchester,,,Imported baseline value has no retained row-level raw artifact
 colchester,rent,review-required,Colchester,,,Imported baseline value has no retained row-level raw artifact
-colchester,market,missing,Colchester,,,No observation supplied
+colchester,market,ready,"REGION^347 Colchester, Essex",,3d3b1de9ba64a6458ab0b6e977bacab7a062706f505ebb588be69bebd345ea34;a51902d3a8db9f396fb62919250c7624384f919c36fa346312f5ba58b08ac9c1;b48f4f887b17b776d803db04e07764b7bcce23edf3172f4279cd3303b16e8ec1,
 colchester,localTransport,missing,Colchester,,,No observation supplied
 colchester,nationalTransport,missing,Colchester,,,No observation supplied
 colchester,quiet,missing,Colchester,,,No observation supplied
@@ -593,7 +593,7 @@ colchester,condition,missing,Colchester,,,No observation supplied
 colchester,crime,ready,E22000084,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 oxford,buy,review-required,Oxford,,,Imported baseline value has no retained row-level raw artifact
 oxford,rent,review-required,Oxford,,,Imported baseline value has no retained row-level raw artifact
-oxford,market,missing,Oxford,,,No observation supplied
+oxford,market,ready,"REGION^1036 Oxford, Oxfordshire",,b8c8c49c9ff38ba1480ea5933310ccda016668e69b9b7c8cbdfa3e48f3c3ead6;e8c7ee1bbe2d4e42d42219e2908346467060b82e22bdfdd15112ae686f702129;39f206ff82e54be702c7810269f5b73cf1cfd0d7c7458e9eb1987ad4b97e24ac,
 oxford,localTransport,missing,Oxford,,,No observation supplied
 oxford,nationalTransport,missing,Oxford,,,No observation supplied
 oxford,quiet,missing,Oxford,,,No observation supplied
@@ -601,7 +601,7 @@ oxford,condition,missing,Oxford,,,No observation supplied
 oxford,crime,ready,E22000308,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 bath,buy,review-required,Bath and North East Somerset,,,Imported baseline value has no retained row-level raw artifact
 bath,rent,review-required,Bath and North East Somerset,,,Imported baseline value has no retained row-level raw artifact
-bath,market,missing,Bath and North East Somerset,,,No observation supplied
+bath,market,ready,"REGION^116 Bath, Somerset",,8366bdd224d009f749e1aa6ee62ef06fdd4d4ac33923538386af805e93e48cf4;e229a3bc3920ff1b35eba8380b8567f83a122e8854e1e8469f7ef8f443a99823;c7eadb21fae084066effe9acfa12180a59e8b509890084679134673815a6b8d0,
 bath,localTransport,missing,Bath and North East Somerset,,,No observation supplied
 bath,nationalTransport,missing,Bath and North East Somerset,,,No observation supplied
 bath,quiet,missing,Bath and North East Somerset,,,No observation supplied
@@ -609,7 +609,7 @@ bath,condition,missing,Bath and North East Somerset,,,No observation supplied
 bath,crime,ready,E22000001,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 bridgend,buy,review-required,Bridgend,,,Imported baseline value has no retained row-level raw artifact
 bridgend,rent,review-required,Bridgend,,,Imported baseline value has no retained row-level raw artifact
-bridgend,market,missing,Bridgend,,,No observation supplied
+bridgend,market,ready,"REGION^210 Bridgend, Bridgend (County of), Mid Glamorgan",,e0e1ba6398fd946b32901b13c63c5963f6682b9154065568b5d12b585cdb0850;8468f9e6cd7647d4f65924d8562a644951488fb4d34187c31fc2ad2d7c41047e;687867fa6cb88adc8186a713fb5bc11b09a956576faa50031872533693237348,
 bridgend,localTransport,missing,Bridgend,,,No observation supplied
 bridgend,nationalTransport,missing,Bridgend,,,No observation supplied
 bridgend,quiet,missing,Bridgend,,,No observation supplied
@@ -617,7 +617,7 @@ bridgend,condition,missing,Bridgend,,,No observation supplied
 bridgend,crime,ready,W14000013,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 llanelli,buy,review-required,Carmarthenshire,,,Imported baseline value has no retained row-level raw artifact
 llanelli,rent,review-required,Carmarthenshire,,,Imported baseline value has no retained row-level raw artifact
-llanelli,market,missing,Carmarthenshire,,,No observation supplied
+llanelli,market,ready,"REGION^827 Llanelli, Carmarthenshire, Mid Wales",,5f10b418e0b2cfadf7f2c57557e365448631faafd62dd94d6aaa66a02b972214;9c8765d2b444b2f6b9e5d2a2b34c70f5ae973267ad1a8a4e4e2cdaa2c8952fbd;8ffe39c4252bfd54cd6bb0017ec7a7a33748286306f9bcef2ac76b3ecae36641,
 llanelli,localTransport,missing,Carmarthenshire,,,No observation supplied
 llanelli,nationalTransport,missing,Carmarthenshire,,,No observation supplied
 llanelli,quiet,missing,Carmarthenshire,,,No observation supplied
@@ -625,7 +625,7 @@ llanelli,condition,missing,Carmarthenshire,,,No observation supplied
 llanelli,crime,ready,W14000010,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 bangor,buy,review-required,Gwynedd,,,Imported baseline value has no retained row-level raw artifact
 bangor,rent,review-required,Gwynedd,,,Imported baseline value has no retained row-level raw artifact
-bangor,market,missing,Gwynedd,,,No observation supplied
+bangor,market,ready,"REGION^98 Bangor, Gwynedd",,b3e2e659cb03dc5a4e555dbb16d0937ecc2d595c6292324e57f8b999183d4156;78cb5c85af8cde9092033a1c3bba73a1a315b78970aa3624835c7e1c4f92dce2;334fe43e629c8886c8cfbe3ffc089523ff4eb1b59cdd0f394bc8ac11db4bfaa1,
 bangor,localTransport,missing,Gwynedd,,,No observation supplied
 bangor,nationalTransport,missing,Gwynedd,,,No observation supplied
 bangor,quiet,missing,Gwynedd,,,No observation supplied
@@ -633,7 +633,7 @@ bangor,condition,missing,Gwynedd,,,No observation supplied
 bangor,crime,ready,W14000002,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 rhyl,buy,review-required,Denbighshire,,,Imported baseline value has no retained row-level raw artifact
 rhyl,rent,review-required,Denbighshire,,,Imported baseline value has no retained row-level raw artifact
-rhyl,market,missing,Denbighshire,,,No observation supplied
+rhyl,market,ready,"REGION^1125 Rhyl, Denbighshire",,8b9340ea7e832cfa747f06c2b911741363241ba0a45741022a875a92dc6b9ea9;0c7ea4fdc904dff532c77b194dc7a9fb1667a3e3ecfd231a30dae5f131a93151;7763441c6cfde827cbcc33fc83bd28066b569a6d11baa9bda904be2567776cad,
 rhyl,localTransport,missing,Denbighshire,,,No observation supplied
 rhyl,nationalTransport,missing,Denbighshire,,,No observation supplied
 rhyl,quiet,missing,Denbighshire,,,No observation supplied
@@ -641,7 +641,7 @@ rhyl,condition,missing,Denbighshire,,,No observation supplied
 rhyl,crime,ready,W14000004,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 york,buy,review-required,York,,,Imported baseline value has no retained row-level raw artifact
 york,rent,review-required,York,,,Imported baseline value has no retained row-level raw artifact
-york,market,missing,York,,,No observation supplied
+york,market,ready,"REGION^1498 York, North Yorkshire",,626cb4b1fe9c1904ffecd46e1bab334bec97447352f63d25eab176af6c8a46fd;e57d25704ba854f52b92878dbf6b8f8fe34b5e9c723134cb629807c87d88d34c;4d94425b03b398c40489205c94909c497eb9cfcb5908517ec889602f1aeebca7,
 york,localTransport,missing,York,,,No observation supplied
 york,nationalTransport,missing,York,,,No observation supplied
 york,quiet,missing,York,,,No observation supplied
@@ -649,7 +649,7 @@ york,condition,missing,York,,,No observation supplied
 york,crime,ready,E22000371,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 durham,buy,review-required,County Durham,,,Imported baseline value has no retained row-level raw artifact
 durham,rent,review-required,County Durham,,,Imported baseline value has no retained row-level raw artifact
-durham,market,missing,County Durham,,,No observation supplied
+durham,market,ready,"REGION^460 Durham, County Durham",,442c53dd40f0221f91625611f105133b753e0b1db63b051c097cc3b9a0457dcf;b23bda51c58005a827a738fb08baa3399ceae5de8b34d0769604e1a51ea153c1;4508313d27eedd0240e96db182b15b2aa50d4ca67ed5121d676402e612bf58a7,
 durham,localTransport,missing,County Durham,,,No observation supplied
 durham,nationalTransport,missing,County Durham,,,No observation supplied
 durham,quiet,missing,County Durham,,,No observation supplied
@@ -657,7 +657,7 @@ durham,condition,missing,County Durham,,,No observation supplied
 durham,crime,ready,E22000365,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 cheltenham,buy,review-required,Cheltenham,,,Imported baseline value has no retained row-level raw artifact
 cheltenham,rent,review-required,Cheltenham,,,Imported baseline value has no retained row-level raw artifact
-cheltenham,market,missing,Cheltenham,,,No observation supplied
+cheltenham,market,ready,"REGION^308 Cheltenham, Gloucestershire",,975abed7086d22ddbed69655851f958a82d54c1de2029c7c258cef40933329f1;338565c1703005e5aa260287fbc31e826f10de8579be1431e250200538a8cb69;6e823b589b977dd1982650e6d87bd78819e14722a27aafe72e25d60046924664,
 cheltenham,localTransport,missing,Cheltenham,,,No observation supplied
 cheltenham,nationalTransport,missing,Cheltenham,,,No observation supplied
 cheltenham,quiet,missing,Cheltenham,,,No observation supplied

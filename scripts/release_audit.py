@@ -58,11 +58,31 @@ def audit(inputs):
                 artifact_hash = ''
                 period = ''
                 geography = location['localAuthority']
-                # The current non-crime dataset is explicitly an imported baseline;
-                # it cannot acquire a raw-artifact claim merely by having a URL.
-                status = 'review-required' if present else 'missing'
-                reason = ('Imported baseline value has no retained row-level raw artifact'
-                          if present else 'No observation supplied')
+                if topic == 'market':
+                    try:
+                        from prepare_market_stock import retained_observation
+                        observation = retained_observation(ident)
+                    except (OSError, ValueError):
+                        observation = None
+                    buy, rent = tables['buy'].get(ident, {}), tables['rent'].get(ident, {})
+                    if observation and row and buy.get('oneBedCount') == str(observation['sale']) and rent.get('oneBedCount') == str(observation['rent']):
+                        status, artifact_hash = 'ready', observation['capture_hashes']
+                        geography = observation['portal_regions']
+                        reason = ''
+                    elif observation:
+                        status = 'review-required' if present else 'missing'
+                        reason = ('No checked retained market capture matches the canonical counts'
+                                  if present else 'No observation supplied')
+                    else:
+                        status = 'review-required' if present else 'missing'
+                        reason = ('Imported baseline value has no retained row-level raw artifact'
+                                  if present else 'No observation supplied')
+                else:
+                    # The current non-crime dataset is explicitly an imported baseline;
+                    # it cannot acquire a raw-artifact claim merely by having a URL.
+                    status = 'review-required' if present else 'missing'
+                    reason = ('Imported baseline value has no retained row-level raw artifact'
+                              if present else 'No observation supplied')
             result.append(dict(location_id=ident, topic=topic, status=status,
                 geography=geography, source_period=period, artifact_hash=artifact_hash,
                 reason=reason))

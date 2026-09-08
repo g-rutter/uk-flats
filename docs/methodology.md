@@ -46,7 +46,7 @@ dated archive and geography/coverage review supports comparable CSP rates.
   midpoint up. Uses the Town/City field, except Torbay's district proxy.
 - Renting: recorded July 2026 ONS one-bedroom modelled LA mean, not an asking median.
   No observation counts survive for this series. Town and LA boundaries differ.
-- Stock: recorded 5 September 2026 Rightmove headline counts, not deduplicated listings.
+- Stock: the imported baseline uses 5 September 2026 Rightmove headline counts; the expansion cohort uses controlled 7 September 2026 captures retained with exact resolver/search responses. Counts are not deduplicated listings. Bournemouth–Poole sums two named portal regions and may not exactly match the broad comparison geography.
 - Transport: rounded historical representative rail times, plus qualitative local
   network assessments. These are not live timetables or accessibility measurements.
 - Quiet/condition: inherited coarse judgements with an explicit assessment band,

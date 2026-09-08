@@ -60,7 +60,7 @@ existing local artifact differs from its committed checksum.
 
 ## Current status
 
-The original 63 rows are **imported historical claims, not independently verified research**. The 19-place expansion cohort has reproducible price, rent and recorded-offence observations from retained raw workbooks; its stock, transport and environmental assessments remain blank pending their own acquisitions.
+The original 63 rows are **imported historical claims, not independently verified research**. The 20-place expansion cohort has reproducible price, rent, one-bedroom market-stock and recorded-offence observations from retained raw releases; its transport and environmental assessments remain blank pending their own acquisitions.
 Buying is an all-flat achieved-price proxy; renting is a modelled one-bedroom
 local-authority mean. The screen calculates separate Buy/Rent broad composite
 scores; their safety component uses the separate ONS CSP recorded-offence rates.

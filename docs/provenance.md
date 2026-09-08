@@ -124,6 +124,19 @@ times and SHA-256 values. After cloning, run
 It downloads only missing artifacts and fails if their bytes do not agree with
 the committed manifest; it never overwrites the recorded provenance.
 
+## September 2026 expansion market-stock captures
+
+`data/raw/releases/2026-09-07-location-expansion/market-stock/` retains the
+controlled Rightmove resolver JSON and filtered sale/rent HTML capture for each
+portal region used by the 20 expansion locations. `record_market_stock_capture.py`
+records URL, filter request, capture time and SHA-256 in the release manifest;
+`prepare_market_stock.py` fails if the resolver mapping or the single headline
+`resultCount` field changes, then writes the two tenure-specific `oneBedCount`
+fields, `market.csv` and an ignored row-level staging audit. This is a dated
+advertised-stock snapshot, not an inventory. Bournemouth–Poole explicitly sums
+the separately resolved Bournemouth and Poole portal regions, whose proprietary
+boundaries may overlap or differ from the broad comparison geography.
+
 ## Fresh crime research schema
 
 `data/derived/crime_boundary_audit.csv` is a build-generated location-level

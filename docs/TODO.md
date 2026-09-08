@@ -6,10 +6,6 @@
   for the original 63-location baseline, retaining dated raw snapshots,
   query/geography details and transformation scripts. Those non-crime values
   remain imported historical claims.
-- For the 20-place expansion cohort, acquire retained, controlled light-use
-  Rightmove one-bedroom sale/rent result snapshots and resolver mappings.
-  Populate `market.csv` and the tenure-specific `oneBedCount` fields only from
-  those dated capture artifacts.
 - For the 20-place expansion cohort, obtain an NRE Online Journey Planner feed
   licence and credentials, or approve a controlled manual-capture protocol, then
   acquire fixed-date national-rail evidence and add `nationalTransport.csv` rows.
@@ -32,10 +28,11 @@ proxy, and separate ONS CSP violence-against-the-person and sexual-offence rates
 The raw HMLR, ONS rent and ONS crime artifacts and their source metadata are
 retained in the repository's existing dated releases/snapshots.
 
-The expansion entries are intentionally incomplete: no market stock, transport,
-quiet or condition observation has been asserted, and therefore neither buying
-nor renting composite score is calculated for them. Missing values are displayed
-as unavailable, never as zero.
+The expansion entries are intentionally incomplete: transport, quiet and condition
+observations have not been asserted, and therefore neither buying nor renting
+composite score is calculated for them. The controlled 7 September 2026 market
+stock captures are retained separately from the imported 5 September baseline;
+missing values are displayed as unavailable, never as zero.
 
 | Gap addressed | Status | Locations |
 | --- | --- | --- |
