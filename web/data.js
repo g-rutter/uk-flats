@@ -9750,6 +9750,18 @@ window.FLATS_DATA = {
       "geography": "CSP codes and names in crime_geographies.csv; boundary vintage not stated",
       "coverage": "All 83 locations have named CSP source cells; Kettering and Northampton use matching CSP populations rather than whole-LA values",
       "limitations": "Official statistics, not accredited official statistics. Recorded offences reflect reporting and recording; CSP unallocated offences are not assigned. Resident population excludes visitors and commuters. ASB is excluded pending coverage review. Separate offence rates are not a safety score or ranking."
+    },
+    {
+      "id": "TR-NATIONAL-20260908-STATION-MAPPINGS-FULL",
+      "workstream": "transport",
+      "title": "National Rail station pages: remaining origin-station mappings",
+      "publisher": "Rail Delivery Group",
+      "url": "https://www.nationalrail.co.uk/stations/",
+      "dataPeriod": "Station pages current at retrieval",
+      "retrievalDate": "2026-09-08",
+      "geography": "One representative National Rail station per remaining broad location",
+      "coverage": "71 station pages and a hash-verified manifest in 2026-09-08-national-transport-station-mappings-full",
+      "limitations": "Station pages verify station identity and CRS. Each selection remains a representative broad-place origin, not a whole-place accessibility measurement or journey-time observation."
     }
   ],
   "composite": {
