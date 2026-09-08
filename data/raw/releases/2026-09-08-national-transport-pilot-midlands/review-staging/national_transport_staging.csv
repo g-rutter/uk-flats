@@ -1,0 +1,3 @@
+location_id,londonMinutes,londonChanges,birminghamMinutes,birminghamChanges,confidence,reason
+birmingham,79,0,,,Low,Review-staged National Rail observations; not canonical until approved.
+wolverhampton,,,18,0,Low,Review-staged National Rail observations; not canonical until approved.

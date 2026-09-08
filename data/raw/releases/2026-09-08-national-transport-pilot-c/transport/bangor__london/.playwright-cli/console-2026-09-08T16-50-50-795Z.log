@@ -1,0 +1,2 @@
+[    2102ms] [ERROR] Loading the script 'blob:https://www.nationalrail.co.uk/dda13eed-818f-44a6-b81a-524c151f8593' violates the following Content Security Policy directive: "default-src https: 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'default-src' is used as a fallback. The action has been blocked. @ https://cdn.confiant-integrations.net/gptprebidnative/202608131959/wrap.js:49
+[   12543ms] [LOG] Visibility threshold pct=50, Visibility threshold ms = 0 @ https://tag.durationmedia.net/pubs/1000296/dm.js:0

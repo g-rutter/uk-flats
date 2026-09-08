@@ -1,0 +1,14 @@
+{
+  "origin_visible_option": "Barnsley (BNY)",
+  "destination_visible_option": "Birmingham New Street (BHM)",
+  "measurement_date": "11 Sep 2026",
+  "searches": [
+    {
+      "search_time_local": "10:00",
+      "result_capture": "results-10.png",
+      "visible_result_url": "https://www.nationalrail.co.uk/journey-planner/?type=single&origin=BNY&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=10&leavingMin=00&adults=1&extraTime=0#O",
+      "retrieved_at_utc": "2026-09-08T16:37:09+00:00"
+    }
+  ],
+  "limitations": "UI-only capture. A reviewer must inspect screenshots, select the shortest suitable displayed itinerary, capture expanded details, and prepare the manifest/transcription."
+}

@@ -17,11 +17,48 @@ from crime_outliers import audit as audit_outliers
 from composite import ASSESSMENT_SCORES, assessment_score, compile_composite
 from prepare_locations import prepare
 from prepare_national_transport import prepare as prepare_national_transport
+from create_national_transport_queue import create_queue
+from collect_national_transport_ui import visible_query
+from finalize_national_transport_release import finalize as finalize_national_transport_release
 from release_audit import audit as release_audit
 from rehydrate_raw import rehydrate
 
 
 class PipelineTests(unittest.TestCase):
+    def test_national_transport_queue_blocks_unmapped_and_excludes_same_endpoint(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            locations = root / 'locations.csv'
+            locations.write_text('id,name\nexample,Example\nbirmingham,Birmingham\n', encoding='utf-8')
+            stations = root / 'stations.csv'
+            stations.write_text(
+                'location_id,station_crs,station_name,selection_reason,confidence,evidence_ids\n'
+                'birmingham,BHM,Birmingham New Street,Primary station,High,TR-TEST\n', encoding='utf-8')
+            rows = create_queue(locations, stations, '2026-09-11')
+            self.assertEqual([(row['location_id'], row['destination_id'], row['status']) for row in rows], [
+                ('example', 'london', 'blocked-mapping'), ('example', 'birmingham', 'blocked-mapping'),
+                ('birmingham', 'london', 'pending'), ('birmingham', 'birmingham', 'excluded-degenerate'),
+            ])
+            self.assertEqual(visible_query('Bangor (Gwynedd) (BNG)'), 'Bangor (Gwynedd)')
+            self.assertEqual(visible_query('London (All Stations)'), 'London')
+
+    def test_national_transport_finalizer_hashes_retained_draft_only(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            release = root / 'release'
+            release.mkdir()
+            (release / 'capture.png').write_bytes(b'visible browser capture')
+            draft = root / 'draft.csv'
+            draft.write_text(
+                'relative_path,original_url,request_query,retrieved_at,data_period,publisher,licence_or_terms,coverage_limitations\n'
+                'capture.png,https://www.nationalrail.co.uk/journey-planner/,Visible UI query,2026-09-08T10:00:00+01:00,2026-09-11,Rail Delivery Group,Public planner browser screenshot,Test capture\n',
+                encoding='utf-8')
+            rows = finalize_national_transport_release(release, draft, release / 'manifest.csv')
+            self.assertEqual(rows[0]['mime_type'], 'image/png')
+            self.assertEqual(len(rows[0]['sha256']), 64)
+            with self.assertRaisesRegex(ValueError, 'refusing'):
+                finalize_national_transport_release(release, draft, release / 'manifest.csv')
+
     def test_national_transport_preparer_requires_hashed_capture_and_stages_pivot(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

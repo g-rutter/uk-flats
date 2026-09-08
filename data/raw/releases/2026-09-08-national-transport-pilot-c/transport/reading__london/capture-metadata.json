@@ -1,0 +1,32 @@
+{
+  "origin_visible_option": "Reading (RDG)",
+  "destination_visible_option": "London (All Stations)",
+  "measurement_date": "11 Sep 2026",
+  "searches": [
+    {
+      "search_time_local": "10:00",
+      "result_capture": "results-10.png",
+      "visible_result_url": "https://www.nationalrail.co.uk/journey-planner/?type=single&origin=RDG&destination=182&leavingType=departing&leavingDate=110926&leavingHour=10&leavingMin=00&adults=1&extraTime=0#O",
+      "retrieved_at_utc": "2026-09-08T16:53:44+00:00"
+    },
+    {
+      "search_time_local": "11:00",
+      "result_capture": "results-11.png",
+      "visible_result_url": "https://www.nationalrail.co.uk/journey-planner/?type=single&origin=RDG&destination=182&leavingType=departing&leavingDate=110926&leavingHour=11&leavingMin=00&adults=1&extraTime=0#O",
+      "retrieved_at_utc": "2026-09-08T16:54:26+00:00"
+    },
+    {
+      "search_time_local": "12:00",
+      "result_capture": "results-12.png",
+      "visible_result_url": "https://www.nationalrail.co.uk/journey-planner/",
+      "retrieved_at_utc": "2026-09-08T16:55:02+00:00"
+    },
+    {
+      "search_time_local": "13:00",
+      "result_capture": "results-13.png",
+      "visible_result_url": "https://www.nationalrail.co.uk/journey-planner/",
+      "retrieved_at_utc": "2026-09-08T16:55:25+00:00"
+    }
+  ],
+  "limitations": "UI-only capture. A reviewer must inspect screenshots, select the shortest suitable displayed itinerary, capture expanded details, and prepare the manifest/transcription."
+}

@@ -1,0 +1,3 @@
+location_id,station_crs,station_name,selection_reason,confidence,evidence_ids
+birmingham,BHM,Birmingham New Street,"Visible National Rail planner suggestion for the broad-place name; selected as the town's primary National Rail station for this pilot route.",Medium,TR-NATIONAL-20260908-PILOT-MIDLANDS
+wolverhampton,WVH,Wolverhampton,"Visible National Rail planner suggestion for the broad-place name; selected as the town's primary National Rail station for this pilot route.",Medium,TR-NATIONAL-20260908-PILOT-MIDLANDS

@@ -1,0 +1,701 @@
+### Page
+- Page URL: https://www.nationalrail.co.uk/journey-planner/?type=single&origin=RDG&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=12&leavingMin=00&adults=1&extraTime=0#O
+- Page Title: Buy Your Tickets - Reading to Birmingham New Street | National Rail
+- Console: 1 errors, 0 warnings
+### Snapshot
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - paragraph [ref=e15]: Advertisement
+            - generic [ref=e19]:
+              - link "National Rail home" [ref=e20] [cursor=pointer]:
+                - /url: /
+                - figure [aria-hidden] [ref=e22]
+              - navigation "header" [ref=e24]:
+                - list [ref=e25]:
+                  - listitem "Live Departures" [ref=e26]:
+                    - link "Live Departures" [ref=e27] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/live-trains/
+                  - listitem "Disruptions , unread" [ref=e32]:
+                    - link "Disruptions, unread" [ref=e33] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/disruptions/
+                      - generic [ref=e37]:
+                        - text: Disruptions
+                        - generic [ref=e38]: ", unread"
+                  - listitem "Plan a Journey" [ref=e39]:
+                    - link "Plan a Journey" [ref=e40] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/journey-planner/
+                  - listitem "My Travel" [ref=e45]:
+                    - link "My Travel" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/my-travel/
+              - button "Open search" [ref=e52] [cursor=pointer]
+            - status [ref=e56]: Unread notifications
+          - navigation "header" [ref=e61]:
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - button "Tickets, Railcards and Offers" [ref=e64] [cursor=pointer]
+              - listitem [ref=e66]:
+                - link "Stations" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/stations/
+              - listitem [ref=e69]:
+                - button "Travel Information" [ref=e70] [cursor=pointer]
+              - listitem [ref=e72]:
+                - button "Help and Assistance" [ref=e73] [cursor=pointer]
+              - listitem [ref=e75]:
+                - link "Status Updates" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/train-operator-status/
+              - listitem [ref=e78]:
+                - link "Engineering Works" [ref=e79] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/engineering-works/
+        - alert [ref=e81]
+      - main [ref=e82]:
+        - generic [ref=e432]:
+          - generic [ref=e437]:
+            - paragraph [ref=e439]: "The journey you are searching for:"
+            - heading [level=1] [ref=e440]:
+              - button "Reading to Birmingham New Street" [expanded] [ref=e441] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e442]:
+                  - text: Reading
+                  - generic [ref=e443]: to
+                  - text: Birmingham New Street
+            - generic [ref=e445]:
+              - generic [ref=e446]: Single Friday 11 September 2026
+              - generic [ref=e447]: • 1 Adult
+              - generic [ref=e448]: • No Railcard
+            - generic [ref=e449]:
+              - button "Edit journey" [ref=e450] [cursor=pointer]
+              - button "Set journey alert" [ref=e455] [cursor=pointer]
+              - button "Favourite journey Reading to Birmingham New Street" [ref=e460] [cursor=pointer]:
+                - generic [ref=e464]: Favourite route
+          - generic [ref=e470]:
+            - region "Please select a journey" [ref=e476]:
+              - generic [ref=e478]:
+                - heading "Please select a journey" [level=2] [ref=e479]
+                - paragraph [ref=e480]: Friday 11 September 2026
+              - generic [ref=e482]:
+                - group "Choose fare class" [ref=e484]:
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - radio "Standard from £35.50" [checked] [ref=e488] [cursor=pointer]
+                      - generic [ref=e490]:
+                        - generic [ref=e491]: Standard
+                        - generic [ref=e492]:
+                          - generic [ref=e493]: from
+                          - generic [ref=e494]: £35.50
+                    - generic [ref=e495]:
+                      - radio "First Class from £71.60" [ref=e496] [cursor=pointer]
+                      - generic [ref=e498]:
+                        - generic [ref=e499]: First Class
+                        - generic [ref=e500]:
+                          - generic [ref=e501]: from
+                          - generic [ref=e502]: £71.60
+                - link "View earlier trains" [ref=e505] [cursor=pointer]:
+                  - /url: /journey-planner/?type=single&origin=RDG&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=12&leavingMin=00&adults=1&extraTime=0#
+              - group "Please select a journey" [ref=e512]:
+                - list [ref=e514]:
+                  - listitem [ref=e515]:
+                    - generic [ref=e516]:
+                      - heading "12:05 journey from Reading to Birmingham New Street" [level=3] [ref=e517]
+                      - generic [ref=e519]:
+                        - generic [ref=e520]:
+                          - generic [ref=e521]: "- Journey 1, Departs, 12:05, from Reading, and Arrives, 14:48, at Birmingham New Street, duration 2 hours, 43 minutes, with 2 changes, This journey will be overtaken by a later departure"
+                          - generic [ref=e522]:
+                            - generic [ref=e523]:
+                              - generic [ref=e524]: Lowest
+                              - generic [ref=e525]:
+                                - generic [ref=e526]: Single from
+                                - generic [ref=e527]: £63.70
+                            - generic [ref=e529]:
+                              - button "Select Lowest Single from £63.70" [ref=e530] [cursor=pointer]: outward-0
+                              - generic [ref=e531]:
+                                - generic [ref=e532] [cursor=pointer]
+                                - generic [ref=e536]: Select
+                        - generic [ref=e539]:
+                          - text: Slower journey
+                          - generic [ref=e540]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e541]:
+                          - generic [ref=e542]:
+                            - paragraph [ref=e543]: Departs
+                            - time [ref=e545]: 12:05
+                            - generic [ref=e547]:
+                              - text: Reading
+                              - generic [ref=e548]: (RDG)
+                            - paragraph [ref=e549]: Platform 11
+                          - generic [ref=e554]:
+                            - paragraph [ref=e555]: Arrives
+                            - time [ref=e557]: 14:48
+                            - generic [ref=e559]:
+                              - text: Birmingham New Street
+                              - generic [ref=e560]: (BHM)
+                            - paragraph [ref=e561]: Platform 6
+                        - generic [ref=e562]:
+                          - 'button "Duration: 2 hours, 43 minutes and, 2 changes" [ref=e564] [cursor=pointer]':
+                            - generic [ref=e565]:
+                              - time [ref=e566]: 2h 43m,
+                              - generic [ref=e567]: and,
+                              - text: 2 changes
+                          - region "Service updates for journey 1" [ref=e569]:
+                            - button "Accessibility" [ref=e570] [cursor=pointer]
+                  - listitem [ref=e575]:
+                    - generic [ref=e576]:
+                      - heading "12:15 journey from Reading to Birmingham New Street" [level=3] [ref=e577]
+                      - generic [ref=e579]:
+                        - generic [ref=e580]:
+                          - generic [ref=e581]: "- Journey 2, Departs, 12:15, from Reading, and Arrives, 13:51, at Birmingham New Street, duration 1 hour, 36 minutes, with 0 change"
+                          - generic [ref=e582]:
+                            - generic [ref=e583]:
+                              - generic [ref=e584]: Lowest
+                              - generic [ref=e585]:
+                                - generic [ref=e586]: Single from
+                                - generic [ref=e587]: £73.40
+                            - generic [ref=e589]:
+                              - button "Select Lowest Single from £73.40" [ref=e590] [cursor=pointer]: outward-1
+                              - generic [ref=e591]:
+                                - generic [ref=e592] [cursor=pointer]
+                                - generic [ref=e596]: Select
+                        - generic [ref=e598]:
+                          - generic [ref=e599]:
+                            - paragraph [ref=e600]: Departs
+                            - time [ref=e602]: 12:15
+                            - generic [ref=e604]:
+                              - text: Reading
+                              - generic [ref=e605]: (RDG)
+                            - paragraph [ref=e606]: Platform 8
+                          - generic [ref=e611]:
+                            - paragraph [ref=e612]: Arrives
+                            - time [ref=e614]: 13:51
+                            - generic [ref=e616]:
+                              - text: Birmingham New Street
+                              - generic [ref=e617]: (BHM)
+                            - paragraph [ref=e618]: Platform 5
+                        - 'button "Duration: 1 hour, 36 minutes and, Direct" [ref=e621] [cursor=pointer]':
+                          - generic [ref=e622]:
+                            - time [ref=e623]: 1h 36m,
+                            - generic [ref=e624]: and,
+                            - text: Direct
+                  - listitem [ref=e625]:
+                    - generic [ref=e626]:
+                      - heading "12:30 journey from Reading to Birmingham New Street" [level=3] [ref=e627]
+                      - generic [ref=e629]:
+                        - generic [ref=e630]:
+                          - generic [ref=e631]: "- Journey 3, Departs, 12:30, from Reading, and Arrives, 14:57, at Birmingham New Street, duration 2 hours, 27 minutes, with 2 changes, This journey will be overtaken by a later departure"
+                          - generic [ref=e632]:
+                            - generic [ref=e633]:
+                              - generic [ref=e634]: Lowest
+                              - generic [ref=e635]:
+                                - generic [ref=e636]: Single from
+                                - generic [ref=e637]: £63.70
+                            - generic [ref=e639]:
+                              - button "Select Lowest Single from £63.70" [ref=e640] [cursor=pointer]: outward-2
+                              - generic [ref=e641]:
+                                - generic [ref=e642] [cursor=pointer]
+                                - generic [ref=e646]: Select
+                        - generic [ref=e649]:
+                          - text: Slower journey
+                          - generic [ref=e650]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e651]:
+                          - generic [ref=e652]:
+                            - paragraph [ref=e653]: Departs
+                            - time [ref=e655]: 12:30
+                            - generic [ref=e657]:
+                              - text: Reading
+                              - generic [ref=e658]: (RDG)
+                            - paragraph [ref=e659]: Platform 11
+                          - generic [ref=e664]:
+                            - paragraph [ref=e665]: Arrives
+                            - time [ref=e667]: 14:57
+                            - generic [ref=e669]:
+                              - text: Birmingham New Street
+                              - generic [ref=e670]: (BHM)
+                            - paragraph [ref=e671]: Platform 7
+                        - generic [ref=e672]:
+                          - 'button "Duration: 2 hours, 27 minutes and, 2 changes" [ref=e674] [cursor=pointer]':
+                            - generic [ref=e675]:
+                              - time [ref=e676]: 2h 27m,
+                              - generic [ref=e677]: and,
+                              - text: 2 changes
+                          - region "Service updates for journey 3" [ref=e679]:
+                            - button "Accessibility" [ref=e680] [cursor=pointer]
+                  - listitem [ref=e685]:
+                    - generic [ref=e686]:
+                      - heading "12:44 journey from Reading to Birmingham New Street" [level=3] [ref=e687]
+                      - generic [ref=e689]:
+                        - generic [ref=e690]:
+                          - generic [ref=e691]: "- Journey 4, Departs, 12:44, from Reading, and Arrives, 14:17, at Birmingham New Street, duration 1 hour, 33 minutes, with 0 change, This is the fastest available journey"
+                          - generic [ref=e692]:
+                            - generic [ref=e693]:
+                              - generic [ref=e694]: Lowest
+                              - generic [ref=e695]:
+                                - generic [ref=e696]: Single from
+                                - generic [ref=e697]: £35.50
+                            - generic [ref=e699]:
+                              - button "Select Lowest Single from £35.50" [ref=e700] [cursor=pointer]: outward-3
+                              - generic [ref=e701]:
+                                - generic [ref=e702] [cursor=pointer]
+                                - generic [ref=e706]: Select
+                        - generic [ref=e709]:
+                          - text: Fastest
+                          - generic [ref=e710]: ": This is the fastest available journey"
+                        - generic [ref=e711]:
+                          - generic [ref=e712]:
+                            - paragraph [ref=e713]: Departs
+                            - time [ref=e715]: 12:44
+                            - generic [ref=e717]:
+                              - text: Reading
+                              - generic [ref=e718]: (RDG)
+                            - paragraph [ref=e719]: Platform 12
+                          - generic [ref=e724]:
+                            - paragraph [ref=e725]: Arrives
+                            - time [ref=e727]: 14:17
+                            - generic [ref=e729]:
+                              - text: Birmingham New Street
+                              - generic [ref=e730]: (BHM)
+                            - paragraph [ref=e731]: Platform 10A
+                        - 'button "Duration: 1 hour, 33 minutes and, Direct" [ref=e734] [cursor=pointer]':
+                          - generic [ref=e735]:
+                            - time [ref=e736]: 1h 33m,
+                            - generic [ref=e737]: and,
+                            - text: Direct
+                  - listitem [ref=e738]:
+                    - generic [ref=e739]:
+                      - heading "13:02 journey from Reading to Birmingham New Street" [level=3] [ref=e740]
+                      - generic [ref=e742]:
+                        - generic [ref=e743]:
+                          - generic [ref=e744]: "- Journey 5, Departs, 13:02, from Reading, and Arrives, 15:27, at Birmingham New Street, duration 2 hours, 25 minutes, with 2 changes, This journey will be overtaken by a later departure"
+                          - generic [ref=e745]:
+                            - generic [ref=e746]:
+                              - generic [ref=e747]: Lowest
+                              - generic [ref=e748]:
+                                - generic [ref=e749]: Single from
+                                - generic [ref=e750]: £63.70
+                            - generic [ref=e752]:
+                              - button "Select Lowest Single from £63.70" [ref=e753] [cursor=pointer]: outward-4
+                              - generic [ref=e754]:
+                                - generic [ref=e755] [cursor=pointer]
+                                - generic [ref=e759]: Select
+                        - generic [ref=e762]:
+                          - text: Slower journey
+                          - generic [ref=e763]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e764]:
+                          - generic [ref=e765]:
+                            - paragraph [ref=e766]: Departs
+                            - time [ref=e768]: 13:02
+                            - generic [ref=e770]:
+                              - text: Reading
+                              - generic [ref=e771]: (RDG)
+                            - paragraph [ref=e772]: Platform 10
+                          - generic [ref=e777]:
+                            - paragraph [ref=e778]: Arrives
+                            - time [ref=e780]: 15:27
+                            - generic [ref=e782]:
+                              - text: Birmingham New Street
+                              - generic [ref=e783]: (BHM)
+                            - paragraph [ref=e784]: Platform 5
+                        - generic [ref=e785]:
+                          - 'button "Duration: 2 hours, 25 minutes and, 2 changes" [ref=e787] [cursor=pointer]':
+                            - generic [ref=e788]:
+                              - time [ref=e789]: 2h 25m,
+                              - generic [ref=e790]: and,
+                              - text: 2 changes
+                          - region "Service updates for journey 5" [ref=e792]:
+                            - button "Accessibility" [ref=e793] [cursor=pointer]
+                  - listitem [ref=e798]:
+                    - generic [ref=e799]:
+                      - heading "13:05 journey from Reading to Birmingham New Street" [level=3] [ref=e800]
+                      - generic [ref=e802]:
+                        - generic [ref=e803]:
+                          - generic [ref=e804]: "- Journey 6, Departs, 13:05, from Reading, and Arrives, 15:48, at Birmingham New Street, duration 2 hours, 43 minutes, with 2 changes, This journey will be overtaken by a later departure"
+                          - generic [ref=e805]:
+                            - generic [ref=e806]:
+                              - generic [ref=e807]: Lowest
+                              - generic [ref=e808]:
+                                - generic [ref=e809]: Single from
+                                - generic [ref=e810]: £63.70
+                            - generic [ref=e812]:
+                              - button "Select Lowest Single from £63.70" [ref=e813] [cursor=pointer]: outward-5
+                              - generic [ref=e814]:
+                                - generic [ref=e815] [cursor=pointer]
+                                - generic [ref=e819]: Select
+                        - generic [ref=e822]:
+                          - text: Slower journey
+                          - generic [ref=e823]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e824]:
+                          - generic [ref=e825]:
+                            - paragraph [ref=e826]: Departs
+                            - time [ref=e828]: 13:05
+                            - generic [ref=e830]:
+                              - text: Reading
+                              - generic [ref=e831]: (RDG)
+                            - paragraph [ref=e832]: Platform 11
+                          - generic [ref=e837]:
+                            - paragraph [ref=e838]: Arrives
+                            - time [ref=e840]: 15:48
+                            - generic [ref=e842]:
+                              - text: Birmingham New Street
+                              - generic [ref=e843]: (BHM)
+                            - paragraph [ref=e844]: Platform 6
+                        - generic [ref=e845]:
+                          - 'button "Duration: 2 hours, 43 minutes and, 2 changes" [ref=e847] [cursor=pointer]':
+                            - generic [ref=e848]:
+                              - time [ref=e849]: 2h 43m,
+                              - generic [ref=e850]: and,
+                              - text: 2 changes
+                          - region "Service updates for journey 6" [ref=e852]:
+                            - button "Accessibility" [ref=e853] [cursor=pointer]
+                  - listitem [ref=e858]:
+                    - generic [ref=e859]:
+                      - heading "13:15 journey from Reading to Birmingham New Street" [level=3] [ref=e860]
+                      - generic [ref=e862]:
+                        - generic [ref=e863]:
+                          - generic [ref=e864]: "- Journey 7, Departs, 13:15, from Reading, and Arrives, 14:51, at Birmingham New Street, duration 1 hour, 36 minutes, with 0 change"
+                          - generic [ref=e865]:
+                            - generic [ref=e866]:
+                              - generic [ref=e867]: Lowest
+                              - generic [ref=e868]:
+                                - generic [ref=e869]: Single from
+                                - generic [ref=e870]: £73.40
+                            - generic [ref=e872]:
+                              - button "Select Lowest Single from £73.40" [ref=e873] [cursor=pointer]: outward-6
+                              - generic [ref=e874]:
+                                - generic [ref=e875] [cursor=pointer]
+                                - generic [ref=e879]: Select
+                        - generic [ref=e881]:
+                          - generic [ref=e882]:
+                            - paragraph [ref=e883]: Departs
+                            - time [ref=e885]: 13:15
+                            - generic [ref=e887]:
+                              - text: Reading
+                              - generic [ref=e888]: (RDG)
+                            - paragraph [ref=e889]: Platform 8
+                          - generic [ref=e894]:
+                            - paragraph [ref=e895]: Arrives
+                            - time [ref=e897]: 14:51
+                            - generic [ref=e899]:
+                              - text: Birmingham New Street
+                              - generic [ref=e900]: (BHM)
+                            - paragraph [ref=e901]: Platform 5
+                        - 'button "Duration: 1 hour, 36 minutes and, Direct" [ref=e904] [cursor=pointer]':
+                          - generic [ref=e905]:
+                            - time [ref=e906]: 1h 36m,
+                            - generic [ref=e907]: and,
+                            - text: Direct
+                  - listitem [ref=e908]:
+                    - generic [ref=e909]:
+                      - heading "13:26 journey from Reading to Birmingham New Street" [level=3] [ref=e910]
+                      - generic [ref=e912]:
+                        - generic [ref=e913]:
+                          - generic [ref=e914]: "- Journey 8, Departs, 13:26, from Reading, and Arrives, 15:56, at Birmingham New Street, duration 2 hours, 30 minutes, with 2 changes, This journey will be overtaken by a later departure"
+                          - generic [ref=e915]:
+                            - generic [ref=e916]:
+                              - generic [ref=e917]: Lowest
+                              - generic [ref=e918]:
+                                - generic [ref=e919]: Single from
+                                - generic [ref=e920]: £63.70
+                            - generic [ref=e922]:
+                              - button "Select Lowest Single from £63.70" [ref=e923] [cursor=pointer]: outward-7
+                              - generic [ref=e924]:
+                                - generic [ref=e925] [cursor=pointer]
+                                - generic [ref=e929]: Select
+                        - generic [ref=e932]:
+                          - text: Slower journey
+                          - generic [ref=e933]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e934]:
+                          - generic [ref=e935]:
+                            - paragraph [ref=e936]: Departs
+                            - time [ref=e938]: 13:26
+                            - generic [ref=e940]:
+                              - text: Reading
+                              - generic [ref=e941]: (RDG)
+                            - paragraph [ref=e942]: Platform 10
+                          - generic [ref=e947]:
+                            - paragraph [ref=e948]: Arrives
+                            - time [ref=e950]: 15:56
+                            - generic [ref=e952]:
+                              - text: Birmingham New Street
+                              - generic [ref=e953]: (BHM)
+                            - paragraph [ref=e954]: Platform 7
+                        - generic [ref=e955]:
+                          - 'button "Duration: 2 hours, 30 minutes and, 2 changes" [ref=e957] [cursor=pointer]':
+                            - generic [ref=e958]:
+                              - time [ref=e959]: 2h 30m,
+                              - generic [ref=e960]: and,
+                              - text: 2 changes
+                          - region "Service updates for journey 8" [ref=e962]:
+                            - button "Accessibility" [ref=e963] [cursor=pointer]
+                  - listitem [ref=e968]:
+                    - generic [ref=e969]:
+                      - heading "14:15 journey from Reading to Birmingham New Street" [level=3] [ref=e970]
+                      - generic [ref=e972]:
+                        - generic [ref=e973]:
+                          - generic [ref=e974]: "- Journey 9, Departs, 14:15, from Reading, and Arrives, 15:51, at Birmingham New Street, duration 1 hour, 36 minutes, with 0 change"
+                          - generic [ref=e975]:
+                            - generic [ref=e976]:
+                              - generic [ref=e977]: Lowest
+                              - generic [ref=e978]:
+                                - generic [ref=e979]: Single from
+                                - generic [ref=e980]: £73.40
+                            - generic [ref=e982]:
+                              - button "Select Lowest Single from £73.40" [ref=e983] [cursor=pointer]: outward-8
+                              - generic [ref=e984]:
+                                - generic [ref=e985] [cursor=pointer]
+                                - generic [ref=e989]: Select
+                        - generic [ref=e991]:
+                          - generic [ref=e992]:
+                            - paragraph [ref=e993]: Departs
+                            - time [ref=e995]: 14:15
+                            - generic [ref=e997]:
+                              - text: Reading
+                              - generic [ref=e998]: (RDG)
+                            - paragraph [ref=e999]: Platform 8
+                          - generic [ref=e1004]:
+                            - paragraph [ref=e1005]: Arrives
+                            - time [ref=e1007]: 15:51
+                            - generic [ref=e1009]:
+                              - text: Birmingham New Street
+                              - generic [ref=e1010]: (BHM)
+                            - paragraph [ref=e1011]: Platform 5
+                        - 'button "Duration: 1 hour, 36 minutes and, Direct" [ref=e1014] [cursor=pointer]':
+                          - generic [ref=e1015]:
+                            - time [ref=e1016]: 1h 36m,
+                            - generic [ref=e1017]: and,
+                            - text: Direct
+                  - listitem [ref=e1018]:
+                    - generic [ref=e1019]:
+                      - heading "14:45 journey from Reading to Birmingham New Street" [level=3] [ref=e1020]
+                      - generic [ref=e1022]:
+                        - generic [ref=e1023]:
+                          - generic [ref=e1024]: "- Journey 10, Departs, 14:45, from Reading, and Arrives, 16:18, at Birmingham New Street, duration 1 hour, 33 minutes, with 0 change"
+                          - generic [ref=e1025]:
+                            - generic [ref=e1026]:
+                              - generic [ref=e1027]: Lowest
+                              - generic [ref=e1028]:
+                                - generic [ref=e1029]: Single from
+                                - generic [ref=e1030]: £35.50
+                            - generic [ref=e1032]:
+                              - button "Select Lowest Single from £35.50" [ref=e1033] [cursor=pointer]: outward-9
+                              - generic [ref=e1034]:
+                                - generic [ref=e1035] [cursor=pointer]
+                                - generic [ref=e1039]: Select
+                        - generic [ref=e1041]:
+                          - generic [ref=e1042]:
+                            - paragraph [ref=e1043]: Departs
+                            - time [ref=e1045]: 14:45
+                            - generic [ref=e1047]:
+                              - text: Reading
+                              - generic [ref=e1048]: (RDG)
+                            - paragraph [ref=e1049]: Platform 3
+                          - generic [ref=e1054]:
+                            - paragraph [ref=e1055]: Arrives
+                            - time [ref=e1057]: 16:18
+                            - generic [ref=e1059]:
+                              - text: Birmingham New Street
+                              - generic [ref=e1060]: (BHM)
+                            - paragraph [ref=e1061]: Platform 10A
+                        - 'button "Duration: 1 hour, 33 minutes and, Direct" [ref=e1064] [cursor=pointer]':
+                          - generic [ref=e1065]:
+                            - time [ref=e1066]: 1h 33m,
+                            - generic [ref=e1067]: and,
+                            - text: Direct
+              - link "View later trains" [ref=e1072] [cursor=pointer]:
+                - /url: /journey-planner/?type=single&origin=RDG&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=12&leavingMin=00&adults=1&extraTime=0#
+            - generic [ref=e1079]:
+              - generic [ref=e1082]:
+                - heading "Total £0" [level=2] [ref=e1083]:
+                  - generic [ref=e1084]: Total
+                  - generic [ref=e1085]: £0
+                - link "Continue Review tickets and options" [ref=e1087] [cursor=pointer]:
+                  - /url: "#TD"
+                  - generic [ref=e1088]: Continue
+                  - generic [ref=e1093]: Review tickets and options
+                - paragraph [ref=e1094]: 1 Adult, No Railcard
+                - generic [ref=e1095]:
+                  - generic [ref=e1096]:
+                    - heading "Outward journey" [level=3] [ref=e1097]
+                    - paragraph [ref=e1098]: Not selected
+                  - generic [ref=e1099]:
+                    - heading "Return journey" [level=3] [ref=e1100]
+                    - button "Add return journey" [ref=e1101] [cursor=pointer]
+              - paragraph [ref=e1110]: Advertisement
+          - paragraph [ref=e1116]: Advertisement
+        - alert [ref=e1117]
+        - status [ref=e1118]: Please select a valid journey
+        - status [ref=e1119]: Outward results, step 1 of 2
+        - status [ref=e1120]: Currently viewing scheduled services
+        - alert [ref=e1121]
+      - contentinfo [ref=e130]:
+        - generic [ref=e133]:
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - link [ref=e138] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/
+                  - heading "Tickets, Railcards and Offers" [level=3] [ref=e139]
+                - list [ref=e140]:
+                  - listitem [ref=e141]:
+                    - link "Buying a Ticket" [ref=e142] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/buying-a-ticket/
+                  - listitem [ref=e143]:
+                    - link "Ticket Types" [ref=e144] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/ticket-types/
+                  - listitem [ref=e145]:
+                    - link "Railcards" [ref=e146] [cursor=pointer]:
+                      - /url: /railcards/
+                  - listitem [ref=e147]:
+                    - link "Saving Money" [ref=e148] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/saving-money/
+            - listitem [ref=e149]:
+              - generic [ref=e150]:
+                - link [ref=e152] [cursor=pointer]:
+                  - /url: /stations/
+                  - heading "Stations and Train Companies" [level=3] [ref=e153]
+                - list [ref=e154]:
+                  - listitem [ref=e155]:
+                    - link "Find a Station" [ref=e156] [cursor=pointer]:
+                      - /url: /stations/
+                  - listitem [ref=e157]:
+                    - link "Find a Train Company" [ref=e158] [cursor=pointer]:
+                      - /url: /travel-information/find-a-train-company/
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - link [ref=e162] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/discover-by-train/
+                  - heading "Discover by Train" [level=3] [ref=e163]
+                - list [ref=e164]:
+                  - listitem [ref=e165]:
+                    - link "Children and Families" [ref=e166] [cursor=pointer]:
+                      - /url: /discover-by-train/children-and-families/
+                  - listitem [ref=e167]:
+                    - link "Train Travel with Children" [ref=e168] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e169]:
+                    - link "Great British Destinations" [ref=e170] [cursor=pointer]:
+                      - /url: /discover-by-train/great-british-destinations/
+                  - listitem [ref=e171]:
+                    - link "Seasonal Inspiration" [ref=e172] [cursor=pointer]:
+                      - /url: /discover-by-train/seasonal-inspiration/
+                  - listitem [ref=e173]:
+                    - link "Places to Visit by Train" [ref=e174] [cursor=pointer]:
+                      - /url: /discover-by-train/places-to-visit-by-train/
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link [ref=e178] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/destinations/
+                  - heading "Destinations" [level=3] [ref=e179]
+                - list [ref=e180]:
+                  - listitem [ref=e181]:
+                    - link "Trains from London Paddington to Heathrow Airport" [ref=e182] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-paddington-to-heathrow-airport/
+                  - listitem [ref=e183]:
+                    - link "Trains from London to Liverpool" [ref=e184] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-liverpool/
+                  - listitem [ref=e185]:
+                    - link "Trains from London to Birmingham" [ref=e186] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-birmingham/
+                  - listitem [ref=e187]:
+                    - link "Trains from Edinburgh to Kings Cross" [ref=e188] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-edinburgh-to-london-kings-cross/
+                  - listitem [ref=e189]:
+                    - link "Trains from Gatwick Airport to London" [ref=e190] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-gatwick-airport-to-london/
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link [ref=e194] [cursor=pointer]:
+                  - /url: /help-and-assistance/
+                  - heading "Help and Assistance" [level=3] [ref=e195]
+                - list [ref=e196]:
+                  - listitem [ref=e197]:
+                    - link "Compensation and Refunds" [ref=e198] [cursor=pointer]:
+                      - /url: /help-and-assistance/compensation-and-refunds/
+                  - listitem [ref=e199]:
+                    - link "Contact Us" [ref=e200] [cursor=pointer]:
+                      - /url: /help-and-assistance/contact-us/
+                  - listitem [ref=e201]:
+                    - link "Complaints" [ref=e202] [cursor=pointer]:
+                      - /url: /help-and-assistance/complaints/
+                  - listitem [ref=e203]:
+                    - link "Passenger Assist" [ref=e204] [cursor=pointer]:
+                      - /url: /help-and-assistance/passenger-assist/
+                  - listitem [ref=e205]:
+                    - link "Media" [ref=e206] [cursor=pointer]:
+                      - /url: /media/
+                  - listitem [ref=e207]:
+                    - link "Text 61016" [ref=e208] [cursor=pointer]:
+                      - /url: /help-and-assistance/text-61016/
+            - listitem [ref=e209]:
+              - generic [ref=e210]:
+                - link [ref=e212] [cursor=pointer]:
+                  - /url: /on-the-train/
+                  - heading "On the Train" [level=3] [ref=e213]
+                - list [ref=e214]:
+                  - listitem [ref=e215]:
+                    - link "Accessible Train Travel and Facilities" [ref=e216] [cursor=pointer]:
+                      - /url: /on-the-train/accessible-train-travel-and-facilities/
+                  - listitem [ref=e217]:
+                    - link "Train Travel with Bicycles" [ref=e218] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-bicycles/
+                  - listitem [ref=e219]:
+                    - link "Train Travel with Pets" [ref=e220] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-pets/
+                  - listitem [ref=e221]:
+                    - link "Train Travel with Children" [ref=e222] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e223]:
+                    - link "Food and Drink" [ref=e224] [cursor=pointer]:
+                      - /url: /on-the-train/food-and-drink/
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - link "Instagram icon, (external link, opens in a new tab)" [ref=e227] [cursor=pointer]:
+                - /url: https://www.instagram.com/national.rail/
+              - link "Twitter icon, (external link, opens in a new tab)" [ref=e231] [cursor=pointer]:
+                - /url: https://twitter.com/nationalrailenq/
+              - link "Facebook icon, (external link, opens in a new tab)" [ref=e235] [cursor=pointer]:
+                - /url: https://www.facebook.com/nationalrailenq/
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - link "Download on the App Store, (external link, opens in a new tab)" [ref=e241] [cursor=pointer]:
+                  - /url: https://apps.apple.com/gb/app/national-rail/id519094154
+                  - figure [aria-hidden] [ref=e242]
+                - link "Download on the Play Store, (external link, opens in a new tab)" [ref=e244] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=uk.co.nationalrail.google&hl=en_GB
+                  - figure [aria-hidden] [ref=e245]
+              - link "Shaw Trust accessible, (external link, opens in a new tab)" [ref=e248] [cursor=pointer]:
+                - /url: https://www.accessibility-services.co.uk/certificates/national-rail/
+                - figure [aria-hidden] [ref=e249]
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - figure [aria-hidden] [ref=e258]
+            - paragraph [ref=e260]: © 2026
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /about-this-site/
+                - paragraph [ref=e264]: About This Site
+            - listitem [ref=e265]:
+              - link [ref=e266] [cursor=pointer]:
+                - /url: /accessible-information/
+                - paragraph [ref=e267]: Accessible Information
+            - listitem [ref=e268]:
+              - link [ref=e269] [cursor=pointer]:
+                - /url: /careers/
+                - paragraph [ref=e270]: Careers
+            - listitem [ref=e271]:
+              - link [ref=e272] [cursor=pointer]:
+                - /url: /cookie-policy/
+                - paragraph [ref=e273]: Cookies
+            - listitem [ref=e274]:
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /privacy-notice/
+                - paragraph [ref=e276]: Privacy Notice
+            - listitem [ref=e277]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+                - paragraph [ref=e279]: Terms and Conditions
+    - status [ref=e280]
+  - alert [ref=e281]: Journey Planner | Official Train Ticket Info | National Rail
+```

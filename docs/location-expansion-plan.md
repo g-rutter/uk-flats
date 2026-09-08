@@ -225,10 +225,11 @@ There are two honest options.
    check completeness and assemble outputs; they cannot derive a defensible
    judgement from prose links alone.
 
-For national transport, use an approved timetable/API/export if available and
-record a fixed weekday, departure window, origin station, destination station,
-transfer rule and response. If no such source is available, treat journey times
-as a reviewed snapshot and do not claim fully automated collection. For quiet and
+For national transport, use the documented National Rail browser-UI workflow:
+record a fixed weekday, departure window, reviewed origin station, fixed
+destination, transfer rule and retained browser evidence. The collection script
+automates rendered controls and capture only; itinerary selection remains a
+reviewed snapshot. For quiet and
 condition, published noise/map/deprivation datasets can be reproducibly
 extracted, but the conversion to the existing three-band assessments needs an
 approved rubric; deprivation must not become a proxy for appearance or upkeep.

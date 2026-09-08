@@ -1,0 +1,682 @@
+### Page
+- Page URL: https://www.nationalrail.co.uk/journey-planner/?type=single&origin=WRX&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=10&leavingMin=00&adults=1&extraTime=0#O
+- Page Title: Buy Your Tickets - Wrexham General to Birmingham New Street | National Rail
+- Console: 1 errors, 0 warnings
+### Snapshot
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - paragraph [ref=e15]: Advertisement
+            - generic [ref=e19]:
+              - link "National Rail home" [ref=e20] [cursor=pointer]:
+                - /url: /
+                - figure [aria-hidden] [ref=e22]
+              - navigation "header" [ref=e24]:
+                - list [ref=e25]:
+                  - listitem "Live Departures" [ref=e26]:
+                    - link "Live Departures" [ref=e27] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/live-trains/
+                  - listitem "Disruptions , unread" [ref=e32]:
+                    - link "Disruptions, unread" [ref=e33] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/disruptions/
+                      - generic [ref=e37]:
+                        - text: Disruptions
+                        - generic [ref=e38]: ", unread"
+                  - listitem "Plan a Journey" [ref=e39]:
+                    - link "Plan a Journey" [ref=e40] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/journey-planner/
+                  - listitem "My Travel" [ref=e45]:
+                    - link "My Travel" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/my-travel/
+              - button "Open search" [ref=e52] [cursor=pointer]
+            - status [ref=e56]: Unread notifications
+          - navigation "header" [ref=e61]:
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - button "Tickets, Railcards and Offers" [ref=e64] [cursor=pointer]
+              - listitem [ref=e66]:
+                - link "Stations" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/stations/
+              - listitem [ref=e69]:
+                - button "Travel Information" [ref=e70] [cursor=pointer]
+              - listitem [ref=e72]:
+                - button "Help and Assistance" [ref=e73] [cursor=pointer]
+              - listitem [ref=e75]:
+                - link "Status Updates" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/train-operator-status/
+              - listitem [ref=e78]:
+                - link "Engineering Works" [ref=e79] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/engineering-works/
+        - alert [ref=e81]
+      - main [ref=e82]:
+        - generic [ref=e432]:
+          - generic [ref=e437]:
+            - paragraph [ref=e439]: "The journey you are searching for:"
+            - heading [level=1] [ref=e440]:
+              - button "Wrexham General to Birmingham New Street" [expanded] [ref=e441] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e442]:
+                  - text: Wrexham General
+                  - generic [ref=e443]: to
+                  - text: Birmingham New Street
+            - generic [ref=e445]:
+              - generic [ref=e446]: Single Friday 11 September 2026
+              - generic [ref=e447]: • 1 Adult
+              - generic [ref=e448]: • No Railcard
+            - generic [ref=e449]:
+              - button "Edit journey" [ref=e450] [cursor=pointer]
+              - button "Set journey alert" [ref=e455] [cursor=pointer]
+              - button "Favourite journey Wrexham General to Birmingham New Street" [ref=e460] [cursor=pointer]:
+                - generic [ref=e464]: Favourite route
+          - generic [ref=e470]:
+            - region "Please select a journey" [ref=e476]:
+              - generic [ref=e478]:
+                - heading "Please select a journey" [level=2] [ref=e479]
+                - paragraph [ref=e480]: Friday 11 September 2026
+              - generic [ref=e482]:
+                - group "Choose fare class" [ref=e484]:
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - radio "Standard from £21.60" [checked] [ref=e488] [cursor=pointer]
+                      - generic [ref=e490]:
+                        - generic [ref=e491]: Standard
+                        - generic [ref=e492]:
+                          - generic [ref=e493]: from
+                          - generic [ref=e494]: £21.60
+                    - generic [ref=e495]:
+                      - radio "First Class from £52.00" [ref=e496] [cursor=pointer]
+                      - generic [ref=e498]:
+                        - generic [ref=e499]: First Class
+                        - generic [ref=e500]:
+                          - generic [ref=e501]: from
+                          - generic [ref=e502]: £52.00
+                - link "View earlier trains" [ref=e505] [cursor=pointer]:
+                  - /url: /journey-planner/?type=single&origin=WRX&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=10&leavingMin=00&adults=1&extraTime=0#
+              - group "Please select a journey" [ref=e512]:
+                - list [ref=e514]:
+                  - listitem [ref=e515]:
+                    - generic [ref=e516]:
+                      - heading "10:03 journey from Wrexham General to Birmingham New Street" [level=3] [ref=e517]
+                      - generic [ref=e519]:
+                        - generic [ref=e520]:
+                          - generic [ref=e521]: "- Journey 1, Departs, 10:03, from Wrexham General, and Arrives, 11:57, at Birmingham New Street, duration 1 hour, 54 minutes, with 2 changes"
+                          - generic [ref=e522]:
+                            - generic [ref=e523]:
+                              - generic [ref=e524]: Lowest
+                              - generic [ref=e525]:
+                                - generic [ref=e526]: Single from
+                                - generic [ref=e527]: £32.50
+                            - generic [ref=e529]:
+                              - button "Select Lowest Single from £32.50" [ref=e530] [cursor=pointer]: outward-0
+                              - generic [ref=e531]:
+                                - generic [ref=e532] [cursor=pointer]
+                                - generic [ref=e536]: Select
+                        - generic [ref=e538]:
+                          - generic [ref=e539]:
+                            - paragraph [ref=e540]: Departs
+                            - time [ref=e542]: 10:03
+                            - generic [ref=e544]:
+                              - text: Wrexham General
+                              - generic [ref=e545]: (WRX)
+                            - paragraph [ref=e546]: Platform 2
+                          - generic [ref=e551]:
+                            - paragraph [ref=e552]: Arrives
+                            - time [ref=e554]: 11:57
+                            - generic [ref=e556]:
+                              - text: Birmingham New Street
+                              - generic [ref=e557]: (BHM)
+                            - paragraph [ref=e558]: Platform 2A
+                        - 'button "Duration: 1 hour, 54 minutes and, 2 changes" [ref=e561] [cursor=pointer]':
+                          - generic [ref=e562]:
+                            - time [ref=e563]: 1h 54m,
+                            - generic [ref=e564]: and,
+                            - text: 2 changes
+                  - listitem [ref=e565]:
+                    - generic [ref=e566]:
+                      - heading "10:37 journey from Wrexham General to Birmingham New Street" [level=3] [ref=e567]
+                      - generic [ref=e569]:
+                        - generic [ref=e570]:
+                          - generic [ref=e571]: "- Journey 2, Departs, 10:37, from Wrexham General, and Arrives, 12:32, at Birmingham New Street, duration 1 hour, 55 minutes, with 1 change"
+                          - generic [ref=e572]:
+                            - generic [ref=e573]:
+                              - generic [ref=e574]: Lowest
+                              - generic [ref=e575]:
+                                - generic [ref=e576]: Single from
+                                - generic [ref=e577]: £22.70
+                            - generic [ref=e579]:
+                              - button "Select Lowest Single from £22.70" [ref=e580] [cursor=pointer]: outward-1
+                              - generic [ref=e581]:
+                                - generic [ref=e582] [cursor=pointer]
+                                - generic [ref=e586]: Select
+                        - generic [ref=e588]:
+                          - generic [ref=e589]:
+                            - paragraph [ref=e590]: Departs
+                            - time [ref=e592]: 10:37
+                            - generic [ref=e594]:
+                              - text: Wrexham General
+                              - generic [ref=e595]: (WRX)
+                            - paragraph [ref=e596]: Platform 1
+                          - generic [ref=e601]:
+                            - paragraph [ref=e602]: Arrives
+                            - time [ref=e604]: 12:32
+                            - generic [ref=e606]:
+                              - text: Birmingham New Street
+                              - generic [ref=e607]: (BHM)
+                            - paragraph [ref=e608]: Platform 1A
+                        - generic [ref=e609]:
+                          - 'button "Duration: 1 hour, 55 minutes and, 1 change" [ref=e611] [cursor=pointer]':
+                            - generic [ref=e612]:
+                              - time [ref=e613]: 1h 55m,
+                              - generic [ref=e614]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 2" [ref=e616]:
+                            - button "Accessibility" [ref=e617] [cursor=pointer]
+                            - button "Information" [ref=e622] [cursor=pointer]
+                  - listitem [ref=e626]:
+                    - generic [ref=e627]:
+                      - heading "10:38 journey from Wrexham General to Birmingham New Street" [level=3] [ref=e628]
+                      - generic [ref=e630]:
+                        - generic [ref=e631]:
+                          - generic [ref=e632]: "- Journey 3, Departs, 10:38, from Wrexham General, and Arrives, 12:33, at Birmingham New Street, duration 1 hour, 55 minutes, with 2 changes"
+                          - generic [ref=e633]:
+                            - generic [ref=e634]:
+                              - generic [ref=e635]: Lowest
+                              - generic [ref=e636]:
+                                - generic [ref=e637]: Single from
+                                - generic [ref=e638]: £32.50
+                            - generic [ref=e640]:
+                              - button "Select Lowest Single from £32.50" [ref=e641] [cursor=pointer]: outward-2
+                              - generic [ref=e642]:
+                                - generic [ref=e643] [cursor=pointer]
+                                - generic [ref=e647]: Select
+                        - generic [ref=e649]:
+                          - generic [ref=e650]:
+                            - paragraph [ref=e651]: Departs
+                            - time [ref=e653]: 10:38
+                            - generic [ref=e655]:
+                              - text: Wrexham General
+                              - generic [ref=e656]: (WRX)
+                            - paragraph [ref=e657]: Platform 2
+                          - generic [ref=e662]:
+                            - paragraph [ref=e663]: Arrives
+                            - time [ref=e665]: 12:33
+                            - generic [ref=e667]:
+                              - text: Birmingham New Street
+                              - generic [ref=e668]: (BHM)
+                            - paragraph [ref=e669]: Platform 7
+                        - 'button "Duration: 1 hour, 55 minutes and, 2 changes" [ref=e672] [cursor=pointer]':
+                          - generic [ref=e673]:
+                            - time [ref=e674]: 1h 55m,
+                            - generic [ref=e675]: and,
+                            - text: 2 changes
+                  - listitem [ref=e676]:
+                    - generic [ref=e677]:
+                      - heading "10:38 journey from Wrexham General to Birmingham New Street" [level=3] [ref=e678]
+                      - generic [ref=e680]:
+                        - generic [ref=e681]:
+                          - generic [ref=e682]: "- Journey 4, Departs, 10:38, from Wrexham General, and Arrives, 12:48, at Birmingham New Street, duration 2 hours, 10 minutes, with 1 change, This journey will be overtaken by a later departure"
+                          - generic [ref=e683]:
+                            - generic [ref=e684]:
+                              - generic [ref=e685]: Lowest
+                              - generic [ref=e686]:
+                                - generic [ref=e687]: Single from
+                                - generic [ref=e688]: £32.50
+                            - generic [ref=e690]:
+                              - button "Select Lowest Single from £32.50" [ref=e691] [cursor=pointer]: outward-3
+                              - generic [ref=e692]:
+                                - generic [ref=e693] [cursor=pointer]
+                                - generic [ref=e697]: Select
+                        - generic [ref=e700]:
+                          - text: Slower journey
+                          - generic [ref=e701]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e702]:
+                          - generic [ref=e703]:
+                            - paragraph [ref=e704]: Departs
+                            - time [ref=e706]: 10:38
+                            - generic [ref=e708]:
+                              - text: Wrexham General
+                              - generic [ref=e709]: (WRX)
+                            - paragraph [ref=e710]: Platform 2
+                          - generic [ref=e715]:
+                            - paragraph [ref=e716]: Arrives
+                            - time [ref=e718]: 12:48
+                            - generic [ref=e720]:
+                              - text: Birmingham New Street
+                              - generic [ref=e721]: (BHM)
+                            - paragraph [ref=e722]: Platform 4C
+                        - 'button "Duration: 2 hours, 10 minutes and, 1 change" [ref=e725] [cursor=pointer]':
+                          - generic [ref=e726]:
+                            - time [ref=e727]: 2h 10m,
+                            - generic [ref=e728]: and,
+                            - text: 1 change
+                  - listitem [ref=e729]:
+                    - generic [ref=e730]:
+                      - heading "11:03 journey from Wrexham General to Birmingham New Street" [level=3] [ref=e731]
+                      - generic [ref=e733]:
+                        - generic [ref=e734]:
+                          - generic [ref=e735]: "- Journey 5, Departs, 11:03, from Wrexham General, and Arrives, 12:57, at Birmingham New Street, duration 1 hour, 54 minutes, with 2 changes"
+                          - generic [ref=e736]:
+                            - generic [ref=e737]:
+                              - generic [ref=e738]: Lowest
+                              - generic [ref=e739]:
+                                - generic [ref=e740]: Single from
+                                - generic [ref=e741]: £32.50
+                            - generic [ref=e743]:
+                              - button "Select Lowest Single from £32.50" [ref=e744] [cursor=pointer]: outward-4
+                              - generic [ref=e745]:
+                                - generic [ref=e746] [cursor=pointer]
+                                - generic [ref=e750]: Select
+                        - generic [ref=e752]:
+                          - generic [ref=e753]:
+                            - paragraph [ref=e754]: Departs
+                            - time [ref=e756]: 11:03
+                            - generic [ref=e758]:
+                              - text: Wrexham General
+                              - generic [ref=e759]: (WRX)
+                            - paragraph [ref=e760]: Platform 2
+                          - generic [ref=e765]:
+                            - paragraph [ref=e766]: Arrives
+                            - time [ref=e768]: 12:57
+                            - generic [ref=e770]:
+                              - text: Birmingham New Street
+                              - generic [ref=e771]: (BHM)
+                            - paragraph [ref=e772]: Platform 1A
+                        - 'button "Duration: 1 hour, 54 minutes and, 2 changes" [ref=e775] [cursor=pointer]':
+                          - generic [ref=e776]:
+                            - time [ref=e777]: 1h 54m,
+                            - generic [ref=e778]: and,
+                            - text: 2 changes
+                  - listitem [ref=e779]:
+                    - generic [ref=e780]:
+                      - heading "11:40 journey from Wrexham General to Birmingham New Street" [level=3] [ref=e781]
+                      - generic [ref=e783]:
+                        - generic [ref=e784]:
+                          - generic [ref=e785]: "- Journey 6, Departs, 11:40, from Wrexham General, and Arrives, 13:31, at Birmingham New Street, duration 1 hour, 51 minutes, with 0 change, This is the fastest available journey"
+                          - generic [ref=e786]:
+                            - generic [ref=e787]:
+                              - generic [ref=e788]: Lowest
+                              - generic [ref=e789]:
+                                - generic [ref=e790]: Single from
+                                - generic [ref=e791]: £21.60
+                            - generic [ref=e793]:
+                              - button "Select Lowest Single from £21.60" [ref=e794] [cursor=pointer]: outward-5
+                              - generic [ref=e795]:
+                                - generic [ref=e796] [cursor=pointer]
+                                - generic [ref=e800]: Select
+                        - generic [ref=e803]:
+                          - text: Fastest
+                          - generic [ref=e804]: ": This is the fastest available journey"
+                        - generic [ref=e805]:
+                          - generic [ref=e806]:
+                            - paragraph [ref=e807]: Departs
+                            - time [ref=e809]: 11:40
+                            - generic [ref=e811]:
+                              - text: Wrexham General
+                              - generic [ref=e812]: (WRX)
+                            - paragraph [ref=e813]: Platform 1
+                          - generic [ref=e818]:
+                            - paragraph [ref=e819]: Arrives
+                            - time [ref=e821]: 13:31
+                            - generic [ref=e823]:
+                              - text: Birmingham New Street
+                              - generic [ref=e824]: (BHM)
+                            - paragraph [ref=e825]: Platform 1A
+                        - 'button "Duration: 1 hour, 51 minutes and, Direct" [ref=e828] [cursor=pointer]':
+                          - generic [ref=e829]:
+                            - time [ref=e830]: 1h 51m,
+                            - generic [ref=e831]: and,
+                            - text: Direct
+                  - listitem [ref=e832]:
+                    - generic [ref=e833]:
+                      - heading "12:01 journey from Wrexham General to Birmingham New Street" [level=3] [ref=e834]
+                      - generic [ref=e836]:
+                        - generic [ref=e837]:
+                          - generic [ref=e838]: "- Journey 7, Departs, 12:01, from Wrexham General, and Arrives, 13:57, at Birmingham New Street, duration 1 hour, 56 minutes, with 2 changes"
+                          - generic [ref=e839]:
+                            - generic [ref=e840]:
+                              - generic [ref=e841]: Lowest
+                              - generic [ref=e842]:
+                                - generic [ref=e843]: Single from
+                                - generic [ref=e844]: £32.50
+                            - generic [ref=e846]:
+                              - button "Select Lowest Single from £32.50" [ref=e847] [cursor=pointer]: outward-6
+                              - generic [ref=e848]:
+                                - generic [ref=e849] [cursor=pointer]
+                                - generic [ref=e853]: Select
+                        - generic [ref=e855]:
+                          - generic [ref=e856]:
+                            - paragraph [ref=e857]: Departs
+                            - time [ref=e859]: 12:01
+                            - generic [ref=e861]:
+                              - text: Wrexham General
+                              - generic [ref=e862]: (WRX)
+                            - paragraph [ref=e863]: Platform 2
+                          - generic [ref=e868]:
+                            - paragraph [ref=e869]: Arrives
+                            - time [ref=e871]: 13:57
+                            - generic [ref=e873]:
+                              - text: Birmingham New Street
+                              - generic [ref=e874]: (BHM)
+                            - paragraph [ref=e875]: Platform 1A
+                        - 'button "Duration: 1 hour, 56 minutes and, 2 changes" [ref=e878] [cursor=pointer]':
+                          - generic [ref=e879]:
+                            - time [ref=e880]: 1h 56m,
+                            - generic [ref=e881]: and,
+                            - text: 2 changes
+                  - listitem [ref=e882]:
+                    - generic [ref=e883]:
+                      - heading "12:41 journey from Wrexham General to Birmingham New Street" [level=3] [ref=e884]
+                      - generic [ref=e886]:
+                        - generic [ref=e887]:
+                          - generic [ref=e888]: "- Journey 8, Departs, 12:41, from Wrexham General, and Arrives, 14:32, at Birmingham New Street, duration 1 hour, 51 minutes, with 1 change"
+                          - generic [ref=e889]:
+                            - generic [ref=e890]:
+                              - generic [ref=e891]: Lowest
+                              - generic [ref=e892]:
+                                - generic [ref=e893]: Single from
+                                - generic [ref=e894]: £22.70
+                            - generic [ref=e896]:
+                              - button "Select Lowest Single from £22.70" [ref=e897] [cursor=pointer]: outward-7
+                              - generic [ref=e898]:
+                                - generic [ref=e899] [cursor=pointer]
+                                - generic [ref=e903]: Select
+                        - generic [ref=e905]:
+                          - generic [ref=e906]:
+                            - paragraph [ref=e907]: Departs
+                            - time [ref=e909]: 12:41
+                            - generic [ref=e911]:
+                              - text: Wrexham General
+                              - generic [ref=e912]: (WRX)
+                            - paragraph [ref=e913]: Platform 1
+                          - generic [ref=e918]:
+                            - paragraph [ref=e919]: Arrives
+                            - time [ref=e921]: 14:32
+                            - generic [ref=e923]:
+                              - text: Birmingham New Street
+                              - generic [ref=e924]: (BHM)
+                            - paragraph [ref=e925]: Platform 1A
+                        - generic [ref=e926]:
+                          - 'button "Duration: 1 hour, 51 minutes and, 1 change" [ref=e928] [cursor=pointer]':
+                            - generic [ref=e929]:
+                              - time [ref=e930]: 1h 51m,
+                              - generic [ref=e931]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 8" [ref=e933]:
+                            - button "Accessibility" [ref=e934] [cursor=pointer]
+                            - button "Information" [ref=e939] [cursor=pointer]
+                  - listitem [ref=e943]:
+                    - generic [ref=e944]:
+                      - heading "13:03 journey from Wrexham General to Birmingham New Street" [level=3] [ref=e945]
+                      - generic [ref=e947]:
+                        - generic [ref=e948]:
+                          - generic [ref=e949]: "- Journey 9, Departs, 13:03, from Wrexham General, and Arrives, 14:57, at Birmingham New Street, duration 1 hour, 54 minutes, with 2 changes"
+                          - generic [ref=e950]:
+                            - generic [ref=e951]:
+                              - generic [ref=e952]: Lowest
+                              - generic [ref=e953]:
+                                - generic [ref=e954]: Single from
+                                - generic [ref=e955]: £32.50
+                            - generic [ref=e957]:
+                              - button "Select Lowest Single from £32.50" [ref=e958] [cursor=pointer]: outward-8
+                              - generic [ref=e959]:
+                                - generic [ref=e960] [cursor=pointer]
+                                - generic [ref=e964]: Select
+                        - generic [ref=e966]:
+                          - generic [ref=e967]:
+                            - paragraph [ref=e968]: Departs
+                            - time [ref=e970]: 13:03
+                            - generic [ref=e972]:
+                              - text: Wrexham General
+                              - generic [ref=e973]: (WRX)
+                            - paragraph [ref=e974]: Platform 2
+                          - generic [ref=e979]:
+                            - paragraph [ref=e980]: Arrives
+                            - time [ref=e982]: 14:57
+                            - generic [ref=e984]:
+                              - text: Birmingham New Street
+                              - generic [ref=e985]: (BHM)
+                            - paragraph [ref=e986]: Platform 1A
+                        - 'button "Duration: 1 hour, 54 minutes and, 2 changes" [ref=e989] [cursor=pointer]':
+                          - generic [ref=e990]:
+                            - time [ref=e991]: 1h 54m,
+                            - generic [ref=e992]: and,
+                            - text: 2 changes
+                  - listitem [ref=e993]:
+                    - generic [ref=e994]:
+                      - heading "13:40 journey from Wrexham General to Birmingham New Street" [level=3] [ref=e995]
+                      - generic [ref=e997]:
+                        - generic [ref=e998]:
+                          - generic [ref=e999]: "- Journey 10, Departs, 13:40, from Wrexham General, and Arrives, 15:32, at Birmingham New Street, duration 1 hour, 52 minutes, with 0 change"
+                          - generic [ref=e1000]:
+                            - generic [ref=e1001]:
+                              - generic [ref=e1002]: Lowest
+                              - generic [ref=e1003]:
+                                - generic [ref=e1004]: Single from
+                                - generic [ref=e1005]: £21.60
+                            - generic [ref=e1007]:
+                              - button "Select Lowest Single from £21.60" [ref=e1008] [cursor=pointer]: outward-9
+                              - generic [ref=e1009]:
+                                - generic [ref=e1010] [cursor=pointer]
+                                - generic [ref=e1014]: Select
+                        - generic [ref=e1016]:
+                          - generic [ref=e1017]:
+                            - paragraph [ref=e1018]: Departs
+                            - time [ref=e1020]: 13:40
+                            - generic [ref=e1022]:
+                              - text: Wrexham General
+                              - generic [ref=e1023]: (WRX)
+                            - paragraph [ref=e1024]: Platform 1
+                          - generic [ref=e1029]:
+                            - paragraph [ref=e1030]: Arrives
+                            - time [ref=e1032]: 15:32
+                            - generic [ref=e1034]:
+                              - text: Birmingham New Street
+                              - generic [ref=e1035]: (BHM)
+                            - paragraph [ref=e1036]: Platform 1A
+                        - 'button "Duration: 1 hour, 52 minutes and, Direct" [ref=e1039] [cursor=pointer]':
+                          - generic [ref=e1040]:
+                            - time [ref=e1041]: 1h 52m,
+                            - generic [ref=e1042]: and,
+                            - text: Direct
+              - link "View later trains" [ref=e1047] [cursor=pointer]:
+                - /url: /journey-planner/?type=single&origin=WRX&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=10&leavingMin=00&adults=1&extraTime=0#
+            - generic [ref=e1054]:
+              - generic [ref=e1057]:
+                - heading "Total £0" [level=2] [ref=e1058]:
+                  - generic [ref=e1059]: Total
+                  - generic [ref=e1060]: £0
+                - link "Continue Review tickets and options" [ref=e1062] [cursor=pointer]:
+                  - /url: "#TD"
+                  - generic [ref=e1063]: Continue
+                  - generic [ref=e1068]: Review tickets and options
+                - paragraph [ref=e1069]: 1 Adult, No Railcard
+                - generic [ref=e1070]:
+                  - generic [ref=e1071]:
+                    - heading "Outward journey" [level=3] [ref=e1072]
+                    - paragraph [ref=e1073]: Not selected
+                  - generic [ref=e1074]:
+                    - heading "Return journey" [level=3] [ref=e1075]
+                    - button "Add return journey" [ref=e1076] [cursor=pointer]
+              - paragraph [ref=e1085]: Advertisement
+          - paragraph [ref=e1091]: Advertisement
+        - alert [ref=e1092]
+        - status [ref=e1093]: Please select a valid journey
+        - status [ref=e1094]: Outward results, step 1 of 2
+        - status [ref=e1095]: Currently viewing scheduled services
+        - alert [ref=e1096]
+      - contentinfo [ref=e130]:
+        - generic [ref=e133]:
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - link [ref=e138] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/
+                  - heading "Tickets, Railcards and Offers" [level=3] [ref=e139]
+                - list [ref=e140]:
+                  - listitem [ref=e141]:
+                    - link "Buying a Ticket" [ref=e142] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/buying-a-ticket/
+                  - listitem [ref=e143]:
+                    - link "Ticket Types" [ref=e144] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/ticket-types/
+                  - listitem [ref=e145]:
+                    - link "Railcards" [ref=e146] [cursor=pointer]:
+                      - /url: /railcards/
+                  - listitem [ref=e147]:
+                    - link "Saving Money" [ref=e148] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/saving-money/
+            - listitem [ref=e149]:
+              - generic [ref=e150]:
+                - link [ref=e152] [cursor=pointer]:
+                  - /url: /stations/
+                  - heading "Stations and Train Companies" [level=3] [ref=e153]
+                - list [ref=e154]:
+                  - listitem [ref=e155]:
+                    - link "Find a Station" [ref=e156] [cursor=pointer]:
+                      - /url: /stations/
+                  - listitem [ref=e157]:
+                    - link "Find a Train Company" [ref=e158] [cursor=pointer]:
+                      - /url: /travel-information/find-a-train-company/
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - link [ref=e162] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/discover-by-train/
+                  - heading "Discover by Train" [level=3] [ref=e163]
+                - list [ref=e164]:
+                  - listitem [ref=e165]:
+                    - link "Children and Families" [ref=e166] [cursor=pointer]:
+                      - /url: /discover-by-train/children-and-families/
+                  - listitem [ref=e167]:
+                    - link "Train Travel with Children" [ref=e168] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e169]:
+                    - link "Great British Destinations" [ref=e170] [cursor=pointer]:
+                      - /url: /discover-by-train/great-british-destinations/
+                  - listitem [ref=e171]:
+                    - link "Seasonal Inspiration" [ref=e172] [cursor=pointer]:
+                      - /url: /discover-by-train/seasonal-inspiration/
+                  - listitem [ref=e173]:
+                    - link "Places to Visit by Train" [ref=e174] [cursor=pointer]:
+                      - /url: /discover-by-train/places-to-visit-by-train/
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link [ref=e178] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/destinations/
+                  - heading "Destinations" [level=3] [ref=e179]
+                - list [ref=e180]:
+                  - listitem [ref=e181]:
+                    - link "Trains from London Paddington to Heathrow Airport" [ref=e182] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-paddington-to-heathrow-airport/
+                  - listitem [ref=e183]:
+                    - link "Trains from London to Liverpool" [ref=e184] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-liverpool/
+                  - listitem [ref=e185]:
+                    - link "Trains from London to Birmingham" [ref=e186] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-birmingham/
+                  - listitem [ref=e187]:
+                    - link "Trains from Edinburgh to Kings Cross" [ref=e188] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-edinburgh-to-london-kings-cross/
+                  - listitem [ref=e189]:
+                    - link "Trains from Gatwick Airport to London" [ref=e190] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-gatwick-airport-to-london/
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link [ref=e194] [cursor=pointer]:
+                  - /url: /help-and-assistance/
+                  - heading "Help and Assistance" [level=3] [ref=e195]
+                - list [ref=e196]:
+                  - listitem [ref=e197]:
+                    - link "Compensation and Refunds" [ref=e198] [cursor=pointer]:
+                      - /url: /help-and-assistance/compensation-and-refunds/
+                  - listitem [ref=e199]:
+                    - link "Contact Us" [ref=e200] [cursor=pointer]:
+                      - /url: /help-and-assistance/contact-us/
+                  - listitem [ref=e201]:
+                    - link "Complaints" [ref=e202] [cursor=pointer]:
+                      - /url: /help-and-assistance/complaints/
+                  - listitem [ref=e203]:
+                    - link "Passenger Assist" [ref=e204] [cursor=pointer]:
+                      - /url: /help-and-assistance/passenger-assist/
+                  - listitem [ref=e205]:
+                    - link "Media" [ref=e206] [cursor=pointer]:
+                      - /url: /media/
+                  - listitem [ref=e207]:
+                    - link "Text 61016" [ref=e208] [cursor=pointer]:
+                      - /url: /help-and-assistance/text-61016/
+            - listitem [ref=e209]:
+              - generic [ref=e210]:
+                - link [ref=e212] [cursor=pointer]:
+                  - /url: /on-the-train/
+                  - heading "On the Train" [level=3] [ref=e213]
+                - list [ref=e214]:
+                  - listitem [ref=e215]:
+                    - link "Accessible Train Travel and Facilities" [ref=e216] [cursor=pointer]:
+                      - /url: /on-the-train/accessible-train-travel-and-facilities/
+                  - listitem [ref=e217]:
+                    - link "Train Travel with Bicycles" [ref=e218] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-bicycles/
+                  - listitem [ref=e219]:
+                    - link "Train Travel with Pets" [ref=e220] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-pets/
+                  - listitem [ref=e221]:
+                    - link "Train Travel with Children" [ref=e222] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e223]:
+                    - link "Food and Drink" [ref=e224] [cursor=pointer]:
+                      - /url: /on-the-train/food-and-drink/
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - link "Instagram icon, (external link, opens in a new tab)" [ref=e227] [cursor=pointer]:
+                - /url: https://www.instagram.com/national.rail/
+              - link "Twitter icon, (external link, opens in a new tab)" [ref=e231] [cursor=pointer]:
+                - /url: https://twitter.com/nationalrailenq/
+              - link "Facebook icon, (external link, opens in a new tab)" [ref=e235] [cursor=pointer]:
+                - /url: https://www.facebook.com/nationalrailenq/
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - link "Download on the App Store, (external link, opens in a new tab)" [ref=e241] [cursor=pointer]:
+                  - /url: https://apps.apple.com/gb/app/national-rail/id519094154
+                  - figure [aria-hidden] [ref=e242]
+                - link "Download on the Play Store, (external link, opens in a new tab)" [ref=e244] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=uk.co.nationalrail.google&hl=en_GB
+                  - figure [aria-hidden] [ref=e245]
+              - link "Shaw Trust accessible, (external link, opens in a new tab)" [ref=e248] [cursor=pointer]:
+                - /url: https://www.accessibility-services.co.uk/certificates/national-rail/
+                - figure [aria-hidden] [ref=e249]
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - figure [aria-hidden] [ref=e258]
+            - paragraph [ref=e260]: © 2026
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /about-this-site/
+                - paragraph [ref=e264]: About This Site
+            - listitem [ref=e265]:
+              - link [ref=e266] [cursor=pointer]:
+                - /url: /accessible-information/
+                - paragraph [ref=e267]: Accessible Information
+            - listitem [ref=e268]:
+              - link [ref=e269] [cursor=pointer]:
+                - /url: /careers/
+                - paragraph [ref=e270]: Careers
+            - listitem [ref=e271]:
+              - link [ref=e272] [cursor=pointer]:
+                - /url: /cookie-policy/
+                - paragraph [ref=e273]: Cookies
+            - listitem [ref=e274]:
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /privacy-notice/
+                - paragraph [ref=e276]: Privacy Notice
+            - listitem [ref=e277]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+                - paragraph [ref=e279]: Terms and Conditions
+    - status [ref=e280]
+  - alert [ref=e281]: Journey Planner | Official Train Ticket Info | National Rail
+```

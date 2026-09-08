@@ -1,0 +1,5 @@
+location_id,station_crs,station_name,selection_reason,confidence,evidence_ids
+cardiff,CDF,Cardiff Central,"Visible National Rail planner suggestion for broad-place search Cardiff; selected the central primary National Rail station rather than Cardiff Bay, Queen Street or the all-stations group.",High,TR-NATIONAL-20260908-STATION-MAPPINGS-C
+bangor,BNG,Bangor (Gwynedd),"Visible National Rail planner suggestion for broad-place search Bangor; the sole matching station result was Bangor (Gwynedd) (BNG).",High,TR-NATIONAL-20260908-STATION-MAPPINGS-C
+reading,RDG,Reading,"Visible National Rail planner suggestion for broad-place search Reading; selected the main Reading (RDG) station rather than Reading West, Reading Green Park, Reading Bus or the all-stations group.",High,TR-NATIONAL-20260908-STATION-MAPPINGS-C
+wrexham,WRX,Wrexham General,"Visible National Rail planner suggestion for broad-place search Wrexham; selected Wrexham General as the principal mainline station rather than Wrexham Central or the all-stations group.",Medium,TR-NATIONAL-20260908-STATION-MAPPINGS-C

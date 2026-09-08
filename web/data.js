@@ -9500,6 +9500,18 @@ window.FLATS_DATA = {
       "limitations": "Dated public-planner snapshot. The 104-minute one-change selection is the shortest suitable itinerary displayed for departures in 10:00-14:00 after one later-results action. It is not a guarantee, fare/accessibility assessment, frequency measure or door-to-door time. London route and remaining pilot locations are incomplete."
     },
     {
+      "id": "TR-NATIONAL-20260908-PILOT-BARNSLEY-LONDON",
+      "workstream": "transport",
+      "title": "National Rail Journey Planner: Barnsley to London all-stations pilot",
+      "publisher": "Rail Delivery Group",
+      "url": "https://www.nationalrail.co.uk/journey-planner/",
+      "dataPeriod": "Journey date 2026-09-11; query/retrieval 2026-09-08",
+      "retrievalDate": "2026-09-08",
+      "geography": "Barnsley (BNY) to London (All Stations) group 182",
+      "coverage": "Four visible result captures and expanded selected-itinerary details in 2026-09-08-national-transport-pilot-barnsley-london-resumable",
+      "limitations": "Dated station-to-station planner snapshot. The selected 155-minute two-change itinerary is the shortest displayed suitable departure in the documented 10:00-14:00 window. It is not guaranteed, door-to-door, fare, frequency or accessibility evidence. Review-only pending the complete pilot."
+    },
+    {
       "id": "TR-NATIONAL-20260908-ENDPOINT-CHECK",
       "workstream": "transport",
       "title": "National Rail Journey Planner: London all-stations endpoint selection check",
@@ -9510,6 +9522,42 @@ window.FLATS_DATA = {
       "geography": "Barnsley (BNY) selected as origin; London endpoint control",
       "coverage": "Two retained form screenshots and manifest entries in 2026-09-08-national-transport-pilot",
       "limitations": "The text 'London Terminals' returned no station, but searching 'London' visibly offered and accepted 'London (All Stations)'. These configuration checks are not journey observations or evidence that no London route exists. The documented method uses the visible all-stations group consistently."
+    },
+    {
+      "id": "TR-NATIONAL-20260908-STATION-MAPPINGS-A",
+      "workstream": "transport",
+      "title": "National Rail Journey Planner: pilot origin-station mappings A",
+      "publisher": "Rail Delivery Group",
+      "url": "https://www.nationalrail.co.uk/journey-planner/",
+      "dataPeriod": "Visible origin-station searches 2026-09-08",
+      "retrievalDate": "2026-09-08",
+      "geography": "Birmingham, Wolverhampton, Leeds and Manchester",
+      "coverage": "Four CRS-labelled form captures and manifest in 2026-09-08-national-transport-station-mappings-a",
+      "limitations": "Visible station selections establish the reviewed National Rail origin used for later route observations. They are not journey-time evidence and do not establish accessibility from every part of each broad place."
+    },
+    {
+      "id": "TR-NATIONAL-20260908-STATIONS-B",
+      "workstream": "transport",
+      "title": "National Rail Journey Planner: pilot origin-station mappings B",
+      "publisher": "Rail Delivery Group",
+      "url": "https://www.nationalrail.co.uk/journey-planner/",
+      "dataPeriod": "Visible origin-station searches 2026-09-08",
+      "retrievalDate": "2026-09-08",
+      "geography": "Brighton & Hove, Liverpool and Newcastle upon Tyne",
+      "coverage": "Six CRS-labelled form captures and manifest in 2026-09-08-national-transport-station-mappings-b",
+      "limitations": "Visible station selections establish the reviewed National Rail origin used for later route observations. Search refinements for broad-place naming are retained; mappings are not journey-time or whole-place accessibility evidence."
+    },
+    {
+      "id": "TR-NATIONAL-20260908-STATION-MAPPINGS-C",
+      "workstream": "transport",
+      "title": "National Rail Journey Planner: pilot origin-station mappings C",
+      "publisher": "Rail Delivery Group",
+      "url": "https://www.nationalrail.co.uk/journey-planner/",
+      "dataPeriod": "Visible origin-station searches 2026-09-08",
+      "retrievalDate": "2026-09-08",
+      "geography": "Cardiff, Bangor, Reading and Wrexham",
+      "coverage": "Four CRS-labelled form captures and manifest in 2026-09-08-national-transport-station-mappings-c",
+      "limitations": "Visible station selections establish the reviewed National Rail origin used for later route observations. Wrexham General is a documented principal-station choice over Wrexham Central; mappings are not journey-time evidence."
     },
     {
       "id": "TR02",

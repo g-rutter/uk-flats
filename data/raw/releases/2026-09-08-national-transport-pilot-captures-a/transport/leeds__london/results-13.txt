@@ -1,0 +1,671 @@
+### Page
+- Page URL: https://www.nationalrail.co.uk/journey-planner/?type=single&origin=LDS&destination=182&leavingType=departing&leavingDate=110926&leavingHour=13&leavingMin=00&adults=1&extraTime=0#O
+- Page Title: Buy Your Tickets - Leeds to London | National Rail
+- Console: 1 errors, 1 warnings
+### Snapshot
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - paragraph [ref=e15]: Advertisement
+            - generic [ref=e19]:
+              - link "National Rail home" [ref=e20] [cursor=pointer]:
+                - /url: /
+                - figure [aria-hidden] [ref=e22]
+              - navigation "header" [ref=e24]:
+                - list [ref=e25]:
+                  - listitem "Live Departures" [ref=e26]:
+                    - link "Live Departures" [ref=e27] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/live-trains/
+                  - listitem "Disruptions , unread" [ref=e32]:
+                    - link "Disruptions, unread" [ref=e33] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/disruptions/
+                      - generic [ref=e37]:
+                        - text: Disruptions
+                        - generic [ref=e38]: ", unread"
+                  - listitem "Plan a Journey" [ref=e39]:
+                    - link "Plan a Journey" [ref=e40] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/journey-planner/
+                  - listitem "My Travel" [ref=e45]:
+                    - link "My Travel" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/my-travel/
+              - button "Open search" [ref=e52] [cursor=pointer]
+            - status [ref=e56]: Unread notifications
+          - navigation "header" [ref=e61]:
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - button "Tickets, Railcards and Offers" [ref=e64] [cursor=pointer]
+              - listitem [ref=e66]:
+                - link "Stations" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/stations/
+              - listitem [ref=e69]:
+                - button "Travel Information" [ref=e70] [cursor=pointer]
+              - listitem [ref=e72]:
+                - button "Help and Assistance" [ref=e73] [cursor=pointer]
+              - listitem [ref=e75]:
+                - link "Status Updates" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/train-operator-status/
+              - listitem [ref=e78]:
+                - link "Engineering Works" [ref=e79] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/engineering-works/
+        - alert [ref=e81]
+      - main [ref=e82]:
+        - generic [ref=e432]:
+          - generic [ref=e437]:
+            - paragraph [ref=e439]: "The journey you are searching for:"
+            - heading [level=1] [ref=e440]:
+              - button "Leeds to London" [expanded] [ref=e441] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e442]:
+                  - text: Leeds
+                  - generic [ref=e443]: to
+                  - text: London
+            - generic [ref=e445]:
+              - generic [ref=e446]: Single Friday 11 September 2026
+              - generic [ref=e447]: • 1 Adult
+              - generic [ref=e448]: • No Railcard
+            - generic [ref=e449]:
+              - button "Edit journey" [ref=e450] [cursor=pointer]
+              - button "Set journey alert" [ref=e455] [cursor=pointer]
+              - button "Favourite journey Leeds to London" [ref=e460] [cursor=pointer]:
+                - generic [ref=e464]: Favourite route
+          - generic [ref=e470]:
+            - region "Please select a journey" [ref=e476]:
+              - generic [ref=e478]:
+                - heading "Please select a journey" [level=2] [ref=e479]
+                - paragraph [ref=e480]: Friday 11 September 2026
+              - generic [ref=e482]:
+                - group "Choose fare class" [ref=e484]:
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - radio "Standard from £39.40" [checked] [ref=e488] [cursor=pointer]
+                      - generic [ref=e490]:
+                        - generic [ref=e491]: Standard
+                        - generic [ref=e492]:
+                          - generic [ref=e493]: from
+                          - generic [ref=e494]: £39.40
+                    - generic [ref=e495]:
+                      - radio "First Class from £67.50" [ref=e496] [cursor=pointer]
+                      - generic [ref=e498]:
+                        - generic [ref=e499]: First Class
+                        - generic [ref=e500]:
+                          - generic [ref=e501]: from
+                          - generic [ref=e502]: £67.50
+                - link "View earlier trains" [ref=e505] [cursor=pointer]:
+                  - /url: /journey-planner/?type=single&origin=LDS&destination=182&leavingType=departing&leavingDate=110926&leavingHour=13&leavingMin=00&adults=1&extraTime=0#
+              - group "Please select a journey" [ref=e512]:
+                - list [ref=e514]:
+                  - listitem [ref=e515]:
+                    - generic [ref=e516]:
+                      - heading "13:10 journey from Leeds to London Kings Cross" [level=3] [ref=e517]
+                      - generic [ref=e519]:
+                        - generic [ref=e520]:
+                          - generic [ref=e521]: "- Journey 1, Departs, 13:10, from Leeds, and Arrives, 15:23, at London Kings Cross, duration 2 hours, 13 minutes, with 0 change"
+                          - generic [ref=e522]:
+                            - generic [ref=e523]:
+                              - generic [ref=e524]: Lowest
+                              - generic [ref=e525]:
+                                - generic [ref=e526]: Single from
+                                - generic [ref=e527]: £39.40
+                            - generic [ref=e529]:
+                              - button "Select Lowest Single from £39.40" [ref=e530] [cursor=pointer]: outward-0
+                              - generic [ref=e531]:
+                                - generic [ref=e532] [cursor=pointer]
+                                - generic [ref=e536]: Select
+                        - generic [ref=e538]:
+                          - generic [ref=e539]:
+                            - paragraph [ref=e540]: Departs
+                            - time [ref=e542]: 13:10
+                            - generic [ref=e544]:
+                              - text: Leeds
+                              - generic [ref=e545]: (LDS)
+                            - paragraph [ref=e546]: Platform 6
+                          - generic [ref=e551]:
+                            - paragraph [ref=e552]: Arrives
+                            - time [ref=e554]: 15:23
+                            - generic [ref=e556]:
+                              - text: London Kings Cross
+                              - generic [ref=e557]: (KGX)
+                            - paragraph [ref=e558]: Platform 4
+                        - 'button "Duration: 2 hours, 13 minutes and, Direct" [ref=e561] [cursor=pointer]':
+                          - generic [ref=e562]:
+                            - time [ref=e563]: 2h 13m,
+                            - generic [ref=e564]: and,
+                            - text: Direct
+                  - listitem [ref=e565]:
+                    - generic [ref=e566]:
+                      - heading "13:40 journey from Leeds to London Kings Cross" [level=3] [ref=e567]
+                      - generic [ref=e569]:
+                        - generic [ref=e570]:
+                          - generic [ref=e571]: "- Journey 2, Departs, 13:40, from Leeds, and Arrives, 15:55, at London Kings Cross, duration 2 hours, 15 minutes, with 0 change"
+                          - generic [ref=e572]:
+                            - generic [ref=e573]:
+                              - generic [ref=e574]: Lowest
+                              - generic [ref=e575]:
+                                - generic [ref=e576]: Single from
+                                - generic [ref=e577]: £39.40
+                            - generic [ref=e579]:
+                              - button "Select Lowest Single from £39.40" [ref=e580] [cursor=pointer]: outward-1
+                              - generic [ref=e581]:
+                                - generic [ref=e582] [cursor=pointer]
+                                - generic [ref=e586]: Select
+                        - generic [ref=e588]:
+                          - generic [ref=e589]:
+                            - paragraph [ref=e590]: Departs
+                            - time [ref=e592]: 13:40
+                            - generic [ref=e594]:
+                              - text: Leeds
+                              - generic [ref=e595]: (LDS)
+                            - paragraph [ref=e596]: Platform 8
+                          - generic [ref=e601]:
+                            - paragraph [ref=e602]: Arrives
+                            - time [ref=e604]: 15:55
+                            - generic [ref=e606]:
+                              - text: London Kings Cross
+                              - generic [ref=e607]: (KGX)
+                            - paragraph [ref=e608]: Platform 7
+                        - 'button "Duration: 2 hours, 15 minutes and, Direct" [ref=e611] [cursor=pointer]':
+                          - generic [ref=e612]:
+                            - time [ref=e613]: 2h 15m,
+                            - generic [ref=e614]: and,
+                            - text: Direct
+                  - listitem [ref=e615]:
+                    - generic [ref=e616]:
+                      - heading "13:43 journey from Leeds to London Kings Cross" [level=3] [ref=e617]
+                      - generic [ref=e619]:
+                        - generic [ref=e620]:
+                          - generic [ref=e621]: "- Journey 3, Departs, 13:43, from Leeds, and Arrives, 16:17, at London Kings Cross, duration 2 hours, 34 minutes, with 1 change"
+                          - generic [ref=e622]:
+                            - generic [ref=e623]:
+                              - generic [ref=e624]: Lowest
+                              - generic [ref=e625]:
+                                - generic [ref=e626]: Single from
+                                - generic [ref=e627]: £71.40
+                            - generic [ref=e629]:
+                              - button "Select Lowest Single from £71.40" [ref=e630] [cursor=pointer]: outward-2
+                              - generic [ref=e631]:
+                                - generic [ref=e632] [cursor=pointer]
+                                - generic [ref=e636]: Select
+                        - generic [ref=e638]:
+                          - generic [ref=e639]:
+                            - paragraph [ref=e640]: Departs
+                            - time [ref=e642]: 13:43
+                            - generic [ref=e644]:
+                              - text: Leeds
+                              - generic [ref=e645]: (LDS)
+                            - paragraph [ref=e646]: Platform 15
+                          - generic [ref=e651]:
+                            - paragraph [ref=e652]: Arrives
+                            - time [ref=e654]: 16:17
+                            - generic [ref=e656]:
+                              - text: London Kings Cross
+                              - generic [ref=e657]: (KGX)
+                            - paragraph [ref=e658]: Platform 4
+                        - 'button "Duration: 2 hours, 34 minutes and, 1 change" [ref=e661] [cursor=pointer]':
+                          - generic [ref=e662]:
+                            - time [ref=e663]: 2h 34m,
+                            - generic [ref=e664]: and,
+                            - text: 1 change
+                  - listitem [ref=e665]:
+                    - generic [ref=e666]:
+                      - heading "14:10 journey from Leeds to London Kings Cross" [level=3] [ref=e667]
+                      - generic [ref=e669]:
+                        - generic [ref=e670]:
+                          - generic [ref=e671]: "- Journey 4, Departs, 14:10, from Leeds, and Arrives, 16:22, at London Kings Cross, duration 2 hours, 12 minutes, with 0 change"
+                          - generic [ref=e672]:
+                            - generic [ref=e673]:
+                              - generic [ref=e674]: Lowest
+                              - generic [ref=e675]:
+                                - generic [ref=e676]: Single from
+                                - generic [ref=e677]: £43.90
+                            - generic [ref=e679]:
+                              - button "Select Lowest Single from £43.90" [ref=e680] [cursor=pointer]: outward-3
+                              - generic [ref=e681]:
+                                - generic [ref=e682] [cursor=pointer]
+                                - generic [ref=e686]: Select
+                        - generic [ref=e688]:
+                          - generic [ref=e689]:
+                            - paragraph [ref=e690]: Departs
+                            - time [ref=e692]: 14:10
+                            - generic [ref=e694]:
+                              - text: Leeds
+                              - generic [ref=e695]: (LDS)
+                            - paragraph [ref=e696]: Platform 11B
+                          - generic [ref=e701]:
+                            - paragraph [ref=e702]: Arrives
+                            - time [ref=e704]: 16:22
+                            - generic [ref=e706]:
+                              - text: London Kings Cross
+                              - generic [ref=e707]: (KGX)
+                            - paragraph [ref=e708]: Platform 6
+                        - 'button "Duration: 2 hours, 12 minutes and, Direct" [ref=e711] [cursor=pointer]':
+                          - generic [ref=e712]:
+                            - time [ref=e713]: 2h 12m,
+                            - generic [ref=e714]: and,
+                            - text: Direct
+                  - listitem [ref=e715]:
+                    - generic [ref=e716]:
+                      - heading "14:40 journey from Leeds to London Kings Cross" [level=3] [ref=e717]
+                      - generic [ref=e719]:
+                        - generic [ref=e720]:
+                          - generic [ref=e721]: "- Journey 5, Departs, 14:40, from Leeds, and Arrives, 16:53, at London Kings Cross, duration 2 hours, 13 minutes, with 0 change"
+                          - generic [ref=e722]:
+                            - generic [ref=e723]:
+                              - generic [ref=e724]: Lowest
+                              - generic [ref=e725]:
+                                - generic [ref=e726]: Single from
+                                - generic [ref=e727]: £43.90
+                            - generic [ref=e729]:
+                              - button "Select Lowest Single from £43.90" [ref=e730] [cursor=pointer]: outward-4
+                              - generic [ref=e731]:
+                                - generic [ref=e732] [cursor=pointer]
+                                - generic [ref=e736]: Select
+                        - generic [ref=e738]:
+                          - generic [ref=e739]:
+                            - paragraph [ref=e740]: Departs
+                            - time [ref=e742]: 14:40
+                            - generic [ref=e744]:
+                              - text: Leeds
+                              - generic [ref=e745]: (LDS)
+                            - paragraph [ref=e746]: Platform 6
+                          - generic [ref=e751]:
+                            - paragraph [ref=e752]: Arrives
+                            - time [ref=e754]: 16:53
+                            - generic [ref=e756]:
+                              - text: London Kings Cross
+                              - generic [ref=e757]: (KGX)
+                            - paragraph [ref=e758]: Platform 3
+                        - 'button "Duration: 2 hours, 13 minutes and, Direct" [ref=e761] [cursor=pointer]':
+                          - generic [ref=e762]:
+                            - time [ref=e763]: 2h 13m,
+                            - generic [ref=e764]: and,
+                            - text: Direct
+                  - listitem [ref=e765]:
+                    - generic [ref=e766]:
+                      - heading "14:42 journey from Leeds to London Kings Cross" [level=3] [ref=e767]
+                      - generic [ref=e769]:
+                        - generic [ref=e770]:
+                          - generic [ref=e771]: "- Journey 6, Departs, 14:42, from Leeds, and Arrives, 17:10, at London Kings Cross, duration 2 hours, 28 minutes, with 1 change"
+                          - generic [ref=e772]:
+                            - generic [ref=e773]:
+                              - generic [ref=e774]: Lowest
+                              - generic [ref=e775]:
+                                - generic [ref=e776]: Single from
+                                - generic [ref=e777]: £71.40
+                            - generic [ref=e779]:
+                              - button "Select Lowest Single from £71.40" [ref=e780] [cursor=pointer]: outward-5
+                              - generic [ref=e781]:
+                                - generic [ref=e782] [cursor=pointer]
+                                - generic [ref=e786]: Select
+                        - generic [ref=e788]:
+                          - generic [ref=e789]:
+                            - paragraph [ref=e790]: Departs
+                            - time [ref=e792]: 14:42
+                            - generic [ref=e794]:
+                              - text: Leeds
+                              - generic [ref=e795]: (LDS)
+                            - paragraph [ref=e796]: Platform 15
+                          - generic [ref=e801]:
+                            - paragraph [ref=e802]: Arrives
+                            - time [ref=e804]: 17:10
+                            - generic [ref=e806]:
+                              - text: London Kings Cross
+                              - generic [ref=e807]: (KGX)
+                            - paragraph [ref=e808]: Platform 2
+                        - 'button "Duration: 2 hours, 28 minutes and, 1 change" [ref=e811] [cursor=pointer]':
+                          - generic [ref=e812]:
+                            - time [ref=e813]: 2h 28m,
+                            - generic [ref=e814]: and,
+                            - text: 1 change
+                  - listitem [ref=e815]:
+                    - generic [ref=e816]:
+                      - heading "15:10 journey from Leeds to London Kings Cross" [level=3] [ref=e817]
+                      - generic [ref=e819]:
+                        - generic [ref=e820]:
+                          - generic [ref=e821]: "- Journey 7, Departs, 15:10, from Leeds, and Arrives, 17:21, at London Kings Cross, duration 2 hours, 11 minutes, with 0 change, This is the fastest available journey"
+                          - generic [ref=e822]:
+                            - generic [ref=e823]:
+                              - generic [ref=e824]: Lowest
+                              - generic [ref=e825]:
+                                - generic [ref=e826]: Single from
+                                - generic [ref=e827]: £39.40
+                            - generic [ref=e829]:
+                              - button "Select Lowest Single from £39.40" [ref=e830] [cursor=pointer]: outward-6
+                              - generic [ref=e831]:
+                                - generic [ref=e832] [cursor=pointer]
+                                - generic [ref=e836]: Select
+                        - generic [ref=e839]:
+                          - text: Fastest
+                          - generic [ref=e840]: ": This is the fastest available journey"
+                        - generic [ref=e841]:
+                          - generic [ref=e842]:
+                            - paragraph [ref=e843]: Departs
+                            - time [ref=e845]: 15:10
+                            - generic [ref=e847]:
+                              - text: Leeds
+                              - generic [ref=e848]: (LDS)
+                            - paragraph [ref=e849]: Platform 6
+                          - generic [ref=e854]:
+                            - paragraph [ref=e855]: Arrives
+                            - time [ref=e857]: 17:21
+                            - generic [ref=e859]:
+                              - text: London Kings Cross
+                              - generic [ref=e860]: (KGX)
+                            - paragraph [ref=e861]: Platform 7
+                        - 'button "Duration: 2 hours, 11 minutes and, Direct" [ref=e864] [cursor=pointer]':
+                          - generic [ref=e865]:
+                            - time [ref=e866]: 2h 11m,
+                            - generic [ref=e867]: and,
+                            - text: Direct
+                  - listitem [ref=e868]:
+                    - generic [ref=e869]:
+                      - heading "15:40 journey from Leeds to London Kings Cross" [level=3] [ref=e870]
+                      - generic [ref=e872]:
+                        - generic [ref=e873]:
+                          - generic [ref=e874]: "- Journey 8, Departs, 15:40, from Leeds, and Arrives, 17:52, at London Kings Cross, duration 2 hours, 12 minutes, with 0 change"
+                          - generic [ref=e875]:
+                            - generic [ref=e876]:
+                              - generic [ref=e877]: Lowest
+                              - generic [ref=e878]:
+                                - generic [ref=e879]: Single from
+                                - generic [ref=e880]: £39.40
+                            - generic [ref=e882]:
+                              - button "Select Lowest Single from £39.40" [ref=e883] [cursor=pointer]: outward-7
+                              - generic [ref=e884]:
+                                - generic [ref=e885] [cursor=pointer]
+                                - generic [ref=e889]: Select
+                        - generic [ref=e891]:
+                          - generic [ref=e892]:
+                            - paragraph [ref=e893]: Departs
+                            - time [ref=e895]: 15:40
+                            - generic [ref=e897]:
+                              - text: Leeds
+                              - generic [ref=e898]: (LDS)
+                            - paragraph [ref=e899]: Platform 8
+                          - generic [ref=e904]:
+                            - paragraph [ref=e905]: Arrives
+                            - time [ref=e907]: 17:52
+                            - generic [ref=e909]:
+                              - text: London Kings Cross
+                              - generic [ref=e910]: (KGX)
+                            - paragraph [ref=e911]: Platform 4
+                        - 'button "Duration: 2 hours, 12 minutes and, Direct" [ref=e914] [cursor=pointer]':
+                          - generic [ref=e915]:
+                            - time [ref=e916]: 2h 12m,
+                            - generic [ref=e917]: and,
+                            - text: Direct
+                  - listitem [ref=e918]:
+                    - generic [ref=e919]:
+                      - heading "15:41 journey from Leeds to London Kings Cross" [level=3] [ref=e920]
+                      - generic [ref=e922]:
+                        - generic [ref=e923]:
+                          - generic [ref=e924]: "- Journey 9, Departs, 15:41, from Leeds, and Arrives, 18:10, at London Kings Cross, duration 2 hours, 29 minutes, with 1 change"
+                          - generic [ref=e925]:
+                            - generic [ref=e926]:
+                              - generic [ref=e927]: Lowest
+                              - generic [ref=e928]:
+                                - generic [ref=e929]: Single from
+                                - generic [ref=e930]: £60.30
+                            - generic [ref=e932]:
+                              - button "Select Lowest Single from £60.30" [ref=e933] [cursor=pointer]: outward-8
+                              - generic [ref=e934]:
+                                - generic [ref=e935] [cursor=pointer]
+                                - generic [ref=e939]: Select
+                        - generic [ref=e941]:
+                          - generic [ref=e942]:
+                            - paragraph [ref=e943]: Departs
+                            - time [ref=e945]: 15:41
+                            - generic [ref=e947]:
+                              - text: Leeds
+                              - generic [ref=e948]: (LDS)
+                            - paragraph [ref=e949]: Platform 15
+                          - generic [ref=e954]:
+                            - paragraph [ref=e955]: Arrives
+                            - time [ref=e957]: 18:10
+                            - generic [ref=e959]:
+                              - text: London Kings Cross
+                              - generic [ref=e960]: (KGX)
+                            - paragraph [ref=e961]: Platform 7
+                        - 'button "Duration: 2 hours, 29 minutes and, 1 change" [ref=e964] [cursor=pointer]':
+                          - generic [ref=e965]:
+                            - time [ref=e966]: 2h 29m,
+                            - generic [ref=e967]: and,
+                            - text: 1 change
+                  - listitem [ref=e968]:
+                    - generic [ref=e969]:
+                      - heading "16:10 journey from Leeds to London Kings Cross" [level=3] [ref=e970]
+                      - generic [ref=e972]:
+                        - generic [ref=e973]:
+                          - generic [ref=e974]: "- Journey 10, Departs, 16:10, from Leeds, and Arrives, 18:22, at London Kings Cross, duration 2 hours, 12 minutes, with 0 change"
+                          - generic [ref=e975]:
+                            - generic [ref=e976]:
+                              - generic [ref=e977]: Lowest
+                              - generic [ref=e978]:
+                                - generic [ref=e979]: Single from
+                                - generic [ref=e980]: £39.40
+                            - generic [ref=e982]:
+                              - button "Select Lowest Single from £39.40" [ref=e983] [cursor=pointer]: outward-9
+                              - generic [ref=e984]:
+                                - generic [ref=e985] [cursor=pointer]
+                                - generic [ref=e989]: Select
+                        - generic [ref=e991]:
+                          - generic [ref=e992]:
+                            - paragraph [ref=e993]: Departs
+                            - time [ref=e995]: 16:10
+                            - generic [ref=e997]:
+                              - text: Leeds
+                              - generic [ref=e998]: (LDS)
+                            - paragraph [ref=e999]: Platform 11
+                          - generic [ref=e1004]:
+                            - paragraph [ref=e1005]: Arrives
+                            - time [ref=e1007]: 18:22
+                            - generic [ref=e1009]:
+                              - text: London Kings Cross
+                              - generic [ref=e1010]: (KGX)
+                            - paragraph [ref=e1011]: Platform 5
+                        - 'button "Duration: 2 hours, 12 minutes and, Direct" [ref=e1014] [cursor=pointer]':
+                          - generic [ref=e1015]:
+                            - time [ref=e1016]: 2h 12m,
+                            - generic [ref=e1017]: and,
+                            - text: Direct
+              - link "View later trains" [ref=e1022] [cursor=pointer]:
+                - /url: /journey-planner/?type=single&origin=LDS&destination=182&leavingType=departing&leavingDate=110926&leavingHour=13&leavingMin=00&adults=1&extraTime=0#
+            - generic [ref=e1029]:
+              - generic [ref=e1032]:
+                - heading "Total £0" [level=2] [ref=e1033]:
+                  - generic [ref=e1034]: Total
+                  - generic [ref=e1035]: £0
+                - link "Continue Review tickets and options" [ref=e1037] [cursor=pointer]:
+                  - /url: "#TD"
+                  - generic [ref=e1038]: Continue
+                  - generic [ref=e1043]: Review tickets and options
+                - paragraph [ref=e1044]: 1 Adult, No Railcard
+                - generic [ref=e1045]:
+                  - generic [ref=e1046]:
+                    - heading "Outward journey" [level=3] [ref=e1047]
+                    - paragraph [ref=e1048]: Not selected
+                  - generic [ref=e1049]:
+                    - heading "Return journey" [level=3] [ref=e1050]
+                    - button "Add return journey" [ref=e1051] [cursor=pointer]
+              - paragraph [ref=e1060]: Advertisement
+          - paragraph [ref=e1066]: Advertisement
+        - alert [ref=e1067]
+        - status [ref=e1068]: Please select a valid journey
+        - status [ref=e1069]: Outward results, step 1 of 2
+        - status [ref=e1070]: Currently viewing scheduled services
+        - alert [ref=e1071]
+      - contentinfo [ref=e130]:
+        - generic [ref=e133]:
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - link [ref=e138] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/
+                  - heading "Tickets, Railcards and Offers" [level=3] [ref=e139]
+                - list [ref=e140]:
+                  - listitem [ref=e141]:
+                    - link "Buying a Ticket" [ref=e142] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/buying-a-ticket/
+                  - listitem [ref=e143]:
+                    - link "Ticket Types" [ref=e144] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/ticket-types/
+                  - listitem [ref=e145]:
+                    - link "Railcards" [ref=e146] [cursor=pointer]:
+                      - /url: /railcards/
+                  - listitem [ref=e147]:
+                    - link "Saving Money" [ref=e148] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/saving-money/
+            - listitem [ref=e149]:
+              - generic [ref=e150]:
+                - link [ref=e152] [cursor=pointer]:
+                  - /url: /stations/
+                  - heading "Stations and Train Companies" [level=3] [ref=e153]
+                - list [ref=e154]:
+                  - listitem [ref=e155]:
+                    - link "Find a Station" [ref=e156] [cursor=pointer]:
+                      - /url: /stations/
+                  - listitem [ref=e157]:
+                    - link "Find a Train Company" [ref=e158] [cursor=pointer]:
+                      - /url: /travel-information/find-a-train-company/
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - link [ref=e162] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/discover-by-train/
+                  - heading "Discover by Train" [level=3] [ref=e163]
+                - list [ref=e164]:
+                  - listitem [ref=e165]:
+                    - link "Children and Families" [ref=e166] [cursor=pointer]:
+                      - /url: /discover-by-train/children-and-families/
+                  - listitem [ref=e167]:
+                    - link "Train Travel with Children" [ref=e168] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e169]:
+                    - link "Great British Destinations" [ref=e170] [cursor=pointer]:
+                      - /url: /discover-by-train/great-british-destinations/
+                  - listitem [ref=e171]:
+                    - link "Seasonal Inspiration" [ref=e172] [cursor=pointer]:
+                      - /url: /discover-by-train/seasonal-inspiration/
+                  - listitem [ref=e173]:
+                    - link "Places to Visit by Train" [ref=e174] [cursor=pointer]:
+                      - /url: /discover-by-train/places-to-visit-by-train/
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link [ref=e178] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/destinations/
+                  - heading "Destinations" [level=3] [ref=e179]
+                - list [ref=e180]:
+                  - listitem [ref=e181]:
+                    - link "Trains from London Paddington to Heathrow Airport" [ref=e182] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-paddington-to-heathrow-airport/
+                  - listitem [ref=e183]:
+                    - link "Trains from London to Liverpool" [ref=e184] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-liverpool/
+                  - listitem [ref=e185]:
+                    - link "Trains from London to Birmingham" [ref=e186] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-birmingham/
+                  - listitem [ref=e187]:
+                    - link "Trains from Edinburgh to Kings Cross" [ref=e188] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-edinburgh-to-london-kings-cross/
+                  - listitem [ref=e189]:
+                    - link "Trains from Gatwick Airport to London" [ref=e190] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-gatwick-airport-to-london/
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link [ref=e194] [cursor=pointer]:
+                  - /url: /help-and-assistance/
+                  - heading "Help and Assistance" [level=3] [ref=e195]
+                - list [ref=e196]:
+                  - listitem [ref=e197]:
+                    - link "Compensation and Refunds" [ref=e198] [cursor=pointer]:
+                      - /url: /help-and-assistance/compensation-and-refunds/
+                  - listitem [ref=e199]:
+                    - link "Contact Us" [ref=e200] [cursor=pointer]:
+                      - /url: /help-and-assistance/contact-us/
+                  - listitem [ref=e201]:
+                    - link "Complaints" [ref=e202] [cursor=pointer]:
+                      - /url: /help-and-assistance/complaints/
+                  - listitem [ref=e203]:
+                    - link "Passenger Assist" [ref=e204] [cursor=pointer]:
+                      - /url: /help-and-assistance/passenger-assist/
+                  - listitem [ref=e205]:
+                    - link "Media" [ref=e206] [cursor=pointer]:
+                      - /url: /media/
+                  - listitem [ref=e207]:
+                    - link "Text 61016" [ref=e208] [cursor=pointer]:
+                      - /url: /help-and-assistance/text-61016/
+            - listitem [ref=e209]:
+              - generic [ref=e210]:
+                - link [ref=e212] [cursor=pointer]:
+                  - /url: /on-the-train/
+                  - heading "On the Train" [level=3] [ref=e213]
+                - list [ref=e214]:
+                  - listitem [ref=e215]:
+                    - link "Accessible Train Travel and Facilities" [ref=e216] [cursor=pointer]:
+                      - /url: /on-the-train/accessible-train-travel-and-facilities/
+                  - listitem [ref=e217]:
+                    - link "Train Travel with Bicycles" [ref=e218] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-bicycles/
+                  - listitem [ref=e219]:
+                    - link "Train Travel with Pets" [ref=e220] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-pets/
+                  - listitem [ref=e221]:
+                    - link "Train Travel with Children" [ref=e222] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e223]:
+                    - link "Food and Drink" [ref=e224] [cursor=pointer]:
+                      - /url: /on-the-train/food-and-drink/
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - link "Instagram icon, (external link, opens in a new tab)" [ref=e227] [cursor=pointer]:
+                - /url: https://www.instagram.com/national.rail/
+              - link "Twitter icon, (external link, opens in a new tab)" [ref=e231] [cursor=pointer]:
+                - /url: https://twitter.com/nationalrailenq/
+              - link "Facebook icon, (external link, opens in a new tab)" [ref=e235] [cursor=pointer]:
+                - /url: https://www.facebook.com/nationalrailenq/
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - link "Download on the App Store, (external link, opens in a new tab)" [ref=e241] [cursor=pointer]:
+                  - /url: https://apps.apple.com/gb/app/national-rail/id519094154
+                  - figure [aria-hidden] [ref=e242]
+                - link "Download on the Play Store, (external link, opens in a new tab)" [ref=e244] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=uk.co.nationalrail.google&hl=en_GB
+                  - figure [aria-hidden] [ref=e245]
+              - link "Shaw Trust accessible, (external link, opens in a new tab)" [ref=e248] [cursor=pointer]:
+                - /url: https://www.accessibility-services.co.uk/certificates/national-rail/
+                - figure [aria-hidden] [ref=e249]
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - figure [aria-hidden] [ref=e258]
+            - paragraph [ref=e260]: © 2026
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /about-this-site/
+                - paragraph [ref=e264]: About This Site
+            - listitem [ref=e265]:
+              - link [ref=e266] [cursor=pointer]:
+                - /url: /accessible-information/
+                - paragraph [ref=e267]: Accessible Information
+            - listitem [ref=e268]:
+              - link [ref=e269] [cursor=pointer]:
+                - /url: /careers/
+                - paragraph [ref=e270]: Careers
+            - listitem [ref=e271]:
+              - link [ref=e272] [cursor=pointer]:
+                - /url: /cookie-policy/
+                - paragraph [ref=e273]: Cookies
+            - listitem [ref=e274]:
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /privacy-notice/
+                - paragraph [ref=e276]: Privacy Notice
+            - listitem [ref=e277]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+                - paragraph [ref=e279]: Terms and Conditions
+    - status [ref=e280]
+  - alert [ref=e281]: Journey Planner | Official Train Ticket Info | National Rail
+```

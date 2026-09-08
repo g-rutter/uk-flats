@@ -1,0 +1,714 @@
+### Page
+- Page URL: https://www.nationalrail.co.uk/journey-planner/?type=single&origin=BNY&destination=182&leavingType=departing&leavingDate=110926&leavingHour=10&leavingMin=00&adults=1&extraTime=0#O
+- Page Title: Buy Your Tickets - Barnsley to London | National Rail
+- Console: 1 errors, 0 warnings
+### Snapshot
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - paragraph [ref=e15]: Advertisement
+            - generic [ref=e19]:
+              - link "National Rail home" [ref=e20] [cursor=pointer]:
+                - /url: /
+                - figure [aria-hidden] [ref=e22]
+              - navigation "header" [ref=e24]:
+                - list [ref=e25]:
+                  - listitem "Live Departures" [ref=e26]:
+                    - link "Live Departures" [ref=e27] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/live-trains/
+                  - listitem "Disruptions , unread" [ref=e32]:
+                    - link "Disruptions, unread" [ref=e33] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/disruptions/
+                      - generic [ref=e37]:
+                        - text: Disruptions
+                        - generic [ref=e38]: ", unread"
+                  - listitem "Plan a Journey" [ref=e39]:
+                    - link "Plan a Journey" [ref=e40] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/journey-planner/
+                  - listitem "My Travel" [ref=e45]:
+                    - link "My Travel" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/my-travel/
+              - button "Open search" [ref=e52] [cursor=pointer]
+            - status [ref=e56]: Unread notifications
+          - navigation "header" [ref=e61]:
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - button "Tickets, Railcards and Offers" [ref=e64] [cursor=pointer]
+              - listitem [ref=e66]:
+                - link "Stations" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/stations/
+              - listitem [ref=e69]:
+                - button "Travel Information" [ref=e70] [cursor=pointer]
+              - listitem [ref=e72]:
+                - button "Help and Assistance" [ref=e73] [cursor=pointer]
+              - listitem [ref=e75]:
+                - link "Status Updates" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/train-operator-status/
+              - listitem [ref=e78]:
+                - link "Engineering Works" [ref=e79] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/engineering-works/
+        - alert [ref=e81]
+      - main [ref=e82]:
+        - generic [ref=e432]:
+          - generic [ref=e437]:
+            - paragraph [ref=e439]: "The journey you are searching for:"
+            - heading [level=1] [ref=e440]:
+              - button "Barnsley to London" [expanded] [ref=e441] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e442]:
+                  - text: Barnsley
+                  - generic [ref=e443]: to
+                  - text: London
+            - generic [ref=e445]:
+              - generic [ref=e446]: Single Friday 11 September 2026
+              - generic [ref=e447]: • 1 Adult
+              - generic [ref=e448]: • No Railcard
+            - generic [ref=e449]:
+              - button "Edit journey" [ref=e450] [cursor=pointer]
+              - button "Set journey alert" [ref=e455] [cursor=pointer]
+              - button "Favourite journey Barnsley to London" [ref=e460] [cursor=pointer]:
+                - generic [ref=e464]: Favourite route
+          - generic [ref=e470]:
+            - region "Please select a journey" [ref=e476]:
+              - generic [ref=e478]:
+                - heading "Please select a journey" [level=2] [ref=e479]
+                - paragraph [ref=e480]: Friday 11 September 2026
+              - generic [ref=e482]:
+                - group "Choose fare class" [ref=e484]:
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - radio "Standard from £37.00" [checked] [ref=e488] [cursor=pointer]
+                      - generic [ref=e490]:
+                        - generic [ref=e491]: Standard
+                        - generic [ref=e492]:
+                          - generic [ref=e493]: from
+                          - generic [ref=e494]: £37.00
+                    - generic [ref=e495]:
+                      - radio "First Class from £51.00" [ref=e496] [cursor=pointer]
+                      - generic [ref=e498]:
+                        - generic [ref=e499]: First Class
+                        - generic [ref=e500]:
+                          - generic [ref=e501]: from
+                          - generic [ref=e502]: £51.00
+                - link "View earlier trains" [ref=e505] [cursor=pointer]:
+                  - /url: /journey-planner/?type=single&origin=BNY&destination=182&leavingType=departing&leavingDate=110926&leavingHour=10&leavingMin=00&adults=1&extraTime=0#
+              - group "Please select a journey" [ref=e512]:
+                - list [ref=e514]:
+                  - listitem [ref=e515]:
+                    - generic [ref=e516]:
+                      - heading "10:00 journey from Barnsley to London St Pancras International" [level=3] [ref=e517]
+                      - generic [ref=e519]:
+                        - generic [ref=e520]:
+                          - generic [ref=e521]: "- Journey 1, Departs, 10:00, from Barnsley, and Arrives, 12:39, at London St Pancras International, duration 2 hours, 39 minutes, with 1 change"
+                          - generic [ref=e522]:
+                            - generic [ref=e523]:
+                              - generic [ref=e524]: Lowest
+                              - generic [ref=e525]:
+                                - generic [ref=e526]: Single from
+                                - generic [ref=e527]: £51.00
+                            - generic [ref=e529]:
+                              - button "Select Lowest Single from £51.00" [ref=e530] [cursor=pointer]: outward-0
+                              - generic [ref=e531]:
+                                - generic [ref=e532] [cursor=pointer]
+                                - generic [ref=e536]: Select
+                        - generic [ref=e538]:
+                          - generic [ref=e539]:
+                            - paragraph [ref=e540]: Departs
+                            - time [ref=e542]: 10:00
+                            - generic [ref=e544]:
+                              - text: Barnsley
+                              - generic [ref=e545]: (BNY)
+                            - paragraph [ref=e546]: Platform 1
+                          - generic [ref=e551]:
+                            - paragraph [ref=e552]: Arrives
+                            - time [ref=e554]: 12:39
+                            - generic [ref=e556]:
+                              - text: London St Pancras International
+                              - generic [ref=e557]: (STP)
+                            - paragraph [ref=e558]: Platform 2
+                        - generic [ref=e559]:
+                          - 'button "Duration: 2 hours, 39 minutes and, 1 change" [ref=e561] [cursor=pointer]':
+                            - generic [ref=e562]:
+                              - time [ref=e563]: 2h 39m,
+                              - generic [ref=e564]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 1" [ref=e566]:
+                            - button "Disruption" [ref=e567] [cursor=pointer]
+                            - button "Accessibility" [ref=e571] [cursor=pointer]
+                  - listitem [ref=e576]:
+                    - generic [ref=e577]:
+                      - heading "10:22 journey from Barnsley to London St Pancras International" [level=3] [ref=e578]
+                      - generic [ref=e580]:
+                        - generic [ref=e581]:
+                          - generic [ref=e582]: "- Journey 2, Departs, 10:22, from Barnsley, and Arrives, 13:07, at London St Pancras International, duration 2 hours, 45 minutes, with 1 change"
+                          - generic [ref=e583]:
+                            - generic [ref=e584]:
+                              - generic [ref=e585]: Lowest
+                              - generic [ref=e586]:
+                                - generic [ref=e587]: Single from
+                                - generic [ref=e588]: £51.00
+                            - generic [ref=e590]:
+                              - button "Select Lowest Single from £51.00" [ref=e591] [cursor=pointer]: outward-1
+                              - generic [ref=e592]:
+                                - generic [ref=e593] [cursor=pointer]
+                                - generic [ref=e597]: Select
+                        - generic [ref=e599]:
+                          - generic [ref=e600]:
+                            - paragraph [ref=e601]: Departs
+                            - time [ref=e603]: 10:22
+                            - generic [ref=e605]:
+                              - text: Barnsley
+                              - generic [ref=e606]: (BNY)
+                            - paragraph [ref=e607]: Platform 1
+                          - generic [ref=e612]:
+                            - paragraph [ref=e613]: Arrives
+                            - time [ref=e615]: 13:07
+                            - generic [ref=e617]:
+                              - text: London St Pancras International
+                              - generic [ref=e618]: (STP)
+                            - paragraph [ref=e619]: Platform 2
+                        - generic [ref=e620]:
+                          - 'button "Duration: 2 hours, 45 minutes and, 1 change" [ref=e622] [cursor=pointer]':
+                            - generic [ref=e623]:
+                              - time [ref=e624]: 2h 45m,
+                              - generic [ref=e625]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 2" [ref=e627]:
+                            - button "Disruption" [ref=e628] [cursor=pointer]
+                            - button "Accessibility" [ref=e632] [cursor=pointer]
+                  - listitem [ref=e637]:
+                    - generic [ref=e638]:
+                      - heading "10:42 journey from Barnsley to London Kings Cross" [level=3] [ref=e639]
+                      - generic [ref=e641]:
+                        - generic [ref=e642]:
+                          - generic [ref=e643]: "- Journey 3, Departs, 10:42, from Barnsley, and Arrives, 13:17, at London Kings Cross, duration 2 hours, 35 minutes, with 2 changes, This is the fastest available journey"
+                          - generic [ref=e644]:
+                            - generic [ref=e645]:
+                              - generic [ref=e646]: Lowest
+                              - generic [ref=e647]:
+                                - generic [ref=e648]: Single from
+                                - generic [ref=e649]: £62.00
+                            - generic [ref=e651]:
+                              - button "Select Lowest Single from £62.00" [ref=e652] [cursor=pointer]: outward-2
+                              - generic [ref=e653]:
+                                - generic [ref=e654] [cursor=pointer]
+                                - generic [ref=e658]: Select
+                        - generic [ref=e661]:
+                          - text: Fastest
+                          - generic [ref=e662]: ": This is the fastest available journey"
+                        - generic [ref=e663]:
+                          - generic [ref=e664]:
+                            - paragraph [ref=e665]: Departs
+                            - time [ref=e667]: 10:42
+                            - generic [ref=e669]:
+                              - text: Barnsley
+                              - generic [ref=e670]: (BNY)
+                            - paragraph [ref=e671]: Platform 1
+                          - generic [ref=e676]:
+                            - paragraph [ref=e677]: Arrives
+                            - time [ref=e679]: 13:17
+                            - generic [ref=e681]:
+                              - text: London Kings Cross
+                              - generic [ref=e682]: (KGX)
+                            - paragraph [ref=e683]: Platform 0
+                        - generic [ref=e684]:
+                          - 'button "Duration: 2 hours, 35 minutes and, 2 changes" [ref=e686] [cursor=pointer]':
+                            - generic [ref=e687]:
+                              - time [ref=e688]: 2h 35m,
+                              - generic [ref=e689]: and,
+                              - text: 2 changes
+                          - region "Service updates for journey 3" [ref=e691]:
+                            - button "Accessibility" [ref=e692] [cursor=pointer]
+                            - button "Information" [ref=e697] [cursor=pointer]
+                  - listitem [ref=e701]:
+                    - generic [ref=e702]:
+                      - heading "10:42 journey from Barnsley to London St Pancras International" [level=3] [ref=e703]
+                      - generic [ref=e705]:
+                        - generic [ref=e706]:
+                          - generic [ref=e707]: "- Journey 4, Departs, 10:42, from Barnsley, and Arrives, 13:39, at London St Pancras International, duration 2 hours, 57 minutes, with 1 change, This journey will be overtaken by a later departure"
+                          - generic [ref=e708]:
+                            - generic [ref=e709]:
+                              - generic [ref=e710]: Lowest
+                              - generic [ref=e711]:
+                                - generic [ref=e712]: Single from
+                                - generic [ref=e713]: £75.00
+                            - generic [ref=e715]:
+                              - button "Select Lowest Single from £75.00" [ref=e716] [cursor=pointer]: outward-3
+                              - generic [ref=e717]:
+                                - generic [ref=e718] [cursor=pointer]
+                                - generic [ref=e722]: Select
+                        - generic [ref=e725]:
+                          - text: Slower journey
+                          - generic [ref=e726]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e727]:
+                          - generic [ref=e728]:
+                            - paragraph [ref=e729]: Departs
+                            - time [ref=e731]: 10:42
+                            - generic [ref=e733]:
+                              - text: Barnsley
+                              - generic [ref=e734]: (BNY)
+                            - paragraph [ref=e735]: Platform 1
+                          - generic [ref=e740]:
+                            - paragraph [ref=e741]: Arrives
+                            - time [ref=e743]: 13:39
+                            - generic [ref=e745]:
+                              - text: London St Pancras International
+                              - generic [ref=e746]: (STP)
+                            - paragraph [ref=e747]: Platform 3
+                        - generic [ref=e748]:
+                          - 'button "Duration: 2 hours, 57 minutes and, 1 change" [ref=e750] [cursor=pointer]':
+                            - generic [ref=e751]:
+                              - time [ref=e752]: 2h 57m,
+                              - generic [ref=e753]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 4" [ref=e755]:
+                            - button "Disruption" [ref=e756] [cursor=pointer]
+                            - button "Accessibility" [ref=e760] [cursor=pointer]
+                  - listitem [ref=e765]:
+                    - generic [ref=e766]:
+                      - heading "11:22 journey from Barnsley to London St Pancras International" [level=3] [ref=e767]
+                      - generic [ref=e769]:
+                        - generic [ref=e770]:
+                          - generic [ref=e771]: "- Journey 5, Departs, 11:22, from Barnsley, and Arrives, 14:09, at London St Pancras International, duration 2 hours, 47 minutes, with 1 change"
+                          - generic [ref=e772]:
+                            - generic [ref=e773]:
+                              - generic [ref=e774]: Lowest
+                              - generic [ref=e775]:
+                                - generic [ref=e776]: Single from
+                                - generic [ref=e777]: £37.00
+                            - generic [ref=e779]:
+                              - button "Select Lowest Single from £37.00" [ref=e780] [cursor=pointer]: outward-4
+                              - generic [ref=e781]:
+                                - generic [ref=e782] [cursor=pointer]
+                                - generic [ref=e786]: Select
+                        - generic [ref=e788]:
+                          - generic [ref=e789]:
+                            - paragraph [ref=e790]: Departs
+                            - time [ref=e792]: 11:22
+                            - generic [ref=e794]:
+                              - text: Barnsley
+                              - generic [ref=e795]: (BNY)
+                            - paragraph [ref=e796]: Platform 1
+                          - generic [ref=e801]:
+                            - paragraph [ref=e802]: Arrives
+                            - time [ref=e804]: 14:09
+                            - generic [ref=e806]:
+                              - text: London St Pancras International
+                              - generic [ref=e807]: (STP)
+                            - paragraph [ref=e808]: Platform 4
+                        - generic [ref=e809]:
+                          - 'button "Duration: 2 hours, 47 minutes and, 1 change" [ref=e811] [cursor=pointer]':
+                            - generic [ref=e812]:
+                              - time [ref=e813]: 2h 47m,
+                              - generic [ref=e814]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 5" [ref=e816]:
+                            - button "Disruption" [ref=e817] [cursor=pointer]
+                            - button "Accessibility" [ref=e821] [cursor=pointer]
+                  - listitem [ref=e826]:
+                    - generic [ref=e827]:
+                      - heading "11:44 journey from Barnsley to London Kings Cross" [level=3] [ref=e828]
+                      - generic [ref=e830]:
+                        - generic [ref=e831]:
+                          - generic [ref=e832]: "- Journey 6, Departs, 11:44, from Barnsley, and Arrives, 14:23, at London Kings Cross, duration 2 hours, 39 minutes, with 2 changes"
+                          - generic [ref=e833]:
+                            - generic [ref=e834]:
+                              - generic [ref=e835]: Lowest
+                              - generic [ref=e836]:
+                                - generic [ref=e837]: Single from
+                                - generic [ref=e838]: £75.00
+                            - generic [ref=e840]:
+                              - button "Select Lowest Single from £75.00" [ref=e841] [cursor=pointer]: outward-5
+                              - generic [ref=e842]:
+                                - generic [ref=e843] [cursor=pointer]
+                                - generic [ref=e847]: Select
+                        - generic [ref=e849]:
+                          - generic [ref=e850]:
+                            - paragraph [ref=e851]: Departs
+                            - time [ref=e853]: 11:44
+                            - generic [ref=e855]:
+                              - text: Barnsley
+                              - generic [ref=e856]: (BNY)
+                            - paragraph [ref=e857]: Platform 1
+                          - generic [ref=e862]:
+                            - paragraph [ref=e863]: Arrives
+                            - time [ref=e865]: 14:23
+                            - generic [ref=e867]:
+                              - text: London Kings Cross
+                              - generic [ref=e868]: (KGX)
+                            - paragraph [ref=e869]: Platform 8
+                        - generic [ref=e870]:
+                          - 'button "Duration: 2 hours, 39 minutes and, 2 changes" [ref=e872] [cursor=pointer]':
+                            - generic [ref=e873]:
+                              - time [ref=e874]: 2h 39m,
+                              - generic [ref=e875]: and,
+                              - text: 2 changes
+                          - region "Service updates for journey 6" [ref=e877]:
+                            - button "Accessibility" [ref=e878] [cursor=pointer]
+                            - button "Information" [ref=e883] [cursor=pointer]
+                  - listitem [ref=e887]:
+                    - generic [ref=e888]:
+                      - heading "12:00 journey from Barnsley to London St Pancras International" [level=3] [ref=e889]
+                      - generic [ref=e891]:
+                        - generic [ref=e892]:
+                          - generic [ref=e893]: "- Journey 7, Departs, 12:00, from Barnsley, and Arrives, 14:39, at London St Pancras International, duration 2 hours, 39 minutes, with 1 change"
+                          - generic [ref=e894]:
+                            - generic [ref=e895]:
+                              - generic [ref=e896]: Lowest
+                              - generic [ref=e897]:
+                                - generic [ref=e898]: Single from
+                                - generic [ref=e899]: £71.00
+                            - generic [ref=e901]:
+                              - button "Select Lowest Single from £71.00" [ref=e902] [cursor=pointer]: outward-6
+                              - generic [ref=e903]:
+                                - generic [ref=e904] [cursor=pointer]
+                                - generic [ref=e908]: Select
+                        - generic [ref=e910]:
+                          - generic [ref=e911]:
+                            - paragraph [ref=e912]: Departs
+                            - time [ref=e914]: 12:00
+                            - generic [ref=e916]:
+                              - text: Barnsley
+                              - generic [ref=e917]: (BNY)
+                            - paragraph [ref=e918]: Platform 1
+                          - generic [ref=e923]:
+                            - paragraph [ref=e924]: Arrives
+                            - time [ref=e926]: 14:39
+                            - generic [ref=e928]:
+                              - text: London St Pancras International
+                              - generic [ref=e929]: (STP)
+                            - paragraph [ref=e930]: Platform 2
+                        - generic [ref=e931]:
+                          - 'button "Duration: 2 hours, 39 minutes and, 1 change" [ref=e933] [cursor=pointer]':
+                            - generic [ref=e934]:
+                              - time [ref=e935]: 2h 39m,
+                              - generic [ref=e936]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 7" [ref=e938]:
+                            - button "Disruption" [ref=e939] [cursor=pointer]
+                            - button "Accessibility" [ref=e943] [cursor=pointer]
+                  - listitem [ref=e948]:
+                    - generic [ref=e949]:
+                      - heading "12:21 journey from Barnsley to London St Pancras International" [level=3] [ref=e950]
+                      - generic [ref=e952]:
+                        - generic [ref=e953]:
+                          - generic [ref=e954]: "- Journey 8, Departs, 12:21, from Barnsley, and Arrives, 15:09, at London St Pancras International, duration 2 hours, 48 minutes, with 1 change"
+                          - generic [ref=e955]:
+                            - generic [ref=e956]:
+                              - generic [ref=e957]: Lowest
+                              - generic [ref=e958]:
+                                - generic [ref=e959]: Single from
+                                - generic [ref=e960]: £37.00
+                            - generic [ref=e962]:
+                              - button "Select Lowest Single from £37.00" [ref=e963] [cursor=pointer]: outward-7
+                              - generic [ref=e964]:
+                                - generic [ref=e965] [cursor=pointer]
+                                - generic [ref=e969]: Select
+                        - generic [ref=e971]:
+                          - generic [ref=e972]:
+                            - paragraph [ref=e973]: Departs
+                            - time [ref=e975]: 12:21
+                            - generic [ref=e977]:
+                              - text: Barnsley
+                              - generic [ref=e978]: (BNY)
+                            - paragraph [ref=e979]: Platform 1
+                          - generic [ref=e984]:
+                            - paragraph [ref=e985]: Arrives
+                            - time [ref=e987]: 15:09
+                            - generic [ref=e989]:
+                              - text: London St Pancras International
+                              - generic [ref=e990]: (STP)
+                            - paragraph [ref=e991]: Platform 4A
+                        - generic [ref=e992]:
+                          - 'button "Duration: 2 hours, 48 minutes and, 1 change" [ref=e994] [cursor=pointer]':
+                            - generic [ref=e995]:
+                              - time [ref=e996]: 2h 48m,
+                              - generic [ref=e997]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 8" [ref=e999]:
+                            - button "Disruption" [ref=e1000] [cursor=pointer]
+                            - button "Accessibility" [ref=e1004] [cursor=pointer]
+                  - listitem [ref=e1009]:
+                    - generic [ref=e1010]:
+                      - heading "12:42 journey from Barnsley to London Kings Cross" [level=3] [ref=e1011]
+                      - generic [ref=e1013]:
+                        - generic [ref=e1014]:
+                          - generic [ref=e1015]: "- Journey 9, Departs, 12:42, from Barnsley, and Arrives, 15:23, at London Kings Cross, duration 2 hours, 41 minutes, with 2 changes"
+                          - generic [ref=e1016]:
+                            - generic [ref=e1017]:
+                              - generic [ref=e1018]: Lowest
+                              - generic [ref=e1019]:
+                                - generic [ref=e1020]: Single from
+                                - generic [ref=e1021]: £75.00
+                            - generic [ref=e1023]:
+                              - button "Select Lowest Single from £75.00" [ref=e1024] [cursor=pointer]: outward-8
+                              - generic [ref=e1025]:
+                                - generic [ref=e1026] [cursor=pointer]
+                                - generic [ref=e1030]: Select
+                        - generic [ref=e1032]:
+                          - generic [ref=e1033]:
+                            - paragraph [ref=e1034]: Departs
+                            - time [ref=e1036]: 12:42
+                            - generic [ref=e1038]:
+                              - text: Barnsley
+                              - generic [ref=e1039]: (BNY)
+                            - paragraph [ref=e1040]: Platform 1
+                          - generic [ref=e1045]:
+                            - paragraph [ref=e1046]: Arrives
+                            - time [ref=e1048]: 15:23
+                            - generic [ref=e1050]:
+                              - text: London Kings Cross
+                              - generic [ref=e1051]: (KGX)
+                            - paragraph [ref=e1052]: Platform 4
+                        - generic [ref=e1053]:
+                          - 'button "Duration: 2 hours, 41 minutes and, 2 changes" [ref=e1055] [cursor=pointer]':
+                            - generic [ref=e1056]:
+                              - time [ref=e1057]: 2h 41m,
+                              - generic [ref=e1058]: and,
+                              - text: 2 changes
+                          - region "Service updates for journey 9" [ref=e1060]:
+                            - button "Accessibility" [ref=e1061] [cursor=pointer]
+                            - button "Information" [ref=e1066] [cursor=pointer]
+                  - listitem [ref=e1070]:
+                    - generic [ref=e1071]:
+                      - heading "13:00 journey from Barnsley to London St Pancras International" [level=3] [ref=e1072]
+                      - generic [ref=e1074]:
+                        - generic [ref=e1075]:
+                          - generic [ref=e1076]: "- Journey 10, Departs, 13:00, from Barnsley, and Arrives, 15:39, at London St Pancras International, duration 2 hours, 39 minutes, with 1 change"
+                          - generic [ref=e1077]:
+                            - generic [ref=e1078]:
+                              - generic [ref=e1079]: Lowest
+                              - generic [ref=e1080]:
+                                - generic [ref=e1081]: Single from
+                                - generic [ref=e1082]: £37.00
+                            - generic [ref=e1084]:
+                              - button "Select Lowest Single from £37.00" [ref=e1085] [cursor=pointer]: outward-9
+                              - generic [ref=e1086]:
+                                - generic [ref=e1087] [cursor=pointer]
+                                - generic [ref=e1091]: Select
+                        - generic [ref=e1093]:
+                          - generic [ref=e1094]:
+                            - paragraph [ref=e1095]: Departs
+                            - time [ref=e1097]: 13:00
+                            - generic [ref=e1099]:
+                              - text: Barnsley
+                              - generic [ref=e1100]: (BNY)
+                            - paragraph [ref=e1101]: Platform 1
+                          - generic [ref=e1106]:
+                            - paragraph [ref=e1107]: Arrives
+                            - time [ref=e1109]: 15:39
+                            - generic [ref=e1111]:
+                              - text: London St Pancras International
+                              - generic [ref=e1112]: (STP)
+                            - paragraph [ref=e1113]: Platform 2
+                        - generic [ref=e1114]:
+                          - 'button "Duration: 2 hours, 39 minutes and, 1 change" [ref=e1116] [cursor=pointer]':
+                            - generic [ref=e1117]:
+                              - time [ref=e1118]: 2h 39m,
+                              - generic [ref=e1119]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 10" [ref=e1121]:
+                            - button "Disruption" [ref=e1122] [cursor=pointer]
+                            - button "Accessibility" [ref=e1126] [cursor=pointer]
+              - link "View later trains" [ref=e1135] [cursor=pointer]:
+                - /url: /journey-planner/?type=single&origin=BNY&destination=182&leavingType=departing&leavingDate=110926&leavingHour=10&leavingMin=00&adults=1&extraTime=0#
+            - generic [ref=e1142]:
+              - generic [ref=e1145]:
+                - heading "Total £0" [level=2] [ref=e1146]:
+                  - generic [ref=e1147]: Total
+                  - generic [ref=e1148]: £0
+                - link "Continue Review tickets and options" [ref=e1150] [cursor=pointer]:
+                  - /url: "#TD"
+                  - generic [ref=e1151]: Continue
+                  - generic [ref=e1156]: Review tickets and options
+                - paragraph [ref=e1157]: 1 Adult, No Railcard
+                - generic [ref=e1158]:
+                  - generic [ref=e1159]:
+                    - heading "Outward journey" [level=3] [ref=e1160]
+                    - paragraph [ref=e1161]: Not selected
+                  - generic [ref=e1162]:
+                    - heading "Return journey" [level=3] [ref=e1163]
+                    - button "Add return journey" [ref=e1164] [cursor=pointer]
+              - paragraph [ref=e1173]: Advertisement
+          - paragraph [ref=e1179]: Advertisement
+        - alert [ref=e1180]
+        - status [ref=e1181]: Please select a valid journey
+        - status [ref=e1182]: Outward results, step 1 of 2
+        - status [ref=e1183]: Currently viewing scheduled services
+        - alert [ref=e1184]
+      - contentinfo [ref=e130]:
+        - generic [ref=e133]:
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - link [ref=e138] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/
+                  - heading "Tickets, Railcards and Offers" [level=3] [ref=e139]
+                - list [ref=e140]:
+                  - listitem [ref=e141]:
+                    - link "Buying a Ticket" [ref=e142] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/buying-a-ticket/
+                  - listitem [ref=e143]:
+                    - link "Ticket Types" [ref=e144] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/ticket-types/
+                  - listitem [ref=e145]:
+                    - link "Railcards" [ref=e146] [cursor=pointer]:
+                      - /url: /railcards/
+                  - listitem [ref=e147]:
+                    - link "Saving Money" [ref=e148] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/saving-money/
+            - listitem [ref=e149]:
+              - generic [ref=e150]:
+                - link [ref=e152] [cursor=pointer]:
+                  - /url: /stations/
+                  - heading "Stations and Train Companies" [level=3] [ref=e153]
+                - list [ref=e154]:
+                  - listitem [ref=e155]:
+                    - link "Find a Station" [ref=e156] [cursor=pointer]:
+                      - /url: /stations/
+                  - listitem [ref=e157]:
+                    - link "Find a Train Company" [ref=e158] [cursor=pointer]:
+                      - /url: /travel-information/find-a-train-company/
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - link [ref=e162] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/discover-by-train/
+                  - heading "Discover by Train" [level=3] [ref=e163]
+                - list [ref=e164]:
+                  - listitem [ref=e165]:
+                    - link "Children and Families" [ref=e166] [cursor=pointer]:
+                      - /url: /discover-by-train/children-and-families/
+                  - listitem [ref=e167]:
+                    - link "Train Travel with Children" [ref=e168] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e169]:
+                    - link "Great British Destinations" [ref=e170] [cursor=pointer]:
+                      - /url: /discover-by-train/great-british-destinations/
+                  - listitem [ref=e171]:
+                    - link "Seasonal Inspiration" [ref=e172] [cursor=pointer]:
+                      - /url: /discover-by-train/seasonal-inspiration/
+                  - listitem [ref=e173]:
+                    - link "Places to Visit by Train" [ref=e174] [cursor=pointer]:
+                      - /url: /discover-by-train/places-to-visit-by-train/
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link [ref=e178] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/destinations/
+                  - heading "Destinations" [level=3] [ref=e179]
+                - list [ref=e180]:
+                  - listitem [ref=e181]:
+                    - link "Trains from London Paddington to Heathrow Airport" [ref=e182] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-paddington-to-heathrow-airport/
+                  - listitem [ref=e183]:
+                    - link "Trains from London to Liverpool" [ref=e184] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-liverpool/
+                  - listitem [ref=e185]:
+                    - link "Trains from London to Birmingham" [ref=e186] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-birmingham/
+                  - listitem [ref=e187]:
+                    - link "Trains from Edinburgh to Kings Cross" [ref=e188] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-edinburgh-to-london-kings-cross/
+                  - listitem [ref=e189]:
+                    - link "Trains from Gatwick Airport to London" [ref=e190] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-gatwick-airport-to-london/
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link [ref=e194] [cursor=pointer]:
+                  - /url: /help-and-assistance/
+                  - heading "Help and Assistance" [level=3] [ref=e195]
+                - list [ref=e196]:
+                  - listitem [ref=e197]:
+                    - link "Compensation and Refunds" [ref=e198] [cursor=pointer]:
+                      - /url: /help-and-assistance/compensation-and-refunds/
+                  - listitem [ref=e199]:
+                    - link "Contact Us" [ref=e200] [cursor=pointer]:
+                      - /url: /help-and-assistance/contact-us/
+                  - listitem [ref=e201]:
+                    - link "Complaints" [ref=e202] [cursor=pointer]:
+                      - /url: /help-and-assistance/complaints/
+                  - listitem [ref=e203]:
+                    - link "Passenger Assist" [ref=e204] [cursor=pointer]:
+                      - /url: /help-and-assistance/passenger-assist/
+                  - listitem [ref=e205]:
+                    - link "Media" [ref=e206] [cursor=pointer]:
+                      - /url: /media/
+                  - listitem [ref=e207]:
+                    - link "Text 61016" [ref=e208] [cursor=pointer]:
+                      - /url: /help-and-assistance/text-61016/
+            - listitem [ref=e209]:
+              - generic [ref=e210]:
+                - link [ref=e212] [cursor=pointer]:
+                  - /url: /on-the-train/
+                  - heading "On the Train" [level=3] [ref=e213]
+                - list [ref=e214]:
+                  - listitem [ref=e215]:
+                    - link "Accessible Train Travel and Facilities" [ref=e216] [cursor=pointer]:
+                      - /url: /on-the-train/accessible-train-travel-and-facilities/
+                  - listitem [ref=e217]:
+                    - link "Train Travel with Bicycles" [ref=e218] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-bicycles/
+                  - listitem [ref=e219]:
+                    - link "Train Travel with Pets" [ref=e220] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-pets/
+                  - listitem [ref=e221]:
+                    - link "Train Travel with Children" [ref=e222] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e223]:
+                    - link "Food and Drink" [ref=e224] [cursor=pointer]:
+                      - /url: /on-the-train/food-and-drink/
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - link "Instagram icon, (external link, opens in a new tab)" [ref=e227] [cursor=pointer]:
+                - /url: https://www.instagram.com/national.rail/
+              - link "Twitter icon, (external link, opens in a new tab)" [ref=e231] [cursor=pointer]:
+                - /url: https://twitter.com/nationalrailenq/
+              - link "Facebook icon, (external link, opens in a new tab)" [ref=e235] [cursor=pointer]:
+                - /url: https://www.facebook.com/nationalrailenq/
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - link "Download on the App Store, (external link, opens in a new tab)" [ref=e241] [cursor=pointer]:
+                  - /url: https://apps.apple.com/gb/app/national-rail/id519094154
+                  - figure [aria-hidden] [ref=e242]
+                - link "Download on the Play Store, (external link, opens in a new tab)" [ref=e244] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=uk.co.nationalrail.google&hl=en_GB
+                  - figure [aria-hidden] [ref=e245]
+              - link "Shaw Trust accessible, (external link, opens in a new tab)" [ref=e248] [cursor=pointer]:
+                - /url: https://www.accessibility-services.co.uk/certificates/national-rail/
+                - figure [aria-hidden] [ref=e249]
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - figure [aria-hidden] [ref=e258]
+            - paragraph [ref=e260]: © 2026
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /about-this-site/
+                - paragraph [ref=e264]: About This Site
+            - listitem [ref=e265]:
+              - link [ref=e266] [cursor=pointer]:
+                - /url: /accessible-information/
+                - paragraph [ref=e267]: Accessible Information
+            - listitem [ref=e268]:
+              - link [ref=e269] [cursor=pointer]:
+                - /url: /careers/
+                - paragraph [ref=e270]: Careers
+            - listitem [ref=e271]:
+              - link [ref=e272] [cursor=pointer]:
+                - /url: /cookie-policy/
+                - paragraph [ref=e273]: Cookies
+            - listitem [ref=e274]:
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /privacy-notice/
+                - paragraph [ref=e276]: Privacy Notice
+            - listitem [ref=e277]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+                - paragraph [ref=e279]: Terms and Conditions
+    - status [ref=e280]
+  - alert [ref=e281]: Journey Planner | Official Train Ticket Info | National Rail
+```

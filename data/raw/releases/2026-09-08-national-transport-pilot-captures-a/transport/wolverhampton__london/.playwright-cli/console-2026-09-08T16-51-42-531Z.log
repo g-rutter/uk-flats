@@ -1,0 +1,4 @@
+[    1218ms] [ERROR] Loading the script 'blob:https://www.nationalrail.co.uk/7b401c1c-5566-4633-9cf4-d254bf5e4088' violates the following Content Security Policy directive: "default-src https: 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'default-src' is used as a fallback. The action has been blocked. @ https://cdn.confiant-integrations.net/gptprebidnative/202608131959/wrap.js:49
+[    1239ms] [WARNING] [GPT] This ad request is subject to Google's EU User Consent Policy. An IAB TCF signal was not received. This ad request will not be eligible for personalized ads.
+https://goo.gle/gpt-message#175 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609040101/pubads_impl.js?cb=122880934:18
+[    7372ms] [LOG] Visibility threshold pct=50, Visibility threshold ms = 0 @ https://tag.durationmedia.net/pubs/1000296/dm.js:0

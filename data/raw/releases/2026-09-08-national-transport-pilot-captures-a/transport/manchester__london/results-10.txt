@@ -1,0 +1,713 @@
+### Page
+- Page URL: https://www.nationalrail.co.uk/journey-planner/?type=single&origin=MAN&destination=182&leavingType=departing&leavingDate=110926&leavingHour=10&leavingMin=00&adults=1&extraTime=0#O
+- Page Title: Buy Your Tickets - Manchester Piccadilly to London | National Rail
+- Console: 1 errors, 0 warnings
+### Snapshot
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - paragraph [ref=e15]: Advertisement
+            - generic [ref=e19]:
+              - link "National Rail home" [ref=e20] [cursor=pointer]:
+                - /url: /
+                - figure [aria-hidden] [ref=e22]
+              - navigation "header" [ref=e24]:
+                - list [ref=e25]:
+                  - listitem "Live Departures" [ref=e26]:
+                    - link "Live Departures" [ref=e27] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/live-trains/
+                  - listitem "Disruptions , unread" [ref=e32]:
+                    - link "Disruptions, unread" [ref=e33] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/disruptions/
+                      - generic [ref=e37]:
+                        - text: Disruptions
+                        - generic [ref=e38]: ", unread"
+                  - listitem "Plan a Journey" [ref=e39]:
+                    - link "Plan a Journey" [ref=e40] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/journey-planner/
+                  - listitem "My Travel" [ref=e45]:
+                    - link "My Travel" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/my-travel/
+              - button "Open search" [ref=e52] [cursor=pointer]
+            - status [ref=e56]: Unread notifications
+          - navigation "header" [ref=e61]:
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - button "Tickets, Railcards and Offers" [ref=e64] [cursor=pointer]
+              - listitem [ref=e66]:
+                - link "Stations" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/stations/
+              - listitem [ref=e69]:
+                - button "Travel Information" [ref=e70] [cursor=pointer]
+              - listitem [ref=e72]:
+                - button "Help and Assistance" [ref=e73] [cursor=pointer]
+              - listitem [ref=e75]:
+                - link "Status Updates" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/train-operator-status/
+              - listitem [ref=e78]:
+                - link "Engineering Works" [ref=e79] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/engineering-works/
+        - alert [ref=e81]
+      - main [ref=e82]:
+        - generic [ref=e432]:
+          - generic [ref=e437]:
+            - paragraph [ref=e439]: "The journey you are searching for:"
+            - heading [level=1] [ref=e440]:
+              - button "Manchester Piccadilly to London" [expanded] [ref=e441] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e442]:
+                  - text: Manchester Piccadilly
+                  - generic [ref=e443]: to
+                  - text: London
+            - generic [ref=e445]:
+              - generic [ref=e446]: Single Friday 11 September 2026
+              - generic [ref=e447]: • 1 Adult
+              - generic [ref=e448]: • No Railcard
+            - generic [ref=e449]:
+              - button "Edit journey" [ref=e450] [cursor=pointer]
+              - button "Set journey alert" [ref=e455] [cursor=pointer]
+              - button "Favourite journey Manchester Piccadilly to London" [ref=e460] [cursor=pointer]:
+                - generic [ref=e464]: Favourite route
+          - generic [ref=e470]:
+            - region "Please select a journey" [ref=e476]:
+              - generic [ref=e478]:
+                - heading "Please select a journey" [level=2] [ref=e479]
+                - paragraph [ref=e480]: Friday 11 September 2026
+              - generic [ref=e482]:
+                - group "Choose fare class" [ref=e484]:
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - radio "Standard from £24.00" [checked] [ref=e488] [cursor=pointer]
+                      - generic [ref=e490]:
+                        - generic [ref=e491]: Standard
+                        - generic [ref=e492]:
+                          - generic [ref=e493]: from
+                          - generic [ref=e494]: £24.00
+                    - generic [ref=e495]:
+                      - radio "First Class from £144.00" [ref=e496] [cursor=pointer]
+                      - generic [ref=e498]:
+                        - generic [ref=e499]: First Class
+                        - generic [ref=e500]:
+                          - generic [ref=e501]: from
+                          - generic [ref=e502]: £144.00
+                - link "View earlier trains" [ref=e505] [cursor=pointer]:
+                  - /url: /journey-planner/?type=single&origin=MAN&destination=182&leavingType=departing&leavingDate=110926&leavingHour=10&leavingMin=00&adults=1&extraTime=0#
+              - group "Please select a journey" [ref=e512]:
+                - list [ref=e514]:
+                  - listitem [ref=e515]:
+                    - generic [ref=e516]:
+                      - heading "10:06 journey from Manchester Piccadilly to London Euston" [level=3] [ref=e517]
+                      - generic [ref=e519]:
+                        - generic [ref=e520]:
+                          - generic [ref=e521]: "- Journey 1, Departs, 10:06, from Manchester Piccadilly, and Arrives, 13:24, at London Euston, duration 3 hours, 18 minutes, with 1 change, This journey will be overtaken by a later departure"
+                          - generic [ref=e522]:
+                            - generic [ref=e523]:
+                              - generic [ref=e524]: Lowest
+                              - generic [ref=e525]:
+                                - generic [ref=e526]: Single from
+                                - generic [ref=e527]: £30.00
+                            - generic [ref=e529]:
+                              - button "Select Lowest Single from £30.00" [ref=e530] [cursor=pointer]: outward-0
+                              - generic [ref=e531]:
+                                - generic [ref=e532] [cursor=pointer]
+                                - generic [ref=e536]: Select
+                        - generic [ref=e539]:
+                          - text: Slower journey
+                          - generic [ref=e540]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e541]:
+                          - generic [ref=e542]:
+                            - paragraph [ref=e543]: Departs
+                            - time [ref=e545]: 10:06
+                            - generic [ref=e547]:
+                              - text: Manchester Piccadilly
+                              - generic [ref=e548]: (MAN)
+                            - paragraph [ref=e549]: Platform 8
+                          - generic [ref=e554]:
+                            - paragraph [ref=e555]: Arrives
+                            - time [ref=e557]: 13:24
+                            - generic [ref=e559]:
+                              - text: London Euston
+                              - generic [ref=e560]: (EUS)
+                            - paragraph [ref=e561]: Platform 4
+                        - generic [ref=e562]:
+                          - 'button "Duration: 3 hours, 18 minutes and, 1 change" [ref=e564] [cursor=pointer]':
+                            - generic [ref=e565]:
+                              - time [ref=e566]: 3h 18m,
+                              - generic [ref=e567]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 1" [ref=e569]:
+                            - button "Accessibility" [ref=e570] [cursor=pointer]
+                  - listitem [ref=e575]:
+                    - generic [ref=e576]:
+                      - heading "10:14 journey from Manchester Piccadilly to London Euston" [level=3] [ref=e577]
+                      - generic [ref=e579]:
+                        - generic [ref=e580]:
+                          - generic [ref=e581]: "- Journey 2, Departs, 10:14, from Manchester Piccadilly, and Arrives, 12:27, at London Euston, duration 2 hours, 13 minutes, with 0 change"
+                          - generic [ref=e582]:
+                            - generic [ref=e583]:
+                              - generic [ref=e584]: Lowest
+                              - generic [ref=e585]:
+                                - generic [ref=e586]: Single from
+                                - generic [ref=e587]: £56.50
+                            - generic [ref=e589]:
+                              - button "Select Lowest Single from £56.50" [ref=e590] [cursor=pointer]: outward-1
+                              - generic [ref=e591]:
+                                - generic [ref=e592] [cursor=pointer]
+                                - generic [ref=e596]: Select
+                        - generic [ref=e598]:
+                          - generic [ref=e599]:
+                            - paragraph [ref=e600]: Departs
+                            - time [ref=e602]: 10:14
+                            - generic [ref=e604]:
+                              - text: Manchester Piccadilly
+                              - generic [ref=e605]: (MAN)
+                            - paragraph [ref=e606]: Platform 6
+                          - generic [ref=e611]:
+                            - paragraph [ref=e612]: Arrives
+                            - time [ref=e614]: 12:27
+                            - generic [ref=e616]:
+                              - text: London Euston
+                              - generic [ref=e617]: (EUS)
+                            - paragraph [ref=e618]: Platform 7
+                        - generic [ref=e619]:
+                          - 'button "Duration: 2 hours, 13 minutes and, Direct" [ref=e621] [cursor=pointer]':
+                            - generic [ref=e622]:
+                              - time [ref=e623]: 2h 13m,
+                              - generic [ref=e624]: and,
+                              - text: Direct
+                          - region "Service updates for journey 2" [ref=e626]:
+                            - button "Accessibility" [ref=e627] [cursor=pointer]
+                  - listitem [ref=e632]:
+                    - generic [ref=e633]:
+                      - heading "10:30 journey from Manchester Piccadilly to London Euston" [level=3] [ref=e634]
+                      - generic [ref=e636]:
+                        - generic [ref=e637]:
+                          - generic [ref=e638]: "- Journey 3, Departs, 10:30, from Manchester Piccadilly, and Arrives, 14:24, at London Euston, duration 3 hours, 54 minutes, with 1 change, This journey will be overtaken by a later departure"
+                          - generic [ref=e639]:
+                            - generic [ref=e640]:
+                              - generic [ref=e641]: Lowest
+                              - generic [ref=e642]:
+                                - generic [ref=e643]: Single from
+                                - generic [ref=e644]: £24.00
+                            - generic [ref=e646]:
+                              - button "Select Lowest Single from £24.00" [ref=e647] [cursor=pointer]: outward-2
+                              - generic [ref=e648]:
+                                - generic [ref=e649] [cursor=pointer]
+                                - generic [ref=e653]: Select
+                        - generic [ref=e656]:
+                          - text: Slower journey
+                          - generic [ref=e657]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e658]:
+                          - generic [ref=e659]:
+                            - paragraph [ref=e660]: Departs
+                            - time [ref=e662]: 10:30
+                            - generic [ref=e664]:
+                              - text: Manchester Piccadilly
+                              - generic [ref=e665]: (MAN)
+                            - paragraph [ref=e666]: Platform 10
+                          - generic [ref=e671]:
+                            - paragraph [ref=e672]: Arrives
+                            - time [ref=e674]: 14:24
+                            - generic [ref=e676]:
+                              - text: London Euston
+                              - generic [ref=e677]: (EUS)
+                            - paragraph [ref=e678]: Platform 5
+                        - generic [ref=e679]:
+                          - 'button "Duration: 3 hours, 54 minutes and, 1 change" [ref=e681] [cursor=pointer]':
+                            - generic [ref=e682]:
+                              - time [ref=e683]: 3h 54m,
+                              - generic [ref=e684]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 3" [ref=e686]:
+                            - button "Accessibility" [ref=e687] [cursor=pointer]
+                  - listitem [ref=e692]:
+                    - generic [ref=e693]:
+                      - heading "10:34 journey from Manchester Piccadilly to London Euston" [level=3] [ref=e694]
+                      - generic [ref=e696]:
+                        - generic [ref=e697]:
+                          - generic [ref=e698]: "- Journey 4, Departs, 10:34, from Manchester Piccadilly, and Arrives, 12:41, at London Euston, duration 2 hours, 7 minutes, with 0 change, This is the fastest available journey"
+                          - generic [ref=e699]:
+                            - generic [ref=e700]:
+                              - generic [ref=e701]: Lowest
+                              - generic [ref=e702]:
+                                - generic [ref=e703]: Single from
+                                - generic [ref=e704]: £56.50
+                            - generic [ref=e706]:
+                              - button "Select Lowest Single from £56.50" [ref=e707] [cursor=pointer]: outward-3
+                              - generic [ref=e708]:
+                                - generic [ref=e709] [cursor=pointer]
+                                - generic [ref=e713]: Select
+                        - generic [ref=e716]:
+                          - text: Fastest
+                          - generic [ref=e717]: ": This is the fastest available journey"
+                        - generic [ref=e718]:
+                          - generic [ref=e719]:
+                            - paragraph [ref=e720]: Departs
+                            - time [ref=e722]: 10:34
+                            - generic [ref=e724]:
+                              - text: Manchester Piccadilly
+                              - generic [ref=e725]: (MAN)
+                            - paragraph [ref=e726]: Platform 5
+                          - generic [ref=e731]:
+                            - paragraph [ref=e732]: Arrives
+                            - time [ref=e734]: 12:41
+                            - generic [ref=e736]:
+                              - text: London Euston
+                              - generic [ref=e737]: (EUS)
+                            - paragraph [ref=e738]: Platform 14
+                        - generic [ref=e739]:
+                          - 'button "Duration: 2 hours, 7 minutes and, Direct" [ref=e741] [cursor=pointer]':
+                            - generic [ref=e742]:
+                              - time [ref=e743]: 2h 7m,
+                              - generic [ref=e744]: and,
+                              - text: Direct
+                          - region "Service updates for journey 4" [ref=e746]:
+                            - button "Accessibility" [ref=e747] [cursor=pointer]
+                  - listitem [ref=e752]:
+                    - generic [ref=e753]:
+                      - heading "10:54 journey from Manchester Piccadilly to London Euston" [level=3] [ref=e754]
+                      - generic [ref=e756]:
+                        - generic [ref=e757]:
+                          - generic [ref=e758]: "- Journey 5, Departs, 10:54, from Manchester Piccadilly, and Arrives, 13:09, at London Euston, duration 2 hours, 15 minutes, with 0 change"
+                          - generic [ref=e759]:
+                            - generic [ref=e760]:
+                              - generic [ref=e761]: Lowest
+                              - generic [ref=e762]:
+                                - generic [ref=e763]: Single from
+                                - generic [ref=e764]: £56.50
+                            - generic [ref=e766]:
+                              - button "Select Lowest Single from £56.50" [ref=e767] [cursor=pointer]: outward-4
+                              - generic [ref=e768]:
+                                - generic [ref=e769] [cursor=pointer]
+                                - generic [ref=e773]: Select
+                        - generic [ref=e775]:
+                          - generic [ref=e776]:
+                            - paragraph [ref=e777]: Departs
+                            - time [ref=e779]: 10:54
+                            - generic [ref=e781]:
+                              - text: Manchester Piccadilly
+                              - generic [ref=e782]: (MAN)
+                            - paragraph [ref=e783]: Platform 6
+                          - generic [ref=e788]:
+                            - paragraph [ref=e789]: Arrives
+                            - time [ref=e791]: 13:09
+                            - generic [ref=e793]:
+                              - text: London Euston
+                              - generic [ref=e794]: (EUS)
+                            - paragraph [ref=e795]: Platform 13
+                        - generic [ref=e796]:
+                          - 'button "Duration: 2 hours, 15 minutes and, Direct" [ref=e798] [cursor=pointer]':
+                            - generic [ref=e799]:
+                              - time [ref=e800]: 2h 15m,
+                              - generic [ref=e801]: and,
+                              - text: Direct
+                          - region "Service updates for journey 5" [ref=e803]:
+                            - button "Accessibility" [ref=e804] [cursor=pointer]
+                  - listitem [ref=e809]:
+                    - generic [ref=e810]:
+                      - heading "11:06 journey from Manchester Piccadilly to London Euston" [level=3] [ref=e811]
+                      - generic [ref=e813]:
+                        - generic [ref=e814]:
+                          - generic [ref=e815]: "- Journey 6, Departs, 11:06, from Manchester Piccadilly, and Arrives, 14:24, at London Euston, duration 3 hours, 18 minutes, with 1 change, This journey will be overtaken by a later departure"
+                          - generic [ref=e816]:
+                            - generic [ref=e817]:
+                              - generic [ref=e818]: Lowest
+                              - generic [ref=e819]:
+                                - generic [ref=e820]: Single from
+                                - generic [ref=e821]: £30.00
+                            - generic [ref=e823]:
+                              - button "Select Lowest Single from £30.00" [ref=e824] [cursor=pointer]: outward-5
+                              - generic [ref=e825]:
+                                - generic [ref=e826] [cursor=pointer]
+                                - generic [ref=e830]: Select
+                        - generic [ref=e833]:
+                          - text: Slower journey
+                          - generic [ref=e834]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e835]:
+                          - generic [ref=e836]:
+                            - paragraph [ref=e837]: Departs
+                            - time [ref=e839]: 11:06
+                            - generic [ref=e841]:
+                              - text: Manchester Piccadilly
+                              - generic [ref=e842]: (MAN)
+                            - paragraph [ref=e843]: Platform 8
+                          - generic [ref=e848]:
+                            - paragraph [ref=e849]: Arrives
+                            - time [ref=e851]: 14:24
+                            - generic [ref=e853]:
+                              - text: London Euston
+                              - generic [ref=e854]: (EUS)
+                            - paragraph [ref=e855]: Platform 5
+                        - generic [ref=e856]:
+                          - 'button "Duration: 3 hours, 18 minutes and, 1 change" [ref=e858] [cursor=pointer]':
+                            - generic [ref=e859]:
+                              - time [ref=e860]: 3h 18m,
+                              - generic [ref=e861]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 6" [ref=e863]:
+                            - button "Accessibility" [ref=e864] [cursor=pointer]
+                  - listitem [ref=e869]:
+                    - generic [ref=e870]:
+                      - heading "11:14 journey from Manchester Piccadilly to London Euston" [level=3] [ref=e871]
+                      - generic [ref=e873]:
+                        - generic [ref=e874]:
+                          - generic [ref=e875]: "- Journey 7, Departs, 11:14, from Manchester Piccadilly, and Arrives, 13:27, at London Euston, duration 2 hours, 13 minutes, with 0 change"
+                          - generic [ref=e876]:
+                            - generic [ref=e877]:
+                              - generic [ref=e878]: Lowest
+                              - generic [ref=e879]:
+                                - generic [ref=e880]: Single from
+                                - generic [ref=e881]: £56.50
+                            - generic [ref=e883]:
+                              - button "Select Lowest Single from £56.50" [ref=e884] [cursor=pointer]: outward-6
+                              - generic [ref=e885]:
+                                - generic [ref=e886] [cursor=pointer]
+                                - generic [ref=e890]: Select
+                        - generic [ref=e892]:
+                          - generic [ref=e893]:
+                            - paragraph [ref=e894]: Departs
+                            - time [ref=e896]: 11:14
+                            - generic [ref=e898]:
+                              - text: Manchester Piccadilly
+                              - generic [ref=e899]: (MAN)
+                            - paragraph [ref=e900]: Platform 5
+                          - generic [ref=e905]:
+                            - paragraph [ref=e906]: Arrives
+                            - time [ref=e908]: 13:27
+                            - generic [ref=e910]:
+                              - text: London Euston
+                              - generic [ref=e911]: (EUS)
+                            - paragraph [ref=e912]: Platform 5
+                        - generic [ref=e913]:
+                          - 'button "Duration: 2 hours, 13 minutes and, Direct" [ref=e915] [cursor=pointer]':
+                            - generic [ref=e916]:
+                              - time [ref=e917]: 2h 13m,
+                              - generic [ref=e918]: and,
+                              - text: Direct
+                          - region "Service updates for journey 7" [ref=e920]:
+                            - button "Accessibility" [ref=e921] [cursor=pointer]
+                  - listitem [ref=e926]:
+                    - generic [ref=e927]:
+                      - heading "11:30 journey from Manchester Piccadilly to London Euston" [level=3] [ref=e928]
+                      - generic [ref=e930]:
+                        - generic [ref=e931]:
+                          - generic [ref=e932]: "- Journey 8, Departs, 11:30, from Manchester Piccadilly, and Arrives, 15:24, at London Euston, duration 3 hours, 54 minutes, with 1 change, This journey will be overtaken by a later departure"
+                          - generic [ref=e933]:
+                            - generic [ref=e934]:
+                              - generic [ref=e935]: Lowest
+                              - generic [ref=e936]:
+                                - generic [ref=e937]: Single from
+                                - generic [ref=e938]: £24.00
+                            - generic [ref=e940]:
+                              - button "Select Lowest Single from £24.00" [ref=e941] [cursor=pointer]: outward-7
+                              - generic [ref=e942]:
+                                - generic [ref=e943] [cursor=pointer]
+                                - generic [ref=e947]: Select
+                        - generic [ref=e950]:
+                          - text: Slower journey
+                          - generic [ref=e951]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e952]:
+                          - generic [ref=e953]:
+                            - paragraph [ref=e954]: Departs
+                            - time [ref=e956]: 11:30
+                            - generic [ref=e958]:
+                              - text: Manchester Piccadilly
+                              - generic [ref=e959]: (MAN)
+                            - paragraph [ref=e960]: Platform 10
+                          - generic [ref=e965]:
+                            - paragraph [ref=e966]: Arrives
+                            - time [ref=e968]: 15:24
+                            - generic [ref=e970]:
+                              - text: London Euston
+                              - generic [ref=e971]: (EUS)
+                            - paragraph [ref=e972]: Platform 4
+                        - generic [ref=e973]:
+                          - 'button "Duration: 3 hours, 54 minutes and, 1 change" [ref=e975] [cursor=pointer]':
+                            - generic [ref=e976]:
+                              - time [ref=e977]: 3h 54m,
+                              - generic [ref=e978]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 8" [ref=e980]:
+                            - button "Accessibility" [ref=e981] [cursor=pointer]
+                  - listitem [ref=e986]:
+                    - generic [ref=e987]:
+                      - heading "11:34 journey from Manchester Piccadilly to London Euston" [level=3] [ref=e988]
+                      - generic [ref=e990]:
+                        - generic [ref=e991]:
+                          - generic [ref=e992]: "- Journey 9, Departs, 11:34, from Manchester Piccadilly, and Arrives, 13:41, at London Euston, duration 2 hours, 7 minutes, with 0 change"
+                          - generic [ref=e993]:
+                            - generic [ref=e994]:
+                              - generic [ref=e995]: Lowest
+                              - generic [ref=e996]:
+                                - generic [ref=e997]: Single from
+                                - generic [ref=e998]: £52.50
+                            - generic [ref=e1000]:
+                              - button "Select Lowest Single from £52.50" [ref=e1001] [cursor=pointer]: outward-8
+                              - generic [ref=e1002]:
+                                - generic [ref=e1003] [cursor=pointer]
+                                - generic [ref=e1007]: Select
+                        - generic [ref=e1009]:
+                          - generic [ref=e1010]:
+                            - paragraph [ref=e1011]: Departs
+                            - time [ref=e1013]: 11:34
+                            - generic [ref=e1015]:
+                              - text: Manchester Piccadilly
+                              - generic [ref=e1016]: (MAN)
+                            - paragraph [ref=e1017]: Platform 6
+                          - generic [ref=e1022]:
+                            - paragraph [ref=e1023]: Arrives
+                            - time [ref=e1025]: 13:41
+                            - generic [ref=e1027]:
+                              - text: London Euston
+                              - generic [ref=e1028]: (EUS)
+                            - paragraph [ref=e1029]: Platform 3
+                        - generic [ref=e1030]:
+                          - 'button "Duration: 2 hours, 7 minutes and, Direct" [ref=e1032] [cursor=pointer]':
+                            - generic [ref=e1033]:
+                              - time [ref=e1034]: 2h 7m,
+                              - generic [ref=e1035]: and,
+                              - text: Direct
+                          - region "Service updates for journey 9" [ref=e1037]:
+                            - button "Accessibility" [ref=e1038] [cursor=pointer]
+                  - listitem [ref=e1043]:
+                    - generic [ref=e1044]:
+                      - heading "11:54 journey from Manchester Piccadilly to London Euston" [level=3] [ref=e1045]
+                      - generic [ref=e1047]:
+                        - generic [ref=e1048]:
+                          - generic [ref=e1049]: "- Journey 10, Departs, 11:54, from Manchester Piccadilly, and Arrives, 14:09, at London Euston, duration 2 hours, 15 minutes, with 0 change"
+                          - generic [ref=e1050]:
+                            - generic [ref=e1051]:
+                              - generic [ref=e1052]: Lowest
+                              - generic [ref=e1053]:
+                                - generic [ref=e1054]: Single from
+                                - generic [ref=e1055]: £52.50
+                            - generic [ref=e1057]:
+                              - button "Select Lowest Single from £52.50" [ref=e1058] [cursor=pointer]: outward-9
+                              - generic [ref=e1059]:
+                                - generic [ref=e1060] [cursor=pointer]
+                                - generic [ref=e1064]: Select
+                        - generic [ref=e1066]:
+                          - generic [ref=e1067]:
+                            - paragraph [ref=e1068]: Departs
+                            - time [ref=e1070]: 11:54
+                            - generic [ref=e1072]:
+                              - text: Manchester Piccadilly
+                              - generic [ref=e1073]: (MAN)
+                            - paragraph [ref=e1074]: Platform 5
+                          - generic [ref=e1079]:
+                            - paragraph [ref=e1080]: Arrives
+                            - time [ref=e1082]: 14:09
+                            - generic [ref=e1084]:
+                              - text: London Euston
+                              - generic [ref=e1085]: (EUS)
+                            - paragraph [ref=e1086]: Platform 15
+                        - generic [ref=e1087]:
+                          - 'button "Duration: 2 hours, 15 minutes and, Direct" [ref=e1089] [cursor=pointer]':
+                            - generic [ref=e1090]:
+                              - time [ref=e1091]: 2h 15m,
+                              - generic [ref=e1092]: and,
+                              - text: Direct
+                          - region "Service updates for journey 10" [ref=e1094]:
+                            - button "Accessibility" [ref=e1095] [cursor=pointer]
+              - link "View later trains" [ref=e1104] [cursor=pointer]:
+                - /url: /journey-planner/?type=single&origin=MAN&destination=182&leavingType=departing&leavingDate=110926&leavingHour=10&leavingMin=00&adults=1&extraTime=0#
+            - generic [ref=e1111]:
+              - generic [ref=e1114]:
+                - heading "Total £0" [level=2] [ref=e1115]:
+                  - generic [ref=e1116]: Total
+                  - generic [ref=e1117]: £0
+                - link "Continue Review tickets and options" [ref=e1119] [cursor=pointer]:
+                  - /url: "#TD"
+                  - generic [ref=e1120]: Continue
+                  - generic [ref=e1125]: Review tickets and options
+                - paragraph [ref=e1126]: 1 Adult, No Railcard
+                - generic [ref=e1127]:
+                  - generic [ref=e1128]:
+                    - heading "Outward journey" [level=3] [ref=e1129]
+                    - paragraph [ref=e1130]: Not selected
+                  - generic [ref=e1131]:
+                    - heading "Return journey" [level=3] [ref=e1132]
+                    - button "Add return journey" [ref=e1133] [cursor=pointer]
+              - paragraph [ref=e1142]: Advertisement
+          - paragraph [ref=e1148]: Advertisement
+        - alert [ref=e1149]
+        - status [ref=e1150]: Please select a valid journey
+        - status [ref=e1151]: Outward results, step 1 of 2
+        - status [ref=e1152]: Currently viewing scheduled services
+        - alert [ref=e1153]
+      - contentinfo [ref=e130]:
+        - generic [ref=e133]:
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - link [ref=e138] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/
+                  - heading "Tickets, Railcards and Offers" [level=3] [ref=e139]
+                - list [ref=e140]:
+                  - listitem [ref=e141]:
+                    - link "Buying a Ticket" [ref=e142] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/buying-a-ticket/
+                  - listitem [ref=e143]:
+                    - link "Ticket Types" [ref=e144] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/ticket-types/
+                  - listitem [ref=e145]:
+                    - link "Railcards" [ref=e146] [cursor=pointer]:
+                      - /url: /railcards/
+                  - listitem [ref=e147]:
+                    - link "Saving Money" [ref=e148] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/saving-money/
+            - listitem [ref=e149]:
+              - generic [ref=e150]:
+                - link [ref=e152] [cursor=pointer]:
+                  - /url: /stations/
+                  - heading "Stations and Train Companies" [level=3] [ref=e153]
+                - list [ref=e154]:
+                  - listitem [ref=e155]:
+                    - link "Find a Station" [ref=e156] [cursor=pointer]:
+                      - /url: /stations/
+                  - listitem [ref=e157]:
+                    - link "Find a Train Company" [ref=e158] [cursor=pointer]:
+                      - /url: /travel-information/find-a-train-company/
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - link [ref=e162] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/discover-by-train/
+                  - heading "Discover by Train" [level=3] [ref=e163]
+                - list [ref=e164]:
+                  - listitem [ref=e165]:
+                    - link "Children and Families" [ref=e166] [cursor=pointer]:
+                      - /url: /discover-by-train/children-and-families/
+                  - listitem [ref=e167]:
+                    - link "Train Travel with Children" [ref=e168] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e169]:
+                    - link "Great British Destinations" [ref=e170] [cursor=pointer]:
+                      - /url: /discover-by-train/great-british-destinations/
+                  - listitem [ref=e171]:
+                    - link "Seasonal Inspiration" [ref=e172] [cursor=pointer]:
+                      - /url: /discover-by-train/seasonal-inspiration/
+                  - listitem [ref=e173]:
+                    - link "Places to Visit by Train" [ref=e174] [cursor=pointer]:
+                      - /url: /discover-by-train/places-to-visit-by-train/
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link [ref=e178] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/destinations/
+                  - heading "Destinations" [level=3] [ref=e179]
+                - list [ref=e180]:
+                  - listitem [ref=e181]:
+                    - link "Trains from London Paddington to Heathrow Airport" [ref=e182] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-paddington-to-heathrow-airport/
+                  - listitem [ref=e183]:
+                    - link "Trains from London to Liverpool" [ref=e184] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-liverpool/
+                  - listitem [ref=e185]:
+                    - link "Trains from London to Birmingham" [ref=e186] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-birmingham/
+                  - listitem [ref=e187]:
+                    - link "Trains from Edinburgh to Kings Cross" [ref=e188] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-edinburgh-to-london-kings-cross/
+                  - listitem [ref=e189]:
+                    - link "Trains from Gatwick Airport to London" [ref=e190] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-gatwick-airport-to-london/
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link [ref=e194] [cursor=pointer]:
+                  - /url: /help-and-assistance/
+                  - heading "Help and Assistance" [level=3] [ref=e195]
+                - list [ref=e196]:
+                  - listitem [ref=e197]:
+                    - link "Compensation and Refunds" [ref=e198] [cursor=pointer]:
+                      - /url: /help-and-assistance/compensation-and-refunds/
+                  - listitem [ref=e199]:
+                    - link "Contact Us" [ref=e200] [cursor=pointer]:
+                      - /url: /help-and-assistance/contact-us/
+                  - listitem [ref=e201]:
+                    - link "Complaints" [ref=e202] [cursor=pointer]:
+                      - /url: /help-and-assistance/complaints/
+                  - listitem [ref=e203]:
+                    - link "Passenger Assist" [ref=e204] [cursor=pointer]:
+                      - /url: /help-and-assistance/passenger-assist/
+                  - listitem [ref=e205]:
+                    - link "Media" [ref=e206] [cursor=pointer]:
+                      - /url: /media/
+                  - listitem [ref=e207]:
+                    - link "Text 61016" [ref=e208] [cursor=pointer]:
+                      - /url: /help-and-assistance/text-61016/
+            - listitem [ref=e209]:
+              - generic [ref=e210]:
+                - link [ref=e212] [cursor=pointer]:
+                  - /url: /on-the-train/
+                  - heading "On the Train" [level=3] [ref=e213]
+                - list [ref=e214]:
+                  - listitem [ref=e215]:
+                    - link "Accessible Train Travel and Facilities" [ref=e216] [cursor=pointer]:
+                      - /url: /on-the-train/accessible-train-travel-and-facilities/
+                  - listitem [ref=e217]:
+                    - link "Train Travel with Bicycles" [ref=e218] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-bicycles/
+                  - listitem [ref=e219]:
+                    - link "Train Travel with Pets" [ref=e220] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-pets/
+                  - listitem [ref=e221]:
+                    - link "Train Travel with Children" [ref=e222] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e223]:
+                    - link "Food and Drink" [ref=e224] [cursor=pointer]:
+                      - /url: /on-the-train/food-and-drink/
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - link "Instagram icon, (external link, opens in a new tab)" [ref=e227] [cursor=pointer]:
+                - /url: https://www.instagram.com/national.rail/
+              - link "Twitter icon, (external link, opens in a new tab)" [ref=e231] [cursor=pointer]:
+                - /url: https://twitter.com/nationalrailenq/
+              - link "Facebook icon, (external link, opens in a new tab)" [ref=e235] [cursor=pointer]:
+                - /url: https://www.facebook.com/nationalrailenq/
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - link "Download on the App Store, (external link, opens in a new tab)" [ref=e241] [cursor=pointer]:
+                  - /url: https://apps.apple.com/gb/app/national-rail/id519094154
+                  - figure [aria-hidden] [ref=e242]
+                - link "Download on the Play Store, (external link, opens in a new tab)" [ref=e244] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=uk.co.nationalrail.google&hl=en_GB
+                  - figure [aria-hidden] [ref=e245]
+              - link "Shaw Trust accessible, (external link, opens in a new tab)" [ref=e248] [cursor=pointer]:
+                - /url: https://www.accessibility-services.co.uk/certificates/national-rail/
+                - figure [aria-hidden] [ref=e249]
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - figure [aria-hidden] [ref=e258]
+            - paragraph [ref=e260]: © 2026
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /about-this-site/
+                - paragraph [ref=e264]: About This Site
+            - listitem [ref=e265]:
+              - link [ref=e266] [cursor=pointer]:
+                - /url: /accessible-information/
+                - paragraph [ref=e267]: Accessible Information
+            - listitem [ref=e268]:
+              - link [ref=e269] [cursor=pointer]:
+                - /url: /careers/
+                - paragraph [ref=e270]: Careers
+            - listitem [ref=e271]:
+              - link [ref=e272] [cursor=pointer]:
+                - /url: /cookie-policy/
+                - paragraph [ref=e273]: Cookies
+            - listitem [ref=e274]:
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /privacy-notice/
+                - paragraph [ref=e276]: Privacy Notice
+            - listitem [ref=e277]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+                - paragraph [ref=e279]: Terms and Conditions
+    - status [ref=e280]
+  - alert [ref=e281]: Journey Planner | Official Train Ticket Info | National Rail
+```

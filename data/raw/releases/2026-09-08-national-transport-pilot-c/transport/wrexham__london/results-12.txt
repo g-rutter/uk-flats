@@ -1,0 +1,701 @@
+### Page
+- Page URL: https://www.nationalrail.co.uk/journey-planner/?type=single&origin=WRX&destination=182&leavingType=departing&leavingDate=110926&leavingHour=12&leavingMin=00&adults=1&extraTime=0#O
+- Page Title: Buy Your Tickets - Wrexham General to London | National Rail
+- Console: 1 errors, 0 warnings
+### Snapshot
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - paragraph [ref=e15]: Advertisement
+            - generic [ref=e19]:
+              - link "National Rail home" [ref=e20] [cursor=pointer]:
+                - /url: /
+                - figure [aria-hidden] [ref=e22]
+              - navigation "header" [ref=e24]:
+                - list [ref=e25]:
+                  - listitem "Live Departures" [ref=e26]:
+                    - link "Live Departures" [ref=e27] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/live-trains/
+                  - listitem "Disruptions , unread" [ref=e32]:
+                    - link "Disruptions, unread" [ref=e33] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/disruptions/
+                      - generic [ref=e37]:
+                        - text: Disruptions
+                        - generic [ref=e38]: ", unread"
+                  - listitem "Plan a Journey" [ref=e39]:
+                    - link "Plan a Journey" [ref=e40] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/journey-planner/
+                  - listitem "My Travel" [ref=e45]:
+                    - link "My Travel" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/my-travel/
+              - button "Open search" [ref=e52] [cursor=pointer]
+            - status [ref=e56]: Unread notifications
+          - navigation "header" [ref=e61]:
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - button "Tickets, Railcards and Offers" [ref=e64] [cursor=pointer]
+              - listitem [ref=e66]:
+                - link "Stations" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/stations/
+              - listitem [ref=e69]:
+                - button "Travel Information" [ref=e70] [cursor=pointer]
+              - listitem [ref=e72]:
+                - button "Help and Assistance" [ref=e73] [cursor=pointer]
+              - listitem [ref=e75]:
+                - link "Status Updates" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/train-operator-status/
+              - listitem [ref=e78]:
+                - link "Engineering Works" [ref=e79] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/engineering-works/
+        - alert [ref=e81]
+      - main [ref=e82]:
+        - generic [ref=e432]:
+          - generic [ref=e437]:
+            - paragraph [ref=e439]: "The journey you are searching for:"
+            - heading [level=1] [ref=e440]:
+              - button "Wrexham General to London" [expanded] [ref=e441] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e442]:
+                  - text: Wrexham General
+                  - generic [ref=e443]: to
+                  - text: London
+            - generic [ref=e445]:
+              - generic [ref=e446]: Single Friday 11 September 2026
+              - generic [ref=e447]: • 1 Adult
+              - generic [ref=e448]: • No Railcard
+            - generic [ref=e449]:
+              - button "Edit journey" [ref=e450] [cursor=pointer]
+              - button "Set journey alert" [ref=e455] [cursor=pointer]
+              - button "Favourite journey Wrexham General to London" [ref=e460] [cursor=pointer]:
+                - generic [ref=e464]: Favourite route
+          - generic [ref=e470]:
+            - region "Please select a journey" [ref=e476]:
+              - generic [ref=e478]:
+                - heading "Please select a journey" [level=2] [ref=e479]
+                - paragraph [ref=e480]: Friday 11 September 2026
+              - generic [ref=e482]:
+                - group "Choose fare class" [ref=e484]:
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - radio "Standard from £57.50" [checked] [ref=e488] [cursor=pointer]
+                      - generic [ref=e490]:
+                        - generic [ref=e491]: Standard
+                        - generic [ref=e492]:
+                          - generic [ref=e493]: from
+                          - generic [ref=e494]: £57.50
+                    - generic [ref=e495]:
+                      - radio "First Class from £202.50" [ref=e496] [cursor=pointer]
+                      - generic [ref=e498]:
+                        - generic [ref=e499]: First Class
+                        - generic [ref=e500]:
+                          - generic [ref=e501]: from
+                          - generic [ref=e502]: £202.50
+                - link "View earlier trains" [ref=e505] [cursor=pointer]:
+                  - /url: /journey-planner/?type=single&origin=WRX&destination=182&leavingType=departing&leavingDate=110926&leavingHour=12&leavingMin=00&adults=1&extraTime=0#
+              - group "Please select a journey" [ref=e512]:
+                - list [ref=e514]:
+                  - listitem [ref=e515]:
+                    - generic [ref=e516]:
+                      - heading "12:01 journey from Wrexham General to London Euston" [level=3] [ref=e517]
+                      - generic [ref=e519]:
+                        - generic [ref=e520]:
+                          - generic [ref=e521]: "- Journey 1, Departs, 12:01, from Wrexham General, and Arrives, 14:35, at London Euston, duration 2 hours, 34 minutes, with 1 change"
+                          - generic [ref=e522]:
+                            - generic [ref=e523]:
+                              - generic [ref=e524]: Lowest
+                              - generic [ref=e525]:
+                                - generic [ref=e526]: Single from
+                                - generic [ref=e527]: £79.80
+                            - generic [ref=e529]:
+                              - button "Select Lowest Single from £79.80" [ref=e530] [cursor=pointer]: outward-0
+                              - generic [ref=e531]:
+                                - generic [ref=e532] [cursor=pointer]
+                                - generic [ref=e536]: Select
+                        - generic [ref=e538]:
+                          - generic [ref=e539]:
+                            - paragraph [ref=e540]: Departs
+                            - time [ref=e542]: 12:01
+                            - generic [ref=e544]:
+                              - text: Wrexham General
+                              - generic [ref=e545]: (WRX)
+                            - paragraph [ref=e546]: Platform 2
+                          - generic [ref=e551]:
+                            - paragraph [ref=e552]: Arrives
+                            - time [ref=e554]: 14:35
+                            - generic [ref=e556]:
+                              - text: London Euston
+                              - generic [ref=e557]: (EUS)
+                            - paragraph [ref=e558]: Platform 2
+                        - generic [ref=e559]:
+                          - 'button "Duration: 2 hours, 34 minutes and, 1 change" [ref=e561] [cursor=pointer]':
+                            - generic [ref=e562]:
+                              - time [ref=e563]: 2h 34m,
+                              - generic [ref=e564]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 1" [ref=e566]:
+                            - button "Accessibility" [ref=e567] [cursor=pointer]
+                  - listitem [ref=e572]:
+                    - generic [ref=e573]:
+                      - heading "12:40 journey from Wrexham General to London Euston" [level=3] [ref=e574]
+                      - generic [ref=e576]:
+                        - generic [ref=e577]:
+                          - generic [ref=e578]: "- Journey 2, Departs, 12:40, from Wrexham General, and Arrives, 15:09, at London Euston, duration 2 hours, 29 minutes, with 1 change, This is the fastest available journey"
+                          - generic [ref=e579]:
+                            - generic [ref=e580]:
+                              - generic [ref=e581]: Lowest
+                              - generic [ref=e582]:
+                                - generic [ref=e583]: Single from
+                                - generic [ref=e584]: £57.50
+                            - generic [ref=e586]:
+                              - button "Select Lowest Single from £57.50" [ref=e587] [cursor=pointer]: outward-1
+                              - generic [ref=e588]:
+                                - generic [ref=e589] [cursor=pointer]
+                                - generic [ref=e593]: Select
+                        - generic [ref=e596]:
+                          - text: Fastest
+                          - generic [ref=e597]: ": This is the fastest available journey"
+                        - generic [ref=e598]:
+                          - generic [ref=e599]:
+                            - paragraph [ref=e600]: Departs
+                            - time [ref=e602]: 12:40
+                            - generic [ref=e604]:
+                              - text: Wrexham General
+                              - generic [ref=e605]: (WRX)
+                            - paragraph [ref=e606]: Platform 2
+                          - generic [ref=e611]:
+                            - paragraph [ref=e612]: Arrives
+                            - time [ref=e614]: 15:09
+                            - generic [ref=e616]:
+                              - text: London Euston
+                              - generic [ref=e617]: (EUS)
+                            - paragraph [ref=e618]: Platform 12
+                        - generic [ref=e619]:
+                          - 'button "Duration: 2 hours, 29 minutes and, 1 change" [ref=e621] [cursor=pointer]':
+                            - generic [ref=e622]:
+                              - time [ref=e623]: 2h 29m,
+                              - generic [ref=e624]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 2" [ref=e626]:
+                            - button "Accessibility" [ref=e627] [cursor=pointer]
+                  - listitem [ref=e632]:
+                    - generic [ref=e633]:
+                      - heading "13:03 journey from Wrexham General to London Euston" [level=3] [ref=e634]
+                      - generic [ref=e636]:
+                        - generic [ref=e637]:
+                          - generic [ref=e638]: "- Journey 3, Departs, 13:03, from Wrexham General, and Arrives, 15:37, at London Euston, duration 2 hours, 34 minutes, with 1 change"
+                          - generic [ref=e639]:
+                            - generic [ref=e640]:
+                              - generic [ref=e641]: Lowest
+                              - generic [ref=e642]:
+                                - generic [ref=e643]: Single from
+                                - generic [ref=e644]: £79.80
+                            - generic [ref=e646]:
+                              - button "Select Lowest Single from £79.80" [ref=e647] [cursor=pointer]: outward-2
+                              - generic [ref=e648]:
+                                - generic [ref=e649] [cursor=pointer]
+                                - generic [ref=e653]: Select
+                        - generic [ref=e655]:
+                          - generic [ref=e656]:
+                            - paragraph [ref=e657]: Departs
+                            - time [ref=e659]: 13:03
+                            - generic [ref=e661]:
+                              - text: Wrexham General
+                              - generic [ref=e662]: (WRX)
+                            - paragraph [ref=e663]: Platform 2
+                          - generic [ref=e668]:
+                            - paragraph [ref=e669]: Arrives
+                            - time [ref=e671]: 15:37
+                            - generic [ref=e673]:
+                              - text: London Euston
+                              - generic [ref=e674]: (EUS)
+                            - paragraph [ref=e675]: Platform 1
+                        - generic [ref=e676]:
+                          - 'button "Duration: 2 hours, 34 minutes and, 1 change" [ref=e678] [cursor=pointer]':
+                            - generic [ref=e679]:
+                              - time [ref=e680]: 2h 34m,
+                              - generic [ref=e681]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 3" [ref=e683]:
+                            - button "Accessibility" [ref=e684] [cursor=pointer]
+                  - listitem [ref=e689]:
+                    - generic [ref=e690]:
+                      - heading "13:40 journey from Wrexham General to London Euston" [level=3] [ref=e691]
+                      - generic [ref=e693]:
+                        - generic [ref=e694]:
+                          - generic [ref=e695]: "- Journey 4, Departs, 13:40, from Wrexham General, and Arrives, 16:11, at London Euston, duration 2 hours, 31 minutes, with 1 change"
+                          - generic [ref=e696]:
+                            - generic [ref=e697]:
+                              - generic [ref=e698]: Lowest
+                              - generic [ref=e699]:
+                                - generic [ref=e700]: Single from
+                                - generic [ref=e701]: £79.80
+                            - generic [ref=e703]:
+                              - button "Select Lowest Single from £79.80" [ref=e704] [cursor=pointer]: outward-3
+                              - generic [ref=e705]:
+                                - generic [ref=e706] [cursor=pointer]
+                                - generic [ref=e710]: Select
+                        - generic [ref=e712]:
+                          - generic [ref=e713]:
+                            - paragraph [ref=e714]: Departs
+                            - time [ref=e716]: 13:40
+                            - generic [ref=e718]:
+                              - text: Wrexham General
+                              - generic [ref=e719]: (WRX)
+                            - paragraph [ref=e720]: Platform 2
+                          - generic [ref=e725]:
+                            - paragraph [ref=e726]: Arrives
+                            - time [ref=e728]: 16:11
+                            - generic [ref=e730]:
+                              - text: London Euston
+                              - generic [ref=e731]: (EUS)
+                            - paragraph [ref=e732]: Platform 1
+                        - generic [ref=e733]:
+                          - 'button "Duration: 2 hours, 31 minutes and, 1 change" [ref=e735] [cursor=pointer]':
+                            - generic [ref=e736]:
+                              - time [ref=e737]: 2h 31m,
+                              - generic [ref=e738]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 4" [ref=e740]:
+                            - button "Accessibility" [ref=e741] [cursor=pointer]
+                  - listitem [ref=e746]:
+                    - generic [ref=e747]:
+                      - heading "14:03 journey from Wrexham General to London Euston" [level=3] [ref=e748]
+                      - generic [ref=e750]:
+                        - generic [ref=e751]:
+                          - generic [ref=e752]: "- Journey 5, Departs, 14:03, from Wrexham General, and Arrives, 16:37, at London Euston, duration 2 hours, 34 minutes, with 1 change"
+                          - generic [ref=e753]:
+                            - generic [ref=e754]:
+                              - generic [ref=e755]: Lowest
+                              - generic [ref=e756]:
+                                - generic [ref=e757]: Single from
+                                - generic [ref=e758]: £79.80
+                            - generic [ref=e760]:
+                              - button "Select Lowest Single from £79.80" [ref=e761] [cursor=pointer]: outward-4
+                              - generic [ref=e762]:
+                                - generic [ref=e763] [cursor=pointer]
+                                - generic [ref=e767]: Select
+                        - generic [ref=e769]:
+                          - generic [ref=e770]:
+                            - paragraph [ref=e771]: Departs
+                            - time [ref=e773]: 14:03
+                            - generic [ref=e775]:
+                              - text: Wrexham General
+                              - generic [ref=e776]: (WRX)
+                            - paragraph [ref=e777]: Platform 2
+                          - generic [ref=e782]:
+                            - paragraph [ref=e783]: Arrives
+                            - time [ref=e785]: 16:37
+                            - generic [ref=e787]:
+                              - text: London Euston
+                              - generic [ref=e788]: (EUS)
+                            - paragraph [ref=e789]: Platform 3
+                        - generic [ref=e790]:
+                          - 'button "Duration: 2 hours, 34 minutes and, 1 change" [ref=e792] [cursor=pointer]':
+                            - generic [ref=e793]:
+                              - time [ref=e794]: 2h 34m,
+                              - generic [ref=e795]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 5" [ref=e797]:
+                            - button "Accessibility" [ref=e798] [cursor=pointer]
+                  - listitem [ref=e803]:
+                    - generic [ref=e804]:
+                      - heading "14:40 journey from Wrexham General to London Euston" [level=3] [ref=e805]
+                      - generic [ref=e807]:
+                        - generic [ref=e808]:
+                          - generic [ref=e809]: "- Journey 6, Departs, 14:40, from Wrexham General, and Arrives, 17:09, at London Euston, duration 2 hours, 29 minutes, with 1 change"
+                          - generic [ref=e810]:
+                            - generic [ref=e811]:
+                              - generic [ref=e812]: Lowest
+                              - generic [ref=e813]:
+                                - generic [ref=e814]: Single from
+                                - generic [ref=e815]: £79.80
+                            - generic [ref=e817]:
+                              - button "Select Lowest Single from £79.80" [ref=e818] [cursor=pointer]: outward-5
+                              - generic [ref=e819]:
+                                - generic [ref=e820] [cursor=pointer]
+                                - generic [ref=e824]: Select
+                        - generic [ref=e826]:
+                          - generic [ref=e827]:
+                            - paragraph [ref=e828]: Departs
+                            - time [ref=e830]: 14:40
+                            - generic [ref=e832]:
+                              - text: Wrexham General
+                              - generic [ref=e833]: (WRX)
+                            - paragraph [ref=e834]: Platform 2
+                          - generic [ref=e839]:
+                            - paragraph [ref=e840]: Arrives
+                            - time [ref=e842]: 17:09
+                            - generic [ref=e844]:
+                              - text: London Euston
+                              - generic [ref=e845]: (EUS)
+                            - paragraph [ref=e846]: Platform 5
+                        - generic [ref=e847]:
+                          - 'button "Duration: 2 hours, 29 minutes and, 1 change" [ref=e849] [cursor=pointer]':
+                            - generic [ref=e850]:
+                              - time [ref=e851]: 2h 29m,
+                              - generic [ref=e852]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 6" [ref=e854]:
+                            - button "Accessibility" [ref=e855] [cursor=pointer]
+                  - listitem [ref=e860]:
+                    - generic [ref=e861]:
+                      - heading "15:03 journey from Wrexham General to London Euston" [level=3] [ref=e862]
+                      - generic [ref=e864]:
+                        - generic [ref=e865]:
+                          - generic [ref=e866]: "- Journey 7, Departs, 15:03, from Wrexham General, and Arrives, 17:37, at London Euston, duration 2 hours, 34 minutes, with 1 change"
+                          - generic [ref=e867]:
+                            - generic [ref=e868]:
+                              - generic [ref=e869]: Lowest
+                              - generic [ref=e870]:
+                                - generic [ref=e871]: Single from
+                                - generic [ref=e872]: £74.50
+                            - generic [ref=e874]:
+                              - button "Select Lowest Single from £74.50" [ref=e875] [cursor=pointer]: outward-6
+                              - generic [ref=e876]:
+                                - generic [ref=e877] [cursor=pointer]
+                                - generic [ref=e881]: Select
+                        - generic [ref=e883]:
+                          - generic [ref=e884]:
+                            - paragraph [ref=e885]: Departs
+                            - time [ref=e887]: 15:03
+                            - generic [ref=e889]:
+                              - text: Wrexham General
+                              - generic [ref=e890]: (WRX)
+                            - paragraph [ref=e891]: Platform 2
+                          - generic [ref=e896]:
+                            - paragraph [ref=e897]: Arrives
+                            - time [ref=e899]: 17:37
+                            - generic [ref=e901]:
+                              - text: London Euston
+                              - generic [ref=e902]: (EUS)
+                            - paragraph [ref=e903]: Platform 7
+                        - generic [ref=e904]:
+                          - 'button "Duration: 2 hours, 34 minutes and, 1 change" [ref=e906] [cursor=pointer]':
+                            - generic [ref=e907]:
+                              - time [ref=e908]: 2h 34m,
+                              - generic [ref=e909]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 7" [ref=e911]:
+                            - button "Accessibility" [ref=e912] [cursor=pointer]
+                  - listitem [ref=e917]:
+                    - generic [ref=e918]:
+                      - heading "15:40 journey from Wrexham General to London Euston" [level=3] [ref=e919]
+                      - generic [ref=e921]:
+                        - generic [ref=e922]:
+                          - generic [ref=e923]: "- Journey 8, Departs, 15:40, from Wrexham General, and Arrives, 18:10, at London Euston, duration 2 hours, 30 minutes, with 1 change"
+                          - generic [ref=e924]:
+                            - generic [ref=e925]:
+                              - generic [ref=e926]: Lowest
+                              - generic [ref=e927]:
+                                - generic [ref=e928]: Single from
+                                - generic [ref=e929]: £79.80
+                            - generic [ref=e931]:
+                              - button "Select Lowest Single from £79.80" [ref=e932] [cursor=pointer]: outward-7
+                              - generic [ref=e933]:
+                                - generic [ref=e934] [cursor=pointer]
+                                - generic [ref=e938]: Select
+                        - generic [ref=e940]:
+                          - generic [ref=e941]:
+                            - paragraph [ref=e942]: Departs
+                            - time [ref=e944]: 15:40
+                            - generic [ref=e946]:
+                              - text: Wrexham General
+                              - generic [ref=e947]: (WRX)
+                            - paragraph [ref=e948]: Platform 2
+                          - generic [ref=e953]:
+                            - paragraph [ref=e954]: Arrives
+                            - time [ref=e956]: 18:10
+                            - generic [ref=e958]:
+                              - text: London Euston
+                              - generic [ref=e959]: (EUS)
+                            - paragraph [ref=e960]: Platform 6
+                        - generic [ref=e961]:
+                          - 'button "Duration: 2 hours, 30 minutes and, 1 change" [ref=e963] [cursor=pointer]':
+                            - generic [ref=e964]:
+                              - time [ref=e965]: 2h 30m,
+                              - generic [ref=e966]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 8" [ref=e968]:
+                            - button "Accessibility" [ref=e969] [cursor=pointer]
+                  - listitem [ref=e974]:
+                    - generic [ref=e975]:
+                      - heading "16:03 journey from Wrexham General to London Euston" [level=3] [ref=e976]
+                      - generic [ref=e978]:
+                        - generic [ref=e979]:
+                          - generic [ref=e980]: "- Journey 9, Departs, 16:03, from Wrexham General, and Arrives, 18:36, at London Euston, duration 2 hours, 33 minutes, with 1 change"
+                          - generic [ref=e981]:
+                            - generic [ref=e982]:
+                              - generic [ref=e983]: Lowest
+                              - generic [ref=e984]:
+                                - generic [ref=e985]: Single from
+                                - generic [ref=e986]: £79.80
+                            - generic [ref=e988]:
+                              - button "Select Lowest Single from £79.80" [ref=e989] [cursor=pointer]: outward-8
+                              - generic [ref=e990]:
+                                - generic [ref=e991] [cursor=pointer]
+                                - generic [ref=e995]: Select
+                        - generic [ref=e997]:
+                          - generic [ref=e998]:
+                            - paragraph [ref=e999]: Departs
+                            - time [ref=e1001]: 16:03
+                            - generic [ref=e1003]:
+                              - text: Wrexham General
+                              - generic [ref=e1004]: (WRX)
+                            - paragraph [ref=e1005]: Platform 2
+                          - generic [ref=e1010]:
+                            - paragraph [ref=e1011]: Arrives
+                            - time [ref=e1013]: 18:36
+                            - generic [ref=e1015]:
+                              - text: London Euston
+                              - generic [ref=e1016]: (EUS)
+                            - paragraph [ref=e1017]: Platform 14
+                        - generic [ref=e1018]:
+                          - 'button "Duration: 2 hours, 33 minutes and, 1 change" [ref=e1020] [cursor=pointer]':
+                            - generic [ref=e1021]:
+                              - time [ref=e1022]: 2h 33m,
+                              - generic [ref=e1023]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 9" [ref=e1025]:
+                            - button "Accessibility" [ref=e1026] [cursor=pointer]
+                  - listitem [ref=e1031]:
+                    - generic [ref=e1032]:
+                      - heading "16:40 journey from Wrexham General to London Euston" [level=3] [ref=e1033]
+                      - generic [ref=e1035]:
+                        - generic [ref=e1036]:
+                          - generic [ref=e1037]: "- Journey 10, Departs, 16:40, from Wrexham General, and Arrives, 19:09, at London Euston, duration 2 hours, 29 minutes, with 1 change"
+                          - generic [ref=e1038]:
+                            - generic [ref=e1039]:
+                              - generic [ref=e1040]: Lowest
+                              - generic [ref=e1041]:
+                                - generic [ref=e1042]: Single from
+                                - generic [ref=e1043]: £79.80
+                            - generic [ref=e1045]:
+                              - button "Select Lowest Single from £79.80" [ref=e1046] [cursor=pointer]: outward-9
+                              - generic [ref=e1047]:
+                                - generic [ref=e1048] [cursor=pointer]
+                                - generic [ref=e1052]: Select
+                        - generic [ref=e1054]:
+                          - generic [ref=e1055]:
+                            - paragraph [ref=e1056]: Departs
+                            - time [ref=e1058]: 16:40
+                            - generic [ref=e1060]:
+                              - text: Wrexham General
+                              - generic [ref=e1061]: (WRX)
+                            - paragraph [ref=e1062]: Platform 2
+                          - generic [ref=e1067]:
+                            - paragraph [ref=e1068]: Arrives
+                            - time [ref=e1070]: 19:09
+                            - generic [ref=e1072]:
+                              - text: London Euston
+                              - generic [ref=e1073]: (EUS)
+                            - paragraph [ref=e1074]: Platform 13
+                        - generic [ref=e1075]:
+                          - 'button "Duration: 2 hours, 29 minutes and, 1 change" [ref=e1077] [cursor=pointer]':
+                            - generic [ref=e1078]:
+                              - time [ref=e1079]: 2h 29m,
+                              - generic [ref=e1080]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 10" [ref=e1082]:
+                            - button "Accessibility" [ref=e1083] [cursor=pointer]
+              - link "View later trains" [ref=e1092] [cursor=pointer]:
+                - /url: /journey-planner/?type=single&origin=WRX&destination=182&leavingType=departing&leavingDate=110926&leavingHour=12&leavingMin=00&adults=1&extraTime=0#
+            - generic [ref=e1099]:
+              - generic [ref=e1102]:
+                - heading "Total £0" [level=2] [ref=e1103]:
+                  - generic [ref=e1104]: Total
+                  - generic [ref=e1105]: £0
+                - link "Continue Review tickets and options" [ref=e1107] [cursor=pointer]:
+                  - /url: "#TD"
+                  - generic [ref=e1108]: Continue
+                  - generic [ref=e1113]: Review tickets and options
+                - paragraph [ref=e1114]: 1 Adult, No Railcard
+                - generic [ref=e1115]:
+                  - generic [ref=e1116]:
+                    - heading "Outward journey" [level=3] [ref=e1117]
+                    - paragraph [ref=e1118]: Not selected
+                  - generic [ref=e1119]:
+                    - heading "Return journey" [level=3] [ref=e1120]
+                    - button "Add return journey" [ref=e1121] [cursor=pointer]
+              - paragraph [ref=e1130]: Advertisement
+          - paragraph [ref=e1136]: Advertisement
+        - alert [ref=e1137]
+        - status [ref=e1138]: Please select a valid journey
+        - status [ref=e1139]: Outward results, step 1 of 2
+        - status [ref=e1140]: Currently viewing scheduled services
+        - alert [ref=e1141]
+      - contentinfo [ref=e130]:
+        - generic [ref=e133]:
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - link [ref=e138] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/
+                  - heading "Tickets, Railcards and Offers" [level=3] [ref=e139]
+                - list [ref=e140]:
+                  - listitem [ref=e141]:
+                    - link "Buying a Ticket" [ref=e142] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/buying-a-ticket/
+                  - listitem [ref=e143]:
+                    - link "Ticket Types" [ref=e144] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/ticket-types/
+                  - listitem [ref=e145]:
+                    - link "Railcards" [ref=e146] [cursor=pointer]:
+                      - /url: /railcards/
+                  - listitem [ref=e147]:
+                    - link "Saving Money" [ref=e148] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/saving-money/
+            - listitem [ref=e149]:
+              - generic [ref=e150]:
+                - link [ref=e152] [cursor=pointer]:
+                  - /url: /stations/
+                  - heading "Stations and Train Companies" [level=3] [ref=e153]
+                - list [ref=e154]:
+                  - listitem [ref=e155]:
+                    - link "Find a Station" [ref=e156] [cursor=pointer]:
+                      - /url: /stations/
+                  - listitem [ref=e157]:
+                    - link "Find a Train Company" [ref=e158] [cursor=pointer]:
+                      - /url: /travel-information/find-a-train-company/
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - link [ref=e162] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/discover-by-train/
+                  - heading "Discover by Train" [level=3] [ref=e163]
+                - list [ref=e164]:
+                  - listitem [ref=e165]:
+                    - link "Children and Families" [ref=e166] [cursor=pointer]:
+                      - /url: /discover-by-train/children-and-families/
+                  - listitem [ref=e167]:
+                    - link "Train Travel with Children" [ref=e168] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e169]:
+                    - link "Great British Destinations" [ref=e170] [cursor=pointer]:
+                      - /url: /discover-by-train/great-british-destinations/
+                  - listitem [ref=e171]:
+                    - link "Seasonal Inspiration" [ref=e172] [cursor=pointer]:
+                      - /url: /discover-by-train/seasonal-inspiration/
+                  - listitem [ref=e173]:
+                    - link "Places to Visit by Train" [ref=e174] [cursor=pointer]:
+                      - /url: /discover-by-train/places-to-visit-by-train/
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link [ref=e178] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/destinations/
+                  - heading "Destinations" [level=3] [ref=e179]
+                - list [ref=e180]:
+                  - listitem [ref=e181]:
+                    - link "Trains from London Paddington to Heathrow Airport" [ref=e182] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-paddington-to-heathrow-airport/
+                  - listitem [ref=e183]:
+                    - link "Trains from London to Liverpool" [ref=e184] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-liverpool/
+                  - listitem [ref=e185]:
+                    - link "Trains from London to Birmingham" [ref=e186] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-birmingham/
+                  - listitem [ref=e187]:
+                    - link "Trains from Edinburgh to Kings Cross" [ref=e188] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-edinburgh-to-london-kings-cross/
+                  - listitem [ref=e189]:
+                    - link "Trains from Gatwick Airport to London" [ref=e190] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-gatwick-airport-to-london/
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link [ref=e194] [cursor=pointer]:
+                  - /url: /help-and-assistance/
+                  - heading "Help and Assistance" [level=3] [ref=e195]
+                - list [ref=e196]:
+                  - listitem [ref=e197]:
+                    - link "Compensation and Refunds" [ref=e198] [cursor=pointer]:
+                      - /url: /help-and-assistance/compensation-and-refunds/
+                  - listitem [ref=e199]:
+                    - link "Contact Us" [ref=e200] [cursor=pointer]:
+                      - /url: /help-and-assistance/contact-us/
+                  - listitem [ref=e201]:
+                    - link "Complaints" [ref=e202] [cursor=pointer]:
+                      - /url: /help-and-assistance/complaints/
+                  - listitem [ref=e203]:
+                    - link "Passenger Assist" [ref=e204] [cursor=pointer]:
+                      - /url: /help-and-assistance/passenger-assist/
+                  - listitem [ref=e205]:
+                    - link "Media" [ref=e206] [cursor=pointer]:
+                      - /url: /media/
+                  - listitem [ref=e207]:
+                    - link "Text 61016" [ref=e208] [cursor=pointer]:
+                      - /url: /help-and-assistance/text-61016/
+            - listitem [ref=e209]:
+              - generic [ref=e210]:
+                - link [ref=e212] [cursor=pointer]:
+                  - /url: /on-the-train/
+                  - heading "On the Train" [level=3] [ref=e213]
+                - list [ref=e214]:
+                  - listitem [ref=e215]:
+                    - link "Accessible Train Travel and Facilities" [ref=e216] [cursor=pointer]:
+                      - /url: /on-the-train/accessible-train-travel-and-facilities/
+                  - listitem [ref=e217]:
+                    - link "Train Travel with Bicycles" [ref=e218] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-bicycles/
+                  - listitem [ref=e219]:
+                    - link "Train Travel with Pets" [ref=e220] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-pets/
+                  - listitem [ref=e221]:
+                    - link "Train Travel with Children" [ref=e222] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e223]:
+                    - link "Food and Drink" [ref=e224] [cursor=pointer]:
+                      - /url: /on-the-train/food-and-drink/
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - link "Instagram icon, (external link, opens in a new tab)" [ref=e227] [cursor=pointer]:
+                - /url: https://www.instagram.com/national.rail/
+              - link "Twitter icon, (external link, opens in a new tab)" [ref=e231] [cursor=pointer]:
+                - /url: https://twitter.com/nationalrailenq/
+              - link "Facebook icon, (external link, opens in a new tab)" [ref=e235] [cursor=pointer]:
+                - /url: https://www.facebook.com/nationalrailenq/
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - link "Download on the App Store, (external link, opens in a new tab)" [ref=e241] [cursor=pointer]:
+                  - /url: https://apps.apple.com/gb/app/national-rail/id519094154
+                  - figure [aria-hidden] [ref=e242]
+                - link "Download on the Play Store, (external link, opens in a new tab)" [ref=e244] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=uk.co.nationalrail.google&hl=en_GB
+                  - figure [aria-hidden] [ref=e245]
+              - link "Shaw Trust accessible, (external link, opens in a new tab)" [ref=e248] [cursor=pointer]:
+                - /url: https://www.accessibility-services.co.uk/certificates/national-rail/
+                - figure [aria-hidden] [ref=e249]
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - figure [aria-hidden] [ref=e258]
+            - paragraph [ref=e260]: © 2026
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /about-this-site/
+                - paragraph [ref=e264]: About This Site
+            - listitem [ref=e265]:
+              - link [ref=e266] [cursor=pointer]:
+                - /url: /accessible-information/
+                - paragraph [ref=e267]: Accessible Information
+            - listitem [ref=e268]:
+              - link [ref=e269] [cursor=pointer]:
+                - /url: /careers/
+                - paragraph [ref=e270]: Careers
+            - listitem [ref=e271]:
+              - link [ref=e272] [cursor=pointer]:
+                - /url: /cookie-policy/
+                - paragraph [ref=e273]: Cookies
+            - listitem [ref=e274]:
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /privacy-notice/
+                - paragraph [ref=e276]: Privacy Notice
+            - listitem [ref=e277]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+                - paragraph [ref=e279]: Terms and Conditions
+    - status [ref=e280]
+  - alert [ref=e281]: Journey Planner | Official Train Ticket Info | National Rail
+```

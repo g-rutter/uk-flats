@@ -4,7 +4,7 @@
 
 This compares national-rail access from one reviewed National Rail station per broad candidate location to fixed London and Birmingham rail gateways. It is a dated, station-to-station National Rail Journey Planner observation—not a property, neighbourhood, walking, fare, accessibility, door-to-door or guaranteed journey measure. Timetables, disruption and planner routing can change results. It is separate from the qualitative `localTransport.csv` assessment; neither measure may be used to infer the other.
 
-The canonical journey source is the public [National Rail Journey Planner](https://www.nationalrail.co.uk/journey-planner/), used manually in a browser. Record only what it visibly displays. NaPTAN/NPTG may support station reference review, but is not a journey-time source.
+The canonical journey source is the public [National Rail Journey Planner](https://www.nationalrail.co.uk/journey-planner/), driven through its rendered browser interface. A named headless browser may automate form entry and evidence capture, but review must select and transcribe only values visibly displayed by the planner. Do not call planner endpoints, inspect network traffic, construct result URLs or machine-read itinerary values. NaPTAN/NPTG may support station reference review, but is not a journey-time source.
 
 ## Endpoints and selection
 
@@ -18,7 +18,7 @@ Where reliably visible, count distinct suitable departures in a recorded two-hou
 
 ## Evidence, data and review
 
-For every route retain a result capture, expanded journey details, result URL when supplied, and a transcription in `data/inputs/transport_route_observations.csv`. A dated raw release includes a `manifest.csv` of visible query values, capture hashes, timestamps and limitations; `raw_capture_path` is relative to that release. Retain the measurement date, selection window, searches used, departure/arrival, elapsed minutes, changes, frequency context, confidence, evidence ID and reason. Blank means unknown/unavailable, never zero.
+For every route retain result captures sufficient to cover the selection window, expanded journey details for the selected itinerary, a result URL when the UI supplies it, and a transcription in `data/inputs/transport_route_observations.csv`. A dated raw release includes a `manifest.csv` of visible query values, capture hashes, timestamps and limitations; `raw_capture_path` is relative to that release. Retain the measurement date, selection window, searches used, departure/arrival, elapsed minutes, changes, frequency context, confidence, evidence ID and reason. Blank means unknown/unavailable, never zero.
 
 `scripts/prepare_national_transport.py` is an offline standard-library validator/transformer: it checks the manifest, mappings and route fields and writes review staging output. It never requests the planner or updates `nationalTransport.csv`. Review station choices, missing or excluded routes, and anomalous durations/change counts before copying a complete reviewed release to canonical inputs. Retain an evidence-catalogue row with provider, coverage, period and limitations.
 

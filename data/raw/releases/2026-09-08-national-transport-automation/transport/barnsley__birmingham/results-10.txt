@@ -1,0 +1,705 @@
+### Page
+- Page URL: https://www.nationalrail.co.uk/journey-planner/?type=single&origin=BNY&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=10&leavingMin=00&adults=1&extraTime=0#O
+- Page Title: Buy Your Tickets - Barnsley to Birmingham New Street | National Rail
+- Console: 1 errors, 1 warnings
+### Snapshot
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - paragraph [ref=e15]: Advertisement
+            - generic [ref=e19]:
+              - link "National Rail home" [ref=e20] [cursor=pointer]:
+                - /url: /
+                - figure [aria-hidden] [ref=e22]
+              - navigation "header" [ref=e24]:
+                - list [ref=e25]:
+                  - listitem "Live Departures" [ref=e26]:
+                    - link "Live Departures" [ref=e27] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/live-trains/
+                  - listitem "Disruptions , unread" [ref=e32]:
+                    - link "Disruptions, unread" [ref=e33] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/disruptions/
+                      - generic [ref=e37]:
+                        - text: Disruptions
+                        - generic [ref=e38]: ", unread"
+                  - listitem "Plan a Journey" [ref=e39]:
+                    - link "Plan a Journey" [ref=e40] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/journey-planner/
+                  - listitem "My Travel" [ref=e45]:
+                    - link "My Travel" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/my-travel/
+              - button "Open search" [ref=e52] [cursor=pointer]
+            - status [ref=e56]: Unread notifications
+          - navigation "header" [ref=e61]:
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - button "Tickets, Railcards and Offers" [ref=e64] [cursor=pointer]
+              - listitem [ref=e66]:
+                - link "Stations" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/stations/
+              - listitem [ref=e69]:
+                - button "Travel Information" [ref=e70] [cursor=pointer]
+              - listitem [ref=e72]:
+                - button "Help and Assistance" [ref=e73] [cursor=pointer]
+              - listitem [ref=e75]:
+                - link "Status Updates" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/train-operator-status/
+              - listitem [ref=e78]:
+                - link "Engineering Works" [ref=e79] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/engineering-works/
+        - alert [ref=e81]
+      - main [ref=e82]:
+        - generic [ref=e432]:
+          - generic [ref=e437]:
+            - paragraph [ref=e439]: "The journey you are searching for:"
+            - heading [level=1] [ref=e440]:
+              - button "Barnsley to Birmingham New Street" [expanded] [ref=e441] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e442]:
+                  - text: Barnsley
+                  - generic [ref=e443]: to
+                  - text: Birmingham New Street
+            - generic [ref=e445]:
+              - generic [ref=e446]: Single Friday 11 September 2026
+              - generic [ref=e447]: • 1 Adult
+              - generic [ref=e448]: • No Railcard
+            - generic [ref=e449]:
+              - button "Edit journey" [ref=e450] [cursor=pointer]
+              - button "Set journey alert" [ref=e455] [cursor=pointer]
+              - button "Favourite journey Barnsley to Birmingham New Street" [ref=e460] [cursor=pointer]:
+                - generic [ref=e464]: Favourite route
+          - generic [ref=e470]:
+            - region "Please select a journey" [ref=e476]:
+              - generic [ref=e478]:
+                - heading "Please select a journey" [level=2] [ref=e479]
+                - paragraph [ref=e480]: Friday 11 September 2026
+              - generic [ref=e482]:
+                - group "Choose fare class" [ref=e484]:
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - radio "Standard from £37.90" [checked] [ref=e488] [cursor=pointer]
+                      - generic [ref=e490]:
+                        - generic [ref=e491]: Standard
+                        - generic [ref=e492]:
+                          - generic [ref=e493]: from
+                          - generic [ref=e494]: £37.90
+                    - generic [ref=e495]:
+                      - radio "First Class from £161.10" [ref=e496] [cursor=pointer]
+                      - generic [ref=e498]:
+                        - generic [ref=e499]: First Class
+                        - generic [ref=e500]:
+                          - generic [ref=e501]: from
+                          - generic [ref=e502]: £161.10
+                - link "View earlier trains" [ref=e505] [cursor=pointer]:
+                  - /url: /journey-planner/?type=single&origin=BNY&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=10&leavingMin=00&adults=1&extraTime=0#
+              - group "Please select a journey" [ref=e512]:
+                - list [ref=e514]:
+                  - listitem [ref=e515]:
+                    - generic [ref=e516]:
+                      - heading "10:10 journey from Barnsley to Birmingham New Street" [level=3] [ref=e517]
+                      - generic [ref=e519]:
+                        - generic [ref=e520]:
+                          - generic [ref=e521]: "- Journey 1, Departs, 10:10, from Barnsley, and Arrives, 12:04, at Birmingham New Street, duration 1 hour, 54 minutes, with 1 change"
+                          - generic [ref=e522]:
+                            - generic [ref=e523]:
+                              - generic [ref=e524]: Lowest
+                              - generic [ref=e525]:
+                                - generic [ref=e526]: Single from
+                                - generic [ref=e527]: £72.10
+                            - generic [ref=e529]:
+                              - button "Select Lowest Single from £72.10" [ref=e530] [cursor=pointer]: outward-0
+                              - generic [ref=e531]:
+                                - generic [ref=e532] [cursor=pointer]
+                                - generic [ref=e536]: Select
+                        - generic [ref=e538]:
+                          - generic [ref=e539]:
+                            - paragraph [ref=e540]: Departs
+                            - time [ref=e542]: 10:10
+                            - generic [ref=e544]:
+                              - text: Barnsley
+                              - generic [ref=e545]: (BNY)
+                            - paragraph [ref=e546]: Platform 1
+                          - generic [ref=e551]:
+                            - paragraph [ref=e552]: Arrives
+                            - time [ref=e554]: 12:04
+                            - generic [ref=e556]:
+                              - text: Birmingham New Street
+                              - generic [ref=e557]: (BHM)
+                            - paragraph [ref=e558]: Platform 11B
+                        - generic [ref=e559]:
+                          - 'button "Duration: 1 hour, 54 minutes and, 1 change" [ref=e561] [cursor=pointer]':
+                            - generic [ref=e562]:
+                              - time [ref=e563]: 1h 54m,
+                              - generic [ref=e564]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 1" [ref=e566]:
+                            - button "Accessibility" [ref=e567] [cursor=pointer]
+                  - listitem [ref=e572]:
+                    - generic [ref=e573]:
+                      - heading "10:22 journey from Barnsley to Birmingham New Street" [level=3] [ref=e574]
+                      - generic [ref=e576]:
+                        - generic [ref=e577]:
+                          - generic [ref=e578]: "- Journey 2, Departs, 10:22, from Barnsley, and Arrives, 12:25, at Birmingham New Street, duration 2 hours, 3 minutes, with 2 changes"
+                          - generic [ref=e579]:
+                            - generic [ref=e580]:
+                              - generic [ref=e581]: Lowest
+                              - generic [ref=e582]:
+                                - generic [ref=e583]: Single from
+                                - generic [ref=e584]: £43.60
+                            - generic [ref=e586]:
+                              - button "Select Lowest Single from £43.60" [ref=e587] [cursor=pointer]: outward-1
+                              - generic [ref=e588]:
+                                - generic [ref=e589] [cursor=pointer]
+                                - generic [ref=e593]: Select
+                        - generic [ref=e595]:
+                          - generic [ref=e596]:
+                            - paragraph [ref=e597]: Departs
+                            - time [ref=e599]: 10:22
+                            - generic [ref=e601]:
+                              - text: Barnsley
+                              - generic [ref=e602]: (BNY)
+                            - paragraph [ref=e603]: Platform 1
+                          - generic [ref=e608]:
+                            - paragraph [ref=e609]: Arrives
+                            - time [ref=e611]: 12:25
+                            - generic [ref=e613]:
+                              - text: Birmingham New Street
+                              - generic [ref=e614]: (BHM)
+                            - paragraph [ref=e615]: Platform 11B
+                        - generic [ref=e616]:
+                          - 'button "Duration: 2 hours, 3 minutes and, 2 changes" [ref=e618] [cursor=pointer]':
+                            - generic [ref=e619]:
+                              - time [ref=e620]: 2h 3m,
+                              - generic [ref=e621]: and,
+                              - text: 2 changes
+                          - region "Service updates for journey 2" [ref=e623]:
+                            - button "Disruption" [ref=e624] [cursor=pointer]
+                            - button "Accessibility" [ref=e628] [cursor=pointer]
+                  - listitem [ref=e633]:
+                    - generic [ref=e634]:
+                      - heading "11:10 journey from Barnsley to Birmingham New Street" [level=3] [ref=e635]
+                      - generic [ref=e637]:
+                        - generic [ref=e638]:
+                          - generic [ref=e639]: "- Journey 3, Departs, 11:10, from Barnsley, and Arrives, 13:06, at Birmingham New Street, duration 1 hour, 56 minutes, with 1 change"
+                          - generic [ref=e640]:
+                            - generic [ref=e641]:
+                              - generic [ref=e642]: Lowest
+                              - generic [ref=e643]:
+                                - generic [ref=e644]: Single from
+                                - generic [ref=e645]: £72.10
+                            - generic [ref=e647]:
+                              - button "Select Lowest Single from £72.10" [ref=e648] [cursor=pointer]: outward-2
+                              - generic [ref=e649]:
+                                - generic [ref=e650] [cursor=pointer]
+                                - generic [ref=e654]: Select
+                        - generic [ref=e656]:
+                          - generic [ref=e657]:
+                            - paragraph [ref=e658]: Departs
+                            - time [ref=e660]: 11:10
+                            - generic [ref=e662]:
+                              - text: Barnsley
+                              - generic [ref=e663]: (BNY)
+                            - paragraph [ref=e664]: Platform 1
+                          - generic [ref=e669]:
+                            - paragraph [ref=e670]: Arrives
+                            - time [ref=e672]: 13:06
+                            - generic [ref=e674]:
+                              - text: Birmingham New Street
+                              - generic [ref=e675]: (BHM)
+                            - paragraph [ref=e676]: Platform 11
+                        - generic [ref=e677]:
+                          - 'button "Duration: 1 hour, 56 minutes and, 1 change" [ref=e679] [cursor=pointer]':
+                            - generic [ref=e680]:
+                              - time [ref=e681]: 1h 56m,
+                              - generic [ref=e682]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 3" [ref=e684]:
+                            - button "Accessibility" [ref=e685] [cursor=pointer]
+                  - listitem [ref=e690]:
+                    - generic [ref=e691]:
+                      - heading "11:22 journey from Barnsley to Birmingham New Street" [level=3] [ref=e692]
+                      - generic [ref=e694]:
+                        - generic [ref=e695]:
+                          - generic [ref=e696]: "- Journey 4, Departs, 11:22, from Barnsley, and Arrives, 13:26, at Birmingham New Street, duration 2 hours, 4 minutes, with 2 changes"
+                          - generic [ref=e697]:
+                            - generic [ref=e698]:
+                              - generic [ref=e699]: Lowest
+                              - generic [ref=e700]:
+                                - generic [ref=e701]: Single from
+                                - generic [ref=e702]: £37.90
+                            - generic [ref=e704]:
+                              - button "Select Lowest Single from £37.90" [ref=e705] [cursor=pointer]: outward-3
+                              - generic [ref=e706]:
+                                - generic [ref=e707] [cursor=pointer]
+                                - generic [ref=e711]: Select
+                        - generic [ref=e713]:
+                          - generic [ref=e714]:
+                            - paragraph [ref=e715]: Departs
+                            - time [ref=e717]: 11:22
+                            - generic [ref=e719]:
+                              - text: Barnsley
+                              - generic [ref=e720]: (BNY)
+                            - paragraph [ref=e721]: Platform 1
+                          - generic [ref=e726]:
+                            - paragraph [ref=e727]: Arrives
+                            - time [ref=e729]: 13:26
+                            - generic [ref=e731]:
+                              - text: Birmingham New Street
+                              - generic [ref=e732]: (BHM)
+                            - paragraph [ref=e733]: Platform 11B
+                        - generic [ref=e734]:
+                          - 'button "Duration: 2 hours, 4 minutes and, 2 changes" [ref=e736] [cursor=pointer]':
+                            - generic [ref=e737]:
+                              - time [ref=e738]: 2h 4m,
+                              - generic [ref=e739]: and,
+                              - text: 2 changes
+                          - region "Service updates for journey 4" [ref=e741]:
+                            - button "Disruption" [ref=e742] [cursor=pointer]
+                            - button "Accessibility" [ref=e746] [cursor=pointer]
+                  - listitem [ref=e751]:
+                    - generic [ref=e752]:
+                      - heading "11:44 journey from Barnsley to Birmingham New Street" [level=3] [ref=e753]
+                      - generic [ref=e755]:
+                        - generic [ref=e756]:
+                          - generic [ref=e757]: "- Journey 5, Departs, 11:44, from Barnsley, and Arrives, 13:28, at Birmingham New Street, duration 1 hour, 44 minutes, with 1 change, This is the fastest available journey"
+                          - generic [ref=e758]:
+                            - generic [ref=e759]:
+                              - generic [ref=e760]: Lowest
+                              - generic [ref=e761]:
+                                - generic [ref=e762]: Single from
+                                - generic [ref=e763]: £72.10
+                            - generic [ref=e765]:
+                              - button "Select Lowest Single from £72.10" [ref=e766] [cursor=pointer]: outward-4
+                              - generic [ref=e767]:
+                                - generic [ref=e768] [cursor=pointer]
+                                - generic [ref=e772]: Select
+                        - generic [ref=e775]:
+                          - text: Fastest
+                          - generic [ref=e776]: ": This is the fastest available journey"
+                        - generic [ref=e777]:
+                          - generic [ref=e778]:
+                            - paragraph [ref=e779]: Departs
+                            - time [ref=e781]: 11:44
+                            - generic [ref=e783]:
+                              - text: Barnsley
+                              - generic [ref=e784]: (BNY)
+                            - paragraph [ref=e785]: Platform 1
+                          - generic [ref=e790]:
+                            - paragraph [ref=e791]: Arrives
+                            - time [ref=e793]: 13:28
+                            - generic [ref=e795]:
+                              - text: Birmingham New Street
+                              - generic [ref=e796]: (BHM)
+                            - paragraph [ref=e797]: Platform 12
+                        - generic [ref=e798]:
+                          - 'button "Duration: 1 hour, 44 minutes and, 1 change" [ref=e800] [cursor=pointer]':
+                            - generic [ref=e801]:
+                              - time [ref=e802]: 1h 44m,
+                              - generic [ref=e803]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 5" [ref=e805]:
+                            - button "Accessibility" [ref=e806] [cursor=pointer]
+                  - listitem [ref=e811]:
+                    - generic [ref=e812]:
+                      - heading "12:11 journey from Barnsley to Birmingham New Street" [level=3] [ref=e813]
+                      - generic [ref=e815]:
+                        - generic [ref=e816]:
+                          - generic [ref=e817]: "- Journey 6, Departs, 12:11, from Barnsley, and Arrives, 14:04, at Birmingham New Street, duration 1 hour, 53 minutes, with 1 change"
+                          - generic [ref=e818]:
+                            - generic [ref=e819]:
+                              - generic [ref=e820]: Lowest
+                              - generic [ref=e821]:
+                                - generic [ref=e822]: Single from
+                                - generic [ref=e823]: £72.10
+                            - generic [ref=e825]:
+                              - button "Select Lowest Single from £72.10" [ref=e826] [cursor=pointer]: outward-5
+                              - generic [ref=e827]:
+                                - generic [ref=e828] [cursor=pointer]
+                                - generic [ref=e832]: Select
+                        - generic [ref=e834]:
+                          - generic [ref=e835]:
+                            - paragraph [ref=e836]: Departs
+                            - time [ref=e838]: 12:11
+                            - generic [ref=e840]:
+                              - text: Barnsley
+                              - generic [ref=e841]: (BNY)
+                            - paragraph [ref=e842]: Platform 1
+                          - generic [ref=e847]:
+                            - paragraph [ref=e848]: Arrives
+                            - time [ref=e850]: 14:04
+                            - generic [ref=e852]:
+                              - text: Birmingham New Street
+                              - generic [ref=e853]: (BHM)
+                            - paragraph [ref=e854]: Platform 11B
+                        - generic [ref=e855]:
+                          - 'button "Duration: 1 hour, 53 minutes and, 1 change" [ref=e857] [cursor=pointer]':
+                            - generic [ref=e858]:
+                              - time [ref=e859]: 1h 53m,
+                              - generic [ref=e860]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 6" [ref=e862]:
+                            - button "Accessibility" [ref=e863] [cursor=pointer]
+                  - listitem [ref=e868]:
+                    - generic [ref=e869]:
+                      - heading "12:21 journey from Barnsley to Birmingham New Street" [level=3] [ref=e870]
+                      - generic [ref=e872]:
+                        - generic [ref=e873]:
+                          - generic [ref=e874]: "- Journey 7, Departs, 12:21, from Barnsley, and Arrives, 14:23, at Birmingham New Street, duration 2 hours, 2 minutes, with 2 changes"
+                          - generic [ref=e875]:
+                            - generic [ref=e876]:
+                              - generic [ref=e877]: Lowest
+                              - generic [ref=e878]:
+                                - generic [ref=e879]: Single from
+                                - generic [ref=e880]: £43.60
+                            - generic [ref=e882]:
+                              - button "Select Lowest Single from £43.60" [ref=e883] [cursor=pointer]: outward-6
+                              - generic [ref=e884]:
+                                - generic [ref=e885] [cursor=pointer]
+                                - generic [ref=e889]: Select
+                        - generic [ref=e891]:
+                          - generic [ref=e892]:
+                            - paragraph [ref=e893]: Departs
+                            - time [ref=e895]: 12:21
+                            - generic [ref=e897]:
+                              - text: Barnsley
+                              - generic [ref=e898]: (BNY)
+                            - paragraph [ref=e899]: Platform 1
+                          - generic [ref=e904]:
+                            - paragraph [ref=e905]: Arrives
+                            - time [ref=e907]: 14:23
+                            - generic [ref=e909]:
+                              - text: Birmingham New Street
+                              - generic [ref=e910]: (BHM)
+                            - paragraph [ref=e911]: Platform 11B
+                        - generic [ref=e912]:
+                          - 'button "Duration: 2 hours, 2 minutes and, 2 changes" [ref=e914] [cursor=pointer]':
+                            - generic [ref=e915]:
+                              - time [ref=e916]: 2h 2m,
+                              - generic [ref=e917]: and,
+                              - text: 2 changes
+                          - region "Service updates for journey 7" [ref=e919]:
+                            - button "Disruption" [ref=e920] [cursor=pointer]
+                            - button "Accessibility" [ref=e924] [cursor=pointer]
+                  - listitem [ref=e929]:
+                    - generic [ref=e930]:
+                      - heading "13:10 journey from Barnsley to Birmingham New Street" [level=3] [ref=e931]
+                      - generic [ref=e933]:
+                        - generic [ref=e934]:
+                          - generic [ref=e935]: "- Journey 8, Departs, 13:10, from Barnsley, and Arrives, 15:06, at Birmingham New Street, duration 1 hour, 56 minutes, with 1 change"
+                          - generic [ref=e936]:
+                            - generic [ref=e937]:
+                              - generic [ref=e938]: Lowest
+                              - generic [ref=e939]:
+                                - generic [ref=e940]: Single from
+                                - generic [ref=e941]: £72.10
+                            - generic [ref=e943]:
+                              - button "Select Lowest Single from £72.10" [ref=e944] [cursor=pointer]: outward-7
+                              - generic [ref=e945]:
+                                - generic [ref=e946] [cursor=pointer]
+                                - generic [ref=e950]: Select
+                        - generic [ref=e952]:
+                          - generic [ref=e953]:
+                            - paragraph [ref=e954]: Departs
+                            - time [ref=e956]: 13:10
+                            - generic [ref=e958]:
+                              - text: Barnsley
+                              - generic [ref=e959]: (BNY)
+                            - paragraph [ref=e960]: Platform 1
+                          - generic [ref=e965]:
+                            - paragraph [ref=e966]: Arrives
+                            - time [ref=e968]: 15:06
+                            - generic [ref=e970]:
+                              - text: Birmingham New Street
+                              - generic [ref=e971]: (BHM)
+                            - paragraph [ref=e972]: Platform 11B
+                        - generic [ref=e973]:
+                          - 'button "Duration: 1 hour, 56 minutes and, 1 change" [ref=e975] [cursor=pointer]':
+                            - generic [ref=e976]:
+                              - time [ref=e977]: 1h 56m,
+                              - generic [ref=e978]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 8" [ref=e980]:
+                            - button "Accessibility" [ref=e981] [cursor=pointer]
+                  - listitem [ref=e986]:
+                    - generic [ref=e987]:
+                      - heading "13:22 journey from Barnsley to Birmingham New Street" [level=3] [ref=e988]
+                      - generic [ref=e990]:
+                        - generic [ref=e991]:
+                          - generic [ref=e992]: "- Journey 9, Departs, 13:22, from Barnsley, and Arrives, 15:23, at Birmingham New Street, duration 2 hours, 1 minute, with 2 changes"
+                          - generic [ref=e993]:
+                            - generic [ref=e994]:
+                              - generic [ref=e995]: Lowest
+                              - generic [ref=e996]:
+                                - generic [ref=e997]: Single from
+                                - generic [ref=e998]: £37.90
+                            - generic [ref=e1000]:
+                              - button "Select Lowest Single from £37.90" [ref=e1001] [cursor=pointer]: outward-8
+                              - generic [ref=e1002]:
+                                - generic [ref=e1003] [cursor=pointer]
+                                - generic [ref=e1007]: Select
+                        - generic [ref=e1009]:
+                          - generic [ref=e1010]:
+                            - paragraph [ref=e1011]: Departs
+                            - time [ref=e1013]: 13:22
+                            - generic [ref=e1015]:
+                              - text: Barnsley
+                              - generic [ref=e1016]: (BNY)
+                            - paragraph [ref=e1017]: Platform 1
+                          - generic [ref=e1022]:
+                            - paragraph [ref=e1023]: Arrives
+                            - time [ref=e1025]: 15:23
+                            - generic [ref=e1027]:
+                              - text: Birmingham New Street
+                              - generic [ref=e1028]: (BHM)
+                            - paragraph [ref=e1029]: Platform 11B
+                        - generic [ref=e1030]:
+                          - 'button "Duration: 2 hours, 1 minute and, 2 changes" [ref=e1032] [cursor=pointer]':
+                            - generic [ref=e1033]:
+                              - time [ref=e1034]: 2h 1m,
+                              - generic [ref=e1035]: and,
+                              - text: 2 changes
+                          - region "Service updates for journey 9" [ref=e1037]:
+                            - button "Disruption" [ref=e1038] [cursor=pointer]
+                            - button "Accessibility" [ref=e1042] [cursor=pointer]
+                  - listitem [ref=e1047]:
+                    - generic [ref=e1048]:
+                      - heading "13:42 journey from Barnsley to Birmingham New Street" [level=3] [ref=e1049]
+                      - generic [ref=e1051]:
+                        - generic [ref=e1052]:
+                          - generic [ref=e1053]: "- Journey 10, Departs, 13:42, from Barnsley, and Arrives, 15:28, at Birmingham New Street, duration 1 hour, 46 minutes, with 1 change"
+                          - generic [ref=e1054]:
+                            - generic [ref=e1055]:
+                              - generic [ref=e1056]: Lowest
+                              - generic [ref=e1057]:
+                                - generic [ref=e1058]: Single from
+                                - generic [ref=e1059]: £72.10
+                            - generic [ref=e1061]:
+                              - button "Select Lowest Single from £72.10" [ref=e1062] [cursor=pointer]: outward-9
+                              - generic [ref=e1063]:
+                                - generic [ref=e1064] [cursor=pointer]
+                                - generic [ref=e1068]: Select
+                        - generic [ref=e1070]:
+                          - generic [ref=e1071]:
+                            - paragraph [ref=e1072]: Departs
+                            - time [ref=e1074]: 13:42
+                            - generic [ref=e1076]:
+                              - text: Barnsley
+                              - generic [ref=e1077]: (BNY)
+                            - paragraph [ref=e1078]: Platform 1
+                          - generic [ref=e1083]:
+                            - paragraph [ref=e1084]: Arrives
+                            - time [ref=e1086]: 15:28
+                            - generic [ref=e1088]:
+                              - text: Birmingham New Street
+                              - generic [ref=e1089]: (BHM)
+                            - paragraph [ref=e1090]: Platform 12A
+                        - generic [ref=e1091]:
+                          - 'button "Duration: 1 hour, 46 minutes and, 1 change" [ref=e1093] [cursor=pointer]':
+                            - generic [ref=e1094]:
+                              - time [ref=e1095]: 1h 46m,
+                              - generic [ref=e1096]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 10" [ref=e1098]:
+                            - button "Accessibility" [ref=e1099] [cursor=pointer]
+              - link "View later trains" [ref=e1108] [cursor=pointer]:
+                - /url: /journey-planner/?type=single&origin=BNY&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=10&leavingMin=00&adults=1&extraTime=0#
+            - generic [ref=e1115]:
+              - generic [ref=e1118]:
+                - heading "Total £0" [level=2] [ref=e1119]:
+                  - generic [ref=e1120]: Total
+                  - generic [ref=e1121]: £0
+                - link "Continue Review tickets and options" [ref=e1123] [cursor=pointer]:
+                  - /url: "#TD"
+                  - generic [ref=e1124]: Continue
+                  - generic [ref=e1129]: Review tickets and options
+                - paragraph [ref=e1130]: 1 Adult, No Railcard
+                - generic [ref=e1131]:
+                  - generic [ref=e1132]:
+                    - heading "Outward journey" [level=3] [ref=e1133]
+                    - paragraph [ref=e1134]: Not selected
+                  - generic [ref=e1135]:
+                    - heading "Return journey" [level=3] [ref=e1136]
+                    - button "Add return journey" [ref=e1137] [cursor=pointer]
+              - paragraph [ref=e1146]: Advertisement
+          - paragraph [ref=e1152]: Advertisement
+        - alert [ref=e1153]
+        - status [ref=e1154]: Please select a valid journey
+        - status [ref=e1155]: Outward results, step 1 of 2
+        - status [ref=e1156]: Currently viewing scheduled services
+        - alert [ref=e1157]
+      - contentinfo [ref=e130]:
+        - generic [ref=e133]:
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - link [ref=e138] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/
+                  - heading "Tickets, Railcards and Offers" [level=3] [ref=e139]
+                - list [ref=e140]:
+                  - listitem [ref=e141]:
+                    - link "Buying a Ticket" [ref=e142] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/buying-a-ticket/
+                  - listitem [ref=e143]:
+                    - link "Ticket Types" [ref=e144] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/ticket-types/
+                  - listitem [ref=e145]:
+                    - link "Railcards" [ref=e146] [cursor=pointer]:
+                      - /url: /railcards/
+                  - listitem [ref=e147]:
+                    - link "Saving Money" [ref=e148] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/saving-money/
+            - listitem [ref=e149]:
+              - generic [ref=e150]:
+                - link [ref=e152] [cursor=pointer]:
+                  - /url: /stations/
+                  - heading "Stations and Train Companies" [level=3] [ref=e153]
+                - list [ref=e154]:
+                  - listitem [ref=e155]:
+                    - link "Find a Station" [ref=e156] [cursor=pointer]:
+                      - /url: /stations/
+                  - listitem [ref=e157]:
+                    - link "Find a Train Company" [ref=e158] [cursor=pointer]:
+                      - /url: /travel-information/find-a-train-company/
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - link [ref=e162] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/discover-by-train/
+                  - heading "Discover by Train" [level=3] [ref=e163]
+                - list [ref=e164]:
+                  - listitem [ref=e165]:
+                    - link "Children and Families" [ref=e166] [cursor=pointer]:
+                      - /url: /discover-by-train/children-and-families/
+                  - listitem [ref=e167]:
+                    - link "Train Travel with Children" [ref=e168] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e169]:
+                    - link "Great British Destinations" [ref=e170] [cursor=pointer]:
+                      - /url: /discover-by-train/great-british-destinations/
+                  - listitem [ref=e171]:
+                    - link "Seasonal Inspiration" [ref=e172] [cursor=pointer]:
+                      - /url: /discover-by-train/seasonal-inspiration/
+                  - listitem [ref=e173]:
+                    - link "Places to Visit by Train" [ref=e174] [cursor=pointer]:
+                      - /url: /discover-by-train/places-to-visit-by-train/
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link [ref=e178] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/destinations/
+                  - heading "Destinations" [level=3] [ref=e179]
+                - list [ref=e180]:
+                  - listitem [ref=e181]:
+                    - link "Trains from London Paddington to Heathrow Airport" [ref=e182] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-paddington-to-heathrow-airport/
+                  - listitem [ref=e183]:
+                    - link "Trains from London to Liverpool" [ref=e184] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-liverpool/
+                  - listitem [ref=e185]:
+                    - link "Trains from London to Birmingham" [ref=e186] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-birmingham/
+                  - listitem [ref=e187]:
+                    - link "Trains from Edinburgh to Kings Cross" [ref=e188] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-edinburgh-to-london-kings-cross/
+                  - listitem [ref=e189]:
+                    - link "Trains from Gatwick Airport to London" [ref=e190] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-gatwick-airport-to-london/
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link [ref=e194] [cursor=pointer]:
+                  - /url: /help-and-assistance/
+                  - heading "Help and Assistance" [level=3] [ref=e195]
+                - list [ref=e196]:
+                  - listitem [ref=e197]:
+                    - link "Compensation and Refunds" [ref=e198] [cursor=pointer]:
+                      - /url: /help-and-assistance/compensation-and-refunds/
+                  - listitem [ref=e199]:
+                    - link "Contact Us" [ref=e200] [cursor=pointer]:
+                      - /url: /help-and-assistance/contact-us/
+                  - listitem [ref=e201]:
+                    - link "Complaints" [ref=e202] [cursor=pointer]:
+                      - /url: /help-and-assistance/complaints/
+                  - listitem [ref=e203]:
+                    - link "Passenger Assist" [ref=e204] [cursor=pointer]:
+                      - /url: /help-and-assistance/passenger-assist/
+                  - listitem [ref=e205]:
+                    - link "Media" [ref=e206] [cursor=pointer]:
+                      - /url: /media/
+                  - listitem [ref=e207]:
+                    - link "Text 61016" [ref=e208] [cursor=pointer]:
+                      - /url: /help-and-assistance/text-61016/
+            - listitem [ref=e209]:
+              - generic [ref=e210]:
+                - link [ref=e212] [cursor=pointer]:
+                  - /url: /on-the-train/
+                  - heading "On the Train" [level=3] [ref=e213]
+                - list [ref=e214]:
+                  - listitem [ref=e215]:
+                    - link "Accessible Train Travel and Facilities" [ref=e216] [cursor=pointer]:
+                      - /url: /on-the-train/accessible-train-travel-and-facilities/
+                  - listitem [ref=e217]:
+                    - link "Train Travel with Bicycles" [ref=e218] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-bicycles/
+                  - listitem [ref=e219]:
+                    - link "Train Travel with Pets" [ref=e220] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-pets/
+                  - listitem [ref=e221]:
+                    - link "Train Travel with Children" [ref=e222] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e223]:
+                    - link "Food and Drink" [ref=e224] [cursor=pointer]:
+                      - /url: /on-the-train/food-and-drink/
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - link "Instagram icon, (external link, opens in a new tab)" [ref=e227] [cursor=pointer]:
+                - /url: https://www.instagram.com/national.rail/
+              - link "Twitter icon, (external link, opens in a new tab)" [ref=e231] [cursor=pointer]:
+                - /url: https://twitter.com/nationalrailenq/
+              - link "Facebook icon, (external link, opens in a new tab)" [ref=e235] [cursor=pointer]:
+                - /url: https://www.facebook.com/nationalrailenq/
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - link "Download on the App Store, (external link, opens in a new tab)" [ref=e241] [cursor=pointer]:
+                  - /url: https://apps.apple.com/gb/app/national-rail/id519094154
+                  - figure [aria-hidden] [ref=e242]
+                - link "Download on the Play Store, (external link, opens in a new tab)" [ref=e244] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=uk.co.nationalrail.google&hl=en_GB
+                  - figure [aria-hidden] [ref=e245]
+              - link "Shaw Trust accessible, (external link, opens in a new tab)" [ref=e248] [cursor=pointer]:
+                - /url: https://www.accessibility-services.co.uk/certificates/national-rail/
+                - figure [aria-hidden] [ref=e249]
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - figure [aria-hidden] [ref=e258]
+            - paragraph [ref=e260]: © 2026
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /about-this-site/
+                - paragraph [ref=e264]: About This Site
+            - listitem [ref=e265]:
+              - link [ref=e266] [cursor=pointer]:
+                - /url: /accessible-information/
+                - paragraph [ref=e267]: Accessible Information
+            - listitem [ref=e268]:
+              - link [ref=e269] [cursor=pointer]:
+                - /url: /careers/
+                - paragraph [ref=e270]: Careers
+            - listitem [ref=e271]:
+              - link [ref=e272] [cursor=pointer]:
+                - /url: /cookie-policy/
+                - paragraph [ref=e273]: Cookies
+            - listitem [ref=e274]:
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /privacy-notice/
+                - paragraph [ref=e276]: Privacy Notice
+            - listitem [ref=e277]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+                - paragraph [ref=e279]: Terms and Conditions
+    - status [ref=e280]
+  - alert [ref=e281]: Journey Planner | Official Train Ticket Info | National Rail
+```

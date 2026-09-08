@@ -4,14 +4,15 @@ Replace the imported national-rail figures with a dated, reviewable station-to-s
 
 ## Current state — 8 September 2026
 
-- The methodology, empty station/observation inputs, offline preparation script and validation tests are in place. No canonical journey value has changed.
-- A headless browser capability check confirmed that the public planner accepts visible station selections. Collection uses the visible public interface only; do not scrape, call undocumented endpoints or construct planner URLs.
-- One retained, review-only pilot observation exists: Barnsley (`BNY`) to Birmingham New Street (`BHM`) on 11 September 2026, 11:44–13:28, 104 minutes, one change at Sheffield. It has two train-service legs. It is not canonical.
+- The collection workflow is implemented: a standard-library queue generator, a headless visible-UI collector, an offline manifest finalizer and the existing review-only preparer. See the [runbook](docs/national-transport-runbook.md).
+- Twelve pilot origins have reviewed, evidence-linked station mappings: Barnsley, Bangor, Birmingham, Brighton & Hove, Cardiff, Leeds, Liverpool, Manchester, Newcastle upon Tyne, Reading, Wolverhampton and Wrexham.
+- Raw pilot result captures are in progress. Barnsley to the London all-stations group has a complete 10:00–14:00 result set and selected details; other retained captures still require route-level review, details capture, manifest finalisation or completion of the window.
+- No value in `data/inputs/nationalTransport.csv`, scoring or public transport comparison has changed. `transport_route_observations.csv` is review-only evidence, not a canonical replacement.
 
 ## Collection workflow
 
 1. Review and evidence-link one origin station per location in `data/inputs/transport_stations.csv`.
-2. In a named, headless Playwright session, use the visible National Rail Journey Planner controls. Take fresh accessibility snapshots after page changes; select the visible CRS-labelled origin/destination suggestion; use a headed browser only to diagnose a headless failure and record the exception.
+2. In a named, headless Playwright session, use the visible National Rail Journey Planner controls. The collector may automate form entry, screenshots and accessibility snapshots, but it must not read itinerary values to choose a result. Select the visible CRS-labelled origin/destination suggestion; use a headed browser only to diagnose a headless failure and record the exception.
 3. Query the agreed date/window and inspect later journeys as required by the methodology. Capture the selected displayed itinerary and its expanded details, including legs and changes. Start each route from a fresh form state.
 4. Put captures in a dated raw release; hash and list them in `manifest.csv`. Transcribe only displayed values to `data/inputs/transport_route_observations.csv`, including actual query and retrieval times, URL if supplied, and an explicit reason for blanks.
 5. Run `python3 scripts/prepare_national_transport.py` on the release. It validates the manifest, timestamps, station mappings and transcription, and creates review-only staging CSVs; it neither browses nor updates canonical transport inputs.

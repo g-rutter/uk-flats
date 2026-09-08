@@ -1,0 +1,705 @@
+### Page
+- Page URL: https://www.nationalrail.co.uk/journey-planner/?type=single&origin=WVH&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=12&leavingMin=00&adults=1&extraTime=0#O
+- Page Title: Buy Your Tickets - Wolverhampton to Birmingham New Street | National Rail
+- Console: 1 errors, 2 warnings
+### Snapshot
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - paragraph [ref=e15]: Advertisement
+            - generic [ref=e19]:
+              - link "National Rail home" [ref=e20] [cursor=pointer]:
+                - /url: /
+                - figure [aria-hidden] [ref=e22]
+              - navigation "header" [ref=e24]:
+                - list [ref=e25]:
+                  - listitem "Live Departures" [ref=e26]:
+                    - link "Live Departures" [ref=e27] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/live-trains/
+                  - listitem "Disruptions , unread" [ref=e32]:
+                    - link "Disruptions, unread" [ref=e33] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/disruptions/
+                      - generic [ref=e37]:
+                        - text: Disruptions
+                        - generic [ref=e38]: ", unread"
+                  - listitem "Plan a Journey" [ref=e39]:
+                    - link "Plan a Journey" [ref=e40] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/journey-planner/
+                  - listitem "My Travel" [ref=e45]:
+                    - link "My Travel" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/my-travel/
+              - button "Open search" [ref=e52] [cursor=pointer]
+            - status [ref=e56]: Unread notifications
+          - navigation "header" [ref=e61]:
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - button "Tickets, Railcards and Offers" [ref=e64] [cursor=pointer]
+              - listitem [ref=e66]:
+                - link "Stations" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/stations/
+              - listitem [ref=e69]:
+                - button "Travel Information" [ref=e70] [cursor=pointer]
+              - listitem [ref=e72]:
+                - button "Help and Assistance" [ref=e73] [cursor=pointer]
+              - listitem [ref=e75]:
+                - link "Status Updates" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/train-operator-status/
+              - listitem [ref=e78]:
+                - link "Engineering Works" [ref=e79] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/engineering-works/
+        - alert [ref=e81]
+      - main [ref=e82]:
+        - generic [ref=e432]:
+          - generic [ref=e437]:
+            - paragraph [ref=e439]: "The journey you are searching for:"
+            - heading [level=1] [ref=e440]:
+              - button "Wolverhampton to Birmingham New Street" [expanded] [ref=e441] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e442]:
+                  - text: Wolverhampton
+                  - generic [ref=e443]: to
+                  - text: Birmingham New Street
+            - generic [ref=e445]:
+              - generic [ref=e446]: Single Friday 11 September 2026
+              - generic [ref=e447]: • 1 Adult
+              - generic [ref=e448]: • No Railcard
+            - generic [ref=e449]:
+              - button "Edit journey" [ref=e450] [cursor=pointer]
+              - button "Set journey alert" [ref=e455] [cursor=pointer]
+              - button "Favourite journey Wolverhampton to Birmingham New Street" [ref=e460] [cursor=pointer]:
+                - generic [ref=e464]: Favourite route
+          - generic [ref=e470]:
+            - region "Please select a journey" [ref=e476]:
+              - generic [ref=e478]:
+                - heading "Please select a journey" [level=2] [ref=e479]
+                - paragraph [ref=e480]: Friday 11 September 2026
+              - generic [ref=e482]:
+                - group "Choose fare class" [ref=e484]:
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - radio "Standard from £3.50" [checked] [ref=e488] [cursor=pointer]
+                      - generic [ref=e490]:
+                        - generic [ref=e491]: Standard
+                        - generic [ref=e492]:
+                          - generic [ref=e493]: from
+                          - generic [ref=e494]: £3.50
+                    - generic [ref=e495]:
+                      - radio "First Class from £8.80" [ref=e496] [cursor=pointer]
+                      - generic [ref=e498]:
+                        - generic [ref=e499]: First Class
+                        - generic [ref=e500]:
+                          - generic [ref=e501]: from
+                          - generic [ref=e502]: £8.80
+                - link "View earlier trains" [ref=e505] [cursor=pointer]:
+                  - /url: /journey-planner/?type=single&origin=WVH&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=12&leavingMin=00&adults=1&extraTime=0#
+              - group "Please select a journey" [ref=e512]:
+                - list [ref=e514]:
+                  - listitem [ref=e515]:
+                    - generic [ref=e516]:
+                      - heading "11:55 journey from Wolverhampton to Birmingham New Street" [level=3] [ref=e517]
+                      - generic [ref=e519]:
+                        - generic [ref=e520]:
+                          - generic [ref=e521]: "- Journey 1, Departs, 11:55, from Wolverhampton, and Arrives, 12:26, at Birmingham New Street, duration 31 minutes, with 0 change, This journey will be overtaken by a later departure"
+                          - generic [ref=e522]:
+                            - generic [ref=e523]:
+                              - generic [ref=e524]: Lowest
+                              - generic [ref=e525]:
+                                - generic [ref=e526]: Single from
+                                - generic [ref=e527]: £3.50
+                            - generic [ref=e529]:
+                              - button "Select Lowest Single from £3.50" [ref=e530] [cursor=pointer]: outward-0
+                              - generic [ref=e531]:
+                                - generic [ref=e532] [cursor=pointer]
+                                - generic [ref=e536]: Select
+                        - generic [ref=e539]:
+                          - text: Slower journey
+                          - generic [ref=e540]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e541]:
+                          - generic [ref=e542]:
+                            - paragraph [ref=e543]: Departs
+                            - time [ref=e545]: 11:55
+                            - generic [ref=e547]:
+                              - text: Wolverhampton
+                              - generic [ref=e548]: (WVH)
+                            - paragraph [ref=e549]: Platform 3
+                          - generic [ref=e554]:
+                            - paragraph [ref=e555]: Arrives
+                            - time [ref=e557]: 12:26
+                            - generic [ref=e559]:
+                              - text: Birmingham New Street
+                              - generic [ref=e560]: (BHM)
+                            - paragraph [ref=e561]: Platform 2B
+                        - generic [ref=e562]:
+                          - 'button "Duration: 31 minutes and, Direct" [ref=e564] [cursor=pointer]':
+                            - generic [ref=e565]:
+                              - time [ref=e566]: 31m,
+                              - generic [ref=e567]: and,
+                              - text: Direct
+                          - region "Service updates for journey 1" [ref=e569]:
+                            - button "Accessibility" [ref=e570] [cursor=pointer]
+                  - listitem [ref=e575]:
+                    - generic [ref=e576]:
+                      - heading "11:58 journey from Wolverhampton to Birmingham New Street" [level=3] [ref=e577]
+                      - generic [ref=e579]:
+                        - generic [ref=e580]:
+                          - generic [ref=e581]: "- Journey 2, Departs, 11:58, from Wolverhampton, and Arrives, 12:20, at Birmingham New Street, duration 22 minutes, with 0 change"
+                          - generic [ref=e582]:
+                            - generic [ref=e583]:
+                              - generic [ref=e584]: Lowest
+                              - generic [ref=e585]:
+                                - generic [ref=e586]: Single from
+                                - generic [ref=e587]: £3.50
+                            - generic [ref=e589]:
+                              - button "Select Lowest Single from £3.50" [ref=e590] [cursor=pointer]: outward-1
+                              - generic [ref=e591]:
+                                - generic [ref=e592] [cursor=pointer]
+                                - generic [ref=e596]: Select
+                        - generic [ref=e598]:
+                          - generic [ref=e599]:
+                            - paragraph [ref=e600]: Departs
+                            - time [ref=e602]: 11:58
+                            - generic [ref=e604]:
+                              - text: Wolverhampton
+                              - generic [ref=e605]: (WVH)
+                            - paragraph [ref=e606]: Platform 4
+                          - generic [ref=e611]:
+                            - paragraph [ref=e612]: Arrives
+                            - time [ref=e614]: 12:20
+                            - generic [ref=e616]:
+                              - text: Birmingham New Street
+                              - generic [ref=e617]: (BHM)
+                            - paragraph [ref=e618]: Platform 4B
+                        - generic [ref=e619]:
+                          - 'button "Duration: 22 minutes and, Direct" [ref=e621] [cursor=pointer]':
+                            - generic [ref=e622]:
+                              - time [ref=e623]: 22m,
+                              - generic [ref=e624]: and,
+                              - text: Direct
+                          - region "Service updates for journey 2" [ref=e626]:
+                            - button "Accessibility" [ref=e627] [cursor=pointer]
+                  - listitem [ref=e632]:
+                    - generic [ref=e633]:
+                      - heading "12:09 journey from Wolverhampton to Birmingham New Street" [level=3] [ref=e634]
+                      - generic [ref=e636]:
+                        - generic [ref=e637]:
+                          - generic [ref=e638]: "- Journey 3, Departs, 12:09, from Wolverhampton, and Arrives, 12:32, at Birmingham New Street, duration 23 minutes, with 0 change"
+                          - generic [ref=e639]:
+                            - generic [ref=e640]:
+                              - generic [ref=e641]: Lowest
+                              - generic [ref=e642]:
+                                - generic [ref=e643]: Single from
+                                - generic [ref=e644]: £4.50
+                            - generic [ref=e646]:
+                              - button "Select Lowest Single from £4.50" [ref=e647] [cursor=pointer]: outward-2
+                              - generic [ref=e648]:
+                                - generic [ref=e649] [cursor=pointer]
+                                - generic [ref=e653]: Select
+                        - generic [ref=e655]:
+                          - generic [ref=e656]:
+                            - paragraph [ref=e657]: Departs
+                            - time [ref=e659]: 12:09
+                            - generic [ref=e661]:
+                              - text: Wolverhampton
+                              - generic [ref=e662]: (WVH)
+                            - paragraph [ref=e663]: Platform 3
+                          - generic [ref=e668]:
+                            - paragraph [ref=e669]: Arrives
+                            - time [ref=e671]: 12:32
+                            - generic [ref=e673]:
+                              - text: Birmingham New Street
+                              - generic [ref=e674]: (BHM)
+                            - paragraph [ref=e675]: Platform 1A
+                        - generic [ref=e676]:
+                          - 'button "Duration: 23 minutes and, Direct" [ref=e678] [cursor=pointer]':
+                            - generic [ref=e679]:
+                              - time [ref=e680]: 23m,
+                              - generic [ref=e681]: and,
+                              - text: Direct
+                          - region "Service updates for journey 3" [ref=e683]:
+                            - button "Accessibility" [ref=e684] [cursor=pointer]
+                            - button "Information" [ref=e689] [cursor=pointer]
+                  - listitem [ref=e693]:
+                    - generic [ref=e694]:
+                      - heading "12:15 journey from Wolverhampton to Birmingham New Street" [level=3] [ref=e695]
+                      - generic [ref=e697]:
+                        - generic [ref=e698]:
+                          - generic [ref=e699]: "- Journey 4, Departs, 12:15, from Wolverhampton, and Arrives, 12:33, at Birmingham New Street, duration 18 minutes, with 0 change, This is the fastest available journey"
+                          - generic [ref=e700]:
+                            - generic [ref=e701]:
+                              - generic [ref=e702]: Lowest
+                              - generic [ref=e703]:
+                                - generic [ref=e704]: Single from
+                                - generic [ref=e705]: £4.30
+                            - generic [ref=e707]:
+                              - button "Select Lowest Single from £4.30" [ref=e708] [cursor=pointer]: outward-3
+                              - generic [ref=e709]:
+                                - generic [ref=e710] [cursor=pointer]
+                                - generic [ref=e714]: Select
+                        - generic [ref=e717]:
+                          - text: Fastest
+                          - generic [ref=e718]: ": This is the fastest available journey"
+                        - generic [ref=e719]:
+                          - generic [ref=e720]:
+                            - paragraph [ref=e721]: Departs
+                            - time [ref=e723]: 12:15
+                            - generic [ref=e725]:
+                              - text: Wolverhampton
+                              - generic [ref=e726]: (WVH)
+                            - paragraph [ref=e727]: Platform 4
+                          - generic [ref=e732]:
+                            - paragraph [ref=e733]: Arrives
+                            - time [ref=e735]: 12:33
+                            - generic [ref=e737]:
+                              - text: Birmingham New Street
+                              - generic [ref=e738]: (BHM)
+                            - paragraph [ref=e739]: Platform 7
+                        - generic [ref=e740]:
+                          - 'button "Duration: 18 minutes and, Direct" [ref=e742] [cursor=pointer]':
+                            - generic [ref=e743]:
+                              - time [ref=e744]: 18m,
+                              - generic [ref=e745]: and,
+                              - text: Direct
+                          - region "Service updates for journey 4" [ref=e747]:
+                            - button "Accessibility" [ref=e748] [cursor=pointer]
+                  - listitem [ref=e753]:
+                    - generic [ref=e754]:
+                      - heading "12:18 journey from Wolverhampton to Birmingham New Street" [level=3] [ref=e755]
+                      - generic [ref=e757]:
+                        - generic [ref=e758]:
+                          - generic [ref=e759]: "- Journey 5, Departs, 12:18, from Wolverhampton, and Arrives, 12:45, at Birmingham New Street, duration 27 minutes, with 0 change"
+                          - generic [ref=e760]:
+                            - generic [ref=e761]:
+                              - generic [ref=e762]: Lowest
+                              - generic [ref=e763]:
+                                - generic [ref=e764]: Single from
+                                - generic [ref=e765]: £6.20
+                            - generic [ref=e767]:
+                              - button "Select Lowest Single from £6.20" [ref=e768] [cursor=pointer]: outward-4
+                              - generic [ref=e769]:
+                                - generic [ref=e770] [cursor=pointer]
+                                - generic [ref=e774]: Select
+                        - generic [ref=e776]:
+                          - generic [ref=e777]:
+                            - paragraph [ref=e778]: Departs
+                            - time [ref=e780]: 12:18
+                            - generic [ref=e782]:
+                              - text: Wolverhampton
+                              - generic [ref=e783]: (WVH)
+                            - paragraph [ref=e784]: Platform 5
+                          - generic [ref=e789]:
+                            - paragraph [ref=e790]: Arrives
+                            - time [ref=e792]: 12:45
+                            - generic [ref=e794]:
+                              - text: Birmingham New Street
+                              - generic [ref=e795]: (BHM)
+                            - paragraph [ref=e796]: Platform 4A
+                        - generic [ref=e797]:
+                          - 'button "Duration: 27 minutes and, Direct" [ref=e799] [cursor=pointer]':
+                            - generic [ref=e800]:
+                              - time [ref=e801]: 27m,
+                              - generic [ref=e802]: and,
+                              - text: Direct
+                          - region "Service updates for journey 5" [ref=e804]:
+                            - button "Accessibility" [ref=e805] [cursor=pointer]
+                  - listitem [ref=e810]:
+                    - generic [ref=e811]:
+                      - heading "12:28 journey from Wolverhampton to Birmingham New Street" [level=3] [ref=e812]
+                      - generic [ref=e814]:
+                        - generic [ref=e815]:
+                          - generic [ref=e816]: "- Journey 6, Departs, 12:28, from Wolverhampton, and Arrives, 12:48, at Birmingham New Street, duration 20 minutes, with 0 change"
+                          - generic [ref=e817]:
+                            - generic [ref=e818]:
+                              - generic [ref=e819]: Lowest
+                              - generic [ref=e820]:
+                                - generic [ref=e821]: Single from
+                                - generic [ref=e822]: £3.50
+                            - generic [ref=e824]:
+                              - button "Select Lowest Single from £3.50" [ref=e825] [cursor=pointer]: outward-5
+                              - generic [ref=e826]:
+                                - generic [ref=e827] [cursor=pointer]
+                                - generic [ref=e831]: Select
+                        - generic [ref=e833]:
+                          - generic [ref=e834]:
+                            - paragraph [ref=e835]: Departs
+                            - time [ref=e837]: 12:28
+                            - generic [ref=e839]:
+                              - text: Wolverhampton
+                              - generic [ref=e840]: (WVH)
+                            - paragraph [ref=e841]: Platform 3
+                          - generic [ref=e846]:
+                            - paragraph [ref=e847]: Arrives
+                            - time [ref=e849]: 12:48
+                            - generic [ref=e851]:
+                              - text: Birmingham New Street
+                              - generic [ref=e852]: (BHM)
+                            - paragraph [ref=e853]: Platform 4C
+                        - generic [ref=e854]:
+                          - 'button "Duration: 20 minutes and, Direct" [ref=e856] [cursor=pointer]':
+                            - generic [ref=e857]:
+                              - time [ref=e858]: 20m,
+                              - generic [ref=e859]: and,
+                              - text: Direct
+                          - region "Service updates for journey 6" [ref=e861]:
+                            - button "Accessibility" [ref=e862] [cursor=pointer]
+                  - listitem [ref=e867]:
+                    - generic [ref=e868]:
+                      - heading "12:39 journey from Wolverhampton to Birmingham New Street" [level=3] [ref=e869]
+                      - generic [ref=e871]:
+                        - generic [ref=e872]:
+                          - generic [ref=e873]: "- Journey 7, Departs, 12:39, from Wolverhampton, and Arrives, 12:57, at Birmingham New Street, duration 18 minutes, with 0 change"
+                          - generic [ref=e874]:
+                            - generic [ref=e875]:
+                              - generic [ref=e876]: Lowest
+                              - generic [ref=e877]:
+                                - generic [ref=e878]: Single from
+                                - generic [ref=e879]: £6.20
+                            - generic [ref=e881]:
+                              - button "Select Lowest Single from £6.20" [ref=e882] [cursor=pointer]: outward-6
+                              - generic [ref=e883]:
+                                - generic [ref=e884] [cursor=pointer]
+                                - generic [ref=e888]: Select
+                        - generic [ref=e890]:
+                          - generic [ref=e891]:
+                            - paragraph [ref=e892]: Departs
+                            - time [ref=e894]: 12:39
+                            - generic [ref=e896]:
+                              - text: Wolverhampton
+                              - generic [ref=e897]: (WVH)
+                            - paragraph [ref=e898]: Platform 3
+                          - generic [ref=e903]:
+                            - paragraph [ref=e904]: Arrives
+                            - time [ref=e906]: 12:57
+                            - generic [ref=e908]:
+                              - text: Birmingham New Street
+                              - generic [ref=e909]: (BHM)
+                            - paragraph [ref=e910]: Platform 1A
+                        - generic [ref=e911]:
+                          - 'button "Duration: 18 minutes and, Direct" [ref=e913] [cursor=pointer]':
+                            - generic [ref=e914]:
+                              - time [ref=e915]: 18m,
+                              - generic [ref=e916]: and,
+                              - text: Direct
+                          - region "Service updates for journey 7" [ref=e918]:
+                            - button "Accessibility" [ref=e919] [cursor=pointer]
+                  - listitem [ref=e924]:
+                    - generic [ref=e925]:
+                      - heading "12:42 journey from Wolverhampton to Birmingham New Street" [level=3] [ref=e926]
+                      - generic [ref=e928]:
+                        - generic [ref=e929]:
+                          - generic [ref=e930]: "- Journey 8, Departs, 12:42, from Wolverhampton, and Arrives, 13:00, at Birmingham New Street, duration 18 minutes, with 0 change"
+                          - generic [ref=e931]:
+                            - generic [ref=e932]:
+                              - generic [ref=e933]: Lowest
+                              - generic [ref=e934]:
+                                - generic [ref=e935]: Single from
+                                - generic [ref=e936]: £5.00
+                            - generic [ref=e938]:
+                              - button "Select Lowest Single from £5.00" [ref=e939] [cursor=pointer]: outward-7
+                              - generic [ref=e940]:
+                                - generic [ref=e941] [cursor=pointer]
+                                - generic [ref=e945]: Select
+                        - generic [ref=e947]:
+                          - generic [ref=e948]:
+                            - paragraph [ref=e949]: Departs
+                            - time [ref=e951]: 12:42
+                            - generic [ref=e953]:
+                              - text: Wolverhampton
+                              - generic [ref=e954]: (WVH)
+                            - paragraph [ref=e955]: Platform 2
+                          - generic [ref=e960]:
+                            - paragraph [ref=e961]: Arrives
+                            - time [ref=e963]: 13:00
+                            - generic [ref=e965]:
+                              - text: Birmingham New Street
+                              - generic [ref=e966]: (BHM)
+                            - paragraph [ref=e967]: Platform 2A
+                        - generic [ref=e968]:
+                          - 'button "Duration: 18 minutes and, Direct" [ref=e970] [cursor=pointer]':
+                            - generic [ref=e971]:
+                              - time [ref=e972]: 18m,
+                              - generic [ref=e973]: and,
+                              - text: Direct
+                          - region "Service updates for journey 8" [ref=e975]:
+                            - button "Accessibility" [ref=e976] [cursor=pointer]
+                  - listitem [ref=e981]:
+                    - generic [ref=e982]:
+                      - heading "12:45 journey from Wolverhampton to Birmingham New Street" [level=3] [ref=e983]
+                      - generic [ref=e985]:
+                        - generic [ref=e986]:
+                          - generic [ref=e987]: "- Journey 9, Departs, 12:45, from Wolverhampton, and Arrives, 13:06, at Birmingham New Street, duration 21 minutes, with 0 change"
+                          - generic [ref=e988]:
+                            - generic [ref=e989]:
+                              - generic [ref=e990]: Lowest
+                              - generic [ref=e991]:
+                                - generic [ref=e992]: Single from
+                                - generic [ref=e993]: £6.10
+                            - generic [ref=e995]:
+                              - button "Select Lowest Single from £6.10" [ref=e996] [cursor=pointer]: outward-8
+                              - generic [ref=e997]:
+                                - generic [ref=e998] [cursor=pointer]
+                                - generic [ref=e1002]: Select
+                        - generic [ref=e1004]:
+                          - generic [ref=e1005]:
+                            - paragraph [ref=e1006]: Departs
+                            - time [ref=e1008]: 12:45
+                            - generic [ref=e1010]:
+                              - text: Wolverhampton
+                              - generic [ref=e1011]: (WVH)
+                            - paragraph [ref=e1012]: Platform 4
+                          - generic [ref=e1017]:
+                            - paragraph [ref=e1018]: Arrives
+                            - time [ref=e1020]: 13:06
+                            - generic [ref=e1022]:
+                              - text: Birmingham New Street
+                              - generic [ref=e1023]: (BHM)
+                            - paragraph [ref=e1024]: Platform 1
+                        - generic [ref=e1025]:
+                          - 'button "Duration: 21 minutes and, Direct" [ref=e1027] [cursor=pointer]':
+                            - generic [ref=e1028]:
+                              - time [ref=e1029]: 21m,
+                              - generic [ref=e1030]: and,
+                              - text: Direct
+                          - region "Service updates for journey 9" [ref=e1032]:
+                            - button "Accessibility" [ref=e1033] [cursor=pointer]
+                  - listitem [ref=e1038]:
+                    - generic [ref=e1039]:
+                      - heading "12:48 journey from Wolverhampton to Birmingham New Street" [level=3] [ref=e1040]
+                      - generic [ref=e1042]:
+                        - generic [ref=e1043]:
+                          - generic [ref=e1044]: "- Journey 10, Departs, 12:48, from Wolverhampton, and Arrives, 13:15, at Birmingham New Street, duration 27 minutes, with 0 change"
+                          - generic [ref=e1045]:
+                            - generic [ref=e1046]:
+                              - generic [ref=e1047]: Lowest
+                              - generic [ref=e1048]:
+                                - generic [ref=e1049]: Single from
+                                - generic [ref=e1050]: £6.20
+                            - generic [ref=e1052]:
+                              - button "Select Lowest Single from £6.20" [ref=e1053] [cursor=pointer]: outward-9
+                              - generic [ref=e1054]:
+                                - generic [ref=e1055] [cursor=pointer]
+                                - generic [ref=e1059]: Select
+                        - generic [ref=e1061]:
+                          - generic [ref=e1062]:
+                            - paragraph [ref=e1063]: Departs
+                            - time [ref=e1065]: 12:48
+                            - generic [ref=e1067]:
+                              - text: Wolverhampton
+                              - generic [ref=e1068]: (WVH)
+                            - paragraph [ref=e1069]: Platform 5
+                          - generic [ref=e1074]:
+                            - paragraph [ref=e1075]: Arrives
+                            - time [ref=e1077]: 13:15
+                            - generic [ref=e1079]:
+                              - text: Birmingham New Street
+                              - generic [ref=e1080]: (BHM)
+                            - paragraph [ref=e1081]: Platform 2A
+                        - generic [ref=e1082]:
+                          - 'button "Duration: 27 minutes and, Direct" [ref=e1084] [cursor=pointer]':
+                            - generic [ref=e1085]:
+                              - time [ref=e1086]: 27m,
+                              - generic [ref=e1087]: and,
+                              - text: Direct
+                          - region "Service updates for journey 10" [ref=e1089]:
+                            - button "Accessibility" [ref=e1090] [cursor=pointer]
+              - link "View later trains" [ref=e1099] [cursor=pointer]:
+                - /url: /journey-planner/?type=single&origin=WVH&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=12&leavingMin=00&adults=1&extraTime=0#
+            - generic [ref=e1106]:
+              - generic [ref=e1109]:
+                - heading "Total £0" [level=2] [ref=e1110]:
+                  - generic [ref=e1111]: Total
+                  - generic [ref=e1112]: £0
+                - link "Continue Review tickets and options" [ref=e1114] [cursor=pointer]:
+                  - /url: "#TD"
+                  - generic [ref=e1115]: Continue
+                  - generic [ref=e1120]: Review tickets and options
+                - paragraph [ref=e1121]: 1 Adult, No Railcard
+                - generic [ref=e1122]:
+                  - generic [ref=e1123]:
+                    - heading "Outward journey" [level=3] [ref=e1124]
+                    - paragraph [ref=e1125]: Not selected
+                  - generic [ref=e1126]:
+                    - heading "Return journey" [level=3] [ref=e1127]
+                    - button "Add return journey" [ref=e1128] [cursor=pointer]
+              - paragraph [ref=e1137]: Advertisement
+          - paragraph [ref=e1143]: Advertisement
+        - alert [ref=e1144]
+        - status [ref=e1145]: Please select a valid journey
+        - status [ref=e1146]: Outward results, step 1 of 2
+        - status [ref=e1147]: Currently viewing scheduled services
+        - alert [ref=e1148]
+      - contentinfo [ref=e130]:
+        - generic [ref=e133]:
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - link [ref=e138] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/
+                  - heading "Tickets, Railcards and Offers" [level=3] [ref=e139]
+                - list [ref=e140]:
+                  - listitem [ref=e141]:
+                    - link "Buying a Ticket" [ref=e142] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/buying-a-ticket/
+                  - listitem [ref=e143]:
+                    - link "Ticket Types" [ref=e144] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/ticket-types/
+                  - listitem [ref=e145]:
+                    - link "Railcards" [ref=e146] [cursor=pointer]:
+                      - /url: /railcards/
+                  - listitem [ref=e147]:
+                    - link "Saving Money" [ref=e148] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/saving-money/
+            - listitem [ref=e149]:
+              - generic [ref=e150]:
+                - link [ref=e152] [cursor=pointer]:
+                  - /url: /stations/
+                  - heading "Stations and Train Companies" [level=3] [ref=e153]
+                - list [ref=e154]:
+                  - listitem [ref=e155]:
+                    - link "Find a Station" [ref=e156] [cursor=pointer]:
+                      - /url: /stations/
+                  - listitem [ref=e157]:
+                    - link "Find a Train Company" [ref=e158] [cursor=pointer]:
+                      - /url: /travel-information/find-a-train-company/
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - link [ref=e162] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/discover-by-train/
+                  - heading "Discover by Train" [level=3] [ref=e163]
+                - list [ref=e164]:
+                  - listitem [ref=e165]:
+                    - link "Children and Families" [ref=e166] [cursor=pointer]:
+                      - /url: /discover-by-train/children-and-families/
+                  - listitem [ref=e167]:
+                    - link "Train Travel with Children" [ref=e168] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e169]:
+                    - link "Great British Destinations" [ref=e170] [cursor=pointer]:
+                      - /url: /discover-by-train/great-british-destinations/
+                  - listitem [ref=e171]:
+                    - link "Seasonal Inspiration" [ref=e172] [cursor=pointer]:
+                      - /url: /discover-by-train/seasonal-inspiration/
+                  - listitem [ref=e173]:
+                    - link "Places to Visit by Train" [ref=e174] [cursor=pointer]:
+                      - /url: /discover-by-train/places-to-visit-by-train/
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link [ref=e178] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/destinations/
+                  - heading "Destinations" [level=3] [ref=e179]
+                - list [ref=e180]:
+                  - listitem [ref=e181]:
+                    - link "Trains from London Paddington to Heathrow Airport" [ref=e182] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-paddington-to-heathrow-airport/
+                  - listitem [ref=e183]:
+                    - link "Trains from London to Liverpool" [ref=e184] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-liverpool/
+                  - listitem [ref=e185]:
+                    - link "Trains from London to Birmingham" [ref=e186] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-birmingham/
+                  - listitem [ref=e187]:
+                    - link "Trains from Edinburgh to Kings Cross" [ref=e188] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-edinburgh-to-london-kings-cross/
+                  - listitem [ref=e189]:
+                    - link "Trains from Gatwick Airport to London" [ref=e190] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-gatwick-airport-to-london/
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link [ref=e194] [cursor=pointer]:
+                  - /url: /help-and-assistance/
+                  - heading "Help and Assistance" [level=3] [ref=e195]
+                - list [ref=e196]:
+                  - listitem [ref=e197]:
+                    - link "Compensation and Refunds" [ref=e198] [cursor=pointer]:
+                      - /url: /help-and-assistance/compensation-and-refunds/
+                  - listitem [ref=e199]:
+                    - link "Contact Us" [ref=e200] [cursor=pointer]:
+                      - /url: /help-and-assistance/contact-us/
+                  - listitem [ref=e201]:
+                    - link "Complaints" [ref=e202] [cursor=pointer]:
+                      - /url: /help-and-assistance/complaints/
+                  - listitem [ref=e203]:
+                    - link "Passenger Assist" [ref=e204] [cursor=pointer]:
+                      - /url: /help-and-assistance/passenger-assist/
+                  - listitem [ref=e205]:
+                    - link "Media" [ref=e206] [cursor=pointer]:
+                      - /url: /media/
+                  - listitem [ref=e207]:
+                    - link "Text 61016" [ref=e208] [cursor=pointer]:
+                      - /url: /help-and-assistance/text-61016/
+            - listitem [ref=e209]:
+              - generic [ref=e210]:
+                - link [ref=e212] [cursor=pointer]:
+                  - /url: /on-the-train/
+                  - heading "On the Train" [level=3] [ref=e213]
+                - list [ref=e214]:
+                  - listitem [ref=e215]:
+                    - link "Accessible Train Travel and Facilities" [ref=e216] [cursor=pointer]:
+                      - /url: /on-the-train/accessible-train-travel-and-facilities/
+                  - listitem [ref=e217]:
+                    - link "Train Travel with Bicycles" [ref=e218] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-bicycles/
+                  - listitem [ref=e219]:
+                    - link "Train Travel with Pets" [ref=e220] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-pets/
+                  - listitem [ref=e221]:
+                    - link "Train Travel with Children" [ref=e222] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e223]:
+                    - link "Food and Drink" [ref=e224] [cursor=pointer]:
+                      - /url: /on-the-train/food-and-drink/
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - link "Instagram icon, (external link, opens in a new tab)" [ref=e227] [cursor=pointer]:
+                - /url: https://www.instagram.com/national.rail/
+              - link "Twitter icon, (external link, opens in a new tab)" [ref=e231] [cursor=pointer]:
+                - /url: https://twitter.com/nationalrailenq/
+              - link "Facebook icon, (external link, opens in a new tab)" [ref=e235] [cursor=pointer]:
+                - /url: https://www.facebook.com/nationalrailenq/
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - link "Download on the App Store, (external link, opens in a new tab)" [ref=e241] [cursor=pointer]:
+                  - /url: https://apps.apple.com/gb/app/national-rail/id519094154
+                  - figure [aria-hidden] [ref=e242]
+                - link "Download on the Play Store, (external link, opens in a new tab)" [ref=e244] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=uk.co.nationalrail.google&hl=en_GB
+                  - figure [aria-hidden] [ref=e245]
+              - link "Shaw Trust accessible, (external link, opens in a new tab)" [ref=e248] [cursor=pointer]:
+                - /url: https://www.accessibility-services.co.uk/certificates/national-rail/
+                - figure [aria-hidden] [ref=e249]
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - figure [aria-hidden] [ref=e258]
+            - paragraph [ref=e260]: © 2026
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /about-this-site/
+                - paragraph [ref=e264]: About This Site
+            - listitem [ref=e265]:
+              - link [ref=e266] [cursor=pointer]:
+                - /url: /accessible-information/
+                - paragraph [ref=e267]: Accessible Information
+            - listitem [ref=e268]:
+              - link [ref=e269] [cursor=pointer]:
+                - /url: /careers/
+                - paragraph [ref=e270]: Careers
+            - listitem [ref=e271]:
+              - link [ref=e272] [cursor=pointer]:
+                - /url: /cookie-policy/
+                - paragraph [ref=e273]: Cookies
+            - listitem [ref=e274]:
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /privacy-notice/
+                - paragraph [ref=e276]: Privacy Notice
+            - listitem [ref=e277]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+                - paragraph [ref=e279]: Terms and Conditions
+    - status [ref=e280]
+  - alert [ref=e281]: Journey Planner | Official Train Ticket Info | National Rail
+```

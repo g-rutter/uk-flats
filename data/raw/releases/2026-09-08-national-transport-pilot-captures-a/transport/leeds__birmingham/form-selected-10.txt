@@ -1,0 +1,386 @@
+### Page
+- Page URL: https://www.nationalrail.co.uk/journey-planner/
+- Page Title: Journey Planner | Official Train Ticket Info | National Rail
+- Console: 1 errors, 0 warnings
+### Snapshot
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - paragraph [ref=e15]: Advertisement
+            - generic [ref=e19]:
+              - link "National Rail home" [ref=e20] [cursor=pointer]:
+                - /url: /
+                - figure [aria-hidden] [ref=e22]
+              - navigation "header" [ref=e24]:
+                - list [ref=e25]:
+                  - listitem "Live Departures" [ref=e26]:
+                    - link "Live Departures" [ref=e27] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/live-trains/
+                  - listitem "Disruptions , unread" [ref=e32]:
+                    - link "Disruptions, unread" [ref=e33] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/disruptions/
+                      - generic [ref=e37]:
+                        - text: Disruptions
+                        - generic [ref=e38]: ", unread"
+                  - listitem "Plan a Journey" [ref=e39]:
+                    - link "Plan a Journey" [ref=e40] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/journey-planner/
+                  - listitem "My Travel" [ref=e45]:
+                    - link "My Travel" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/my-travel/
+              - button "Open search" [ref=e52] [cursor=pointer]
+            - status [ref=e56]: Unread notifications
+          - navigation "header" [ref=e61]:
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - button "Tickets, Railcards and Offers" [ref=e64] [cursor=pointer]
+              - listitem [ref=e66]:
+                - link "Stations" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/stations/
+              - listitem [ref=e69]:
+                - button "Travel Information" [ref=e70] [cursor=pointer]
+              - listitem [ref=e72]:
+                - button "Help and Assistance" [ref=e73] [cursor=pointer]
+              - listitem [ref=e75]:
+                - link "Status Updates" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/train-operator-status/
+              - listitem [ref=e78]:
+                - link "Engineering Works" [ref=e79] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/engineering-works/
+        - alert [ref=e81]
+      - main [ref=e82]:
+        - generic [ref=e95]:
+          - heading "Plan a Journey" [level=1] [ref=e96]
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - generic [ref=e100]:
+                - generic [aria-hidden]: Departing from
+                - combobox [disabled] [aria-hidden] [ref=e101]
+              - status [ref=e103]
+            - generic [ref=e105]:
+              - generic [aria-hidden]: Going to
+              - combobox [disabled] [aria-hidden] [ref=e106]
+            - status [ref=e108]
+            - button "Swap from and to stations" [disabled] [ref=e109]
+          - button "Plan a Journey" [ref=e114] [cursor=pointer]
+        - generic [ref=e118]:
+          - heading "Welcome to the National Rail Journey Planner" [level=2] [ref=e119]
+          - paragraph [ref=e120]
+          - paragraph [ref=e121]:
+            - text: Travelling by train just got easier with the National Rail Journey Planner. Whether you’re commuting to work, heading out on a weekend getaway, or planning a longer journey, this tool helps you find the best routes and schedules in seconds.Simply enter your starting point,
+            - link "destination" [ref=e122] [cursor=pointer]:
+              - /url: https://www.nationalrail.co.uk/destinations/
+            - text: ", and preferred travel time, and the Journey Planner will present you with multiple options. From the quickest direct routes to services with convenient connections, you’ll have all the details you need at your fingertips.You can plan your journey wherever you are – on your desktop at home, on your phone while you’re out and about, or even from a tablet. You can also use our official National Rail mobile app. And you’ll be able to see train ticket prices as you plan, helping you choose the option that best fits your budget.If you’re new to the Journey Planner or need a step-by-step guide, visit our"
+            - link "How to Use the Journey Planner page" [ref=e123] [cursor=pointer]:
+              - /url: https://www.nationalrail.co.uk/help-and-assistance/how-to-use-the-journey-planner/
+            - text: .
+        - paragraph [ref=e129]: Advertisement
+      - contentinfo [ref=e130]:
+        - generic [ref=e133]:
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - link [ref=e138] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/
+                  - heading "Tickets, Railcards and Offers" [level=3] [ref=e139]
+                - list [ref=e140]:
+                  - listitem [ref=e141]:
+                    - link "Buying a Ticket" [ref=e142] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/buying-a-ticket/
+                  - listitem [ref=e143]:
+                    - link "Ticket Types" [ref=e144] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/ticket-types/
+                  - listitem [ref=e145]:
+                    - link "Railcards" [ref=e146] [cursor=pointer]:
+                      - /url: /railcards/
+                  - listitem [ref=e147]:
+                    - link "Saving Money" [ref=e148] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/saving-money/
+            - listitem [ref=e149]:
+              - generic [ref=e150]:
+                - link [ref=e152] [cursor=pointer]:
+                  - /url: /stations/
+                  - heading "Stations and Train Companies" [level=3] [ref=e153]
+                - list [ref=e154]:
+                  - listitem [ref=e155]:
+                    - link "Find a Station" [ref=e156] [cursor=pointer]:
+                      - /url: /stations/
+                  - listitem [ref=e157]:
+                    - link "Find a Train Company" [ref=e158] [cursor=pointer]:
+                      - /url: /travel-information/find-a-train-company/
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - link [ref=e162] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/discover-by-train/
+                  - heading "Discover by Train" [level=3] [ref=e163]
+                - list [ref=e164]:
+                  - listitem [ref=e165]:
+                    - link "Children and Families" [ref=e166] [cursor=pointer]:
+                      - /url: /discover-by-train/children-and-families/
+                  - listitem [ref=e167]:
+                    - link "Train Travel with Children" [ref=e168] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e169]:
+                    - link "Great British Destinations" [ref=e170] [cursor=pointer]:
+                      - /url: /discover-by-train/great-british-destinations/
+                  - listitem [ref=e171]:
+                    - link "Seasonal Inspiration" [ref=e172] [cursor=pointer]:
+                      - /url: /discover-by-train/seasonal-inspiration/
+                  - listitem [ref=e173]:
+                    - link "Places to Visit by Train" [ref=e174] [cursor=pointer]:
+                      - /url: /discover-by-train/places-to-visit-by-train/
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link [ref=e178] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/destinations/
+                  - heading "Destinations" [level=3] [ref=e179]
+                - list [ref=e180]:
+                  - listitem [ref=e181]:
+                    - link "Trains from London Paddington to Heathrow Airport" [ref=e182] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-paddington-to-heathrow-airport/
+                  - listitem [ref=e183]:
+                    - link "Trains from London to Liverpool" [ref=e184] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-liverpool/
+                  - listitem [ref=e185]:
+                    - link "Trains from London to Birmingham" [ref=e186] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-birmingham/
+                  - listitem [ref=e187]:
+                    - link "Trains from Edinburgh to Kings Cross" [ref=e188] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-edinburgh-to-london-kings-cross/
+                  - listitem [ref=e189]:
+                    - link "Trains from Gatwick Airport to London" [ref=e190] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-gatwick-airport-to-london/
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link [ref=e194] [cursor=pointer]:
+                  - /url: /help-and-assistance/
+                  - heading "Help and Assistance" [level=3] [ref=e195]
+                - list [ref=e196]:
+                  - listitem [ref=e197]:
+                    - link "Compensation and Refunds" [ref=e198] [cursor=pointer]:
+                      - /url: /help-and-assistance/compensation-and-refunds/
+                  - listitem [ref=e199]:
+                    - link "Contact Us" [ref=e200] [cursor=pointer]:
+                      - /url: /help-and-assistance/contact-us/
+                  - listitem [ref=e201]:
+                    - link "Complaints" [ref=e202] [cursor=pointer]:
+                      - /url: /help-and-assistance/complaints/
+                  - listitem [ref=e203]:
+                    - link "Passenger Assist" [ref=e204] [cursor=pointer]:
+                      - /url: /help-and-assistance/passenger-assist/
+                  - listitem [ref=e205]:
+                    - link "Media" [ref=e206] [cursor=pointer]:
+                      - /url: /media/
+                  - listitem [ref=e207]:
+                    - link "Text 61016" [ref=e208] [cursor=pointer]:
+                      - /url: /help-and-assistance/text-61016/
+            - listitem [ref=e209]:
+              - generic [ref=e210]:
+                - link [ref=e212] [cursor=pointer]:
+                  - /url: /on-the-train/
+                  - heading "On the Train" [level=3] [ref=e213]
+                - list [ref=e214]:
+                  - listitem [ref=e215]:
+                    - link "Accessible Train Travel and Facilities" [ref=e216] [cursor=pointer]:
+                      - /url: /on-the-train/accessible-train-travel-and-facilities/
+                  - listitem [ref=e217]:
+                    - link "Train Travel with Bicycles" [ref=e218] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-bicycles/
+                  - listitem [ref=e219]:
+                    - link "Train Travel with Pets" [ref=e220] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-pets/
+                  - listitem [ref=e221]:
+                    - link "Train Travel with Children" [ref=e222] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e223]:
+                    - link "Food and Drink" [ref=e224] [cursor=pointer]:
+                      - /url: /on-the-train/food-and-drink/
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - link "Instagram icon, (external link, opens in a new tab)" [ref=e227] [cursor=pointer]:
+                - /url: https://www.instagram.com/national.rail/
+              - link "Twitter icon, (external link, opens in a new tab)" [ref=e231] [cursor=pointer]:
+                - /url: https://twitter.com/nationalrailenq/
+              - link "Facebook icon, (external link, opens in a new tab)" [ref=e235] [cursor=pointer]:
+                - /url: https://www.facebook.com/nationalrailenq/
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - link "Download on the App Store, (external link, opens in a new tab)" [ref=e241] [cursor=pointer]:
+                  - /url: https://apps.apple.com/gb/app/national-rail/id519094154
+                  - figure [aria-hidden] [ref=e242]
+                - link "Download on the Play Store, (external link, opens in a new tab)" [ref=e244] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=uk.co.nationalrail.google&hl=en_GB
+                  - figure [aria-hidden] [ref=e245]
+              - link "Shaw Trust accessible, (external link, opens in a new tab)" [ref=e248] [cursor=pointer]:
+                - /url: https://www.accessibility-services.co.uk/certificates/national-rail/
+                - figure [aria-hidden] [ref=e249]
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - figure [aria-hidden] [ref=e258]
+            - paragraph [ref=e260]: © 2026
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /about-this-site/
+                - paragraph [ref=e264]: About This Site
+            - listitem [ref=e265]:
+              - link [ref=e266] [cursor=pointer]:
+                - /url: /accessible-information/
+                - paragraph [ref=e267]: Accessible Information
+            - listitem [ref=e268]:
+              - link [ref=e269] [cursor=pointer]:
+                - /url: /careers/
+                - paragraph [ref=e270]: Careers
+            - listitem [ref=e271]:
+              - link [ref=e272] [cursor=pointer]:
+                - /url: /cookie-policy/
+                - paragraph [ref=e273]: Cookies
+            - listitem [ref=e274]:
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /privacy-notice/
+                - paragraph [ref=e276]: Privacy Notice
+            - listitem [ref=e277]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+                - paragraph [ref=e279]: Terms and Conditions
+    - status [ref=e280]: National Rail Enquiries - Official source for UK train times and timetables
+  - dialog "Plan a Journey" [ref=e308]:
+    - generic [ref=e309]:
+      - generic [ref=e310]:
+        - figure [aria-hidden] [ref=e312]
+        - button "close modal" [ref=e314] [cursor=pointer]
+      - generic [ref=e319]:
+        - generic [ref=e320]:
+          - heading "Plan a Journey" [level=1] [ref=e321]
+          - generic [ref=e322]:
+            - generic [ref=e323]:
+              - generic [ref=e325]:
+                - generic: Departing from
+                - combobox "Departing from" [ref=e326]: Leeds
+                - button "Clear Departing from station search" [ref=e327] [cursor=pointer]
+              - status [ref=e332]: 1 station found, navigate through the filtered list to select a station.
+            - generic [ref=e334]:
+              - generic: Going to
+              - combobox "Going to" [ref=e335]: Birmingham New Street
+              - button "Clear Going to station search" [ref=e336] [cursor=pointer]
+            - status [ref=e341]: 2 stations found, navigate through the filtered list to select a station.
+            - button "Swap from and to stations" [ref=e342] [cursor=pointer]
+        - button "Modify Route options" [ref=e347] [cursor=pointer]:
+          - generic [ref=e348]: Modify
+          - generic [ref=e349]: Route options
+        - group "Choose journey type" [ref=e352]:
+          - generic [ref=e354]:
+            - generic [ref=e355]:
+              - radio "Single" [checked] [ref=e356] [cursor=pointer]
+              - generic [ref=e357] [cursor=pointer]: Single
+            - generic [ref=e358]:
+              - radio "Return" [ref=e359] [cursor=pointer]
+              - generic [ref=e360] [cursor=pointer]: Return
+            - generic [ref=e361]:
+              - radio "Open return" [ref=e362] [cursor=pointer]
+              - generic [ref=e363] [cursor=pointer]: Open return
+        - generic [ref=e364]:
+          - heading "I'm leaving" [level=2] [ref=e365]
+          - generic [ref=e368]:
+            - generic [ref=e372]:
+              - generic: Choose leaving date
+              - textbox "Choose leaving date" [ref=e373]: 11 Sep 2026
+            - generic [ref=e374]:
+              - generic [ref=e375]: Choose leaving departure option
+              - combobox "Choose leaving departure option" [ref=e377] [cursor=pointer]:
+                - option "Departing after" [selected]
+                - option "Arriving by"
+                - option "First train"
+                - option "Last train"
+            - generic [ref=e378]:
+              - generic [ref=e379]:
+                - generic [ref=e380]: Choose leaving hour
+                - combobox "Choose leaving hour" [ref=e382] [cursor=pointer]:
+                  - option "00"
+                  - option "01"
+                  - option "02"
+                  - option "03"
+                  - option "04"
+                  - option "05"
+                  - option "06"
+                  - option "07"
+                  - option "08"
+                  - option "09"
+                  - option "10" [selected]
+                  - option "11"
+                  - option "12"
+                  - option "13"
+                  - option "14"
+                  - option "15"
+                  - option "16"
+                  - option "17"
+                  - option "18"
+                  - option "19"
+                  - option "20"
+                  - option "21"
+                  - option "22"
+                  - option "23"
+              - generic [ref=e383]:
+                - generic [ref=e384]: Choose leaving minutes
+                - combobox "Choose leaving minutes" [ref=e386] [cursor=pointer]:
+                  - option "00" [selected]
+                  - option "05"
+                  - option "10"
+                  - option "15"
+                  - option "20"
+                  - option "25"
+                  - option "30"
+                  - option "35"
+                  - option "40"
+                  - option "45"
+                  - option "50"
+                  - option "55"
+        - generic [ref=e387]:
+          - heading "Passengers" [level=2] [ref=e388]
+          - generic [ref=e391]:
+            - generic [ref=e392]:
+              - generic [ref=e393]: Adults (16+)
+              - combobox "Adults (16+)" [ref=e395] [cursor=pointer]:
+                - option "0"
+                - option "1" [selected]
+                - option "2"
+                - option "3"
+                - option "4"
+                - option "5"
+                - option "6"
+                - option "7"
+                - option "8"
+                - option "9"
+            - generic [ref=e396]:
+              - generic [ref=e397]: Children (5-15)
+              - combobox "Children (5-15)" [ref=e399] [cursor=pointer]:
+                - option "0" [selected]
+                - option "1"
+                - option "2"
+                - option "3"
+                - option "4"
+                - option "5"
+                - option "6"
+                - option "7"
+                - option "8"
+                - option "9"
+        - generic [ref=e400]:
+          - heading "Railcards" [level=2] [ref=e401]
+          - button "Add railcard" [ref=e404] [cursor=pointer]:
+            - generic [ref=e405]: Add Railcard
+        - generic [ref=e406]:
+          - heading "Find hotels" [level=2] [ref=e407]
+          - generic [ref=e410] [cursor=pointer]:
+            - checkbox "Booking.com" [active] [ref=e411]
+            - text: Booking.com
+        - heading [level=3] [ref=e418]:
+          - button "More journey options" [ref=e419] [cursor=pointer]
+        - button "Get times and prices" [ref=e425] [cursor=pointer]
+  - alert [ref=e281]
+```

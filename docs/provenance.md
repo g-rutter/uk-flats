@@ -36,8 +36,8 @@ signed decimal degrees. Original camelCase names are retained for traceability.
 | market.csv | `location_id`; reason | JS market; MT-RM-SEARCH-20260905 / MT-RM-LOS-20260905 |
 | localTransport.csv | `location_id`; explicit assessment, confidence, evidence IDs, method version and reason | Current broad assessment; the band drives the score while reason is explanatory context |
 | nationalTransport.csv | `location_id`; londonMinutes/Changes, birminghamMinutes/Changes, confidence and reason | JS nationalTransport; TR01 and per-location transport links |
-| transport_stations.csv | `location_id`; proposed/reviewed origin CRS, name, rationale, confidence and evidence IDs | National-transport acquisition workstream; initially header-only pending reviewed mappings |
-| transport_route_observations.csv | one manually transcribed route observation per location/destination, with planner query, timed itinerary and capture reference | National-transport acquisition workstream; initially header-only pending the dated pilot |
+| transport_stations.csv | `location_id`; reviewed origin CRS, name, rationale, confidence and evidence IDs | National-transport acquisition workstream; currently contains the reviewed 12-location pilot mappings |
+| transport_route_observations.csv | one review-only, manually transcribed route observation per location/destination, with planner query, timed itinerary and capture reference | National-transport acquisition workstream; not a canonical replacement until a complete release is approved |
 | quiet.csv, condition.csv | `location_id`; explicit assessment, confidence, evidence IDs, method version and reason | Current broad assessment; the band drives the score while reason is explanatory context |
 | sources.csv | `location_id`, topic, url; multiple rows per location/topic | JS sources; original links, including archived crime context |
 | evidence.csv | `id`; workstream, title, publisher, url, dataPeriod, retrievalDate, geography, coverage, limitations | JS evidence; inherited source-level metadata |
@@ -68,7 +68,7 @@ date, observation period, units and geography identifiers, plus the transformati
 script. Retain non-CSV artifacts and scripted CSV extractions. Add row-level
 evidence IDs when multiple source periods enter one topic.
 
-The national-transport workstream has a separate manual-source model. Its
+The national-transport workstream has a separate browser-UI source model. Its
 station mapping and long-form route transcription are validated for columns,
 foreign keys and duplicate keys by `build.py`, then validated in full against a
 hashed raw release by `prepare_national_transport.py`. The preparer produces

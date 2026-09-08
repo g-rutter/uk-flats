@@ -1,0 +1,5 @@
+location_id,station_crs,station_name,selection_reason,confidence,evidence_ids
+birmingham,BHM,Birmingham New Street,"Visible National Rail planner suggestion for broad-place search Birmingham; selected the principal central intercity station rather than Birmingham (All Stations), International, Moor Street or Snow Hill.",Medium,TR-NATIONAL-20260908-STATION-MAPPINGS-A
+wolverhampton,WVH,Wolverhampton,"Visible National Rail planner suggestion for broad-place search Wolverhampton; selected the sole matching station result and the town's principal National Rail station.",Medium,TR-NATIONAL-20260908-STATION-MAPPINGS-A
+leeds,LDS,Leeds,"Visible National Rail planner suggestion for broad-place search Leeds; selected the sole matching station result and the city's principal central National Rail station.",Medium,TR-NATIONAL-20260908-STATION-MAPPINGS-A
+manchester,MAN,Manchester Piccadilly,"Visible National Rail planner suggestion for broad-place search Manchester; selected the central long-distance hub rather than Manchester (All Stations), Victoria, Airport or Oxford Road.",Medium,TR-NATIONAL-20260908-STATION-MAPPINGS-A

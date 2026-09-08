@@ -1,0 +1,690 @@
+### Page
+- Page URL: https://www.nationalrail.co.uk/journey-planner/?type=single&origin=BHM&destination=182&leavingType=departing&leavingDate=110926&leavingHour=12&leavingMin=00&adults=1&extraTime=0#O
+- Page Title: Buy Your Tickets - Birmingham New Street to London | National Rail
+- Console: 1 errors, 0 warnings
+### Snapshot
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - paragraph [ref=e15]: Advertisement
+            - generic [ref=e19]:
+              - link "National Rail home" [ref=e20] [cursor=pointer]:
+                - /url: /
+                - figure [aria-hidden] [ref=e22]
+              - navigation "header" [ref=e24]:
+                - list [ref=e25]:
+                  - listitem "Live Departures" [ref=e26]:
+                    - link "Live Departures" [ref=e27] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/live-trains/
+                  - listitem "Disruptions , unread" [ref=e32]:
+                    - link "Disruptions, unread" [ref=e33] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/disruptions/
+                      - generic [ref=e37]:
+                        - text: Disruptions
+                        - generic [ref=e38]: ", unread"
+                  - listitem "Plan a Journey" [ref=e39]:
+                    - link "Plan a Journey" [ref=e40] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/journey-planner/
+                  - listitem "My Travel" [ref=e45]:
+                    - link "My Travel" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/my-travel/
+              - button "Open search" [ref=e52] [cursor=pointer]
+            - status [ref=e56]: Unread notifications
+          - navigation "header" [ref=e61]:
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - button "Tickets, Railcards and Offers" [ref=e64] [cursor=pointer]
+              - listitem [ref=e66]:
+                - link "Stations" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/stations/
+              - listitem [ref=e69]:
+                - button "Travel Information" [ref=e70] [cursor=pointer]
+              - listitem [ref=e72]:
+                - button "Help and Assistance" [ref=e73] [cursor=pointer]
+              - listitem [ref=e75]:
+                - link "Status Updates" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/train-operator-status/
+              - listitem [ref=e78]:
+                - link "Engineering Works" [ref=e79] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/engineering-works/
+        - alert [ref=e81]
+      - main [ref=e82]:
+        - generic [ref=e432]:
+          - generic [ref=e437]:
+            - paragraph [ref=e439]: "The journey you are searching for:"
+            - heading [level=1] [ref=e440]:
+              - button "Birmingham New Street to London" [expanded] [ref=e441] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e442]:
+                  - text: Birmingham New Street
+                  - generic [ref=e443]: to
+                  - text: London
+            - generic [ref=e445]:
+              - generic [ref=e446]: Single Friday 11 September 2026
+              - generic [ref=e447]: • 1 Adult
+              - generic [ref=e448]: • No Railcard
+            - generic [ref=e449]:
+              - button "Edit journey" [ref=e450] [cursor=pointer]
+              - button "Set journey alert" [ref=e455] [cursor=pointer]
+              - button "Favourite journey Birmingham New Street to London" [ref=e460] [cursor=pointer]:
+                - generic [ref=e464]: Favourite route
+          - generic [ref=e470]:
+            - region "Please select a journey" [ref=e476]:
+              - generic [ref=e478]:
+                - heading "Please select a journey" [level=2] [ref=e479]
+                - paragraph [ref=e480]: Friday 11 September 2026
+              - generic [ref=e482]:
+                - group "Choose fare class" [ref=e484]:
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - radio "Standard from £9.00" [checked] [ref=e488] [cursor=pointer]
+                      - generic [ref=e490]:
+                        - generic [ref=e491]: Standard
+                        - generic [ref=e492]:
+                          - generic [ref=e493]: from
+                          - generic [ref=e494]: £9.00
+                    - generic [ref=e495]:
+                      - radio "First Class from £77.00" [ref=e496] [cursor=pointer]
+                      - generic [ref=e498]:
+                        - generic [ref=e499]: First Class
+                        - generic [ref=e500]:
+                          - generic [ref=e501]: from
+                          - generic [ref=e502]: £77.00
+                - link "View earlier trains" [ref=e505] [cursor=pointer]:
+                  - /url: /journey-planner/?type=single&origin=BHM&destination=182&leavingType=departing&leavingDate=110926&leavingHour=12&leavingMin=00&adults=1&extraTime=0#
+              - group "Please select a journey" [ref=e512]:
+                - list [ref=e514]:
+                  - listitem [ref=e515]:
+                    - generic [ref=e516]:
+                      - heading "12:02 journey from Birmingham New Street to London Marylebone" [level=3] [ref=e517]
+                      - generic [ref=e519]:
+                        - generic [ref=e520]:
+                          - generic [ref=e521]: "- Journey 1, Departs, 12:02, from Birmingham New Street, and Arrives, 14:23, at London Marylebone, duration 2 hours, 21 minutes, with 1 change, This journey will be overtaken by a later departure"
+                          - generic [ref=e522]:
+                            - generic [ref=e523]:
+                              - generic [ref=e524]: Lowest
+                              - generic [ref=e525]:
+                                - generic [ref=e526]: Single from
+                                - generic [ref=e527]: £18.00
+                            - generic [ref=e529]:
+                              - button "Select Lowest Single from £18.00" [ref=e530] [cursor=pointer]: outward-0
+                              - generic [ref=e531]:
+                                - generic [ref=e532] [cursor=pointer]
+                                - generic [ref=e536]: Select
+                        - generic [ref=e539]:
+                          - text: Slower journey
+                          - generic [ref=e540]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e541]:
+                          - generic [ref=e542]:
+                            - paragraph [ref=e543]: Departs
+                            - time [ref=e545]: 12:02
+                            - generic [ref=e547]:
+                              - text: Birmingham New Street
+                              - generic [ref=e548]: (BHM)
+                          - generic [ref=e553]:
+                            - paragraph [ref=e554]: Arrives
+                            - time [ref=e556]: 14:23
+                            - generic [ref=e558]:
+                              - text: London Marylebone
+                              - generic [ref=e559]: (MYB)
+                            - paragraph [ref=e560]: Platform 4
+                        - 'button "Duration: 2 hours, 21 minutes and, 1 change" [ref=e563] [cursor=pointer]':
+                          - generic [ref=e564]:
+                            - time [ref=e565]: 2h 21m,
+                            - generic [ref=e566]: and,
+                            - text: 1 change
+                  - listitem [ref=e567]:
+                    - generic [ref=e568]:
+                      - heading "12:06 journey from Birmingham New Street to London Euston" [level=3] [ref=e569]
+                      - generic [ref=e571]:
+                        - generic [ref=e572]:
+                          - generic [ref=e573]: "- Journey 2, Departs, 12:06, from Birmingham New Street, and Arrives, 14:17, at London Euston, duration 2 hours, 11 minutes, with 0 change, This journey will be overtaken by a later departure"
+                          - generic [ref=e574]:
+                            - generic [ref=e575]:
+                              - generic [ref=e576]: Lowest
+                              - generic [ref=e577]:
+                                - generic [ref=e578]: Single from
+                                - generic [ref=e579]: £9.00
+                            - generic [ref=e581]:
+                              - button "Select Lowest Single from £9.00" [ref=e582] [cursor=pointer]: outward-1
+                              - generic [ref=e583]:
+                                - generic [ref=e584] [cursor=pointer]
+                                - generic [ref=e588]: Select
+                        - generic [ref=e591]:
+                          - text: Slower journey
+                          - generic [ref=e592]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e593]:
+                          - generic [ref=e594]:
+                            - paragraph [ref=e595]: Departs
+                            - time [ref=e597]: 12:06
+                            - generic [ref=e599]:
+                              - text: Birmingham New Street
+                              - generic [ref=e600]: (BHM)
+                            - paragraph [ref=e601]: Platform 3
+                          - generic [ref=e606]:
+                            - paragraph [ref=e607]: Arrives
+                            - time [ref=e609]: 14:17
+                            - generic [ref=e611]:
+                              - text: London Euston
+                              - generic [ref=e612]: (EUS)
+                            - paragraph [ref=e613]: Platform 12
+                        - 'button "Duration: 2 hours, 11 minutes and, Direct" [ref=e616] [cursor=pointer]':
+                          - generic [ref=e617]:
+                            - time [ref=e618]: 2h 11m,
+                            - generic [ref=e619]: and,
+                            - text: Direct
+                  - listitem [ref=e620]:
+                    - generic [ref=e621]:
+                      - heading "12:17 journey from Birmingham New Street to London Euston" [level=3] [ref=e622]
+                      - generic [ref=e624]:
+                        - generic [ref=e625]:
+                          - generic [ref=e626]: "- Journey 3, Departs, 12:17, from Birmingham New Street, and Arrives, 13:38, at London Euston, duration 1 hour, 21 minutes, with 0 change"
+                          - generic [ref=e627]:
+                            - generic [ref=e628]:
+                              - generic [ref=e629]: Lowest
+                              - generic [ref=e630]:
+                                - generic [ref=e631]: Single from
+                                - generic [ref=e632]: £35.50
+                            - generic [ref=e634]:
+                              - button "Select Lowest Single from £35.50" [ref=e635] [cursor=pointer]: outward-2
+                              - generic [ref=e636]:
+                                - generic [ref=e637] [cursor=pointer]
+                                - generic [ref=e641]: Select
+                        - generic [ref=e643]:
+                          - generic [ref=e644]:
+                            - paragraph [ref=e645]: Departs
+                            - time [ref=e647]: 12:17
+                            - generic [ref=e649]:
+                              - text: Birmingham New Street
+                              - generic [ref=e650]: (BHM)
+                            - paragraph [ref=e651]: Platform 1
+                          - generic [ref=e656]:
+                            - paragraph [ref=e657]: Arrives
+                            - time [ref=e659]: 13:38
+                            - generic [ref=e661]:
+                              - text: London Euston
+                              - generic [ref=e662]: (EUS)
+                            - paragraph [ref=e663]: Platform 2
+                        - 'button "Duration: 1 hour, 21 minutes and, Direct" [ref=e666] [cursor=pointer]':
+                          - generic [ref=e667]:
+                            - time [ref=e668]: 1h 21m,
+                            - generic [ref=e669]: and,
+                            - text: Direct
+                  - listitem [ref=e670]:
+                    - generic [ref=e671]:
+                      - heading "12:21 journey from Birmingham New Street to London Euston" [level=3] [ref=e672]
+                      - generic [ref=e674]:
+                        - generic [ref=e675]:
+                          - generic [ref=e676]: "- Journey 4, Departs, 12:21, from Birmingham New Street, and Arrives, 13:54, at London Euston, duration 1 hour, 33 minutes, with 0 change"
+                          - generic [ref=e677]:
+                            - generic [ref=e678]:
+                              - generic [ref=e679]: Lowest
+                              - generic [ref=e680]:
+                                - generic [ref=e681]: Single from
+                                - generic [ref=e682]: £31.00
+                            - generic [ref=e684]:
+                              - button "Select Lowest Single from £31.00" [ref=e685] [cursor=pointer]: outward-3
+                              - generic [ref=e686]:
+                                - generic [ref=e687] [cursor=pointer]
+                                - generic [ref=e691]: Select
+                        - generic [ref=e693]:
+                          - generic [ref=e694]:
+                            - paragraph [ref=e695]: Departs
+                            - time [ref=e697]: 12:21
+                            - generic [ref=e699]:
+                              - text: Birmingham New Street
+                              - generic [ref=e700]: (BHM)
+                            - paragraph [ref=e701]: Platform 6
+                          - generic [ref=e706]:
+                            - paragraph [ref=e707]: Arrives
+                            - time [ref=e709]: 13:54
+                            - generic [ref=e711]:
+                              - text: London Euston
+                              - generic [ref=e712]: (EUS)
+                            - paragraph [ref=e713]: Platform 6
+                        - 'button "Duration: 1 hour, 33 minutes and, Direct" [ref=e716] [cursor=pointer]':
+                          - generic [ref=e717]:
+                            - time [ref=e718]: 1h 33m,
+                            - generic [ref=e719]: and,
+                            - text: Direct
+                  - listitem [ref=e720]:
+                    - generic [ref=e721]:
+                      - heading "12:32 journey from Birmingham New Street to London Marylebone" [level=3] [ref=e722]
+                      - generic [ref=e724]:
+                        - generic [ref=e725]:
+                          - generic [ref=e726]: "- Journey 5, Departs, 12:32, from Birmingham New Street, and Arrives, 14:43, at London Marylebone, duration 2 hours, 11 minutes, with 1 change, This journey will be overtaken by a later departure"
+                          - generic [ref=e727]:
+                            - generic [ref=e728]:
+                              - generic [ref=e729]: Lowest
+                              - generic [ref=e730]:
+                                - generic [ref=e731]: Single from
+                                - generic [ref=e732]: £18.00
+                            - generic [ref=e734]:
+                              - button "Select Lowest Single from £18.00" [ref=e735] [cursor=pointer]: outward-4
+                              - generic [ref=e736]:
+                                - generic [ref=e737] [cursor=pointer]
+                                - generic [ref=e741]: Select
+                        - generic [ref=e744]:
+                          - text: Slower journey
+                          - generic [ref=e745]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e746]:
+                          - generic [ref=e747]:
+                            - paragraph [ref=e748]: Departs
+                            - time [ref=e750]: 12:32
+                            - generic [ref=e752]:
+                              - text: Birmingham New Street
+                              - generic [ref=e753]: (BHM)
+                          - generic [ref=e758]:
+                            - paragraph [ref=e759]: Arrives
+                            - time [ref=e761]: 14:43
+                            - generic [ref=e763]:
+                              - text: London Marylebone
+                              - generic [ref=e764]: (MYB)
+                            - paragraph [ref=e765]: Platform 1
+                        - 'button "Duration: 2 hours, 11 minutes and, 1 change" [ref=e768] [cursor=pointer]':
+                          - generic [ref=e769]:
+                            - time [ref=e770]: 2h 11m,
+                            - generic [ref=e771]: and,
+                            - text: 1 change
+                  - listitem [ref=e772]:
+                    - generic [ref=e773]:
+                      - heading "12:36 journey from Birmingham New Street to London Euston" [level=3] [ref=e774]
+                      - generic [ref=e776]:
+                        - generic [ref=e777]:
+                          - generic [ref=e778]: "- Journey 6, Departs, 12:36, from Birmingham New Street, and Arrives, 14:50, at London Euston, duration 2 hours, 14 minutes, with 0 change, This journey will be overtaken by a later departure"
+                          - generic [ref=e779]:
+                            - generic [ref=e780]:
+                              - generic [ref=e781]: Lowest
+                              - generic [ref=e782]:
+                                - generic [ref=e783]: Single from
+                                - generic [ref=e784]: £9.00
+                            - generic [ref=e786]:
+                              - button "Select Lowest Single from £9.00" [ref=e787] [cursor=pointer]: outward-5
+                              - generic [ref=e788]:
+                                - generic [ref=e789] [cursor=pointer]
+                                - generic [ref=e793]: Select
+                        - generic [ref=e796]:
+                          - text: Slower journey
+                          - generic [ref=e797]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e798]:
+                          - generic [ref=e799]:
+                            - paragraph [ref=e800]: Departs
+                            - time [ref=e802]: 12:36
+                            - generic [ref=e804]:
+                              - text: Birmingham New Street
+                              - generic [ref=e805]: (BHM)
+                            - paragraph [ref=e806]: Platform 4A
+                          - generic [ref=e811]:
+                            - paragraph [ref=e812]: Arrives
+                            - time [ref=e814]: 14:50
+                            - generic [ref=e816]:
+                              - text: London Euston
+                              - generic [ref=e817]: (EUS)
+                            - paragraph [ref=e818]: Platform 13
+                        - 'button "Duration: 2 hours, 14 minutes and, Direct" [ref=e821] [cursor=pointer]':
+                          - generic [ref=e822]:
+                            - time [ref=e823]: 2h 14m,
+                            - generic [ref=e824]: and,
+                            - text: Direct
+                  - listitem [ref=e825]:
+                    - generic [ref=e826]:
+                      - heading "12:47 journey from Birmingham New Street to London Euston" [level=3] [ref=e827]
+                      - generic [ref=e829]:
+                        - generic [ref=e830]:
+                          - generic [ref=e831]: "- Journey 7, Departs, 12:47, from Birmingham New Street, and Arrives, 14:06, at London Euston, duration 1 hour, 19 minutes, with 0 change, This is the fastest available journey"
+                          - generic [ref=e832]:
+                            - generic [ref=e833]:
+                              - generic [ref=e834]: Lowest
+                              - generic [ref=e835]:
+                                - generic [ref=e836]: Single from
+                                - generic [ref=e837]: £31.00
+                            - generic [ref=e839]:
+                              - button "Select Lowest Single from £31.00" [ref=e840] [cursor=pointer]: outward-6
+                              - generic [ref=e841]:
+                                - generic [ref=e842] [cursor=pointer]
+                                - generic [ref=e846]: Select
+                        - generic [ref=e849]:
+                          - text: Fastest
+                          - generic [ref=e850]: ": This is the fastest available journey"
+                        - generic [ref=e851]:
+                          - generic [ref=e852]:
+                            - paragraph [ref=e853]: Departs
+                            - time [ref=e855]: 12:47
+                            - generic [ref=e857]:
+                              - text: Birmingham New Street
+                              - generic [ref=e858]: (BHM)
+                            - paragraph [ref=e859]: Platform 5
+                          - generic [ref=e864]:
+                            - paragraph [ref=e865]: Arrives
+                            - time [ref=e867]: 14:06
+                            - generic [ref=e869]:
+                              - text: London Euston
+                              - generic [ref=e870]: (EUS)
+                            - paragraph [ref=e871]: Platform 16
+                        - 'button "Duration: 1 hour, 19 minutes and, Direct" [ref=e874] [cursor=pointer]':
+                          - generic [ref=e875]:
+                            - time [ref=e876]: 1h 19m,
+                            - generic [ref=e877]: and,
+                            - text: Direct
+                  - listitem [ref=e878]:
+                    - generic [ref=e879]:
+                      - heading "12:49 journey from Birmingham New Street to London Euston" [level=3] [ref=e880]
+                      - generic [ref=e882]:
+                        - generic [ref=e883]:
+                          - generic [ref=e884]: "- Journey 8, Departs, 12:49, from Birmingham New Street, and Arrives, 14:32, at London Euston, duration 1 hour, 43 minutes, with 1 change, This journey is a combined fare"
+                          - generic [ref=e885]:
+                            - generic [ref=e886]:
+                              - generic [ref=e887]: Lowest
+                              - generic [ref=e888]:
+                                - generic [ref=e889]: Single from
+                                - generic [ref=e890]: £41.80
+                            - generic [ref=e892]:
+                              - button "Select Lowest Single from £41.80" [ref=e893] [cursor=pointer]: outward-7
+                              - generic [ref=e894]:
+                                - generic [ref=e895] [cursor=pointer]
+                                - generic [ref=e899]: Select
+                        - generic [ref=e902]:
+                          - text: Combined fare
+                          - generic [ref=e903]: ": This journey is a combined fare"
+                        - generic [ref=e904]:
+                          - generic [ref=e905]:
+                            - paragraph [ref=e906]: Departs
+                            - time [ref=e908]: 12:49
+                            - generic [ref=e910]:
+                              - text: Birmingham New Street
+                              - generic [ref=e911]: (BHM)
+                            - paragraph [ref=e912]: Platform 9A
+                          - generic [ref=e917]:
+                            - paragraph [ref=e918]: Arrives
+                            - time [ref=e920]: 14:32
+                            - generic [ref=e922]:
+                              - text: London Euston
+                              - generic [ref=e923]: (EUS)
+                            - paragraph [ref=e924]: Platform 3
+                        - generic [ref=e925]:
+                          - 'button "Duration: 1 hour, 43 minutes and, 1 change" [ref=e927] [cursor=pointer]':
+                            - generic [ref=e928]:
+                              - time [ref=e929]: 1h 43m,
+                              - generic [ref=e930]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 8" [ref=e932]:
+                            - button "Accessibility" [ref=e933] [cursor=pointer]
+                  - listitem [ref=e938]:
+                    - generic [ref=e939]:
+                      - heading "13:06 journey from Birmingham New Street to London Euston" [level=3] [ref=e940]
+                      - generic [ref=e942]:
+                        - generic [ref=e943]:
+                          - generic [ref=e944]: "- Journey 9, Departs, 13:06, from Birmingham New Street, and Arrives, 15:17, at London Euston, duration 2 hours, 11 minutes, with 0 change, This journey will be overtaken by a later departure"
+                          - generic [ref=e945]:
+                            - generic [ref=e946]:
+                              - generic [ref=e947]: Lowest
+                              - generic [ref=e948]:
+                                - generic [ref=e949]: Single from
+                                - generic [ref=e950]: £9.00
+                            - generic [ref=e952]:
+                              - button "Select Lowest Single from £9.00" [ref=e953] [cursor=pointer]: outward-8
+                              - generic [ref=e954]:
+                                - generic [ref=e955] [cursor=pointer]
+                                - generic [ref=e959]: Select
+                        - generic [ref=e962]:
+                          - text: Slower journey
+                          - generic [ref=e963]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e964]:
+                          - generic [ref=e965]:
+                            - paragraph [ref=e966]: Departs
+                            - time [ref=e968]: 13:06
+                            - generic [ref=e970]:
+                              - text: Birmingham New Street
+                              - generic [ref=e971]: (BHM)
+                            - paragraph [ref=e972]: Platform 3
+                          - generic [ref=e977]:
+                            - paragraph [ref=e978]: Arrives
+                            - time [ref=e980]: 15:17
+                            - generic [ref=e982]:
+                              - text: London Euston
+                              - generic [ref=e983]: (EUS)
+                            - paragraph [ref=e984]: Platform 5
+                        - 'button "Duration: 2 hours, 11 minutes and, Direct" [ref=e987] [cursor=pointer]':
+                          - generic [ref=e988]:
+                            - time [ref=e989]: 2h 11m,
+                            - generic [ref=e990]: and,
+                            - text: Direct
+                  - listitem [ref=e991]:
+                    - generic [ref=e992]:
+                      - heading "13:17 journey from Birmingham New Street to London Euston" [level=3] [ref=e993]
+                      - generic [ref=e995]:
+                        - generic [ref=e996]:
+                          - generic [ref=e997]: "- Journey 10, Departs, 13:17, from Birmingham New Street, and Arrives, 14:38, at London Euston, duration 1 hour, 21 minutes, with 0 change"
+                          - generic [ref=e998]:
+                            - generic [ref=e999]:
+                              - generic [ref=e1000]: Lowest
+                              - generic [ref=e1001]:
+                                - generic [ref=e1002]: Single from
+                                - generic [ref=e1003]: £35.50
+                            - generic [ref=e1005]:
+                              - button "Select Lowest Single from £35.50" [ref=e1006] [cursor=pointer]: outward-9
+                              - generic [ref=e1007]:
+                                - generic [ref=e1008] [cursor=pointer]
+                                - generic [ref=e1012]: Select
+                        - generic [ref=e1014]:
+                          - generic [ref=e1015]:
+                            - paragraph [ref=e1016]: Departs
+                            - time [ref=e1018]: 13:17
+                            - generic [ref=e1020]:
+                              - text: Birmingham New Street
+                              - generic [ref=e1021]: (BHM)
+                            - paragraph [ref=e1022]: Platform 1
+                          - generic [ref=e1027]:
+                            - paragraph [ref=e1028]: Arrives
+                            - time [ref=e1030]: 14:38
+                            - generic [ref=e1032]:
+                              - text: London Euston
+                              - generic [ref=e1033]: (EUS)
+                            - paragraph [ref=e1034]: Platform 16
+                        - 'button "Duration: 1 hour, 21 minutes and, Direct" [ref=e1037] [cursor=pointer]':
+                          - generic [ref=e1038]:
+                            - time [ref=e1039]: 1h 21m,
+                            - generic [ref=e1040]: and,
+                            - text: Direct
+              - link "View later trains" [ref=e1045] [cursor=pointer]:
+                - /url: /journey-planner/?type=single&origin=BHM&destination=182&leavingType=departing&leavingDate=110926&leavingHour=12&leavingMin=00&adults=1&extraTime=0#
+            - generic [ref=e1052]:
+              - generic [ref=e1055]:
+                - heading "Total £0" [level=2] [ref=e1056]:
+                  - generic [ref=e1057]: Total
+                  - generic [ref=e1058]: £0
+                - link "Continue Review tickets and options" [ref=e1060] [cursor=pointer]:
+                  - /url: "#TD"
+                  - generic [ref=e1061]: Continue
+                  - generic [ref=e1066]: Review tickets and options
+                - paragraph [ref=e1067]: 1 Adult, No Railcard
+                - generic [ref=e1068]:
+                  - generic [ref=e1069]:
+                    - heading "Outward journey" [level=3] [ref=e1070]
+                    - paragraph [ref=e1071]: Not selected
+                  - generic [ref=e1072]:
+                    - heading "Return journey" [level=3] [ref=e1073]
+                    - button "Add return journey" [ref=e1074] [cursor=pointer]
+              - paragraph [ref=e1083]: Advertisement
+          - paragraph [ref=e1089]: Advertisement
+        - alert [ref=e1090]
+        - status [ref=e1091]: Please select a valid journey
+        - status [ref=e1092]: Outward results, step 1 of 2
+        - status [ref=e1093]: Currently viewing scheduled services
+        - alert [ref=e1094]
+      - contentinfo [ref=e130]:
+        - generic [ref=e133]:
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - link [ref=e138] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/
+                  - heading "Tickets, Railcards and Offers" [level=3] [ref=e139]
+                - list [ref=e140]:
+                  - listitem [ref=e141]:
+                    - link "Buying a Ticket" [ref=e142] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/buying-a-ticket/
+                  - listitem [ref=e143]:
+                    - link "Ticket Types" [ref=e144] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/ticket-types/
+                  - listitem [ref=e145]:
+                    - link "Railcards" [ref=e146] [cursor=pointer]:
+                      - /url: /railcards/
+                  - listitem [ref=e147]:
+                    - link "Saving Money" [ref=e148] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/saving-money/
+            - listitem [ref=e149]:
+              - generic [ref=e150]:
+                - link [ref=e152] [cursor=pointer]:
+                  - /url: /stations/
+                  - heading "Stations and Train Companies" [level=3] [ref=e153]
+                - list [ref=e154]:
+                  - listitem [ref=e155]:
+                    - link "Find a Station" [ref=e156] [cursor=pointer]:
+                      - /url: /stations/
+                  - listitem [ref=e157]:
+                    - link "Find a Train Company" [ref=e158] [cursor=pointer]:
+                      - /url: /travel-information/find-a-train-company/
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - link [ref=e162] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/discover-by-train/
+                  - heading "Discover by Train" [level=3] [ref=e163]
+                - list [ref=e164]:
+                  - listitem [ref=e165]:
+                    - link "Children and Families" [ref=e166] [cursor=pointer]:
+                      - /url: /discover-by-train/children-and-families/
+                  - listitem [ref=e167]:
+                    - link "Train Travel with Children" [ref=e168] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e169]:
+                    - link "Great British Destinations" [ref=e170] [cursor=pointer]:
+                      - /url: /discover-by-train/great-british-destinations/
+                  - listitem [ref=e171]:
+                    - link "Seasonal Inspiration" [ref=e172] [cursor=pointer]:
+                      - /url: /discover-by-train/seasonal-inspiration/
+                  - listitem [ref=e173]:
+                    - link "Places to Visit by Train" [ref=e174] [cursor=pointer]:
+                      - /url: /discover-by-train/places-to-visit-by-train/
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link [ref=e178] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/destinations/
+                  - heading "Destinations" [level=3] [ref=e179]
+                - list [ref=e180]:
+                  - listitem [ref=e181]:
+                    - link "Trains from London Paddington to Heathrow Airport" [ref=e182] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-paddington-to-heathrow-airport/
+                  - listitem [ref=e183]:
+                    - link "Trains from London to Liverpool" [ref=e184] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-liverpool/
+                  - listitem [ref=e185]:
+                    - link "Trains from London to Birmingham" [ref=e186] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-birmingham/
+                  - listitem [ref=e187]:
+                    - link "Trains from Edinburgh to Kings Cross" [ref=e188] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-edinburgh-to-london-kings-cross/
+                  - listitem [ref=e189]:
+                    - link "Trains from Gatwick Airport to London" [ref=e190] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-gatwick-airport-to-london/
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link [ref=e194] [cursor=pointer]:
+                  - /url: /help-and-assistance/
+                  - heading "Help and Assistance" [level=3] [ref=e195]
+                - list [ref=e196]:
+                  - listitem [ref=e197]:
+                    - link "Compensation and Refunds" [ref=e198] [cursor=pointer]:
+                      - /url: /help-and-assistance/compensation-and-refunds/
+                  - listitem [ref=e199]:
+                    - link "Contact Us" [ref=e200] [cursor=pointer]:
+                      - /url: /help-and-assistance/contact-us/
+                  - listitem [ref=e201]:
+                    - link "Complaints" [ref=e202] [cursor=pointer]:
+                      - /url: /help-and-assistance/complaints/
+                  - listitem [ref=e203]:
+                    - link "Passenger Assist" [ref=e204] [cursor=pointer]:
+                      - /url: /help-and-assistance/passenger-assist/
+                  - listitem [ref=e205]:
+                    - link "Media" [ref=e206] [cursor=pointer]:
+                      - /url: /media/
+                  - listitem [ref=e207]:
+                    - link "Text 61016" [ref=e208] [cursor=pointer]:
+                      - /url: /help-and-assistance/text-61016/
+            - listitem [ref=e209]:
+              - generic [ref=e210]:
+                - link [ref=e212] [cursor=pointer]:
+                  - /url: /on-the-train/
+                  - heading "On the Train" [level=3] [ref=e213]
+                - list [ref=e214]:
+                  - listitem [ref=e215]:
+                    - link "Accessible Train Travel and Facilities" [ref=e216] [cursor=pointer]:
+                      - /url: /on-the-train/accessible-train-travel-and-facilities/
+                  - listitem [ref=e217]:
+                    - link "Train Travel with Bicycles" [ref=e218] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-bicycles/
+                  - listitem [ref=e219]:
+                    - link "Train Travel with Pets" [ref=e220] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-pets/
+                  - listitem [ref=e221]:
+                    - link "Train Travel with Children" [ref=e222] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e223]:
+                    - link "Food and Drink" [ref=e224] [cursor=pointer]:
+                      - /url: /on-the-train/food-and-drink/
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - link "Instagram icon, (external link, opens in a new tab)" [ref=e227] [cursor=pointer]:
+                - /url: https://www.instagram.com/national.rail/
+              - link "Twitter icon, (external link, opens in a new tab)" [ref=e231] [cursor=pointer]:
+                - /url: https://twitter.com/nationalrailenq/
+              - link "Facebook icon, (external link, opens in a new tab)" [ref=e235] [cursor=pointer]:
+                - /url: https://www.facebook.com/nationalrailenq/
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - link "Download on the App Store, (external link, opens in a new tab)" [ref=e241] [cursor=pointer]:
+                  - /url: https://apps.apple.com/gb/app/national-rail/id519094154
+                  - figure [aria-hidden] [ref=e242]
+                - link "Download on the Play Store, (external link, opens in a new tab)" [ref=e244] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=uk.co.nationalrail.google&hl=en_GB
+                  - figure [aria-hidden] [ref=e245]
+              - link "Shaw Trust accessible, (external link, opens in a new tab)" [ref=e248] [cursor=pointer]:
+                - /url: https://www.accessibility-services.co.uk/certificates/national-rail/
+                - figure [aria-hidden] [ref=e249]
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - figure [aria-hidden] [ref=e258]
+            - paragraph [ref=e260]: © 2026
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /about-this-site/
+                - paragraph [ref=e264]: About This Site
+            - listitem [ref=e265]:
+              - link [ref=e266] [cursor=pointer]:
+                - /url: /accessible-information/
+                - paragraph [ref=e267]: Accessible Information
+            - listitem [ref=e268]:
+              - link [ref=e269] [cursor=pointer]:
+                - /url: /careers/
+                - paragraph [ref=e270]: Careers
+            - listitem [ref=e271]:
+              - link [ref=e272] [cursor=pointer]:
+                - /url: /cookie-policy/
+                - paragraph [ref=e273]: Cookies
+            - listitem [ref=e274]:
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /privacy-notice/
+                - paragraph [ref=e276]: Privacy Notice
+            - listitem [ref=e277]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+                - paragraph [ref=e279]: Terms and Conditions
+    - status [ref=e280]
+  - alert [ref=e281]: Journey Planner | Official Train Ticket Info | National Rail
+```
