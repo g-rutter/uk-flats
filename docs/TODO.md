@@ -8,10 +8,10 @@
   - Keep Police.uk ASB research-only unless a dated archive passes the documented force/month coverage and geography review.
   - What is simply being done in a stupid way - too much effort for the payoff perhaps?
 - Re-acquire and document prices and rents for the original 63-location baseline; decide whether reproducible portal stock snapshots are sufficiently reliable to retain as a comparison input.
-- Homogenise the original and existing location information such that there is no longer any reference in the repo that they are distinct. They should indeed be identical at this point. Identically acquired, uniformly recorded, methods of acquistion identical with no remaining mention of any differences in methodology because there are none. It should not be recorded that one part is an expansion and the other the original.
 - Make end-to-end location additions and data refreshes agent-operable: document and automate the acquisition, validation, evidence, build and review workflow.
 - Extend the map to colour locations by either the composite score or an individual score component.
 - Add map overlays where suitably sourced evidence is available, beginning with noise or air pollution, recorded offences, market thickness and isochrone travel times.
 - Repo health:
+  - Homogenise the original and existing location information such that there is no longer any reference in the repo that they are distinct. They should indeed be identical at this point. Identically acquired, uniformly recorded, methods of acquistion identical with no remaining mention of any differences in methodology because there are none. It should not be recorded that one part is an expansion and the other the original.
   - Thoroughly purge the code base of bloat in both code and natural language.
   - Look for fragmentation and unify the same processes or documentation being repeated
