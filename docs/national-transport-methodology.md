@@ -1,83 +1,25 @@
 # National transport acquisition methodology
 
-## Scope and interpretation
+## What the data means
 
-This workstream compares national rail access from one reviewed National Rail
-station for each broad candidate location to two fixed destinations. It covers
-the project's broad places only; it is not a property, neighbourhood, walking,
-accessibility, fare, or door-to-door measure. A result is a dated Journey
-Planner observation and can change with timetables, disruption and provider
-routing.
+This compares national-rail access from one reviewed National Rail station per broad candidate location to fixed London and Birmingham rail gateways. It is a dated, station-to-station National Rail Journey Planner observation—not a property, neighbourhood, walking, fare, accessibility, door-to-door or guaranteed journey measure. Timetables, disruption and planner routing can change results. It is separate from the qualitative `localTransport.csv` assessment; neither measure may be used to infer the other.
 
-It is separate from `localTransport.csv`. Local transport's qualitative broad
-bus-and-rail assessment uses its own rubric and evidence; a national journey
-duration must never be used to infer or change that band.
+The canonical journey source is the public [National Rail Journey Planner](https://www.nationalrail.co.uk/journey-planner/), used manually in a browser. Record only what it visibly displays. NaPTAN/NPTG may support station reference review, but is not a journey-time source.
 
-## Source and endpoints
+## Endpoints and selection
 
-The canonical source is the public [National Rail Journey
-Planner](https://www.nationalrail.co.uk/journey-planner/), manually used in a
-browser. The planner accepts a station name or three-letter code and presents
-several options for a requested date and time; its public guide says that each
-option shows departure/arrival times, journey time, direct/changes information
-and any bus, ferry or rail-replacement part. This collection records displayed
-observations only. It does not automate, scrape, or rely on undocumented
-browser requests. NaPTAN/NPTG may support station-reference review but is not
-the journey-time source.
+Each origin requires a reviewed row in `data/inputs/transport_stations.csv`: CRS, station name, selection rationale, confidence and evidence IDs. Birmingham is Birmingham New Street (`BHM`). London is the planner's visible `London (All Stations)` group: search `London`, choose that suggestion, and retain any planner-supplied group identifier. Label this a London rail gateway, never central London. Do not use `London Terminals`; it was not a visible suggestion in the recorded endpoint check.
 
-Each origin is recorded in `data/inputs/transport_stations.csv`, with its CRS,
-station name, selection rationale, confidence and evidence IDs. No mapping is
-treated as reviewed until that row and its linked evidence are present.
+For this release, the journey date is Friday 11 September 2026 and the local departure window is 10:00–14:00 (`2026-09-11T10:00:00+01:00` to `2026-09-11T14:00:00+01:00`). Collection may happen before that date: collection and retrieval timestamps are actual timestamps, not the planned journey date. Start at 10:00 and inspect later results; if needed to cover the window, search at 11:00, 12:00 and 13:00.
 
-The Birmingham endpoint is Birmingham New Street (`BHM`). The London endpoint
-is the Journey Planner's `London Terminals` group, provided the planner offers
-that exact destination during the pilot. The group is not a three-letter CRS;
-its exact displayed identifier is retained in `destination_crs`. If the pilot
-cannot select it, the pilot stops for an explicit endpoint decision before any
-canonical values are acquired. Results must be labelled “London rail gateway”,
-not central-London or door-to-door time.
+Choose the shortest elapsed *displayed suitable* itinerary departing within the window. A suitable itinerary is National Rail passenger service without an unreviewed bus, ferry, rail-replacement or other non-rail leg. Transfers shown as rail are allowed. `changes` is the displayed number of changes between passenger-service legs, not an inference from station names. If no suitable result is available, leave duration and changes blank and state why.
 
-## Standard snapshot rule
+Where reliably visible, count distinct suitable departures in a recorded two-hour local window as `usable_departures_in_window`. It is snapshot context, not general frequency; leave it blank when it cannot be counted reliably.
 
-The planned journey date is Friday 11 September 2026. The selection window is
-10:00:00--14:00:00 local time (`+01:00`). Queries and retrievals are made on
-the collection date and record their actual timestamps. Start with a 10:00
-departure search and inspect later journeys. If the displayed session cannot
-cover the whole window, additionally search at 11:00, 12:00 and 13:00 only as
-needed.
+## Evidence, data and review
 
-For each origin/destination pair, select the shortest elapsed suitable
-itinerary displayed whose departure falls in that window. A suitable itinerary
-is a National Rail itinerary without an unreviewed bus, ferry, rail-replacement
-or other non-rail substitute leg. Transfers explicitly displayed as rail legs
-are allowed. `changes` is the number of changes between passenger-service legs
-shown by the selected itinerary; it is never inferred from station names. An
-unavailable result or an excluded-only result has blank duration/change fields
-and an explicit reason.
+For every route retain a result capture, expanded journey details, result URL when supplied, and a transcription in `data/inputs/transport_route_observations.csv`. A dated raw release includes a `manifest.csv` of visible query values, capture hashes, timestamps and limitations; `raw_capture_path` is relative to that release. Retain the measurement date, selection window, searches used, departure/arrival, elapsed minutes, changes, frequency context, confidence, evidence ID and reason. Blank means unknown/unavailable, never zero.
 
-Where practical, count distinct suitable departures in a separately recorded
-two-hour local window. Call it `usable_departures_in_window`; it is context for
-that displayed date/window, not a general service frequency. Leave it blank if
-the result view cannot support a reliable count.
+`scripts/prepare_national_transport.py` is an offline standard-library validator/transformer: it checks the manifest, mappings and route fields and writes review staging output. It never requests the planner or updates `nationalTransport.csv`. Review station choices, missing or excluded routes, and anomalous durations/change counts before copying a complete reviewed release to canonical inputs. Retain an evidence-catalogue row with provider, coverage, period and limitations.
 
-## Capture, transcription and review
-
-For every route observation, retain a result-page capture (or screenshot), the
-result URL when supplied, and one row in
-`transport_route_observations.csv`. A dated raw release contains the captures
-and a standard release `manifest.csv`, including the visible query, timestamps,
-hashes and limitations. `raw_capture_path` is relative to that release.
-
-Run `python3 scripts/prepare_national_transport.py` against the release and
-transcription. It verifies retained capture hashes through the manifest, checks
-the station mapping and route fields, and writes reviewable long and pivoted
-staging CSVs. It never requests the planner and does not update canonical
-`nationalTransport.csv`. Review station choices, unavailable routes, anomalous
-durations and change counts before copying a reviewed full release into
-canonical inputs.
-
-The UI may show a duration, changes, journey date, observed departure and
-arrival, origin/destination station names, and query time. It must explain that
-these are station-to-station planner snapshots, not a guarantee or a journey
-from every home. Frequency remains unweighted unless a later scoring decision
-explicitly changes that rule.
+The existing UI fields (`londonMinutes`, `londonChanges`, `birminghamMinutes`, `birminghamChanges`) remain for compatibility. Initially, frequency is not a score factor. UI wording must identify displayed values as dated, station-to-station planner snapshots.
