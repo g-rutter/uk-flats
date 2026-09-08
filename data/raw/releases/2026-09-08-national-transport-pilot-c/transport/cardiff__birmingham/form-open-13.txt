@@ -1,7 +1,7 @@
 ### Page
 - Page URL: https://www.nationalrail.co.uk/journey-planner/
 - Page Title: Journey Planner | Official Train Ticket Info | National Rail
-- Console: 1 errors, 0 warnings
+- Console: 1 errors, 1 warnings
 ### Snapshot
 ```yaml
 - generic [ref=e1]:

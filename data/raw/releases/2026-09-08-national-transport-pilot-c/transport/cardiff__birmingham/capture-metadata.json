@@ -14,6 +14,18 @@
       "result_capture": "results-11.png",
       "visible_result_url": "https://www.nationalrail.co.uk/journey-planner/?type=single&origin=CDF&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=11&leavingMin=00&adults=1&extraTime=0#O",
       "retrieved_at_utc": "2026-09-08T16:54:24+00:00"
+    },
+    {
+      "search_time_local": "12:00",
+      "result_capture": "results-12.png",
+      "visible_result_url": "https://www.nationalrail.co.uk/journey-planner/?type=single&origin=CDF&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=12&leavingMin=00&adults=1&extraTime=0#O",
+      "retrieved_at_utc": "2026-09-08T17:07:12+00:00"
+    },
+    {
+      "search_time_local": "13:00",
+      "result_capture": "results-13.png",
+      "visible_result_url": "https://www.nationalrail.co.uk/journey-planner/?type=single&origin=CDF&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=13&leavingMin=00&adults=1&extraTime=0#O",
+      "retrieved_at_utc": "2026-09-08T17:07:25+00:00"
     }
   ],
   "limitations": "UI-only capture. A reviewer must inspect screenshots, select the shortest suitable displayed itinerary, capture expanded details, and prepare the manifest/transcription."

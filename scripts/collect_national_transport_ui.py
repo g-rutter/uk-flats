@@ -88,9 +88,12 @@ await page.waitForTimeout(2500);
 }'''.replace('{{', '{').replace('}}', '}')
 
 
-def expand_details_code(duration_label):
+def expand_details_code(duration_label, result_index=None):
+    locator = (f"page.getByRole('button', {{name: {javascript(duration_label)}, exact: true}}).nth({result_index - 1})"
+               if result_index is not None else
+               f"page.getByRole('button', {{name: {javascript(duration_label)}, exact: true}})")
     return f'''async page => {{
-await page.getByRole('button', {{name: {javascript(duration_label)}, exact: true}}).click();
+await {locator}.click();
 await page.waitForTimeout(500);
 }}'''
 
@@ -126,8 +129,12 @@ def recover_record(search_time, result_capture, results_snapshot):
 
 
 def capture_details(wrapper, session, output_dir, origin_label, destination_label, measurement_date,
-                    search_time, duration_label):
-    """Use a reviewer-supplied visible duration control to retain journey details."""
+                    search_time, duration_label, result_index=None):
+    """Use a reviewer-supplied visible duration control to retain journey details.
+
+    ``result_index`` is the one-based result-card position chosen during visual
+    review when several cards expose the same duration label.
+    """
     output_dir = Path(output_dir).resolve()
     hour, minute = search_time.split(':', 1)
     if minute != '00' or hour not in {f'{value:02d}' for value in range(24)}:
@@ -139,7 +146,7 @@ def capture_details(wrapper, session, output_dir, origin_label, destination_labe
     run_cli(wrapper, session, 'run-code',
             prepare_form_code(origin_label, destination_label, measurement_date, hour), cwd=output_dir)
     run_cli(wrapper, session, 'run-code', submit_code(), cwd=output_dir)
-    run_cli(wrapper, session, 'run-code', expand_details_code(duration_label), cwd=output_dir)
+    run_cli(wrapper, session, 'run-code', expand_details_code(duration_label, result_index), cwd=output_dir)
     details_snapshot = output_dir / f'details-{hour}.txt'
     save_snapshot(wrapper, session, details_snapshot, f'details-{hour}')
     capture_screenshot(wrapper, session, output_dir, destination)
@@ -210,12 +217,19 @@ def main():
     parser.add_argument('--detail-search-time', help='Search time for one reviewer-selected itinerary.')
     parser.add_argument('--detail-duration-label',
                         help='Exact accessible label of the visible itinerary duration button.')
+    parser.add_argument('--detail-result-index', type=int,
+                        help='One-based visible result-card position when the duration label is repeated.')
     args = parser.parse_args()
     if bool(args.detail_search_time) != bool(args.detail_duration_label):
         parser.error('--detail-search-time and --detail-duration-label must be supplied together')
+    if args.detail_result_index is not None and not args.detail_search_time:
+        parser.error('--detail-result-index requires detail capture arguments')
+    if args.detail_result_index is not None and args.detail_result_index < 1:
+        parser.error('--detail-result-index must be a positive whole number')
     if args.detail_search_time:
         capture_details(args.wrapper, args.session, args.out_dir, args.origin_option, args.destination_option,
-                        args.measurement_date, args.detail_search_time, args.detail_duration_label)
+                        args.measurement_date, args.detail_search_time, args.detail_duration_label,
+                        args.detail_result_index)
     else:
         collect(args.wrapper, args.session, args.out_dir, args.origin_option, args.destination_option,
                 args.measurement_date, tuple(args.search_times or DEFAULT_SEARCH_TIMES))

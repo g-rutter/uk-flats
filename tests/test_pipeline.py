@@ -18,7 +18,8 @@ from composite import ASSESSMENT_SCORES, assessment_score, compile_composite
 from prepare_locations import prepare
 from prepare_national_transport import prepare as prepare_national_transport
 from create_national_transport_queue import create_queue
-from collect_national_transport_ui import visible_query
+from collect_national_transport_ui import expand_details_code, visible_query
+from collect_national_transport_http import request_body
 from finalize_national_transport_release import finalize as finalize_national_transport_release
 from release_audit import audit as release_audit
 from rehydrate_raw import rehydrate
@@ -41,6 +42,16 @@ class PipelineTests(unittest.TestCase):
             ])
             self.assertEqual(visible_query('Bangor (Gwynedd) (BNG)'), 'Bangor (Gwynedd)')
             self.assertEqual(visible_query('London (All Stations)'), 'London')
+            self.assertIn('.nth(1).click()', expand_details_code('Duration: 2 hours and, Direct', 2))
+
+    def test_national_transport_http_request_is_fixed_and_timezone_aware(self):
+        body = request_body('cdf', 'bhm', '2026-09-11', '10:00')
+        self.assertEqual(body['origin'], {'crs': 'CDF', 'group': False})
+        self.assertEqual(body['destination'], {'crs': 'BHM', 'group': False})
+        self.assertEqual(body['outwardTime'], {
+            'travelTime': '2026-09-11T10:00:00+01:00', 'type': 'DEPART',
+        })
+        self.assertEqual(body['increasedInterchange'], 'ZERO')
 
     def test_national_transport_finalizer_hashes_retained_draft_only(self):
         with tempfile.TemporaryDirectory() as tmp:

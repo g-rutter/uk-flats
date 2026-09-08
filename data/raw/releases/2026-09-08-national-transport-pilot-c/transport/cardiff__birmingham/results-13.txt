@@ -1,0 +1,708 @@
+### Page
+- Page URL: https://www.nationalrail.co.uk/journey-planner/?type=single&origin=CDF&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=13&leavingMin=00&adults=1&extraTime=0#O
+- Page Title: Buy Your Tickets - Cardiff Central to Birmingham New Street | National Rail
+- Console: 1 errors, 1 warnings
+### Snapshot
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - paragraph [ref=e15]: Advertisement
+            - generic [ref=e19]:
+              - link "National Rail home" [ref=e20] [cursor=pointer]:
+                - /url: /
+                - figure [aria-hidden] [ref=e22]
+              - navigation "header" [ref=e24]:
+                - list [ref=e25]:
+                  - listitem "Live Departures" [ref=e26]:
+                    - link "Live Departures" [ref=e27] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/live-trains/
+                  - listitem "Disruptions , unread" [ref=e32]:
+                    - link "Disruptions, unread" [ref=e33] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/disruptions/
+                      - generic [ref=e37]:
+                        - text: Disruptions
+                        - generic [ref=e38]: ", unread"
+                  - listitem "Plan a Journey" [ref=e39]:
+                    - link "Plan a Journey" [ref=e40] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/journey-planner/
+                  - listitem "My Travel" [ref=e45]:
+                    - link "My Travel" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/my-travel/
+              - button "Open search" [ref=e52] [cursor=pointer]
+            - status [ref=e56]: Unread notifications
+          - navigation "header" [ref=e61]:
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - button "Tickets, Railcards and Offers" [ref=e64] [cursor=pointer]
+              - listitem [ref=e66]:
+                - link "Stations" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/stations/
+              - listitem [ref=e69]:
+                - button "Travel Information" [ref=e70] [cursor=pointer]
+              - listitem [ref=e72]:
+                - button "Help and Assistance" [ref=e73] [cursor=pointer]
+              - listitem [ref=e75]:
+                - link "Status Updates" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/train-operator-status/
+              - listitem [ref=e78]:
+                - link "Engineering Works" [ref=e79] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/engineering-works/
+        - alert [ref=e81]
+      - main [ref=e82]:
+        - generic [ref=e432]:
+          - generic [ref=e437]:
+            - paragraph [ref=e439]: "The journey you are searching for:"
+            - heading [level=1] [ref=e440]:
+              - button "Cardiff Central to Birmingham New Street" [expanded] [ref=e441] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e442]:
+                  - text: Cardiff Central
+                  - generic [ref=e443]: to
+                  - text: Birmingham New Street
+            - generic [ref=e445]:
+              - generic [ref=e446]: Single Friday 11 September 2026
+              - generic [ref=e447]: • 1 Adult
+              - generic [ref=e448]: • No Railcard
+            - generic [ref=e449]:
+              - button "Edit journey" [ref=e450] [cursor=pointer]
+              - button "Set journey alert" [ref=e455] [cursor=pointer]
+              - button "Favourite journey Cardiff Central to Birmingham New Street" [ref=e460] [cursor=pointer]:
+                - generic [ref=e464]: Favourite route
+          - generic [ref=e470]:
+            - region "Please select a journey" [ref=e476]:
+              - generic [ref=e478]:
+                - heading "Please select a journey" [level=2] [ref=e479]
+                - paragraph [ref=e480]: Friday 11 September 2026
+              - generic [ref=e482]:
+                - group "Choose fare class" [ref=e484]:
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - radio "Standard from £24.30" [checked] [ref=e488] [cursor=pointer]
+                      - generic [ref=e490]:
+                        - generic [ref=e491]: Standard
+                        - generic [ref=e492]:
+                          - generic [ref=e493]: from
+                          - generic [ref=e494]: £24.30
+                    - generic [ref=e495]:
+                      - radio "First Class from £161.70" [ref=e496] [cursor=pointer]
+                      - generic [ref=e498]:
+                        - generic [ref=e499]: First Class
+                        - generic [ref=e500]:
+                          - generic [ref=e501]: from
+                          - generic [ref=e502]: £161.70
+                - link "View earlier trains" [ref=e505] [cursor=pointer]:
+                  - /url: /journey-planner/?type=single&origin=CDF&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=13&leavingMin=00&adults=1&extraTime=0#
+              - group "Please select a journey" [ref=e512]:
+                - list [ref=e514]:
+                  - listitem [ref=e515]:
+                    - generic [ref=e516]:
+                      - heading "13:18 journey from Cardiff Central to Birmingham New Street" [level=3] [ref=e517]
+                      - generic [ref=e519]:
+                        - generic [ref=e520]:
+                          - generic [ref=e521]: "- Journey 1, Departs, 13:18, from Cardiff Central, and Arrives, 15:25, at Birmingham New Street, duration 2 hours, 7 minutes, with 1 change"
+                          - generic [ref=e522]:
+                            - generic [ref=e523]:
+                              - generic [ref=e524]: Lowest
+                              - generic [ref=e525]:
+                                - generic [ref=e526]: Single from
+                                - generic [ref=e527]: £43.40
+                            - generic [ref=e529]:
+                              - button "Select Lowest Single from £43.40" [ref=e530] [cursor=pointer]: outward-0
+                              - generic [ref=e531]:
+                                - generic [ref=e532] [cursor=pointer]
+                                - generic [ref=e536]: Select
+                        - generic [ref=e538]:
+                          - generic [ref=e539]:
+                            - paragraph [ref=e540]: Departs
+                            - time [ref=e542]: 13:18
+                            - generic [ref=e544]:
+                              - text: Cardiff Central
+                              - generic [ref=e545]: (CDF)
+                            - paragraph [ref=e546]: Platform 2
+                          - generic [ref=e551]:
+                            - paragraph [ref=e552]: Arrives
+                            - time [ref=e554]: 15:25
+                            - generic [ref=e556]:
+                              - text: Birmingham New Street
+                              - generic [ref=e557]: (BHM)
+                            - paragraph [ref=e558]: Platform 8B
+                        - generic [ref=e559]:
+                          - 'button "Duration: 2 hours, 7 minutes and, 1 change" [ref=e561] [cursor=pointer]':
+                            - generic [ref=e562]:
+                              - time [ref=e563]: 2h 7m,
+                              - generic [ref=e564]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 1" [ref=e566]:
+                            - button "Accessibility" [ref=e567] [cursor=pointer]
+                            - button "Information" [ref=e572] [cursor=pointer]
+                  - listitem [ref=e576]:
+                    - generic [ref=e577]:
+                      - heading "13:45 journey from Cardiff Central to Birmingham New Street" [level=3] [ref=e578]
+                      - generic [ref=e580]:
+                        - generic [ref=e581]:
+                          - generic [ref=e582]: "- Journey 2, Departs, 13:45, from Cardiff Central, and Arrives, 15:45, at Birmingham New Street, duration 2 hours, with 0 change, This is the fastest available journey"
+                          - generic [ref=e583]:
+                            - generic [ref=e584]:
+                              - generic [ref=e585]: Lowest
+                              - generic [ref=e586]:
+                                - generic [ref=e587]: Single from
+                                - generic [ref=e588]: £24.30
+                            - generic [ref=e590]:
+                              - button "Select Lowest Single from £24.30" [ref=e591] [cursor=pointer]: outward-1
+                              - generic [ref=e592]:
+                                - generic [ref=e593] [cursor=pointer]
+                                - generic [ref=e597]: Select
+                        - generic [ref=e600]:
+                          - text: Fastest
+                          - generic [ref=e601]: ": This is the fastest available journey"
+                        - generic [ref=e602]:
+                          - generic [ref=e603]:
+                            - paragraph [ref=e604]: Departs
+                            - time [ref=e606]: 13:45
+                            - generic [ref=e608]:
+                              - text: Cardiff Central
+                              - generic [ref=e609]: (CDF)
+                            - paragraph [ref=e610]: Platform 2
+                          - generic [ref=e615]:
+                            - paragraph [ref=e616]: Arrives
+                            - time [ref=e618]: 15:45
+                            - generic [ref=e620]:
+                              - text: Birmingham New Street
+                              - generic [ref=e621]: (BHM)
+                            - paragraph [ref=e622]: Platform 9A
+                        - generic [ref=e623]:
+                          - 'button "Duration: 2 hours and, Direct" [ref=e625] [cursor=pointer]':
+                            - generic [ref=e626]:
+                              - time [ref=e627]: 2h,
+                              - generic [ref=e628]: and,
+                              - text: Direct
+                          - region "Service updates for journey 2" [ref=e630]:
+                            - button "Accessibility" [ref=e631] [cursor=pointer]
+                  - listitem [ref=e636]:
+                    - generic [ref=e637]:
+                      - heading "13:50 journey from Cardiff Central to Birmingham New Street" [level=3] [ref=e638]
+                      - generic [ref=e640]:
+                        - generic [ref=e641]:
+                          - generic [ref=e642]: "- Journey 3, Departs, 13:50, from Cardiff Central, and Arrives, 15:55, at Birmingham New Street, duration 2 hours, 5 minutes, with 1 change"
+                          - generic [ref=e643]:
+                            - generic [ref=e644]:
+                              - generic [ref=e645]: Lowest
+                              - generic [ref=e646]:
+                                - generic [ref=e647]: Single from
+                                - generic [ref=e648]: £76.90
+                            - generic [ref=e650]:
+                              - button "Select Lowest Single from £76.90" [ref=e651] [cursor=pointer]: outward-2
+                              - generic [ref=e652]:
+                                - generic [ref=e653] [cursor=pointer]
+                                - generic [ref=e657]: Select
+                        - generic [ref=e659]:
+                          - generic [ref=e660]:
+                            - paragraph [ref=e661]: Departs
+                            - time [ref=e663]: 13:50
+                            - generic [ref=e665]:
+                              - text: Cardiff Central
+                              - generic [ref=e666]: (CDF)
+                            - paragraph [ref=e667]: Platform 1
+                          - generic [ref=e672]:
+                            - paragraph [ref=e673]: Arrives
+                            - time [ref=e675]: 15:55
+                            - generic [ref=e677]:
+                              - text: Birmingham New Street
+                              - generic [ref=e678]: (BHM)
+                            - paragraph [ref=e679]: Platform 10
+                        - generic [ref=e680]:
+                          - 'button "Duration: 2 hours, 5 minutes and, 1 change" [ref=e682] [cursor=pointer]':
+                            - generic [ref=e683]:
+                              - time [ref=e684]: 2h 5m,
+                              - generic [ref=e685]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 3" [ref=e687]:
+                            - button "Accessibility" [ref=e688] [cursor=pointer]
+                            - button "Information" [ref=e693] [cursor=pointer]
+                  - listitem [ref=e697]:
+                    - generic [ref=e698]:
+                      - heading "14:18 journey from Cardiff Central to Birmingham New Street" [level=3] [ref=e699]
+                      - generic [ref=e701]:
+                        - generic [ref=e702]:
+                          - generic [ref=e703]: "- Journey 4, Departs, 14:18, from Cardiff Central, and Arrives, 16:24, at Birmingham New Street, duration 2 hours, 6 minutes, with 1 change"
+                          - generic [ref=e704]:
+                            - generic [ref=e705]:
+                              - generic [ref=e706]: Lowest
+                              - generic [ref=e707]:
+                                - generic [ref=e708]: Single from
+                                - generic [ref=e709]: £43.40
+                            - generic [ref=e711]:
+                              - button "Select Lowest Single from £43.40" [ref=e712] [cursor=pointer]: outward-3
+                              - generic [ref=e713]:
+                                - generic [ref=e714] [cursor=pointer]
+                                - generic [ref=e718]: Select
+                        - generic [ref=e720]:
+                          - generic [ref=e721]:
+                            - paragraph [ref=e722]: Departs
+                            - time [ref=e724]: 14:18
+                            - generic [ref=e726]:
+                              - text: Cardiff Central
+                              - generic [ref=e727]: (CDF)
+                            - paragraph [ref=e728]: Platform 2
+                          - generic [ref=e733]:
+                            - paragraph [ref=e734]: Arrives
+                            - time [ref=e736]: 16:24
+                            - generic [ref=e738]:
+                              - text: Birmingham New Street
+                              - generic [ref=e739]: (BHM)
+                            - paragraph [ref=e740]: Platform 6B
+                        - generic [ref=e741]:
+                          - 'button "Duration: 2 hours, 6 minutes and, 1 change" [ref=e743] [cursor=pointer]':
+                            - generic [ref=e744]:
+                              - time [ref=e745]: 2h 6m,
+                              - generic [ref=e746]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 4" [ref=e748]:
+                            - button "Accessibility" [ref=e749] [cursor=pointer]
+                            - button "Information" [ref=e754] [cursor=pointer]
+                  - listitem [ref=e758]:
+                    - generic [ref=e759]:
+                      - heading "14:45 journey from Cardiff Central to Birmingham New Street" [level=3] [ref=e760]
+                      - generic [ref=e762]:
+                        - generic [ref=e763]:
+                          - generic [ref=e764]: "- Journey 5, Departs, 14:45, from Cardiff Central, and Arrives, 16:45, at Birmingham New Street, duration 2 hours, with 0 change"
+                          - generic [ref=e765]:
+                            - generic [ref=e766]:
+                              - generic [ref=e767]: Lowest
+                              - generic [ref=e768]:
+                                - generic [ref=e769]: Single from
+                                - generic [ref=e770]: £24.30
+                            - generic [ref=e772]:
+                              - button "Select Lowest Single from £24.30" [ref=e773] [cursor=pointer]: outward-4
+                              - generic [ref=e774]:
+                                - generic [ref=e775] [cursor=pointer]
+                                - generic [ref=e779]: Select
+                        - generic [ref=e781]:
+                          - generic [ref=e782]:
+                            - paragraph [ref=e783]: Departs
+                            - time [ref=e785]: 14:45
+                            - generic [ref=e787]:
+                              - text: Cardiff Central
+                              - generic [ref=e788]: (CDF)
+                            - paragraph [ref=e789]: Platform 2
+                          - generic [ref=e794]:
+                            - paragraph [ref=e795]: Arrives
+                            - time [ref=e797]: 16:45
+                            - generic [ref=e799]:
+                              - text: Birmingham New Street
+                              - generic [ref=e800]: (BHM)
+                            - paragraph [ref=e801]: Platform 9A
+                        - generic [ref=e802]:
+                          - 'button "Duration: 2 hours and, Direct" [ref=e804] [cursor=pointer]':
+                            - generic [ref=e805]:
+                              - time [ref=e806]: 2h,
+                              - generic [ref=e807]: and,
+                              - text: Direct
+                          - region "Service updates for journey 5" [ref=e809]:
+                            - button "Accessibility" [ref=e810] [cursor=pointer]
+                  - listitem [ref=e815]:
+                    - generic [ref=e816]:
+                      - heading "14:54 journey from Cardiff Central to Birmingham New Street" [level=3] [ref=e817]
+                      - generic [ref=e819]:
+                        - generic [ref=e820]:
+                          - generic [ref=e821]: "- Journey 6, Departs, 14:54, from Cardiff Central, and Arrives, 16:55, at Birmingham New Street, duration 2 hours, 1 minute, with 1 change"
+                          - generic [ref=e822]:
+                            - generic [ref=e823]:
+                              - generic [ref=e824]: Lowest
+                              - generic [ref=e825]:
+                                - generic [ref=e826]: Single from
+                                - generic [ref=e827]: £76.90
+                            - generic [ref=e829]:
+                              - button "Select Lowest Single from £76.90" [ref=e830] [cursor=pointer]: outward-5
+                              - generic [ref=e831]:
+                                - generic [ref=e832] [cursor=pointer]
+                                - generic [ref=e836]: Select
+                        - generic [ref=e838]:
+                          - generic [ref=e839]:
+                            - paragraph [ref=e840]: Departs
+                            - time [ref=e842]: 14:54
+                            - generic [ref=e844]:
+                              - text: Cardiff Central
+                              - generic [ref=e845]: (CDF)
+                            - paragraph [ref=e846]: Platform 2
+                          - generic [ref=e851]:
+                            - paragraph [ref=e852]: Arrives
+                            - time [ref=e854]: 16:55
+                            - generic [ref=e856]:
+                              - text: Birmingham New Street
+                              - generic [ref=e857]: (BHM)
+                            - paragraph [ref=e858]: Platform 10
+                        - generic [ref=e859]:
+                          - 'button "Duration: 2 hours, 1 minute and, 1 change" [ref=e861] [cursor=pointer]':
+                            - generic [ref=e862]:
+                              - time [ref=e863]: 2h 1m,
+                              - generic [ref=e864]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 6" [ref=e866]:
+                            - button "Accessibility" [ref=e867] [cursor=pointer]
+                            - button "Information" [ref=e872] [cursor=pointer]
+                  - listitem [ref=e876]:
+                    - generic [ref=e877]:
+                      - heading "15:18 journey from Cardiff Central to Birmingham New Street" [level=3] [ref=e878]
+                      - generic [ref=e880]:
+                        - generic [ref=e881]:
+                          - generic [ref=e882]: "- Journey 7, Departs, 15:18, from Cardiff Central, and Arrives, 17:24, at Birmingham New Street, duration 2 hours, 6 minutes, with 1 change"
+                          - generic [ref=e883]:
+                            - generic [ref=e884]:
+                              - generic [ref=e885]: Lowest
+                              - generic [ref=e886]:
+                                - generic [ref=e887]: Single from
+                                - generic [ref=e888]: £43.40
+                            - generic [ref=e890]:
+                              - button "Select Lowest Single from £43.40" [ref=e891] [cursor=pointer]: outward-6
+                              - generic [ref=e892]:
+                                - generic [ref=e893] [cursor=pointer]
+                                - generic [ref=e897]: Select
+                        - generic [ref=e899]:
+                          - generic [ref=e900]:
+                            - paragraph [ref=e901]: Departs
+                            - time [ref=e903]: 15:18
+                            - generic [ref=e905]:
+                              - text: Cardiff Central
+                              - generic [ref=e906]: (CDF)
+                            - paragraph [ref=e907]: Platform 2
+                          - generic [ref=e912]:
+                            - paragraph [ref=e913]: Arrives
+                            - time [ref=e915]: 17:24
+                            - generic [ref=e917]:
+                              - text: Birmingham New Street
+                              - generic [ref=e918]: (BHM)
+                            - paragraph [ref=e919]: Platform 6B
+                        - generic [ref=e920]:
+                          - 'button "Duration: 2 hours, 6 minutes and, 1 change" [ref=e922] [cursor=pointer]':
+                            - generic [ref=e923]:
+                              - time [ref=e924]: 2h 6m,
+                              - generic [ref=e925]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 7" [ref=e927]:
+                            - button "Accessibility" [ref=e928] [cursor=pointer]
+                            - button "Information" [ref=e933] [cursor=pointer]
+                  - listitem [ref=e937]:
+                    - generic [ref=e938]:
+                      - heading "15:45 journey from Cardiff Central to Birmingham New Street" [level=3] [ref=e939]
+                      - generic [ref=e941]:
+                        - generic [ref=e942]:
+                          - generic [ref=e943]: "- Journey 8, Departs, 15:45, from Cardiff Central, and Arrives, 17:45, at Birmingham New Street, duration 2 hours, with 0 change"
+                          - generic [ref=e944]:
+                            - generic [ref=e945]:
+                              - generic [ref=e946]: Lowest
+                              - generic [ref=e947]:
+                                - generic [ref=e948]: Single from
+                                - generic [ref=e949]: £24.30
+                            - generic [ref=e951]:
+                              - button "Select Lowest Single from £24.30" [ref=e952] [cursor=pointer]: outward-7
+                              - generic [ref=e953]:
+                                - generic [ref=e954] [cursor=pointer]
+                                - generic [ref=e958]: Select
+                        - generic [ref=e960]:
+                          - generic [ref=e961]:
+                            - paragraph [ref=e962]: Departs
+                            - time [ref=e964]: 15:45
+                            - generic [ref=e966]:
+                              - text: Cardiff Central
+                              - generic [ref=e967]: (CDF)
+                            - paragraph [ref=e968]: Platform 2
+                          - generic [ref=e973]:
+                            - paragraph [ref=e974]: Arrives
+                            - time [ref=e976]: 17:45
+                            - generic [ref=e978]:
+                              - text: Birmingham New Street
+                              - generic [ref=e979]: (BHM)
+                            - paragraph [ref=e980]: Platform 9A
+                        - generic [ref=e981]:
+                          - 'button "Duration: 2 hours and, Direct" [ref=e983] [cursor=pointer]':
+                            - generic [ref=e984]:
+                              - time [ref=e985]: 2h,
+                              - generic [ref=e986]: and,
+                              - text: Direct
+                          - region "Service updates for journey 8" [ref=e988]:
+                            - button "Accessibility" [ref=e989] [cursor=pointer]
+                  - listitem [ref=e994]:
+                    - generic [ref=e995]:
+                      - heading "15:54 journey from Cardiff Central to Birmingham New Street" [level=3] [ref=e996]
+                      - generic [ref=e998]:
+                        - generic [ref=e999]:
+                          - generic [ref=e1000]: "- Journey 9, Departs, 15:54, from Cardiff Central, and Arrives, 17:55, at Birmingham New Street, duration 2 hours, 1 minute, with 1 change"
+                          - generic [ref=e1001]:
+                            - generic [ref=e1002]:
+                              - generic [ref=e1003]: Lowest
+                              - generic [ref=e1004]:
+                                - generic [ref=e1005]: Single from
+                                - generic [ref=e1006]: £76.90
+                            - generic [ref=e1008]:
+                              - button "Select Lowest Single from £76.90" [ref=e1009] [cursor=pointer]: outward-8
+                              - generic [ref=e1010]:
+                                - generic [ref=e1011] [cursor=pointer]
+                                - generic [ref=e1015]: Select
+                        - generic [ref=e1017]:
+                          - generic [ref=e1018]:
+                            - paragraph [ref=e1019]: Departs
+                            - time [ref=e1021]: 15:54
+                            - generic [ref=e1023]:
+                              - text: Cardiff Central
+                              - generic [ref=e1024]: (CDF)
+                            - paragraph [ref=e1025]: Platform 1
+                          - generic [ref=e1030]:
+                            - paragraph [ref=e1031]: Arrives
+                            - time [ref=e1033]: 17:55
+                            - generic [ref=e1035]:
+                              - text: Birmingham New Street
+                              - generic [ref=e1036]: (BHM)
+                            - paragraph [ref=e1037]: Platform 9A
+                        - generic [ref=e1038]:
+                          - 'button "Duration: 2 hours, 1 minute and, 1 change" [ref=e1040] [cursor=pointer]':
+                            - generic [ref=e1041]:
+                              - time [ref=e1042]: 2h 1m,
+                              - generic [ref=e1043]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 9" [ref=e1045]:
+                            - button "Accessibility" [ref=e1046] [cursor=pointer]
+                            - button "Information" [ref=e1051] [cursor=pointer]
+                  - listitem [ref=e1055]:
+                    - generic [ref=e1056]:
+                      - heading "16:21 journey from Cardiff Central to Birmingham New Street" [level=3] [ref=e1057]
+                      - generic [ref=e1059]:
+                        - generic [ref=e1060]:
+                          - generic [ref=e1061]: "- Journey 10, Departs, 16:21, from Cardiff Central, and Arrives, 18:24, at Birmingham New Street, duration 2 hours, 3 minutes, with 1 change"
+                          - generic [ref=e1062]:
+                            - generic [ref=e1063]:
+                              - generic [ref=e1064]: Lowest
+                              - generic [ref=e1065]:
+                                - generic [ref=e1066]: Single from
+                                - generic [ref=e1067]: £76.90
+                            - generic [ref=e1069]:
+                              - button "Select Lowest Single from £76.90" [ref=e1070] [cursor=pointer]: outward-9
+                              - generic [ref=e1071]:
+                                - generic [ref=e1072] [cursor=pointer]
+                                - generic [ref=e1076]: Select
+                        - generic [ref=e1078]:
+                          - generic [ref=e1079]:
+                            - paragraph [ref=e1080]: Departs
+                            - time [ref=e1082]: 16:21
+                            - generic [ref=e1084]:
+                              - text: Cardiff Central
+                              - generic [ref=e1085]: (CDF)
+                            - paragraph [ref=e1086]: Platform 2
+                          - generic [ref=e1091]:
+                            - paragraph [ref=e1092]: Arrives
+                            - time [ref=e1094]: 18:24
+                            - generic [ref=e1096]:
+                              - text: Birmingham New Street
+                              - generic [ref=e1097]: (BHM)
+                            - paragraph [ref=e1098]: Platform 6B
+                        - generic [ref=e1099]:
+                          - 'button "Duration: 2 hours, 3 minutes and, 1 change" [ref=e1101] [cursor=pointer]':
+                            - generic [ref=e1102]:
+                              - time [ref=e1103]: 2h 3m,
+                              - generic [ref=e1104]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 10" [ref=e1106]:
+                            - button "Accessibility" [ref=e1107] [cursor=pointer]
+                            - button "Information" [ref=e1112] [cursor=pointer]
+              - link "View later trains" [ref=e1120] [cursor=pointer]:
+                - /url: /journey-planner/?type=single&origin=CDF&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=13&leavingMin=00&adults=1&extraTime=0#
+            - generic [ref=e1127]:
+              - generic [ref=e1130]:
+                - heading "Total £0" [level=2] [ref=e1131]:
+                  - generic [ref=e1132]: Total
+                  - generic [ref=e1133]: £0
+                - link "Continue Review tickets and options" [ref=e1135] [cursor=pointer]:
+                  - /url: "#TD"
+                  - generic [ref=e1136]: Continue
+                  - generic [ref=e1141]: Review tickets and options
+                - paragraph [ref=e1142]: 1 Adult, No Railcard
+                - generic [ref=e1143]:
+                  - generic [ref=e1144]:
+                    - heading "Outward journey" [level=3] [ref=e1145]
+                    - paragraph [ref=e1146]: Not selected
+                  - generic [ref=e1147]:
+                    - heading "Return journey" [level=3] [ref=e1148]
+                    - button "Add return journey" [ref=e1149] [cursor=pointer]
+              - paragraph [ref=e1158]: Advertisement
+          - paragraph [ref=e1164]: Advertisement
+        - alert [ref=e1165]
+        - status [ref=e1166]: Please select a valid journey
+        - status [ref=e1167]: Outward results, step 1 of 2
+        - status [ref=e1168]: Currently viewing scheduled services
+        - alert [ref=e1169]
+      - contentinfo [ref=e130]:
+        - generic [ref=e133]:
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - link [ref=e138] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/
+                  - heading "Tickets, Railcards and Offers" [level=3] [ref=e139]
+                - list [ref=e140]:
+                  - listitem [ref=e141]:
+                    - link "Buying a Ticket" [ref=e142] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/buying-a-ticket/
+                  - listitem [ref=e143]:
+                    - link "Ticket Types" [ref=e144] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/ticket-types/
+                  - listitem [ref=e145]:
+                    - link "Railcards" [ref=e146] [cursor=pointer]:
+                      - /url: /railcards/
+                  - listitem [ref=e147]:
+                    - link "Saving Money" [ref=e148] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/saving-money/
+            - listitem [ref=e149]:
+              - generic [ref=e150]:
+                - link [ref=e152] [cursor=pointer]:
+                  - /url: /stations/
+                  - heading "Stations and Train Companies" [level=3] [ref=e153]
+                - list [ref=e154]:
+                  - listitem [ref=e155]:
+                    - link "Find a Station" [ref=e156] [cursor=pointer]:
+                      - /url: /stations/
+                  - listitem [ref=e157]:
+                    - link "Find a Train Company" [ref=e158] [cursor=pointer]:
+                      - /url: /travel-information/find-a-train-company/
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - link [ref=e162] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/discover-by-train/
+                  - heading "Discover by Train" [level=3] [ref=e163]
+                - list [ref=e164]:
+                  - listitem [ref=e165]:
+                    - link "Children and Families" [ref=e166] [cursor=pointer]:
+                      - /url: /discover-by-train/children-and-families/
+                  - listitem [ref=e167]:
+                    - link "Train Travel with Children" [ref=e168] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e169]:
+                    - link "Great British Destinations" [ref=e170] [cursor=pointer]:
+                      - /url: /discover-by-train/great-british-destinations/
+                  - listitem [ref=e171]:
+                    - link "Seasonal Inspiration" [ref=e172] [cursor=pointer]:
+                      - /url: /discover-by-train/seasonal-inspiration/
+                  - listitem [ref=e173]:
+                    - link "Places to Visit by Train" [ref=e174] [cursor=pointer]:
+                      - /url: /discover-by-train/places-to-visit-by-train/
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link [ref=e178] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/destinations/
+                  - heading "Destinations" [level=3] [ref=e179]
+                - list [ref=e180]:
+                  - listitem [ref=e181]:
+                    - link "Trains from London Paddington to Heathrow Airport" [ref=e182] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-paddington-to-heathrow-airport/
+                  - listitem [ref=e183]:
+                    - link "Trains from London to Liverpool" [ref=e184] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-liverpool/
+                  - listitem [ref=e185]:
+                    - link "Trains from London to Birmingham" [ref=e186] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-birmingham/
+                  - listitem [ref=e187]:
+                    - link "Trains from Edinburgh to Kings Cross" [ref=e188] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-edinburgh-to-london-kings-cross/
+                  - listitem [ref=e189]:
+                    - link "Trains from Gatwick Airport to London" [ref=e190] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-gatwick-airport-to-london/
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link [ref=e194] [cursor=pointer]:
+                  - /url: /help-and-assistance/
+                  - heading "Help and Assistance" [level=3] [ref=e195]
+                - list [ref=e196]:
+                  - listitem [ref=e197]:
+                    - link "Compensation and Refunds" [ref=e198] [cursor=pointer]:
+                      - /url: /help-and-assistance/compensation-and-refunds/
+                  - listitem [ref=e199]:
+                    - link "Contact Us" [ref=e200] [cursor=pointer]:
+                      - /url: /help-and-assistance/contact-us/
+                  - listitem [ref=e201]:
+                    - link "Complaints" [ref=e202] [cursor=pointer]:
+                      - /url: /help-and-assistance/complaints/
+                  - listitem [ref=e203]:
+                    - link "Passenger Assist" [ref=e204] [cursor=pointer]:
+                      - /url: /help-and-assistance/passenger-assist/
+                  - listitem [ref=e205]:
+                    - link "Media" [ref=e206] [cursor=pointer]:
+                      - /url: /media/
+                  - listitem [ref=e207]:
+                    - link "Text 61016" [ref=e208] [cursor=pointer]:
+                      - /url: /help-and-assistance/text-61016/
+            - listitem [ref=e209]:
+              - generic [ref=e210]:
+                - link [ref=e212] [cursor=pointer]:
+                  - /url: /on-the-train/
+                  - heading "On the Train" [level=3] [ref=e213]
+                - list [ref=e214]:
+                  - listitem [ref=e215]:
+                    - link "Accessible Train Travel and Facilities" [ref=e216] [cursor=pointer]:
+                      - /url: /on-the-train/accessible-train-travel-and-facilities/
+                  - listitem [ref=e217]:
+                    - link "Train Travel with Bicycles" [ref=e218] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-bicycles/
+                  - listitem [ref=e219]:
+                    - link "Train Travel with Pets" [ref=e220] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-pets/
+                  - listitem [ref=e221]:
+                    - link "Train Travel with Children" [ref=e222] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e223]:
+                    - link "Food and Drink" [ref=e224] [cursor=pointer]:
+                      - /url: /on-the-train/food-and-drink/
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - link "Instagram icon, (external link, opens in a new tab)" [ref=e227] [cursor=pointer]:
+                - /url: https://www.instagram.com/national.rail/
+              - link "Twitter icon, (external link, opens in a new tab)" [ref=e231] [cursor=pointer]:
+                - /url: https://twitter.com/nationalrailenq/
+              - link "Facebook icon, (external link, opens in a new tab)" [ref=e235] [cursor=pointer]:
+                - /url: https://www.facebook.com/nationalrailenq/
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - link "Download on the App Store, (external link, opens in a new tab)" [ref=e241] [cursor=pointer]:
+                  - /url: https://apps.apple.com/gb/app/national-rail/id519094154
+                  - figure [aria-hidden] [ref=e242]
+                - link "Download on the Play Store, (external link, opens in a new tab)" [ref=e244] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=uk.co.nationalrail.google&hl=en_GB
+                  - figure [aria-hidden] [ref=e245]
+              - link "Shaw Trust accessible, (external link, opens in a new tab)" [ref=e248] [cursor=pointer]:
+                - /url: https://www.accessibility-services.co.uk/certificates/national-rail/
+                - figure [aria-hidden] [ref=e249]
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - figure [aria-hidden] [ref=e258]
+            - paragraph [ref=e260]: © 2026
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /about-this-site/
+                - paragraph [ref=e264]: About This Site
+            - listitem [ref=e265]:
+              - link [ref=e266] [cursor=pointer]:
+                - /url: /accessible-information/
+                - paragraph [ref=e267]: Accessible Information
+            - listitem [ref=e268]:
+              - link [ref=e269] [cursor=pointer]:
+                - /url: /careers/
+                - paragraph [ref=e270]: Careers
+            - listitem [ref=e271]:
+              - link [ref=e272] [cursor=pointer]:
+                - /url: /cookie-policy/
+                - paragraph [ref=e273]: Cookies
+            - listitem [ref=e274]:
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /privacy-notice/
+                - paragraph [ref=e276]: Privacy Notice
+            - listitem [ref=e277]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+                - paragraph [ref=e279]: Terms and Conditions
+    - status [ref=e280]
+  - alert [ref=e281]: Journey Planner | Official Train Ticket Info | National Rail
+```

@@ -1,0 +1,805 @@
+### Page
+- Page URL: https://www.nationalrail.co.uk/journey-planner/?type=single&origin=BNG&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=11&leavingMin=00&adults=1&extraTime=0#O
+- Page Title: Buy Your Tickets - Bangor (Gwynedd) to Birmingham New Street | National Rail
+- Console: 1 errors, 1 warnings
+### Snapshot
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e8]:
+            - paragraph [ref=e15]: Advertisement
+            - generic [ref=e19]:
+              - link "National Rail home" [ref=e20] [cursor=pointer]:
+                - /url: /
+                - figure [aria-hidden] [ref=e22]
+              - navigation "header" [ref=e24]:
+                - list [ref=e25]:
+                  - listitem "Live Departures" [ref=e26]:
+                    - link "Live Departures" [ref=e27] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/live-trains/
+                  - listitem "Disruptions , unread" [ref=e32]:
+                    - link "Disruptions, unread" [ref=e33] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/disruptions/
+                      - generic [ref=e37]:
+                        - text: Disruptions
+                        - generic [ref=e38]: ", unread"
+                  - listitem "Plan a Journey" [ref=e39]:
+                    - link "Plan a Journey" [ref=e40] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/journey-planner/
+                  - listitem "My Travel" [ref=e45]:
+                    - link "My Travel" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/my-travel/
+              - button "Open search" [ref=e52] [cursor=pointer]
+            - status [ref=e56]: Unread notifications
+          - navigation "header" [ref=e61]:
+            - list [ref=e62]:
+              - listitem [ref=e63]:
+                - button "Tickets, Railcards and Offers" [ref=e64] [cursor=pointer]
+              - listitem [ref=e66]:
+                - link "Stations" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/stations/
+              - listitem [ref=e69]:
+                - button "Travel Information" [ref=e70] [cursor=pointer]
+              - listitem [ref=e72]:
+                - button "Help and Assistance" [ref=e73] [cursor=pointer]
+              - listitem [ref=e75]:
+                - link "Status Updates" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/train-operator-status/
+              - listitem [ref=e78]:
+                - link "Engineering Works" [ref=e79] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/engineering-works/
+        - alert [ref=e81]
+      - main [ref=e82]:
+        - generic [ref=e282]:
+          - generic [ref=e287]:
+            - paragraph [ref=e289]: "The journey you are searching for:"
+            - heading [level=1] [ref=e290]:
+              - button "Bangor (Gwynedd) to Birmingham New Street" [expanded] [ref=e291] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e292]:
+                  - text: Bangor (Gwynedd)
+                  - generic [ref=e293]: to
+                  - text: Birmingham New Street
+            - generic [ref=e295]:
+              - generic [ref=e296]: Single Friday 11 September 2026
+              - generic [ref=e297]: • 1 Adult
+              - generic [ref=e298]: • No Railcard
+            - generic [ref=e299]:
+              - button "Edit journey" [ref=e300] [cursor=pointer]
+              - button "Set journey alert" [ref=e305] [cursor=pointer]
+              - button "Favourite journey Bangor (Gwynedd) to Birmingham New Street" [ref=e310] [cursor=pointer]:
+                - generic [ref=e314]: Favourite route
+          - generic [ref=e320]:
+            - region "Please select a journey" [ref=e326]:
+              - generic [ref=e328]:
+                - heading "Please select a journey" [level=2] [ref=e329]
+                - paragraph [ref=e330]: Friday 11 September 2026
+              - generic [ref=e332]:
+                - group "Choose fare class" [ref=e334]:
+                  - generic [ref=e336]:
+                    - generic [ref=e337]:
+                      - radio "Standard from £41.60" [checked] [ref=e338] [cursor=pointer]
+                      - generic [ref=e340]:
+                        - generic [ref=e341]: Standard
+                        - generic [ref=e342]:
+                          - generic [ref=e343]: from
+                          - generic [ref=e344]: £41.60
+                    - generic [ref=e345]:
+                      - radio "First Class from £90.50" [ref=e346] [cursor=pointer]
+                      - generic [ref=e348]:
+                        - generic [ref=e349]: First Class
+                        - generic [ref=e350]:
+                          - generic [ref=e351]: from
+                          - generic [ref=e352]: £90.50
+                - link "View earlier trains" [ref=e355] [cursor=pointer]:
+                  - /url: /journey-planner/?type=single&origin=BNG&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=11&leavingMin=00&adults=1&extraTime=0#
+              - group "Please select a journey" [ref=e362]:
+                - list [ref=e364]:
+                  - listitem [ref=e365]:
+                    - generic [ref=e366]:
+                      - heading "11:13 journey from Bangor (Gwynedd) to Birmingham New Street" [level=3] [ref=e367]
+                      - generic [ref=e369]:
+                        - generic [ref=e370]:
+                          - generic [ref=e371]: "- Journey 1, Departs, 11:13, from Bangor (Gwynedd), and Arrives, 13:57, at Birmingham New Street, duration 2 hours, 44 minutes, with 2 changes"
+                          - generic [ref=e372]:
+                            - generic [ref=e373]:
+                              - generic [ref=e374]: Lowest
+                              - generic [ref=e375]:
+                                - generic [ref=e376]: Single from
+                                - generic [ref=e377]: £56.60
+                            - generic [ref=e379]:
+                              - button "Select Lowest Single from £56.60" [ref=e380] [cursor=pointer]: outward-0
+                              - generic [ref=e381]:
+                                - generic [ref=e382] [cursor=pointer]
+                                - generic [ref=e386]: Select
+                        - generic [ref=e388]:
+                          - generic [ref=e389]:
+                            - paragraph [ref=e390]: Departs
+                            - time [ref=e392]: 11:13
+                            - generic [ref=e394]:
+                              - text: Bangor (Gwynedd)
+                              - generic [ref=e395]: (BNG)
+                            - paragraph [ref=e396]: Platform 1
+                          - generic [ref=e401]:
+                            - paragraph [ref=e402]: Arrives
+                            - time [ref=e404]: 13:57
+                            - generic [ref=e406]:
+                              - text: Birmingham New Street
+                              - generic [ref=e407]: (BHM)
+                            - paragraph [ref=e408]: Platform 1A
+                        - 'button "Duration: 2 hours, 44 minutes and, 2 changes" [ref=e411] [cursor=pointer]':
+                          - generic [ref=e412]:
+                            - time [ref=e413]: 2h 44m,
+                            - generic [ref=e414]: and,
+                            - text: 2 changes
+                  - listitem [ref=e415]:
+                    - generic [ref=e416]:
+                      - heading "11:13 journey from Bangor (Gwynedd) to Birmingham New Street" [level=3] [ref=e417]
+                      - generic [ref=e419]:
+                        - generic [ref=e420]:
+                          - generic [ref=e421]: "- Journey 2, Departs, 11:13, from Bangor (Gwynedd), and Arrives, 14:32, at Birmingham New Street, duration 3 hours, 19 minutes, with 1 change, This journey will be overtaken by a later departure"
+                          - generic [ref=e422]:
+                            - generic [ref=e423]:
+                              - generic [ref=e424]: Lowest
+                              - generic [ref=e425]:
+                                - generic [ref=e426]: Single from
+                                - generic [ref=e427]: £43.70
+                            - generic [ref=e429]:
+                              - button "Select Lowest Single from £43.70" [ref=e430] [cursor=pointer]: outward-1
+                              - generic [ref=e431]:
+                                - generic [ref=e432] [cursor=pointer]
+                                - generic [ref=e436]: Select
+                        - generic [ref=e439]:
+                          - text: Slower journey
+                          - generic [ref=e440]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e441]:
+                          - generic [ref=e442]:
+                            - paragraph [ref=e443]: Departs
+                            - time [ref=e445]: 11:13
+                            - generic [ref=e447]:
+                              - text: Bangor (Gwynedd)
+                              - generic [ref=e448]: (BNG)
+                            - paragraph [ref=e449]: Platform 1
+                          - generic [ref=e454]:
+                            - paragraph [ref=e455]: Arrives
+                            - time [ref=e457]: 14:32
+                            - generic [ref=e459]:
+                              - text: Birmingham New Street
+                              - generic [ref=e460]: (BHM)
+                            - paragraph [ref=e461]: Platform 1A
+                        - generic [ref=e462]:
+                          - 'button "Duration: 3 hours, 19 minutes and, 1 change" [ref=e464] [cursor=pointer]':
+                            - generic [ref=e465]:
+                              - time [ref=e466]: 3h 19m,
+                              - generic [ref=e467]: and,
+                              - text: 1 change
+                          - region "Service updates for journey 2" [ref=e469]:
+                            - button "Accessibility" [ref=e470] [cursor=pointer]
+                            - button "Information" [ref=e475] [cursor=pointer]
+                  - listitem [ref=e479]:
+                    - generic [ref=e480]:
+                      - heading "11:31 journey from Bangor (Gwynedd) to Birmingham New Street" [level=3] [ref=e481]
+                      - generic [ref=e483]:
+                        - generic [ref=e484]:
+                          - generic [ref=e485]: "- Journey 3, Departs, 11:31, from Bangor (Gwynedd), and Arrives, 14:33, at Birmingham New Street, duration 3 hours, 2 minutes, with 3 changes"
+                          - generic [ref=e486]:
+                            - generic [ref=e487]:
+                              - generic [ref=e488]: Lowest
+                              - generic [ref=e489]:
+                                - generic [ref=e490]: Single from
+                                - generic [ref=e491]: £56.60
+                            - generic [ref=e493]:
+                              - button "Select Lowest Single from £56.60" [ref=e494] [cursor=pointer]: outward-2
+                              - generic [ref=e495]:
+                                - generic [ref=e496] [cursor=pointer]
+                                - generic [ref=e500]: Select
+                        - generic [ref=e502]:
+                          - generic [ref=e503]:
+                            - paragraph [ref=e504]: Departs
+                            - time [ref=e506]: 11:31
+                            - generic [ref=e508]:
+                              - text: Bangor (Gwynedd)
+                              - generic [ref=e509]: (BNG)
+                            - paragraph [ref=e510]: Platform 1
+                          - generic [ref=e515]:
+                            - paragraph [ref=e516]: Arrives
+                            - time [ref=e518]: 14:33
+                            - generic [ref=e520]:
+                              - text: Birmingham New Street
+                              - generic [ref=e521]: (BHM)
+                            - paragraph [ref=e522]: Platform 7
+                        - 'button "Duration: 3 hours, 2 minutes and, 3 changes" [ref=e525] [cursor=pointer]':
+                          - generic [ref=e526]:
+                            - time [ref=e527]: 3h 2m,
+                            - generic [ref=e528]: and,
+                            - text: 3 changes
+                  - listitem [ref=e529]:
+                    - generic [ref=e530]:
+                      - heading "11:31 journey from Bangor (Gwynedd) to Birmingham New Street" [level=3] [ref=e531]
+                      - generic [ref=e533]:
+                        - generic [ref=e534]:
+                          - generic [ref=e535]: "- Journey 4, Departs, 11:31, from Bangor (Gwynedd), and Arrives, 14:48, at Birmingham New Street, duration 3 hours, 17 minutes, with 2 changes, This journey will be overtaken by a later departure"
+                          - generic [ref=e536]:
+                            - generic [ref=e537]:
+                              - generic [ref=e538]: Lowest
+                              - generic [ref=e539]:
+                                - generic [ref=e540]: Single from
+                                - generic [ref=e541]: £56.60
+                            - generic [ref=e543]:
+                              - button "Select Lowest Single from £56.60" [ref=e544] [cursor=pointer]: outward-3
+                              - generic [ref=e545]:
+                                - generic [ref=e546] [cursor=pointer]
+                                - generic [ref=e550]: Select
+                        - generic [ref=e553]:
+                          - text: Slower journey
+                          - generic [ref=e554]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e555]:
+                          - generic [ref=e556]:
+                            - paragraph [ref=e557]: Departs
+                            - time [ref=e559]: 11:31
+                            - generic [ref=e561]:
+                              - text: Bangor (Gwynedd)
+                              - generic [ref=e562]: (BNG)
+                            - paragraph [ref=e563]: Platform 1
+                          - generic [ref=e568]:
+                            - paragraph [ref=e569]: Arrives
+                            - time [ref=e571]: 14:48
+                            - generic [ref=e573]:
+                              - text: Birmingham New Street
+                              - generic [ref=e574]: (BHM)
+                            - paragraph [ref=e575]: Platform 4B
+                        - 'button "Duration: 3 hours, 17 minutes and, 2 changes" [ref=e578] [cursor=pointer]':
+                          - generic [ref=e579]:
+                            - time [ref=e580]: 3h 17m,
+                            - generic [ref=e581]: and,
+                            - text: 2 changes
+                  - listitem [ref=e582]:
+                    - generic [ref=e583]:
+                      - heading "11:31 journey from Bangor (Gwynedd) to Birmingham New Street" [level=3] [ref=e584]
+                      - generic [ref=e586]:
+                        - generic [ref=e587]:
+                          - generic [ref=e588]: "- Journey 5, Departs, 11:31, from Bangor (Gwynedd), and Arrives, 15:32, at Birmingham New Street, duration 4 hours, 1 minute, with 1 change, This journey will be overtaken by a later departure"
+                          - generic [ref=e589]:
+                            - generic [ref=e590]:
+                              - generic [ref=e591]: Lowest
+                              - generic [ref=e592]:
+                                - generic [ref=e593]: Single from
+                                - generic [ref=e594]: £41.60
+                            - generic [ref=e596]:
+                              - button "Select Lowest Single from £41.60" [ref=e597] [cursor=pointer]: outward-4
+                              - generic [ref=e598]:
+                                - generic [ref=e599] [cursor=pointer]
+                                - generic [ref=e603]: Select
+                        - generic [ref=e606]:
+                          - text: Slower journey
+                          - generic [ref=e607]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e608]:
+                          - generic [ref=e609]:
+                            - paragraph [ref=e610]: Departs
+                            - time [ref=e612]: 11:31
+                            - generic [ref=e614]:
+                              - text: Bangor (Gwynedd)
+                              - generic [ref=e615]: (BNG)
+                            - paragraph [ref=e616]: Platform 1
+                          - generic [ref=e621]:
+                            - paragraph [ref=e622]: Arrives
+                            - time [ref=e624]: 15:32
+                            - generic [ref=e626]:
+                              - text: Birmingham New Street
+                              - generic [ref=e627]: (BHM)
+                            - paragraph [ref=e628]: Platform 1A
+                        - 'button "Duration: 4 hours, 1 minute and, 1 change" [ref=e631] [cursor=pointer]':
+                          - generic [ref=e632]:
+                            - time [ref=e633]: 4h 1m,
+                            - generic [ref=e634]: and,
+                            - text: 1 change
+                  - listitem [ref=e635]:
+                    - generic [ref=e636]:
+                      - heading "12:32 journey from Bangor (Gwynedd) to Birmingham New Street" [level=3] [ref=e637]
+                      - generic [ref=e639]:
+                        - generic [ref=e640]:
+                          - generic [ref=e641]: "- Journey 6, Departs, 12:32, from Bangor (Gwynedd), and Arrives, 15:33, at Birmingham New Street, duration 3 hours, 1 minute, with 3 changes"
+                          - generic [ref=e642]:
+                            - generic [ref=e643]:
+                              - generic [ref=e644]: Lowest
+                              - generic [ref=e645]:
+                                - generic [ref=e646]: Single from
+                                - generic [ref=e647]: £56.60
+                            - generic [ref=e649]:
+                              - button "Select Lowest Single from £56.60" [ref=e650] [cursor=pointer]: outward-5
+                              - generic [ref=e651]:
+                                - generic [ref=e652] [cursor=pointer]
+                                - generic [ref=e656]: Select
+                        - generic [ref=e658]:
+                          - generic [ref=e659]:
+                            - paragraph [ref=e660]: Departs
+                            - time [ref=e662]: 12:32
+                            - generic [ref=e664]:
+                              - text: Bangor (Gwynedd)
+                              - generic [ref=e665]: (BNG)
+                            - paragraph [ref=e666]: Platform 1
+                          - generic [ref=e671]:
+                            - paragraph [ref=e672]: Arrives
+                            - time [ref=e674]: 15:33
+                            - generic [ref=e676]:
+                              - text: Birmingham New Street
+                              - generic [ref=e677]: (BHM)
+                            - paragraph [ref=e678]: Platform 7
+                        - 'button "Duration: 3 hours, 1 minute and, 3 changes" [ref=e681] [cursor=pointer]':
+                          - generic [ref=e682]:
+                            - time [ref=e683]: 3h 1m,
+                            - generic [ref=e684]: and,
+                            - text: 3 changes
+                  - listitem [ref=e685]:
+                    - generic [ref=e686]:
+                      - heading "12:32 journey from Bangor (Gwynedd) to Birmingham New Street" [level=3] [ref=e687]
+                      - generic [ref=e689]:
+                        - generic [ref=e690]:
+                          - generic [ref=e691]: "- Journey 7, Departs, 12:32, from Bangor (Gwynedd), and Arrives, 15:48, at Birmingham New Street, duration 3 hours, 16 minutes, with 2 changes, This journey will be overtaken by a later departure"
+                          - generic [ref=e692]:
+                            - generic [ref=e693]:
+                              - generic [ref=e694]: Lowest
+                              - generic [ref=e695]:
+                                - generic [ref=e696]: Single from
+                                - generic [ref=e697]: £56.60
+                            - generic [ref=e699]:
+                              - button "Select Lowest Single from £56.60" [ref=e700] [cursor=pointer]: outward-6
+                              - generic [ref=e701]:
+                                - generic [ref=e702] [cursor=pointer]
+                                - generic [ref=e706]: Select
+                        - generic [ref=e709]:
+                          - text: Slower journey
+                          - generic [ref=e710]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e711]:
+                          - generic [ref=e712]:
+                            - paragraph [ref=e713]: Departs
+                            - time [ref=e715]: 12:32
+                            - generic [ref=e717]:
+                              - text: Bangor (Gwynedd)
+                              - generic [ref=e718]: (BNG)
+                            - paragraph [ref=e719]: Platform 1
+                          - generic [ref=e724]:
+                            - paragraph [ref=e725]: Arrives
+                            - time [ref=e727]: 15:48
+                            - generic [ref=e729]:
+                              - text: Birmingham New Street
+                              - generic [ref=e730]: (BHM)
+                            - paragraph [ref=e731]: Platform 4B
+                        - 'button "Duration: 3 hours, 16 minutes and, 2 changes" [ref=e734] [cursor=pointer]':
+                          - generic [ref=e735]:
+                            - time [ref=e736]: 3h 16m,
+                            - generic [ref=e737]: and,
+                            - text: 2 changes
+                  - listitem [ref=e738]:
+                    - generic [ref=e739]:
+                      - heading "13:16 journey from Bangor (Gwynedd) to Birmingham New Street" [level=3] [ref=e740]
+                      - generic [ref=e742]:
+                        - generic [ref=e743]:
+                          - generic [ref=e744]: "- Journey 8, Departs, 13:16, from Bangor (Gwynedd), and Arrives, 15:57, at Birmingham New Street, duration 2 hours, 41 minutes, with 1 change, This is the fastest available journey"
+                          - generic [ref=e745]:
+                            - generic [ref=e746]:
+                              - generic [ref=e747]: Lowest
+                              - generic [ref=e748]:
+                                - generic [ref=e749]: Single from
+                                - generic [ref=e750]: £56.60
+                            - generic [ref=e752]:
+                              - button "Select Lowest Single from £56.60" [ref=e753] [cursor=pointer]: outward-7
+                              - generic [ref=e754]:
+                                - generic [ref=e755] [cursor=pointer]
+                                - generic [ref=e759]: Select
+                        - generic [ref=e762]:
+                          - text: Fastest
+                          - generic [ref=e763]: ": This is the fastest available journey"
+                        - generic [ref=e764]:
+                          - generic [ref=e765]:
+                            - paragraph [ref=e766]: Departs
+                            - time [ref=e768]: 13:16
+                            - generic [ref=e770]:
+                              - text: Bangor (Gwynedd)
+                              - generic [ref=e771]: (BNG)
+                            - paragraph [ref=e772]: Platform 1
+                          - generic [ref=e777]:
+                            - paragraph [ref=e778]: Arrives
+                            - time [ref=e780]: 15:57
+                            - generic [ref=e782]:
+                              - text: Birmingham New Street
+                              - generic [ref=e783]: (BHM)
+                            - paragraph [ref=e784]: Platform 1A
+                        - 'button "Duration: 2 hours, 41 minutes and, 1 change" [ref=e787] [cursor=pointer]':
+                          - generic [ref=e788]:
+                            - time [ref=e789]: 2h 41m,
+                            - generic [ref=e790]: and,
+                            - text: 1 change
+                  - listitem [ref=e791]:
+                    - generic [ref=e792]:
+                      - heading "13:32 journey from Bangor (Gwynedd) to Birmingham New Street" [level=3] [ref=e793]
+                      - generic [ref=e795]:
+                        - generic [ref=e796]:
+                          - generic [ref=e797]: "- Journey 9, Departs, 13:32, from Bangor (Gwynedd), and Arrives, 16:33, at Birmingham New Street, duration 3 hours, 1 minute, with 3 changes"
+                          - generic [ref=e798]:
+                            - generic [ref=e799]:
+                              - generic [ref=e800]: Lowest
+                              - generic [ref=e801]:
+                                - generic [ref=e802]: Single from
+                                - generic [ref=e803]: £56.60
+                            - generic [ref=e805]:
+                              - button "Select Lowest Single from £56.60" [ref=e806] [cursor=pointer]: outward-8
+                              - generic [ref=e807]:
+                                - generic [ref=e808] [cursor=pointer]
+                                - generic [ref=e812]: Select
+                        - generic [ref=e814]:
+                          - generic [ref=e815]:
+                            - paragraph [ref=e816]: Departs
+                            - time [ref=e818]: 13:32
+                            - generic [ref=e820]:
+                              - text: Bangor (Gwynedd)
+                              - generic [ref=e821]: (BNG)
+                            - paragraph [ref=e822]: Platform 1
+                          - generic [ref=e827]:
+                            - paragraph [ref=e828]: Arrives
+                            - time [ref=e830]: 16:33
+                            - generic [ref=e832]:
+                              - text: Birmingham New Street
+                              - generic [ref=e833]: (BHM)
+                            - paragraph [ref=e834]: Platform 7
+                        - 'button "Duration: 3 hours, 1 minute and, 3 changes" [ref=e837] [cursor=pointer]':
+                          - generic [ref=e838]:
+                            - time [ref=e839]: 3h 1m,
+                            - generic [ref=e840]: and,
+                            - text: 3 changes
+                  - listitem [ref=e841]:
+                    - generic [ref=e842]:
+                      - heading "13:32 journey from Bangor (Gwynedd) to Birmingham New Street" [level=3] [ref=e843]
+                      - generic [ref=e845]:
+                        - generic [ref=e846]:
+                          - generic [ref=e847]: "- Journey 10, Departs, 13:32, from Bangor (Gwynedd), and Arrives, 16:48, at Birmingham New Street, duration 3 hours, 16 minutes, with 2 changes, This journey will be overtaken by a later departure"
+                          - generic [ref=e848]:
+                            - generic [ref=e849]:
+                              - generic [ref=e850]: Lowest
+                              - generic [ref=e851]:
+                                - generic [ref=e852]: Single from
+                                - generic [ref=e853]: £56.60
+                            - generic [ref=e855]:
+                              - button "Select Lowest Single from £56.60" [ref=e856] [cursor=pointer]: outward-9
+                              - generic [ref=e857]:
+                                - generic [ref=e858] [cursor=pointer]
+                                - generic [ref=e862]: Select
+                        - generic [ref=e865]:
+                          - text: Slower journey
+                          - generic [ref=e866]: ": This journey will be overtaken by a later departure"
+                        - generic [ref=e867]:
+                          - generic [ref=e868]:
+                            - paragraph [ref=e869]: Departs
+                            - time [ref=e871]: 13:32
+                            - generic [ref=e873]:
+                              - text: Bangor (Gwynedd)
+                              - generic [ref=e874]: (BNG)
+                            - paragraph [ref=e875]: Platform 1
+                          - generic [ref=e880]:
+                            - paragraph [ref=e881]: Arrives
+                            - time [ref=e883]: 16:48
+                            - generic [ref=e885]:
+                              - text: Birmingham New Street
+                              - generic [ref=e886]: (BHM)
+                            - paragraph [ref=e887]: Platform 4B
+                        - 'button "Duration: 3 hours, 16 minutes and, 2 changes" [ref=e890] [cursor=pointer]':
+                          - generic [ref=e891]:
+                            - time [ref=e892]: 3h 16m,
+                            - generic [ref=e893]: and,
+                            - text: 2 changes
+              - link "View later trains" [ref=e898] [cursor=pointer]:
+                - /url: /journey-planner/?type=single&origin=BNG&destination=BHM&leavingType=departing&leavingDate=110926&leavingHour=11&leavingMin=00&adults=1&extraTime=0#
+            - generic [ref=e905]:
+              - generic [ref=e908]:
+                - heading "Total £0" [level=2] [ref=e909]:
+                  - generic [ref=e910]: Total
+                  - generic [ref=e911]: £0
+                - link "Continue Review tickets and options" [ref=e913] [cursor=pointer]:
+                  - /url: "#TD"
+                  - generic [ref=e914]: Continue
+                  - generic [ref=e919]: Review tickets and options
+                - paragraph [ref=e920]: 1 Adult, No Railcard
+                - generic [ref=e921]:
+                  - generic [ref=e922]:
+                    - heading "Outward journey" [level=3] [ref=e923]
+                    - paragraph [ref=e924]: Not selected
+                  - generic [ref=e925]:
+                    - heading "Return journey" [level=3] [ref=e926]
+                    - button "Add return journey" [ref=e927] [cursor=pointer]
+              - paragraph [ref=e936]: Advertisement
+          - paragraph [ref=e942]: Advertisement
+        - alert [ref=e943]
+        - status [ref=e944]: Please select a valid journey
+        - status [ref=e945]: Outward results, step 1 of 2
+        - status [ref=e946]: Currently viewing scheduled services
+        - alert [ref=e947]
+      - contentinfo [ref=e130]:
+        - generic [ref=e133]:
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - link [ref=e138] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/
+                  - heading "Tickets, Railcards and Offers" [level=3] [ref=e139]
+                - list [ref=e140]:
+                  - listitem [ref=e141]:
+                    - link "Buying a Ticket" [ref=e142] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/tickets-railcards-and-offers/buying-a-ticket/
+                  - listitem [ref=e143]:
+                    - link "Ticket Types" [ref=e144] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/ticket-types/
+                  - listitem [ref=e145]:
+                    - link "Railcards" [ref=e146] [cursor=pointer]:
+                      - /url: /railcards/
+                  - listitem [ref=e147]:
+                    - link "Saving Money" [ref=e148] [cursor=pointer]:
+                      - /url: /tickets-railcards-and-offers/saving-money/
+            - listitem [ref=e149]:
+              - generic [ref=e150]:
+                - link [ref=e152] [cursor=pointer]:
+                  - /url: /stations/
+                  - heading "Stations and Train Companies" [level=3] [ref=e153]
+                - list [ref=e154]:
+                  - listitem [ref=e155]:
+                    - link "Find a Station" [ref=e156] [cursor=pointer]:
+                      - /url: /stations/
+                  - listitem [ref=e157]:
+                    - link "Find a Train Company" [ref=e158] [cursor=pointer]:
+                      - /url: /travel-information/find-a-train-company/
+            - listitem [ref=e159]:
+              - generic [ref=e160]:
+                - link [ref=e162] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/discover-by-train/
+                  - heading "Discover by Train" [level=3] [ref=e163]
+                - list [ref=e164]:
+                  - listitem [ref=e165]:
+                    - link "Children and Families" [ref=e166] [cursor=pointer]:
+                      - /url: /discover-by-train/children-and-families/
+                  - listitem [ref=e167]:
+                    - link "Train Travel with Children" [ref=e168] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e169]:
+                    - link "Great British Destinations" [ref=e170] [cursor=pointer]:
+                      - /url: /discover-by-train/great-british-destinations/
+                  - listitem [ref=e171]:
+                    - link "Seasonal Inspiration" [ref=e172] [cursor=pointer]:
+                      - /url: /discover-by-train/seasonal-inspiration/
+                  - listitem [ref=e173]:
+                    - link "Places to Visit by Train" [ref=e174] [cursor=pointer]:
+                      - /url: /discover-by-train/places-to-visit-by-train/
+            - listitem [ref=e175]:
+              - generic [ref=e176]:
+                - link [ref=e178] [cursor=pointer]:
+                  - /url: https://www.nationalrail.co.uk/destinations/
+                  - heading "Destinations" [level=3] [ref=e179]
+                - list [ref=e180]:
+                  - listitem [ref=e181]:
+                    - link "Trains from London Paddington to Heathrow Airport" [ref=e182] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-paddington-to-heathrow-airport/
+                  - listitem [ref=e183]:
+                    - link "Trains from London to Liverpool" [ref=e184] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-liverpool/
+                  - listitem [ref=e185]:
+                    - link "Trains from London to Birmingham" [ref=e186] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-london-to-birmingham/
+                  - listitem [ref=e187]:
+                    - link "Trains from Edinburgh to Kings Cross" [ref=e188] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-edinburgh-to-london-kings-cross/
+                  - listitem [ref=e189]:
+                    - link "Trains from Gatwick Airport to London" [ref=e190] [cursor=pointer]:
+                      - /url: https://www.nationalrail.co.uk/destinations/trains-from-gatwick-airport-to-london/
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link [ref=e194] [cursor=pointer]:
+                  - /url: /help-and-assistance/
+                  - heading "Help and Assistance" [level=3] [ref=e195]
+                - list [ref=e196]:
+                  - listitem [ref=e197]:
+                    - link "Compensation and Refunds" [ref=e198] [cursor=pointer]:
+                      - /url: /help-and-assistance/compensation-and-refunds/
+                  - listitem [ref=e199]:
+                    - link "Contact Us" [ref=e200] [cursor=pointer]:
+                      - /url: /help-and-assistance/contact-us/
+                  - listitem [ref=e201]:
+                    - link "Complaints" [ref=e202] [cursor=pointer]:
+                      - /url: /help-and-assistance/complaints/
+                  - listitem [ref=e203]:
+                    - link "Passenger Assist" [ref=e204] [cursor=pointer]:
+                      - /url: /help-and-assistance/passenger-assist/
+                  - listitem [ref=e205]:
+                    - link "Media" [ref=e206] [cursor=pointer]:
+                      - /url: /media/
+                  - listitem [ref=e207]:
+                    - link "Text 61016" [ref=e208] [cursor=pointer]:
+                      - /url: /help-and-assistance/text-61016/
+            - listitem [ref=e209]:
+              - generic [ref=e210]:
+                - link [ref=e212] [cursor=pointer]:
+                  - /url: /on-the-train/
+                  - heading "On the Train" [level=3] [ref=e213]
+                - list [ref=e214]:
+                  - listitem [ref=e215]:
+                    - link "Accessible Train Travel and Facilities" [ref=e216] [cursor=pointer]:
+                      - /url: /on-the-train/accessible-train-travel-and-facilities/
+                  - listitem [ref=e217]:
+                    - link "Train Travel with Bicycles" [ref=e218] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-bicycles/
+                  - listitem [ref=e219]:
+                    - link "Train Travel with Pets" [ref=e220] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-pets/
+                  - listitem [ref=e221]:
+                    - link "Train Travel with Children" [ref=e222] [cursor=pointer]:
+                      - /url: /on-the-train/train-travel-with-children/
+                  - listitem [ref=e223]:
+                    - link "Food and Drink" [ref=e224] [cursor=pointer]:
+                      - /url: /on-the-train/food-and-drink/
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - link "Instagram icon, (external link, opens in a new tab)" [ref=e227] [cursor=pointer]:
+                - /url: https://www.instagram.com/national.rail/
+              - link "Twitter icon, (external link, opens in a new tab)" [ref=e231] [cursor=pointer]:
+                - /url: https://twitter.com/nationalrailenq/
+              - link "Facebook icon, (external link, opens in a new tab)" [ref=e235] [cursor=pointer]:
+                - /url: https://www.facebook.com/nationalrailenq/
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - link "Download on the App Store, (external link, opens in a new tab)" [ref=e241] [cursor=pointer]:
+                  - /url: https://apps.apple.com/gb/app/national-rail/id519094154
+                  - figure [aria-hidden] [ref=e242]
+                - link "Download on the Play Store, (external link, opens in a new tab)" [ref=e244] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=uk.co.nationalrail.google&hl=en_GB
+                  - figure [aria-hidden] [ref=e245]
+              - link "Shaw Trust accessible, (external link, opens in a new tab)" [ref=e248] [cursor=pointer]:
+                - /url: https://www.accessibility-services.co.uk/certificates/national-rail/
+                - figure [aria-hidden] [ref=e249]
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - figure [aria-hidden] [ref=e258]
+            - paragraph [ref=e260]: © 2026
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /about-this-site/
+                - paragraph [ref=e264]: About This Site
+            - listitem [ref=e265]:
+              - link [ref=e266] [cursor=pointer]:
+                - /url: /accessible-information/
+                - paragraph [ref=e267]: Accessible Information
+            - listitem [ref=e268]:
+              - link [ref=e269] [cursor=pointer]:
+                - /url: /careers/
+                - paragraph [ref=e270]: Careers
+            - listitem [ref=e271]:
+              - link [ref=e272] [cursor=pointer]:
+                - /url: /cookie-policy/
+                - paragraph [ref=e273]: Cookies
+            - listitem [ref=e274]:
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /privacy-notice/
+                - paragraph [ref=e276]: Privacy Notice
+            - listitem [ref=e277]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: /terms-and-conditions/
+                - paragraph [ref=e279]: Terms and Conditions
+    - status [ref=e280]
+  - alert [ref=e281]: Journey Planner | Official Train Ticket Info | National Rail
+  - dialog [ref=e949]:
+    - generic [ref=e950]:
+      - generic [ref=e951]:
+        - heading "Journey Details" [level=1] [ref=e952]
+        - button "close modal" [ref=e953] [cursor=pointer]
+      - generic [ref=e957]:
+        - generic:
+          - progressbar "Loading Modal Journey Details":
+            - img "Loading Modal Journey Details"
+        - generic [ref=e959]:
+          - generic [ref=e960]:
+            - paragraph [ref=e962]: Friday 11 September 2026
+            - generic [ref=e963]:
+              - paragraph [ref=e964]: Departs
+              - time [ref=e966]: 13:16
+              - generic [ref=e968]:
+                - text: Bangor (Gwynedd)
+                - generic [ref=e969]: (BNG)
+              - paragraph [ref=e970]: Platform 1
+            - generic [ref=e975]:
+              - paragraph [ref=e976]: Arrives
+              - time [ref=e978]: 15:57
+              - generic [ref=e980]:
+                - text: Birmingham New Street
+                - generic [ref=e981]: (BHM)
+              - paragraph [ref=e982]: Platform 1A
+          - generic [ref=e984]:
+            - time [ref=e985]: 2h 41m,
+            - generic [ref=e986]: and,
+            - text: 1 change
+          - generic [ref=e988]:
+            - heading "Route Details - 1 change" [active] [level=2] [ref=e989]
+            - list [ref=e990]:
+              - listitem [ref=e991]:
+                - region "Journey 1" [ref=e992]:
+                  - generic [ref=e993]:
+                    - paragraph [ref=e999]:
+                      - generic [ref=e1000]: Transport method is
+                      - text: Train Service
+                    - generic [ref=e1001]:
+                      - list [ref=e1004]:
+                        - listitem "Service Origin, Bangor (Gwynedd), at 13:16, On time, from Platform 1" [ref=e1005]:
+                          - generic [ref=e1006]:
+                            - generic [ref=e1007]:
+                              - time [ref=e1008]: 13:16
+                              - generic [ref=e1009]: On time
+                            - generic [ref=e1016]:
+                              - link "View Station Details for Bangor (Gwynedd) (external link, opens in a new tab)" [ref=e1018] [cursor=pointer]:
+                                - /url: /stations/bng/
+                                - text: Bangor (Gwynedd)
+                              - generic [ref=e1019]: Platform 1
+                        - listitem "7 stops not shown" [ref=e1028]:
+                          - button "Show 7 stops" [ref=e1038] [cursor=pointer]:
+                            - generic [ref=e1039]: 7 stops
+                        - listitem "Service Destination, Stafford, at 15:13, On time, from Platform 1" [ref=e1045]:
+                          - generic [ref=e1046]:
+                            - generic [ref=e1047]:
+                              - time [ref=e1048]: 15:13
+                              - generic [ref=e1049]: On time
+                            - generic [ref=e1056]:
+                              - link "View Station Details for Stafford (external link, opens in a new tab)" [ref=e1058] [cursor=pointer]:
+                                - /url: /stations/sta/
+                                - text: Stafford
+                              - generic [ref=e1059]: Platform 1
+                      - generic [ref=e1060]:
+                        - time [ref=e1061]: 1h 57m
+                        - text: • Avanti West Coast • towards London Euston
+                      - generic [ref=e1063]:
+                        - heading [level=3] [ref=e1065]:
+                          - button "Cycle policy for Avanti West Coast" [ref=e1066] [cursor=pointer]
+                        - heading [level=3] [ref=e1075]:
+                          - button "Cycles at Bangor (Gwynedd)" [ref=e1076] [cursor=pointer]
+                        - heading [level=3] [ref=e1085]:
+                          - button "Cycles at Stafford" [ref=e1086] [cursor=pointer]
+              - listitem [ref=e1094]:
+                - region "Journey 2" [ref=e1101]:
+                  - generic [ref=e1102]:
+                    - paragraph [ref=e1108]:
+                      - generic [ref=e1109]: Transport method is
+                      - text: Train Service
+                    - generic [ref=e1110]:
+                      - list [ref=e1113]:
+                        - listitem "Service Origin, Stafford, at 15:22, On time, from Platform 4" [ref=e1114]:
+                          - generic [ref=e1115]:
+                            - generic [ref=e1116]:
+                              - time [ref=e1117]: 15:22
+                              - generic [ref=e1118]: On time
+                            - generic [ref=e1125]:
+                              - link "View Station Details for Stafford (external link, opens in a new tab)" [ref=e1127] [cursor=pointer]:
+                                - /url: /stations/sta/
+                                - text: Stafford
+                              - generic [ref=e1128]: Platform 4
+                        - listitem "1 stop not shown" [ref=e1137]:
+                          - button "Show 1 stop" [ref=e1147] [cursor=pointer]:
+                            - generic [ref=e1148]: 1 stop
+                        - listitem "Service Destination, Birmingham New Street, at 15:57, On time, from Platform 1A" [ref=e1154]:
+                          - generic [ref=e1155]:
+                            - generic [ref=e1156]:
+                              - time [ref=e1157]: 15:57
+                              - generic [ref=e1158]: On time
+                            - generic [ref=e1165]:
+                              - link "View Station Details for Birmingham New Street (external link, opens in a new tab)" [ref=e1167] [cursor=pointer]:
+                                - /url: /stations/bhm/
+                                - text: Birmingham New Street
+                              - generic [ref=e1168]: Platform 1A
+                      - generic [ref=e1169]:
+                        - time [ref=e1170]: 35m
+                        - text: • CrossCountry • towards Bournemouth
+                      - generic [ref=e1172]:
+                        - heading [level=3] [ref=e1174]:
+                          - button "Cycle policy for CrossCountry" [ref=e1175] [cursor=pointer]
+                        - heading [level=3] [ref=e1184]:
+                          - button "Cycles at Stafford" [ref=e1185] [cursor=pointer]
+                        - heading [level=3] [ref=e1194]:
+                          - button "Cycles at Birmingham New Street" [ref=e1195] [cursor=pointer]
+```

@@ -4,17 +4,17 @@ Replace the imported national-rail figures with a dated, reviewable station-to-s
 
 ## Current state — 8 September 2026
 
-- The collection workflow is implemented: a standard-library queue generator, a headless visible-UI collector, an offline manifest finalizer and the existing review-only preparer. See the [runbook](docs/national-transport-runbook.md).
+- The collection workflow is implemented: a standard-library queue generator, direct National Rail Journey Planner request/response collector, offline manifest finalizer and review-only preparer. A single Cardiff Central to Birmingham New Street direct request was validated on 8 September 2026 (HTTP 200 with structured itineraries); this was a method test only, not a release-wide run. See the [runbook](docs/national-transport-runbook.md).
 - Twelve pilot origins have reviewed, evidence-linked station mappings: Barnsley, Bangor, Birmingham, Brighton & Hove, Cardiff, Leeds, Liverpool, Manchester, Newcastle upon Tyne, Reading, Wolverhampton and Wrexham.
-- Raw pilot result captures are in progress. Barnsley to the London all-stations group has a complete 10:00–14:00 result set and selected details; other retained captures still require route-level review, details capture, manifest finalisation or completion of the window.
+- Raw pilot result captures are in progress. Barnsley to the London all-stations group, Cardiff Central to Birmingham New Street, and Bangor (Gwynedd) to Birmingham New Street have complete 10:00–14:00 result sets and selected details; other retained captures still require route-level review, details capture, manifest finalisation or completion of the window.
 - No value in `data/inputs/nationalTransport.csv`, scoring or public transport comparison has changed. `transport_route_observations.csv` is review-only evidence, not a canonical replacement.
 
 ## Collection workflow
 
 1. Review and evidence-link one origin station per location in `data/inputs/transport_stations.csv`.
-2. In a named, headless Playwright session, use the visible National Rail Journey Planner controls. The collector may automate form entry, screenshots and accessibility snapshots, but it must not read itinerary values to choose a result. Select the visible CRS-labelled origin/destination suggestion; use a headed browser only to diagnose a headless failure and record the exception.
-3. Query the agreed date/window and inspect later journeys as required by the methodology. Capture the selected displayed itinerary and its expanded details, including legs and changes. Start each route from a fresh form state.
-4. Put captures in a dated raw release; hash and list them in `manifest.csv`. Transcribe only displayed values to `data/inputs/transport_route_observations.csv`, including actual query and retrieval times, URL if supplied, and an explicit reason for blanks.
+2. Use the direct collector with reviewed CRS values and group flags. It retains the exact JSON request and returned response; do not rely on a browser-rendered result page.
+3. Query the agreed date/window at the four stated times. Review retained itinerary legs and select the shortest suitable rail itinerary, recording calculated changes and any exclusions.
+4. Put request, response and metadata captures in a dated raw release; hash and list them in `manifest.csv`. Transcribe values supported by the retained response to `data/inputs/transport_route_observations.csv`, including actual query and retrieval times and an explicit reason for blanks.
 5. Run `python3 scripts/prepare_national_transport.py` on the release. It validates the manifest, timestamps, station mappings and transcription, and creates review-only staging CSVs; it neither browses nor updates canonical transport inputs.
 6. Review mappings, missing/excluded routes, anomalous duration/change counts and a sample of captures. Add an evidence-catalogue row. Only then update canonical inputs, rebuild and test.
 

@@ -1,6 +1,6 @@
 # National transport collection runbook
 
-This runbook operationalises the [acquisition plan](../NATIONAL-TRANSPORT-ACQUISITION-PLAN.md). The collector drives the public National Rail Journey Planner through rendered browser controls in a named headless session. It does not request undocumented endpoints, inspect network traffic, construct planner result URLs or machine-read itinerary data.
+This runbook operationalises the [acquisition plan](../NATIONAL-TRANSPORT-ACQUISITION-PLAN.md). It captures the JSON request and response from National Rail's public Journey Planner service with the Python standard library. It does not use a browser, parse page markup, or update canonical inputs.
 
 ## Prepare work
 
@@ -11,33 +11,32 @@ python3 scripts/create_national_transport_queue.py \
   --out data/raw/releases/YYYY-MM-DD-national-transport/collection-queue.csv
 ```
 
-Review one origin station per location first. A collector selects only the visible CRS-labelled suggestion and records its exact label, selection rationale, confidence and evidence ID. Do not collect routes for a `blocked-mapping` queue row.
+Review one origin station per location first. Do not collect routes for a `blocked-mapping` queue row.
 
 ## Capture a route
 
-For each route, use a fresh form state and retain the visible results from 10:00, 11:00, 12:00 and 13:00. The command below captures the form state, result accessibility snapshot and PNG for each requested search. It deselects the optional Booking.com checkbox so the Journey Planner result remains the active tab.
+For each route, retain searches at 10:00, 11:00, 12:00 and 13:00. The collector writes immutable request and response JSON pairs plus metadata. It refuses to overwrite any retained artifact.
 
 ```sh
-python3 scripts/collect_national_transport_ui.py \
-  --session national-transport-YYYYMMDD-slice \
-  --out-dir data/raw/releases/YYYY-MM-DD-national-transport/transport/example__london \
-  --origin-option 'Example (EXM)' \
-  --destination-option 'London (All Stations)'
+python3 scripts/collect_national_transport_http.py \
+  --out-dir data/raw/releases/YYYY-MM-DD-national-transport/transport/example__birmingham \
+  --origin-crs EXM \
+  --destination-crs BHM
 ```
 
-The option arguments must exactly match visible suggestions. The script derives a search query by removing only a trailing CRS suffix. It saves `capture-metadata.json`, which records real retrieval timestamps and the result URL returned by the UI. It deliberately does not decide which itinerary is shortest or suitable.
+For the London rail gateway use the reviewed group CRS/identifier and pass `--destination-group`; retain that identifier in the request JSON. Restrict a validation capture to one explicit search with `--search-time 10:00`. Do not treat a successful response for one route as authority to run the rest of the queue.
 
-Review the result captures across the whole 10:00–14:00 window. Select the shortest displayed suitable passenger-rail itinerary, capture its expanded Journey Details, and record any non-rail exclusion. Count frequency only if a distinct two-hour window can be read reliably.
+Review the response JSON across the whole 10:00–14:00 window. Select the shortest suitable National Rail passenger itinerary; exclude non-rail legs unless expressly reviewed. Record scheduled departure and arrival, elapsed minutes, changes, and frequency context only where directly supported by the retained response.
 
 ## Finalise and review
 
-Add every retained evidence artifact to a `manifest-draft.csv` with these columns:
+Add every retained request, response and metadata artifact to a `manifest-draft.csv` with these columns:
 
 ```text
 relative_path,original_url,request_query,retrieved_at,data_period,publisher,licence_or_terms,coverage_limitations
 ```
 
-Then hash it without overwriting a retained manifest:
+Use `https://jpservices.nationalrail.co.uk/journey-planner` as `original_url`; describe the exact CRS, group flags and local planned time in `request_query`. Then hash the release without overwriting a retained manifest:
 
 ```sh
 python3 scripts/finalize_national_transport_release.py \
@@ -45,4 +44,4 @@ python3 scripts/finalize_national_transport_release.py \
   --draft data/raw/releases/YYYY-MM-DD-national-transport/manifest-draft.csv
 ```
 
-Only after human review, transcribe the displayed observations and run `prepare_national_transport.py`. That writes review staging only; do not copy values into `nationalTransport.csv`, rebuild, or change scoring until the complete release, mappings, anomalies and evidence-catalogue row are approved.
+Only after review, transcribe the observations and run `prepare_national_transport.py`. That writes review staging only; do not copy values into `nationalTransport.csv`, rebuild, or change scoring until the complete release, mappings, anomalies and evidence-catalogue row are approved.

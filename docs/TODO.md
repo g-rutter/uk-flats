@@ -1,7 +1,7 @@
 # Next work
 
 - Complete the 20-place expansion cohort:
-  - Agree a controlled manual-capture protocol and acquire fixed-date national-rail evidence for `nationalTransport.csv`.
+  - Complete the reviewed fixed-date National Rail request/response release for `nationalTransport.csv`; do not bypass station mapping, raw retention or review.
   - Agree an evidence-linked reviewer rubric for local transport, quiet and condition, then add reviewed rows to `localTransport.csv`, `quiet.csv` and `condition.csv`; do not infer bands from nearby places or treat deprivation as appearance.
 - Audit every source, calculation and proxy for suitability, reproducibility and opportunities for more objective measures; record any resulting methodology changes and evidence limitations.
   - Is there a better measure of market thickness than rightmove listings?
