@@ -1,6 +1,6 @@
 # National transport collection runbook
 
-This runbook operationalises the [acquisition plan](../NATIONAL-TRANSPORT-ACQUISITION-PLAN.md). It captures the JSON request and response from National Rail's public Journey Planner service with the Python standard library. It does not use a browser, parse page markup, or update canonical inputs.
+This runbook operationalises the [national transport methodology](national-transport-methodology.md). It captures the JSON request and response from National Rail's public Journey Planner service with the Python standard library. It does not use a browser, parse page markup, or update canonical inputs.
 
 ## Prepare work
 
