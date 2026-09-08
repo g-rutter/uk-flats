@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Hash a reviewed National Rail capture draft into a release manifest.
 
-This is offline bookkeeping only.  It does not open a browser or infer journey
-values; the draft metadata must describe captures retained from the visible UI.
+This is offline bookkeeping only. It does not query the planner or infer journey
+values; the draft metadata must describe retained request, response and metadata
+artifacts from the direct collector.
 """
 import argparse
 import csv

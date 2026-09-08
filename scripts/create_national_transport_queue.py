@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Create a resumable, review-first National Rail browser-collection queue.
+"""Create a resumable, review-first National Rail direct-collection queue.
 
 This script never contacts the Journey Planner.  It only makes the work list
-which a collector carries out through the visible browser interface.
+which the direct JSON collector carries out after station-mapping review.
 """
 import argparse
 import csv
@@ -44,9 +44,9 @@ def create_queue(locations_path, stations_path, measurement_date, location_ids=N
             if not station:
                 status, reason = 'blocked-mapping', 'Reviewed origin-station mapping is required before collection.'
             elif same_station:
-                status, reason = 'excluded-degenerate', 'Origin equals the fixed Birmingham New Street endpoint.'
+                status, reason = 'degenerate-zero', 'Origin equals the fixed Birmingham New Street endpoint; record a zero-minute, zero-change self-route without collection.'
             else:
-                status, reason = 'pending', 'Use visible Journey Planner controls; transcribe only displayed values after capture review.'
+                status, reason = 'pending', 'Use the direct Journey Planner collector; transcribe only values supported by retained JSON after review.'
             rows.append({
                 'location_id': location['id'], 'location_name': location['name'],
                 'origin_crs': station.get('station_crs', ''),

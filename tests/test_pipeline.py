@@ -19,7 +19,8 @@ from prepare_locations import prepare
 from prepare_national_transport import prepare as prepare_national_transport
 from create_national_transport_queue import create_queue
 from collect_national_transport_ui import expand_details_code, visible_query
-from collect_national_transport_http import request_body
+from collect_national_transport_http import REQUEST_HEADERS, request_body
+from create_national_transport_manifest_draft import create as create_national_transport_manifest_draft
 from finalize_national_transport_release import finalize as finalize_national_transport_release
 from release_audit import audit as release_audit
 from rehydrate_raw import rehydrate
@@ -38,7 +39,7 @@ class PipelineTests(unittest.TestCase):
             rows = create_queue(locations, stations, '2026-09-11')
             self.assertEqual([(row['location_id'], row['destination_id'], row['status']) for row in rows], [
                 ('example', 'london', 'blocked-mapping'), ('example', 'birmingham', 'blocked-mapping'),
-                ('birmingham', 'london', 'pending'), ('birmingham', 'birmingham', 'excluded-degenerate'),
+                ('birmingham', 'london', 'pending'), ('birmingham', 'birmingham', 'degenerate-zero'),
             ])
             self.assertEqual(visible_query('Bangor (Gwynedd) (BNG)'), 'Bangor (Gwynedd)')
             self.assertEqual(visible_query('London (All Stations)'), 'London')
@@ -52,6 +53,9 @@ class PipelineTests(unittest.TestCase):
             'travelTime': '2026-09-11T10:00:00+01:00', 'type': 'DEPART',
         })
         self.assertEqual(body['increasedInterchange'], 'ZERO')
+        self.assertEqual(REQUEST_HEADERS['Origin'], 'https://www.nationalrail.co.uk')
+        self.assertEqual(REQUEST_HEADERS['Referer'], 'https://www.nationalrail.co.uk/')
+        self.assertIn('uk-flats-national-transport-collector', REQUEST_HEADERS['User-Agent'])
 
     def test_national_transport_finalizer_hashes_retained_draft_only(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -69,6 +73,33 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(len(rows[0]['sha256']), 64)
             with self.assertRaisesRegex(ValueError, 'refusing'):
                 finalize_national_transport_release(release, draft, release / 'manifest.csv')
+
+    def test_direct_transport_manifest_draft_covers_request_response_and_metadata(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            route = root / 'release' / 'transport' / 'example__london'
+            route.mkdir(parents=True)
+            request = {'origin': {'crs': 'EXM', 'group': False}}
+            (route / 'request-10.json').write_text(json.dumps(request), encoding='utf-8')
+            (route / 'response-10.json').write_text('{"outwardJourneys": []}', encoding='utf-8')
+            (route / 'capture-metadata.json').write_text(json.dumps({
+                'source_endpoint': 'https://jpservices.nationalrail.co.uk/journey-planner',
+                'origin': {'crs': 'EXM'}, 'destination': {'crs': '182'},
+                'measurement_date': '2026-09-11', 'limitations': 'Planner snapshot.',
+                'searches': [{'search_time_local': '10:00', 'request': 'request-10.json',
+                              'response': 'response-10.json',
+                              'retrieved_at_local': '2026-09-08T10:00:00+01:00'}],
+            }), encoding='utf-8')
+            draft = root / 'release' / 'manifest-draft.csv'
+            rows = create_national_transport_manifest_draft(root / 'release', draft)
+            self.assertEqual(len(rows), 3)
+            self.assertEqual({row['relative_path'] for row in rows}, {
+                'transport/example__london/request-10.json',
+                'transport/example__london/response-10.json',
+                'transport/example__london/capture-metadata.json',
+            })
+            with self.assertRaisesRegex(ValueError, 'refusing'):
+                create_national_transport_manifest_draft(root / 'release', draft)
 
     def test_national_transport_preparer_requires_hashed_capture_and_stages_pivot(self):
         with tempfile.TemporaryDirectory() as tmp:

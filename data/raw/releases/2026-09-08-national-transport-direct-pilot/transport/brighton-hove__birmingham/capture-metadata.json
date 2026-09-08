@@ -1,0 +1,43 @@
+{
+  "source_endpoint": "https://jpservices.nationalrail.co.uk/journey-planner",
+  "origin": {
+    "crs": "BTN",
+    "group": false
+  },
+  "destination": {
+    "crs": "BHM",
+    "group": false
+  },
+  "measurement_date": "2026-09-11",
+  "searches": [
+    {
+      "search_time_local": "10:00",
+      "request": "request-10.json",
+      "response": "response-10.json",
+      "retrieved_at_local": "2026-09-08T22:56:03+01:00",
+      "search_id": "3fd4ec45-7a5b-44df-8cb6-5af3534976b6"
+    },
+    {
+      "search_time_local": "11:00",
+      "request": "request-11.json",
+      "response": "response-11.json",
+      "retrieved_at_local": "2026-09-08T22:56:04+01:00",
+      "search_id": "91183c6a-b288-407e-9761-38738b343173"
+    },
+    {
+      "search_time_local": "12:00",
+      "request": "request-12.json",
+      "response": "response-12.json",
+      "retrieved_at_local": "2026-09-08T22:56:05+01:00",
+      "search_id": "03c79fec-fa59-40ad-99c3-dd6afab34596"
+    },
+    {
+      "search_time_local": "13:00",
+      "request": "request-13.json",
+      "response": "response-13.json",
+      "retrieved_at_local": "2026-09-08T22:56:06+01:00",
+      "search_id": "ed15c522-76a1-4ed4-9ecb-5f433a393265"
+    }
+  ],
+  "limitations": "Responses are dated planner snapshots. Review must exclude unsuitable non-rail itineraries and select the shortest suitable itinerary within the stated window."
+}

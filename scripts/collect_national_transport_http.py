@@ -16,6 +16,14 @@ from zoneinfo import ZoneInfo
 ENDPOINT = 'https://jpservices.nationalrail.co.uk/journey-planner'
 DEFAULT_SEARCH_TIMES = ('10:00', '11:00', '12:00', '13:00')
 LONDON = ZoneInfo('Europe/London')
+REQUEST_HEADERS = {
+    'Accept': 'application/json',
+    'Content-Type': 'application/json',
+    'X-JP-Platform': 'DESKTOP',
+    'Origin': 'https://www.nationalrail.co.uk',
+    'Referer': 'https://www.nationalrail.co.uk/',
+    'User-Agent': 'Mozilla/5.0 (compatible; uk-flats-national-transport-collector/1.0)',
+}
 
 
 def local_timestamp(measurement_date, search_time):
@@ -50,8 +58,7 @@ def request_body(origin_crs, destination_crs, measurement_date, search_time,
 def fetch(body, endpoint=ENDPOINT):
     request = Request(
         endpoint, data=json.dumps(body, separators=(',', ':')).encode('utf-8'), method='POST',
-        headers={'Accept': 'application/json', 'Content-Type': 'application/json',
-                 'X-JP-Platform': 'DESKTOP'},
+        headers=REQUEST_HEADERS,
     )
     with urlopen(request, timeout=30) as response:
         return json.load(response)
@@ -87,8 +94,8 @@ def collect(out_dir, origin_crs, destination_crs, measurement_date, search_times
         'destination': {'crs': destination_crs.upper(), 'group': destination_group},
         'measurement_date': measurement_date,
         'searches': records,
-        'limitations': ('Responses are dated planner snapshots. Review must exclude unsuitable non-rail '
-                        'itineraries and select the shortest suitable itinerary within the stated window.'),
+        'limitations': ('Responses are dated planner snapshots. Review selects the shortest returned '
+                        'Journey Planner itinerary within the stated window without a mode-based filter.'),
     }
     metadata_path.write_text(json.dumps(metadata, indent=2) + '\n', encoding='utf-8')
     return metadata

@@ -87,6 +87,18 @@ def prepare(release_dir, stations_path, observations_path, out_dir, measurement_
             raise ValueError(f'{key}: origin_crs needs a matching reviewed station mapping')
         if row['measurement_date'] != measurement_date or not row['reason']:
             raise ValueError(f'{key}: wrong measurement date or blank reason')
+        degenerate = (row['location_id'] == 'birmingham' and row['destination_id'] == 'birmingham'
+                      and row['origin_crs'] == row['destination_crs'] == 'BHM'
+                      and row['elapsed_minutes'] == row['changes'] == '0')
+        if degenerate:
+            forbidden = ('selected_departure_local', 'selected_arrival_local', 'selection_window_start_local',
+                         'selection_window_end_local', 'planner_search_times', 'query_timestamp_local',
+                         'source_url', 'raw_capture_path', 'retrieval_timestamp')
+            if any(row[field] for field in forbidden):
+                raise ValueError(f'{key}: degenerate self-route must not claim a planner capture')
+            reviewed.append(row)
+            observations.append(row)
+            continue
         itinerary = ('selected_departure_local', 'selected_arrival_local', 'elapsed_minutes', 'changes')
         populated = [bool(row[column]) for column in itinerary]
         if any(populated) and not all(populated):

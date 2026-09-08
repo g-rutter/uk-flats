@@ -1,0 +1,13 @@
+location_id,londonMinutes,londonChanges,birminghamMinutes,birminghamChanges,confidence,reason
+bangor,201,0,161,1,Medium,Review-staged National Rail observations; not canonical until approved.
+barnsley,155,2,104,1,Medium,Review-staged National Rail observations; not canonical until approved.
+birmingham,79,0,0,0,Medium,Review-staged National Rail observations; not canonical until approved.
+brighton-hove,61,0,192,2,Medium,Review-staged National Rail observations; not canonical until approved.
+cardiff,112,0,120,0,Medium,Review-staged National Rail observations; not canonical until approved.
+leeds,132,0,109,0,Medium,Review-staged National Rail observations; not canonical until approved.
+liverpool,140,0,96,0,Medium,Review-staged National Rail observations; not canonical until approved.
+manchester,127,0,90,0,Medium,Review-staged National Rail observations; not canonical until approved.
+newcastle-upon-tyne,166,0,174,0,Medium,Review-staged National Rail observations; not canonical until approved.
+reading,23,0,90,0,Medium,Review-staged National Rail observations; not canonical until approved.
+wolverhampton,97,1,18,0,Medium,Review-staged National Rail observations; not canonical until approved.
+wrexham,149,1,111,0,Medium,Review-staged National Rail observations; not canonical until approved.

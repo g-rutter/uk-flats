@@ -4,7 +4,7 @@ This runbook operationalises the [acquisition plan](../NATIONAL-TRANSPORT-ACQUIS
 
 ## Prepare work
 
-Create a dated release and an explicit route queue. The queue derives every location from `locations.csv`, flags unreviewed station mappings as `blocked-mapping`, and treats Birmingham New Street to itself as a documented degenerate route rather than inventing a zero-minute value.
+Create a dated release and an explicit route queue. The queue derives every location from `locations.csv`, flags unreviewed station mappings as `blocked-mapping`, and treats Birmingham New Street to itself as a documented degenerate route rather than inventing a zero-minute value. It is a work list for the direct collector, not browser-automation instructions.
 
 ```sh
 python3 scripts/create_national_transport_queue.py \
@@ -15,7 +15,7 @@ Review one origin station per location first. Do not collect routes for a `block
 
 ## Capture a route
 
-For each route, retain searches at 10:00, 11:00, 12:00 and 13:00. The collector writes immutable request and response JSON pairs plus metadata. It refuses to overwrite any retained artifact.
+For each route, retain searches at 10:00, 11:00, 12:00 and 13:00. The collector writes immutable request and response JSON pairs plus metadata. It refuses to overwrite any retained artifact. Revalidate the endpoint and request shape with one explicit validation capture before starting a new release-wide run.
 
 ```sh
 python3 scripts/collect_national_transport_http.py \
@@ -26,7 +26,7 @@ python3 scripts/collect_national_transport_http.py \
 
 For the London rail gateway use the reviewed group CRS/identifier and pass `--destination-group`; retain that identifier in the request JSON. Restrict a validation capture to one explicit search with `--search-time 10:00`. Do not treat a successful response for one route as authority to run the rest of the queue.
 
-Review the response JSON across the whole 10:00–14:00 window. Select the shortest suitable National Rail passenger itinerary; exclude non-rail legs unless expressly reviewed. Record scheduled departure and arrival, elapsed minutes, changes, and frequency context only where directly supported by the retained response.
+Review the response JSON across the whole 10:00–14:00 window. Select the shortest returned National Rail Journey Planner itinerary; do not exclude an itinerary based on its public-transport mode. Record scheduled departure and arrival, elapsed minutes and returned-leg changes, and frequency context only where directly supported by the retained response.
 
 ## Finalise and review
 
