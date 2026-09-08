@@ -1,46 +1,17 @@
 # Next work
 
-## Outstanding work
-
-- Create reproducible fresh acquisitions for prices, rents and Rightmove counts
-  for the original 63-location baseline, retaining dated raw snapshots,
-  query/geography details and transformation scripts. Those non-crime values
-  remain imported historical claims.
-- For the 20-place expansion cohort, determine and approve a controlled manual-capture
-  protocol, then
-  acquire fixed-date national-rail evidence and add `nationalTransport.csv` rows.
-- For the 20-place expansion cohort, approve a fixed, evidence-linked reviewer
-  rubric for local transport, quiet and condition, then add reviewed
-  `localTransport.csv`, `quiet.csv` and `condition.csv` rows. Do not infer bands
-  from nearby locations or convert deprivation into an appearance judgement.
-- Keep Police.uk ASB research-only unless a dated archive passes the documented
-  force/month coverage and geography review. The ONS CSP recorded-offence
-  replacement is complete and is already displayed.
-
-## Location expansion
-
-Completed on 7 September 2026 at the user's request: 20 locations were added to
-the canonical inputs, generated broad screen and UI. Each has a location
-identity/centroid, HMLR all-flat sale proxy, July 2026 ONS one-bedroom LA rent
-proxy, and separate ONS CSP violence-against-the-person and sexual-offence rates.
-The raw HMLR, ONS rent and ONS crime artifacts and their source metadata are
-retained in the repository's existing dated releases/snapshots.
-
-The expansion entries are intentionally incomplete: transport, quiet and condition
-observations have not been asserted, and therefore neither buying nor renting
-composite score is calculated for them. The controlled 7 September 2026 market
-stock captures are retained separately from the imported 5 September baseline;
-missing values are displayed as unavailable, never as zero.
-
-| Gap addressed | Status | Locations |
-| --- | --- | --- |
-| Major southern and south-west markets | Added | Bristol; Southampton; Bournemouth–Poole; Brighton & Hove; Exeter |
-| South East and London-adjacent markets | Added | Reading; Milton Keynes; Luton; Southend-on-Sea |
-| East of England | Added | Cambridge; Colchester |
-| High-cost comparator cities | Added | Oxford; Bath |
-| Underrepresented Welsh centres | Added | Bridgend; Llanelli; Bangor; Rhyl |
-| Useful regional comparators | Added | York; Durham; Cheltenham |
-
-London is a material coverage gap, but requires a separately agreed geography
-before inclusion: a single London row is too coarse, while borough-scale rows
-would change the current population-centre approach.
+- Complete the 20-place expansion cohort:
+  - Agree a controlled manual-capture protocol and acquire fixed-date national-rail evidence for `nationalTransport.csv`.
+  - Agree an evidence-linked reviewer rubric for local transport, quiet and condition, then add reviewed rows to `localTransport.csv`, `quiet.csv` and `condition.csv`; do not infer bands from nearby places or treat deprivation as appearance.
+- Audit every source, calculation and proxy for suitability, reproducibility and opportunities for more objective measures; record any resulting methodology changes and evidence limitations.
+  - Is there a better measure of market thickness than rightmove listings?
+  - Can we make the quietness, condition and local transport fields more objective and data driven?
+  - Keep Police.uk ASB research-only unless a dated archive passes the documented force/month coverage and geography review.
+- Re-acquire and document prices and rents for the original 63-location baseline; decide whether reproducible portal stock snapshots are sufficiently reliable to retain as a comparison input.
+- Homogenise the original and existing location information such that there is no longer any reference in the repo that they are distinct. They should indeed be identical at this point. Identically acquired, uniformly recorded, methods of acquistion identical with no remaining mention of any differences in methodology because there are none. It should not be recorded that one part is an expansion and the other the original.
+- Make end-to-end location additions and data refreshes agent-operable: document and automate the acquisition, validation, evidence, build and review workflow.
+- Extend the map to colour locations by either the composite score or an individual score component.
+- Add map overlays where suitably sourced evidence is available, beginning with noise or air pollution, recorded offences, market thickness and isochrone travel times.
+- Repo health:
+  - Thoroughly purge the code base of bloat in both code and natural language.
+  - Look for fragmentation and unify the same processes or documentation being repeated
