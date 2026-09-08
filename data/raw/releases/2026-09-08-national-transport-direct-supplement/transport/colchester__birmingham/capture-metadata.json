@@ -1,0 +1,43 @@
+{
+  "source_endpoint": "https://jpservices.nationalrail.co.uk/journey-planner",
+  "origin": {
+    "crs": "COL",
+    "group": false
+  },
+  "destination": {
+    "crs": "BHM",
+    "group": false
+  },
+  "measurement_date": "2026-09-11",
+  "searches": [
+    {
+      "search_time_local": "10:00",
+      "request": "request-10.json",
+      "response": "response-10.json",
+      "retrieved_at_local": "2026-09-08T23:58:03+01:00",
+      "search_id": "6a192150-2474-4fbd-9a32-97fbc0de4506"
+    },
+    {
+      "search_time_local": "11:00",
+      "request": "request-11.json",
+      "response": "response-11.json",
+      "retrieved_at_local": "2026-09-08T23:58:04+01:00",
+      "search_id": "027a4195-e7cb-4c49-b022-522fd923f565"
+    },
+    {
+      "search_time_local": "12:00",
+      "request": "request-12.json",
+      "response": "response-12.json",
+      "retrieved_at_local": "2026-09-08T23:58:05+01:00",
+      "search_id": "9e248895-dd21-4b3f-83c7-ce54371e567f"
+    },
+    {
+      "search_time_local": "13:00",
+      "request": "request-13.json",
+      "response": "response-13.json",
+      "retrieved_at_local": "2026-09-08T23:58:06+01:00",
+      "search_id": "6143a782-05cb-4d62-96b1-cef4e95dbbe9"
+    }
+  ],
+  "limitations": "Responses are dated planner snapshots. Review selects the shortest returned Journey Planner itinerary within the stated window without a mode-based filter."
+}

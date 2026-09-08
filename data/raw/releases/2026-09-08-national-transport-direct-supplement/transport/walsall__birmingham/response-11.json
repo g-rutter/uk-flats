@@ -1,0 +1,2483 @@
+{
+  "searchId": "b07ce125-b61c-485c-95a9-8576c0605319",
+  "outwardJourneys": [
+    {
+      "id": 1,
+      "origin": {
+        "nlcCode": "1216",
+        "crsCode": "WSL",
+        "name": "Walsall",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T11:07:00+01:00",
+          "arrival": "2026-09-11T11:34:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The Gentlemen's toilets are out of order at Walsall station.",
+          "url": "",
+          "category": "Information",
+          "severity": "P2",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T17:14:33+01:00"
+        }
+      ],
+      "duration": "27m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "L12316|11/09/2026",
+          "trainRetailId": "LM080700",
+          "trainUid": "L12316",
+          "board": {
+            "crsCode": "WSL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Walsall"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "WSL",
+              "scheduledTime": "2026-09-11T11:07:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "WSL"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "WVH",
+              "scheduledTime": "2026-09-11T12:07:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "WVH"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "6A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T11:07:00+01:00",
+              "arrival": "2026-09-11T11:34:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 450,
+          "undiscountedPrices": {
+            "adult": 450,
+            "child": 225
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 450,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 590,
+          "undiscountedPrices": {
+            "adult": 590,
+            "child": 295
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 590,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 730,
+          "undiscountedPrices": {
+            "adult": 730,
+            "child": 365
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 730,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "2df4019d",
+      "isOvertaken": false
+    },
+    {
+      "id": 2,
+      "origin": {
+        "nlcCode": "1216",
+        "crsCode": "WSL",
+        "name": "Walsall",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T11:20:00+01:00",
+          "arrival": "2026-09-11T11:42:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The Gentlemen's toilets are out of order at Walsall station.",
+          "url": "",
+          "category": "Information",
+          "severity": "P2",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T17:14:33+01:00"
+        }
+      ],
+      "duration": "22m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "W11509|11/09/2026",
+          "trainRetailId": "LM604000",
+          "trainUid": "W11509",
+          "board": {
+            "crsCode": "WSL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Walsall"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "RGL",
+              "scheduledTime": "2026-09-11T10:50:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "RGL"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHI",
+              "scheduledTime": "2026-09-11T12:08:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHI"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "1A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T11:20:00+01:00",
+              "arrival": "2026-09-11T11:42:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 450,
+          "undiscountedPrices": {
+            "adult": 450,
+            "child": 225
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 450,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 590,
+          "undiscountedPrices": {
+            "adult": 590,
+            "child": 295
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 590,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 730,
+          "undiscountedPrices": {
+            "adult": 730,
+            "child": 365
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 730,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "b37777ba",
+      "isOvertaken": false
+    },
+    {
+      "id": 3,
+      "origin": {
+        "nlcCode": "1216",
+        "crsCode": "WSL",
+        "name": "Walsall",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T11:37:00+01:00",
+          "arrival": "2026-09-11T12:04:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The Gentlemen's toilets are out of order at Walsall station.",
+          "url": "",
+          "category": "Information",
+          "severity": "P2",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T17:14:33+01:00"
+        }
+      ],
+      "duration": "27m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "P69425|11/09/2026",
+          "trainRetailId": "LM086600",
+          "trainUid": "P69425",
+          "board": {
+            "crsCode": "WSL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Walsall"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "WSL",
+              "scheduledTime": "2026-09-11T11:37:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "WSL"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "WVH",
+              "scheduledTime": "2026-09-11T12:37:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "WVH"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "5B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T11:37:00+01:00",
+              "arrival": "2026-09-11T12:04:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 450,
+          "undiscountedPrices": {
+            "adult": 450,
+            "child": 225
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 450,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 590,
+          "undiscountedPrices": {
+            "adult": 590,
+            "child": 295
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 590,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 730,
+          "undiscountedPrices": {
+            "adult": 730,
+            "child": 365
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 730,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "9841cee2",
+      "isOvertaken": false
+    },
+    {
+      "id": 4,
+      "origin": {
+        "nlcCode": "1216",
+        "crsCode": "WSL",
+        "name": "Walsall",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T11:50:00+01:00",
+          "arrival": "2026-09-11T12:12:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The Gentlemen's toilets are out of order at Walsall station.",
+          "url": "",
+          "category": "Information",
+          "severity": "P2",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T17:14:33+01:00"
+        }
+      ],
+      "duration": "22m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "W11511|11/09/2026",
+          "trainRetailId": "LM604400",
+          "trainUid": "W11511",
+          "board": {
+            "crsCode": "WSL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Walsall"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "RGL",
+              "scheduledTime": "2026-09-11T11:20:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "RGL"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHI",
+              "scheduledTime": "2026-09-11T12:41:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHI"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "3A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T11:50:00+01:00",
+              "arrival": "2026-09-11T12:12:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 450,
+          "undiscountedPrices": {
+            "adult": 450,
+            "child": 225
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 450,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 590,
+          "undiscountedPrices": {
+            "adult": 590,
+            "child": 295
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 590,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 730,
+          "undiscountedPrices": {
+            "adult": 730,
+            "child": 365
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 730,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "32e2075f",
+      "isOvertaken": false
+    },
+    {
+      "id": 5,
+      "origin": {
+        "nlcCode": "1216",
+        "crsCode": "WSL",
+        "name": "Walsall",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T12:07:00+01:00",
+          "arrival": "2026-09-11T12:34:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The Gentlemen's toilets are out of order at Walsall station.",
+          "url": "",
+          "category": "Information",
+          "severity": "P2",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T17:14:33+01:00"
+        }
+      ],
+      "duration": "27m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "P69427|11/09/2026",
+          "trainRetailId": "LM086700",
+          "trainUid": "P69427",
+          "board": {
+            "crsCode": "WSL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Walsall"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "WSL",
+              "scheduledTime": "2026-09-11T12:07:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "WSL"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "WVH",
+              "scheduledTime": "2026-09-11T13:07:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "WVH"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "6B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T12:07:00+01:00",
+              "arrival": "2026-09-11T12:34:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 450,
+          "undiscountedPrices": {
+            "adult": 450,
+            "child": 225
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 450,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 590,
+          "undiscountedPrices": {
+            "adult": 590,
+            "child": 295
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 590,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 730,
+          "undiscountedPrices": {
+            "adult": 730,
+            "child": 365
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 730,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "9e4e113d",
+      "isOvertaken": false
+    },
+    {
+      "id": 6,
+      "origin": {
+        "nlcCode": "1216",
+        "crsCode": "WSL",
+        "name": "Walsall",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T12:20:00+01:00",
+          "arrival": "2026-09-11T12:42:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The Gentlemen's toilets are out of order at Walsall station.",
+          "url": "",
+          "category": "Information",
+          "severity": "P2",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T17:14:33+01:00"
+        }
+      ],
+      "duration": "22m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "W11513|11/09/2026",
+          "trainRetailId": "LM604800",
+          "trainUid": "W11513",
+          "board": {
+            "crsCode": "WSL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Walsall"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "RGL",
+              "scheduledTime": "2026-09-11T11:50:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "RGL"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHI",
+              "scheduledTime": "2026-09-11T13:08:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHI"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "1A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T12:20:00+01:00",
+              "arrival": "2026-09-11T12:42:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 450,
+          "undiscountedPrices": {
+            "adult": 450,
+            "child": 225
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 450,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 590,
+          "undiscountedPrices": {
+            "adult": 590,
+            "child": 295
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 590,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 730,
+          "undiscountedPrices": {
+            "adult": 730,
+            "child": 365
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 730,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "6fb627cc",
+      "isOvertaken": false
+    },
+    {
+      "id": 7,
+      "origin": {
+        "nlcCode": "1216",
+        "crsCode": "WSL",
+        "name": "Walsall",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T12:37:00+01:00",
+          "arrival": "2026-09-11T13:04:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The Gentlemen's toilets are out of order at Walsall station.",
+          "url": "",
+          "category": "Information",
+          "severity": "P2",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T17:14:33+01:00"
+        }
+      ],
+      "duration": "27m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "P69430|11/09/2026",
+          "trainRetailId": "LM086800",
+          "trainUid": "P69430",
+          "board": {
+            "crsCode": "WSL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Walsall"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "WSL",
+              "scheduledTime": "2026-09-11T12:37:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "WSL"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "WVH",
+              "scheduledTime": "2026-09-11T13:37:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "WVH"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "5B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T12:37:00+01:00",
+              "arrival": "2026-09-11T13:04:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 450,
+          "undiscountedPrices": {
+            "adult": 450,
+            "child": 225
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 450,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 590,
+          "undiscountedPrices": {
+            "adult": 590,
+            "child": 295
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 590,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 730,
+          "undiscountedPrices": {
+            "adult": 730,
+            "child": 365
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 730,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "2630b4ce",
+      "isOvertaken": false
+    },
+    {
+      "id": 8,
+      "origin": {
+        "nlcCode": "1216",
+        "crsCode": "WSL",
+        "name": "Walsall",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T12:50:00+01:00",
+          "arrival": "2026-09-11T13:12:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The Gentlemen's toilets are out of order at Walsall station.",
+          "url": "",
+          "category": "Information",
+          "severity": "P2",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T17:14:33+01:00"
+        }
+      ],
+      "duration": "22m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "W11515|11/09/2026",
+          "trainRetailId": "LM605200",
+          "trainUid": "W11515",
+          "board": {
+            "crsCode": "WSL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Walsall"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "RGL",
+              "scheduledTime": "2026-09-11T12:20:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "RGL"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHI",
+              "scheduledTime": "2026-09-11T13:41:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHI"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "3A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T12:50:00+01:00",
+              "arrival": "2026-09-11T13:12:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 450,
+          "undiscountedPrices": {
+            "adult": 450,
+            "child": 225
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 450,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 590,
+          "undiscountedPrices": {
+            "adult": 590,
+            "child": 295
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 590,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 730,
+          "undiscountedPrices": {
+            "adult": 730,
+            "child": 365
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 730,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "ed21ce63",
+      "isOvertaken": false
+    },
+    {
+      "id": 9,
+      "origin": {
+        "nlcCode": "1216",
+        "crsCode": "WSL",
+        "name": "Walsall",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T13:07:00+01:00",
+          "arrival": "2026-09-11T13:34:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The Gentlemen's toilets are out of order at Walsall station.",
+          "url": "",
+          "category": "Information",
+          "severity": "P2",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T17:14:33+01:00"
+        }
+      ],
+      "duration": "27m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "P69432|11/09/2026",
+          "trainRetailId": "LM086900",
+          "trainUid": "P69432",
+          "board": {
+            "crsCode": "WSL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Walsall"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "WSL",
+              "scheduledTime": "2026-09-11T13:07:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "WSL"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "WVH",
+              "scheduledTime": "2026-09-11T14:07:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "WVH"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "6B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T13:07:00+01:00",
+              "arrival": "2026-09-11T13:34:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 450,
+          "undiscountedPrices": {
+            "adult": 450,
+            "child": 225
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 450,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 590,
+          "undiscountedPrices": {
+            "adult": 590,
+            "child": 295
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 590,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 730,
+          "undiscountedPrices": {
+            "adult": 730,
+            "child": 365
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 730,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "0c99de08",
+      "isOvertaken": false
+    },
+    {
+      "id": 10,
+      "origin": {
+        "nlcCode": "1216",
+        "crsCode": "WSL",
+        "name": "Walsall",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T13:20:00+01:00",
+          "arrival": "2026-09-11T13:42:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The Gentlemen's toilets are out of order at Walsall station.",
+          "url": "",
+          "category": "Information",
+          "severity": "P2",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T17:14:33+01:00"
+        }
+      ],
+      "duration": "22m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "W11518|11/09/2026",
+          "trainRetailId": "LM605600",
+          "trainUid": "W11518",
+          "board": {
+            "crsCode": "WSL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Walsall"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "RGL",
+              "scheduledTime": "2026-09-11T12:50:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "RGL"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHI",
+              "scheduledTime": "2026-09-11T14:08:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHI"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "1A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T13:20:00+01:00",
+              "arrival": "2026-09-11T13:42:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 450,
+          "undiscountedPrices": {
+            "adult": 450,
+            "child": 225
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 450,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 590,
+          "undiscountedPrices": {
+            "adult": 590,
+            "child": 295
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 590,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 730,
+          "undiscountedPrices": {
+            "adult": 730,
+            "child": 365
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1216",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 730,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "2b2ff292",
+      "isOvertaken": false
+    }
+  ],
+  "inwardJourneys": [],
+  "searchSummary": {
+    "origin": {
+      "nlcCode": "1216",
+      "crsCode": "WSL",
+      "name": "Walsall",
+      "group": false,
+      "classification": "NORMAL"
+    },
+    "destination": {
+      "nlcCode": "1127",
+      "crsCode": "BHM",
+      "name": "Birmingham New Street",
+      "group": false,
+      "classification": "NORMAL"
+    }
+  },
+  "stationLookup": {
+    "WSL": "Walsall",
+    "BHM": "Birmingham New Street",
+    "WVH": "Wolverhampton",
+    "BHI": "Birmingham International"
+  },
+  "railcardLookup": {},
+  "fareLocationsLookup": {
+    "1216": "Walsall",
+    "0418": "Birmingham New Street, Moor Street or Snow Hill"
+  }
+}

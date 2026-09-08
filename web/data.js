@@ -32,12 +32,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 145,
-        "londonChanges": 1,
-        "birminghamMinutes": 105,
+        "londonMinutes": 155,
+        "londonChanges": 2,
+        "birminghamMinutes": 104,
         "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Barnsley: London 145 min (1 change), Birmingham 105 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -85,12 +85,12 @@ window.FLATS_DATA = {
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
-        "londonMinutes": 82,
+        "londonMinutes": 79,
         "londonChanges": 0,
         "birminghamMinutes": 0,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Birmingham New Street: London 82 min (0 changes), Birmingham 0 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "persistent_noise",
@@ -140,10 +140,10 @@ window.FLATS_DATA = {
       "nationalTransport": {
         "londonMinutes": 170,
         "londonChanges": 1,
-        "birminghamMinutes": 135,
+        "birminghamMinutes": 149,
         "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Blackburn: London 170 min (1 change), Birmingham 135 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -191,12 +191,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 185,
+        "londonMinutes": 167,
         "londonChanges": 1,
-        "birminghamMinutes": 130,
+        "birminghamMinutes": 161,
         "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Blackpool North: London 185 min (1 change), Birmingham 130 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -244,12 +244,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 155,
-        "londonChanges": 1,
-        "birminghamMinutes": 110,
+        "londonMinutes": 160,
+        "londonChanges": 2,
+        "birminghamMinutes": 123,
         "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Bolton: London 155 min (1 change), Birmingham 110 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -297,12 +297,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 170,
+        "londonMinutes": 165,
         "londonChanges": 1,
-        "birminghamMinutes": 145,
+        "birminghamMinutes": 153,
         "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Bradford Interchange: London 170 min (1 change), Birmingham 145 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -350,12 +350,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 190,
-        "londonChanges": 2,
-        "birminghamMinutes": 155,
+        "londonMinutes": 189,
+        "londonChanges": 1,
+        "birminghamMinutes": 174,
         "birminghamChanges": 2,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Burnley Manchester Road: London 190 min (2 changes), Birmingham 155 min (2 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -403,12 +403,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 95,
+        "londonMinutes": 98,
         "londonChanges": 1,
-        "birminghamMinutes": 30,
+        "birminghamMinutes": 24,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Burton-on-Trent: London 95 min (1 change), Birmingham 30 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -456,12 +456,12 @@ window.FLATS_DATA = {
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
-        "londonMinutes": 110,
+        "londonMinutes": 112,
         "londonChanges": 0,
         "birminghamMinutes": 120,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Cardiff Central: London 110 min (0 changes), Birmingham 120 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -509,12 +509,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 125,
+        "londonMinutes": 123,
         "londonChanges": 0,
-        "birminghamMinutes": 75,
-        "birminghamChanges": 0,
+        "birminghamMinutes": 85,
+        "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Chester: London 125 min (0 changes), Birmingham 75 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -562,12 +562,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 115,
+        "londonMinutes": 112,
         "londonChanges": 0,
-        "birminghamMinutes": 65,
+        "birminghamMinutes": 56,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Chesterfield: London 115 min (0 changes), Birmingham 65 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "lower_intensity",
@@ -615,12 +615,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 60,
+        "londonMinutes": 56,
         "londonChanges": 0,
         "birminghamMinutes": 20,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Coventry: London 60 min (0 changes), Birmingham 20 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "persistent_noise",
@@ -668,12 +668,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 135,
-        "londonChanges": 0,
-        "birminghamMinutes": 145,
-        "birminghamChanges": 1,
+        "londonMinutes": 152,
+        "londonChanges": 1,
+        "birminghamMinutes": 143,
+        "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Darlington: London 135 min (0 changes), Birmingham 145 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -721,12 +721,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 90,
+        "londonMinutes": 88,
         "londonChanges": 0,
-        "birminghamMinutes": 35,
+        "birminghamMinutes": 32,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Derby: London 90 min (0 changes), Birmingham 35 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -774,12 +774,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 100,
+        "londonMinutes": 92,
         "londonChanges": 0,
-        "birminghamMinutes": 95,
+        "birminghamMinutes": 88,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Doncaster: London 100 min (0 changes), Birmingham 95 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "persistent_noise",
@@ -827,12 +827,12 @@ window.FLATS_DATA = {
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
-        "londonMinutes": 180,
-        "londonChanges": 0,
-        "birminghamMinutes": 190,
-        "birminghamChanges": 0,
-        "confidence": "Low",
-        "reason": "Approximate representative faster weekday journey from Newcastle used; short Metro connection from Gateshead: London 180 min (0 changes), Birmingham 190 min (0 changes); recheck against the exact travel date."
+        "londonMinutes": 192,
+        "londonChanges": 2,
+        "birminghamMinutes": 198,
+        "birminghamChanges": 1,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -880,12 +880,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 105,
+        "londonMinutes": 100,
         "londonChanges": 0,
-        "birminghamMinutes": 55,
+        "birminghamMinutes": 56,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Gloucester: London 105 min (0 changes), Birmingham 55 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -933,12 +933,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 180,
-        "londonChanges": 1,
-        "birminghamMinutes": 145,
-        "birminghamChanges": 1,
+        "londonMinutes": 172,
+        "londonChanges": 0,
+        "birminghamMinutes": 156,
+        "birminghamChanges": 2,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Halifax: London 180 min (1 change), Birmingham 145 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -986,12 +986,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 195,
-        "londonChanges": 1,
-        "birminghamMinutes": 195,
+        "londonMinutes": 188,
+        "londonChanges": 0,
+        "birminghamMinutes": 209,
         "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Hartlepool: London 195 min (1 change), Birmingham 195 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -1039,12 +1039,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 175,
-        "londonChanges": 1,
-        "birminghamMinutes": 135,
-        "birminghamChanges": 1,
+        "londonMinutes": 160,
+        "londonChanges": 2,
+        "birminghamMinutes": 142,
+        "birminghamChanges": 2,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Huddersfield: London 175 min (1 change), Birmingham 135 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "lower_intensity",
@@ -1092,12 +1092,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 165,
+        "londonMinutes": 164,
         "londonChanges": 0,
-        "birminghamMinutes": 145,
+        "birminghamMinutes": 159,
         "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Hull: London 165 min (0 changes), Birmingham 145 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "persistent_noise",
@@ -1145,12 +1145,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 65,
+        "londonMinutes": 66,
         "londonChanges": 0,
-        "birminghamMinutes": 170,
-        "birminghamChanges": 1,
+        "birminghamMinutes": 195,
+        "birminghamChanges": 2,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Ipswich: London 65 min (0 changes), Birmingham 170 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -1198,12 +1198,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 55,
+        "londonMinutes": 47,
         "londonChanges": 0,
-        "birminghamMinutes": 70,
-        "birminghamChanges": 0,
+        "birminghamMinutes": 76,
+        "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Kettering: London 55 min (0 changes), Birmingham 70 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "lower_intensity",
@@ -1251,12 +1251,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 145,
+        "londonMinutes": 151,
         "londonChanges": 0,
-        "birminghamMinutes": 110,
+        "birminghamMinutes": 126,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Lancaster: London 145 min (0 changes), Birmingham 110 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "lower_intensity",
@@ -1304,12 +1304,12 @@ window.FLATS_DATA = {
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
-        "londonMinutes": 130,
+        "londonMinutes": 132,
         "londonChanges": 0,
-        "birminghamMinutes": 115,
+        "birminghamMinutes": 109,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Leeds: London 130 min (0 changes), Birmingham 115 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -1357,12 +1357,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 65,
+        "londonMinutes": 63,
         "londonChanges": 0,
-        "birminghamMinutes": 55,
+        "birminghamMinutes": 48,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Leicester: London 65 min (0 changes), Birmingham 55 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -1410,12 +1410,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 120,
+        "londonMinutes": 116,
         "londonChanges": 0,
-        "birminghamMinutes": 105,
+        "birminghamMinutes": 138,
         "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Lincoln: London 120 min (0 changes), Birmingham 105 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "lower_intensity",
@@ -1463,12 +1463,12 @@ window.FLATS_DATA = {
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
-        "londonMinutes": 135,
+        "londonMinutes": 140,
         "londonChanges": 0,
-        "birminghamMinutes": 95,
+        "birminghamMinutes": 96,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Liverpool Lime Street: London 135 min (0 changes), Birmingham 95 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -1516,12 +1516,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 75,
+        "londonMinutes": 74,
         "londonChanges": 0,
-        "birminghamMinutes": 75,
-        "birminghamChanges": 0,
+        "birminghamMinutes": 66,
+        "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Loughborough: London 75 min (0 changes), Birmingham 75 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -1569,12 +1569,12 @@ window.FLATS_DATA = {
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
-        "londonMinutes": 125,
+        "londonMinutes": 127,
         "londonChanges": 0,
         "birminghamMinutes": 90,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Manchester Piccadilly: London 125 min (0 changes), Birmingham 90 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "persistent_noise",
@@ -1622,12 +1622,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 205,
+        "londonMinutes": 182,
         "londonChanges": 1,
-        "birminghamMinutes": 185,
+        "birminghamMinutes": 196,
         "birminghamChanges": 2,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Merthyr Tydfil: London 205 min (1 change), Birmingham 185 min (2 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -1675,12 +1675,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 180,
-        "londonChanges": 0,
-        "birminghamMinutes": 175,
-        "birminghamChanges": 0,
+        "londonMinutes": 195,
+        "londonChanges": 1,
+        "birminghamMinutes": 182,
+        "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Middlesbrough: London 180 min (0 changes), Birmingham 175 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "persistent_noise",
@@ -1728,12 +1728,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 150,
+        "londonMinutes": 155,
         "londonChanges": 0,
-        "birminghamMinutes": 165,
+        "birminghamMinutes": 164,
         "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Neath: London 150 min (0 changes), Birmingham 165 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -1781,12 +1781,12 @@ window.FLATS_DATA = {
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
-        "londonMinutes": 170,
+        "londonMinutes": 166,
         "londonChanges": 0,
-        "birminghamMinutes": 185,
+        "birminghamMinutes": 174,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Newcastle: London 170 min (0 changes), Birmingham 185 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -1834,12 +1834,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 100,
+        "londonMinutes": 97,
         "londonChanges": 0,
-        "birminghamMinutes": 105,
-        "birminghamChanges": 0,
+        "birminghamMinutes": 104,
+        "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Newport (South Wales): London 100 min (0 changes), Birmingham 105 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "persistent_noise",
@@ -1887,12 +1887,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 60,
+        "londonMinutes": 59,
         "londonChanges": 0,
-        "birminghamMinutes": 60,
+        "birminghamMinutes": 64,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Northampton: London 60 min (0 changes), Birmingham 60 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -1940,12 +1940,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 110,
+        "londonMinutes": 107,
         "londonChanges": 0,
-        "birminghamMinutes": 210,
+        "birminghamMinutes": 226,
         "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Norwich: London 110 min (0 changes), Birmingham 210 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "lower_intensity",
@@ -1993,12 +1993,12 @@ window.FLATS_DATA = {
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
-        "londonMinutes": 100,
+        "londonMinutes": 97,
         "londonChanges": 0,
-        "birminghamMinutes": 75,
-        "birminghamChanges": 0,
+        "birminghamMinutes": 70,
+        "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Nottingham: London 100 min (0 changes), Birmingham 75 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -2046,12 +2046,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 50,
+        "londonMinutes": 48,
         "londonChanges": 0,
-        "birminghamMinutes": 100,
+        "birminghamMinutes": 104,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Peterborough: London 50 min (0 changes), Birmingham 100 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "persistent_noise",
@@ -2099,12 +2099,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 190,
+        "londonMinutes": 194,
         "londonChanges": 0,
-        "birminghamMinutes": 205,
+        "birminghamMinutes": 208,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Plymouth: London 190 min (0 changes), Birmingham 205 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "lower_intensity",
@@ -2152,12 +2152,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 95,
+        "londonMinutes": 92,
         "londonChanges": 0,
-        "birminghamMinutes": 165,
-        "birminghamChanges": 0,
+        "birminghamMinutes": 204,
+        "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Portsmouth & Southsea: London 95 min (0 changes), Birmingham 165 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "persistent_noise",
@@ -2205,12 +2205,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 130,
+        "londonMinutes": 132,
         "londonChanges": 0,
-        "birminghamMinutes": 100,
+        "birminghamMinutes": 108,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Preston: London 130 min (0 changes), Birmingham 100 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -2258,12 +2258,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 145,
+        "londonMinutes": 144,
         "londonChanges": 1,
-        "birminghamMinutes": 100,
+        "birminghamMinutes": 90,
         "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Rotherham Central: London 145 min (1 change), Birmingham 100 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "persistent_noise",
@@ -2311,12 +2311,12 @@ window.FLATS_DATA = {
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
-        "londonMinutes": 135,
-        "londonChanges": 0,
-        "birminghamMinutes": 95,
-        "birminghamChanges": 0,
-        "confidence": "Low",
-        "reason": "Approximate representative faster weekday journey from Manchester Piccadilly used; Salford origin is ambiguous: London 135 min (0 changes), Birmingham 95 min (0 changes); recheck against the exact travel date."
+        "londonMinutes": 174,
+        "londonChanges": 3,
+        "birminghamMinutes": 123,
+        "birminghamChanges": 2,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "persistent_noise",
@@ -2364,12 +2364,12 @@ window.FLATS_DATA = {
         "reason": "A dense multimodal network"
       },
       "nationalTransport": {
-        "londonMinutes": 120,
+        "londonMinutes": 124,
         "londonChanges": 0,
-        "birminghamMinutes": 75,
+        "birminghamMinutes": 61,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Sheffield: London 120 min (0 changes), Birmingham 75 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -2417,12 +2417,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 150,
+        "londonMinutes": 156,
         "londonChanges": 1,
-        "birminghamMinutes": 60,
+        "birminghamMinutes": 61,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Shrewsbury: London 150 min (1 change), Birmingham 60 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "lower_intensity",
@@ -2470,12 +2470,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 145,
+        "londonMinutes": 136,
         "londonChanges": 1,
-        "birminghamMinutes": 90,
+        "birminghamMinutes": 129,
         "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from St Helens Central: London 145 min (1 change), Birmingham 90 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -2523,12 +2523,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 75,
+        "londonMinutes": 76,
         "londonChanges": 0,
-        "birminghamMinutes": 35,
+        "birminghamMinutes": 32,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Stafford: London 75 min (0 changes), Birmingham 35 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "lower_intensity",
@@ -2576,12 +2576,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 120,
+        "londonMinutes": 117,
         "londonChanges": 0,
-        "birminghamMinutes": 75,
+        "birminghamMinutes": 80,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Stockport: London 120 min (0 changes), Birmingham 75 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -2629,12 +2629,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 185,
-        "londonChanges": 1,
-        "birminghamMinutes": 180,
-        "birminghamChanges": 1,
-        "confidence": "Low",
-        "reason": "Approximate representative faster weekday journey from Thornaby used for representative mainline journeys: London 185 min (1 change), Birmingham 180 min (1 change); recheck against the exact travel date."
+        "londonMinutes": 202,
+        "londonChanges": 2,
+        "birminghamMinutes": 207,
+        "birminghamChanges": 2,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "persistent_noise",
@@ -2682,12 +2682,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 85,
+        "londonMinutes": 91,
         "londonChanges": 0,
-        "birminghamMinutes": 50,
+        "birminghamMinutes": 49,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Stoke-on-Trent: London 85 min (0 changes), Birmingham 50 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -2735,12 +2735,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 195,
-        "londonChanges": 0,
-        "birminghamMinutes": 205,
+        "londonMinutes": 210,
+        "londonChanges": 1,
+        "birminghamMinutes": 211,
         "birminghamChanges": 1,
-        "confidence": "Low",
-        "reason": "Approximate representative faster weekday journey from Sunderland; direct London service is limited: London 195 min (0 changes), Birmingham 205 min (1 change); recheck against the exact travel date."
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -2788,12 +2788,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 170,
+        "londonMinutes": 167,
         "londonChanges": 0,
-        "birminghamMinutes": 185,
+        "birminghamMinutes": 177,
         "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Swansea: London 170 min (0 changes), Birmingham 185 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "lower_intensity",
@@ -2841,12 +2841,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 55,
+        "londonMinutes": 50,
         "londonChanges": 0,
-        "birminghamMinutes": 95,
+        "birminghamMinutes": 109,
         "birminghamChanges": 1,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Swindon: London 55 min (0 changes), Birmingham 95 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -2894,12 +2894,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 125,
+        "londonMinutes": 133,
         "londonChanges": 1,
-        "birminghamMinutes": 40,
+        "birminghamMinutes": 38,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Telford Central: London 125 min (1 change), Birmingham 40 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -2949,10 +2949,10 @@ window.FLATS_DATA = {
       "nationalTransport": {
         "londonMinutes": 180,
         "londonChanges": 1,
-        "birminghamMinutes": 195,
-        "birminghamChanges": 1,
-        "confidence": "Low",
-        "reason": "Approximate representative faster weekday journey from Torquay used; some faster itineraries connect at Newton Abbot: London 180 min (1 change), Birmingham 195 min (1 change); recheck against the exact travel date."
+        "birminghamMinutes": 179,
+        "birminghamChanges": 0,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "lower_intensity",
@@ -3002,10 +3002,10 @@ window.FLATS_DATA = {
       "nationalTransport": {
         "londonMinutes": 120,
         "londonChanges": 0,
-        "birminghamMinutes": 110,
-        "birminghamChanges": 1,
+        "birminghamMinutes": 97,
+        "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Wakefield Westgate: London 120 min (0 changes), Birmingham 110 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "persistent_noise",
@@ -3053,12 +3053,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 115,
+        "londonMinutes": 119,
         "londonChanges": 1,
-        "birminghamMinutes": 25,
+        "birminghamMinutes": 22,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Walsall: London 115 min (1 change), Birmingham 25 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -3106,12 +3106,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 105,
+        "londonMinutes": 108,
         "londonChanges": 0,
-        "birminghamMinutes": 70,
+        "birminghamMinutes": 84,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Warrington Bank Quay: London 105 min (0 changes), Birmingham 70 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "persistent_noise",
@@ -3159,12 +3159,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 120,
+        "londonMinutes": 119,
         "londonChanges": 0,
-        "birminghamMinutes": 85,
+        "birminghamMinutes": 95,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Wigan North Western: London 120 min (0 changes), Birmingham 85 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -3212,12 +3212,12 @@ window.FLATS_DATA = {
         "reason": "A useful town/city bus-and-rail network"
       },
       "nationalTransport": {
-        "londonMinutes": 105,
-        "londonChanges": 0,
-        "birminghamMinutes": 20,
+        "londonMinutes": 97,
+        "londonChanges": 1,
+        "birminghamMinutes": 18,
         "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Wolverhampton: London 105 min (0 changes), Birmingham 20 min (0 changes); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "persistent_noise",
@@ -3265,12 +3265,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 125,
+        "londonMinutes": 131,
         "londonChanges": 0,
         "birminghamMinutes": 45,
-        "birminghamChanges": 0,
-        "confidence": "Low",
-        "reason": "Approximate representative faster weekday journey from Worcester Foregate Street; city has multiple stations: London 125 min (0 changes), Birmingham 45 min (0 changes); recheck against the exact travel date."
+        "birminghamChanges": 1,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "lower_intensity",
@@ -3318,12 +3318,12 @@ window.FLATS_DATA = {
         "reason": "Basic bus and rail coverage with less network depth"
       },
       "nationalTransport": {
-        "londonMinutes": 140,
+        "londonMinutes": 149,
         "londonChanges": 1,
-        "birminghamMinutes": 75,
-        "birminghamChanges": 1,
+        "birminghamMinutes": 111,
+        "birminghamChanges": 0,
         "confidence": "Medium",
-        "reason": "Approximate representative faster weekday journey from Wrexham General: London 140 min (1 change), Birmingham 75 min (1 change); recheck against the exact travel date."
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
       "quiet": {
         "assessment": "mixed_exposure",
@@ -3364,7 +3364,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 483 sale and 442 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 94,
+        "londonChanges": 0,
+        "birminghamMinutes": 79,
+        "birminghamChanges": 0,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3392,7 +3399,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 339 sale and 343 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 77,
+        "londonChanges": 0,
+        "birminghamMinutes": 156,
+        "birminghamChanges": 0,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3420,7 +3434,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 454 sale and 357 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock. Bournemouth–Poole sums separate Bournemouth and Poole portal regions; their proprietary boundaries may overlap or omit parts of the broad comparison geography."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 111,
+        "londonChanges": 1,
+        "birminghamMinutes": 186,
+        "birminghamChanges": 0,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3448,7 +3469,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 553 sale and 436 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 61,
+        "londonChanges": 0,
+        "birminghamMinutes": 192,
+        "birminghamChanges": 2,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3476,7 +3504,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 84 sale and 57 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 134,
+        "londonChanges": 0,
+        "birminghamMinutes": 143,
+        "birminghamChanges": 0,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3504,7 +3539,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 207 sale and 332 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 23,
+        "londonChanges": 0,
+        "birminghamMinutes": 90,
+        "birminghamChanges": 0,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3532,7 +3574,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 161 sale and 240 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 32,
+        "londonChanges": 0,
+        "birminghamMinutes": 56,
+        "birminghamChanges": 0,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3560,7 +3609,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 179 sale and 222 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 26,
+        "londonChanges": 0,
+        "birminghamMinutes": 118,
+        "birminghamChanges": 2,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3588,7 +3644,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 147 sale and 73 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 57,
+        "londonChanges": 0,
+        "birminghamMinutes": 191,
+        "birminghamChanges": 2,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3616,7 +3679,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 126 sale and 212 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 50,
+        "londonChanges": 0,
+        "birminghamMinutes": 158,
+        "birminghamChanges": 0,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3644,7 +3714,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 118 sale and 114 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 47,
+        "londonChanges": 0,
+        "birminghamMinutes": 176,
+        "birminghamChanges": 2,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3672,7 +3749,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 88 sale and 185 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 51,
+        "londonChanges": 0,
+        "birminghamMinutes": 64,
+        "birminghamChanges": 0,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3700,7 +3784,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 104 sale and 90 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 81,
+        "londonChanges": 0,
+        "birminghamMinutes": 108,
+        "birminghamChanges": 1,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3728,7 +3819,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 2 sale and 0 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 135,
+        "londonChanges": 0,
+        "birminghamMinutes": 143,
+        "birminghamChanges": 1,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3756,7 +3854,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 0 sale and 0 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 195,
+        "londonChanges": 1,
+        "birminghamMinutes": 210,
+        "birminghamChanges": 2,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3784,7 +3889,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 8 sale and 1 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 201,
+        "londonChanges": 0,
+        "birminghamMinutes": 161,
+        "birminghamChanges": 1,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3812,7 +3924,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 1 sale and 5 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 165,
+        "londonChanges": 0,
+        "birminghamMinutes": 125,
+        "birminghamChanges": 1,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3840,7 +3959,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 115 sale and 75 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 113,
+        "londonChanges": 0,
+        "birminghamMinutes": 112,
+        "birminghamChanges": 0,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3868,7 +3994,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 9 sale and 8 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 169,
+        "londonChanges": 1,
+        "birminghamMinutes": 161,
+        "birminghamChanges": 0,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     },
@@ -3896,7 +4029,14 @@ window.FLATS_DATA = {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 107 sale and 113 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {},
-      "nationalTransport": {},
+      "nationalTransport": {
+        "londonMinutes": 112,
+        "londonChanges": 1,
+        "birminghamMinutes": 39,
+        "birminghamChanges": 0,
+        "confidence": "Medium",
+        "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
+      },
       "quiet": {},
       "condition": {}
     }
@@ -9762,6 +9902,18 @@ window.FLATS_DATA = {
       "geography": "One representative National Rail station per remaining broad location",
       "coverage": "71 station pages and a hash-verified manifest in 2026-09-08-national-transport-station-mappings-full",
       "limitations": "Station pages verify station identity and CRS. Each selection remains a representative broad-place origin, not a whole-place accessibility measurement or journey-time observation."
+    },
+    {
+      "id": "TR-NATIONAL-20260908-DIRECT-SUPPLEMENT",
+      "workstream": "transport",
+      "title": "National Rail Journey Planner: full-route supplement",
+      "publisher": "Rail Delivery Group",
+      "url": "https://jpservices.nationalrail.co.uk/journey-planner",
+      "dataPeriod": "Journey date 2026-09-11; requests retrieved 2026-09-08",
+      "retrievalDate": "2026-09-08",
+      "geography": "Reviewed representative origin stations to London (All Stations) and Birmingham New Street",
+      "coverage": "142 non-pilot routes with four retained JSON searches per route and a hash-verified manifest in 2026-09-08-national-transport-direct-supplement",
+      "limitations": "Dated Journey Planner snapshots. Review selects the shortest returned itinerary departing in the documented window without a mode-based filter. They are not guaranteed, door-to-door, fare, frequency or accessibility measures. Together with the accepted direct pilot release, this covers the screen for review only."
     }
   ],
   "composite": {
@@ -9781,25 +9933,25 @@ window.FLATS_DATA = {
       "buy": {
         "low": {
           "count": 21,
-          "minimum": 50.5,
-          "maximum": 61.0
+          "minimum": 48.5,
+          "maximum": 60.5
         },
         "mid": {
-          "count": 20,
-          "minimum": 61.5,
+          "count": 21,
+          "minimum": 61.0,
           "maximum": 65.0
         },
         "high": {
-          "count": 22,
+          "count": 21,
           "minimum": 65.5,
-          "maximum": 81.0
+          "maximum": 80.0
         },
         "unknown": 20
       },
       "rent": {
         "low": {
           "count": 20,
-          "minimum": 49.0,
+          "minimum": 48.0,
           "maximum": 60.0
         },
         "mid": {
@@ -9810,7 +9962,7 @@ window.FLATS_DATA = {
         "high": {
           "count": 22,
           "minimum": 65.5,
-          "maximum": 81.0
+          "maximum": 80.0
         },
         "unknown": 20
       }
@@ -9825,12 +9977,12 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 3.5,
+              "national_transport": 3.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 65.5,
-            "band": "high"
+            "score": 64.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -9838,11 +9990,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 3.5,
+              "national_transport": 3.0,
               "affordability": 5,
               "stock": 2
             },
-            "score": 62.5,
+            "score": 61.5,
             "band": "mid"
           }
         }
@@ -9918,11 +10070,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 2.5,
+              "national_transport": 2.0,
               "affordability": 5,
               "stock": 4
             },
-            "score": 62.0,
+            "score": 61.0,
             "band": "mid"
           },
           "rent": {
@@ -9931,11 +10083,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 2.5,
+              "national_transport": 2.0,
               "affordability": 5,
               "stock": 4
             },
-            "score": 62.0,
+            "score": 61.0,
             "band": "mid"
           }
         }
@@ -9980,11 +10132,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 2.5,
+              "national_transport": 2.0,
               "affordability": 5,
               "stock": 4
             },
-            "score": 63.5,
+            "score": 62.5,
             "band": "mid"
           },
           "rent": {
@@ -9993,11 +10145,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 2.5,
+              "national_transport": 2.0,
               "affordability": 5,
               "stock": 4
             },
-            "score": 63.5,
+            "score": 62.5,
             "band": "mid"
           }
         }
@@ -10011,11 +10163,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 1.5,
+              "national_transport": 2.0,
               "affordability": 5,
               "stock": 1
             },
-            "score": 51.0,
+            "score": 52.0,
             "band": "low"
           },
           "rent": {
@@ -10024,11 +10176,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 1.5,
+              "national_transport": 2.0,
               "affordability": 5,
               "stock": 2
             },
-            "score": 54.0,
+            "score": 55.0,
             "band": "low"
           }
         }
@@ -10104,11 +10256,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 4,
               "quiet": 3,
-              "national_transport": 4.0,
+              "national_transport": 3.5,
               "affordability": 1,
               "stock": 3
             },
-            "score": 66.5,
+            "score": 65.5,
             "band": "high"
           },
           "rent": {
@@ -10117,11 +10269,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 4,
               "quiet": 3,
-              "national_transport": 4.0,
+              "national_transport": 3.5,
               "affordability": 3,
               "stock": 3
             },
-            "score": 72.5,
+            "score": 71.5,
             "band": "high"
           }
         }
@@ -10197,11 +10349,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 3.0,
+              "national_transport": 2.5,
               "affordability": 5,
               "stock": 2
             },
-            "score": 63.0,
+            "score": 62.0,
             "band": "mid"
           },
           "rent": {
@@ -10210,11 +10362,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 3.0,
+              "national_transport": 2.5,
               "affordability": 5,
               "stock": 2
             },
-            "score": 63.0,
+            "score": 62.0,
             "band": "mid"
           }
         }
@@ -10290,11 +10442,11 @@ window.FLATS_DATA = {
               "local_transport": 5,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 2.0,
+              "national_transport": 1.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 71.5,
+            "score": 69.5,
             "band": "high"
           },
           "rent": {
@@ -10303,11 +10455,11 @@ window.FLATS_DATA = {
               "local_transport": 5,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 2.0,
+              "national_transport": 1.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 71.5,
+            "score": 69.5,
             "band": "high"
           }
         }
@@ -10352,11 +10504,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 2.5,
+              "national_transport": 2.0,
               "affordability": 3,
               "stock": 3
             },
-            "score": 54.5,
+            "score": 53.5,
             "band": "low"
           },
           "rent": {
@@ -10365,12 +10517,12 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 2.5,
+              "national_transport": 2.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 60.5,
-            "band": "mid"
+            "score": 59.5,
+            "band": "low"
           }
         }
       },
@@ -10383,11 +10535,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 2.0,
+              "national_transport": 1.5,
               "affordability": 5,
               "stock": 2
             },
-            "score": 52.0,
+            "score": 51.0,
             "band": "low"
           },
           "rent": {
@@ -10396,11 +10548,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 2.0,
+              "national_transport": 1.5,
               "affordability": 5,
               "stock": 1
             },
-            "score": 49.0,
+            "score": 48.0,
             "band": "low"
           }
         }
@@ -10414,11 +10566,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 4,
-              "national_transport": 2.5,
+              "national_transport": 2.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 68.0,
+            "score": 67.0,
             "band": "high"
           },
           "rent": {
@@ -10427,11 +10579,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 4,
-              "national_transport": 2.5,
+              "national_transport": 2.0,
               "affordability": 5,
               "stock": 4
             },
-            "score": 71.0,
+            "score": 70.0,
             "band": "high"
           }
         }
@@ -10445,12 +10597,12 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 2,
-              "national_transport": 3.0,
+              "national_transport": 2.5,
               "affordability": 5,
               "stock": 4
             },
-            "score": 61.5,
-            "band": "mid"
+            "score": 60.5,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -10458,11 +10610,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 2,
-              "national_transport": 3.0,
+              "national_transport": 2.5,
               "affordability": 5,
               "stock": 4
             },
-            "score": 61.5,
+            "score": 60.5,
             "band": "mid"
           }
         }
@@ -10476,11 +10628,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 3.5,
+              "national_transport": 3.0,
               "affordability": 3,
               "stock": 4
             },
-            "score": 64.0,
+            "score": 63.0,
             "band": "mid"
           },
           "rent": {
@@ -10489,11 +10641,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 3.5,
+              "national_transport": 3.0,
               "affordability": 3,
               "stock": 4
             },
-            "score": 64.0,
+            "score": 63.0,
             "band": "mid"
           }
         }
@@ -10507,11 +10659,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 4,
-              "national_transport": 5.0,
+              "national_transport": 4.5,
               "affordability": 3,
               "stock": 2
             },
-            "score": 64.0,
+            "score": 63.0,
             "band": "mid"
           },
           "rent": {
@@ -10520,11 +10672,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 4,
-              "national_transport": 5.0,
+              "national_transport": 4.5,
               "affordability": 3,
               "stock": 3
             },
-            "score": 67.0,
+            "score": 66.0,
             "band": "high"
           }
         }
@@ -10538,11 +10690,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 4,
               "quiet": 4,
-              "national_transport": 3.5,
+              "national_transport": 3.0,
               "affordability": 3,
               "stock": 3
             },
-            "score": 76.0,
+            "score": 75.0,
             "band": "high"
           },
           "rent": {
@@ -10551,11 +10703,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 4,
               "quiet": 4,
-              "national_transport": 3.5,
+              "national_transport": 3.0,
               "affordability": 3,
               "stock": 1
             },
-            "score": 70.0,
+            "score": 69.0,
             "band": "high"
           }
         }
@@ -10631,11 +10783,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 4,
               "quiet": 4,
-              "national_transport": 4.0,
+              "national_transport": 3.5,
               "affordability": 3,
               "stock": 3
             },
-            "score": 63.5,
+            "score": 62.5,
             "band": "mid"
           },
           "rent": {
@@ -10644,11 +10796,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 4,
               "quiet": 4,
-              "national_transport": 4.0,
+              "national_transport": 3.5,
               "affordability": 3,
               "stock": 3
             },
-            "score": 63.5,
+            "score": 62.5,
             "band": "mid"
           }
         }
@@ -10693,11 +10845,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 5.0,
+              "national_transport": 4.5,
               "affordability": 3,
               "stock": 2
             },
-            "score": 64.0,
+            "score": 63.0,
             "band": "mid"
           },
           "rent": {
@@ -10706,11 +10858,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 5.0,
+              "national_transport": 4.5,
               "affordability": 3,
               "stock": 2
             },
-            "score": 64.0,
+            "score": 63.0,
             "band": "mid"
           }
         }
@@ -10729,7 +10881,7 @@ window.FLATS_DATA = {
               "stock": 5
             },
             "score": 61.0,
-            "band": "low"
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -10755,11 +10907,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 1.0,
+              "national_transport": 1.5,
               "affordability": 5,
               "stock": 1
             },
-            "score": 56.0,
+            "score": 57.0,
             "band": "low"
           },
           "rent": {
@@ -10768,11 +10920,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 1.0,
+              "national_transport": 1.5,
               "affordability": 5,
               "stock": 1
             },
-            "score": 56.0,
+            "score": 57.0,
             "band": "low"
           }
         }
@@ -10972,11 +11124,11 @@ window.FLATS_DATA = {
               "local_transport": 5,
               "condition": 4,
               "quiet": 3,
-              "national_transport": 4.5,
+              "national_transport": 4.0,
               "affordability": 3,
               "stock": 4
             },
-            "score": 70.5,
+            "score": 69.5,
             "band": "high"
           },
           "rent": {
@@ -10985,11 +11137,11 @@ window.FLATS_DATA = {
               "local_transport": 5,
               "condition": 4,
               "quiet": 3,
-              "national_transport": 4.5,
+              "national_transport": 4.0,
               "affordability": 3,
               "stock": 5
             },
-            "score": 73.5,
+            "score": 72.5,
             "band": "high"
           }
         }
@@ -11065,11 +11217,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 2,
-              "national_transport": 3.5,
+              "national_transport": 2.5,
               "affordability": 1,
               "stock": 4
             },
-            "score": 50.5,
+            "score": 48.5,
             "band": "low"
           },
           "rent": {
@@ -11078,11 +11230,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 2,
-              "national_transport": 3.5,
+              "national_transport": 2.5,
               "affordability": 1,
               "stock": 4
             },
-            "score": 50.5,
+            "score": 48.5,
             "band": "low"
           }
         }
@@ -11158,11 +11310,11 @@ window.FLATS_DATA = {
               "local_transport": 5,
               "condition": 2,
               "quiet": 2,
-              "national_transport": 3.5,
+              "national_transport": 2.0,
               "affordability": 1,
               "stock": 5
             },
-            "score": 58.0,
+            "score": 55.0,
             "band": "low"
           },
           "rent": {
@@ -11171,11 +11323,11 @@ window.FLATS_DATA = {
               "local_transport": 5,
               "condition": 2,
               "quiet": 2,
-              "national_transport": 3.5,
+              "national_transport": 2.0,
               "affordability": 1,
               "stock": 5
             },
-            "score": 58.0,
+            "score": 55.0,
             "band": "low"
           }
         }
@@ -11189,11 +11341,11 @@ window.FLATS_DATA = {
               "local_transport": 5,
               "condition": 4,
               "quiet": 3,
-              "national_transport": 4.5,
+              "national_transport": 4.0,
               "affordability": 3,
               "stock": 5
             },
-            "score": 81.0,
+            "score": 80.0,
             "band": "high"
           },
           "rent": {
@@ -11202,11 +11354,11 @@ window.FLATS_DATA = {
               "local_transport": 5,
               "condition": 4,
               "quiet": 3,
-              "national_transport": 4.5,
+              "national_transport": 4.0,
               "affordability": 3,
               "stock": 5
             },
-            "score": 81.0,
+            "score": 80.0,
             "band": "high"
           }
         }
@@ -11220,11 +11372,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 5,
               "quiet": 4,
-              "national_transport": 4.0,
+              "national_transport": 3.5,
               "affordability": 1,
               "stock": 3
             },
-            "score": 71.0,
+            "score": 70.0,
             "band": "high"
           },
           "rent": {
@@ -11233,11 +11385,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 5,
               "quiet": 4,
-              "national_transport": 4.0,
+              "national_transport": 3.5,
               "affordability": 3,
               "stock": 3
             },
-            "score": 77.0,
+            "score": 76.0,
             "band": "high"
           }
         }
@@ -11251,11 +11403,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 3.5,
+              "national_transport": 3.0,
               "affordability": 5,
               "stock": 1
             },
-            "score": 61.0,
+            "score": 60.0,
             "band": "low"
           },
           "rent": {
@@ -11264,11 +11416,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 3.5,
+              "national_transport": 3.0,
               "affordability": 3,
               "stock": 2
             },
-            "score": 58.0,
+            "score": 57.0,
             "band": "low"
           }
         }
@@ -11282,11 +11434,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 4,
               "quiet": 4,
-              "national_transport": 5.0,
+              "national_transport": 4.5,
               "affordability": 3,
               "stock": 2
             },
-            "score": 71.5,
+            "score": 70.5,
             "band": "high"
           },
           "rent": {
@@ -11295,11 +11447,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 4,
               "quiet": 4,
-              "national_transport": 5.0,
+              "national_transport": 4.5,
               "affordability": 3,
               "stock": 2
             },
-            "score": 71.5,
+            "score": 70.5,
             "band": "high"
           }
         }
@@ -11313,11 +11465,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 4,
               "quiet": 3,
-              "national_transport": 4.5,
+              "national_transport": 4.0,
               "affordability": 1,
               "stock": 3
             },
-            "score": 69.0,
+            "score": 68.0,
             "band": "high"
           },
           "rent": {
@@ -11326,11 +11478,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 4,
               "quiet": 3,
-              "national_transport": 4.5,
+              "national_transport": 4.0,
               "affordability": 1,
               "stock": 4
             },
-            "score": 72.0,
+            "score": 71.0,
             "band": "high"
           }
         }
@@ -11344,11 +11496,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 2,
-              "national_transport": 2.0,
+              "national_transport": 1.0,
               "affordability": 5,
               "stock": 2
             },
-            "score": 50.5,
+            "score": 48.5,
             "band": "low"
           },
           "rent": {
@@ -11357,11 +11509,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "condition": 2,
               "quiet": 2,
-              "national_transport": 2.0,
+              "national_transport": 1.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 53.5,
+            "score": 51.5,
             "band": "low"
           }
         }
@@ -11406,11 +11558,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 1.5,
+              "national_transport": 1.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 64.5,
+            "score": 63.5,
             "band": "mid"
           },
           "rent": {
@@ -11419,11 +11571,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 1.5,
+              "national_transport": 1.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 64.5,
+            "score": 63.5,
             "band": "mid"
           }
         }
@@ -11468,11 +11620,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 4.5,
+              "national_transport": 4.0,
               "affordability": 1,
               "stock": 4
             },
-            "score": 64.5,
+            "score": 63.5,
             "band": "mid"
           },
           "rent": {
@@ -11481,11 +11633,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 3,
-              "national_transport": 4.5,
+              "national_transport": 4.0,
               "affordability": 1,
               "stock": 4
             },
-            "score": 64.5,
+            "score": 63.5,
             "band": "mid"
           }
         }
@@ -11561,11 +11713,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 2,
-              "national_transport": 3.5,
+              "national_transport": 4.0,
               "affordability": 3,
               "stock": 3
             },
-            "score": 53.5,
+            "score": 54.5,
             "band": "low"
           },
           "rent": {
@@ -11574,12 +11726,12 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 2,
-              "national_transport": 3.5,
+              "national_transport": 4.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 59.5,
-            "band": "low"
+            "score": 60.5,
+            "band": "mid"
           }
         }
       },
@@ -11623,11 +11775,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 2,
-              "national_transport": 4.5,
+              "national_transport": 4.0,
               "affordability": 3,
               "stock": 3
             },
-            "score": 63.0,
+            "score": 62.0,
             "band": "mid"
           },
           "rent": {
@@ -11636,11 +11788,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "condition": 2,
               "quiet": 2,
-              "national_transport": 4.5,
+              "national_transport": 4.0,
               "affordability": 3,
               "stock": 3
             },
-            "score": 63.0,
+            "score": 62.0,
             "band": "mid"
           }
         }
@@ -11778,7 +11930,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 4.0,
               "affordability": 1,
               "stock": 5
             },
@@ -11791,7 +11943,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 4.0,
               "affordability": 1,
               "stock": 5
             },
@@ -11809,7 +11961,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.5,
               "affordability": 1,
               "stock": 5
             },
@@ -11822,7 +11974,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.5,
               "affordability": 1,
               "stock": 5
             },
@@ -11840,7 +11992,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 2.5,
               "affordability": 1,
               "stock": 5
             },
@@ -11853,7 +12005,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 2.5,
               "affordability": 1,
               "stock": 5
             },
@@ -11871,7 +12023,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.0,
               "affordability": 1,
               "stock": 5
             },
@@ -11884,7 +12036,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.0,
               "affordability": 1,
               "stock": 5
             },
@@ -11902,7 +12054,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.0,
               "affordability": 1,
               "stock": 4
             },
@@ -11915,7 +12067,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.0,
               "affordability": 1,
               "stock": 3
             },
@@ -11933,7 +12085,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 4.5,
               "affordability": 1,
               "stock": 4
             },
@@ -11946,7 +12098,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 4.5,
               "affordability": 1,
               "stock": 5
             },
@@ -11964,7 +12116,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 5.0,
               "affordability": 1,
               "stock": 4
             },
@@ -11977,7 +12129,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 5.0,
               "affordability": 1,
               "stock": 4
             },
@@ -11995,7 +12147,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 4.0,
               "affordability": 1,
               "stock": 4
             },
@@ -12008,7 +12160,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 4.0,
               "affordability": 1,
               "stock": 4
             },
@@ -12026,7 +12178,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.0,
               "affordability": 1,
               "stock": 4
             },
@@ -12039,7 +12191,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.0,
               "affordability": 1,
               "stock": 3
             },
@@ -12057,7 +12209,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 4.0,
               "affordability": 1,
               "stock": 4
             },
@@ -12070,7 +12222,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 4.0,
               "affordability": 1,
               "stock": 4
             },
@@ -12088,7 +12240,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.5,
               "affordability": 1,
               "stock": 4
             },
@@ -12101,7 +12253,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.5,
               "affordability": 1,
               "stock": 4
             },
@@ -12119,7 +12271,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 5.0,
               "affordability": 1,
               "stock": 4
             },
@@ -12132,7 +12284,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 5.0,
               "affordability": 1,
               "stock": 4
             },
@@ -12150,7 +12302,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.5,
               "affordability": 1,
               "stock": 4
             },
@@ -12163,7 +12315,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.5,
               "affordability": 1,
               "stock": 4
             },
@@ -12181,7 +12333,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.0,
               "affordability": 3,
               "stock": 1
             },
@@ -12194,7 +12346,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.0,
               "affordability": 5,
               "stock": 1
             },
@@ -12212,7 +12364,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 1.5,
               "affordability": 5,
               "stock": 1
             },
@@ -12225,7 +12377,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 1.5,
               "affordability": 5,
               "stock": 1
             },
@@ -12243,7 +12395,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 2.0,
               "affordability": 5,
               "stock": 1
             },
@@ -12256,7 +12408,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 2.0,
               "affordability": 5,
               "stock": 1
             },
@@ -12274,7 +12426,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.0,
               "affordability": 5,
               "stock": 1
             },
@@ -12287,7 +12439,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 3.0,
               "affordability": 5,
               "stock": 1
             },
@@ -12305,7 +12457,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 4.0,
               "affordability": 1,
               "stock": 4
             },
@@ -12318,7 +12470,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 4.0,
               "affordability": 1,
               "stock": 4
             },
@@ -12336,7 +12488,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 2.5,
               "affordability": 5,
               "stock": 1
             },
@@ -12349,7 +12501,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 2.5,
               "affordability": 5,
               "stock": 1
             },
@@ -12367,7 +12519,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 4.0,
               "affordability": 1,
               "stock": 4
             },
@@ -12380,7 +12532,7 @@ window.FLATS_DATA = {
               "local_transport": null,
               "condition": null,
               "quiet": null,
-              "national_transport": null,
+              "national_transport": 4.0,
               "affordability": 1,
               "stock": 4
             },

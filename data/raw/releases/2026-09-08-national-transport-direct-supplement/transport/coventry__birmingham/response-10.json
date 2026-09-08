@@ -1,0 +1,5222 @@
+{
+  "searchId": "b93d9568-d0d0-4490-b6ee-4324d0ed1857",
+  "outwardJourneys": [
+    {
+      "id": 1,
+      "origin": {
+        "nlcCode": "1030",
+        "crsCode": "COV",
+        "name": "Coventry",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T10:06:00+01:00",
+          "arrival": "2026-09-11T10:27:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "21m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "W34151|11/09/2026",
+          "trainRetailId": "VT521000",
+          "trainUid": "W34151",
+          "board": {
+            "crsCode": "COV",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Coventry"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EUS",
+              "scheduledTime": "2026-09-11T09:10:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EUS"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T10:27:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "5",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "VT",
+            "name": "Avanti West Coast"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T10:06:00+01:00",
+              "arrival": "2026-09-11T10:27:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 590,
+          "undiscountedPrices": {
+            "adult": 590,
+            "child": 295
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 590,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 23,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 610,
+          "undiscountedPrices": {
+            "adult": 610,
+            "child": 305
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 610,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 730,
+          "undiscountedPrices": {
+            "adult": 730,
+            "child": 365
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 730,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 25,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 750,
+          "undiscountedPrices": {
+            "adult": 750,
+            "child": 375
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 750,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 880,
+          "undiscountedPrices": {
+            "adult": 880,
+            "child": 440
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 880,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 30,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 920,
+          "undiscountedPrices": {
+            "adult": 920,
+            "child": 460
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 920,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 970,
+          "undiscountedPrices": {
+            "adult": 970,
+            "child": 485
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 970,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 24,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 980,
+          "undiscountedPrices": {
+            "adult": 980,
+            "child": 490
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 980,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 1060,
+          "undiscountedPrices": {
+            "adult": 1060,
+            "child": 530
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1060,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 29,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "cef5da08",
+      "isOvertaken": false
+    },
+    {
+      "id": 2,
+      "origin": {
+        "nlcCode": "1030",
+        "crsCode": "COV",
+        "name": "Coventry",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T10:15:00+01:00",
+          "arrival": "2026-09-11T10:44:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "29m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "Y80809|11/09/2026",
+          "trainRetailId": "LM201700",
+          "trainUid": "Y80809",
+          "board": {
+            "crsCode": "COV",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Coventry"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EUS",
+              "scheduledTime": "2026-09-11T08:23:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EUS"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T10:44:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "3",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T10:15:00+01:00",
+              "arrival": "2026-09-11T10:44:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 9,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 500,
+          "undiscountedPrices": {
+            "adult": 500,
+            "child": 250
+          },
+          "typeCode": "C3S",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "CU",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "LBR",
+          "routeCode": "00480",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 500,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 8,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 550,
+          "undiscountedPrices": {
+            "adult": 550,
+            "child": 275
+          },
+          "typeCode": "C2S",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "CU",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "LBR",
+          "routeCode": "00480",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 550,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 600,
+          "undiscountedPrices": {
+            "adult": 600,
+            "child": 300
+          },
+          "typeCode": "C1S",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "CU",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "LBR",
+          "routeCode": "00480",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 600,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 23,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 610,
+          "undiscountedPrices": {
+            "adult": 610,
+            "child": 305
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 610,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 25,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 750,
+          "undiscountedPrices": {
+            "adult": 750,
+            "child": 375
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 750,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 24,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 980,
+          "undiscountedPrices": {
+            "adult": 980,
+            "child": 490
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 980,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "71862923",
+      "isOvertaken": false
+    },
+    {
+      "id": 3,
+      "origin": {
+        "nlcCode": "1030",
+        "crsCode": "COV",
+        "name": "Coventry",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T10:27:00+01:00",
+          "arrival": "2026-09-11T10:48:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "21m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "W34077|11/09/2026",
+          "trainRetailId": "VT506000",
+          "trainUid": "W34077",
+          "board": {
+            "crsCode": "COV",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Coventry"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EUS",
+              "scheduledTime": "2026-09-11T09:16:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EUS"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T10:48:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "6",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "VT",
+            "name": "Avanti West Coast"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T10:27:00+01:00",
+              "arrival": "2026-09-11T10:48:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 590,
+          "undiscountedPrices": {
+            "adult": 590,
+            "child": 295
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 590,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 23,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 610,
+          "undiscountedPrices": {
+            "adult": 610,
+            "child": 305
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 610,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 730,
+          "undiscountedPrices": {
+            "adult": 730,
+            "child": 365
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 730,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 25,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 750,
+          "undiscountedPrices": {
+            "adult": 750,
+            "child": 375
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 750,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 880,
+          "undiscountedPrices": {
+            "adult": 880,
+            "child": 440
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 880,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 30,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 920,
+          "undiscountedPrices": {
+            "adult": 920,
+            "child": 460
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 920,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 970,
+          "undiscountedPrices": {
+            "adult": 970,
+            "child": 485
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 970,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 24,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 980,
+          "undiscountedPrices": {
+            "adult": 980,
+            "child": 490
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 980,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 1060,
+          "undiscountedPrices": {
+            "adult": 1060,
+            "child": 530
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1060,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 29,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "fe3e5c58",
+      "isOvertaken": false
+    },
+    {
+      "id": 4,
+      "origin": {
+        "nlcCode": "1030",
+        "crsCode": "COV",
+        "name": "Coventry",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T10:30:00+01:00",
+          "arrival": "2026-09-11T10:51:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "21m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G00855|11/09/2026",
+          "trainRetailId": "XC310000",
+          "trainUid": "G00855",
+          "board": {
+            "crsCode": "COV",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Coventry"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "BMH",
+              "scheduledTime": "2026-09-11T07:30:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "BMH"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "MAN",
+              "scheduledTime": "2026-09-11T12:29:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "MAN"
+          ],
+          "originPlatform": "4",
+          "destinationPlatform": "5",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T10:30:00+01:00",
+              "arrival": "2026-09-11T10:51:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 23,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 610,
+          "undiscountedPrices": {
+            "adult": 610,
+            "child": 305
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 610,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 25,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 750,
+          "undiscountedPrices": {
+            "adult": 750,
+            "child": 375
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 750,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 30,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 920,
+          "undiscountedPrices": {
+            "adult": 920,
+            "child": 460
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 920,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 24,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 980,
+          "undiscountedPrices": {
+            "adult": 980,
+            "child": 490
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 980,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 29,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "ab7b87f6",
+      "isOvertaken": false
+    },
+    {
+      "id": 5,
+      "origin": {
+        "nlcCode": "1030",
+        "crsCode": "COV",
+        "name": "Coventry",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T10:35:00+01:00",
+          "arrival": "2026-09-11T10:55:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "20m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "W33935|11/09/2026",
+          "trainRetailId": "VT306000",
+          "trainUid": "W33935",
+          "board": {
+            "crsCode": "COV",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Coventry"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EUS",
+              "scheduledTime": "2026-09-11T09:36:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EUS"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "GLC",
+              "scheduledTime": "2026-09-11T15:17:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "GLC"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "7",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "VT",
+            "name": "Avanti West Coast"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T10:35:00+01:00",
+              "arrival": "2026-09-11T10:55:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 590,
+          "undiscountedPrices": {
+            "adult": 590,
+            "child": 295
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 590,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 23,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 610,
+          "undiscountedPrices": {
+            "adult": 610,
+            "child": 305
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 610,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 730,
+          "undiscountedPrices": {
+            "adult": 730,
+            "child": 365
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 730,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 25,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 750,
+          "undiscountedPrices": {
+            "adult": 750,
+            "child": 375
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 750,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 880,
+          "undiscountedPrices": {
+            "adult": 880,
+            "child": 440
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 880,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 30,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 920,
+          "undiscountedPrices": {
+            "adult": 920,
+            "child": 460
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 920,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 970,
+          "undiscountedPrices": {
+            "adult": 970,
+            "child": 485
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 970,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 24,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 980,
+          "undiscountedPrices": {
+            "adult": 980,
+            "child": 490
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 980,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 1060,
+          "undiscountedPrices": {
+            "adult": 1060,
+            "child": 530
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1060,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 29,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "812567b9",
+      "isOvertaken": false
+    },
+    {
+      "id": 6,
+      "origin": {
+        "nlcCode": "1030",
+        "crsCode": "COV",
+        "name": "Coventry",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T10:45:00+01:00",
+          "arrival": "2026-09-11T11:14:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "29m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "C17883|11/09/2026",
+          "trainRetailId": "LM202100",
+          "trainUid": "C17883",
+          "board": {
+            "crsCode": "COV",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Coventry"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EUS",
+              "scheduledTime": "2026-09-11T08:56:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EUS"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T11:14:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "4A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T10:45:00+01:00",
+              "arrival": "2026-09-11T11:14:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 9,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 500,
+          "undiscountedPrices": {
+            "adult": 500,
+            "child": 250
+          },
+          "typeCode": "C3S",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "CU",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "LBR",
+          "routeCode": "00480",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 500,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 8,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 550,
+          "undiscountedPrices": {
+            "adult": 550,
+            "child": 275
+          },
+          "typeCode": "C2S",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "CU",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "LBR",
+          "routeCode": "00480",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 550,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 600,
+          "undiscountedPrices": {
+            "adult": 600,
+            "child": 300
+          },
+          "typeCode": "C1S",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "CU",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "LBR",
+          "routeCode": "00480",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 600,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 23,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 610,
+          "undiscountedPrices": {
+            "adult": 610,
+            "child": 305
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 610,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 25,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 750,
+          "undiscountedPrices": {
+            "adult": 750,
+            "child": 375
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 750,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 24,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 980,
+          "undiscountedPrices": {
+            "adult": 980,
+            "child": 490
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 980,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "a23b7059",
+      "isOvertaken": false
+    },
+    {
+      "id": 7,
+      "origin": {
+        "nlcCode": "1030",
+        "crsCode": "COV",
+        "name": "Coventry",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T11:06:00+01:00",
+          "arrival": "2026-09-11T11:27:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "21m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "W34246|11/09/2026",
+          "trainRetailId": "VT508000",
+          "trainUid": "W34246",
+          "board": {
+            "crsCode": "COV",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Coventry"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EUS",
+              "scheduledTime": "2026-09-11T10:10:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EUS"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T11:27:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "5",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "VT",
+            "name": "Avanti West Coast"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T11:06:00+01:00",
+              "arrival": "2026-09-11T11:27:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 590,
+          "undiscountedPrices": {
+            "adult": 590,
+            "child": 295
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 590,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 23,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 610,
+          "undiscountedPrices": {
+            "adult": 610,
+            "child": 305
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 610,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 730,
+          "undiscountedPrices": {
+            "adult": 730,
+            "child": 365
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 730,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 25,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 750,
+          "undiscountedPrices": {
+            "adult": 750,
+            "child": 375
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 750,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 880,
+          "undiscountedPrices": {
+            "adult": 880,
+            "child": 440
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 880,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 30,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 920,
+          "undiscountedPrices": {
+            "adult": 920,
+            "child": 460
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 920,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 970,
+          "undiscountedPrices": {
+            "adult": 970,
+            "child": 485
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 970,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 24,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 980,
+          "undiscountedPrices": {
+            "adult": 980,
+            "child": 490
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 980,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 1060,
+          "undiscountedPrices": {
+            "adult": 1060,
+            "child": 530
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1060,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 29,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "6fec08cc",
+      "isOvertaken": false
+    },
+    {
+      "id": 8,
+      "origin": {
+        "nlcCode": "1030",
+        "crsCode": "COV",
+        "name": "Coventry",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T11:15:00+01:00",
+          "arrival": "2026-09-11T11:44:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "29m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "C17800|11/09/2026",
+          "trainRetailId": "LM202500",
+          "trainUid": "C17800",
+          "board": {
+            "crsCode": "COV",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Coventry"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EUS",
+              "scheduledTime": "2026-09-11T09:23:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EUS"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T11:44:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "3",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T11:15:00+01:00",
+              "arrival": "2026-09-11T11:44:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 12,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 350,
+          "undiscountedPrices": {
+            "adult": 350,
+            "child": 175
+          },
+          "typeCode": "C6S",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "CU",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "LBR",
+          "routeCode": "00480",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 350,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 11,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 400,
+          "undiscountedPrices": {
+            "adult": 400,
+            "child": 200
+          },
+          "typeCode": "C5S",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "CU",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "LBR",
+          "routeCode": "00480",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 400,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 10,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 450,
+          "undiscountedPrices": {
+            "adult": 450,
+            "child": 225
+          },
+          "typeCode": "C4S",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "CU",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "LBR",
+          "routeCode": "00480",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 450,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 9,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 500,
+          "undiscountedPrices": {
+            "adult": 500,
+            "child": 250
+          },
+          "typeCode": "C3S",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "CU",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "LBR",
+          "routeCode": "00480",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 500,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 8,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 550,
+          "undiscountedPrices": {
+            "adult": 550,
+            "child": 275
+          },
+          "typeCode": "C2S",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "CU",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "LBR",
+          "routeCode": "00480",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 550,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 600,
+          "undiscountedPrices": {
+            "adult": 600,
+            "child": 300
+          },
+          "typeCode": "C1S",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "CU",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "LBR",
+          "routeCode": "00480",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 600,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 23,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 610,
+          "undiscountedPrices": {
+            "adult": 610,
+            "child": 305
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 610,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 25,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 750,
+          "undiscountedPrices": {
+            "adult": 750,
+            "child": 375
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 750,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 24,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 980,
+          "undiscountedPrices": {
+            "adult": 980,
+            "child": 490
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 980,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "91d1eb73",
+      "isOvertaken": false
+    },
+    {
+      "id": 9,
+      "origin": {
+        "nlcCode": "1030",
+        "crsCode": "COV",
+        "name": "Coventry",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T11:27:00+01:00",
+          "arrival": "2026-09-11T11:48:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "21m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "W33964|11/09/2026",
+          "trainRetailId": "VT509000",
+          "trainUid": "W33964",
+          "board": {
+            "crsCode": "COV",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Coventry"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EUS",
+              "scheduledTime": "2026-09-11T10:16:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EUS"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T11:48:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "6",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "VT",
+            "name": "Avanti West Coast"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T11:27:00+01:00",
+              "arrival": "2026-09-11T11:48:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 590,
+          "undiscountedPrices": {
+            "adult": 590,
+            "child": 295
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 590,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 23,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 610,
+          "undiscountedPrices": {
+            "adult": 610,
+            "child": 305
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 610,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 730,
+          "undiscountedPrices": {
+            "adult": 730,
+            "child": 365
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 730,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 25,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 750,
+          "undiscountedPrices": {
+            "adult": 750,
+            "child": 375
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 750,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 880,
+          "undiscountedPrices": {
+            "adult": 880,
+            "child": 440
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 880,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 30,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 920,
+          "undiscountedPrices": {
+            "adult": 920,
+            "child": 460
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 920,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 970,
+          "undiscountedPrices": {
+            "adult": 970,
+            "child": 485
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 970,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 24,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 980,
+          "undiscountedPrices": {
+            "adult": 980,
+            "child": 490
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 980,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 1060,
+          "undiscountedPrices": {
+            "adult": 1060,
+            "child": 530
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1060,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IWC",
+          "routeCode": "00043",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 29,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "8cc1910a",
+      "isOvertaken": false
+    },
+    {
+      "id": 10,
+      "origin": {
+        "nlcCode": "1030",
+        "crsCode": "COV",
+        "name": "Coventry",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T11:30:00+01:00",
+          "arrival": "2026-09-11T11:51:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "21m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G00858|11/09/2026",
+          "trainRetailId": "XC312000",
+          "trainUid": "G00858",
+          "board": {
+            "crsCode": "COV",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Coventry"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "BMH",
+              "scheduledTime": "2026-09-11T08:40:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "BMH"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "MAN",
+              "scheduledTime": "2026-09-11T13:29:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "MAN"
+          ],
+          "originPlatform": "4",
+          "destinationPlatform": "5",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T11:30:00+01:00",
+              "arrival": "2026-09-11T11:51:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 23,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 610,
+          "undiscountedPrices": {
+            "adult": 610,
+            "child": 305
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 610,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 25,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 750,
+          "undiscountedPrices": {
+            "adult": 750,
+            "child": 375
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "GF",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 750,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 30,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 920,
+          "undiscountedPrices": {
+            "adult": 920,
+            "child": 460
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 920,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 24,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 980,
+          "undiscountedPrices": {
+            "adult": 980,
+            "child": 490
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 980,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 29,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "PWM",
+          "routeCode": "01000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1030",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "0377c06d",
+      "isOvertaken": false
+    }
+  ],
+  "inwardJourneys": [],
+  "searchSummary": {
+    "origin": {
+      "nlcCode": "1030",
+      "crsCode": "COV",
+      "name": "Coventry",
+      "group": false,
+      "classification": "NORMAL"
+    },
+    "destination": {
+      "nlcCode": "1127",
+      "crsCode": "BHM",
+      "name": "Birmingham New Street",
+      "group": false,
+      "classification": "NORMAL"
+    }
+  },
+  "stationLookup": {
+    "COV": "Coventry",
+    "BHM": "Birmingham New Street",
+    "MAN": "Manchester Piccadilly",
+    "GLC": "Glasgow Central"
+  },
+  "railcardLookup": {},
+  "fareLocationsLookup": {
+    "1030": "Coventry",
+    "1127": "Birmingham New Street",
+    "0418": "Birmingham New Street, Moor Street or Snow Hill"
+  }
+}

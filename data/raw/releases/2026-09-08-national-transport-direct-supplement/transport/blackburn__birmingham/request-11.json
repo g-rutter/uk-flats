@@ -1,0 +1,28 @@
+{
+  "origin": {
+    "crs": "BBN",
+    "group": false
+  },
+  "destination": {
+    "crs": "BHM",
+    "group": false
+  },
+  "outwardTime": {
+    "travelTime": "2026-09-11T11:00:00+01:00",
+    "type": "DEPART"
+  },
+  "fareRequestDetails": {
+    "passengers": {
+      "adult": 1,
+      "child": 0
+    },
+    "fareClass": "ANY",
+    "railcards": []
+  },
+  "directTrains": false,
+  "reducedTransferTime": false,
+  "onlySearchForSleeper": false,
+  "overtakenTrains": false,
+  "useAlternativeServices": false,
+  "increasedInterchange": "ZERO"
+}

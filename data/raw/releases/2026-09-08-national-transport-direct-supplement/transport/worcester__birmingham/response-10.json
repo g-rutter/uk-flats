@@ -1,0 +1,3691 @@
+{
+  "searchId": "da124ca4-2f26-4851-8c59-b1a7fe3a079a",
+  "outwardJourneys": [
+    {
+      "id": 1,
+      "origin": {
+        "nlcCode": "4893",
+        "crsCode": "WOF",
+        "name": "Worcester Foregate Street",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T10:10:00+01:00",
+          "arrival": "2026-09-11T10:55:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order between platform 2 and the entrance/exit at Worcester Foregate Street station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-08T14:44:13+01:00"
+        }
+      ],
+      "duration": "45m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "W35365|11/09/2026",
+          "trainRetailId": "GW742800",
+          "trainUid": "W35365",
+          "board": {
+            "crsCode": "WOF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Worcester Foregate Street"
+          },
+          "alight": {
+            "crsCode": "WOP",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Worcestershire Parkway"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "GMV",
+              "scheduledTime": "2026-09-11T09:56:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "GMV"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "PAD",
+              "scheduledTime": "2026-09-11T12:23:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "PAD"
+          ],
+          "originPlatform": "1",
+          "destinationPlatform": null,
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "GW",
+            "name": "Great Western Railway"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T10:10:00+01:00",
+              "arrival": "2026-09-11T10:21:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "G01064|11/09/2026",
+          "trainRetailId": "XC110000",
+          "trainUid": "G01064",
+          "board": {
+            "crsCode": "WOP",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Worcestershire Parkway"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "PLY",
+              "scheduledTime": "2026-09-11T07:27:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "PLY"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "EDB",
+              "scheduledTime": "2026-09-11T16:07:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "EDB"
+          ],
+          "originPlatform": null,
+          "destinationPlatform": "10",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T10:26:00+01:00",
+              "arrival": "2026-09-11T10:55:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1110,
+          "undiscountedPrices": {
+            "adult": 1110,
+            "child": 555
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1110,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "DI",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "CS",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 2230,
+          "undiscountedPrices": {
+            "adult": 2230,
+            "child": 1115
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "1256aa85",
+      "isOvertaken": false
+    },
+    {
+      "id": 2,
+      "origin": {
+        "nlcCode": "4893",
+        "crsCode": "WOF",
+        "name": "Worcester Foregate Street",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T10:24:00+01:00",
+          "arrival": "2026-09-11T11:09:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order between platform 2 and the entrance/exit at Worcester Foregate Street station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-08T14:44:13+01:00"
+        }
+      ],
+      "duration": "45m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "C17053|11/09/2026",
+          "trainRetailId": "LM074700",
+          "trainUid": "C17053",
+          "board": {
+            "crsCode": "WOF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Worcester Foregate Street"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "HFD",
+              "scheduledTime": "2026-09-11T09:40:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "HFD"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T11:09:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "10B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T10:24:00+01:00",
+              "arrival": "2026-09-11T11:09:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1110,
+          "undiscountedPrices": {
+            "adult": 1110,
+            "child": 555
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1110,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "DI",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "CS",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 2230,
+          "undiscountedPrices": {
+            "adult": 2230,
+            "child": 1115
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "b06022eb",
+      "isOvertaken": false
+    },
+    {
+      "id": 3,
+      "origin": {
+        "nlcCode": "4893",
+        "crsCode": "WOF",
+        "name": "Worcester Foregate Street",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T10:40:00+01:00",
+          "arrival": "2026-09-11T12:00:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order between platform 2 and the entrance/exit at Worcester Foregate Street station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-08T14:44:13+01:00"
+        }
+      ],
+      "duration": "1h 20m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "C17927|11/09/2026",
+          "trainRetailId": "LM079300",
+          "trainUid": "C17927",
+          "board": {
+            "crsCode": "WOF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Worcester Foregate Street"
+          },
+          "alight": {
+            "crsCode": "SGB",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Smethwick Galton Bridge"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "WOF",
+              "scheduledTime": "2026-09-11T10:40:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "WOF"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SAV",
+              "scheduledTime": "2026-09-11T12:46:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SAV"
+          ],
+          "originPlatform": "1",
+          "destinationPlatform": "2",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T10:40:00+01:00",
+              "arrival": "2026-09-11T11:36:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "C16889|11/09/2026",
+          "trainRetailId": "LM804000",
+          "trainUid": "C16889",
+          "board": {
+            "crsCode": "SGB",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Smethwick Galton Bridge"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SHR",
+              "scheduledTime": "2026-09-11T10:59:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SHR"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T12:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": null,
+          "destinationPlatform": "4C",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T11:53:00+01:00",
+              "arrival": "2026-09-11T12:00:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1110,
+          "undiscountedPrices": {
+            "adult": 1110,
+            "child": 555
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1110,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "DI",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "CS",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 2230,
+          "undiscountedPrices": {
+            "adult": 2230,
+            "child": 1115
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "0786c3f1",
+      "isOvertaken": false
+    },
+    {
+      "id": 4,
+      "origin": {
+        "nlcCode": "4893",
+        "crsCode": "WOF",
+        "name": "Worcester Foregate Street",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T11:24:00+01:00",
+          "arrival": "2026-09-11T12:09:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order between platform 2 and the entrance/exit at Worcester Foregate Street station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-08T14:44:13+01:00"
+        }
+      ],
+      "duration": "45m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "C17814|11/09/2026",
+          "trainRetailId": "LM078700",
+          "trainUid": "C17814",
+          "board": {
+            "crsCode": "WOF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Worcester Foregate Street"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "HFD",
+              "scheduledTime": "2026-09-11T10:40:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "HFD"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T12:09:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "10B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T11:24:00+01:00",
+              "arrival": "2026-09-11T12:09:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1110,
+          "undiscountedPrices": {
+            "adult": 1110,
+            "child": 555
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1110,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "DI",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "CS",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 2230,
+          "undiscountedPrices": {
+            "adult": 2230,
+            "child": 1115
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "09d5bfd4",
+      "isOvertaken": false
+    },
+    {
+      "id": 5,
+      "origin": {
+        "nlcCode": "4893",
+        "crsCode": "WOF",
+        "name": "Worcester Foregate Street",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T11:40:00+01:00",
+          "arrival": "2026-09-11T13:00:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order between platform 2 and the entrance/exit at Worcester Foregate Street station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-08T14:44:13+01:00"
+        }
+      ],
+      "duration": "1h 20m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "Y81140|11/09/2026",
+          "trainRetailId": "LM170200",
+          "trainUid": "Y81140",
+          "board": {
+            "crsCode": "WOF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Worcester Foregate Street"
+          },
+          "alight": {
+            "crsCode": "SGB",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Smethwick Galton Bridge"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "WOF",
+              "scheduledTime": "2026-09-11T11:40:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "WOF"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SAV",
+              "scheduledTime": "2026-09-11T13:43:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SAV"
+          ],
+          "originPlatform": "1",
+          "destinationPlatform": "2",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T11:40:00+01:00",
+              "arrival": "2026-09-11T12:36:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "C16890|11/09/2026",
+          "trainRetailId": "LM804800",
+          "trainUid": "C16890",
+          "board": {
+            "crsCode": "SGB",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Smethwick Galton Bridge"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SHR",
+              "scheduledTime": "2026-09-11T11:59:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SHR"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T13:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": null,
+          "destinationPlatform": "2A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T12:53:00+01:00",
+              "arrival": "2026-09-11T13:00:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1110,
+          "undiscountedPrices": {
+            "adult": 1110,
+            "child": 555
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1110,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "DI",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "CS",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 2230,
+          "undiscountedPrices": {
+            "adult": 2230,
+            "child": 1115
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "af267999",
+      "isOvertaken": false
+    },
+    {
+      "id": 6,
+      "origin": {
+        "nlcCode": "4893",
+        "crsCode": "WOF",
+        "name": "Worcester Foregate Street",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T12:24:00+01:00",
+          "arrival": "2026-09-11T13:09:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order between platform 2 and the entrance/exit at Worcester Foregate Street station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-08T14:44:13+01:00"
+        }
+      ],
+      "duration": "45m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "C17056|11/09/2026",
+          "trainRetailId": "LM074800",
+          "trainUid": "C17056",
+          "board": {
+            "crsCode": "WOF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Worcester Foregate Street"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "HFD",
+              "scheduledTime": "2026-09-11T11:40:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "HFD"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T13:09:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "10B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T12:24:00+01:00",
+              "arrival": "2026-09-11T13:09:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1110,
+          "undiscountedPrices": {
+            "adult": 1110,
+            "child": 555
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1110,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "DI",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "CS",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 2230,
+          "undiscountedPrices": {
+            "adult": 2230,
+            "child": 1115
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "eb34dd98",
+      "isOvertaken": false
+    },
+    {
+      "id": 7,
+      "origin": {
+        "nlcCode": "4893",
+        "crsCode": "WOF",
+        "name": "Worcester Foregate Street",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T12:40:00+01:00",
+          "arrival": "2026-09-11T14:00:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order between platform 2 and the entrance/exit at Worcester Foregate Street station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-08T14:44:13+01:00"
+        }
+      ],
+      "duration": "1h 20m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "Y81142|11/09/2026",
+          "trainRetailId": "LM170300",
+          "trainUid": "Y81142",
+          "board": {
+            "crsCode": "WOF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Worcester Foregate Street"
+          },
+          "alight": {
+            "crsCode": "SGB",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Smethwick Galton Bridge"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "WOF",
+              "scheduledTime": "2026-09-11T12:40:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "WOF"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SAV",
+              "scheduledTime": "2026-09-11T14:43:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SAV"
+          ],
+          "originPlatform": "1",
+          "destinationPlatform": "2",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T12:40:00+01:00",
+              "arrival": "2026-09-11T13:36:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "C16892|11/09/2026",
+          "trainRetailId": "LM805600",
+          "trainUid": "C16892",
+          "board": {
+            "crsCode": "SGB",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Smethwick Galton Bridge"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SHR",
+              "scheduledTime": "2026-09-11T12:59:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SHR"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T14:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": null,
+          "destinationPlatform": "4C",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T13:53:00+01:00",
+              "arrival": "2026-09-11T14:00:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1110,
+          "undiscountedPrices": {
+            "adult": 1110,
+            "child": 555
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1110,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "DI",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "CS",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 2230,
+          "undiscountedPrices": {
+            "adult": 2230,
+            "child": 1115
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "a6a164cb",
+      "isOvertaken": false
+    },
+    {
+      "id": 8,
+      "origin": {
+        "nlcCode": "4893",
+        "crsCode": "WOF",
+        "name": "Worcester Foregate Street",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T13:24:00+01:00",
+          "arrival": "2026-09-11T14:09:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order between platform 2 and the entrance/exit at Worcester Foregate Street station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-08T14:44:13+01:00"
+        }
+      ],
+      "duration": "45m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "C17057|11/09/2026",
+          "trainRetailId": "LM074900",
+          "trainUid": "C17057",
+          "board": {
+            "crsCode": "WOF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Worcester Foregate Street"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "HFD",
+              "scheduledTime": "2026-09-11T12:40:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "HFD"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T14:09:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "10B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T13:24:00+01:00",
+              "arrival": "2026-09-11T14:09:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1110,
+          "undiscountedPrices": {
+            "adult": 1110,
+            "child": 555
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1110,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "DI",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "CS",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 2230,
+          "undiscountedPrices": {
+            "adult": 2230,
+            "child": 1115
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "9e9ffd44",
+      "isOvertaken": false
+    },
+    {
+      "id": 9,
+      "origin": {
+        "nlcCode": "4893",
+        "crsCode": "WOF",
+        "name": "Worcester Foregate Street",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T13:40:00+01:00",
+          "arrival": "2026-09-11T15:00:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order between platform 2 and the entrance/exit at Worcester Foregate Street station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-08T14:44:13+01:00"
+        }
+      ],
+      "duration": "1h 20m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "Y81144|11/09/2026",
+          "trainRetailId": "LM170400",
+          "trainUid": "Y81144",
+          "board": {
+            "crsCode": "WOF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Worcester Foregate Street"
+          },
+          "alight": {
+            "crsCode": "SGB",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Smethwick Galton Bridge"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "WOF",
+              "scheduledTime": "2026-09-11T13:40:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "WOF"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SAV",
+              "scheduledTime": "2026-09-11T15:43:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SAV"
+          ],
+          "originPlatform": "1",
+          "destinationPlatform": "2",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T13:40:00+01:00",
+              "arrival": "2026-09-11T14:36:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "C16894|11/09/2026",
+          "trainRetailId": "LM806400",
+          "trainUid": "C16894",
+          "board": {
+            "crsCode": "SGB",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Smethwick Galton Bridge"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SHR",
+              "scheduledTime": "2026-09-11T13:59:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SHR"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T15:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": null,
+          "destinationPlatform": "4C",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T14:53:00+01:00",
+              "arrival": "2026-09-11T15:00:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1110,
+          "undiscountedPrices": {
+            "adult": 1110,
+            "child": 555
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1110,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "DI",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "CS",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 2230,
+          "undiscountedPrices": {
+            "adult": 2230,
+            "child": 1115
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "b4b3ffd6",
+      "isOvertaken": false
+    },
+    {
+      "id": 10,
+      "origin": {
+        "nlcCode": "4893",
+        "crsCode": "WOF",
+        "name": "Worcester Foregate Street",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T14:24:00+01:00",
+          "arrival": "2026-09-11T15:09:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order between platform 2 and the entrance/exit at Worcester Foregate Street station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-08T14:44:13+01:00"
+        }
+      ],
+      "duration": "45m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "C17058|11/09/2026",
+          "trainRetailId": "LM075000",
+          "trainUid": "C17058",
+          "board": {
+            "crsCode": "WOF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Worcester Foregate Street"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "HFD",
+              "scheduledTime": "2026-09-11T13:40:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "HFD"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T15:09:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "10B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T14:24:00+01:00",
+              "arrival": "2026-09-11T15:09:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1110,
+          "undiscountedPrices": {
+            "adult": 1110,
+            "child": 555
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1110,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 1220,
+          "undiscountedPrices": {
+            "adult": 1220,
+            "child": 610
+          },
+          "typeCode": "CDR",
+          "typeDescription": "Off-Peak Day Return",
+          "ticketRestriction": "DI",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1220,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 1470,
+          "undiscountedPrices": {
+            "adult": 1470,
+            "child": 735
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 1470,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "CS",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 2230,
+          "undiscountedPrices": {
+            "adult": 2230,
+            "child": 1115
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "LBR",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "0447",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "b8340269",
+      "isOvertaken": false
+    }
+  ],
+  "inwardJourneys": [],
+  "searchSummary": {
+    "origin": {
+      "nlcCode": "4893",
+      "crsCode": "WOF",
+      "name": "Worcester Foregate Street",
+      "group": false,
+      "classification": "NORMAL"
+    },
+    "destination": {
+      "nlcCode": "1127",
+      "crsCode": "BHM",
+      "name": "Birmingham New Street",
+      "group": false,
+      "classification": "NORMAL"
+    }
+  },
+  "stationLookup": {
+    "WOF": "Worcester Foregate Street",
+    "WOP": "Worcestershire Parkway",
+    "PAD": "London Paddington",
+    "BHM": "Birmingham New Street",
+    "EDB": "Edinburgh",
+    "SGB": "Smethwick Galton Bridge",
+    "SAV": "Stratford upon Avon"
+  },
+  "railcardLookup": {},
+  "fareLocationsLookup": {
+    "0447": "Worcester Shrub Hill or Worcester Foregate Street",
+    "0418": "Birmingham New Street, Moor Street or Snow Hill"
+  }
+}

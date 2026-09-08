@@ -1,0 +1,5387 @@
+{
+  "searchId": "e29bf4e2-165a-425e-88a6-ef187a3e32d8",
+  "outwardJourneys": [
+    {
+      "id": 1,
+      "origin": {
+        "nlcCode": "8126",
+        "crsCode": "HUL",
+        "name": "Hull",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T13:25:00+01:00",
+          "arrival": "2026-09-11T16:04:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order at Bridlington station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T11:51:25+01:00"
+        }
+      ],
+      "duration": "2h 39m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G89296|11/09/2026",
+          "trainRetailId": "NT313100",
+          "trainUid": "G89296",
+          "board": {
+            "crsCode": "HUL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Hull"
+          },
+          "alight": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SCA",
+              "scheduledTime": "2026-09-11T12:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SCA"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SHF",
+              "scheduledTime": "2026-09-11T14:49:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SHF"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "5B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "NT",
+            "name": "Northern"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T13:25:00+01:00",
+              "arrival": "2026-09-11T14:49:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "G01153|11/09/2026",
+          "trainRetailId": "XC169000",
+          "trainUid": "G01153",
+          "board": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "ABD",
+              "scheduledTime": "2026-09-11T08:20:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "ABD"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "PLY",
+              "scheduledTime": "2026-09-11T19:47:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "PLY"
+          ],
+          "originPlatform": "6",
+          "destinationPlatform": "11B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T14:56:00+01:00",
+              "arrival": "2026-09-11T16:04:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11060,
+          "undiscountedPrices": {
+            "adult": 11060,
+            "child": 5530
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11060,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11190,
+          "undiscountedPrices": {
+            "adult": 11190,
+            "child": 5595
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 11190,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 11250,
+          "undiscountedPrices": {
+            "adult": 11250,
+            "child": 5625
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11250,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 22490,
+          "undiscountedPrices": {
+            "adult": 22490,
+            "child": 11245
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 22490,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 24890,
+          "undiscountedPrices": {
+            "adult": 24890,
+            "child": 12445
+          },
+          "typeCode": "FOS",
+          "typeDescription": "Anytime Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 24890,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The\u00a0<a href=\"https://www.nationalrail.co.uk/\" title=\"\">National Rail Journey Planner</a>\u00a0will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 29240,
+          "undiscountedPrices": {
+            "adult": 29240,
+            "child": 14620
+          },
+          "typeCode": "FSR",
+          "typeDescription": "Off-Peak Return (1st Class)",
+          "ticketRestriction": "2V",
+          "fareClass": "FIRST",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 29240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 49770,
+          "undiscountedPrices": {
+            "adult": 49770,
+            "child": 24885
+          },
+          "typeCode": "FOR",
+          "typeDescription": "Anytime Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 49770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "3be25cf0",
+      "isOvertaken": false
+    },
+    {
+      "id": 2,
+      "origin": {
+        "nlcCode": "8126",
+        "crsCode": "HUL",
+        "name": "Hull",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T14:27:00+01:00",
+          "arrival": "2026-09-11T17:06:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order at Bridlington station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T11:51:25+01:00"
+        }
+      ],
+      "duration": "2h 39m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G89300|11/09/2026",
+          "trainRetailId": "NT313500",
+          "trainUid": "G89300",
+          "board": {
+            "crsCode": "HUL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Hull"
+          },
+          "alight": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SCA",
+              "scheduledTime": "2026-09-11T13:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SCA"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SHF",
+              "scheduledTime": "2026-09-11T15:47:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SHF"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "5B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "NT",
+            "name": "Northern"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T14:27:00+01:00",
+              "arrival": "2026-09-11T15:47:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "G01154|11/09/2026",
+          "trainRetailId": "XC171000",
+          "trainUid": "G01154",
+          "board": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EDB",
+              "scheduledTime": "2026-09-11T12:05:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EDB"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "PLY",
+              "scheduledTime": "2026-09-11T20:49:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "PLY"
+          ],
+          "originPlatform": "6",
+          "destinationPlatform": "11",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T15:56:00+01:00",
+              "arrival": "2026-09-11T17:06:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11060,
+          "undiscountedPrices": {
+            "adult": 11060,
+            "child": 5530
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11060,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11190,
+          "undiscountedPrices": {
+            "adult": 11190,
+            "child": 5595
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 11190,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 11250,
+          "undiscountedPrices": {
+            "adult": 11250,
+            "child": 5625
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11250,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 22490,
+          "undiscountedPrices": {
+            "adult": 22490,
+            "child": 11245
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 22490,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 24890,
+          "undiscountedPrices": {
+            "adult": 24890,
+            "child": 12445
+          },
+          "typeCode": "FOS",
+          "typeDescription": "Anytime Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 24890,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The\u00a0<a href=\"https://www.nationalrail.co.uk/\" title=\"\">National Rail Journey Planner</a>\u00a0will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 29240,
+          "undiscountedPrices": {
+            "adult": 29240,
+            "child": 14620
+          },
+          "typeCode": "FSR",
+          "typeDescription": "Off-Peak Return (1st Class)",
+          "ticketRestriction": "2V",
+          "fareClass": "FIRST",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 29240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 49770,
+          "undiscountedPrices": {
+            "adult": 49770,
+            "child": 24885
+          },
+          "typeCode": "FOR",
+          "typeDescription": "Anytime Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 49770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "fafafe6b",
+      "isOvertaken": false
+    },
+    {
+      "id": 3,
+      "origin": {
+        "nlcCode": "8126",
+        "crsCode": "HUL",
+        "name": "Hull",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T15:25:00+01:00",
+          "arrival": "2026-09-11T18:07:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order at Bridlington station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T11:51:25+01:00"
+        }
+      ],
+      "duration": "2h 42m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G89302|11/09/2026",
+          "trainRetailId": "NT313900",
+          "trainUid": "G89302",
+          "board": {
+            "crsCode": "HUL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Hull"
+          },
+          "alight": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SCA",
+              "scheduledTime": "2026-09-11T14:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SCA"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SHF",
+              "scheduledTime": "2026-09-11T16:48:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SHF"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "5B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "NT",
+            "name": "Northern"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T15:25:00+01:00",
+              "arrival": "2026-09-11T16:48:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "G01161|11/09/2026",
+          "trainRetailId": "XC173001",
+          "trainUid": "G01161",
+          "board": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EDB",
+              "scheduledTime": "2026-09-11T13:05:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EDB"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "CDF",
+              "scheduledTime": "2026-09-11T20:06:00+01:00",
+              "realTime": null
+            },
+            {
+              "stationCRS": "PLY",
+              "scheduledTime": "2026-09-11T21:51:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "CDF",
+            "PLY"
+          ],
+          "originPlatform": "6",
+          "destinationPlatform": "11",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T16:56:00+01:00",
+              "arrival": "2026-09-11T18:07:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 11,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 9380,
+          "undiscountedPrices": {
+            "adult": 9380,
+            "child": 4690
+          },
+          "typeCode": "MFS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00439",
+          "startLegId": 1,
+          "endLegId": 2,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 9380,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11060,
+          "undiscountedPrices": {
+            "adult": 11060,
+            "child": 5530
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11060,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11190,
+          "undiscountedPrices": {
+            "adult": 11190,
+            "child": 5595
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 11190,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 11250,
+          "undiscountedPrices": {
+            "adult": 11250,
+            "child": 5625
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11250,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 22490,
+          "undiscountedPrices": {
+            "adult": 22490,
+            "child": 11245
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 22490,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 24890,
+          "undiscountedPrices": {
+            "adult": 24890,
+            "child": 12445
+          },
+          "typeCode": "FOS",
+          "typeDescription": "Anytime Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 24890,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The\u00a0<a href=\"https://www.nationalrail.co.uk/\" title=\"\">National Rail Journey Planner</a>\u00a0will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 29240,
+          "undiscountedPrices": {
+            "adult": 29240,
+            "child": 14620
+          },
+          "typeCode": "FSR",
+          "typeDescription": "Off-Peak Return (1st Class)",
+          "ticketRestriction": "2V",
+          "fareClass": "FIRST",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 29240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 49770,
+          "undiscountedPrices": {
+            "adult": 49770,
+            "child": 24885
+          },
+          "typeCode": "FOR",
+          "typeDescription": "Anytime Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 49770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "9940b4e3",
+      "isOvertaken": false
+    },
+    {
+      "id": 4,
+      "origin": {
+        "nlcCode": "8126",
+        "crsCode": "HUL",
+        "name": "Hull",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T16:25:00+01:00",
+          "arrival": "2026-09-11T19:07:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order at Bridlington station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T11:51:25+01:00"
+        }
+      ],
+      "duration": "2h 42m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G89304|11/09/2026",
+          "trainRetailId": "NT314300",
+          "trainUid": "G89304",
+          "board": {
+            "crsCode": "HUL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Hull"
+          },
+          "alight": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SCA",
+              "scheduledTime": "2026-09-11T15:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SCA"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SHF",
+              "scheduledTime": "2026-09-11T17:48:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SHF"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "5B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "NT",
+            "name": "Northern"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T16:25:00+01:00",
+              "arrival": "2026-09-11T17:48:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "W29909|11/09/2026",
+          "trainRetailId": "XC175000",
+          "trainUid": "W29909",
+          "board": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EDB",
+              "scheduledTime": "2026-09-11T14:04:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EDB"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "PLY",
+              "scheduledTime": "2026-09-11T22:50:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "PLY"
+          ],
+          "originPlatform": "6",
+          "destinationPlatform": "11",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T17:56:00+01:00",
+              "arrival": "2026-09-11T19:07:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11060,
+          "undiscountedPrices": {
+            "adult": 11060,
+            "child": 5530
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11060,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11190,
+          "undiscountedPrices": {
+            "adult": 11190,
+            "child": 5595
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 11190,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 11250,
+          "undiscountedPrices": {
+            "adult": 11250,
+            "child": 5625
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11250,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 22490,
+          "undiscountedPrices": {
+            "adult": 22490,
+            "child": 11245
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 22490,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 24890,
+          "undiscountedPrices": {
+            "adult": 24890,
+            "child": 12445
+          },
+          "typeCode": "FOS",
+          "typeDescription": "Anytime Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 24890,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The\u00a0<a href=\"https://www.nationalrail.co.uk/\" title=\"\">National Rail Journey Planner</a>\u00a0will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 29240,
+          "undiscountedPrices": {
+            "adult": 29240,
+            "child": 14620
+          },
+          "typeCode": "FSR",
+          "typeDescription": "Off-Peak Return (1st Class)",
+          "ticketRestriction": "2V",
+          "fareClass": "FIRST",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 29240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 49770,
+          "undiscountedPrices": {
+            "adult": 49770,
+            "child": 24885
+          },
+          "typeCode": "FOR",
+          "typeDescription": "Anytime Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 49770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "631d2bfe",
+      "isOvertaken": false
+    },
+    {
+      "id": 5,
+      "origin": {
+        "nlcCode": "8126",
+        "crsCode": "HUL",
+        "name": "Hull",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T17:25:00+01:00",
+          "arrival": "2026-09-11T20:07:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order at Bridlington station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T11:51:25+01:00"
+        }
+      ],
+      "duration": "2h 42m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G89306|11/09/2026",
+          "trainRetailId": "NT314700",
+          "trainUid": "G89306",
+          "board": {
+            "crsCode": "HUL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Hull"
+          },
+          "alight": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SCA",
+              "scheduledTime": "2026-09-11T16:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SCA"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SHF",
+              "scheduledTime": "2026-09-11T18:49:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SHF"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "5",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "NT",
+            "name": "Northern"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T17:25:00+01:00",
+              "arrival": "2026-09-11T18:49:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "G01166|11/09/2026",
+          "trainRetailId": "XC177000",
+          "trainUid": "G01166",
+          "board": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EDB",
+              "scheduledTime": "2026-09-11T15:04:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EDB"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "PLY",
+              "scheduledTime": "2026-09-11T23:43:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "PLY"
+          ],
+          "originPlatform": "6",
+          "destinationPlatform": "11B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T18:56:00+01:00",
+              "arrival": "2026-09-11T20:07:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 11,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 9380,
+          "undiscountedPrices": {
+            "adult": 9380,
+            "child": 4690
+          },
+          "typeCode": "MFS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00439",
+          "startLegId": 1,
+          "endLegId": 2,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 9380,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11060,
+          "undiscountedPrices": {
+            "adult": 11060,
+            "child": 5530
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11060,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11190,
+          "undiscountedPrices": {
+            "adult": 11190,
+            "child": 5595
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 11190,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 11250,
+          "undiscountedPrices": {
+            "adult": 11250,
+            "child": 5625
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11250,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 22490,
+          "undiscountedPrices": {
+            "adult": 22490,
+            "child": 11245
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 22490,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 24890,
+          "undiscountedPrices": {
+            "adult": 24890,
+            "child": 12445
+          },
+          "typeCode": "FOS",
+          "typeDescription": "Anytime Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 24890,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The\u00a0<a href=\"https://www.nationalrail.co.uk/\" title=\"\">National Rail Journey Planner</a>\u00a0will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 29240,
+          "undiscountedPrices": {
+            "adult": 29240,
+            "child": 14620
+          },
+          "typeCode": "FSR",
+          "typeDescription": "Off-Peak Return (1st Class)",
+          "ticketRestriction": "2V",
+          "fareClass": "FIRST",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 29240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 49770,
+          "undiscountedPrices": {
+            "adult": 49770,
+            "child": 24885
+          },
+          "typeCode": "FOR",
+          "typeDescription": "Anytime Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 49770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "2f5569f6",
+      "isOvertaken": false
+    },
+    {
+      "id": 6,
+      "origin": {
+        "nlcCode": "8126",
+        "crsCode": "HUL",
+        "name": "Hull",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T18:25:00+01:00",
+          "arrival": "2026-09-11T21:07:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order at Bridlington station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T11:51:25+01:00"
+        }
+      ],
+      "duration": "2h 42m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G89311|11/09/2026",
+          "trainRetailId": "NT315300",
+          "trainUid": "G89311",
+          "board": {
+            "crsCode": "HUL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Hull"
+          },
+          "alight": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SCA",
+              "scheduledTime": "2026-09-11T17:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SCA"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SHF",
+              "scheduledTime": "2026-09-11T19:49:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SHF"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "3B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "NT",
+            "name": "Northern"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T18:25:00+01:00",
+              "arrival": "2026-09-11T19:49:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "G01169|11/09/2026",
+          "trainRetailId": "XC179000",
+          "trainUid": "G01169",
+          "board": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EDB",
+              "scheduledTime": "2026-09-11T16:05:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EDB"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BRI",
+              "scheduledTime": "2026-09-11T22:42:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BRI"
+          ],
+          "originPlatform": "5",
+          "destinationPlatform": "11B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T19:56:00+01:00",
+              "arrival": "2026-09-11T21:07:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 11,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 9380,
+          "undiscountedPrices": {
+            "adult": 9380,
+            "child": 4690
+          },
+          "typeCode": "MFS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00439",
+          "startLegId": 1,
+          "endLegId": 2,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 9380,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11060,
+          "undiscountedPrices": {
+            "adult": 11060,
+            "child": 5530
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11060,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11190,
+          "undiscountedPrices": {
+            "adult": 11190,
+            "child": 5595
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 11190,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 11250,
+          "undiscountedPrices": {
+            "adult": 11250,
+            "child": 5625
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11250,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 22490,
+          "undiscountedPrices": {
+            "adult": 22490,
+            "child": 11245
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 22490,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 24890,
+          "undiscountedPrices": {
+            "adult": 24890,
+            "child": 12445
+          },
+          "typeCode": "FOS",
+          "typeDescription": "Anytime Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 24890,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The\u00a0<a href=\"https://www.nationalrail.co.uk/\" title=\"\">National Rail Journey Planner</a>\u00a0will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 29240,
+          "undiscountedPrices": {
+            "adult": 29240,
+            "child": 14620
+          },
+          "typeCode": "FSR",
+          "typeDescription": "Off-Peak Return (1st Class)",
+          "ticketRestriction": "2V",
+          "fareClass": "FIRST",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 29240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 49770,
+          "undiscountedPrices": {
+            "adult": 49770,
+            "child": 24885
+          },
+          "typeCode": "FOR",
+          "typeDescription": "Anytime Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 49770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "5ef47220",
+      "isOvertaken": false
+    },
+    {
+      "id": 7,
+      "origin": {
+        "nlcCode": "8126",
+        "crsCode": "HUL",
+        "name": "Hull",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T19:25:00+01:00",
+          "arrival": "2026-09-11T22:09:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order at Bridlington station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T11:51:25+01:00"
+        }
+      ],
+      "duration": "2h 44m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G89314|11/09/2026",
+          "trainRetailId": "NT315700",
+          "trainUid": "G89314",
+          "board": {
+            "crsCode": "HUL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Hull"
+          },
+          "alight": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SCA",
+              "scheduledTime": "2026-09-11T18:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SCA"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SHF",
+              "scheduledTime": "2026-09-11T20:47:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SHF"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "5B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "NT",
+            "name": "Northern"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T19:25:00+01:00",
+              "arrival": "2026-09-11T20:47:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "G01170|11/09/2026",
+          "trainRetailId": "XC181000",
+          "trainUid": "G01170",
+          "board": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EDB",
+              "scheduledTime": "2026-09-11T17:04:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EDB"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BRI",
+              "scheduledTime": "2026-09-11T23:34:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BRI"
+          ],
+          "originPlatform": "6",
+          "destinationPlatform": "11B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T20:55:00+01:00",
+              "arrival": "2026-09-11T22:09:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 11,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 9380,
+          "undiscountedPrices": {
+            "adult": 9380,
+            "child": 4690
+          },
+          "typeCode": "MFS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00439",
+          "startLegId": 1,
+          "endLegId": 2,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 9380,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11060,
+          "undiscountedPrices": {
+            "adult": 11060,
+            "child": 5530
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11060,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11190,
+          "undiscountedPrices": {
+            "adult": 11190,
+            "child": 5595
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 11190,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 11250,
+          "undiscountedPrices": {
+            "adult": 11250,
+            "child": 5625
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11250,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 22490,
+          "undiscountedPrices": {
+            "adult": 22490,
+            "child": 11245
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 22490,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 24890,
+          "undiscountedPrices": {
+            "adult": 24890,
+            "child": 12445
+          },
+          "typeCode": "FOS",
+          "typeDescription": "Anytime Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 24890,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The\u00a0<a href=\"https://www.nationalrail.co.uk/\" title=\"\">National Rail Journey Planner</a>\u00a0will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 29240,
+          "undiscountedPrices": {
+            "adult": 29240,
+            "child": 14620
+          },
+          "typeCode": "FSR",
+          "typeDescription": "Off-Peak Return (1st Class)",
+          "ticketRestriction": "2V",
+          "fareClass": "FIRST",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 29240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 49770,
+          "undiscountedPrices": {
+            "adult": 49770,
+            "child": 24885
+          },
+          "typeCode": "FOR",
+          "typeDescription": "Anytime Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 49770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "4be076e8",
+      "isOvertaken": false
+    },
+    {
+      "id": 8,
+      "origin": {
+        "nlcCode": "8126",
+        "crsCode": "HUL",
+        "name": "Hull",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T20:25:00+01:00",
+          "arrival": "2026-09-11T23:28:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order at Bridlington station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T11:51:25+01:00"
+        }
+      ],
+      "duration": "3h 3m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G89182|11/09/2026",
+          "trainRetailId": "NT316100",
+          "trainUid": "G89182",
+          "board": {
+            "crsCode": "HUL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Hull"
+          },
+          "alight": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SCA",
+              "scheduledTime": "2026-09-11T19:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SCA"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SHF",
+              "scheduledTime": "2026-09-11T21:50:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SHF"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "2",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "NT",
+            "name": "Northern"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T20:25:00+01:00",
+              "arrival": "2026-09-11T21:50:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "G00842|11/09/2026",
+          "trainRetailId": "XC183000",
+          "trainUid": "G00842",
+          "board": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EDB",
+              "scheduledTime": "2026-09-11T18:04:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EDB"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T23:28:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "1",
+          "destinationPlatform": "9",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T22:02:00+01:00",
+              "arrival": "2026-09-11T23:28:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 12,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 8450,
+          "undiscountedPrices": {
+            "adult": 8450,
+            "child": 4225
+          },
+          "typeCode": "MGS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00439",
+          "startLegId": 1,
+          "endLegId": 2,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 8450,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 11,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 9380,
+          "undiscountedPrices": {
+            "adult": 9380,
+            "child": 4690
+          },
+          "typeCode": "MFS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00439",
+          "startLegId": 1,
+          "endLegId": 2,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 9380,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11060,
+          "undiscountedPrices": {
+            "adult": 11060,
+            "child": 5530
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11060,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11190,
+          "undiscountedPrices": {
+            "adult": 11190,
+            "child": 5595
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 11190,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 11250,
+          "undiscountedPrices": {
+            "adult": 11250,
+            "child": 5625
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11250,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 22490,
+          "undiscountedPrices": {
+            "adult": 22490,
+            "child": 11245
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 22490,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 24890,
+          "undiscountedPrices": {
+            "adult": 24890,
+            "child": 12445
+          },
+          "typeCode": "FOS",
+          "typeDescription": "Anytime Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 24890,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The\u00a0<a href=\"https://www.nationalrail.co.uk/\" title=\"\">National Rail Journey Planner</a>\u00a0will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 29240,
+          "undiscountedPrices": {
+            "adult": 29240,
+            "child": 14620
+          },
+          "typeCode": "FSR",
+          "typeDescription": "Off-Peak Return (1st Class)",
+          "ticketRestriction": "2V",
+          "fareClass": "FIRST",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 29240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 49770,
+          "undiscountedPrices": {
+            "adult": 49770,
+            "child": 24885
+          },
+          "typeCode": "FOR",
+          "typeDescription": "Anytime Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 49770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "9ef55278",
+      "isOvertaken": false
+    },
+    {
+      "id": 9,
+      "origin": {
+        "nlcCode": "8126",
+        "crsCode": "HUL",
+        "name": "Hull",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T21:26:00+01:00",
+          "arrival": "2026-09-12T06:45:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order at Bridlington station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T11:51:25+01:00"
+        },
+        {
+          "title": null,
+          "description": "The lifts are out of order between platform 6 and exit at Nuneaton station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T08:41:46+01:00"
+        },
+        {
+          "title": null,
+          "description": "Temporary reduced timetable on East Midlands Railway Intercity routes until further notice",
+          "url": "https://www.nationalrail.co.uk/service-disruptions/reduced-emr-20260718/",
+          "category": "Disruption",
+          "severity": "P1",
+          "speakableText": "",
+          "lastUpdated": "2026-08-26T14:56:39+01:00"
+        }
+      ],
+      "duration": "9h 19m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G89321|11/09/2026",
+          "trainRetailId": "NT316500",
+          "trainUid": "G89321",
+          "board": {
+            "crsCode": "HUL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Hull"
+          },
+          "alight": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SCA",
+              "scheduledTime": "2026-09-11T20:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SCA"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SHF",
+              "scheduledTime": "2026-09-11T22:45:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SHF"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "5B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "NT",
+            "name": "Northern"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T21:26:00+01:00",
+              "arrival": "2026-09-11T22:45:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "W70762|11/09/2026",
+          "trainRetailId": "EM121300",
+          "trainUid": "W70762",
+          "board": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "alight": {
+            "crsCode": "DBY",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Derby"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SHF",
+              "scheduledTime": "2026-09-11T23:30:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SHF"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "DBY",
+              "scheduledTime": "2026-09-12T00:17:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "DBY"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "6",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "EM",
+            "name": "East Midlands Railway"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T23:30:00+01:00",
+              "arrival": "2026-09-12T00:17:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 3,
+          "trainRid": null,
+          "trainTripId": "W70751|12/09/2026",
+          "trainRetailId": "EM120200",
+          "trainUid": "W70751",
+          "board": {
+            "crsCode": "DBY",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Derby"
+          },
+          "alight": {
+            "crsCode": "LEI",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Leicester"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "DBY",
+              "scheduledTime": "2026-09-12T04:47:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "DBY"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "STP",
+              "scheduledTime": "2026-09-12T06:27:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "STP"
+          ],
+          "originPlatform": "5",
+          "destinationPlatform": "3",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "EM",
+            "name": "East Midlands Railway"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-12T04:47:00+01:00",
+              "arrival": "2026-09-12T05:18:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 4,
+          "trainRid": null,
+          "trainTripId": "G66933|12/09/2026",
+          "trainRetailId": "XC650700",
+          "trainUid": "G66933",
+          "board": {
+            "crsCode": "LEI",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Leicester"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "LEI",
+              "scheduledTime": "2026-09-12T05:48:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "LEI"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-12T06:45:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "1",
+          "destinationPlatform": "10",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-12T05:48:00+01:00",
+              "arrival": "2026-09-12T06:45:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11060,
+          "undiscountedPrices": {
+            "adult": 11060,
+            "child": 5530
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11060,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11190,
+          "undiscountedPrices": {
+            "adult": 11190,
+            "child": 5595
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 11190,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 11250,
+          "undiscountedPrices": {
+            "adult": 11250,
+            "child": 5625
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11250,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 22490,
+          "undiscountedPrices": {
+            "adult": 22490,
+            "child": 11245
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 22490,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 24890,
+          "undiscountedPrices": {
+            "adult": 24890,
+            "child": 12445
+          },
+          "typeCode": "FOS",
+          "typeDescription": "Anytime Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 24890,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The\u00a0<a href=\"https://www.nationalrail.co.uk/\" title=\"\">National Rail Journey Planner</a>\u00a0will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 29240,
+          "undiscountedPrices": {
+            "adult": 29240,
+            "child": 14620
+          },
+          "typeCode": "FSR",
+          "typeDescription": "Off-Peak Return (1st Class)",
+          "ticketRestriction": "2V",
+          "fareClass": "FIRST",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 29240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 49770,
+          "undiscountedPrices": {
+            "adult": 49770,
+            "child": 24885
+          },
+          "typeCode": "FOR",
+          "typeDescription": "Anytime Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 49770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "f26ec1a3",
+      "isOvertaken": false
+    },
+    {
+      "id": 10,
+      "origin": {
+        "nlcCode": "8126",
+        "crsCode": "HUL",
+        "name": "Hull",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T22:51:00+01:00",
+          "arrival": "2026-09-12T06:48:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "Temporary reduced timetable on East Midlands Railway Intercity routes until further notice",
+          "url": "https://www.nationalrail.co.uk/service-disruptions/reduced-emr-20260718/",
+          "category": "Disruption",
+          "severity": "P1",
+          "speakableText": "",
+          "lastUpdated": "2026-08-26T14:56:39+01:00"
+        }
+      ],
+      "duration": "7h 57m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G85769|11/09/2026",
+          "trainRetailId": "NT303700",
+          "trainUid": "G85769",
+          "board": {
+            "crsCode": "HUL",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Hull"
+          },
+          "alight": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "HUL",
+              "scheduledTime": "2026-09-11T22:51:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "HUL"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SHF",
+              "scheduledTime": "2026-09-12T00:29:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SHF"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "8",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "NT",
+            "name": "Northern"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T22:51:00+01:00",
+              "arrival": "2026-09-12T00:29:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "W70757|12/09/2026",
+          "trainRetailId": "EM120800",
+          "trainUid": "W70757",
+          "board": {
+            "crsCode": "SHF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Sheffield"
+          },
+          "alight": {
+            "crsCode": "DBY",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Derby"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SHF",
+              "scheduledTime": "2026-09-12T05:30:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SHF"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "STP",
+              "scheduledTime": "2026-09-12T07:36:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "STP"
+          ],
+          "originPlatform": "8",
+          "destinationPlatform": "3",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "EM",
+            "name": "East Midlands Railway"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-12T05:30:00+01:00",
+              "arrival": "2026-09-12T06:00:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 3,
+          "trainRid": null,
+          "trainTripId": "G01132|12/09/2026",
+          "trainRetailId": "XC151700",
+          "trainUid": "G01132",
+          "board": {
+            "crsCode": "DBY",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Derby"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "DBY",
+              "scheduledTime": "2026-09-12T06:10:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "DBY"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "PLY",
+              "scheduledTime": "2026-09-12T10:47:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "PLY"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "11",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-12T06:10:00+01:00",
+              "arrival": "2026-09-12T06:48:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11060,
+          "undiscountedPrices": {
+            "adult": 11060,
+            "child": 5530
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11060,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 11190,
+          "undiscountedPrices": {
+            "adult": 11190,
+            "child": 5595
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 11190,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 11250,
+          "undiscountedPrices": {
+            "adult": 11250,
+            "child": 5625
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 11250,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 22490,
+          "undiscountedPrices": {
+            "adult": 22490,
+            "child": 11245
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 22490,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 24890,
+          "undiscountedPrices": {
+            "adult": 24890,
+            "child": 12445
+          },
+          "typeCode": "FOS",
+          "typeDescription": "Anytime Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 24890,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The\u00a0<a href=\"https://www.nationalrail.co.uk/\" title=\"\">National Rail Journey Planner</a>\u00a0will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 29240,
+          "undiscountedPrices": {
+            "adult": 29240,
+            "child": 14620
+          },
+          "typeCode": "FSR",
+          "typeDescription": "Off-Peak Return (1st Class)",
+          "ticketRestriction": "2V",
+          "fareClass": "FIRST",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 29240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 49770,
+          "undiscountedPrices": {
+            "adult": 49770,
+            "child": 24885
+          },
+          "typeCode": "FOR",
+          "typeDescription": "Anytime Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "8126",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 49770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "90c754dc",
+      "isOvertaken": false
+    }
+  ],
+  "inwardJourneys": [],
+  "searchSummary": {
+    "origin": {
+      "nlcCode": "8126",
+      "crsCode": "HUL",
+      "name": "Hull",
+      "group": false,
+      "classification": "NORMAL"
+    },
+    "destination": {
+      "nlcCode": "1127",
+      "crsCode": "BHM",
+      "name": "Birmingham New Street",
+      "group": false,
+      "classification": "NORMAL"
+    }
+  },
+  "stationLookup": {
+    "HUL": "Hull",
+    "SHF": "Sheffield",
+    "BHM": "Birmingham New Street",
+    "PLY": "Plymouth",
+    "CDF": "Cardiff Central",
+    "BRI": "Bristol Temple Meads",
+    "DBY": "Derby",
+    "LEI": "Leicester",
+    "STP": "London St Pancras International"
+  },
+  "railcardLookup": {},
+  "fareLocationsLookup": {
+    "8126": "Hull",
+    "0418": "Birmingham New Street, Moor Street or Snow Hill"
+  }
+}

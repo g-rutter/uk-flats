@@ -1,0 +1,5610 @@
+{
+  "searchId": "65bd010a-be15-4e3c-972c-ede2ab571c38",
+  "outwardJourneys": [
+    {
+      "id": 1,
+      "origin": {
+        "nlcCode": "1823",
+        "crsCode": "DBY",
+        "name": "Derby",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T12:55:00+01:00",
+          "arrival": "2026-09-11T13:28:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "33m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G01184|11/09/2026",
+          "trainRetailId": "XC264000",
+          "trainUid": "G01184",
+          "board": {
+            "crsCode": "DBY",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Derby"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "NCL",
+              "scheduledTime": "2026-09-11T10:34:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "NCL"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "RDG",
+              "scheduledTime": "2026-09-11T15:06:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "RDG"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "12",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T12:55:00+01:00",
+              "arrival": "2026-09-11T13:28:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 8,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2310,
+          "undiscountedPrices": {
+            "adult": 2310,
+            "child": 1155
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2310,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2370,
+          "undiscountedPrices": {
+            "adult": 2370,
+            "child": 1185
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2370,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2520,
+          "undiscountedPrices": {
+            "adult": 2520,
+            "child": 1260
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2540,
+          "undiscountedPrices": {
+            "adult": 2540,
+            "child": 1270
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2540,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 4960,
+          "undiscountedPrices": {
+            "adult": 4960,
+            "child": 2480
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 4960,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 5700,
+          "undiscountedPrices": {
+            "adult": 5700,
+            "child": 2850
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 5700,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 6320,
+          "undiscountedPrices": {
+            "adult": 6320,
+            "child": 3160
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 6320,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 11400,
+          "undiscountedPrices": {
+            "adult": 11400,
+            "child": 5700
+          },
+          "typeCode": "FOR",
+          "typeDescription": "Anytime Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 11400,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "f2dd385a",
+      "isOvertaken": false
+    },
+    {
+      "id": 2,
+      "origin": {
+        "nlcCode": "1823",
+        "crsCode": "DBY",
+        "name": "Derby",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T13:10:00+01:00",
+          "arrival": "2026-09-11T13:55:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "45m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G00753|11/09/2026",
+          "trainRetailId": "XC565000",
+          "trainUid": "G00753",
+          "board": {
+            "crsCode": "DBY",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Derby"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "NOT",
+              "scheduledTime": "2026-09-11T12:41:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "NOT"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T13:55:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "3A",
+          "destinationPlatform": "10A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T13:10:00+01:00",
+              "arrival": "2026-09-11T13:55:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 23,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1270,
+          "undiscountedPrices": {
+            "adult": 1270,
+            "child": 635
+          },
+          "typeCode": "MHS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1270,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 24,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1520,
+          "undiscountedPrices": {
+            "adult": 1520,
+            "child": 760
+          },
+          "typeCode": "MIA",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1770,
+          "undiscountedPrices": {
+            "adult": 1770,
+            "child": 885
+          },
+          "typeCode": "MGS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 27,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "MIS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 20,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2270,
+          "undiscountedPrices": {
+            "adult": 2270,
+            "child": 1135
+          },
+          "typeCode": "MFS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2270,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 8,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2310,
+          "undiscountedPrices": {
+            "adult": 2310,
+            "child": 1155
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2310,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2370,
+          "undiscountedPrices": {
+            "adult": 2370,
+            "child": 1185
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2370,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2520,
+          "undiscountedPrices": {
+            "adult": 2520,
+            "child": 1260
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2540,
+          "undiscountedPrices": {
+            "adult": 2540,
+            "child": 1270
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2540,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 4960,
+          "undiscountedPrices": {
+            "adult": 4960,
+            "child": 2480
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 4960,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "0adab59e",
+      "isOvertaken": false
+    },
+    {
+      "id": 3,
+      "origin": {
+        "nlcCode": "1823",
+        "crsCode": "DBY",
+        "name": "Derby",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T13:30:00+01:00",
+          "arrival": "2026-09-11T14:04:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "34m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G01148|11/09/2026",
+          "trainRetailId": "XC165000",
+          "trainUid": "G01148",
+          "board": {
+            "crsCode": "DBY",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Derby"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "GLC",
+              "scheduledTime": "2026-09-11T07:48:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "GLC"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "PLY",
+              "scheduledTime": "2026-09-11T17:47:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "PLY"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "11B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T13:30:00+01:00",
+              "arrival": "2026-09-11T14:04:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 8,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2310,
+          "undiscountedPrices": {
+            "adult": 2310,
+            "child": 1155
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2310,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2370,
+          "undiscountedPrices": {
+            "adult": 2370,
+            "child": 1185
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2370,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2520,
+          "undiscountedPrices": {
+            "adult": 2520,
+            "child": 1260
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2540,
+          "undiscountedPrices": {
+            "adult": 2540,
+            "child": 1270
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2540,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 4960,
+          "undiscountedPrices": {
+            "adult": 4960,
+            "child": 2480
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 4960,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 26,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train, but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 5020,
+          "undiscountedPrices": {
+            "adult": 5020,
+            "child": 2510
+          },
+          "typeCode": "MIF",
+          "typeDescription": "Advance Single (1st Class)",
+          "ticketRestriction": "XV",
+          "fareClass": "FIRST",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 5020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 5700,
+          "undiscountedPrices": {
+            "adult": 5700,
+            "child": 2850
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 5700,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 6320,
+          "undiscountedPrices": {
+            "adult": 6320,
+            "child": 3160
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 6320,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 11400,
+          "undiscountedPrices": {
+            "adult": 11400,
+            "child": 5700
+          },
+          "typeCode": "FOR",
+          "typeDescription": "Anytime Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 11400,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "cd351558",
+      "isOvertaken": false
+    },
+    {
+      "id": 4,
+      "origin": {
+        "nlcCode": "1823",
+        "crsCode": "DBY",
+        "name": "Derby",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T13:40:00+01:00",
+          "arrival": "2026-09-11T14:23:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "43m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G01113|11/09/2026",
+          "trainRetailId": "XC568000",
+          "trainUid": "G01113",
+          "board": {
+            "crsCode": "DBY",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Derby"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "NOT",
+              "scheduledTime": "2026-09-11T13:07:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "NOT"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "CDF",
+              "scheduledTime": "2026-09-11T16:25:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "CDF"
+          ],
+          "originPlatform": "3A",
+          "destinationPlatform": "11B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T13:40:00+01:00",
+              "arrival": "2026-09-11T14:23:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 24,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1520,
+          "undiscountedPrices": {
+            "adult": 1520,
+            "child": 760
+          },
+          "typeCode": "MIA",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1770,
+          "undiscountedPrices": {
+            "adult": 1770,
+            "child": 885
+          },
+          "typeCode": "MGS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 27,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "MIS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 20,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2270,
+          "undiscountedPrices": {
+            "adult": 2270,
+            "child": 1135
+          },
+          "typeCode": "MFS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2270,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 8,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2310,
+          "undiscountedPrices": {
+            "adult": 2310,
+            "child": 1155
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2310,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2370,
+          "undiscountedPrices": {
+            "adult": 2370,
+            "child": 1185
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2370,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2520,
+          "undiscountedPrices": {
+            "adult": 2520,
+            "child": 1260
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2540,
+          "undiscountedPrices": {
+            "adult": 2540,
+            "child": 1270
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2540,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 4960,
+          "undiscountedPrices": {
+            "adult": 4960,
+            "child": 2480
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 4960,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "cc4498a2",
+      "isOvertaken": false
+    },
+    {
+      "id": 5,
+      "origin": {
+        "nlcCode": "1823",
+        "crsCode": "DBY",
+        "name": "Derby",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T14:10:00+01:00",
+          "arrival": "2026-09-11T14:55:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "45m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G00755|11/09/2026",
+          "trainRetailId": "XC567000",
+          "trainUid": "G00755",
+          "board": {
+            "crsCode": "DBY",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Derby"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "NOT",
+              "scheduledTime": "2026-09-11T13:41:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "NOT"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T14:55:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "3A",
+          "destinationPlatform": "9A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T14:10:00+01:00",
+              "arrival": "2026-09-11T14:55:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 23,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1270,
+          "undiscountedPrices": {
+            "adult": 1270,
+            "child": 635
+          },
+          "typeCode": "MHS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1270,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 24,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1520,
+          "undiscountedPrices": {
+            "adult": 1520,
+            "child": 760
+          },
+          "typeCode": "MIA",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1770,
+          "undiscountedPrices": {
+            "adult": 1770,
+            "child": 885
+          },
+          "typeCode": "MGS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 27,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "MIS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 20,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2270,
+          "undiscountedPrices": {
+            "adult": 2270,
+            "child": 1135
+          },
+          "typeCode": "MFS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2270,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 8,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2310,
+          "undiscountedPrices": {
+            "adult": 2310,
+            "child": 1155
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2310,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2370,
+          "undiscountedPrices": {
+            "adult": 2370,
+            "child": 1185
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2370,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2520,
+          "undiscountedPrices": {
+            "adult": 2520,
+            "child": 1260
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2540,
+          "undiscountedPrices": {
+            "adult": 2540,
+            "child": 1270
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2540,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 4960,
+          "undiscountedPrices": {
+            "adult": 4960,
+            "child": 2480
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 4960,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "0a8cbaff",
+      "isOvertaken": false
+    },
+    {
+      "id": 6,
+      "origin": {
+        "nlcCode": "1823",
+        "crsCode": "DBY",
+        "name": "Derby",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T14:31:00+01:00",
+          "arrival": "2026-09-11T15:06:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "35m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "W29884|11/09/2026",
+          "trainRetailId": "XC167000",
+          "trainUid": "W29884",
+          "board": {
+            "crsCode": "DBY",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Derby"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "EDB",
+              "scheduledTime": "2026-09-11T10:05:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "EDB"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "PLY",
+              "scheduledTime": "2026-09-11T18:47:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "PLY"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "11B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T14:31:00+01:00",
+              "arrival": "2026-09-11T15:06:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 8,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2310,
+          "undiscountedPrices": {
+            "adult": 2310,
+            "child": 1155
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2310,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2370,
+          "undiscountedPrices": {
+            "adult": 2370,
+            "child": 1185
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2370,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2520,
+          "undiscountedPrices": {
+            "adult": 2520,
+            "child": 1260
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2540,
+          "undiscountedPrices": {
+            "adult": 2540,
+            "child": 1270
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2540,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 4960,
+          "undiscountedPrices": {
+            "adult": 4960,
+            "child": 2480
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 4960,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 26,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train, but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 5020,
+          "undiscountedPrices": {
+            "adult": 5020,
+            "child": 2510
+          },
+          "typeCode": "MIF",
+          "typeDescription": "Advance Single (1st Class)",
+          "ticketRestriction": "XV",
+          "fareClass": "FIRST",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 5020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 5700,
+          "undiscountedPrices": {
+            "adult": 5700,
+            "child": 2850
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 5700,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 6320,
+          "undiscountedPrices": {
+            "adult": 6320,
+            "child": 3160
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 6320,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 11400,
+          "undiscountedPrices": {
+            "adult": 11400,
+            "child": 5700
+          },
+          "typeCode": "FOR",
+          "typeDescription": "Anytime Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 11400,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "58694dd2",
+      "isOvertaken": false
+    },
+    {
+      "id": 7,
+      "origin": {
+        "nlcCode": "1823",
+        "crsCode": "DBY",
+        "name": "Derby",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T14:39:00+01:00",
+          "arrival": "2026-09-11T15:23:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "44m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G01114|11/09/2026",
+          "trainRetailId": "XC570000",
+          "trainUid": "G01114",
+          "board": {
+            "crsCode": "DBY",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Derby"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "NOT",
+              "scheduledTime": "2026-09-11T14:07:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "NOT"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "CDF",
+              "scheduledTime": "2026-09-11T17:26:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "CDF"
+          ],
+          "originPlatform": "3A",
+          "destinationPlatform": "11B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T14:39:00+01:00",
+              "arrival": "2026-09-11T15:23:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 23,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1270,
+          "undiscountedPrices": {
+            "adult": 1270,
+            "child": 635
+          },
+          "typeCode": "MHS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1270,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 24,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1520,
+          "undiscountedPrices": {
+            "adult": 1520,
+            "child": 760
+          },
+          "typeCode": "MIA",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1770,
+          "undiscountedPrices": {
+            "adult": 1770,
+            "child": 885
+          },
+          "typeCode": "MGS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 27,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "MIS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 20,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2270,
+          "undiscountedPrices": {
+            "adult": 2270,
+            "child": 1135
+          },
+          "typeCode": "MFS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2270,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 8,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2310,
+          "undiscountedPrices": {
+            "adult": 2310,
+            "child": 1155
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2310,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2370,
+          "undiscountedPrices": {
+            "adult": 2370,
+            "child": 1185
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2370,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2520,
+          "undiscountedPrices": {
+            "adult": 2520,
+            "child": 1260
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2540,
+          "undiscountedPrices": {
+            "adult": 2540,
+            "child": 1270
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2540,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 4960,
+          "undiscountedPrices": {
+            "adult": 4960,
+            "child": 2480
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 4960,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "411c4cbb",
+      "isOvertaken": false
+    },
+    {
+      "id": 8,
+      "origin": {
+        "nlcCode": "1823",
+        "crsCode": "DBY",
+        "name": "Derby",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T14:53:00+01:00",
+          "arrival": "2026-09-11T15:28:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "35m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "W29935|11/09/2026",
+          "trainRetailId": "XC268000",
+          "trainUid": "W29935",
+          "board": {
+            "crsCode": "DBY",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Derby"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "NCL",
+              "scheduledTime": "2026-09-11T12:33:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "NCL"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "RDG",
+              "scheduledTime": "2026-09-11T17:15:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "RDG"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "12A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T14:53:00+01:00",
+              "arrival": "2026-09-11T15:28:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 24,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1520,
+          "undiscountedPrices": {
+            "adult": 1520,
+            "child": 760
+          },
+          "typeCode": "MIA",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1770,
+          "undiscountedPrices": {
+            "adult": 1770,
+            "child": 885
+          },
+          "typeCode": "MGS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 27,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "MIS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 20,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2270,
+          "undiscountedPrices": {
+            "adult": 2270,
+            "child": 1135
+          },
+          "typeCode": "MFS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2270,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 8,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2310,
+          "undiscountedPrices": {
+            "adult": 2310,
+            "child": 1155
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2310,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2370,
+          "undiscountedPrices": {
+            "adult": 2370,
+            "child": 1185
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2370,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2520,
+          "undiscountedPrices": {
+            "adult": 2520,
+            "child": 1260
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 33,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train, but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2530,
+          "undiscountedPrices": {
+            "adult": 2530,
+            "child": 1265
+          },
+          "typeCode": "MMF",
+          "typeDescription": "Advance Single (1st Class)",
+          "ticketRestriction": "XV",
+          "fareClass": "FIRST",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2530,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2540,
+          "undiscountedPrices": {
+            "adult": 2540,
+            "child": 1270
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2540,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 15,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train, but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2670,
+          "undiscountedPrices": {
+            "adult": 2670,
+            "child": 1335
+          },
+          "typeCode": "MDF",
+          "typeDescription": "Advance Single (1st Class)",
+          "ticketRestriction": "XV",
+          "fareClass": "FIRST",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2670,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 13,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train, but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2820,
+          "undiscountedPrices": {
+            "adult": 2820,
+            "child": 1410
+          },
+          "typeCode": "MCF",
+          "typeDescription": "Advance Single (1st Class)",
+          "ticketRestriction": "XV",
+          "fareClass": "FIRST",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2820,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 11,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train, but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2970,
+          "undiscountedPrices": {
+            "adult": 2970,
+            "child": 1485
+          },
+          "typeCode": "MBF",
+          "typeDescription": "Advance Single (1st Class)",
+          "ticketRestriction": "XV",
+          "fareClass": "FIRST",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2970,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 9,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train, but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 3130,
+          "undiscountedPrices": {
+            "adult": 3130,
+            "child": 1565
+          },
+          "typeCode": "MAF",
+          "typeDescription": "Advance Single (1st Class)",
+          "ticketRestriction": "XV",
+          "fareClass": "FIRST",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 3130,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 28,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train, but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 3300,
+          "undiscountedPrices": {
+            "adult": 3300,
+            "child": 1650
+          },
+          "typeCode": "MJF",
+          "typeDescription": "Advance Single (1st Class)",
+          "ticketRestriction": "XV",
+          "fareClass": "FIRST",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 3300,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 21,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train, but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 3660,
+          "undiscountedPrices": {
+            "adult": 3660,
+            "child": 1830
+          },
+          "typeCode": "MGF",
+          "typeDescription": "Advance Single (1st Class)",
+          "ticketRestriction": "XV",
+          "fareClass": "FIRST",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 3660,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 19,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train, but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 4340,
+          "undiscountedPrices": {
+            "adult": 4340,
+            "child": 2170
+          },
+          "typeCode": "MFF",
+          "typeDescription": "Advance Single (1st Class)",
+          "ticketRestriction": "XV",
+          "fareClass": "FIRST",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 4340,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 4960,
+          "undiscountedPrices": {
+            "adult": 4960,
+            "child": 2480
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 4960,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 26,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train, but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 5020,
+          "undiscountedPrices": {
+            "adult": 5020,
+            "child": 2510
+          },
+          "typeCode": "MIF",
+          "typeDescription": "Advance Single (1st Class)",
+          "ticketRestriction": "XV",
+          "fareClass": "FIRST",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 5020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 5700,
+          "undiscountedPrices": {
+            "adult": 5700,
+            "child": 2850
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 5700,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 6320,
+          "undiscountedPrices": {
+            "adult": 6320,
+            "child": 3160
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 6320,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 11400,
+          "undiscountedPrices": {
+            "adult": 11400,
+            "child": 5700
+          },
+          "typeCode": "FOR",
+          "typeDescription": "Anytime Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 11400,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "67066ec6",
+      "isOvertaken": false
+    },
+    {
+      "id": 9,
+      "origin": {
+        "nlcCode": "1823",
+        "crsCode": "DBY",
+        "name": "Derby",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T15:10:00+01:00",
+          "arrival": "2026-09-11T16:00:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "50m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G00757|11/09/2026",
+          "trainRetailId": "XC569000",
+          "trainUid": "G00757",
+          "board": {
+            "crsCode": "DBY",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Derby"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "NOT",
+              "scheduledTime": "2026-09-11T14:41:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "NOT"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T16:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "3A",
+          "destinationPlatform": "9A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T15:10:00+01:00",
+              "arrival": "2026-09-11T16:00:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 23,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1270,
+          "undiscountedPrices": {
+            "adult": 1270,
+            "child": 635
+          },
+          "typeCode": "MHS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1270,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 24,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1520,
+          "undiscountedPrices": {
+            "adult": 1520,
+            "child": 760
+          },
+          "typeCode": "MIA",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 22,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 1770,
+          "undiscountedPrices": {
+            "adult": 1770,
+            "child": 885
+          },
+          "typeCode": "MGS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 1770,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 27,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2020,
+          "undiscountedPrices": {
+            "adult": 2020,
+            "child": 1010
+          },
+          "typeCode": "MIS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 20,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 2270,
+          "undiscountedPrices": {
+            "adult": 2270,
+            "child": 1135
+          },
+          "typeCode": "MFS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2270,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 8,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2310,
+          "undiscountedPrices": {
+            "adult": 2310,
+            "child": 1155
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2310,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2370,
+          "undiscountedPrices": {
+            "adult": 2370,
+            "child": 1185
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2370,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2520,
+          "undiscountedPrices": {
+            "adult": 2520,
+            "child": 1260
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2540,
+          "undiscountedPrices": {
+            "adult": 2540,
+            "child": 1270
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2540,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 4960,
+          "undiscountedPrices": {
+            "adult": 4960,
+            "child": 2480
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 4960,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "c911afed",
+      "isOvertaken": false
+    },
+    {
+      "id": 10,
+      "origin": {
+        "nlcCode": "1823",
+        "crsCode": "DBY",
+        "name": "Derby",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T15:31:00+01:00",
+          "arrival": "2026-09-11T16:04:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [],
+      "duration": "33m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G01153|11/09/2026",
+          "trainRetailId": "XC169000",
+          "trainUid": "G01153",
+          "board": {
+            "crsCode": "DBY",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Derby"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "ABD",
+              "scheduledTime": "2026-09-11T08:20:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "ABD"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "PLY",
+              "scheduledTime": "2026-09-11T19:47:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "PLY"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "11B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T15:31:00+01:00",
+              "arrival": "2026-09-11T16:04:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 8,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2310,
+          "undiscountedPrices": {
+            "adult": 2310,
+            "child": 1155
+          },
+          "typeCode": "SVS",
+          "typeDescription": "Off-Peak Single",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2310,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 7,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 2370,
+          "undiscountedPrices": {
+            "adult": 2370,
+            "child": 1185
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2370,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2520,
+          "undiscountedPrices": {
+            "adult": 2520,
+            "child": 1260
+          },
+          "typeCode": "SDS",
+          "typeDescription": "Anytime Day Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 2520,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 2540,
+          "undiscountedPrices": {
+            "adult": 2540,
+            "child": 1270
+          },
+          "typeCode": "SDR",
+          "typeDescription": "Anytime Day Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 2540,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 4960,
+          "undiscountedPrices": {
+            "adult": 4960,
+            "child": 2480
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 4960,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 26,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train, but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 5020,
+          "undiscountedPrices": {
+            "adult": 5020,
+            "child": 2510
+          },
+          "typeCode": "MIF",
+          "typeDescription": "Advance Single (1st Class)",
+          "ticketRestriction": "XV",
+          "fareClass": "FIRST",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00024",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "1127",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 5020,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 5,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 5700,
+          "undiscountedPrices": {
+            "adult": 5700,
+            "child": 2850
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 5700,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 6320,
+          "undiscountedPrices": {
+            "adult": 6320,
+            "child": 3160
+          },
+          "typeCode": "FDR",
+          "typeDescription": "Anytime Day Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 6320,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 6,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 11400,
+          "undiscountedPrices": {
+            "adult": 11400,
+            "child": 5700
+          },
+          "typeCode": "FOR",
+          "typeDescription": "Anytime Return (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 1,
+          "originNlc": "1823",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 11400,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "d0d665e6",
+      "isOvertaken": false
+    }
+  ],
+  "inwardJourneys": [],
+  "searchSummary": {
+    "origin": {
+      "nlcCode": "1823",
+      "crsCode": "DBY",
+      "name": "Derby",
+      "group": false,
+      "classification": "NORMAL"
+    },
+    "destination": {
+      "nlcCode": "1127",
+      "crsCode": "BHM",
+      "name": "Birmingham New Street",
+      "group": false,
+      "classification": "NORMAL"
+    }
+  },
+  "stationLookup": {
+    "DBY": "Derby",
+    "BHM": "Birmingham New Street",
+    "RDG": "Reading",
+    "PLY": "Plymouth",
+    "CDF": "Cardiff Central"
+  },
+  "railcardLookup": {},
+  "fareLocationsLookup": {
+    "1127": "Birmingham New Street",
+    "1823": "Derby",
+    "0418": "Birmingham New Street, Moor Street or Snow Hill"
+  }
+}

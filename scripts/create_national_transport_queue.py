@@ -27,7 +27,22 @@ def read_rows(path):
         return list(csv.DictReader(source))
 
 
-def create_queue(locations_path, stations_path, measurement_date, location_ids=None):
+def excluded_route_keys(path, measurement_date):
+    if path is None:
+        return set()
+    rows = read_rows(path)
+    required = {'location_id', 'destination_id', 'measurement_date'}
+    if not rows or required - set(rows[0]):
+        raise ValueError(f'{path}: route observations need location, destination and measurement-date columns')
+    keys = {(row['location_id'], row['destination_id']) for row in rows
+            if row['measurement_date'] == measurement_date}
+    if len(keys) != sum(row['measurement_date'] == measurement_date for row in rows):
+        raise ValueError(f'{path}: duplicate route observation keys for {measurement_date}')
+    return keys
+
+
+def create_queue(locations_path, stations_path, measurement_date, location_ids=None,
+                 exclude_observations=None):
     locations = read_rows(locations_path)
     stations = {row['location_id']: row for row in read_rows(stations_path)}
     wanted = set(location_ids or ())
@@ -36,10 +51,13 @@ def create_queue(locations_path, stations_path, measurement_date, location_ids=N
         if unknown:
             raise ValueError(f'Unknown location ids: {", ".join(sorted(unknown))}')
         locations = [row for row in locations if row['id'] in wanted]
+    excluded = excluded_route_keys(exclude_observations, measurement_date)
     rows = []
     for location in locations:
         station = stations.get(location['id'], {})
         for destination_id, destination_name, destination_planner_id in DESTINATIONS:
+            if (location['id'], destination_id) in excluded:
+                continue
             same_station = station.get('station_crs') == destination_planner_id
             if not station:
                 status, reason = 'blocked-mapping', 'Reviewed origin-station mapping is required before collection.'
@@ -78,10 +96,13 @@ def main():
     parser.add_argument('--stations', default='data/inputs/transport_stations.csv', type=Path)
     parser.add_argument('--measurement-date', default='2026-09-11')
     parser.add_argument('--location-id', action='append', dest='location_ids')
+    parser.add_argument('--exclude-observations', type=Path,
+                        help='Retained same-date reviewed routes to leave out of a supplement queue')
     parser.add_argument('--out', type=Path, required=True)
     parser.add_argument('--overwrite', action='store_true')
     args = parser.parse_args()
-    rows = create_queue(args.locations, args.stations, args.measurement_date, args.location_ids)
+    rows = create_queue(args.locations, args.stations, args.measurement_date, args.location_ids,
+                        args.exclude_observations)
     write_queue(args.out, rows, args.overwrite)
 
 

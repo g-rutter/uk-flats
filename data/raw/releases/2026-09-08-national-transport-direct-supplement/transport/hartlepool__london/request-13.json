@@ -1,0 +1,28 @@
+{
+  "origin": {
+    "crs": "HPL",
+    "group": false
+  },
+  "destination": {
+    "crs": "182",
+    "group": true
+  },
+  "outwardTime": {
+    "travelTime": "2026-09-11T13:00:00+01:00",
+    "type": "DEPART"
+  },
+  "fareRequestDetails": {
+    "passengers": {
+      "adult": 1,
+      "child": 0
+    },
+    "fareClass": "ANY",
+    "railcards": []
+  },
+  "directTrains": false,
+  "reducedTransferTime": false,
+  "onlySearchForSleeper": false,
+  "overtakenTrains": false,
+  "useAlternativeServices": false,
+  "increasedInterchange": "ZERO"
+}

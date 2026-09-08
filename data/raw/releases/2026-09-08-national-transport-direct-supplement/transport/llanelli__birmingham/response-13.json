@@ -1,0 +1,4377 @@
+{
+  "searchId": "5add250f-d8ef-4287-8da5-2a6bdc5ecde1",
+  "outwardJourneys": [
+    {
+      "id": 1,
+      "origin": {
+        "nlcCode": "4133",
+        "crsCode": "LLE",
+        "name": "Llanelli",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T13:21:00+01:00",
+          "arrival": "2026-09-11T16:55:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of service on platforms 6 and 7 at Cardiff Central station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-08T12:49:52+01:00"
+        },
+        {
+          "title": null,
+          "description": "The lifts are out of order at Llanelli station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T09:03:40+01:00"
+        },
+        {
+          "title": null,
+          "description": "The Riverside and Penarth Road car parks at Cardiff Central are now permanently closed. Please use Cardiff Central Quay multi-storey (Penarth Road) for parking, pick-up and drop-off. Please allow extra time to get to and from the station.",
+          "url": "https://tfw.wales/cardiff-central-enhancements",
+          "category": "Information",
+          "severity": "P1",
+          "speakableText": "",
+          "lastUpdated": "2026-07-21T13:42:31+01:00"
+        }
+      ],
+      "duration": "3h 34m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G38294|11/09/2026",
+          "trainRetailId": "AW502300",
+          "trainUid": "G38294",
+          "board": {
+            "crsCode": "LLE",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Llanelli"
+          },
+          "alight": {
+            "crsCode": "CDF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Cardiff Central"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "MFH",
+              "scheduledTime": "2026-09-11T11:53:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "MFH"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "CDF",
+              "scheduledTime": "2026-09-11T14:43:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "CDF"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "3A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "AW",
+            "name": "Transport for Wales"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T13:21:00+01:00",
+              "arrival": "2026-09-11T14:43:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "G15048|11/09/2026",
+          "trainRetailId": "GW644200",
+          "trainUid": "G15048",
+          "board": {
+            "crsCode": "CDF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Cardiff Central"
+          },
+          "alight": {
+            "crsCode": "BPW",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Bristol Parkway"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "CDF",
+              "scheduledTime": "2026-09-11T14:54:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "CDF"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "PAD",
+              "scheduledTime": "2026-09-11T16:41:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "PAD"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "3",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "GW",
+            "name": "Great Western Railway"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T14:54:00+01:00",
+              "arrival": "2026-09-11T15:26:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 3,
+          "trainRid": null,
+          "trainTripId": "G01082|11/09/2026",
+          "trainRetailId": "XC122000",
+          "trainUid": "G01082",
+          "board": {
+            "crsCode": "BPW",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Bristol Parkway"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "PNZ",
+              "scheduledTime": "2026-09-11T11:15:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "PNZ"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "EDB",
+              "scheduledTime": "2026-09-11T22:14:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "EDB"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "10",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T15:42:00+01:00",
+              "arrival": "2026-09-11T16:55:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 9230,
+          "undiscountedPrices": {
+            "adult": 9230,
+            "child": 4615
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 9230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 9460,
+          "undiscountedPrices": {
+            "adult": 9460,
+            "child": 4730
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 9460,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 13240,
+          "undiscountedPrices": {
+            "adult": 13240,
+            "child": 6620
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 13240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 14950,
+          "undiscountedPrices": {
+            "adult": 14950,
+            "child": 7475
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 14950,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "346f67aa",
+      "isOvertaken": false
+    },
+    {
+      "id": 2,
+      "origin": {
+        "nlcCode": "4133",
+        "crsCode": "LLE",
+        "name": "Llanelli",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T14:57:00+01:00",
+          "arrival": "2026-09-11T18:24:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order at Llanelli station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T09:03:40+01:00"
+        }
+      ],
+      "duration": "3h 27m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G39217|11/09/2026",
+          "trainRetailId": "AW532200",
+          "trainUid": "G39217",
+          "board": {
+            "crsCode": "LLE",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Llanelli"
+          },
+          "alight": {
+            "crsCode": "SWA",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Swansea"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "PMD",
+              "scheduledTime": "2026-09-11T13:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "PMD"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "CDF",
+              "scheduledTime": "2026-09-11T16:38:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "CDF"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "1",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "AW",
+            "name": "Transport for Wales"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T14:57:00+01:00",
+              "arrival": "2026-09-11T15:17:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "W35435|11/09/2026",
+          "trainRetailId": "GW644800",
+          "trainUid": "W35435",
+          "board": {
+            "crsCode": "SWA",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Swansea"
+          },
+          "alight": {
+            "crsCode": "BPW",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Bristol Parkway"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "CMN",
+              "scheduledTime": "2026-09-11T14:20:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "CMN"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "PAD",
+              "scheduledTime": "2026-09-11T18:13:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "PAD"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "3",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "GW",
+            "name": "Great Western Railway"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T15:22:00+01:00",
+              "arrival": "2026-09-11T16:54:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 3,
+          "trainRid": null,
+          "trainTripId": "G00894|11/09/2026",
+          "trainRetailId": "XC420000",
+          "trainUid": "G00894",
+          "board": {
+            "crsCode": "BPW",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Bristol Parkway"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "PGN",
+              "scheduledTime": "2026-09-11T14:38:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "PGN"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "MAN",
+              "scheduledTime": "2026-09-11T19:59:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "MAN"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "6B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T17:09:00+01:00",
+              "arrival": "2026-09-11T18:24:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 9230,
+          "undiscountedPrices": {
+            "adult": 9230,
+            "child": 4615
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 9230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 9460,
+          "undiscountedPrices": {
+            "adult": 9460,
+            "child": 4730
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 9460,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 13240,
+          "undiscountedPrices": {
+            "adult": 13240,
+            "child": 6620
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 13240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 14950,
+          "undiscountedPrices": {
+            "adult": 14950,
+            "child": 7475
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 14950,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "3a0b32aa",
+      "isOvertaken": false
+    },
+    {
+      "id": 3,
+      "origin": {
+        "nlcCode": "4133",
+        "crsCode": "LLE",
+        "name": "Llanelli",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T15:32:00+01:00",
+          "arrival": "2026-09-11T19:18:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order at Llanelli station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T09:03:40+01:00"
+        }
+      ],
+      "duration": "3h 46m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G40089|11/09/2026",
+          "trainRetailId": "AW505900",
+          "trainUid": "G40089",
+          "board": {
+            "crsCode": "LLE",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Llanelli"
+          },
+          "alight": {
+            "crsCode": "SWA",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Swansea"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SHR",
+              "scheduledTime": "2026-09-11T11:31:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SHR"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SWA",
+              "scheduledTime": "2026-09-11T16:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SWA"
+          ],
+          "originPlatform": "1",
+          "destinationPlatform": "1",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "AW",
+            "name": "Transport for Wales"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T15:32:00+01:00",
+              "arrival": "2026-09-11T16:00:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "W35198|11/09/2026",
+          "trainRetailId": "GW645200",
+          "trainUid": "W35198",
+          "board": {
+            "crsCode": "SWA",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Swansea"
+          },
+          "alight": {
+            "crsCode": "BPW",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Bristol Parkway"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SWA",
+              "scheduledTime": "2026-09-11T16:22:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SWA"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "PAD",
+              "scheduledTime": "2026-09-11T19:16:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "PAD"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "3",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "GW",
+            "name": "Great Western Railway"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T16:22:00+01:00",
+              "arrival": "2026-09-11T17:54:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 3,
+          "trainRid": null,
+          "trainTripId": "G66779|11/09/2026",
+          "trainRetailId": "XC422000",
+          "trainUid": "G66779",
+          "board": {
+            "crsCode": "BPW",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Bristol Parkway"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "BRI",
+              "scheduledTime": "2026-09-11T18:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "BRI"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T19:18:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "6B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T18:10:00+01:00",
+              "arrival": "2026-09-11T19:18:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 9230,
+          "undiscountedPrices": {
+            "adult": 9230,
+            "child": 4615
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 9230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 9460,
+          "undiscountedPrices": {
+            "adult": 9460,
+            "child": 4730
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 9460,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 13240,
+          "undiscountedPrices": {
+            "adult": 13240,
+            "child": 6620
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 13240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 14950,
+          "undiscountedPrices": {
+            "adult": 14950,
+            "child": 7475
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 14950,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "d4e7ee8a",
+      "isOvertaken": false
+    },
+    {
+      "id": 4,
+      "origin": {
+        "nlcCode": "4133",
+        "crsCode": "LLE",
+        "name": "Llanelli",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T16:57:00+01:00",
+          "arrival": "2026-09-11T20:29:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order at Llanelli station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T09:03:40+01:00"
+        }
+      ],
+      "duration": "3h 32m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G39241|11/09/2026",
+          "trainRetailId": "AW532300",
+          "trainUid": "G39241",
+          "board": {
+            "crsCode": "LLE",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Llanelli"
+          },
+          "alight": {
+            "crsCode": "SWA",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Swansea"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "PMD",
+              "scheduledTime": "2026-09-11T15:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "PMD"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "CDF",
+              "scheduledTime": "2026-09-11T18:37:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "CDF"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "1",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "AW",
+            "name": "Transport for Wales"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T16:57:00+01:00",
+              "arrival": "2026-09-11T17:17:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "G15050|11/09/2026",
+          "trainRetailId": "GW645600",
+          "trainUid": "G15050",
+          "board": {
+            "crsCode": "SWA",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Swansea"
+          },
+          "alight": {
+            "crsCode": "BPW",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Bristol Parkway"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "CMN",
+              "scheduledTime": "2026-09-11T16:19:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "CMN"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "PAD",
+              "scheduledTime": "2026-09-11T20:14:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "PAD"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "4",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "GW",
+            "name": "Great Western Railway"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T17:22:00+01:00",
+              "arrival": "2026-09-11T18:51:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 3,
+          "trainRid": null,
+          "trainTripId": "G00908|11/09/2026",
+          "trainRetailId": "XC424000",
+          "trainUid": "G00908",
+          "board": {
+            "crsCode": "BPW",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Bristol Parkway"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "BRI",
+              "scheduledTime": "2026-09-11T18:55:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "BRI"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T20:29:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "9",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T19:05:00+01:00",
+              "arrival": "2026-09-11T20:29:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 9230,
+          "undiscountedPrices": {
+            "adult": 9230,
+            "child": 4615
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 9230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 9460,
+          "undiscountedPrices": {
+            "adult": 9460,
+            "child": 4730
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 9460,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 13240,
+          "undiscountedPrices": {
+            "adult": 13240,
+            "child": 6620
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 13240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 14950,
+          "undiscountedPrices": {
+            "adult": 14950,
+            "child": 7475
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 14950,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "c5a02d58",
+      "isOvertaken": false
+    },
+    {
+      "id": 5,
+      "origin": {
+        "nlcCode": "4133",
+        "crsCode": "LLE",
+        "name": "Llanelli",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T17:26:00+01:00",
+          "arrival": "2026-09-11T21:54:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of service on platforms 6 and 7 at Cardiff Central station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-08T12:49:52+01:00"
+        },
+        {
+          "title": null,
+          "description": "The lifts are out of order at Llanelli station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T09:03:40+01:00"
+        },
+        {
+          "title": null,
+          "description": "The Riverside and Penarth Road car parks at Cardiff Central are now permanently closed. Please use Cardiff Central Quay multi-storey (Penarth Road) for parking, pick-up and drop-off. Please allow extra time to get to and from the station.",
+          "url": "https://tfw.wales/cardiff-central-enhancements",
+          "category": "Information",
+          "severity": "P1",
+          "speakableText": "",
+          "lastUpdated": "2026-07-21T13:42:31+01:00"
+        }
+      ],
+      "duration": "4h 28m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G38303|11/09/2026",
+          "trainRetailId": "AW500800",
+          "trainUid": "G38303",
+          "board": {
+            "crsCode": "LLE",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Llanelli"
+          },
+          "alight": {
+            "crsCode": "CDF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Cardiff Central"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "HVF",
+              "scheduledTime": "2026-09-11T16:13:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "HVF"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "CDF",
+              "scheduledTime": "2026-09-11T18:42:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "CDF"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "2",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "AW",
+            "name": "Transport for Wales"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T17:26:00+01:00",
+              "arrival": "2026-09-11T18:42:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "G66815|11/09/2026",
+          "trainRetailId": "XC532000",
+          "trainUid": "G66815",
+          "board": {
+            "crsCode": "CDF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Cardiff Central"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "CDF",
+              "scheduledTime": "2026-09-11T19:50:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "CDF"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "NOT",
+              "scheduledTime": "2026-09-11T23:26:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "NOT"
+          ],
+          "originPlatform": "1",
+          "destinationPlatform": "11A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T19:50:00+01:00",
+              "arrival": "2026-09-11T21:54:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 10,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 6300,
+          "undiscountedPrices": {
+            "adult": 6300,
+            "child": 3150
+          },
+          "typeCode": "MHS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00439",
+          "startLegId": 1,
+          "endLegId": 2,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 6300,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 8,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 7890,
+          "undiscountedPrices": {
+            "adult": 7890,
+            "child": 3945
+          },
+          "typeCode": "MFS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00439",
+          "startLegId": 1,
+          "endLegId": 2,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 7890,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 9230,
+          "undiscountedPrices": {
+            "adult": 9230,
+            "child": 4615
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 9230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 9460,
+          "undiscountedPrices": {
+            "adult": 9460,
+            "child": 4730
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 9460,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 14950,
+          "undiscountedPrices": {
+            "adult": 14950,
+            "child": 7475
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 14950,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "e83b3b9c",
+      "isOvertaken": false
+    },
+    {
+      "id": 6,
+      "origin": {
+        "nlcCode": "4133",
+        "crsCode": "LLE",
+        "name": "Llanelli",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T18:57:00+01:00",
+          "arrival": "2026-09-11T22:45:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of service on platforms 6 and 7 at Cardiff Central station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-08T12:49:52+01:00"
+        },
+        {
+          "title": null,
+          "description": "The lifts are out of order at Llanelli station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T09:03:40+01:00"
+        },
+        {
+          "title": null,
+          "description": "The Riverside and Penarth Road car parks at Cardiff Central are now permanently closed. Please use Cardiff Central Quay multi-storey (Penarth Road) for parking, pick-up and drop-off. Please allow extra time to get to and from the station.",
+          "url": "https://tfw.wales/cardiff-central-enhancements",
+          "category": "Information",
+          "severity": "P1",
+          "speakableText": "",
+          "lastUpdated": "2026-07-21T13:42:31+01:00"
+        }
+      ],
+      "duration": "3h 48m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G39263|11/09/2026",
+          "trainRetailId": "AW532400",
+          "trainUid": "G39263",
+          "board": {
+            "crsCode": "LLE",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Llanelli"
+          },
+          "alight": {
+            "crsCode": "CDF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Cardiff Central"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "PMD",
+              "scheduledTime": "2026-09-11T17:05:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "PMD"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "CDF",
+              "scheduledTime": "2026-09-11T20:35:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "CDF"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "0",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "AW",
+            "name": "Transport for Wales"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T18:57:00+01:00",
+              "arrival": "2026-09-11T20:35:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "G00931|11/09/2026",
+          "trainRetailId": "XC534000",
+          "trainUid": "G00931",
+          "board": {
+            "crsCode": "CDF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Cardiff Central"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "CDF",
+              "scheduledTime": "2026-09-11T20:45:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "CDF"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T22:45:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "1",
+          "destinationPlatform": "9A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T20:45:00+01:00",
+              "arrival": "2026-09-11T22:45:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 14,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 3280,
+          "undiscountedPrices": {
+            "adult": 3280,
+            "child": 1640
+          },
+          "typeCode": "NDA",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "AC",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "RWB",
+          "routeCode": "00479",
+          "startLegId": 1,
+          "endLegId": 2,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 3280,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 10,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 6300,
+          "undiscountedPrices": {
+            "adult": 6300,
+            "child": 3150
+          },
+          "typeCode": "MHS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00439",
+          "startLegId": 1,
+          "endLegId": 2,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 6300,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 8,
+          "description": "<p>Advance tickets are single (one-way) tickets for many longer and some shorter distance journeys, are available in First Class and Standard Class and offer the best available price for each journey.</p><p>Tickets must be booked in advance of travel and are subject to availability.</p><p>Advance tickets are valid only on the specific booked train but can be changed before departure of the first reserved service.</p>",
+          "totalPrice": 7890,
+          "undiscountedPrices": {
+            "adult": 7890,
+            "child": 3945
+          },
+          "typeCode": "MFS",
+          "typeDescription": "Advance Single",
+          "ticketRestriction": "XV",
+          "fareClass": "STANDARD",
+          "fareCategory": "ADVANCE",
+          "fareSetter": "IXC",
+          "routeCode": "00439",
+          "startLegId": 1,
+          "endLegId": 2,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 7890,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 9230,
+          "undiscountedPrices": {
+            "adult": 9230,
+            "child": 4615
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 9230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 9460,
+          "undiscountedPrices": {
+            "adult": 9460,
+            "child": 4730
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 9460,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 13240,
+          "undiscountedPrices": {
+            "adult": 13240,
+            "child": 6620
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 13240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 14950,
+          "undiscountedPrices": {
+            "adult": 14950,
+            "child": 7475
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 14950,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "59d87365",
+      "isOvertaken": false
+    },
+    {
+      "id": 7,
+      "origin": {
+        "nlcCode": "4133",
+        "crsCode": "LLE",
+        "name": "Llanelli",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T19:44:00+01:00",
+          "arrival": "2026-09-11T23:54:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order at Llanelli station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T09:03:40+01:00"
+        }
+      ],
+      "duration": "4h 10m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G40091|11/09/2026",
+          "trainRetailId": "AW506200",
+          "trainUid": "G40091",
+          "board": {
+            "crsCode": "LLE",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Llanelli"
+          },
+          "alight": {
+            "crsCode": "SWA",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Swansea"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SHR",
+              "scheduledTime": "2026-09-11T16:00:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SHR"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "SWA",
+              "scheduledTime": "2026-09-11T20:05:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "SWA"
+          ],
+          "originPlatform": "1",
+          "destinationPlatform": "1",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "AW",
+            "name": "Transport for Wales"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T19:44:00+01:00",
+              "arrival": "2026-09-11T20:05:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "G15051|11/09/2026",
+          "trainRetailId": "GW646400",
+          "trainUid": "G15051",
+          "board": {
+            "crsCode": "SWA",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Swansea"
+          },
+          "alight": {
+            "crsCode": "BPW",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Bristol Parkway"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SWA",
+              "scheduledTime": "2026-09-11T20:23:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SWA"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "PAD",
+              "scheduledTime": "2026-09-11T23:11:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "PAD"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "3",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "GW",
+            "name": "Great Western Railway"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T20:23:00+01:00",
+              "arrival": "2026-09-11T21:52:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 3,
+          "trainRid": null,
+          "trainTripId": "G66829|11/09/2026",
+          "trainRetailId": "XC136000",
+          "trainUid": "G66829",
+          "board": {
+            "crsCode": "BPW",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Bristol Parkway"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "PNZ",
+              "scheduledTime": "2026-09-11T18:13:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "PNZ"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-11T23:54:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "1A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T22:27:00+01:00",
+              "arrival": "2026-09-11T23:54:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 9230,
+          "undiscountedPrices": {
+            "adult": 9230,
+            "child": 4615
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 9230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 9460,
+          "undiscountedPrices": {
+            "adult": 9460,
+            "child": 4730
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 9460,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 3,
+          "description": "<p>Anytime tickets allow you to travel at any time of the day. You may need to travel by a specific route or train company but the ticket will state this. You are allowed to break your journey.</p>",
+          "totalPrice": 13240,
+          "undiscountedPrices": {
+            "adult": 13240,
+            "child": 6620
+          },
+          "typeCode": "FDS",
+          "typeDescription": "Anytime Day Single (1st Class)",
+          "ticketRestriction": null,
+          "fareClass": "FIRST",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 13240,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 14950,
+          "undiscountedPrices": {
+            "adult": 14950,
+            "child": 7475
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 14950,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "d76ea633",
+      "isOvertaken": false
+    },
+    {
+      "id": 8,
+      "origin": {
+        "nlcCode": "4133",
+        "crsCode": "LLE",
+        "name": "Llanelli",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T20:48:00+01:00",
+          "arrival": "2026-09-12T06:22:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of service on platforms 6 and 7 at Cardiff Central station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-08T12:49:52+01:00"
+        },
+        {
+          "title": null,
+          "description": "The lifts are out of order at Llanelli station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T09:03:40+01:00"
+        },
+        {
+          "title": null,
+          "description": "The lifts are out of order on Platforms 4, 5, 6 and 7 at Shrewsbury station. Passengers on services arriving into platforms 4, 5, 6 and 7 should make contact with station staff to allow alternate transport to be sourced.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-04T20:12:11+01:00"
+        },
+        {
+          "title": null,
+          "description": "The Riverside and Penarth Road car parks at Cardiff Central are now permanently closed. Please use Cardiff Central Quay multi-storey (Penarth Road) for parking, pick-up and drop-off. Please allow extra time to get to and from the station.",
+          "url": "https://tfw.wales/cardiff-central-enhancements",
+          "category": "Information",
+          "severity": "P1",
+          "speakableText": "",
+          "lastUpdated": "2026-07-21T13:42:31+01:00"
+        }
+      ],
+      "duration": "9h 34m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "W35210|11/09/2026",
+          "trainRetailId": "GW646600",
+          "trainUid": "W35210",
+          "board": {
+            "crsCode": "LLE",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Llanelli"
+          },
+          "alight": {
+            "crsCode": "CDF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Cardiff Central"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "CMN",
+              "scheduledTime": "2026-09-11T20:20:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "CMN"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BPW",
+              "scheduledTime": "2026-09-11T22:54:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BPW"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "2",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "GW",
+            "name": "Great Western Railway"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T20:48:00+01:00",
+              "arrival": "2026-09-11T22:15:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "G39018|11/09/2026",
+          "trainRetailId": "AW103200",
+          "trainUid": "G39018",
+          "board": {
+            "crsCode": "CDF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Cardiff Central"
+          },
+          "alight": {
+            "crsCode": "SHR",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Shrewsbury"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "CDF",
+              "scheduledTime": "2026-09-11T22:22:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "CDF"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "CRE",
+              "scheduledTime": "2026-09-12T01:22:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "CRE"
+          ],
+          "originPlatform": "0",
+          "destinationPlatform": "4",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "AW",
+            "name": "Transport for Wales"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T22:22:00+01:00",
+              "arrival": "2026-09-12T00:31:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 3,
+          "trainRid": null,
+          "trainTripId": "W45216|12/09/2026",
+          "trainRetailId": "AW310200",
+          "trainUid": "W45216",
+          "board": {
+            "crsCode": "SHR",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Shrewsbury"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "CTR",
+              "scheduledTime": "2026-09-12T04:21:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "CTR"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHI",
+              "scheduledTime": "2026-09-12T06:51:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHI"
+          ],
+          "originPlatform": "7",
+          "destinationPlatform": "5A",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "AW",
+            "name": "Transport for Wales"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-12T05:22:00+01:00",
+              "arrival": "2026-09-12T06:22:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 9230,
+          "undiscountedPrices": {
+            "adult": 9230,
+            "child": 4615
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 9230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 9460,
+          "undiscountedPrices": {
+            "adult": 9460,
+            "child": 4730
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 9460,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 14950,
+          "undiscountedPrices": {
+            "adult": 14950,
+            "child": 7475
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 14950,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "880d138b",
+      "isOvertaken": false
+    },
+    {
+      "id": 9,
+      "origin": {
+        "nlcCode": "4133",
+        "crsCode": "LLE",
+        "name": "Llanelli",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T22:09:00+01:00",
+          "arrival": "2026-09-12T06:46:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of service on platforms 6 and 7 at Cardiff Central station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-08T12:49:52+01:00"
+        },
+        {
+          "title": null,
+          "description": "The lifts are out of order at Llanelli station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T09:03:40+01:00"
+        },
+        {
+          "title": null,
+          "description": "The Riverside and Penarth Road car parks at Cardiff Central are now permanently closed. Please use Cardiff Central Quay multi-storey (Penarth Road) for parking, pick-up and drop-off. Please allow extra time to get to and from the station.",
+          "url": "https://tfw.wales/cardiff-central-enhancements",
+          "category": "Information",
+          "severity": "P1",
+          "speakableText": "",
+          "lastUpdated": "2026-07-21T13:42:31+01:00"
+        }
+      ],
+      "duration": "8h 37m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G39118|11/09/2026",
+          "trainRetailId": "AW501000",
+          "trainUid": "G39118",
+          "board": {
+            "crsCode": "LLE",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Llanelli"
+          },
+          "alight": {
+            "crsCode": "CDF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Cardiff Central"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "MFH",
+              "scheduledTime": "2026-09-11T20:37:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "MFH"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "CDF",
+              "scheduledTime": "2026-09-11T23:38:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "CDF"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "2",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "AW",
+            "name": "Transport for Wales"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T22:09:00+01:00",
+              "arrival": "2026-09-11T23:38:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "W43470|11/09/2026",
+          "trainRetailId": "AW206500",
+          "trainUid": "W43470",
+          "board": {
+            "crsCode": "CDF",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Cardiff Central"
+          },
+          "alight": {
+            "crsCode": "GCR",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Gloucester"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "CDF",
+              "scheduledTime": "2026-09-11T23:47:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "CDF"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "GCR",
+              "scheduledTime": "2026-09-12T00:54:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "GCR"
+          ],
+          "originPlatform": "1",
+          "destinationPlatform": "3",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "AW",
+            "name": "Transport for Wales"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T23:47:00+01:00",
+              "arrival": "2026-09-12T00:54:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 3,
+          "trainRid": null,
+          "trainTripId": "Y80382|12/09/2026",
+          "trainRetailId": "GW767400",
+          "trainUid": "Y80382",
+          "board": {
+            "crsCode": "GCR",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Gloucester"
+          },
+          "alight": {
+            "crsCode": "WOS",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Worcester Shrub Hill"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "GCR",
+              "scheduledTime": "2026-09-12T05:20:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "GCR"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "GMV",
+              "scheduledTime": "2026-09-12T06:11:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "GMV"
+          ],
+          "originPlatform": "4",
+          "destinationPlatform": "1",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "GW",
+            "name": "Great Western Railway"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-12T05:20:00+01:00",
+              "arrival": "2026-09-12T05:55:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 4,
+          "trainRid": null,
+          "trainTripId": "C17037|12/09/2026",
+          "trainRetailId": "LM176400",
+          "trainUid": "C17037",
+          "board": {
+            "crsCode": "WOS",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Worcester Shrub Hill"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "WOS",
+              "scheduledTime": "2026-09-12T06:05:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "WOS"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "BHM",
+              "scheduledTime": "2026-09-12T06:46:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "BHM"
+          ],
+          "originPlatform": "1",
+          "destinationPlatform": "9B",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "LM",
+            "name": "LNR & WMR"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-12T06:05:00+01:00",
+              "arrival": "2026-09-12T06:46:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 9230,
+          "undiscountedPrices": {
+            "adult": 9230,
+            "child": 4615
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 9230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 9460,
+          "undiscountedPrices": {
+            "adult": 9460,
+            "child": 4730
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 9460,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 14950,
+          "undiscountedPrices": {
+            "adult": 14950,
+            "child": 7475
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 14950,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "3d31cf44",
+      "isOvertaken": false
+    },
+    {
+      "id": 10,
+      "origin": {
+        "nlcCode": "4133",
+        "crsCode": "LLE",
+        "name": "Llanelli",
+        "classification": "NORMAL"
+      },
+      "destination": {
+        "nlcCode": "1127",
+        "crsCode": "BHM",
+        "name": "Birmingham New Street",
+        "classification": "NORMAL"
+      },
+      "status": "Unknown",
+      "rawStatus": "NORMAL",
+      "timetable": {
+        "scheduled": {
+          "departure": "2026-09-11T23:11:00+01:00",
+          "arrival": "2026-09-12T07:55:00+01:00"
+        },
+        "realtime": {
+          "departure": null,
+          "arrival": null
+        }
+      },
+      "serviceBulletins": [
+        {
+          "title": null,
+          "description": "The lifts are out of order at Llanelli station.",
+          "url": "",
+          "category": "Accessibility",
+          "severity": "P0",
+          "speakableText": "",
+          "lastUpdated": "2026-09-07T09:03:40+01:00"
+        }
+      ],
+      "duration": "8h 44m",
+      "delayInMinutes": 0,
+      "legs": [
+        {
+          "id": 1,
+          "trainRid": null,
+          "trainTripId": "G39487|11/09/2026",
+          "trainRetailId": "AW532500",
+          "trainUid": "G39487",
+          "board": {
+            "crsCode": "LLE",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Llanelli"
+          },
+          "alight": {
+            "crsCode": "SWA",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Swansea"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "PMD",
+              "scheduledTime": "2026-09-11T21:07:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "PMD"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "CDF",
+              "scheduledTime": "2026-09-12T00:38:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "CDF"
+          ],
+          "originPlatform": "2",
+          "destinationPlatform": "1",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "AW",
+            "name": "Transport for Wales"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-11T23:11:00+01:00",
+              "arrival": "2026-09-11T23:32:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 2,
+          "trainRid": null,
+          "trainTripId": "W35158|12/09/2026",
+          "trainRetailId": "GW660000",
+          "trainUid": "W35158",
+          "board": {
+            "crsCode": "SWA",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Swansea"
+          },
+          "alight": {
+            "crsCode": "BPW",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Bristol Parkway"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "SWA",
+              "scheduledTime": "2026-09-12T03:56:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "SWA"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "PAD",
+              "scheduledTime": "2026-09-12T07:19:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "PAD"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "3",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "GW",
+            "name": "Great Western Railway"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-12T03:56:00+01:00",
+              "arrival": "2026-09-12T05:53:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        },
+        {
+          "id": 3,
+          "trainRid": null,
+          "trainTripId": "G01057|12/09/2026",
+          "trainRetailId": "XC104700",
+          "trainUid": "G01057",
+          "board": {
+            "crsCode": "BPW",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Bristol Parkway"
+          },
+          "alight": {
+            "crsCode": "BHM",
+            "stationType": "NR",
+            "averageLoading": null,
+            "name": "Birmingham New Street"
+          },
+          "originInstants": [
+            {
+              "stationCRS": "BRI",
+              "scheduledTime": "2026-09-12T06:15:00+01:00",
+              "realTime": null
+            }
+          ],
+          "origins": [
+            "BRI"
+          ],
+          "destinationInstants": [
+            {
+              "stationCRS": "EDB",
+              "scheduledTime": "2026-09-12T13:10:00+01:00",
+              "realTime": null
+            }
+          ],
+          "destinations": [
+            "EDB"
+          ],
+          "originPlatform": "3",
+          "destinationPlatform": "10",
+          "status": "Unknown",
+          "rawStatus": "NORMAL",
+          "mode": "TRAIN",
+          "operator": {
+            "code": "XC",
+            "name": "CrossCountry"
+          },
+          "isReplacementBus": false,
+          "timetable": {
+            "scheduled": {
+              "departure": "2026-09-12T06:24:00+01:00",
+              "arrival": "2026-09-12T07:55:00+01:00"
+            },
+            "realtime": {
+              "departure": null,
+              "arrival": null
+            }
+          },
+          "undergroundTravelInformation": null,
+          "delayInMinutes": 0,
+          "maxAverageLoading": null,
+          "affectedByDiversion": false,
+          "cancellationCode": null,
+          "diversionCode": null,
+          "divertedVia": null,
+          "lateRunningCode": null,
+          "uncertainty": null,
+          "incidentNumber": null
+        }
+      ],
+      "fares": [
+        {
+          "id": 1,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 9230,
+          "undiscountedPrices": {
+            "adult": 9230,
+            "child": 4615
+          },
+          "typeCode": "SOS",
+          "typeDescription": "Anytime Single",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "OUTWARD",
+          "individualFare": {
+            "prices": {
+              "adult": 9230,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 4,
+          "description": "<p>Off-Peak fares are cheaper tickets for travelling on trains that are less busy. You may need to travel at specific times of the day, days of the week and sometimes on specific routes or operators.</p><p>The times when you may use your Off-Peak ticket will depend on the journey you are making and you will be advised when buying your ticket. The <a href=\"https://ojp.nationalrail.co.uk/service/planjourney/search\" title=\"\">National Rail Journey Planner</a> will automatically work out which tickets are valid for your journey.</p>",
+          "totalPrice": 9460,
+          "undiscountedPrices": {
+            "adult": 9460,
+            "child": 4730
+          },
+          "typeCode": "SVR",
+          "typeDescription": "Off-Peak Return",
+          "ticketRestriction": "2V",
+          "fareClass": "STANDARD",
+          "fareCategory": "OFF_PEAK",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 9460,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        },
+        {
+          "id": 2,
+          "description": "<p>Anytime fares are fully flexible walk-up tickets with no restrictions on when you can travel.</p>",
+          "totalPrice": 14950,
+          "undiscountedPrices": {
+            "adult": 14950,
+            "child": 7475
+          },
+          "typeCode": "SOR",
+          "typeDescription": "Anytime Return",
+          "ticketRestriction": null,
+          "fareClass": "STANDARD",
+          "fareCategory": "ANYTIME",
+          "fareSetter": "IXC",
+          "routeCode": "00000",
+          "startLegId": 1,
+          "endLegId": 3,
+          "originNlc": "4133",
+          "destinationNlc": "0418",
+          "fareType": null,
+          "direction": "RETURN",
+          "individualFare": {
+            "prices": {
+              "adult": 14950,
+              "child": 0
+            },
+            "accompaniedPrices": {
+              "adult": 0,
+              "child": 0
+            },
+            "passengers": {
+              "adult": 1,
+              "child": 0
+            },
+            "accompaniedPassengers": {
+              "adult": 0,
+              "child": 0
+            }
+          },
+          "railcardFares": [],
+          "groupFare": null,
+          "compositeFares": []
+        }
+      ],
+      "isComposite": false,
+      "signature": "1a08d4e8",
+      "isOvertaken": false
+    }
+  ],
+  "inwardJourneys": [],
+  "searchSummary": {
+    "origin": {
+      "nlcCode": "4133",
+      "crsCode": "LLE",
+      "name": "Llanelli",
+      "group": false,
+      "classification": "NORMAL"
+    },
+    "destination": {
+      "nlcCode": "1127",
+      "crsCode": "BHM",
+      "name": "Birmingham New Street",
+      "group": false,
+      "classification": "NORMAL"
+    }
+  },
+  "stationLookup": {
+    "LLE": "Llanelli",
+    "CDF": "Cardiff Central",
+    "BPW": "Bristol Parkway",
+    "PAD": "London Paddington",
+    "BHM": "Birmingham New Street",
+    "EDB": "Edinburgh",
+    "SWA": "Swansea",
+    "MAN": "Manchester Piccadilly",
+    "NOT": "Nottingham",
+    "SHR": "Shrewsbury",
+    "CRE": "Crewe",
+    "BHI": "Birmingham International",
+    "GCR": "Gloucester",
+    "WOS": "Worcester Shrub Hill",
+    "GMV": "Great Malvern"
+  },
+  "railcardLookup": {},
+  "fareLocationsLookup": {
+    "4133": "Llanelli",
+    "0418": "Birmingham New Street, Moor Street or Snow Hill"
+  }
+}

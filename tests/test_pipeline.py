@@ -20,6 +20,8 @@ from prepare_national_transport import prepare as prepare_national_transport
 from create_national_transport_queue import create_queue
 from collect_national_transport_ui import expand_details_code, visible_query
 from collect_national_transport_http import REQUEST_HEADERS, request_body
+from collect_national_transport_batch import collect_queue
+from combine_national_transport_staging import combine as combine_national_transport_staging
 from collect_national_transport_station_picker import collect as collect_station_picker
 from create_national_transport_manifest_draft import create as create_national_transport_manifest_draft
 from create_national_transport_station_mapping_manifest_draft import create as create_station_mapping_manifest_draft
@@ -47,6 +49,24 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(visible_query('London (All Stations)'), 'London')
             self.assertIn('.nth(1).click()', expand_details_code('Duration: 2 hours and, Direct', 2))
 
+    def test_national_transport_queue_excludes_retained_same_date_routes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            locations = root / 'locations.csv'
+            locations.write_text('id,name\nexample,Example\n', encoding='utf-8')
+            stations = root / 'stations.csv'
+            stations.write_text(
+                'location_id,station_crs,station_name,selection_reason,confidence,evidence_ids\n'
+                'example,EXM,Example,Primary station,High,TR-TEST\n', encoding='utf-8')
+            observations = root / 'observations.csv'
+            observations.write_text(
+                'location_id,destination_id,measurement_date\n'
+                'example,london,2026-09-11\n', encoding='utf-8')
+            rows = create_queue(locations, stations, '2026-09-11',
+                                exclude_observations=observations)
+            self.assertEqual([(row['location_id'], row['destination_id']) for row in rows],
+                             [('example', 'birmingham')])
+
     def test_national_transport_http_request_is_fixed_and_timezone_aware(self):
         body = request_body('cdf', 'bhm', '2026-09-11', '10:00')
         self.assertEqual(body['origin'], {'crs': 'CDF', 'group': False})
@@ -58,6 +78,43 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(REQUEST_HEADERS['Origin'], 'https://www.nationalrail.co.uk')
         self.assertEqual(REQUEST_HEADERS['Referer'], 'https://www.nationalrail.co.uk/')
         self.assertIn('uk-flats-national-transport-collector', REQUEST_HEADERS['User-Agent'])
+
+    def test_national_transport_batch_collects_only_complete_pending_queue(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            queue = root / 'collection-queue.csv'
+            queue.write_text(
+                'location_id,origin_crs,destination_id,destination_planner_id,measurement_date,search_times_local,status\n'
+                'example,EXM,london,182,2026-09-11,10:00;11:00;12:00;13:00,pending\n'
+                'birmingham,BHM,birmingham,BHM,2026-09-11,10:00;11:00;12:00;13:00,degenerate-zero\n',
+                encoding='utf-8')
+            calls = []
+            from unittest.mock import patch
+            with patch('collect_national_transport_batch.collect', side_effect=lambda *args, **kwargs: calls.append((args, kwargs))):
+                collected = collect_queue(queue, root / 'release')
+            self.assertEqual([path.name for path in collected], ['example__london'])
+            self.assertEqual(calls[0][0][1:5], ('EXM', '182', '2026-09-11', ('10:00', '11:00', '12:00', '13:00')))
+            self.assertTrue(calls[0][1]['destination_group'])
+            partial = root / 'release' / 'transport' / 'example__london'
+            partial.mkdir(parents=True)
+            with self.assertRaisesRegex(ValueError, 'incomplete'):
+                collect_queue(queue, root / 'release')
+
+    def test_national_transport_staging_combines_separately_verified_releases(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            locations = root / 'locations.csv'
+            locations.write_text('id,name\na,Alpha\nb,Beta\n', encoding='utf-8')
+            header = ('location_id,londonMinutes,londonChanges,birminghamMinutes,birminghamChanges,'
+                      'confidence,reason\n')
+            first = root / 'first.csv'
+            first.write_text(header + 'a,60,0,120,1,Medium,Verified.\n', encoding='utf-8')
+            second = root / 'second.csv'
+            second.write_text(header + 'b,90,1,150,2,Medium,Verified.\n', encoding='utf-8')
+            rows = combine_national_transport_staging([first, second], locations)
+            self.assertEqual([row['location_id'] for row in rows], ['a', 'b'])
+            with self.assertRaisesRegex(ValueError, 'Duplicate'):
+                combine_national_transport_staging([first, first], locations)
 
     def test_national_transport_finalizer_hashes_retained_draft_only(self):
         with tempfile.TemporaryDirectory() as tmp:

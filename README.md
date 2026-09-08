@@ -68,7 +68,7 @@ ASB remains excluded pending coverage review. See [crime research](docs/crime-re
 
 See [orientation](AGENTS.md), [methodology](docs/methodology.md),
 [provenance and schema](docs/provenance.md), and [to-do list](docs/TODO.md).
-The national-rail replacement is a review-only workstream until a complete
-dated release is approved; its method and collection procedure are in the
+The national-rail comparison is an accepted dated station-to-station snapshot;
+its method and collection procedure are in the
 [national transport methodology](docs/national-transport-methodology.md) and
 [runbook](docs/national-transport-runbook.md).

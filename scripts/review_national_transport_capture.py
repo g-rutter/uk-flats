@@ -40,7 +40,7 @@ def route_candidates(route_dir):
     return metadata, candidates, retrievals
 
 
-def review(release_dir, stations_path):
+def review(release_dir, stations_path, evidence_id=EVIDENCE_ID, include_self_route=True):
     release_dir = Path(release_dir)
     load_manifest(release_dir)
     with Path(stations_path).open(newline='', encoding='utf-8') as source:
@@ -67,13 +67,13 @@ def review(release_dir, stations_path):
                    source_url=SOURCE_URL,
                    raw_capture_path=(route_dir / response_name).relative_to(release_dir).as_posix(),
                    retrieval_timestamp=retrievals[response_name], confidence='Medium',
-                   evidence_id=EVIDENCE_ID, reason=REVIEW_REASON)
+                   evidence_id=evidence_id, reason=REVIEW_REASON)
         rows.append(row)
-    if 'BHM' in station_ids:
+    if include_self_route and 'BHM' in station_ids:
         row = dict.fromkeys(ROUTE_COLUMNS, '')
         row.update(location_id=station_ids['BHM'], destination_id='birmingham', origin_crs='BHM',
                    destination_crs='BHM', measurement_date=rows[0]['measurement_date'],
-                   elapsed_minutes='0', changes='0', confidence='High', evidence_id=EVIDENCE_ID,
+                   elapsed_minutes='0', changes='0', confidence='High', evidence_id=evidence_id,
                    reason='Birmingham New Street is the fixed Birmingham gateway; same-station self-route is zero minutes and zero changes.')
         rows.append(row)
     return rows
@@ -84,11 +84,14 @@ def main():
     parser.add_argument('--release', type=Path, required=True)
     parser.add_argument('--stations', type=Path, required=True)
     parser.add_argument('--out', type=Path, required=True)
+    parser.add_argument('--evidence-id', default=EVIDENCE_ID)
+    parser.add_argument('--no-self-route', action='store_true',
+                        help='Use when the Birmingham self-route is retained in another reviewed release')
     parser.add_argument('--overwrite', action='store_true')
     args = parser.parse_args()
     if args.out.exists() and not args.overwrite:
         raise ValueError(f'{args.out} already exists; refusing to replace reviewed observations')
-    rows = review(args.release, args.stations)
+    rows = review(args.release, args.stations, args.evidence_id, not args.no_self_route)
     with args.out.open('w', newline='', encoding='utf-8') as target:
         writer = csv.DictWriter(target, fieldnames=ROUTE_COLUMNS, lineterminator='\n')
         writer.writeheader()
