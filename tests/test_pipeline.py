@@ -20,7 +20,9 @@ from prepare_national_transport import prepare as prepare_national_transport
 from create_national_transport_queue import create_queue
 from collect_national_transport_ui import expand_details_code, visible_query
 from collect_national_transport_http import REQUEST_HEADERS, request_body
+from collect_national_transport_station_picker import collect as collect_station_picker
 from create_national_transport_manifest_draft import create as create_national_transport_manifest_draft
+from create_national_transport_station_mapping_manifest_draft import create as create_station_mapping_manifest_draft
 from finalize_national_transport_release import finalize as finalize_national_transport_release
 from release_audit import audit as release_audit
 from rehydrate_raw import rehydrate
@@ -100,6 +102,25 @@ class PipelineTests(unittest.TestCase):
             })
             with self.assertRaisesRegex(ValueError, 'refusing'):
                 create_national_transport_manifest_draft(root / 'release', draft)
+
+    def test_station_picker_capture_and_manifest_draft_skip_existing_mappings(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            locations = root / 'locations.csv'
+            locations.write_text('id,name\nexample,Example Place\nmapped,Mapped Place\n', encoding='utf-8')
+            release = root / 'release'
+            from unittest.mock import patch
+            from io import BytesIO
+            with patch('collect_national_transport_station_picker.urlopen',
+                       return_value=BytesIO(b'{"payload":{"stations":[]}}')):
+                metadata = collect_station_picker(locations, {'mapped'}, release,
+                                                  'https://stationpicker.example')
+            self.assertEqual([record['location_id'] for record in metadata['records']], ['example'])
+            self.assertEqual(json.loads((release / 'example.json').read_text())['payload']['stations'], [])
+            draft = release / 'manifest-draft.csv'
+            rows = create_station_mapping_manifest_draft(release, draft)
+            self.assertEqual({row['relative_path'] for row in rows},
+                             {'example.json', 'capture-metadata.json'})
 
     def test_national_transport_preparer_requires_hashed_capture_and_stages_pivot(self):
         with tempfile.TemporaryDirectory() as tmp:

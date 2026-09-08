@@ -1,0 +1,574 @@
+{
+  "source_endpoint": "https://www.nationalrail.co.uk/stations",
+  "records": [
+    {
+      "location_id": "blackburn",
+      "station_name": "Blackburn",
+      "station_crs": "BBN",
+      "request_url": "https://www.nationalrail.co.uk/stations/blackburn/",
+      "response": "blackburn.html",
+      "retrieved_at_local": "2026-09-08T23:44:32+01:00"
+    },
+    {
+      "location_id": "blackpool",
+      "station_name": "Blackpool North",
+      "station_crs": "BPN",
+      "request_url": "https://www.nationalrail.co.uk/stations/blackpool-north/",
+      "response": "blackpool.html",
+      "retrieved_at_local": "2026-09-08T23:44:32+01:00"
+    },
+    {
+      "location_id": "bolton",
+      "station_name": "Bolton",
+      "station_crs": "BON",
+      "request_url": "https://www.nationalrail.co.uk/stations/bolton/",
+      "response": "bolton.html",
+      "retrieved_at_local": "2026-09-08T23:44:32+01:00"
+    },
+    {
+      "location_id": "bradford",
+      "station_name": "Bradford Interchange",
+      "station_crs": "BDI",
+      "request_url": "https://www.nationalrail.co.uk/stations/bradford-interchange/",
+      "response": "bradford.html",
+      "retrieved_at_local": "2026-09-08T23:44:32+01:00"
+    },
+    {
+      "location_id": "burnley",
+      "station_name": "Burnley Manchester Road",
+      "station_crs": "BYM",
+      "request_url": "https://www.nationalrail.co.uk/stations/burnley-manchester-road/",
+      "response": "burnley.html",
+      "retrieved_at_local": "2026-09-08T23:44:32+01:00"
+    },
+    {
+      "location_id": "burton-on-trent",
+      "station_name": "Burton-on-Trent",
+      "station_crs": "BUT",
+      "request_url": "https://www.nationalrail.co.uk/stations/burton-on-trent/",
+      "response": "burton-on-trent.html",
+      "retrieved_at_local": "2026-09-08T23:44:32+01:00"
+    },
+    {
+      "location_id": "chester",
+      "station_name": "Chester",
+      "station_crs": "CTR",
+      "request_url": "https://www.nationalrail.co.uk/stations/chester/",
+      "response": "chester.html",
+      "retrieved_at_local": "2026-09-08T23:44:32+01:00"
+    },
+    {
+      "location_id": "chesterfield",
+      "station_name": "Chesterfield",
+      "station_crs": "CHD",
+      "request_url": "https://www.nationalrail.co.uk/stations/chesterfield/",
+      "response": "chesterfield.html",
+      "retrieved_at_local": "2026-09-08T23:44:32+01:00"
+    },
+    {
+      "location_id": "coventry",
+      "station_name": "Coventry",
+      "station_crs": "COV",
+      "request_url": "https://www.nationalrail.co.uk/stations/coventry/",
+      "response": "coventry.html",
+      "retrieved_at_local": "2026-09-08T23:44:32+01:00"
+    },
+    {
+      "location_id": "darlington",
+      "station_name": "Darlington",
+      "station_crs": "DAR",
+      "request_url": "https://www.nationalrail.co.uk/stations/darlington/",
+      "response": "darlington.html",
+      "retrieved_at_local": "2026-09-08T23:44:32+01:00"
+    },
+    {
+      "location_id": "derby",
+      "station_name": "Derby",
+      "station_crs": "DBY",
+      "request_url": "https://www.nationalrail.co.uk/stations/derby/",
+      "response": "derby.html",
+      "retrieved_at_local": "2026-09-08T23:44:32+01:00"
+    },
+    {
+      "location_id": "doncaster",
+      "station_name": "Doncaster",
+      "station_crs": "DON",
+      "request_url": "https://www.nationalrail.co.uk/stations/doncaster/",
+      "response": "doncaster.html",
+      "retrieved_at_local": "2026-09-08T23:44:33+01:00"
+    },
+    {
+      "location_id": "gateshead",
+      "station_name": "Heworth",
+      "station_crs": "HEW",
+      "request_url": "https://www.nationalrail.co.uk/stations/heworth/",
+      "response": "gateshead.html",
+      "retrieved_at_local": "2026-09-08T23:44:33+01:00"
+    },
+    {
+      "location_id": "gloucester",
+      "station_name": "Gloucester",
+      "station_crs": "GCR",
+      "request_url": "https://www.nationalrail.co.uk/stations/gloucester/",
+      "response": "gloucester.html",
+      "retrieved_at_local": "2026-09-08T23:44:33+01:00"
+    },
+    {
+      "location_id": "halifax",
+      "station_name": "Halifax",
+      "station_crs": "HFX",
+      "request_url": "https://www.nationalrail.co.uk/stations/halifax/",
+      "response": "halifax.html",
+      "retrieved_at_local": "2026-09-08T23:44:33+01:00"
+    },
+    {
+      "location_id": "hartlepool",
+      "station_name": "Hartlepool",
+      "station_crs": "HPL",
+      "request_url": "https://www.nationalrail.co.uk/stations/hartlepool/",
+      "response": "hartlepool.html",
+      "retrieved_at_local": "2026-09-08T23:44:33+01:00"
+    },
+    {
+      "location_id": "huddersfield",
+      "station_name": "Huddersfield",
+      "station_crs": "HUD",
+      "request_url": "https://www.nationalrail.co.uk/stations/huddersfield/",
+      "response": "huddersfield.html",
+      "retrieved_at_local": "2026-09-08T23:44:33+01:00"
+    },
+    {
+      "location_id": "hull-kingston-upon-hull",
+      "station_name": "Hull",
+      "station_crs": "HUL",
+      "request_url": "https://www.nationalrail.co.uk/stations/hull/",
+      "response": "hull-kingston-upon-hull.html",
+      "retrieved_at_local": "2026-09-08T23:44:33+01:00"
+    },
+    {
+      "location_id": "ipswich",
+      "station_name": "Ipswich",
+      "station_crs": "IPS",
+      "request_url": "https://www.nationalrail.co.uk/stations/ipswich/",
+      "response": "ipswich.html",
+      "retrieved_at_local": "2026-09-08T23:44:33+01:00"
+    },
+    {
+      "location_id": "kettering",
+      "station_name": "Kettering",
+      "station_crs": "KET",
+      "request_url": "https://www.nationalrail.co.uk/stations/kettering/",
+      "response": "kettering.html",
+      "retrieved_at_local": "2026-09-08T23:44:33+01:00"
+    },
+    {
+      "location_id": "lancaster",
+      "station_name": "Lancaster",
+      "station_crs": "LAN",
+      "request_url": "https://www.nationalrail.co.uk/stations/lancaster/",
+      "response": "lancaster.html",
+      "retrieved_at_local": "2026-09-08T23:44:33+01:00"
+    },
+    {
+      "location_id": "leicester",
+      "station_name": "Leicester",
+      "station_crs": "LEI",
+      "request_url": "https://www.nationalrail.co.uk/stations/leicester/",
+      "response": "leicester.html",
+      "retrieved_at_local": "2026-09-08T23:44:33+01:00"
+    },
+    {
+      "location_id": "lincoln",
+      "station_name": "Lincoln",
+      "station_crs": "LCN",
+      "request_url": "https://www.nationalrail.co.uk/stations/lincoln/",
+      "response": "lincoln.html",
+      "retrieved_at_local": "2026-09-08T23:44:33+01:00"
+    },
+    {
+      "location_id": "loughborough",
+      "station_name": "Loughborough",
+      "station_crs": "LBO",
+      "request_url": "https://www.nationalrail.co.uk/stations/loughborough/",
+      "response": "loughborough.html",
+      "retrieved_at_local": "2026-09-08T23:44:33+01:00"
+    },
+    {
+      "location_id": "merthyr-tydfil",
+      "station_name": "Merthyr Tydfil",
+      "station_crs": "MER",
+      "request_url": "https://www.nationalrail.co.uk/stations/merthyr-tydfil/",
+      "response": "merthyr-tydfil.html",
+      "retrieved_at_local": "2026-09-08T23:44:33+01:00"
+    },
+    {
+      "location_id": "middlesbrough",
+      "station_name": "Middlesbrough",
+      "station_crs": "MBR",
+      "request_url": "https://www.nationalrail.co.uk/stations/middlesbrough/",
+      "response": "middlesbrough.html",
+      "retrieved_at_local": "2026-09-08T23:44:35+01:00"
+    },
+    {
+      "location_id": "neath",
+      "station_name": "Neath",
+      "station_crs": "NTH",
+      "request_url": "https://www.nationalrail.co.uk/stations/neath/",
+      "response": "neath.html",
+      "retrieved_at_local": "2026-09-08T23:44:35+01:00"
+    },
+    {
+      "location_id": "newport",
+      "station_name": "Newport (South Wales)",
+      "station_crs": "NWP",
+      "request_url": "https://www.nationalrail.co.uk/stations/newport-south-wales/",
+      "response": "newport.html",
+      "retrieved_at_local": "2026-09-08T23:44:35+01:00"
+    },
+    {
+      "location_id": "northampton",
+      "station_name": "Northampton",
+      "station_crs": "NMP",
+      "request_url": "https://www.nationalrail.co.uk/stations/northampton/",
+      "response": "northampton.html",
+      "retrieved_at_local": "2026-09-08T23:44:35+01:00"
+    },
+    {
+      "location_id": "norwich",
+      "station_name": "Norwich",
+      "station_crs": "NRW",
+      "request_url": "https://www.nationalrail.co.uk/stations/norwich/",
+      "response": "norwich.html",
+      "retrieved_at_local": "2026-09-08T23:44:35+01:00"
+    },
+    {
+      "location_id": "nottingham",
+      "station_name": "Nottingham",
+      "station_crs": "NOT",
+      "request_url": "https://www.nationalrail.co.uk/stations/nottingham/",
+      "response": "nottingham.html",
+      "retrieved_at_local": "2026-09-08T23:44:35+01:00"
+    },
+    {
+      "location_id": "peterborough",
+      "station_name": "Peterborough",
+      "station_crs": "PBO",
+      "request_url": "https://www.nationalrail.co.uk/stations/peterborough/",
+      "response": "peterborough.html",
+      "retrieved_at_local": "2026-09-08T23:44:35+01:00"
+    },
+    {
+      "location_id": "plymouth",
+      "station_name": "Plymouth",
+      "station_crs": "PLY",
+      "request_url": "https://www.nationalrail.co.uk/stations/plymouth/",
+      "response": "plymouth.html",
+      "retrieved_at_local": "2026-09-08T23:44:35+01:00"
+    },
+    {
+      "location_id": "portsmouth",
+      "station_name": "Portsmouth & Southsea",
+      "station_crs": "PMS",
+      "request_url": "https://www.nationalrail.co.uk/stations/portsmouth-southsea/",
+      "response": "portsmouth.html",
+      "retrieved_at_local": "2026-09-08T23:44:35+01:00"
+    },
+    {
+      "location_id": "preston",
+      "station_name": "Preston (Lancs)",
+      "station_crs": "PRE",
+      "request_url": "https://www.nationalrail.co.uk/stations/preston-lancs/",
+      "response": "preston.html",
+      "retrieved_at_local": "2026-09-08T23:44:35+01:00"
+    },
+    {
+      "location_id": "rotherham",
+      "station_name": "Rotherham Central",
+      "station_crs": "RMC",
+      "request_url": "https://www.nationalrail.co.uk/stations/rotherham-central/",
+      "response": "rotherham.html",
+      "retrieved_at_local": "2026-09-08T23:44:35+01:00"
+    },
+    {
+      "location_id": "salford",
+      "station_name": "Salford Central",
+      "station_crs": "SFD",
+      "request_url": "https://www.nationalrail.co.uk/stations/salford-central/",
+      "response": "salford.html",
+      "retrieved_at_local": "2026-09-08T23:44:35+01:00"
+    },
+    {
+      "location_id": "sheffield",
+      "station_name": "Sheffield",
+      "station_crs": "SHF",
+      "request_url": "https://www.nationalrail.co.uk/stations/sheffield/",
+      "response": "sheffield.html",
+      "retrieved_at_local": "2026-09-08T23:44:36+01:00"
+    },
+    {
+      "location_id": "shrewsbury",
+      "station_name": "Shrewsbury",
+      "station_crs": "SHR",
+      "request_url": "https://www.nationalrail.co.uk/stations/shrewsbury/",
+      "response": "shrewsbury.html",
+      "retrieved_at_local": "2026-09-08T23:44:36+01:00"
+    },
+    {
+      "location_id": "st-helens",
+      "station_name": "St Helens Central",
+      "station_crs": "SNH",
+      "request_url": "https://www.nationalrail.co.uk/stations/st-helens-central/",
+      "response": "st-helens.html",
+      "retrieved_at_local": "2026-09-08T23:44:36+01:00"
+    },
+    {
+      "location_id": "stafford",
+      "station_name": "Stafford",
+      "station_crs": "STA",
+      "request_url": "https://www.nationalrail.co.uk/stations/stafford/",
+      "response": "stafford.html",
+      "retrieved_at_local": "2026-09-08T23:44:36+01:00"
+    },
+    {
+      "location_id": "stockport",
+      "station_name": "Stockport",
+      "station_crs": "SPT",
+      "request_url": "https://www.nationalrail.co.uk/stations/stockport/",
+      "response": "stockport.html",
+      "retrieved_at_local": "2026-09-08T23:44:36+01:00"
+    },
+    {
+      "location_id": "stockton-on-tees",
+      "station_name": "Stockton",
+      "station_crs": "STK",
+      "request_url": "https://www.nationalrail.co.uk/stations/stockton/",
+      "response": "stockton-on-tees.html",
+      "retrieved_at_local": "2026-09-08T23:44:36+01:00"
+    },
+    {
+      "location_id": "stoke-on-trent",
+      "station_name": "Stoke-on-Trent",
+      "station_crs": "SOT",
+      "request_url": "https://www.nationalrail.co.uk/stations/stoke-on-trent/",
+      "response": "stoke-on-trent.html",
+      "retrieved_at_local": "2026-09-08T23:44:36+01:00"
+    },
+    {
+      "location_id": "sunderland",
+      "station_name": "Sunderland",
+      "station_crs": "SUN",
+      "request_url": "https://www.nationalrail.co.uk/stations/sunderland/",
+      "response": "sunderland.html",
+      "retrieved_at_local": "2026-09-08T23:44:36+01:00"
+    },
+    {
+      "location_id": "swansea",
+      "station_name": "Swansea",
+      "station_crs": "SWA",
+      "request_url": "https://www.nationalrail.co.uk/stations/swansea/",
+      "response": "swansea.html",
+      "retrieved_at_local": "2026-09-08T23:44:36+01:00"
+    },
+    {
+      "location_id": "swindon",
+      "station_name": "Swindon (Wilts)",
+      "station_crs": "SWI",
+      "request_url": "https://www.nationalrail.co.uk/stations/swindon-wilts/",
+      "response": "swindon.html",
+      "retrieved_at_local": "2026-09-08T23:44:36+01:00"
+    },
+    {
+      "location_id": "telford",
+      "station_name": "Telford Central",
+      "station_crs": "TFC",
+      "request_url": "https://www.nationalrail.co.uk/stations/telford-central/",
+      "response": "telford.html",
+      "retrieved_at_local": "2026-09-08T23:44:36+01:00"
+    },
+    {
+      "location_id": "torbay",
+      "station_name": "Torquay",
+      "station_crs": "TQY",
+      "request_url": "https://www.nationalrail.co.uk/stations/torquay/",
+      "response": "torbay.html",
+      "retrieved_at_local": "2026-09-08T23:44:36+01:00"
+    },
+    {
+      "location_id": "wakefield",
+      "station_name": "Wakefield Westgate",
+      "station_crs": "WKF",
+      "request_url": "https://www.nationalrail.co.uk/stations/wakefield-westgate/",
+      "response": "wakefield.html",
+      "retrieved_at_local": "2026-09-08T23:44:36+01:00"
+    },
+    {
+      "location_id": "walsall",
+      "station_name": "Walsall",
+      "station_crs": "WSL",
+      "request_url": "https://www.nationalrail.co.uk/stations/walsall/",
+      "response": "walsall.html",
+      "retrieved_at_local": "2026-09-08T23:44:36+01:00"
+    },
+    {
+      "location_id": "warrington",
+      "station_name": "Warrington Bank Quay",
+      "station_crs": "WBQ",
+      "request_url": "https://www.nationalrail.co.uk/stations/warrington-bank-quay/",
+      "response": "warrington.html",
+      "retrieved_at_local": "2026-09-08T23:44:37+01:00"
+    },
+    {
+      "location_id": "wigan",
+      "station_name": "Wigan North Western",
+      "station_crs": "WGN",
+      "request_url": "https://www.nationalrail.co.uk/stations/wigan-north-western/",
+      "response": "wigan.html",
+      "retrieved_at_local": "2026-09-08T23:44:37+01:00"
+    },
+    {
+      "location_id": "worcester",
+      "station_name": "Worcester Foregate Street",
+      "station_crs": "WOF",
+      "request_url": "https://www.nationalrail.co.uk/stations/worcester-foregate-street/",
+      "response": "worcester.html",
+      "retrieved_at_local": "2026-09-08T23:44:37+01:00"
+    },
+    {
+      "location_id": "bristol",
+      "station_name": "Bristol Temple Meads",
+      "station_crs": "BRI",
+      "request_url": "https://www.nationalrail.co.uk/stations/bristol-temple-meads/",
+      "response": "bristol.html",
+      "retrieved_at_local": "2026-09-08T23:44:37+01:00"
+    },
+    {
+      "location_id": "southampton",
+      "station_name": "Southampton Central",
+      "station_crs": "SOU",
+      "request_url": "https://www.nationalrail.co.uk/stations/southampton-central/",
+      "response": "southampton.html",
+      "retrieved_at_local": "2026-09-08T23:44:37+01:00"
+    },
+    {
+      "location_id": "bournemouth-poole",
+      "station_name": "Bournemouth",
+      "station_crs": "BMH",
+      "request_url": "https://www.nationalrail.co.uk/stations/bournemouth/",
+      "response": "bournemouth-poole.html",
+      "retrieved_at_local": "2026-09-08T23:44:37+01:00"
+    },
+    {
+      "location_id": "exeter",
+      "station_name": "Exeter St Davids",
+      "station_crs": "EXD",
+      "request_url": "https://www.nationalrail.co.uk/stations/exeter-st-davids/",
+      "response": "exeter.html",
+      "retrieved_at_local": "2026-09-08T23:44:37+01:00"
+    },
+    {
+      "location_id": "milton-keynes",
+      "station_name": "Milton Keynes Central",
+      "station_crs": "MKC",
+      "request_url": "https://www.nationalrail.co.uk/stations/milton-keynes-central/",
+      "response": "milton-keynes.html",
+      "retrieved_at_local": "2026-09-08T23:44:37+01:00"
+    },
+    {
+      "location_id": "luton",
+      "station_name": "Luton",
+      "station_crs": "LUT",
+      "request_url": "https://www.nationalrail.co.uk/stations/luton/",
+      "response": "luton.html",
+      "retrieved_at_local": "2026-09-08T23:44:37+01:00"
+    },
+    {
+      "location_id": "southend-on-sea",
+      "station_name": "Southend Central",
+      "station_crs": "SOC",
+      "request_url": "https://www.nationalrail.co.uk/stations/southend-central/",
+      "response": "southend-on-sea.html",
+      "retrieved_at_local": "2026-09-08T23:44:38+01:00"
+    },
+    {
+      "location_id": "cambridge",
+      "station_name": "Cambridge",
+      "station_crs": "CBG",
+      "request_url": "https://www.nationalrail.co.uk/stations/cambridge/",
+      "response": "cambridge.html",
+      "retrieved_at_local": "2026-09-08T23:44:38+01:00"
+    },
+    {
+      "location_id": "colchester",
+      "station_name": "Colchester",
+      "station_crs": "COL",
+      "request_url": "https://www.nationalrail.co.uk/stations/colchester/",
+      "response": "colchester.html",
+      "retrieved_at_local": "2026-09-08T23:44:38+01:00"
+    },
+    {
+      "location_id": "oxford",
+      "station_name": "Oxford",
+      "station_crs": "OXF",
+      "request_url": "https://www.nationalrail.co.uk/stations/oxford/",
+      "response": "oxford.html",
+      "retrieved_at_local": "2026-09-08T23:44:40+01:00"
+    },
+    {
+      "location_id": "bath",
+      "station_name": "Bath Spa",
+      "station_crs": "BTH",
+      "request_url": "https://www.nationalrail.co.uk/stations/bath-spa/",
+      "response": "bath.html",
+      "retrieved_at_local": "2026-09-08T23:44:40+01:00"
+    },
+    {
+      "location_id": "bridgend",
+      "station_name": "Bridgend",
+      "station_crs": "BGN",
+      "request_url": "https://www.nationalrail.co.uk/stations/bridgend/",
+      "response": "bridgend.html",
+      "retrieved_at_local": "2026-09-08T23:44:41+01:00"
+    },
+    {
+      "location_id": "llanelli",
+      "station_name": "Llanelli",
+      "station_crs": "LLE",
+      "request_url": "https://www.nationalrail.co.uk/stations/llanelli/",
+      "response": "llanelli.html",
+      "retrieved_at_local": "2026-09-08T23:44:42+01:00"
+    },
+    {
+      "location_id": "rhyl",
+      "station_name": "Rhyl",
+      "station_crs": "RHL",
+      "request_url": "https://www.nationalrail.co.uk/stations/rhyl/",
+      "response": "rhyl.html",
+      "retrieved_at_local": "2026-09-08T23:44:42+01:00"
+    },
+    {
+      "location_id": "york",
+      "station_name": "York",
+      "station_crs": "YRK",
+      "request_url": "https://www.nationalrail.co.uk/stations/york/",
+      "response": "york.html",
+      "retrieved_at_local": "2026-09-08T23:44:43+01:00"
+    },
+    {
+      "location_id": "durham",
+      "station_name": "Durham",
+      "station_crs": "DHM",
+      "request_url": "https://www.nationalrail.co.uk/stations/durham/",
+      "response": "durham.html",
+      "retrieved_at_local": "2026-09-08T23:44:44+01:00"
+    },
+    {
+      "location_id": "cheltenham",
+      "station_name": "Cheltenham Spa",
+      "station_crs": "CNM",
+      "request_url": "https://www.nationalrail.co.uk/stations/cheltenham-spa/",
+      "response": "cheltenham.html",
+      "retrieved_at_local": "2026-09-08T23:44:44+01:00"
+    }
+  ],
+  "limitations": "National Rail station pages verify station identity and CRS. Each mapping is a representative broad-place origin, not a whole-place accessibility measurement."
+}

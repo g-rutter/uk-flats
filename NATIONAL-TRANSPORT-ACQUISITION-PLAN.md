@@ -5,7 +5,7 @@ Replace the imported national-rail figures with a dated, reviewable station-to-s
 ## Current state — 8 September 2026
 
 - The collection workflow is implemented: a standard-library queue generator, direct National Rail Journey Planner request/response collector, offline manifest finalizer and review-only preparer. See the [runbook](docs/national-transport-runbook.md).
-- Twelve pilot origins have reviewed, evidence-linked station mappings: Barnsley, Bangor, Birmingham, Brighton & Hove, Cardiff, Leeds, Liverpool, Manchester, Newcastle upon Tyne, Reading, Wolverhampton and Wrexham.
+- All 83 locations have reviewed, evidence-linked origin-station mappings. The 71 non-pilot mappings have retained National Rail station pages and a hash-verified manifest in `2026-09-08-national-transport-station-mappings-full`.
 - The direct pilot raw release is complete: 23 eligible routes have four retained searches each, 207 retained request/response/metadata artifacts and a hash-verified manifest. Its review-stage observations are in `data/inputs/transport_route_observations_direct_pilot.csv`; all 23 routes have a reviewed National Rail Journey Planner itinerary. Birmingham New Street–Birmingham New Street is the explicit 0-minute, 0-change self-route.
 - No value in `data/inputs/nationalTransport.csv`, scoring or public transport comparison has changed. Both route-observation files are review-only evidence, not canonical replacements.
 
