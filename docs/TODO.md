@@ -6,11 +6,9 @@
   for the original 63-location baseline, retaining dated raw snapshots,
   query/geography details and transformation scripts. Those non-crime values
   remain imported historical claims.
-- For the 20-place expansion cohort, obtain an NRE Online Journey Planner feed
-  licence and credentials, or approve a controlled manual-capture protocol, then
+- For the 20-place expansion cohort, determine and approve a controlled manual-capture
+  protocol, then
   acquire fixed-date national-rail evidence and add `nationalTransport.csv` rows.
-  The RTJP feed is licensed and credentials are required; do not substitute
-  unrecorded journey estimates.
 - For the 20-place expansion cohort, approve a fixed, evidence-linked reviewer
   rubric for local transport, quiet and condition, then add reviewed
   `localTransport.csv`, `quiet.csv` and `condition.csv` rows. Do not infer bands
