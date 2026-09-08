@@ -9500,6 +9500,18 @@ window.FLATS_DATA = {
       "limitations": "Dated public-planner snapshot. The 104-minute one-change selection is the shortest suitable itinerary displayed for departures in 10:00-14:00 after one later-results action. It is not a guarantee, fare/accessibility assessment, frequency measure or door-to-door time. London route and remaining pilot locations are incomplete."
     },
     {
+      "id": "TR-NATIONAL-20260908-ENDPOINT-CHECK",
+      "workstream": "transport",
+      "title": "National Rail Journey Planner: London all-stations endpoint selection check",
+      "publisher": "Rail Delivery Group",
+      "url": "https://www.nationalrail.co.uk/journey-planner/",
+      "dataPeriod": "Visible endpoint searches 2026-09-08",
+      "retrievalDate": "2026-09-08",
+      "geography": "Barnsley (BNY) selected as origin; London endpoint control",
+      "coverage": "Two retained form screenshots and manifest entries in 2026-09-08-national-transport-pilot",
+      "limitations": "The text 'London Terminals' returned no station, but searching 'London' visibly offered and accepted 'London (All Stations)'. These configuration checks are not journey observations or evidence that no London route exists. The documented method uses the visible all-stations group consistently."
+    },
+    {
       "id": "TR02",
       "workstream": "transport",
       "title": "Traveline journey planner",
