@@ -6,7 +6,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from extract_legacy import write_csv
+from csv_io import write_csv
 from release_manifest import REQUIRED_COLUMNS, read_csv
 
 

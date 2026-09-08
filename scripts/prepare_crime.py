@@ -10,7 +10,7 @@ import hashlib
 from pathlib import Path
 
 from crime_workbook import sheets
-from extract_legacy import write_csv
+from csv_io import write_csv
 
 ROOT = Path(__file__).resolve().parents[1]
 SNAPSHOT = ROOT / 'data/raw/crime/2026-09-05'

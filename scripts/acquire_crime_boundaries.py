@@ -6,7 +6,7 @@ import hashlib
 from pathlib import Path
 from urllib.request import urlopen
 
-from extract_legacy import write_csv
+from csv_io import write_csv
 
 SERVICE = ('https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/'
            'LAD25_CSP25_PFA25_EW_LU/FeatureServer/0')

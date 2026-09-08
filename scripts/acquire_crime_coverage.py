@@ -6,7 +6,7 @@ import hashlib
 from pathlib import Path
 from urllib.request import urlopen
 
-from extract_legacy import write_csv
+from csv_io import write_csv
 
 SOURCES = {
     'changelog.html': 'https://data.police.uk/changelog/',

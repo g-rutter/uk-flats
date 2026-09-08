@@ -4,7 +4,7 @@ import argparse
 import csv
 from pathlib import Path
 
-from extract_legacy import write_csv
+from csv_io import write_csv
 
 
 def read(path, key='location_id'):

@@ -60,7 +60,12 @@ existing local artifact differs from its committed checksum.
 
 ## Current status
 
-The original 63 rows are **imported historical claims, not independently verified research**. The 20-place expansion cohort has reproducible price, rent, one-bedroom market-stock and recorded-offence observations from retained raw releases; its transport and environmental assessments remain blank pending their own acquisitions.
+Every location uses the same canonical fields and composite method. Observation
+provenance is assessed per location and topic in the generated release audit:
+some non-crime observations still need retained row-level artifacts, while
+others are reproducible from dated releases. This limitation is evidence context,
+not a separate kind of location. The 20 locations without transport and
+environmental assessments remain blank for those topics pending acquisition.
 Buying is an all-flat achieved-price proxy; renting is a modelled one-bedroom
 local-authority mean. The screen calculates separate Buy/Rent broad composite
 scores; their safety component uses the separate ONS CSP recorded-offence rates.

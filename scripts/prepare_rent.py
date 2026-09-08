@@ -5,7 +5,7 @@ import csv
 from pathlib import Path
 
 from crime_workbook import sheets
-from extract_legacy import write_csv
+from csv_io import write_csv
 from release_manifest import load
 
 HEADER = {'A': 'Time period', 'B': 'Area code', 'C': 'Area name', 'L': 'Rental price one bed'}

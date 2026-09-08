@@ -6,7 +6,7 @@ import json
 import re
 
 from crime import read
-from extract_legacy import write_csv
+from csv_io import write_csv
 
 
 def force_key(name):

@@ -5,7 +5,7 @@ import csv
 from pathlib import Path
 import re
 
-from extract_legacy import write_csv
+from csv_io import write_csv
 from release_manifest import load
 
 ROOT = Path(__file__).resolve().parents[1]

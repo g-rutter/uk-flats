@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 import zipfile
 
-from extract_legacy import write_csv
+from csv_io import write_csv
 
 
 ASB_CATEGORY = "Anti-social behaviour"

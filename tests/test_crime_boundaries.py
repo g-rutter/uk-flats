@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from crime import read
 from crime_boundaries import audit, load_lookup
-from extract_legacy import write_csv
+from csv_io import write_csv
 
 SNAPSHOT = ROOT / 'data/raw/crime/boundaries-2026-09-05'
 

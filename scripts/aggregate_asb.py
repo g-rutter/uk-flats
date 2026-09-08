@@ -12,6 +12,7 @@ from collections import Counter, defaultdict
 import io
 from pathlib import Path
 import zipfile
+from csv_io import write_csv
 
 ASB = "Anti-social behaviour"
 
@@ -90,19 +91,6 @@ def aggregate(archive, start, end, lsoa_lad, lad_csp):
                     lsoa_stats[("assigned_lsoa", lsoa, csp)] += 1
                     lsoa_stats[("pfa", pfa)] += 1
     return counts, csp_names, force_months, lsoa_stats
-
-
-def write_csv(path, rows):
-    rows = list(rows)
-    if not rows:
-        raise ValueError("No rows to write")
-    fieldnames = list(rows[0])
-    for row in rows[1:]:
-        fieldnames.extend(key for key in row if key not in fieldnames)
-    with Path(path).open("w", newline="", encoding="utf-8") as stream:
-        writer = csv.DictWriter(stream, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
 
 
 def export(args):

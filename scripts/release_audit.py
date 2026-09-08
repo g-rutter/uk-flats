@@ -3,7 +3,7 @@
 import csv
 from pathlib import Path
 
-from extract_legacy import write_csv
+from csv_io import write_csv
 
 TOPICS = ('buy', 'rent', 'market', 'localTransport', 'nationalTransport', 'quiet', 'condition', 'crime')
 

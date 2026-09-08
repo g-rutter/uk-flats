@@ -1,8 +1,8 @@
 # Location registry
 
-This is the editable intake register for proposed and accepted expansion places;
-it is deliberately separate from `data/inputs/locations.csv`.  The current 63
-rows are an imported baseline and are not silently backfilled here.
+This is the editable intake register for proposed and accepted places. It is
+deliberately separate from `data/inputs/locations.csv`: it prepares candidates
+without creating a second canonical location list.
 
 Use `proposed` while a geography is being researched.  Change to `accepted`
 only after every mapping column has been reviewed against a retained lookup
@@ -17,4 +17,4 @@ mapping from a nearby location or display name.
 `validation_probe.csv` predeclares a 12-place method-validation sample. Its
 rent and buy result columns record the completed dated probe; the remaining
 topic columns stay blank until their own reviewed probes are prepared. It is a
-comparison sheet, not new evidence or an expansion cohort.
+comparison sheet, not new evidence or a location category.

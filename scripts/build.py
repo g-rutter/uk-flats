@@ -3,7 +3,7 @@
 import csv
 import json
 from pathlib import Path
-from extract_legacy import write_csv
+from csv_io import write_csv
 from crime import compile_crime, export_source_tables
 from crime_coverage import export_coverage
 from crime_boundaries import export_boundaries

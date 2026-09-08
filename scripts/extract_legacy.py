@@ -8,20 +8,12 @@ from pathlib import Path
 import re
 import xml.etree.ElementTree as ET
 import zipfile
+from csv_io import write_csv
 
 ROOT = Path(__file__).resolve().parents[1]
 LEGACY = ROOT / 'data/archive/UK flats (attempt 2)'
 ARCHIVE = ROOT / 'data/archive'
 INPUTS = ROOT / 'data/inputs'
-
-
-def write_csv(path, rows, fields=None):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    fields = fields or list(dict.fromkeys(k for row in rows for k in row))
-    with path.open('w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=fields, lineterminator='\n')
-        writer.writeheader()
-        writer.writerows(rows)
 
 
 def extract(initialize=False):

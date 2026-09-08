@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from build import compile_data
 from crime import compile_crime, read
-from extract_legacy import write_csv
+from csv_io import write_csv
 from prepare_crime import prepare, SNAPSHOT
 
 

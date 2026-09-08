@@ -5,7 +5,7 @@ import json
 import re
 from pathlib import Path
 
-from extract_legacy import write_csv
+from csv_io import write_csv
 from release_manifest import load
 
 

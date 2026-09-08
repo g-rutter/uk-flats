@@ -5,6 +5,7 @@ import csv
 from datetime import datetime
 from pathlib import Path
 
+from csv_io import write_csv
 from release_manifest import load as load_manifest
 
 STATION_COLUMNS = ('location_id', 'station_crs', 'station_name', 'selection_reason',
@@ -48,13 +49,6 @@ def parse_integer(value, field):
     if result < 0 or str(result) != value:
         raise ValueError(f'{field}: expected a non-negative whole number')
     return result
-
-
-def write_csv(path, rows, fieldnames):
-    with Path(path).open('w', newline='', encoding='utf-8') as target:
-        writer = csv.DictWriter(target, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
 
 
 def worst_confidence(*values):

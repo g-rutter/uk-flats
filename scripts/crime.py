@@ -6,7 +6,7 @@ import hashlib
 import re
 
 from crime_workbook import sheets
-from extract_legacy import write_csv
+from csv_io import write_csv
 
 CATEGORIES = ('violence_against_person', 'sexual_offences', 'asb')
 

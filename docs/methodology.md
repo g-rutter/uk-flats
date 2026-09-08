@@ -4,9 +4,10 @@ Keep all 83 candidates in view. Broad price, stock, transport, quiet and conditi
 data are in scope; building, subarea and listing research are not. Buying and
 renting remain separate.
 
-The current inputs import historical numbers and assessments without refreshing or
-endorsing them. They add no source research. Confidence labels and reasons remain
-historical assessments. Do not reuse archived scores, rankings or decisions.
+All locations use the same canonical tables and scoring method. The release audit
+records provenance completeness for each location/topic: missing retained raw
+artifacts remain a limitation of that observation, never a reason to alter or
+zero-fill it. Do not reuse archived scores, rankings or decisions.
 
 ## Composite score
 
@@ -46,7 +47,10 @@ dated archive and geography/coverage review supports comparable CSP rates.
   midpoint up. Uses the Town/City field, except Torbay's district proxy.
 - Renting: recorded July 2026 ONS one-bedroom modelled LA mean, not an asking median.
   No observation counts survive for this series. Town and LA boundaries differ.
-- Stock: the imported baseline uses 5 September 2026 Rightmove headline counts; the expansion cohort uses controlled 7 September 2026 captures retained with exact resolver/search responses. Counts are not deduplicated listings. Bournemouth–Poole sums two named portal regions and may not exactly match the broad comparison geography.
+- Stock: Rightmove headline counts are dated snapshots, not deduplicated listings.
+  Their exact retrieval and resolver evidence vary by observation; consult the
+  release audit and evidence catalogue. Bournemouth–Poole sums two named portal
+  regions and may not exactly match the broad comparison geography.
 - Transport: rounded historical representative rail times, plus qualitative local
   network assessments. These are not live timetables or accessibility measurements.
 - Quiet/condition: inherited coarse judgements with an explicit assessment band,

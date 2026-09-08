@@ -8,7 +8,7 @@ import hashlib
 import json
 
 from crime import read
-from extract_legacy import write_csv
+from csv_io import write_csv
 
 
 def load_lookup(snapshot):

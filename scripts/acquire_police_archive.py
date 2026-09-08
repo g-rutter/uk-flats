@@ -6,7 +6,7 @@ import hashlib
 from pathlib import Path
 from urllib.request import urlopen
 
-from extract_legacy import write_csv
+from csv_io import write_csv
 
 
 BASE_URL = "https://data.police.uk/data/archive/{month}.zip"

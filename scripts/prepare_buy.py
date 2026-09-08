@@ -7,7 +7,7 @@ from itertools import chain
 from pathlib import Path
 from statistics import median
 
-from extract_legacy import write_csv
+from csv_io import write_csv
 from release_manifest import load
 
 START, END = date(2024, 7, 1), date(2026, 6, 30)

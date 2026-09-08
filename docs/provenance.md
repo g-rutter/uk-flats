@@ -75,32 +75,32 @@ hashed raw release by `prepare_national_transport.py`. The preparer produces
 staging output only; it cannot silently replace the historical
 `nationalTransport.csv`. See [national transport methodology](national-transport-methodology.md).
 
-## Expansion release controls
+## Release controls
 
 `data/registry/location_registry.csv` is an intentionally empty, editable intake
-register for future places. The legacy 63 are not copied into it, because doing so
-would falsely make their unresolved price, rent and portal mappings look reviewed.
-Accepted registry rows must identify all topic geographies and a retained lookup
-artifact in `data/raw/releases/<release>/manifest.csv`; proposed rows instead
-state why a mapping is missing. `scripts/prepare_locations.py` fail-closes on
-duplicate IDs, unresolved mappings, absent release artifacts, bad checksums and
-out-of-scope countries, and produces explicit review candidates rather than
-changing canonical inputs by default.
+register for future places. It is not a second location table: accepted rows must
+identify all topic geographies and a retained lookup artifact in
+`data/raw/releases/<release>/manifest.csv`; proposed rows instead state why a
+mapping is missing. `scripts/prepare_locations.py` fail-closes on duplicate IDs,
+unresolved mappings, absent release artifacts, bad checksums and out-of-scope
+countries, and produces explicit review candidates rather than changing canonical
+inputs by default.
 
 Every new raw release has a `manifest.csv` with the columns documented in
 `scripts/release_manifest.py`: relative artifact path, URL, complete request/query,
 retrieval time, data period, SHA-256, MIME type, publisher, licence/terms and
 coverage limitations. `scripts/release_audit.py`, run by `build.py`, writes
 `data/derived/release_audit.csv`. It is one location/topic checklist row with
-`ready`, `missing` or `review-required`; current non-crime baseline values remain
-`review-required` because their row-level raw artifacts do not survive. The ONS
-crime rows are `ready` only because their retained workbook hash is present.
+`ready`, `missing` or `review-required`. A non-crime observation without a
+retained row-level raw artifact is `review-required`; an ONS crime observation is
+`ready` when its retained workbook hash is present. Status is assigned by
+location/topic evidence, not by a location cohort.
 
-`data/registry/validation_probe.csv` predeclares the 12-place stratified method
-probe described in the expansion plan. Its completed rent and buy result columns
-record the retained release comparison without altering imported baseline values.
+`data/registry/validation_probe.csv` predeclares a 12-place stratified method
+probe. Its completed rent and buy result columns record the retained release
+comparison without altering current canonical values.
 
-## July 2026 price and rent probe
+## July 2026 price and rent method probe
 
 The initial probe release is `data/raw/releases/2026-09-06-baseline-probe/`.
 It uses the ONS PIPR workbook edition published 19 August 2026 and extracts its
@@ -122,7 +122,7 @@ uses the reviewed exact uppercase Town/City or District keys, applies the
 category-A and flat/maisonette filters offline, and retains selected values and
 exclusions. The display value is a whole-pound median; an exact half-pound
 midpoint rounds up. All twelve price medians and transaction counts match the
-imported baseline after that documented rounding rule. Together with the
+existing canonical values after that documented rounding rule. Together with the
 already matching rent results, this validates the stated methods and mappings
 for this sample only; it does not make untested baseline rows reproducible.
 
@@ -133,11 +133,11 @@ times and SHA-256 values. After cloning, run
 It downloads only missing artifacts and fails if their bytes do not agree with
 the committed manifest; it never overwrites the recorded provenance.
 
-## September 2026 expansion market-stock captures
+## September 2026 market-stock captures
 
 `data/raw/releases/2026-09-07-location-expansion/market-stock/` retains the
 controlled Rightmove resolver JSON and filtered sale/rent HTML capture for each
-portal region used by the 20 expansion locations. `record_market_stock_capture.py`
+covered portal region. `record_market_stock_capture.py`
 records URL, filter request, capture time and SHA-256 in the release manifest;
 `prepare_market_stock.py` fails if the resolver mapping or the single headline
 `resultCount` field changes, then writes the two tenure-specific `oneBedCount`
