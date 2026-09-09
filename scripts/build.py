@@ -18,8 +18,8 @@ INTEGER_NUMERIC = {'proxyMedian', 'transactions', 'proxyMonthly', 'oneBedCount',
 FLOAT_NUMERIC = {'lat', 'lon', 'pt_connectivity_0_100', 'national_percentile'}
 REQUIRED_COLUMNS = {
     'locations.csv': {'id', 'name', 'country', 'localAuthority', 'lat', 'lon'},
-    'buy.csv': {'location_id', 'proxyMedian', 'transactions', 'affordabilityConfidence', 'oneBedCount', 'affordabilityReason'},
-    'rent.csv': {'location_id', 'proxyMonthly', 'affordabilityConfidence', 'oneBedCount', 'affordabilityReason'},
+    'buy.csv': {'location_id', 'proxyMedian', 'transactions', 'housingCostConfidence', 'oneBedCount', 'housingCostReason'},
+    'rent.csv': {'location_id', 'proxyMonthly', 'housingCostConfidence', 'oneBedCount', 'housingCostReason'},
     'market.csv': {'location_id', 'reason'},
     'localTransport.csv': {'location_id', 'pt_connectivity_0_100', 'national_percentile', 'score', 'source_period', 'retrieval_date', 'evidence_id', 'geography_code', 'geography_vintage', 'population_covered', 'population_expected', 'method_version', 'confidence', 'reason'},
     'location_geographies.csv': {'location_id', 'geography_type', 'geography_name', 'boundary_vintage', 'mapping_basis', 'confidence', 'reason'},

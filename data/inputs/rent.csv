@@ -1,4 +1,4 @@
-location_id,proxyMonthly,affordabilityConfidence,oneBedCount,affordabilityReason
+location_id,proxyMonthly,housingCostConfidence,oneBedCount,housingCostReason
 barnsley,505,Medium,21,Official one-bedroom modelled average for Barnsley LA; underlying observation count is not published in the table.
 birmingham,825,Medium,1257,Official one-bedroom modelled average for Birmingham LA; underlying observation count is not published in the table.
 blackburn,534,Medium,2,Official one-bedroom modelled average for Blackburn with Darwen LA; underlying observation count is not published in the table and the LA is broader than the named town.

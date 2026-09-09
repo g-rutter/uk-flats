@@ -46,6 +46,31 @@
   display: none;
 }
 
+.help-list {
+  display: grid;
+  gap: 3px;
+  margin-top: 6px;
+}
+
+.help-list [role="listitem"] {
+  display: block;
+  padding-left: 12px;
+}
+
+.help-list [role="listitem"]::before {
+  content: "•";
+  float: left;
+  margin-left: -12px;
+}
+
+.component-housing_cost .help-text {
+  top: auto;
+  right: 0;
+  bottom: calc(100% + 5px);
+  left: auto;
+  width: min(310px, 70vw);
+}
+
 .section-scores {
   display: flex;
   align-items: center;

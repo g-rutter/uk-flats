@@ -31,8 +31,8 @@ signed decimal degrees. Original camelCase names are retained for traceability.
 | File | Key and contents | Historical source context |
 | --- | --- | --- |
 | locations.csv | `id`; name, country, localAuthority, lat, lon | JS top-level identity; GC01/GC02 |
-| buy.csv | `location_id`; proxyMedian (GBP), transactions, oneBedCount, affordabilityConfidence/Reason | JS buy; AFF-BUY-PPD-2024-26; counts use MT-RM-SEARCH-20260905 |
-| rent.csv | `location_id`; proxyMonthly (GBP/month), oneBedCount, affordabilityConfidence/Reason | JS rent; AFF-RENT-PIPR-2026-07; counts use MT-RM-SEARCH-20260905 |
+| buy.csv | `location_id`; proxyMedian (GBP), transactions, oneBedCount, housingCostConfidence/Reason | JS buy; HC-BUY-PPD-2024-26; counts use MT-RM-SEARCH-20260905 |
+| rent.csv | `location_id`; proxyMonthly (GBP/month), oneBedCount, housingCostConfidence/Reason | JS rent; HC-RENT-PIPR-2026-07; counts use MT-RM-SEARCH-20260905 |
 | market.csv | `location_id`; reason | JS market; MT-RM-SEARCH-20260905 / MT-RM-LOS-20260905 |
 | localTransport.csv | `location_id`; DfT 0--100 connectivity, national population percentile, score, source period/date/evidence, BUA geography, covered/expected population, method, confidence and reason | Reproducible DfT 2025 OA metric aggregated to reviewed BUAs |
 | location_geographies.csv | `location_id`; reviewed BUA mapping type/name/vintage, basis, confidence and reason | One mapping decision for every screen location |

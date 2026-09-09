@@ -11,15 +11,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 100000,
         "transactions": 214,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 25,
-        "affordabilityReason": "Median of 214 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 214 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 505,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 21,
-        "affordabilityReason": "Official one-bedroom modelled average for Barnsley LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Barnsley LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 25 sale and 21 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -72,15 +72,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 150000,
         "transactions": 3183,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 854,
-        "affordabilityReason": "Median of 3183 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 3183 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 825,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 1257,
-        "affordabilityReason": "Official one-bedroom modelled average for Birmingham LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Birmingham LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 854 sale and 1257 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -133,15 +133,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 110000,
         "transactions": 141,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 8,
-        "affordabilityReason": "Median of 141 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 141 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 534,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 2,
-        "affordabilityReason": "Official one-bedroom modelled average for Blackburn with Darwen LA; underlying observation count is not published in the table and the LA is broader than the named town."
+        "housingCostReason": "Official one-bedroom modelled average for Blackburn with Darwen LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 8 sale and 2 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -194,15 +194,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 80000,
         "transactions": 297,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 77,
-        "affordabilityReason": "Median of 297 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 297 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 498,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 75,
-        "affordabilityReason": "Official one-bedroom modelled average for Blackpool LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Blackpool LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 77 sale and 75 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -255,15 +255,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 114000,
         "transactions": 493,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 64,
-        "affordabilityReason": "Median of 493 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 493 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 647,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 78,
-        "affordabilityReason": "Official one-bedroom modelled average for Bolton LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Bolton LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 64 sale and 78 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -316,15 +316,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 99000,
         "transactions": 453,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 76,
-        "affordabilityReason": "Median of 453 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 453 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 553,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 91,
-        "affordabilityReason": "Official one-bedroom modelled average for Bradford LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Bradford LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 76 sale and 91 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -377,15 +377,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 88625,
         "transactions": 98,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 5,
-        "affordabilityReason": "Median of 98 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 98 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 463,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 22,
-        "affordabilityReason": "Official one-bedroom modelled average for Burnley LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Burnley LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 5 sale and 22 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -438,15 +438,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 104000,
         "transactions": 147,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 26,
-        "affordabilityReason": "Median of 147 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 147 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 610,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 34,
-        "affordabilityReason": "Official one-bedroom modelled average for East Staffordshire LA; underlying observation count is not published in the table and the LA is broader than the named town."
+        "housingCostReason": "Official one-bedroom modelled average for East Staffordshire LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 26 sale and 34 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -499,15 +499,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 165000,
         "transactions": 1883,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 259,
-        "affordabilityReason": "Median of 1883 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 1883 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 902,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 468,
-        "affordabilityReason": "Official one-bedroom modelled average for Cardiff LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Cardiff LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 259 sale and 468 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -560,15 +560,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 165000,
         "transactions": 570,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 43,
-        "affordabilityReason": "Median of 570 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 570 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 721,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 54,
-        "affordabilityReason": "Official one-bedroom modelled average for Cheshire West and Chester LA; underlying observation count is not published in the table and the LA is broader than the named town."
+        "housingCostReason": "Official one-bedroom modelled average for Cheshire West and Chester LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 43 sale and 54 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -621,15 +621,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 115500,
         "transactions": 204,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 14,
-        "affordabilityReason": "Median of 204 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 204 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 538,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 31,
-        "affordabilityReason": "Official one-bedroom modelled average for Chesterfield LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Chesterfield LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 14 sale and 31 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -682,15 +682,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 135000,
         "transactions": 830,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 88,
-        "affordabilityReason": "Median of 830 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 830 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 759,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 184,
-        "affordabilityReason": "Official one-bedroom modelled average for Coventry LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Coventry LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 88 sale and 184 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -743,15 +743,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 95000,
         "transactions": 220,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 23,
-        "affordabilityReason": "Median of 220 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 220 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 494,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 24,
-        "affordabilityReason": "Official one-bedroom modelled average for Darlington LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Darlington LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 23 sale and 24 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -804,15 +804,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 125000,
         "transactions": 532,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 73,
-        "affordabilityReason": "Median of 532 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 532 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 606,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 214,
-        "affordabilityReason": "Official one-bedroom modelled average for Derby LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Derby LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 73 sale and 214 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -865,15 +865,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 108000,
         "transactions": 281,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 25,
-        "affordabilityReason": "Median of 281 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 281 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 491,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 27,
-        "affordabilityReason": "Official one-bedroom modelled average for Doncaster LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Doncaster LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 25 sale and 27 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -926,15 +926,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 101000,
         "transactions": 597,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 32,
-        "affordabilityReason": "Median of 597 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 597 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 587,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 27,
-        "affordabilityReason": "Official one-bedroom modelled average for Gateshead LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Gateshead LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 32 sale and 27 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -987,15 +987,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 145000,
         "transactions": 681,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 74,
-        "affordabilityReason": "Median of 681 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 681 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 743,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 65,
-        "affordabilityReason": "Official one-bedroom modelled average for Gloucester LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Gloucester LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 74 sale and 65 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1048,15 +1048,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 127500,
         "transactions": 216,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 34,
-        "affordabilityReason": "Median of 216 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 216 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 546,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 49,
-        "affordabilityReason": "Official one-bedroom modelled average for Calderdale LA; underlying observation count is not published in the table and the LA is broader than the named town."
+        "housingCostReason": "Official one-bedroom modelled average for Calderdale LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 34 sale and 49 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1109,15 +1109,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 83014,
         "transactions": 106,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 16,
-        "affordabilityReason": "Median of 106 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 106 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 400,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 9,
-        "affordabilityReason": "Official one-bedroom modelled average for Hartlepool LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Hartlepool LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 16 sale and 9 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1170,15 +1170,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 110000,
         "transactions": 288,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 33,
-        "affordabilityReason": "Median of 288 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 288 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 582,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 91,
-        "affordabilityReason": "Official one-bedroom modelled average for Kirklees LA; underlying observation count is not published in the table and the LA is broader than the named town."
+        "housingCostReason": "Official one-bedroom modelled average for Kirklees LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 33 sale and 91 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1231,15 +1231,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 95000,
         "transactions": 406,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 92,
-        "affordabilityReason": "Median of 406 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 406 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 498,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 128,
-        "affordabilityReason": "Official one-bedroom modelled average for Kingston upon Hull, City of LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Kingston upon Hull, City of LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 92 sale and 128 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1292,15 +1292,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 137000,
         "transactions": 545,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 117,
-        "affordabilityReason": "Median of 545 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 545 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 743,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 80,
-        "affordabilityReason": "Official one-bedroom modelled average for Ipswich LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Ipswich LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 117 sale and 80 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1353,15 +1353,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 129475,
         "transactions": 210,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 15,
-        "affordabilityReason": "Median of 210 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 210 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 681,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 30,
-        "affordabilityReason": "Official one-bedroom modelled average for North Northamptonshire LA; underlying observation count is not published in the table and the LA is broader than the named town."
+        "housingCostReason": "Official one-bedroom modelled average for North Northamptonshire LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 15 sale and 30 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1414,15 +1414,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 130000,
         "transactions": 231,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 26,
-        "affordabilityReason": "Median of 231 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 231 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 596,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 9,
-        "affordabilityReason": "Official one-bedroom modelled average for Lancaster LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Lancaster LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 26 sale and 9 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1475,15 +1475,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 155000,
         "transactions": 2152,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 453,
-        "affordabilityReason": "Median of 2152 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 2152 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 779,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 627,
-        "affordabilityReason": "Official one-bedroom modelled average for Leeds LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Leeds LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 453 sale and 627 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1536,15 +1536,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 130000,
         "transactions": 803,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 190,
-        "affordabilityReason": "Median of 803 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 803 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 717,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 386,
-        "affordabilityReason": "Official one-bedroom modelled average for Leicester LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Leicester LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 190 sale and 386 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1597,15 +1597,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 118000,
         "transactions": 285,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 47,
-        "affordabilityReason": "Median of 285 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 285 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 661,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 68,
-        "affordabilityReason": "Official one-bedroom modelled average for Lincoln LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Lincoln LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 47 sale and 68 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1658,15 +1658,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 145000,
         "transactions": 2356,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 965,
-        "affordabilityReason": "Median of 2356 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 2356 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 683,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 347,
-        "affordabilityReason": "Official one-bedroom modelled average for Liverpool LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Liverpool LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 965 sale and 347 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1719,15 +1719,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 132000,
         "transactions": 206,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 17,
-        "affordabilityReason": "Median of 206 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 206 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 677,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 20,
-        "affordabilityReason": "Official one-bedroom modelled average for Charnwood LA; underlying observation count is not published in the table and the LA is broader than the named town."
+        "housingCostReason": "Official one-bedroom modelled average for Charnwood LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 17 sale and 20 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1780,15 +1780,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 192500,
         "transactions": 4478,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 1372,
-        "affordabilityReason": "Median of 4478 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 4478 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 998,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 1456,
-        "affordabilityReason": "Official one-bedroom modelled average for Manchester LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Manchester LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 1372 sale and 1456 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1841,15 +1841,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 66248,
         "transactions": 22,
-        "affordabilityConfidence": "Low",
+        "housingCostConfidence": "Low",
         "oneBedCount": 3,
-        "affordabilityReason": "Median of 22 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 22 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 552,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 3,
-        "affordabilityReason": "Official one-bedroom modelled average for Merthyr Tydfil LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Merthyr Tydfil LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 3 sale and 3 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1902,15 +1902,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 85000,
         "transactions": 183,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 14,
-        "affordabilityReason": "Median of 183 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 183 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 499,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 50,
-        "affordabilityReason": "Official one-bedroom modelled average for Middlesbrough LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Middlesbrough LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 14 sale and 50 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -1963,15 +1963,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 91250,
         "transactions": 42,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 3,
-        "affordabilityReason": "Median of 42 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 42 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 498,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 3,
-        "affordabilityReason": "Official one-bedroom modelled average for Neath Port Talbot LA; underlying observation count is not published in the table and the LA is broader than the named town."
+        "housingCostReason": "Official one-bedroom modelled average for Neath Port Talbot LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 3 sale and 3 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2024,15 +2024,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 139950,
         "transactions": 1733,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 119,
-        "affordabilityReason": "Median of 1733 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 1733 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 810,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 124,
-        "affordabilityReason": "Official one-bedroom modelled average for Newcastle upon Tyne LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Newcastle upon Tyne LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 119 sale and 124 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2085,15 +2085,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 128000,
         "transactions": 541,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 31,
-        "affordabilityReason": "Median of 541 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 541 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 696,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 43,
-        "affordabilityReason": "Official one-bedroom modelled average for Newport LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Newport LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 31 sale and 43 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2146,15 +2146,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 150000,
         "transactions": 717,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 104,
-        "affordabilityReason": "Median of 717 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 717 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 748,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 137,
-        "affordabilityReason": "Official one-bedroom modelled average for West Northamptonshire LA; underlying observation count is not published in the table and the LA is broader than the named town."
+        "housingCostReason": "Official one-bedroom modelled average for West Northamptonshire LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 104 sale and 137 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2207,15 +2207,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 155000,
         "transactions": 1272,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 144,
-        "affordabilityReason": "Median of 1272 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 1272 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 781,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 112,
-        "affordabilityReason": "Official one-bedroom modelled average for Norwich LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Norwich LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 144 sale and 112 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2268,15 +2268,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 140000,
         "transactions": 1524,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 225,
-        "affordabilityReason": "Median of 1524 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 1524 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 734,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 509,
-        "affordabilityReason": "Official one-bedroom modelled average for Nottingham LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Nottingham LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 225 sale and 509 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2329,15 +2329,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 129000,
         "transactions": 420,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 91,
-        "affordabilityReason": "Median of 420 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 420 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 703,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 134,
-        "affordabilityReason": "Official one-bedroom modelled average for Peterborough LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Peterborough LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 91 sale and 134 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2390,15 +2390,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 138500,
         "transactions": 1343,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 147,
-        "affordabilityReason": "Median of 1343 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 1343 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 703,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 124,
-        "affordabilityReason": "Official one-bedroom modelled average for Plymouth LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Plymouth LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 147 sale and 124 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2451,15 +2451,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 165000,
         "transactions": 541,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 177,
-        "affordabilityReason": "Median of 541 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 541 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 900,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 176,
-        "affordabilityReason": "Official one-bedroom modelled average for Portsmouth LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Portsmouth LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 177 sale and 176 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2512,15 +2512,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 104625,
         "transactions": 470,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 72,
-        "affordabilityReason": "Median of 470 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 470 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 578,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 136,
-        "affordabilityReason": "Official one-bedroom modelled average for Preston LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Preston LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 72 sale and 136 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2573,15 +2573,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 111625,
         "transactions": 260,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 19,
-        "affordabilityReason": "Median of 260 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 260 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 486,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 25,
-        "affordabilityReason": "Official one-bedroom modelled average for Rotherham LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Rotherham LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 19 sale and 25 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2634,15 +2634,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 190000,
         "transactions": 1850,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 513,
-        "affordabilityReason": "Median of 1850 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 1850 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 886,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 531,
-        "affordabilityReason": "Official one-bedroom modelled average for Salford LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Salford LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 513 sale and 531 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2695,15 +2695,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 140000,
         "transactions": 1707,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 257,
-        "affordabilityReason": "Median of 1707 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 1707 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 689,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 401,
-        "affordabilityReason": "Official one-bedroom modelled average for Sheffield LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Sheffield LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 257 sale and 401 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2756,15 +2756,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 157500,
         "transactions": 309,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 33,
-        "affordabilityReason": "Median of 309 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 309 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 605,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 33,
-        "affordabilityReason": "Official one-bedroom modelled average for Shropshire LA; underlying observation count is not published in the table and the LA is broader than the named town."
+        "housingCostReason": "Official one-bedroom modelled average for Shropshire LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 33 sale and 33 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2817,15 +2817,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 94000,
         "transactions": 146,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 9,
-        "affordabilityReason": "Median of 146 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 146 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 590,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 24,
-        "affordabilityReason": "Official one-bedroom modelled average for St. Helens LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for St. Helens LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 9 sale and 24 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2878,15 +2878,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 125000,
         "transactions": 203,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 20,
-        "affordabilityReason": "Median of 203 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 203 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 629,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 20,
-        "affordabilityReason": "Official one-bedroom modelled average for Stafford LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Stafford LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 20 sale and 20 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -2939,15 +2939,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 165000,
         "transactions": 830,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 41,
-        "affordabilityReason": "Median of 830 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 830 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 807,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 89,
-        "affordabilityReason": "Official one-bedroom modelled average for Stockport LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Stockport LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 41 sale and 89 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3000,15 +3000,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 78000,
         "transactions": 188,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 14,
-        "affordabilityReason": "Median of 188 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 188 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 537,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 36,
-        "affordabilityReason": "Official one-bedroom modelled average for Stockton-on-Tees LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Stockton-on-Tees LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 14 sale and 36 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3061,15 +3061,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 85000,
         "transactions": 346,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 26,
-        "affordabilityReason": "Median of 346 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 346 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 515,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 53,
-        "affordabilityReason": "Official one-bedroom modelled average for Stoke-on-Trent LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Stoke-on-Trent LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 26 sale and 53 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3122,15 +3122,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 79000,
         "transactions": 363,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 49,
-        "affordabilityReason": "Median of 363 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 363 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 521,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 56,
-        "affordabilityReason": "Official one-bedroom modelled average for Sunderland LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Sunderland LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 49 sale and 56 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3183,15 +3183,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 130000,
         "transactions": 455,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 25,
-        "affordabilityReason": "Median of 455 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 455 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 684,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 16,
-        "affordabilityReason": "Official one-bedroom modelled average for Swansea LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Swansea LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 25 sale and 16 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3244,15 +3244,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 148500,
         "transactions": 906,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 87,
-        "affordabilityReason": "Median of 906 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 906 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 816,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 121,
-        "affordabilityReason": "Official one-bedroom modelled average for Swindon LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Swindon LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 87 sale and 121 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3305,15 +3305,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 113500,
         "transactions": 180,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 31,
-        "affordabilityReason": "Median of 180 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 180 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 600,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 22,
-        "affordabilityReason": "Official one-bedroom modelled average for Telford and Wrekin LA; underlying observation count is not published in the table and the LA is broader than the named town."
+        "housingCostReason": "Official one-bedroom modelled average for Telford and Wrekin LA; underlying observation count is not published in the table and the LA is broader than the named town."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 31 sale and 22 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3366,15 +3366,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 148000,
         "transactions": 936,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 165,
-        "affordabilityReason": "Median of 936 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 936 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 617,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 51,
-        "affordabilityReason": "Official one-bedroom modelled average for Torbay LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Torbay LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 165 sale and 51 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3427,15 +3427,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 116000,
         "transactions": 273,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 46,
-        "affordabilityReason": "Median of 273 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 273 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 572,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 46,
-        "affordabilityReason": "Official one-bedroom modelled average for Wakefield LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Wakefield LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 46 sale and 46 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3488,15 +3488,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 119975,
         "transactions": 404,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 36,
-        "affordabilityReason": "Median of 404 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 404 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 648,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 44,
-        "affordabilityReason": "Official one-bedroom modelled average for Walsall LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Walsall LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 36 sale and 44 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3549,15 +3549,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 123250,
         "transactions": 498,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 56,
-        "affordabilityReason": "Median of 498 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 498 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 670,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 40,
-        "affordabilityReason": "Official one-bedroom modelled average for Warrington LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Warrington LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 56 sale and 40 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3610,15 +3610,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 103750,
         "transactions": 200,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 15,
-        "affordabilityReason": "Median of 200 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 200 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 541,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 23,
-        "affordabilityReason": "Official one-bedroom modelled average for Wigan LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Wigan LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 15 sale and 23 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3671,15 +3671,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 117500,
         "transactions": 462,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 51,
-        "affordabilityReason": "Median of 462 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 462 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 671,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 94,
-        "affordabilityReason": "Official one-bedroom modelled average for Wolverhampton LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Wolverhampton LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 51 sale and 94 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3732,15 +3732,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 145500,
         "transactions": 466,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 52,
-        "affordabilityReason": "Median of 466 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 466 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 709,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 52,
-        "affordabilityReason": "Official one-bedroom modelled average for Worcester LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Worcester LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 52 sale and 52 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3793,15 +3793,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 112500,
         "transactions": 186,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 3,
-        "affordabilityReason": "Median of 186 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 186 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 594,
-        "affordabilityConfidence": "Medium",
+        "housingCostConfidence": "Medium",
         "oneBedCount": 11,
-        "affordabilityReason": "Official one-bedroom modelled average for Wrexham LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official one-bedroom modelled average for Wrexham LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's filtered snapshot returned 3 sale and 11 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3854,15 +3854,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 242500,
         "transactions": 5367,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 483,
-        "affordabilityReason": "Median of 5367 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 5367 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 1223,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 442,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Bristol City LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Bristol City LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 483 sale and 442 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3903,15 +3903,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 172000,
         "transactions": 2356,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 339,
-        "affordabilityReason": "Median of 2356 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 2356 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 879,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 343,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Southampton LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Southampton LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 339 sale and 343 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -3952,15 +3952,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 218000,
         "transactions": 3735,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 454,
-        "affordabilityReason": "Median of 3735 achieved standard flat/maisonette sales in the Bournemouth, Christchurch and Poole district; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 3735 achieved standard flat/maisonette sales in the Bournemouth, Christchurch and Poole district; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 919,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 357,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Bournemouth Christchurch and Poole LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Bournemouth Christchurch and Poole LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 454 sale and 357 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock. Bournemouth–Poole sums separate Bournemouth and Poole portal regions; their proprietary boundaries may overlap or omit parts of the broad comparison geography."
@@ -4001,15 +4001,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 285000,
         "transactions": 1766,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 553,
-        "affordabilityReason": "Median of 1766 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 1766 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 1190,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 436,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Brighton and Hove LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Brighton and Hove LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 553 sale and 436 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4050,15 +4050,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 185000,
         "transactions": 664,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 84,
-        "affordabilityReason": "Median of 664 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 664 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 917,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 57,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Exeter LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Exeter LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 84 sale and 57 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4099,15 +4099,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 238000,
         "transactions": 1755,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 207,
-        "affordabilityReason": "Median of 1755 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 1755 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 1115,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 332,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Reading LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Reading LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 207 sale and 332 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4148,15 +4148,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 185000,
         "transactions": 1000,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 161,
-        "affordabilityReason": "Median of 1000 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 1000 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 977,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 240,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Milton Keynes LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Milton Keynes LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 161 sale and 240 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4197,15 +4197,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 164500,
         "transactions": 431,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 179,
-        "affordabilityReason": "Median of 431 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 431 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 907,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 222,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Luton LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Luton LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 179 sale and 222 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4246,15 +4246,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 200000,
         "transactions": 619,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 147,
-        "affordabilityReason": "Median of 619 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 619 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 872,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 73,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Southend-on-Sea LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Southend-on-Sea LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 147 sale and 73 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4295,15 +4295,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 299000,
         "transactions": 1017,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 126,
-        "affordabilityReason": "Median of 1017 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 1017 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 1257,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 212,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Cambridge LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Cambridge LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 126 sale and 212 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4344,15 +4344,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 175000,
         "transactions": 905,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 118,
-        "affordabilityReason": "Median of 905 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 905 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 819,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 114,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Colchester LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Colchester LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 118 sale and 114 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4393,15 +4393,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 315000,
         "transactions": 710,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 88,
-        "affordabilityReason": "Median of 710 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 710 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 1353,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 185,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Oxford LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Oxford LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 88 sale and 185 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4442,15 +4442,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 315000,
         "transactions": 809,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 104,
-        "affordabilityReason": "Median of 809 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 809 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 1205,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 90,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Bath and North East Somerset LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Bath and North East Somerset LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 104 sale and 90 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4491,15 +4491,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 122250,
         "transactions": 86,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 2,
-        "affordabilityReason": "Median of 86 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 86 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 559,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 0,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Bridgend LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Bridgend LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 2 sale and 0 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4540,15 +4540,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 112500,
         "transactions": 25,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 0,
-        "affordabilityReason": "Median of 25 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 25 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 499,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 0,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Carmarthenshire LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Carmarthenshire LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 0 sale and 0 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4589,15 +4589,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 90000,
         "transactions": 29,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 8,
-        "affordabilityReason": "Median of 29 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 29 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 558,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 1,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Gwynedd LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Gwynedd LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 8 sale and 1 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4638,15 +4638,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 94000,
         "transactions": 43,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 1,
-        "affordabilityReason": "Median of 43 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 43 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 545,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 5,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Denbighshire LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Denbighshire LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 1 sale and 5 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4687,15 +4687,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 187000,
         "transactions": 955,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 115,
-        "affordabilityReason": "Median of 955 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 955 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 871,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 75,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for York LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for York LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 115 sale and 75 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4736,15 +4736,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 112500,
         "transactions": 151,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 9,
-        "affordabilityReason": "Median of 151 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 151 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 453,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 8,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for County Durham LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for County Durham LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 9 sale and 8 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -4785,15 +4785,15 @@ window.FLATS_DATA = {
       "buy": {
         "proxyMedian": 200000,
         "transactions": 1067,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 107,
-        "affordabilityReason": "Median of 1067 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
+        "housingCostReason": "Median of 1067 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
       },
       "rent": {
         "proxyMonthly": 869,
-        "affordabilityConfidence": "High",
+        "housingCostConfidence": "High",
         "oneBedCount": 113,
-        "affordabilityReason": "Official July 2026 one-bedroom modelled average for Cheltenham LA; underlying observation count is not published in the table."
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Cheltenham LA; underlying observation count is not published in the table."
       },
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 107 sale and 113 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
@@ -10328,8 +10328,8 @@ window.FLATS_DATA = {
       "limitations": "The selected Town response identifies a practical broad-place centroid; it is not a statutory boundary lookup."
     },
     {
-      "id": "AFF-BUY-PPD-2024-26",
-      "workstream": "affordability",
+      "id": "HC-BUY-PPD-2024-26",
+      "workstream": "housing_cost",
       "title": "Price Paid Data yearly files (2024, 2025, 2026)",
       "publisher": "HM Land Registry",
       "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads",
@@ -10340,8 +10340,8 @@ window.FLATS_DATA = {
       "limitations": "All flat/maisonette sizes; no bedroom count. Standard category-A transactions only. Recent transactions may be incomplete because registration lags."
     },
     {
-      "id": "AFF-RENT-PIPR-2026-07",
-      "workstream": "affordability",
+      "id": "HC-RENT-PIPR-2026-07",
+      "workstream": "housing_cost",
       "title": "Price Index of Private Rents, UK: monthly price statistics, 19 August 2026 edition",
       "publisher": "Office for National Statistics",
       "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics",
@@ -10715,7 +10715,7 @@ window.FLATS_DATA = {
   "composite": {
     "title": "Broad composite score",
     "weights": {
-      "affordability": 15,
+      "housing_cost": 15,
       "safety": 15,
       "local_transport": 15,
       "condition": 15,
@@ -10725,39 +10725,95 @@ window.FLATS_DATA = {
     },
     "safety_label": "Recorded-offence safety proxy",
     "safety_note": "Equal-weighted quintile scores for ONS CSP violence-against-the-person and sexual-offence rates; lower recorded rates score higher. ASB is excluded pending coverage review.",
+    "housing_cost_bands": {
+      "buy": {
+        "5": {
+          "count": 17,
+          "minimum": 66248,
+          "maximum": 101000
+        },
+        "4": {
+          "count": 17,
+          "minimum": 103750,
+          "maximum": 119975
+        },
+        "3": {
+          "count": 16,
+          "minimum": 122250,
+          "maximum": 139950
+        },
+        "2": {
+          "count": 17,
+          "minimum": 140000,
+          "maximum": 165000
+        },
+        "1": {
+          "count": 16,
+          "minimum": 172000,
+          "maximum": 315000
+        }
+      },
+      "rent": {
+        "5": {
+          "count": 17,
+          "minimum": 400,
+          "maximum": 538
+        },
+        "4": {
+          "count": 17,
+          "minimum": 541,
+          "maximum": 606
+        },
+        "3": {
+          "count": 16,
+          "minimum": 610,
+          "maximum": 703
+        },
+        "2": {
+          "count": 17,
+          "minimum": 709,
+          "maximum": 871
+        },
+        "1": {
+          "count": 16,
+          "minimum": 872,
+          "maximum": 1353
+        }
+      }
+    },
     "score_bands": {
       "buy": {
         "low": {
-          "count": 22,
+          "count": 21,
           "minimum": 48.5,
-          "maximum": 59.0
+          "maximum": 58.0
         },
         "mid": {
-          "count": 20,
-          "minimum": 59.5,
+          "count": 23,
+          "minimum": 59.0,
           "maximum": 63.5
         },
         "high": {
-          "count": 21,
+          "count": 19,
           "minimum": 64.0,
-          "maximum": 77.0
+          "maximum": 75.5
         },
         "unknown": 20
       },
       "rent": {
         "low": {
-          "count": 20,
+          "count": 21,
           "minimum": 48.0,
-          "maximum": 57.5
+          "maximum": 59.0
         },
         "mid": {
-          "count": 22,
-          "minimum": 58.0,
-          "maximum": 63.5
+          "count": 19,
+          "minimum": 59.5,
+          "maximum": 63.0
         },
         "high": {
-          "count": 21,
-          "minimum": 64.0,
+          "count": 23,
+          "minimum": 63.5,
           "maximum": 77.0
         },
         "unknown": 20
@@ -10774,7 +10830,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 3
             },
             "score": 64.5,
@@ -10787,7 +10843,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 2
             },
             "score": 61.5,
@@ -10805,10 +10861,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.5,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 5
             },
-            "score": 54.0,
+            "score": 57.0,
             "band": "low"
           },
           "rent": {
@@ -10818,10 +10874,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.5,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 5
             },
-            "score": 54.0,
+            "score": 57.0,
             "band": "low"
           }
         }
@@ -10836,10 +10892,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.5,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 1
             },
-            "score": 59.0,
+            "score": 56.0,
             "band": "low"
           },
           "rent": {
@@ -10849,11 +10905,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 1
             },
             "score": 59.0,
-            "band": "mid"
+            "band": "low"
           }
         }
       },
@@ -10867,7 +10923,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 4
             },
             "score": 58.0,
@@ -10880,11 +10936,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 4
             },
             "score": 58.0,
-            "band": "mid"
+            "band": "low"
           }
         }
       },
@@ -10898,11 +10954,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.5,
-              "affordability": 3,
+              "housing_cost": 4,
               "stock": 3
             },
-            "score": 57.5,
-            "band": "low"
+            "score": 60.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -10911,7 +10967,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.5,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 4
             },
             "score": 60.5,
@@ -10929,7 +10985,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 4
             },
             "score": 62.5,
@@ -10942,10 +10998,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.0,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 4
             },
-            "score": 62.5,
+            "score": 59.5,
             "band": "mid"
           }
         }
@@ -10960,7 +11016,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 1
             },
             "score": 52.0,
@@ -10973,7 +11029,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 2
             },
             "score": 55.0,
@@ -10991,10 +11047,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.5,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 3
             },
-            "score": 72.0,
+            "score": 69.0,
             "band": "high"
           },
           "rent": {
@@ -11004,7 +11060,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 3
             },
             "score": 66.0,
@@ -11022,10 +11078,10 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 5
             },
-            "score": 72.5,
+            "score": 75.5,
             "band": "high"
           },
           "rent": {
@@ -11035,7 +11091,7 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 5
             },
             "score": 72.5,
@@ -11053,11 +11109,11 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 3.5,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 3
             },
-            "score": 62.5,
-            "band": "mid"
+            "score": 65.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -11066,10 +11122,10 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 3.5,
-              "affordability": 3,
+              "housing_cost": 2,
               "stock": 3
             },
-            "score": 68.5,
+            "score": 65.5,
             "band": "high"
           }
         }
@@ -11084,11 +11140,11 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 4,
               "stock": 2
             },
-            "score": 63.0,
-            "band": "mid"
+            "score": 66.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -11097,7 +11153,7 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 4.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 3
             },
             "score": 72.0,
@@ -11115,7 +11171,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 5.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 4
             },
             "score": 65.5,
@@ -11128,10 +11184,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 5.0,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 4
             },
-            "score": 59.5,
+            "score": 62.5,
             "band": "mid"
           }
         }
@@ -11146,11 +11202,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 2
             },
             "score": 59.0,
-            "band": "low"
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -11159,11 +11215,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 2
             },
             "score": 59.0,
-            "band": "mid"
+            "band": "low"
           }
         }
       },
@@ -11177,7 +11233,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 3
             },
             "score": 54.0,
@@ -11190,11 +11246,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 4,
               "stock": 4
             },
-            "score": 57.0,
-            "band": "low"
+            "score": 60.0,
+            "band": "mid"
           }
         }
       },
@@ -11208,11 +11264,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 3
             },
-            "score": 60.5,
-            "band": "mid"
+            "score": 57.5,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -11221,7 +11277,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 3
             },
             "score": 60.5,
@@ -11239,7 +11295,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 1.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 3
             },
             "score": 66.5,
@@ -11252,10 +11308,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 1.0,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 3
             },
-            "score": 66.5,
+            "score": 63.5,
             "band": "high"
           }
         }
@@ -11270,11 +11326,11 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 2,
               "stock": 3
             },
-            "score": 64.5,
-            "band": "high"
+            "score": 61.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -11283,11 +11339,11 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 2,
               "stock": 3
             },
-            "score": 64.5,
-            "band": "high"
+            "score": 61.5,
+            "band": "mid"
           }
         }
       },
@@ -11301,7 +11357,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 3
             },
             "score": 50.5,
@@ -11314,10 +11370,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.0,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 3
             },
-            "score": 56.5,
+            "score": 53.5,
             "band": "low"
           }
         }
@@ -11332,7 +11388,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 1.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 2
             },
             "score": 51.0,
@@ -11345,7 +11401,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 1.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 1
             },
             "score": 48.0,
@@ -11363,11 +11419,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 4,
               "national_transport": 2.0,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 3
             },
-            "score": 64.0,
-            "band": "high"
+            "score": 61.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -11376,10 +11432,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 4,
               "national_transport": 2.0,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 4
             },
-            "score": 67.0,
+            "score": 64.0,
             "band": "high"
           }
         }
@@ -11394,7 +11450,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 2.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 4
             },
             "score": 57.5,
@@ -11407,7 +11463,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 2.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 4
             },
             "score": 57.5,
@@ -11425,7 +11481,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 4
             },
             "score": 60.0,
@@ -11438,11 +11494,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.0,
-              "affordability": 3,
+              "housing_cost": 2,
               "stock": 4
             },
-            "score": 60.0,
-            "band": "mid"
+            "score": 57.0,
+            "band": "low"
           }
         }
       },
@@ -11456,7 +11512,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 4,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 2
             },
             "score": 63.0,
@@ -11469,7 +11525,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 4,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 3
             },
             "score": 66.0,
@@ -11487,7 +11543,7 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 3.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 3
             },
             "score": 72.0,
@@ -11500,10 +11556,10 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 3.0,
-              "affordability": 3,
+              "housing_cost": 4,
               "stock": 1
             },
-            "score": 66.0,
+            "score": 69.0,
             "band": "high"
           }
         }
@@ -11518,11 +11574,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 5
             },
-            "score": 56.5,
-            "band": "low"
+            "score": 59.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -11531,11 +11587,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 5
             },
-            "score": 56.5,
-            "band": "low"
+            "score": 59.5,
+            "band": "mid"
           }
         }
       },
@@ -11549,7 +11605,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 5.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 4
             },
             "score": 64.0,
@@ -11562,10 +11618,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 5.0,
-              "affordability": 3,
+              "housing_cost": 2,
               "stock": 5
             },
-            "score": 67.0,
+            "score": 64.0,
             "band": "high"
           }
         }
@@ -11580,11 +11636,11 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 3.5,
-              "affordability": 3,
+              "housing_cost": 4,
               "stock": 3
             },
-            "score": 62.5,
-            "band": "mid"
+            "score": 65.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -11593,7 +11649,7 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 3.5,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 3
             },
             "score": 62.5,
@@ -11611,11 +11667,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
-              "affordability": 3,
+              "housing_cost": 2,
               "stock": 5
             },
-            "score": 64.0,
-            "band": "high"
+            "score": 61.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -11624,7 +11680,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 5
             },
             "score": 64.0,
@@ -11642,7 +11698,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 2
             },
             "score": 63.0,
@@ -11655,7 +11711,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 2
             },
             "score": 63.0,
@@ -11673,7 +11729,7 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 2,
               "national_transport": 3.5,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 5
             },
             "score": 61.0,
@@ -11686,7 +11742,7 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 2,
               "national_transport": 3.5,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 5
             },
             "score": 61.0,
@@ -11704,7 +11760,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 1.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 1
             },
             "score": 54.0,
@@ -11717,10 +11773,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 1.5,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 1
             },
-            "score": 54.0,
+            "score": 51.0,
             "band": "low"
           }
         }
@@ -11735,7 +11791,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 2.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 2
             },
             "score": 49.0,
@@ -11748,7 +11804,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 2.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 3
             },
             "score": 52.0,
@@ -11766,7 +11822,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 1
             },
             "score": 56.0,
@@ -11779,7 +11835,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 1
             },
             "score": 56.0,
@@ -11797,7 +11853,7 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 2.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 4
             },
             "score": 65.5,
@@ -11810,10 +11866,10 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 2.0,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 4
             },
-            "score": 59.5,
+            "score": 62.5,
             "band": "mid"
           }
         }
@@ -11828,7 +11884,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 3
             },
             "score": 54.5,
@@ -11841,7 +11897,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 3
             },
             "score": 54.5,
@@ -11859,11 +11915,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 5.0,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 4
             },
-            "score": 56.5,
-            "band": "low"
+            "score": 59.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -11872,11 +11928,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 5.0,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 4
             },
-            "score": 56.5,
-            "band": "low"
+            "score": 59.5,
+            "band": "mid"
           }
         }
       },
@@ -11890,10 +11946,10 @@ window.FLATS_DATA = {
               "condition": 5,
               "quiet": 4,
               "national_transport": 2.5,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 4
             },
-            "score": 60.5,
+            "score": 63.5,
             "band": "mid"
           },
           "rent": {
@@ -11903,11 +11959,11 @@ window.FLATS_DATA = {
               "condition": 5,
               "quiet": 4,
               "national_transport": 2.5,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 4
             },
-            "score": 60.5,
-            "band": "mid"
+            "score": 63.5,
+            "band": "high"
           }
         }
       },
@@ -11921,11 +11977,11 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 3,
+              "housing_cost": 2,
               "stock": 4
             },
-            "score": 66.5,
-            "band": "high"
+            "score": 63.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -11934,10 +11990,10 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 3,
+              "housing_cost": 2,
               "stock": 5
             },
-            "score": 69.5,
+            "score": 66.5,
             "band": "high"
           }
         }
@@ -11952,7 +12008,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 4
             },
             "score": 57.0,
@@ -11965,7 +12021,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 4
             },
             "score": 57.0,
@@ -11983,7 +12039,7 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 2.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 4
             },
             "score": 62.5,
@@ -11996,7 +12052,7 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 2.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 4
             },
             "score": 62.5,
@@ -12014,10 +12070,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 2.5,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 4
             },
-            "score": 48.5,
+            "score": 51.5,
             "band": "low"
           },
           "rent": {
@@ -12027,7 +12083,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 2.5,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": 48.5,
@@ -12045,11 +12101,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 3
             },
-            "score": 65.5,
-            "band": "high"
+            "score": 62.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -12058,10 +12114,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 4
             },
-            "score": 68.5,
+            "score": 65.5,
             "band": "high"
           }
         }
@@ -12076,11 +12132,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 3.5,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 2
             },
-            "score": 59.5,
-            "band": "mid"
+            "score": 56.5,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -12089,7 +12145,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 3.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 3
             },
             "score": 62.5,
@@ -12107,7 +12163,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 2.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 5
             },
             "score": 55.0,
@@ -12120,7 +12176,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 2.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 5
             },
             "score": 55.0,
@@ -12138,10 +12194,10 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 3,
+              "housing_cost": 2,
               "stock": 5
             },
-            "score": 77.0,
+            "score": 74.0,
             "band": "high"
           },
           "rent": {
@@ -12151,7 +12207,7 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 5
             },
             "score": 77.0,
@@ -12169,10 +12225,10 @@ window.FLATS_DATA = {
               "condition": 5,
               "quiet": 4,
               "national_transport": 3.5,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 3
             },
-            "score": 67.0,
+            "score": 70.0,
             "band": "high"
           },
           "rent": {
@@ -12182,10 +12238,10 @@ window.FLATS_DATA = {
               "condition": 5,
               "quiet": 4,
               "national_transport": 3.5,
-              "affordability": 3,
+              "housing_cost": 4,
               "stock": 3
             },
-            "score": 73.0,
+            "score": 76.0,
             "band": "high"
           }
         }
@@ -12200,7 +12256,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 1
             },
             "score": 60.0,
@@ -12213,11 +12269,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.0,
-              "affordability": 3,
+              "housing_cost": 4,
               "stock": 2
             },
-            "score": 57.0,
-            "band": "low"
+            "score": 60.0,
+            "band": "mid"
           }
         }
       },
@@ -12231,7 +12287,7 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 2
             },
             "score": 67.5,
@@ -12244,7 +12300,7 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 2
             },
             "score": 67.5,
@@ -12262,10 +12318,10 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 3
             },
-            "score": 68.0,
+            "score": 71.0,
             "band": "high"
           },
           "rent": {
@@ -12275,10 +12331,10 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 4
             },
-            "score": 71.0,
+            "score": 74.0,
             "band": "high"
           }
         }
@@ -12293,7 +12349,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 1.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 2
             },
             "score": 48.5,
@@ -12306,7 +12362,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 1.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 3
             },
             "score": 51.5,
@@ -12324,7 +12380,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 3
             },
             "score": 60.0,
@@ -12337,7 +12393,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 3
             },
             "score": 60.0,
@@ -12355,7 +12411,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 1.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 3
             },
             "score": 63.5,
@@ -12368,11 +12424,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 1.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 3
             },
             "score": 63.5,
-            "band": "mid"
+            "band": "high"
           }
         }
       },
@@ -12386,7 +12442,7 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 2.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 3
             },
             "score": 65.5,
@@ -12399,7 +12455,7 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 2.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 2
             },
             "score": 62.5,
@@ -12417,10 +12473,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 4
             },
-            "score": 60.5,
+            "score": 63.5,
             "band": "mid"
           },
           "rent": {
@@ -12430,11 +12486,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 4
             },
-            "score": 60.5,
-            "band": "mid"
+            "score": 63.5,
+            "band": "high"
           }
         }
       },
@@ -12448,10 +12504,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 3
             },
-            "score": 63.5,
+            "score": 60.5,
             "band": "mid"
           },
           "rent": {
@@ -12461,10 +12517,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 3,
+              "housing_cost": 4,
               "stock": 2
             },
-            "score": 54.5,
+            "score": 57.5,
             "band": "low"
           }
         }
@@ -12479,11 +12535,11 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 2.0,
-              "affordability": 3,
+              "housing_cost": 2,
               "stock": 4
             },
-            "score": 61.0,
-            "band": "mid"
+            "score": 58.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -12492,11 +12548,11 @@ window.FLATS_DATA = {
               "condition": 4,
               "quiet": 4,
               "national_transport": 2.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 3
             },
             "score": 58.0,
-            "band": "mid"
+            "band": "low"
           }
         }
       },
@@ -12510,10 +12566,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
-              "affordability": 3,
+              "housing_cost": 4,
               "stock": 3
             },
-            "score": 51.5,
+            "score": 54.5,
             "band": "low"
           },
           "rent": {
@@ -12523,10 +12579,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 3
             },
-            "score": 57.5,
+            "score": 54.5,
             "band": "low"
           }
         }
@@ -12541,10 +12597,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 3,
+              "housing_cost": 4,
               "stock": 3
             },
-            "score": 65.0,
+            "score": 68.0,
             "band": "high"
           },
           "rent": {
@@ -12554,7 +12610,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 3
             },
             "score": 65.0,
@@ -12572,11 +12628,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 3
             },
             "score": 59.0,
-            "band": "low"
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -12585,11 +12641,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 3
             },
             "score": 59.0,
-            "band": "mid"
+            "band": "low"
           }
         }
       },
@@ -12603,11 +12659,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 2
             },
-            "score": 66.5,
-            "band": "high"
+            "score": 63.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -12616,10 +12672,10 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.0,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 2
             },
-            "score": 66.5,
+            "score": 63.5,
             "band": "high"
           }
         }
@@ -12634,11 +12690,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 4,
               "stock": 3
             },
-            "score": 61.5,
-            "band": "mid"
+            "score": 64.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -12647,7 +12703,7 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.5,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 4
             },
             "score": 64.5,
@@ -12665,10 +12721,10 @@ window.FLATS_DATA = {
               "condition": 5,
               "quiet": 4,
               "national_transport": 4.0,
-              "affordability": 3,
+              "housing_cost": 2,
               "stock": 3
             },
-            "score": 77.0,
+            "score": 74.0,
             "band": "high"
           },
           "rent": {
@@ -12678,10 +12734,10 @@ window.FLATS_DATA = {
               "condition": 5,
               "quiet": 4,
               "national_transport": 4.0,
-              "affordability": 3,
+              "housing_cost": 2,
               "stock": 3
             },
-            "score": 77.0,
+            "score": 74.0,
             "band": "high"
           }
         }
@@ -12696,11 +12752,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 1
             },
-            "score": 59.5,
-            "band": "mid"
+            "score": 56.5,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -12709,11 +12765,11 @@ window.FLATS_DATA = {
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
-              "affordability": 3,
+              "housing_cost": 4,
               "stock": 2
             },
-            "score": 56.5,
-            "band": "low"
+            "score": 59.5,
+            "band": "mid"
           }
         }
       },
@@ -12727,7 +12783,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 5
             },
             "score": null,
@@ -12740,7 +12796,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 5
             },
             "score": null,
@@ -12758,7 +12814,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.5,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 5
             },
             "score": null,
@@ -12771,7 +12827,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.5,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 5
             },
             "score": null,
@@ -12789,7 +12845,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 2.5,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 5
             },
             "score": null,
@@ -12802,7 +12858,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 2.5,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 5
             },
             "score": null,
@@ -12820,7 +12876,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 5
             },
             "score": null,
@@ -12833,7 +12889,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 5
             },
             "score": null,
@@ -12851,7 +12907,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": null,
@@ -12864,7 +12920,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 3
             },
             "score": null,
@@ -12882,7 +12938,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 4.5,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": null,
@@ -12895,7 +12951,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 4.5,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 5
             },
             "score": null,
@@ -12913,7 +12969,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 5.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": null,
@@ -12926,7 +12982,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 5.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": null,
@@ -12944,7 +13000,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 4
             },
             "score": null,
@@ -12957,7 +13013,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": null,
@@ -12975,7 +13031,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": null,
@@ -12988,7 +13044,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 3
             },
             "score": null,
@@ -13006,7 +13062,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": null,
@@ -13019,7 +13075,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": null,
@@ -13037,7 +13093,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.5,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": null,
@@ -13050,7 +13106,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.5,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 4
             },
             "score": null,
@@ -13068,7 +13124,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 5.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": null,
@@ -13081,7 +13137,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 5.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": null,
@@ -13099,7 +13155,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.5,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": null,
@@ -13112,7 +13168,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.5,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": null,
@@ -13130,7 +13186,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
-              "affordability": 3,
+              "housing_cost": 3,
               "stock": 1
             },
             "score": null,
@@ -13143,7 +13199,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 1
             },
             "score": null,
@@ -13161,7 +13217,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 1.5,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 1
             },
             "score": null,
@@ -13174,7 +13230,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 1.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 1
             },
             "score": null,
@@ -13192,7 +13248,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 2.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 1
             },
             "score": null,
@@ -13205,7 +13261,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 2.0,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 1
             },
             "score": null,
@@ -13223,7 +13279,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 1
             },
             "score": null,
@@ -13236,7 +13292,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 1
             },
             "score": null,
@@ -13254,7 +13310,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": null,
@@ -13267,7 +13323,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 4
             },
             "score": null,
@@ -13285,7 +13341,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 2.5,
-              "affordability": 5,
+              "housing_cost": 4,
               "stock": 1
             },
             "score": null,
@@ -13298,7 +13354,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 2.5,
-              "affordability": 5,
+              "housing_cost": 5,
               "stock": 1
             },
             "score": null,
@@ -13316,7 +13372,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 1,
               "stock": 4
             },
             "score": null,
@@ -13329,7 +13385,7 @@ window.FLATS_DATA = {
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
-              "affordability": 1,
+              "housing_cost": 2,
               "stock": 4
             },
             "score": null,

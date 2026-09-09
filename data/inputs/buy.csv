@@ -1,4 +1,4 @@
-location_id,proxyMedian,transactions,affordabilityConfidence,oneBedCount,affordabilityReason
+location_id,proxyMedian,transactions,housingCostConfidence,oneBedCount,housingCostReason
 barnsley,100000,214,High,25,"Median of 214 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
 birmingham,150000,3183,High,854,"Median of 3183 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."
 blackburn,110000,141,High,8,"Median of 141 achieved standard flat/maisonette sales; this is an all-size flat proxy, not a one-bedroom estimate."

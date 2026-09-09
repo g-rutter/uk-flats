@@ -14,7 +14,8 @@ from build import compile_data, build
 from crime import compile_crime, read as read_crime
 from crime_residuals import audit as audit_residuals
 from crime_outliers import audit as audit_outliers
-from composite import ASSESSMENT_SCORES, assessment_score, compile_composite
+from composite import (ASSESSMENT_SCORES, housing_cost_scores, assessment_score,
+                       compile_composite)
 from prepare_locations import prepare
 from prepare_national_transport import prepare as prepare_national_transport
 from prepare_local_transport import score_for, weighted_quantile_cutpoints
@@ -227,6 +228,11 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(sum(bool(r['rate_per_1000']) for r in rows), location_count)
         self.assertEqual(len(compile_data(ROOT / 'data/inputs')['locations']), location_count)
         self.assertEqual(payload['composite']['weights']['safety'], 15)
+        for tenure in ('buy', 'rent'):
+            housing_cost_bands = payload['composite']['housing_cost_bands'][tenure]
+            self.assertEqual(set(housing_cost_bands), {'1', '2', '3', '4', '5'})
+            self.assertEqual(sum(band['count'] for band in housing_cost_bands.values()), location_count)
+            self.assertTrue(all(housing_cost_bands[str(score)]['count'] for score in range(1, 6)))
         self.assertTrue(any(payload['composite']['results'][location['id']]['tenures']['buy']['score'] is not None
                             for location in payload['locations']))
         for tenure in ('buy', 'rent'):
@@ -370,6 +376,17 @@ class PipelineTests(unittest.TestCase):
                 writer.writerows(rows)
             with self.assertRaisesRegex(ValueError, 'invalid assessment'):
                 compile_data(inputs)
+
+    def test_housing_cost_uses_all_quintiles_and_keeps_ties_together(self):
+        locations = [
+            {'id': str(index), 'buy': {'proxyMedian': value}}
+            for index, value in enumerate((10, 20, 30, 40, 50, 60, 70, 80, 90, 90))
+        ]
+        scores = housing_cost_scores(locations, 'buy')
+        self.assertEqual(set(scores.values()), {1, 2, 3, 4, 5})
+        self.assertEqual(scores['8'], scores['9'])
+        self.assertEqual(scores['0'], 5)
+        self.assertEqual(scores['9'], 1)
 
     def test_local_transport_uses_national_weighted_quintiles_and_complete_coverage(self):
         observations = {f'E0000000{i}': float(i * 10) for i in range(1, 6)}

@@ -198,7 +198,7 @@ Use the **raw poor-quality-housing indicator** published with the 2025 English
 Indices of Deprivation and Welsh Index of Multiple Deprivation (WIMD) 2025.
 Use the component value only; do **not** use either overall deprivation index,
 domain rank, decile, income, employment, crime, access-to-services, outdoor
-environment or affordability component.
+environment or housing-cost component.
 
 The construct is unusually well aligned to the desired criterion.  In England,
 the 2025 research report defines the indoors measure as the proportion of social

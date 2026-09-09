@@ -4,7 +4,7 @@ import math
 
 
 WEIGHTS = {
-    'affordability': 15,
+    'housing_cost': 15,
     'safety': 15,
     'local_transport': 15,
     'condition': 15,
@@ -52,15 +52,25 @@ def percentile_scores(rows, value, lower_is_better=True):
     return result
 
 
-def affordability_scores(locations, tenure):
+def housing_cost_scores(locations, tenure):
     field = 'proxyMedian' if tenure == 'buy' else 'proxyMonthly'
-    ordered = sorted((row for row in locations if known(row[tenure].get(field))),
-                     key=lambda row: row[tenure][field])
-    result, total = {}, len(ordered)
-    for index, row in enumerate(ordered):
-        # The current comparison's lower, middle and upper thirds score 5, 3 and 1.
-        result[row['id']] = 5 if index < total / 3 else 3 if index < total * 2 / 3 else 1
-    return result
+    return percentile_scores(locations, lambda row: row[tenure].get(field),
+                             lower_is_better=True)
+
+
+def housing_cost_bands(locations, tenure, scores):
+    """Describe the observed price range in each generated housing-cost quintile."""
+    field = 'proxyMedian' if tenure == 'buy' else 'proxyMonthly'
+    bands = {}
+    for score in range(5, 0, -1):
+        values = sorted(row[tenure][field] for row in locations
+                        if scores.get(row['id']) == score)
+        bands[str(score)] = {
+            'count': len(values),
+            'minimum': values[0] if values else None,
+            'maximum': values[-1] if values else None,
+        }
+    return bands
 
 
 def stock_score(count):
@@ -142,7 +152,11 @@ def compile_composite(locations, crime):
     sexual_scores = percentile_scores(safety_rows, lambda row: sexual[row['id']])
     safety = {row['id']: round((violence_scores[row['id']] + sexual_scores[row['id']]) / 2, 1)
               for row in safety_rows}
-    affordability = {tenure: affordability_scores(locations, tenure) for tenure in ('buy', 'rent')}
+    housing_cost = {tenure: housing_cost_scores(locations, tenure) for tenure in ('buy', 'rent')}
+    housing_cost_band_metadata = {
+        tenure: housing_cost_bands(locations, tenure, housing_cost[tenure])
+        for tenure in ('buy', 'rent')
+    }
     results = {}
     for row in locations:
         common = {
@@ -154,7 +168,7 @@ def compile_composite(locations, crime):
         }
         results[row['id']] = {'safety': common['safety'], 'tenures': {}}
         for tenure in ('buy', 'rent'):
-            factors = dict(common, affordability=affordability[tenure].get(row['id']),
+            factors = dict(common, housing_cost=housing_cost[tenure].get(row['id']),
                            stock=stock_score(row[tenure].get('oneBedCount')))
             results[row['id']]['tenures'][tenure] = dict(factors=factors, score=weighted_score(factors))
     score_bands = {tenure: assign_score_bands(results, tenure) for tenure in ('buy', 'rent')}
@@ -163,6 +177,7 @@ def compile_composite(locations, crime):
         'weights': WEIGHTS,
         'safety_label': 'Recorded-offence safety proxy',
         'safety_note': 'Equal-weighted quintile scores for ONS CSP violence-against-the-person and sexual-offence rates; lower recorded rates score higher. ASB is excluded pending coverage review.',
+        'housing_cost_bands': housing_cost_band_metadata,
         'score_bands': score_bands,
         'results': results,
     }

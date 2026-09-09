@@ -18,7 +18,7 @@ scores, rankings, shortlists or decisions.
 
 | Factor | Weight | Calculation |
 | --- | ---: | --- |
-| Affordability | 15 | Within each tenure, the cheapest, middle and most-expensive thirds of the current proxy distribution score 5, 3 and 1 respectively. |
+| Housing cost | 15 | Within each tenure, fresh equal quintiles of the current proxy distribution score 5, 4, 3, 2 and 1 from cheapest to most expensive. |
 | Recorded-offence safety proxy | 15 | Equal mean of fresh 1--5 quintile scores for the ONS CSP violence-against-the-person and sexual-offence rates; lower recorded rates score higher. |
 | Local public-transport connectivity | 15 | Population-weighted mean of the DfT 2025 OA `Overall (public transport)` metric within each reviewed April 2024 BUA mapping. National population-weighted England-and-Wales quintiles score 1--5; higher is better. |
 | Local condition | 15 | The explicit `assessment` field maps `highest`, `favourable` and `mixed` to 5, 4 and 2. |
@@ -30,6 +30,12 @@ The weighted score is `sum(weight * factor score / 5)`. All seven inputs must be
 known or the tenure score remains blank; missing data are never zero-filled.
 Confidence labels and buy transaction counts remain evidence context and do not
 arbitrarily change scores. The browser shows the component values and raw measures.
+Housing-cost quintiles are recalculated independently for buying and renting from
+all locations with a known proxy in the current candidate set. Equal proxy values
+receive their shared mean rank and remain in the same quintile, so bucket counts
+may differ slightly rather than assigning different scores to tied values. These
+are relative, candidate-set-dependent scores: a location's score can change when
+locations or observations change even if its own proxy does not.
 For the map only, each tenure's known scores are grouped into lowest, middle and
 highest thirds. Tied scores stay together, so groups are as even as possible
 without giving the same score different colours. This visual grouping does not
