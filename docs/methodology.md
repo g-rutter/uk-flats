@@ -28,6 +28,8 @@ scores, rankings, shortlists or decisions.
 The weighted score is `100 * sum(weight * factor score / 5) / sum(weight)`, so
 the configured weights are relative and do not need to total 100. All six inputs
 must be known or the tenure score remains blank; missing data are never zero-filled.
+With the current total relative weight of 85, a factor whose relative weight is
+15 contributes 15/85, or about 17.6%, of the composite.
 Confidence labels and buy transaction counts remain evidence context and do not
 arbitrarily change scores. The browser shows the component values and raw measures.
 Housing-cost quintiles are recalculated independently for buying and renting from

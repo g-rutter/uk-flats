@@ -1,11 +1,9 @@
 # Next work
 
-- Complete the outstanding location records:
-  - Replace the remaining reviewer rubric for condition with a suitable objective release; do not infer bands from nearby places or treat deprivation as appearance. Local transport now uses the reproducible DfT connectivity metric.
 - Audit every source, calculation and proxy for suitability, reproducibility and opportunities for more objective measures; record any resulting methodology changes and evidence limitations.
   - Is there a better measure of market thickness than rightmove listings?
   - Improve the 'recorded offenses' field. It's meant to be a measure of personal safety against crime and harassment. Continue looking for external sources of this data that are suitable, free and easy to integrate. Consider combining multiple measures, including the current police data. Consider using the 'crime' domain from the English Indices of Deprivation, which is described as, "Risk of personal and material victimisation". (Is it available for Wales?)
-  - Replace the 'local condition' field with something less intensive to obtain, objective from our point of view (including another organisation's measure), and come up with a really solid definition of what it's meant to capture. Don't fear to include dereliction, depravation in the measure. Consider the 'living environment' field from the English Indices of Deprivation, as mentioned above. Populate for all locations in a repeatable, standard way.
+  - Replace the 'local condition' field with something less intensive to obtain, objective from our point of view (including another organisation's measure), and come up with a really solid definition of what it's meant to capture. Don't hesitate to include dereliction, deprivation in the measure. It should be the pleasantness of living in an area. However, it is not a measure of safety due to crime (which has a separate field) nor cost, nor employment. Consider the 'living environment' field from the English Indices of Deprivation, as mentioned above. Populate for all locations in a repeatable, standard way.
   - What is simply being done in a stupid way - too much effort for the payoff perhaps?
 - Re-acquire and document prices and rents for all locations; decide whether reproducible portal stock snapshots are sufficiently reliable to retain as a comparison input.
 - Make end-to-end location additions and data refreshes agent-operable: document and automate the acquisition, validation, evidence, build and review workflow.

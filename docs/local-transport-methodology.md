@@ -71,7 +71,9 @@ thresholds are retained in `data/inputs/local_transport_release.csv`:
 
 A value exactly equal to a threshold enters the higher score band. The browser
 shows the raw 0–100 value and national population percentile as the primary
-evidence; the integer score is only the 15%-weighted composite input.
+evidence; the integer score is only a composite input with a relative weight of
+15. Composite weights are normalised by their total, as described in the broad
+comparison methodology.
 
 ## Reproduction and release controls
 
