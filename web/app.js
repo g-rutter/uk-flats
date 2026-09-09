@@ -5,16 +5,17 @@
   const MAP = { minLon: -6.4, maxLon: 2, minLat: 49.6, maxLat: 58.9, width: 560, height: 720 };
   const $ = id => document.getElementById(id);
   const byId = new Map(data.locations.map(x => [x.id, x]));
+  const evidenceById = new Map(data.evidence.map(x => [x.id, x]));
   const crime = new Map();
   data.crimeResearch.forEach(x => { if (!crime.has(x.location_id)) crime.set(x.location_id, {}); crime.get(x.location_id)[x.category] = x; });
   const state = { tenure: 'buy', locationId: '', country: 'all', sort: 'score', sortDirection: 'desc', selectedId: data.locations[0]?.id };
   const escape = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const known = v => v !== null && v !== undefined && v !== '';
   const show = v => known(v) ? escape(v) : 'Not available';
+  const oneDecimal = v => known(v) ? Number(v).toFixed(1) : 'Not available';
   const money = v => known(v) ? new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP', maximumFractionDigits: 0 }).format(v) : 'Not available';
   const minutes = (v, c) => known(v) ? `${v} min${known(c) ? ` · ${c} change${c === 1 ? '' : 's'}` : ''}` : 'Not available';
   const assessment = (topic, value) => ({
-    localTransport: { dense_multimodal: 'Dense multimodal', useful_bus_rail: 'Useful bus and rail', basic_bus_rail: 'Basic bus and rail' },
     quiet: { persistent_noise: 'Persistent noise exposure', mixed_exposure: 'Mixed exposure', lower_intensity: 'Lower-intensity exposure' },
     condition: { highest: 'Highest broad condition', favourable: 'Favourable broad condition', mixed: 'Mixed broad condition' }
   }[topic]?.[value] || 'Not available');
@@ -23,7 +24,7 @@
   const score = x => data.composite.results[x.id].tenures[state.tenure].score;
   const band = x => `score-${data.composite.results[x.id].tenures[state.tenure].band || 'unknown'}`;
   const rate = (x, category) => crime.get(x.id)?.[category]?.rate_per_1000;
-  const localTransportDefinition = 'This is a broad town or city judgement of bus and rail coverage. It does not assess accessibility for a specific neighbourhood, street or home.';
+  const localTransportDefinition = 'DfT modelled public-transport opportunity to reach employment, services and social engagements. The settlement value is a Census-population-weighted mean of Output Area scores. It does not measure fares, crowding, cancellations, reliability, step-free access or travel from a particular home.';
   const recentSalesDefinition = '“Recent” means completed flat and maisonette sales dated 1 July 2024 to 30 June 2026. The figure is the median across all flat sizes, not a one-bedroom estimate; recent transactions can be incomplete because registration lags.';
   const project = x => [((x.lon - MAP.minLon) / (MAP.maxLon - MAP.minLon)) * MAP.width, MAP.height - ((x.lat - MAP.minLat) / (MAP.maxLat - MAP.minLat)) * MAP.height];
   const help = (label, text = '') => `${escape(label)}${text ? ` <span class="help-wrap"><button class="help" type="button" aria-expanded="false" aria-label="Show more information about ${escape(label)}">?</button><span class="help-text" hidden>${escape(text)}</span></span>` : ''}`;
@@ -36,7 +37,7 @@
   const factors = {
     affordability: ['Affordability', 'Compared with the other locations shown; lower prices score higher.'],
     safety: ['Recorded offences', 'Compares recorded rates for two offence types across broad CSP areas. Rates can be affected by reporting, recording practice, visitors and commuters, and area boundaries; they do not describe unreported crime, personal risk, or variation between streets and times.'],
-    local_transport: ['Local transport', localTransportDefinition],
+    local_transport: ['Local public-transport connectivity', localTransportDefinition],
     condition: ['Local condition', 'Broad assessment of the town or city’s physical condition.'],
     quiet: ['Quietness', 'Broad assessment of likely noise exposure across the town or city.'],
     stock: ['One-bedroom listings', 'Rightmove headline count at the recorded snapshot; listings are not deduplicated.'],
@@ -95,7 +96,11 @@
   function sources(x) {
     const searches = data.sources.filter(s => s.location_id === x.id && isRightmoveSearch(s));
     const list = data.sources.filter(s => s.location_id === x.id && s.topic !== 'crime' && !isRightmoveSearch(s));
-    const topic = value => ({ buy: 'Buying', rent: 'Renting', market: 'Market', localTransport: 'Local transport', nationalTransport: 'Rail connections', quiet: 'Quietness', condition: 'Local condition' }[value] || value);
+    const localEvidence = evidenceById.get(x.localTransport.evidence_id);
+    if (localEvidence?.url && !list.some(source => source.url === localEvidence.url)) {
+      list.push({ topic: 'localTransport', url: localEvidence.url });
+    }
+    const topic = value => ({ buy: 'Buying', rent: 'Renting', market: 'Market', localTransport: 'Public-transport connectivity', nationalTransport: 'Rail connections', quiet: 'Quietness', condition: 'Local condition' }[value] || value);
     const label = source => {
       const url = source.url;
       if (url.includes('price-paid-data-downloads')) return 'HM Land Registry price-paid data';
@@ -105,6 +110,7 @@
       if (url.includes('property-to-rent')) return 'Rightmove one-bedroom flats to rent';
       if (url.includes('los.rightmove')) return 'Rightmove location lookup';
       if (url.includes('nationalrail.co.uk')) return 'National Rail journey planner';
+      if (url.includes('transport-connectivity-metric')) return 'DfT transport connectivity metric';
       if (url.includes('traveline.info')) return 'Traveline journey planner';
       if (url.includes('travelsouthyorkshire')) return 'Travel South Yorkshire network';
       if (url.includes('tfwm.org.uk')) return 'Transport for West Midlands network';
@@ -145,7 +151,7 @@
       ? [row('Recent sales price', money(x.buy.proxyMedian), recentSalesDefinition), row('Completed sales in sample', known(x.buy.transactions) ? `${show(x.buy.transactions)} sales` : 'Not available'), row('One-bedroom listings', known(x.buy.oneBedCount) ? `${show(x.buy.oneBedCount)} listings` : 'Not available', 'Rightmove headline count at the recorded snapshot; listings are not deduplicated.')]
       : [row('Typical one-bedroom rent', `${money(x.rent.proxyMonthly)}${known(x.rent.proxyMonthly) ? ' per month' : ''}`, 'Modelled monthly local-authority average; not an asking-rent median.'), row('One-bedroom listings', known(x.rent.oneBedCount) ? `${show(x.rent.oneBedCount)} listings` : 'Not available', 'Rightmove headline count at the recorded snapshot; listings are not deduplicated.')];
     const assessmentNote = 'Explicit broad-assessment band. The accompanying reason explains the judgement but does not determine the score.';
-    const localRows = [row('Local transport assessment', assessment('localTransport', x.localTransport.assessment), assessmentNote), row('Local transport reason', show(x.localTransport.reason), localTransportDefinition), row('Quietness assessment', assessment('quiet', x.quiet.assessment), assessmentNote), row('Quietness reason', show(x.quiet.reason)), row('Local condition assessment', assessment('condition', x.condition.assessment), assessmentNote), row('Local condition reason', show(x.condition.reason))];
+    const localRows = [row('Public-transport connectivity', known(x.localTransport.pt_connectivity_0_100) ? `${oneDecimal(x.localTransport.pt_connectivity_0_100)} out of 100` : 'Not available', localTransportDefinition), row('National population percentile', known(x.localTransport.national_percentile) ? `${oneDecimal(x.localTransport.national_percentile)}th percentile` : 'Not available', 'Compared with the Census-population-weighted distribution of all England and Wales Output Areas in the same DfT release; higher is better.'), row('Measurement area', show(x.localTransport.reason), 'A reviewed April 2024 built-up-area mapping; composite locations combine all named built-up areas using Census population weights.'), row('Source period', show(x.localTransport.source_period)), row('Quietness assessment', assessment('quiet', x.quiet.assessment), assessmentNote), row('Quietness reason', show(x.quiet.reason)), row('Local condition assessment', assessment('condition', x.condition.assessment), assessmentNote), row('Local condition reason', show(x.condition.reason))];
     $('details').innerHTML = `<p class="eyebrow">${escape(x.country)} · ${escape(x.localAuthority)}</p><h2>${escape(x.name)}</h2><div class="headline-grid"><div class="score-card ${band(x)}"><span>${state.tenure === 'buy' ? 'Buying' : 'Renting'} composite score</span><strong>${show(score(x))}<small>out of 100</small></strong></div><div><span>${state.tenure === 'buy' ? help('Recent sales price', recentSalesDefinition) : 'Typical one-bedroom rent'}</span><strong>${money(price(x))}${state.tenure === 'rent' ? '<small>per month</small>' : ''}</strong></div></div><section class="detail-section score-section"><div class="section-heading"><h3>Score components</h3><span>Each score is out of 5</span></div><div class="component-grid">${factorRows}</div></section>${section(state.tenure === 'buy' ? 'Buying evidence' : 'Renting evidence', priceRows, [['Price', factorValues.affordability], ['Listings', factorValues.stock]])}${section('Rail connections', [row('To London', minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)), row('To Birmingham', minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges))], [['Rail', factorValues.national_transport]])}${section('Recorded offences', [row('Violence against the person', `${show(offences?.violence_against_person?.rate_per_1000)} per 1,000${offences?.violence_against_person ? ` · ${escape(offences.violence_against_person.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.'), row('Sexual offences', `${show(offences?.sexual_offences?.rate_per_1000)} per 1,000${offences?.sexual_offences ? ` · ${escape(offences.sexual_offences.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.')], [['Offences', factorValues.safety]])}${section('Local picture', localRows, [['Transport', factorValues.local_transport], ['Quiet', factorValues.quiet], ['Condition', factorValues.condition]])}${sources(x)}`;
     $('details').querySelectorAll('.help').forEach(button => button.addEventListener('click', () => {
       const text = button.nextElementSibling, willOpen = text.hidden;

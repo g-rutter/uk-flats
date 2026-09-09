@@ -16,11 +16,6 @@ WEIGHTS = {
 # These are deliberately explicit editorial assessment bands.  Narrative reasons
 # are evidence context for people; they must never determine a score.
 ASSESSMENT_SCORES = {
-    'localTransport': {
-        'dense_multimodal': 5,
-        'useful_bus_rail': 4,
-        'basic_bus_rail': 3,
-    },
     'condition': {
         'highest': 5,
         'favourable': 4,
@@ -79,6 +74,11 @@ def assessment_score(topic, assessment):
     if not known(assessment):
         return None
     return ASSESSMENT_SCORES[topic][assessment]
+
+
+def supplied_score(row):
+    value = row.get('score')
+    return value if known(value) else None
 
 
 def route_score(minutes, changes):
@@ -147,7 +147,7 @@ def compile_composite(locations, crime):
     for row in locations:
         common = {
             'safety': safety.get(row['id']),
-            'local_transport': assessment_score('localTransport', row['localTransport'].get('assessment')),
+            'local_transport': supplied_score(row['localTransport']),
             'condition': assessment_score('condition', row['condition'].get('assessment')),
             'quiet': assessment_score('quiet', row['quiet'].get('assessment')),
             'national_transport': national_transport_score(row['nationalTransport']),

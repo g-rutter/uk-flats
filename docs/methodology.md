@@ -20,7 +20,7 @@ scores, rankings, shortlists or decisions.
 | --- | ---: | --- |
 | Affordability | 15 | Within each tenure, the cheapest, middle and most-expensive thirds of the current proxy distribution score 5, 3 and 1 respectively. |
 | Recorded-offence safety proxy | 15 | Equal mean of fresh 1--5 quintile scores for the ONS CSP violence-against-the-person and sexual-offence rates; lower recorded rates score higher. |
-| Local transport | 15 | The explicit `assessment` field maps `dense_multimodal`, `useful_bus_rail` and `basic_bus_rail` to 5, 4 and 3. |
+| Local public-transport connectivity | 15 | Population-weighted mean of the DfT 2025 OA `Overall (public transport)` metric within each reviewed April 2024 BUA mapping. National population-weighted England-and-Wales quintiles score 1--5; higher is better. |
 | Local condition | 15 | The explicit `assessment` field maps `highest`, `favourable` and `mixed` to 5, 4 and 2. |
 | Quiet | 15 | The explicit `assessment` field maps `persistent_noise`, `mixed_exposure` and `lower_intensity` to 2, 3 and 4. |
 | One-bed stock | 15 | Current tenure-specific Rightmove headline counts of under 10, 10--24, 25--74, 75--249 and 250+ score 1--5. |
@@ -35,6 +35,13 @@ highest thirds. Tied scores stay together, so groups are as even as possible
 without giving the same score different colours. This visual grouping does not
 alter the score or table order. The inclusive score bounds for each group are
 generated with the screen and displayed in the map key.
+
+The local public-transport score uses a fixed national reference for the DfT
+2025 release, not candidate ranks. Population-weighted OA cut-points are
+53.70, 64.39, 71.48 and 79.48; equality enters the higher band. The browser
+shows each settlement's 0--100 population-weighted value and national population
+percentile. See the [full local transport methodology](local-transport-methodology.md)
+for source fields, BUA mappings, weights, coverage checks and limitations.
 
 The safety proxy is a limited comparison of recorded offences, not victimisation
 risk, personal safety, or a neighbourhood measure. It excludes ASB: the Police.uk
@@ -51,8 +58,16 @@ dated archive and geography/coverage review supports comparable CSP rates.
   Their exact retrieval and resolver evidence vary by observation; consult the
   release audit and evidence catalogue. Bournemouth–Poole sums two named portal
   regions and may not exactly match the broad comparison geography.
-- Transport: rounded historical representative rail times, plus qualitative local
-  network assessments. These are not live timetables or accessibility measurements.
+- Local public-transport connectivity: DfT's modelled 0--100 scheduled opportunity
+  to reach employment, services and social engagements, aggregated from 2021 OAs
+  to reviewed April 2024 built-up areas using Census 2021 population. The retained
+  national thresholds are 53.70, 64.39, 71.48 and 79.48; equality enters the
+  higher band. The browser shows the one-decimal raw value and population-weighted
+  national percentile. This is not a measure of fares, crowding, reliability,
+  accessibility or travel from a particular home.
+- National transport: dated representative station-to-station journeys to London
+  and Birmingham. This deliberately answers a different question and is scored
+  independently of local connectivity.
 - Quiet/condition: inherited coarse judgements with an explicit assessment band,
   reason, evidence IDs and `broad-assessment-v1` method version. The reason is
   explanatory evidence and never controls the score. These are not measured
@@ -71,6 +86,9 @@ See the evidence CSV for recorded periods and limitations. Geographies and perio
 remain explicit rather than implicitly harmonised. This attempt reproducibly
 transforms surviving summaries; original-source acquisition is still needed for
 full source-to-output reproducibility.
+
+See [local public-transport methodology](local-transport-methodology.md) for the
+retained release, geography review, aggregation, thresholds and refresh controls.
 
 ## Crime research
 

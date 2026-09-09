@@ -1,0 +1,2 @@
+release_id,method_version,metric_field,population_vintage,geography_vintage,national_population,national_oa_count,minimum,q20,q40,q60,q80,maximum,boundary_rule
+dft-connectivity-2025,dft-connectivity-bua24-v1,Overall (public transport),Census 2021,April 2024,59597747,188880,0.00,53.70,64.39,71.48,79.48,100.00,A value equal to a threshold enters the higher score band.

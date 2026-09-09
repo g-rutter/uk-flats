@@ -14,13 +14,17 @@ from composite import ASSESSMENT_SCORES, compile_composite
 
 ROOT = Path(__file__).resolve().parents[1]
 GROUPS = ('buy', 'rent', 'market', 'localTransport', 'nationalTransport', 'quiet', 'condition')
-NUMERIC = {'lat', 'lon', 'proxyMedian', 'transactions', 'proxyMonthly', 'oneBedCount', 'londonMinutes', 'londonChanges', 'birminghamMinutes', 'birminghamChanges'}
+INTEGER_NUMERIC = {'proxyMedian', 'transactions', 'proxyMonthly', 'oneBedCount', 'londonMinutes', 'londonChanges', 'birminghamMinutes', 'birminghamChanges', 'score', 'population_covered', 'population_expected'}
+FLOAT_NUMERIC = {'lat', 'lon', 'pt_connectivity_0_100', 'national_percentile'}
 REQUIRED_COLUMNS = {
     'locations.csv': {'id', 'name', 'country', 'localAuthority', 'lat', 'lon'},
     'buy.csv': {'location_id', 'proxyMedian', 'transactions', 'affordabilityConfidence', 'oneBedCount', 'affordabilityReason'},
     'rent.csv': {'location_id', 'proxyMonthly', 'affordabilityConfidence', 'oneBedCount', 'affordabilityReason'},
     'market.csv': {'location_id', 'reason'},
-    'localTransport.csv': {'location_id', 'assessment', 'confidence', 'evidence_ids', 'method_version', 'reason'},
+    'localTransport.csv': {'location_id', 'pt_connectivity_0_100', 'national_percentile', 'score', 'source_period', 'retrieval_date', 'evidence_id', 'geography_code', 'geography_vintage', 'population_covered', 'population_expected', 'method_version', 'confidence', 'reason'},
+    'location_geographies.csv': {'location_id', 'geography_type', 'geography_name', 'boundary_vintage', 'mapping_basis', 'confidence', 'reason'},
+    'location_geography_components.csv': {'location_id', 'geography_code', 'geography_name'},
+    'local_transport_release.csv': {'release_id', 'method_version', 'metric_field', 'population_vintage', 'geography_vintage', 'national_population', 'national_oa_count', 'minimum', 'q20', 'q40', 'q60', 'q80', 'maximum', 'boundary_rule'},
     'nationalTransport.csv': {'location_id', 'londonMinutes', 'londonChanges', 'birminghamMinutes', 'birminghamChanges', 'confidence', 'reason'},
     'transport_stations.csv': {'location_id', 'station_crs', 'station_name', 'selection_reason', 'confidence', 'evidence_ids'},
     'transport_route_observations.csv': {'location_id', 'destination_id', 'origin_crs', 'destination_crs', 'measurement_date', 'selection_window_start_local', 'selection_window_end_local', 'planner_search_times', 'query_timestamp_local', 'selected_departure_local', 'selected_arrival_local', 'elapsed_minutes', 'changes', 'frequency_window_start_local', 'frequency_window_end_local', 'usable_departures_in_window', 'source_url', 'raw_capture_path', 'retrieval_timestamp', 'confidence', 'evidence_id', 'reason'},
@@ -29,7 +33,7 @@ REQUIRED_COLUMNS = {
     'sources.csv': {'location_id', 'topic', 'url'},
     'evidence.csv': {'id', 'workstream', 'title', 'publisher', 'url', 'dataPeriod', 'retrievalDate', 'geography', 'coverage', 'limitations'},
 }
-ASSESSMENT_TOPICS = ('localTransport', 'condition', 'quiet')
+ASSESSMENT_TOPICS = ('condition', 'quiet')
 
 
 def read(path):
@@ -46,7 +50,7 @@ def read(path):
         if None in row or None in row.values():
             raise ValueError(f'{path}: malformed CSV row')
         for key, value in row.items():
-            if key in NUMERIC:
+            if key in INTEGER_NUMERIC | FLOAT_NUMERIC:
                 if not value:
                     row[key] = None
                     continue
@@ -54,9 +58,9 @@ def read(path):
                 import math
                 if not math.isfinite(number) or (key not in ('lat', 'lon') and number < 0):
                     raise ValueError(f'{path}: invalid {key}: {value}')
-                if key not in ('lat', 'lon') and not number.is_integer():
+                if key in INTEGER_NUMERIC and not number.is_integer():
                     raise ValueError(f'{path}: expected whole number for {key}')
-                row[key] = number if key in ('lat', 'lon') else int(number)
+                row[key] = int(number) if key in INTEGER_NUMERIC else number
     return rows
 
 
@@ -94,6 +98,39 @@ def compile_data(inputs):
     evidence_ids = {r['id'] for r in evidence}
     if len(evidence_ids) != len(evidence):
         raise ValueError('Duplicate evidence id')
+    releases = read(inputs / 'local_transport_release.csv')
+    if len(releases) != 1:
+        raise ValueError('local transport requires exactly one release-method row')
+    release = releases[0]
+    cutpoints = [float(release[key]) for key in ('q20', 'q40', 'q60', 'q80')]
+    if cutpoints != sorted(cutpoints) or release['boundary_rule'] != 'A value equal to a threshold enters the higher score band.':
+        raise ValueError('local transport release has invalid thresholds or boundary rule')
+    mappings = read(inputs / 'location_geographies.csv')
+    mapped_ids = [row['location_id'] for row in mappings]
+    if len(mapped_ids) != len(set(mapped_ids)) or not set(mapped_ids) <= set(by_id):
+        raise ValueError('location geographies contain duplicate or unknown locations')
+    components = read(inputs / 'location_geography_components.csv')
+    component_ids = {row['location_id'] for row in components}
+    if component_ids != set(mapped_ids) or any(row['location_id'] not in by_id for row in components):
+        raise ValueError('location geography components must cover every reviewed mapping')
+    for location in locations:
+        row = location['localTransport']
+        if not row:
+            continue
+        if location['id'] not in set(mapped_ids):
+            raise ValueError(f'localTransport: missing reviewed geography for {location["id"]}')
+        value, percentile, score = row['pt_connectivity_0_100'], row['national_percentile'], row['score']
+        if not 0 <= value <= 100 or not 0 <= percentile <= 100 or score not in range(1, 6):
+            raise ValueError(f'localTransport: invalid metric or score for {location["id"]}')
+        expected_score = 1 + sum(value >= threshold for threshold in cutpoints)
+        if score != expected_score:
+            raise ValueError(f'localTransport: score does not match national thresholds for {location["id"]}')
+        if row['population_covered'] != row['population_expected'] or row['population_expected'] <= 0:
+            raise ValueError(f'localTransport: incomplete population coverage for {location["id"]}')
+        if row['evidence_id'] not in evidence_ids or row['method_version'] != release['method_version']:
+            raise ValueError(f'localTransport: invalid evidence or method version for {location["id"]}')
+        if row['confidence'] not in ('High', 'Medium', 'Low') or not row['reason']:
+            raise ValueError(f'localTransport: incomplete evidence context for {location["id"]}')
     for filename in ('transport_stations.csv', 'transport_route_observations.csv'):
         seen = set()
         for row in read(inputs / filename):

@@ -17,6 +17,7 @@ from crime_outliers import audit as audit_outliers
 from composite import ASSESSMENT_SCORES, assessment_score, compile_composite
 from prepare_locations import prepare
 from prepare_national_transport import prepare as prepare_national_transport
+from prepare_local_transport import score_for, weighted_quantile_cutpoints
 from create_national_transport_queue import create_queue
 from collect_national_transport_ui import expand_details_code, visible_query
 from collect_national_transport_http import REQUEST_HEADERS, request_body
@@ -335,9 +336,6 @@ class PipelineTests(unittest.TestCase):
                 compile_data(inputs)
 
     def test_explicit_assessments_are_validated_and_reasons_do_not_score(self):
-        self.assertEqual(assessment_score('localTransport', 'dense_multimodal'), 5)
-        self.assertEqual(assessment_score('localTransport', 'useful_bus_rail'), 4)
-        self.assertEqual(assessment_score('localTransport', 'basic_bus_rail'), 3)
         self.assertEqual(assessment_score('condition', 'highest'), 5)
         self.assertEqual(assessment_score('condition', 'favourable'), 4)
         self.assertEqual(assessment_score('condition', 'mixed'), 2)
@@ -345,7 +343,7 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(assessment_score('quiet', 'mixed_exposure'), 3)
         self.assertEqual(assessment_score('quiet', 'lower_intensity'), 4)
         self.assertIsNone(assessment_score('quiet', ''))
-        self.assertEqual(set(ASSESSMENT_SCORES), {'localTransport', 'condition', 'quiet'})
+        self.assertEqual(set(ASSESSMENT_SCORES), {'condition', 'quiet'})
         baseline_data = compile_data(ROOT / 'data/inputs')
         baseline_crime = compile_crime(ROOT / 'data/inputs', baseline_data['locations'], baseline_data['evidence'])
         baseline_score = compile_composite(baseline_data['locations'], baseline_crime)['results']['barnsley']['tenures']['buy']['score']
@@ -371,6 +369,35 @@ class PipelineTests(unittest.TestCase):
                 writer.writeheader()
                 writer.writerows(rows)
             with self.assertRaisesRegex(ValueError, 'invalid assessment'):
+                compile_data(inputs)
+
+    def test_local_transport_uses_national_weighted_quintiles_and_complete_coverage(self):
+        observations = {f'E0000000{i}': float(i * 10) for i in range(1, 6)}
+        populations = {code: 1 for code in observations}
+        cutpoints, pairs, total = weighted_quantile_cutpoints(observations, populations)
+        self.assertEqual(cutpoints, [10.0, 20.0, 30.0, 40.0])
+        self.assertEqual((len(pairs), total), (5, 5))
+        self.assertEqual(score_for(9.9, cutpoints), 1)
+        self.assertEqual(score_for(10.0, cutpoints), 2)  # Equality enters the better band.
+        data = compile_data(ROOT / 'data/inputs')
+        transport = [row['localTransport'] for row in data['locations']]
+        self.assertTrue(all(row['population_covered'] == row['population_expected'] for row in transport))
+        self.assertEqual({row['score'] for row in transport}, {2, 3, 4, 5})
+        self.assertTrue(all('assessment' not in row for row in transport))
+
+    def test_local_transport_rejects_partial_population_coverage(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            inputs = Path(tmp) / 'inputs'
+            shutil.copytree(ROOT / 'data/inputs', inputs)
+            path = inputs / 'localTransport.csv'
+            with path.open(newline='') as source:
+                rows = list(csv.DictReader(source))
+            rows[0]['population_covered'] = str(int(rows[0]['population_expected']) - 1)
+            with path.open('w', newline='') as target:
+                writer = csv.DictWriter(target, fieldnames=rows[0])
+                writer.writeheader()
+                writer.writerows(rows)
+            with self.assertRaisesRegex(ValueError, 'incomplete population coverage'):
                 compile_data(inputs)
 
     def test_original_artifact_hashes(self):

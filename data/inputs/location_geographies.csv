@@ -1,0 +1,84 @@
+location_id,geography_type,geography_name,boundary_vintage,mapping_basis,confidence,reason
+barnsley,bua,Barnsley,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+birmingham,bua,Birmingham,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+blackburn,bua,Blackburn (Blackburn with Darwen),April 2024,reviewed_official_name,High,Reviewed official BUA name corresponds to the screen location Blackburn.
+blackpool,bua,Blackpool,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+bolton,bua,Bolton (Bolton),April 2024,reviewed_official_name,High,Reviewed official BUA name corresponds to the screen location Bolton.
+bradford,bua,Bradford,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+burnley,bua,Burnley,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+burton-on-trent,bua,Burton upon Trent,April 2024,reviewed_official_name,High,Reviewed official BUA name corresponds to the screen location Burton-on-Trent.
+cardiff,bua,Cardiff,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+chester,bua,Chester,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+chesterfield,bua,Chesterfield,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+coventry,bua,Coventry,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+darlington,bua,Darlington,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+derby,bua,Derby,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+doncaster,bua,Doncaster,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+gateshead,bua,Gateshead,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+gloucester,bua,Gloucester,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+halifax,bua,Halifax,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+hartlepool,bua,Hartlepool,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+huddersfield,bua,Huddersfield,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+hull-kingston-upon-hull,bua,Kingston upon Hull,April 2024,reviewed_official_name,High,Reviewed official BUA name corresponds to the screen location Hull (Kingston upon Hull).
+ipswich,bua,Ipswich,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+kettering,bua,Kettering,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+lancaster,bua,Lancaster,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+leeds,bua,Leeds (Leeds),April 2024,reviewed_official_name,High,Reviewed official BUA name corresponds to the screen location Leeds.
+leicester,bua,Leicester,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+lincoln,bua,Lincoln,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+liverpool,bua,Liverpool,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+loughborough,bua,Loughborough,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+manchester,bua,Manchester,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+merthyr-tydfil,bua,Merthyr Tydfil,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+middlesbrough,bua,Middlesbrough,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+neath,bua,Neath,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+newcastle-upon-tyne,bua,Newcastle upon Tyne,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+newport,bua,Newport (Newport),April 2024,reviewed_official_name,High,Reviewed official BUA name corresponds to the screen location Newport.
+northampton,bua,Northampton,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+norwich,bua,Norwich,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+nottingham,bua,Nottingham,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+peterborough,bua,Peterborough,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+plymouth,bua,Plymouth,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+portsmouth,bua,Portsmouth,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+preston,bua,Preston (Preston),April 2024,reviewed_official_name,High,Reviewed official BUA name corresponds to the screen location Preston.
+rotherham,bua,Rotherham,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+salford,bua,Salford,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+sheffield,bua,Sheffield,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+shrewsbury,bua,Shrewsbury,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+st-helens,bua,St Helens (St. Helens),April 2024,reviewed_official_name,High,Reviewed official BUA name corresponds to the screen location St Helens.
+stafford,bua,Stafford,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+stockport,bua,Stockport,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+stockton-on-tees,bua,Stockton-on-Tees,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+stoke-on-trent,bua,Stoke-on-Trent,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+sunderland,bua,Sunderland,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+swansea,bua,Swansea,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+swindon,bua,Swindon (Swindon),April 2024,reviewed_official_name,High,Reviewed official BUA name corresponds to the screen location Swindon.
+telford,bua,Telford,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+torbay,bua,Torquay + Paignton + Brixham,April 2024,reviewed_named_bua_composite,High,"Reviewed composite represents Torbay using the Torquay, Paignton and Brixham BUAs."
+wakefield,bua,Wakefield,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+walsall,bua,Walsall,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+warrington,bua,Warrington,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+wigan,bua,Wigan,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+wolverhampton,bua,Wolverhampton,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+worcester,bua,Worcester,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+wrexham,bua,Wrexham,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+bristol,bua,Bristol,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+southampton,bua,Southampton,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+bournemouth-poole,bua,Bournemouth + Poole,April 2024,reviewed_named_bua_composite,High,Reviewed composite represents the named two-settlement location using the Bournemouth and Poole BUAs.
+brighton-hove,bua,Brighton and Hove,April 2024,reviewed_official_name,High,Reviewed official BUA name corresponds to the screen location Brighton & Hove.
+exeter,bua,Exeter,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+reading,bua,Reading,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+milton-keynes,bua,Milton Keynes,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+luton,bua,Luton,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+southend-on-sea,bua,Southend-on-Sea,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+cambridge,bua,Cambridge (Cambridge),April 2024,reviewed_official_name,High,Reviewed official BUA name corresponds to the screen location Cambridge.
+colchester,bua,Colchester,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+oxford,bua,Oxford,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+bath,bua,Bath,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+bridgend,bua,Bridgend,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+llanelli,bua,Llanelli,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+bangor,bua,Bangor,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+rhyl,bua,Rhyl,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+york,bua,York,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+durham,bua,Durham,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.
+cheltenham,bua,Cheltenham,April 2024,reviewed_named_settlement,High,Reviewed official BUA name corresponds directly to the broad screen location.

@@ -34,7 +34,10 @@ signed decimal degrees. Original camelCase names are retained for traceability.
 | buy.csv | `location_id`; proxyMedian (GBP), transactions, oneBedCount, affordabilityConfidence/Reason | JS buy; AFF-BUY-PPD-2024-26; counts use MT-RM-SEARCH-20260905 |
 | rent.csv | `location_id`; proxyMonthly (GBP/month), oneBedCount, affordabilityConfidence/Reason | JS rent; AFF-RENT-PIPR-2026-07; counts use MT-RM-SEARCH-20260905 |
 | market.csv | `location_id`; reason | JS market; MT-RM-SEARCH-20260905 / MT-RM-LOS-20260905 |
-| localTransport.csv | `location_id`; explicit assessment, confidence, evidence IDs, method version and reason | Current broad assessment; the band drives the score while reason is explanatory context |
+| localTransport.csv | `location_id`; DfT 0--100 connectivity, national population percentile, score, source period/date/evidence, BUA geography, covered/expected population, method, confidence and reason | Reproducible DfT 2025 OA metric aggregated to reviewed BUAs |
+| location_geographies.csv | `location_id`; reviewed BUA mapping type/name/vintage, basis, confidence and reason | One mapping decision for every screen location |
+| location_geography_components.csv | `location_id`, BUA code and name | One row per component; makes Bournemouth--Poole and Torbay composites explicit |
+| local_transport_release.csv | release/method IDs, exact source field, population/geography vintages, national population/OA count, range, quintile thresholds and boundary rule | Versioned national reference distribution for local transport |
 | nationalTransport.csv | `location_id`; londonMinutes/Changes, birminghamMinutes/Changes, confidence and reason | JS nationalTransport; TR01 and per-location transport links |
 | transport_stations.csv | `location_id`; reviewed origin CRS, name, rationale, confidence and evidence IDs | National-transport acquisition workstream; contains reviewed mappings for all 83 screen locations |
 | transport_route_observations.csv | one review-only, manually transcribed route observation per location/destination, with planner query, timed itinerary and capture reference | National-transport acquisition workstream; not a canonical replacement until a complete release is approved |
@@ -42,13 +45,15 @@ signed decimal degrees. Original camelCase names are retained for traceability.
 | sources.csv | `location_id`, topic, url; multiple rows per location/topic | JS sources; original links, including archived crime context |
 | evidence.csv | `id`; workstream, title, publisher, url, dataPeriod, retrievalDate, geography, coverage, limitations | JS evidence; inherited source-level metadata |
 
-The topic-to-evidence mapping above documents the inherited common periods. Exact
-links by location live in sources.csv. For local transport, quietness and
-condition, `evidence_ids` is a semicolon-separated list of evidence-catalogue
-IDs and `method_version` identifies the assessment rubric. `assessment` is a
-validated enum and is the only input to the associated composite factor; reasons
-are never parsed to derive a score. These are source references rather than
-proof of a row-level observation; some point to general homepages or planners.
+The topic-to-evidence mapping above documents the inherited common periods. Most
+visitor links by location live in sources.csv; local transport resolves its
+shared DfT link through the row's `evidence_id`. For quietness and condition,
+`evidence_ids` is a semicolon-separated list of evidence-catalogue IDs and
+`method_version` identifies the assessment rubric; the validated `assessment`
+enum alone controls those scores. Local transport no longer uses an assessment
+enum: its retained integer score must match the versioned national quintile
+thresholds, while its reason remains explanatory. Reasons are never parsed to
+derive any score.
 Crime references remain for provenance but are hidden from the active browser view.
 
 Initial inputs remove `safety` and fields containing score, unknowns, weakness or
@@ -60,7 +65,10 @@ archive extraction never overwrites them.
 `build.py` joins topic rows to identities by ID; missing topic rows become unknown.
 It writes a flat dotted-column broad_screen.csv and the browser's JS data object.
 It validates unique identities, topic foreign keys, duplicate topic rows, numeric
-values and source URL schemes. It does not validate upstream statistical truth.
+values and source URL schemes. For local transport it additionally validates
+0--100/percentile bounds, 1--5 threshold agreement, evidence and method IDs,
+complete positive population coverage, and complete reviewed geography mappings.
+It does not validate upstream statistical truth.
 No row count is hard-coded. Generation contains no clock timestamps or network calls.
 
 For future acquisitions, store dated raw snapshots with source URL/query, retrieval
@@ -74,6 +82,14 @@ foreign keys and duplicate keys by `build.py`, then validated in full against a
 hashed raw release by `prepare_national_transport.py`. The preparer produces
 staging output only; it cannot silently replace the historical
 `nationalTransport.csv`. See [national transport methodology](national-transport-methodology.md).
+
+The local-transport workstream is fully source-to-output reproducible.
+`prepare_local_transport.py` verifies the dated release manifest and streams the
+DfT ODS, selects only `Overall (public transport)`, joins the official 2021-OA to
+April-2024-BUA best-fit lookup, weights by Census 2021 TS001 usual residents, and
+writes a full review table plus the canonical input. The score uses national
+population-weighted thresholds stored in `local_transport_release.csv`, not the
+candidate distribution. See [local transport methodology](local-transport-methodology.md).
 
 ## Release controls
 

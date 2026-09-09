@@ -24,7 +24,7 @@ def metric_present(topic, row):
         'buy': ('proxyMedian', 'transactions', 'oneBedCount'),
         'rent': ('proxyMonthly', 'oneBedCount'),
         'market': ('reason',),
-        'localTransport': ('assessment',),
+        'localTransport': ('pt_connectivity_0_100', 'score'),
         'nationalTransport': ('londonMinutes', 'birminghamMinutes'),
         'quiet': ('assessment',),
         'condition': ('assessment',),
@@ -77,6 +77,19 @@ def audit(inputs):
                         status = 'review-required' if present else 'missing'
                         reason = ('Imported baseline value has no retained row-level raw artifact'
                                   if present else 'No observation supplied')
+                elif topic == 'localTransport' and present:
+                    from release_manifest import load
+                    release = Path(inputs).parent / 'raw/releases/2026-09-09-local-transport'
+                    try:
+                        manifest = load(release)
+                        artifact_hash = manifest['connectivity_metrics_2025.ods']['sha256']
+                        status = 'ready'
+                        period = row['source_period']
+                        geography = row['geography_code']
+                        reason = ''
+                    except (OSError, ValueError, KeyError):
+                        status = 'review-required'
+                        reason = 'Canonical observation does not match a complete hash-verified local-transport release'
                 else:
                     # The current non-crime dataset is explicitly an imported baseline;
                     # it cannot acquire a raw-artifact claim merely by having a URL.

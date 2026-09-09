@@ -25,11 +25,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 25 sale and 21 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
+        "pt_connectivity_0_100": 70.1967,
+        "national_percentile": 56.3,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008268",
+        "geography_vintage": "April 2024",
+        "population_covered": 71394,
+        "population_expected": 71394,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "reason": "Population-weighted mean across Barnsley; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 155,
@@ -78,11 +86,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 854 sale and 1257 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "dense_multimodal",
+        "pt_connectivity_0_100": 78.2825,
+        "national_percentile": 77.5,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63010038",
+        "geography_vintage": "April 2024",
+        "population_covered": 1119786,
+        "population_expected": 1119786,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A dense multimodal network"
+        "reason": "Population-weighted mean across Birmingham; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 79,
@@ -131,11 +147,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 8 sale and 2 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "pt_connectivity_0_100": 70.4066,
+        "national_percentile": 56.9,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007969",
+        "geography_vintage": "April 2024",
+        "population_covered": 124958,
+        "population_expected": 124958,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Blackburn (Blackburn with Darwen); Reviewed official BUA name corresponds to the screen location Blackburn."
       },
       "nationalTransport": {
         "londonMinutes": 170,
@@ -184,11 +208,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 77 sale and 75 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 71.0089,
+        "national_percentile": 58.6,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007890",
+        "geography_vintage": "April 2024",
+        "population_covered": 149087,
+        "population_expected": 149087,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Blackpool; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 167,
@@ -237,11 +269,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 64 sale and 78 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 73.7334,
+        "national_percentile": 66.3,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008201",
+        "geography_vintage": "April 2024",
+        "population_covered": 184618,
+        "population_expected": 184618,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Bolton (Bolton); Reviewed official BUA name corresponds to the screen location Bolton."
       },
       "nationalTransport": {
         "londonMinutes": 160,
@@ -290,11 +330,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 76 sale and 91 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 74.4904,
+        "national_percentile": 68.3,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007920",
+        "geography_vintage": "April 2024",
+        "population_covered": 333968,
+        "population_expected": 333968,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Bradford; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 165,
@@ -343,11 +391,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 5 sale and 22 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "pt_connectivity_0_100": 67.933,
+        "national_percentile": 49.7,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007907",
+        "geography_vintage": "April 2024",
+        "population_covered": 78266,
+        "population_expected": 78266,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Burnley; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 189,
@@ -396,11 +452,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 26 sale and 34 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "pt_connectivity_0_100": 65.8031,
+        "national_percentile": 43.7,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63009360",
+        "geography_vintage": "April 2024",
+        "population_covered": 76031,
+        "population_expected": 76031,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Burton upon Trent; Reviewed official BUA name corresponds to the screen location Burton-on-Trent."
       },
       "nationalTransport": {
         "londonMinutes": 98,
@@ -449,11 +513,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 259 sale and 468 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "dense_multimodal",
+        "pt_connectivity_0_100": 72.6614,
+        "national_percentile": 63.3,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "W45001208",
+        "geography_vintage": "April 2024",
+        "population_covered": 347880,
+        "population_expected": 347880,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A dense multimodal network"
+        "reason": "Population-weighted mean across Cardiff; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 112,
@@ -502,11 +574,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 43 sale and 54 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 69.1913,
+        "national_percentile": 53.3,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "K08000011",
+        "geography_vintage": "April 2024",
+        "population_covered": 92756,
+        "population_expected": 92756,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Chester; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 123,
@@ -555,11 +635,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 14 sale and 31 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "pt_connectivity_0_100": 67.8619,
+        "national_percentile": 49.5,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008717",
+        "geography_vintage": "April 2024",
+        "population_covered": 76394,
+        "population_expected": 76394,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Chesterfield; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 112,
@@ -608,11 +696,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 88 sale and 184 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 72.8496,
+        "national_percentile": 63.8,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63010120",
+        "geography_vintage": "April 2024",
+        "population_covered": 343623,
+        "population_expected": 343623,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Coventry; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 56,
@@ -661,11 +757,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 23 sale and 24 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 68.5549,
+        "national_percentile": 51.5,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007428",
+        "geography_vintage": "April 2024",
+        "population_covered": 93058,
+        "population_expected": 93058,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Darlington; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 152,
@@ -714,11 +818,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 73 sale and 214 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 71.1,
+        "national_percentile": 58.9,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63009183",
+        "geography_vintage": "April 2024",
+        "population_covered": 275561,
+        "population_expected": 275561,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Derby; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 88,
@@ -767,11 +879,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 25 sale and 27 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 69.2187,
+        "national_percentile": 53.4,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008314",
+        "geography_vintage": "April 2024",
+        "population_covered": 87094,
+        "population_expected": 87094,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Doncaster; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 92,
@@ -820,11 +940,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 32 sale and 27 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "dense_multimodal",
+        "pt_connectivity_0_100": 77.1068,
+        "national_percentile": 74.8,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007200",
+        "geography_vintage": "April 2024",
+        "population_covered": 114825,
+        "population_expected": 114825,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A dense multimodal network"
+        "reason": "Population-weighted mean across Gateshead; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 192,
@@ -873,11 +1001,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 74 sale and 65 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 69.5581,
+        "national_percentile": 54.4,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63011389",
+        "geography_vintage": "April 2024",
+        "population_covered": 118562,
+        "population_expected": 118562,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Gloucester; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 100,
@@ -926,11 +1062,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 34 sale and 49 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 68.8676,
+        "national_percentile": 52.4,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007966",
+        "geography_vintage": "April 2024",
+        "population_covered": 89394,
+        "population_expected": 89394,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Halifax; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 172,
@@ -979,11 +1123,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 16 sale and 9 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "pt_connectivity_0_100": 64.6455,
+        "national_percentile": 40.6,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007337",
+        "geography_vintage": "April 2024",
+        "population_covered": 88001,
+        "population_expected": 88001,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Hartlepool; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 188,
@@ -1032,11 +1184,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 33 sale and 91 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 70.2064,
+        "national_percentile": 56.3,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008114",
+        "geography_vintage": "April 2024",
+        "population_covered": 140930,
+        "population_expected": 140930,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Huddersfield; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 160,
@@ -1085,11 +1245,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 92 sale and 128 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 70.925,
+        "national_percentile": 58.4,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007930",
+        "geography_vintage": "April 2024",
+        "population_covered": 270816,
+        "population_expected": 270816,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Kingston upon Hull; Reviewed official BUA name corresponds to the screen location Hull (Kingston upon Hull)."
       },
       "nationalTransport": {
         "londonMinutes": 164,
@@ -1138,11 +1306,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 117 sale and 80 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 68.9624,
+        "national_percentile": 52.7,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63010852",
+        "geography_vintage": "April 2024",
+        "population_covered": 151566,
+        "population_expected": 151566,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Ipswich; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 66,
@@ -1191,11 +1367,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 15 sale and 30 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "pt_connectivity_0_100": 66.2086,
+        "national_percentile": 44.8,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63010129",
+        "geography_vintage": "April 2024",
+        "population_covered": 63149,
+        "population_expected": 63149,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Kettering; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 47,
@@ -1244,11 +1428,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 26 sale and 9 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 71.2566,
+        "national_percentile": 59.3,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007656",
+        "geography_vintage": "April 2024",
+        "population_covered": 52646,
+        "population_expected": 52646,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Lancaster; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 151,
@@ -1297,11 +1489,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 453 sale and 627 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "dense_multimodal",
+        "pt_connectivity_0_100": 76.3068,
+        "national_percentile": 72.9,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007883",
+        "geography_vintage": "April 2024",
+        "population_covered": 536262,
+        "population_expected": 536262,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A dense multimodal network"
+        "reason": "Population-weighted mean across Leeds (Leeds); Reviewed official BUA name corresponds to the screen location Leeds."
       },
       "nationalTransport": {
         "londonMinutes": 132,
@@ -1350,11 +1550,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 190 sale and 386 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 74.3817,
+        "national_percentile": 68.0,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63009743",
+        "geography_vintage": "April 2024",
+        "population_covered": 406331,
+        "population_expected": 406331,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Leicester; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 63,
@@ -1403,11 +1611,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 47 sale and 68 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "pt_connectivity_0_100": 66.3068,
+        "national_percentile": 45.1,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008729",
+        "geography_vintage": "April 2024",
+        "population_covered": 104553,
+        "population_expected": 104553,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Lincoln; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 116,
@@ -1456,11 +1672,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 965 sale and 347 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "dense_multimodal",
+        "pt_connectivity_0_100": 78.6161,
+        "national_percentile": 78.2,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008477",
+        "geography_vintage": "April 2024",
+        "population_covered": 506768,
+        "population_expected": 506768,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A dense multimodal network"
+        "reason": "Population-weighted mean across Liverpool; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 140,
@@ -1509,11 +1733,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 17 sale and 20 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "pt_connectivity_0_100": 70.3555,
+        "national_percentile": 56.7,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63009412",
+        "geography_vintage": "April 2024",
+        "population_covered": 64299,
+        "population_expected": 64299,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Loughborough; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 74,
@@ -1562,11 +1794,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 1372 sale and 1456 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "dense_multimodal",
+        "pt_connectivity_0_100": 81.9155,
+        "national_percentile": 84.7,
+        "score": 5,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008401",
+        "geography_vintage": "April 2024",
+        "population_covered": 470736,
+        "population_expected": 470736,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A dense multimodal network"
+        "reason": "Population-weighted mean across Manchester; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 127,
@@ -1615,11 +1855,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 3 sale and 3 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
+        "pt_connectivity_0_100": 58.3259,
+        "national_percentile": 27.0,
+        "score": 2,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "W45001012",
+        "geography_vintage": "April 2024",
+        "population_covered": 40817,
+        "population_expected": 40817,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "reason": "Population-weighted mean across Merthyr Tydfil; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 182,
@@ -1668,11 +1916,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 14 sale and 50 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 68.4636,
+        "national_percentile": 51.2,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007408",
+        "geography_vintage": "April 2024",
+        "population_covered": 147862,
+        "population_expected": 147862,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Middlesbrough; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 195,
@@ -1721,11 +1977,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 3 sale and 3 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
+        "pt_connectivity_0_100": 58.4644,
+        "national_percentile": 27.3,
+        "score": 2,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "W45001091",
+        "geography_vintage": "April 2024",
+        "population_covered": 40738,
+        "population_expected": 40738,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "reason": "Population-weighted mean across Neath; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 155,
@@ -1774,11 +2038,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 119 sale and 124 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "dense_multimodal",
+        "pt_connectivity_0_100": 77.9395,
+        "national_percentile": 76.7,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007169",
+        "geography_vintage": "April 2024",
+        "population_covered": 285852,
+        "population_expected": 285852,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A dense multimodal network"
+        "reason": "Population-weighted mean across Newcastle upon Tyne; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 166,
@@ -1827,11 +2099,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 31 sale and 43 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 67.8247,
+        "national_percentile": 49.4,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "W45001174",
+        "geography_vintage": "April 2024",
+        "population_covered": 130882,
+        "population_expected": 130882,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Newport (Newport); Reviewed official BUA name corresponds to the screen location Newport."
       },
       "nationalTransport": {
         "londonMinutes": 97,
@@ -1880,11 +2160,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 104 sale and 137 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 67.4371,
+        "national_percentile": 48.2,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63010463",
+        "geography_vintage": "April 2024",
+        "population_covered": 243883,
+        "population_expected": 243883,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Northampton; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 59,
@@ -1933,11 +2221,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 144 sale and 112 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 70.9579,
+        "national_percentile": 58.5,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63009624",
+        "geography_vintage": "April 2024",
+        "population_covered": 200492,
+        "population_expected": 200492,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Norwich; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 107,
@@ -1986,11 +2282,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 225 sale and 509 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "dense_multimodal",
+        "pt_connectivity_0_100": 78.6258,
+        "national_percentile": 78.2,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63009088",
+        "geography_vintage": "April 2024",
+        "population_covered": 299786,
+        "population_expected": 299786,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A dense multimodal network"
+        "reason": "Population-weighted mean across Nottingham; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 97,
@@ -2039,11 +2343,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 91 sale and 134 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 66.709,
+        "national_percentile": 46.2,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63009810",
+        "geography_vintage": "April 2024",
+        "population_covered": 190592,
+        "population_expected": 190592,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Peterborough; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 48,
@@ -2092,11 +2404,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 147 sale and 124 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 68.1707,
+        "national_percentile": 50.4,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63014082",
+        "geography_vintage": "April 2024",
+        "population_covered": 266970,
+        "population_expected": 266970,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Plymouth; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 194,
@@ -2145,11 +2465,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 177 sale and 176 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 76.3099,
+        "national_percentile": 72.9,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63013748",
+        "geography_vintage": "April 2024",
+        "population_covered": 223324,
+        "population_expected": 223324,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Portsmouth; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 92,
@@ -2198,11 +2526,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 72 sale and 136 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 75.0823,
+        "national_percentile": 69.8,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007926",
+        "geography_vintage": "April 2024",
+        "population_covered": 94502,
+        "population_expected": 94502,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Preston (Preston); Reviewed official BUA name corresponds to the screen location Preston."
       },
       "nationalTransport": {
         "londonMinutes": 132,
@@ -2251,11 +2587,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 19 sale and 25 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 69.0834,
+        "national_percentile": 53.0,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008458",
+        "geography_vintage": "April 2024",
+        "population_covered": 70761,
+        "population_expected": 70761,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Rotherham; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 144,
@@ -2304,11 +2648,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 513 sale and 531 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "dense_multimodal",
+        "pt_connectivity_0_100": 81.0639,
+        "national_percentile": 83.1,
+        "score": 5,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008377",
+        "geography_vintage": "April 2024",
+        "population_covered": 108431,
+        "population_expected": 108431,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A dense multimodal network"
+        "reason": "Population-weighted mean across Salford; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 174,
@@ -2357,11 +2709,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 257 sale and 401 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "dense_multimodal",
+        "pt_connectivity_0_100": 73.8759,
+        "national_percentile": 66.6,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008489",
+        "geography_vintage": "April 2024",
+        "population_covered": 500587,
+        "population_expected": 500587,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A dense multimodal network"
+        "reason": "Population-weighted mean across Sheffield; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 124,
@@ -2410,11 +2770,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 33 sale and 33 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "pt_connectivity_0_100": 63.4668,
+        "national_percentile": 37.8,
+        "score": 2,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63009578",
+        "geography_vintage": "April 2024",
+        "population_covered": 75784,
+        "population_expected": 75784,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Shrewsbury; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 156,
@@ -2463,11 +2831,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 9 sale and 24 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
+        "pt_connectivity_0_100": 69.5228,
+        "national_percentile": 54.3,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008434",
+        "geography_vintage": "April 2024",
+        "population_covered": 107409,
+        "population_expected": 107409,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "reason": "Population-weighted mean across St Helens (St. Helens); Reviewed official BUA name corresponds to the screen location St Helens."
       },
       "nationalTransport": {
         "londonMinutes": 136,
@@ -2516,11 +2892,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 20 sale and 20 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "pt_connectivity_0_100": 62.4919,
+        "national_percentile": 35.5,
+        "score": 2,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63009353",
+        "geography_vintage": "April 2024",
+        "population_covered": 71695,
+        "population_expected": 71695,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Stafford; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 76,
@@ -2569,11 +2953,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 41 sale and 89 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 77.6183,
+        "national_percentile": 76.0,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008478",
+        "geography_vintage": "April 2024",
+        "population_covered": 118146,
+        "population_expected": 118146,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Stockport; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 117,
@@ -2622,11 +3014,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 14 sale and 36 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "pt_connectivity_0_100": 68.6496,
+        "national_percentile": 51.7,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007405",
+        "geography_vintage": "April 2024",
+        "population_covered": 84824,
+        "population_expected": 84824,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Stockton-on-Tees; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 202,
@@ -2675,11 +3075,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 26 sale and 53 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 67.3636,
+        "national_percentile": 48.0,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63009014",
+        "geography_vintage": "April 2024",
+        "population_covered": 260001,
+        "population_expected": 260001,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Stoke-on-Trent; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 91,
@@ -2728,11 +3136,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 49 sale and 56 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 74.0756,
+        "national_percentile": 67.2,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007220",
+        "geography_vintage": "April 2024",
+        "population_covered": 167989,
+        "population_expected": 167989,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Sunderland; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 210,
@@ -2781,11 +3197,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 25 sale and 16 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 63.8535,
+        "national_percentile": 38.7,
+        "score": 2,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "W45001113",
+        "geography_vintage": "April 2024",
+        "population_covered": 169795,
+        "population_expected": 169795,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Swansea; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 167,
@@ -2834,11 +3258,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 87 sale and 121 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 69.369,
+        "national_percentile": 53.8,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63011979",
+        "geography_vintage": "April 2024",
+        "population_covered": 183687,
+        "population_expected": 183687,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Swindon (Swindon); Reviewed official BUA name corresponds to the screen location Swindon."
       },
       "nationalTransport": {
         "londonMinutes": 50,
@@ -2887,11 +3319,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 31 sale and 22 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
+        "pt_connectivity_0_100": 62.265,
+        "national_percentile": 35.0,
+        "score": 2,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63009565",
+        "geography_vintage": "April 2024",
+        "population_covered": 156326,
+        "population_expected": 156326,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "reason": "Population-weighted mean across Telford; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 133,
@@ -2940,11 +3380,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 165 sale and 51 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "pt_connectivity_0_100": 58.9523,
+        "national_percentile": 28.2,
+        "score": 2,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63014039;E63014055;E63014084",
+        "geography_vintage": "April 2024",
+        "population_covered": 137645,
+        "population_expected": 137645,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Torquay, Paignton, Brixham; Reviewed composite represents Torbay using the Torquay, Paignton and Brixham BUAs."
       },
       "nationalTransport": {
         "londonMinutes": 180,
@@ -2993,11 +3441,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 46 sale and 46 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 70.1025,
+        "national_percentile": 56.0,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008062",
+        "geography_vintage": "April 2024",
+        "population_covered": 97656,
+        "population_expected": 97656,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Wakefield; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 120,
@@ -3046,11 +3502,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 36 sale and 44 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 78.1281,
+        "national_percentile": 77.1,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63009845",
+        "geography_vintage": "April 2024",
+        "population_covered": 70777,
+        "population_expected": 70777,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Walsall; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 119,
@@ -3099,11 +3563,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 56 sale and 40 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "pt_connectivity_0_100": 68.5138,
+        "national_percentile": 51.4,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008488",
+        "geography_vintage": "April 2024",
+        "population_covered": 174064,
+        "population_expected": 174064,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Warrington; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 108,
@@ -3152,11 +3624,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 15 sale and 23 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 71.4811,
+        "national_percentile": 60.0,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63008282",
+        "geography_vintage": "April 2024",
+        "population_covered": 81514,
+        "population_expected": 81514,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Wigan; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 119,
@@ -3205,11 +3685,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 51 sale and 94 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "useful_bus_rail",
+        "pt_connectivity_0_100": 72.4274,
+        "national_percentile": 62.7,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63009805",
+        "geography_vintage": "April 2024",
+        "population_covered": 233643,
+        "population_expected": 233643,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "A useful town/city bus-and-rail network"
+        "reason": "Population-weighted mean across Wolverhampton; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 97,
@@ -3258,11 +3746,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 52 sale and 52 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
-        "confidence": "Medium",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "pt_connectivity_0_100": 66.2123,
+        "national_percentile": 44.8,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63010595",
+        "geography_vintage": "April 2024",
+        "population_covered": 105439,
+        "population_expected": 105439,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Worcester; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 131,
@@ -3311,11 +3807,19 @@ window.FLATS_DATA = {
         "reason": "Rightmove's filtered snapshot returned 3 sale and 11 rental results; these are Rightmove headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
       "localTransport": {
-        "assessment": "basic_bus_rail",
+        "pt_connectivity_0_100": 67.3825,
+        "national_percentile": 48.1,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "W45000777",
+        "geography_vintage": "April 2024",
+        "population_covered": 44277,
+        "population_expected": 44277,
+        "method_version": "dft-connectivity-bua24-v1",
         "confidence": "High",
-        "evidence_ids": "TR02",
-        "method_version": "broad-assessment-v1",
-        "reason": "Basic bus and rail coverage with less network depth"
+        "reason": "Population-weighted mean across Wrexham; Reviewed official BUA name corresponds directly to the broad screen location."
       },
       "nationalTransport": {
         "londonMinutes": 149,
@@ -3363,7 +3867,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 483 sale and 442 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 76.3839,
+        "national_percentile": 73.1,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63012168",
+        "geography_vintage": "April 2024",
+        "population_covered": 425196,
+        "population_expected": 425196,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Bristol; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 94,
         "londonChanges": 0,
@@ -3398,7 +3916,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 339 sale and 343 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 73.8252,
+        "national_percentile": 66.5,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63013524",
+        "geography_vintage": "April 2024",
+        "population_covered": 249633,
+        "population_expected": 249633,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Southampton; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 77,
         "londonChanges": 0,
@@ -3433,7 +3965,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 454 sale and 357 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock. Bournemouth–Poole sums separate Bournemouth and Poole portal regions; their proprietary boundaries may overlap or omit parts of the broad comparison geography."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 71.7193,
+        "national_percentile": 60.7,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63013847;E63013860",
+        "geography_vintage": "April 2024",
+        "population_covered": 337141,
+        "population_expected": 337141,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Bournemouth, Poole; Reviewed composite represents the named two-settlement location using the Bournemouth and Poole BUAs."
+      },
       "nationalTransport": {
         "londonMinutes": 111,
         "londonChanges": 1,
@@ -3468,7 +4014,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 553 sale and 436 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 75.6185,
+        "national_percentile": 71.2,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63013666",
+        "geography_vintage": "April 2024",
+        "population_covered": 277096,
+        "population_expected": 277096,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Brighton and Hove; Reviewed official BUA name corresponds to the screen location Brighton & Hove."
+      },
       "nationalTransport": {
         "londonMinutes": 61,
         "londonChanges": 0,
@@ -3503,7 +4063,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 84 sale and 57 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 66.1021,
+        "national_percentile": 44.5,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63013856",
+        "geography_vintage": "April 2024",
+        "population_covered": 126522,
+        "population_expected": 126522,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Exeter; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 134,
         "londonChanges": 0,
@@ -3538,7 +4112,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 207 sale and 332 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 74.0456,
+        "national_percentile": 67.1,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63012182",
+        "geography_vintage": "April 2024",
+        "population_covered": 203097,
+        "population_expected": 203097,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Reading; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 23,
         "londonChanges": 0,
@@ -3573,7 +4161,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 161 sale and 240 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 64.8534,
+        "national_percentile": 41.2,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63010901",
+        "geography_vintage": "April 2024",
+        "population_covered": 194584,
+        "population_expected": 194584,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Milton Keynes; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 32,
         "londonChanges": 0,
@@ -3608,7 +4210,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 179 sale and 222 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 72.8138,
+        "national_percentile": 63.7,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63011256",
+        "geography_vintage": "April 2024",
+        "population_covered": 233524,
+        "population_expected": 233524,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Luton; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 26,
         "londonChanges": 0,
@@ -3643,7 +4259,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 147 sale and 73 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 73.6249,
+        "national_percentile": 66.0,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63011939",
+        "geography_vintage": "April 2024",
+        "population_covered": 182295,
+        "population_expected": 182295,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Southend-on-Sea; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 57,
         "londonChanges": 0,
@@ -3678,7 +4308,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 126 sale and 212 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 71.9657,
+        "national_percentile": 61.4,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63010556",
+        "geography_vintage": "April 2024",
+        "population_covered": 152742,
+        "population_expected": 152742,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Cambridge (Cambridge); Reviewed official BUA name corresponds to the screen location Cambridge."
+      },
       "nationalTransport": {
         "londonMinutes": 50,
         "londonChanges": 0,
@@ -3713,7 +4357,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 118 sale and 114 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 69.0307,
+        "national_percentile": 52.9,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63011220",
+        "geography_vintage": "April 2024",
+        "population_covered": 130396,
+        "population_expected": 130396,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Colchester; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 47,
         "londonChanges": 0,
@@ -3748,7 +4406,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 88 sale and 185 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 72.6962,
+        "national_percentile": 63.4,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63011595",
+        "geography_vintage": "April 2024",
+        "population_covered": 169612,
+        "population_expected": 169612,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Oxford; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 51,
         "londonChanges": 0,
@@ -3783,7 +4455,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 104 sale and 90 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 73.2114,
+        "national_percentile": 64.9,
+        "score": 4,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63012364",
+        "geography_vintage": "April 2024",
+        "population_covered": 94080,
+        "population_expected": 94080,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Bath; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 81,
         "londonChanges": 0,
@@ -3818,7 +4504,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 2 sale and 0 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 60.5039,
+        "national_percentile": 31.2,
+        "score": 2,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "W45001212",
+        "geography_vintage": "April 2024",
+        "population_covered": 51751,
+        "population_expected": 51751,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Bridgend; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 135,
         "londonChanges": 0,
@@ -3853,7 +4553,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 0 sale and 0 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 62.3205,
+        "national_percentile": 35.1,
+        "score": 2,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "W45001070",
+        "geography_vintage": "April 2024",
+        "population_covered": 42143,
+        "population_expected": 42143,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Llanelli; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 195,
         "londonChanges": 1,
@@ -3888,7 +4602,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 8 sale and 1 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 63.8825,
+        "national_percentile": 38.8,
+        "score": 2,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "W45000697",
+        "geography_vintage": "April 2024",
+        "population_covered": 16994,
+        "population_expected": 16994,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Bangor; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 201,
         "londonChanges": 0,
@@ -3923,7 +4651,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 1 sale and 5 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 65.9483,
+        "national_percentile": 44.1,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "W45000645",
+        "geography_vintage": "April 2024",
+        "population_covered": 26982,
+        "population_expected": 26982,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Rhyl; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 165,
         "londonChanges": 0,
@@ -3958,7 +4700,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 115 sale and 75 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 71.2964,
+        "national_percentile": 59.4,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007706",
+        "geography_vintage": "April 2024",
+        "population_covered": 141286,
+        "population_expected": 141286,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across York; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 113,
         "londonChanges": 0,
@@ -3993,7 +4749,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 9 sale and 8 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 71.2358,
+        "national_percentile": 59.3,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63007282",
+        "geography_vintage": "April 2024",
+        "population_covered": 50502,
+        "population_expected": 50502,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Durham; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 169,
         "londonChanges": 1,
@@ -4028,7 +4798,21 @@ window.FLATS_DATA = {
       "market": {
         "reason": "Rightmove's controlled 7 September 2026 filtered capture returned 107 sale and 113 rental results; these are headline counts, not deduplicated properties, and the query does not verify tower stock."
       },
-      "localTransport": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 70.0778,
+        "national_percentile": 55.9,
+        "score": 3,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63011286",
+        "geography_vintage": "April 2024",
+        "population_covered": 115941,
+        "population_expected": 115941,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Cheltenham; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "nationalTransport": {
         "londonMinutes": 112,
         "londonChanges": 1,
@@ -9914,6 +10698,18 @@ window.FLATS_DATA = {
       "geography": "Reviewed representative origin stations to London (All Stations) and Birmingham New Street",
       "coverage": "142 non-pilot routes with four retained JSON searches per route and a hash-verified manifest in 2026-09-08-national-transport-direct-supplement",
       "limitations": "Dated Journey Planner snapshots. Review selects the shortest returned itinerary departing in the documented window without a mode-based filter. They are not guaranteed, door-to-door, fare, frequency or accessibility measures. Together with the accepted direct pilot release, this covers the screen for review only."
+    },
+    {
+      "id": "TR-LOCAL-DFT-2025",
+      "workstream": "local_transport",
+      "title": "Transport connectivity metric 2025: public-transport overall score",
+      "publisher": "Department for Transport",
+      "url": "https://www.gov.uk/government/publications/transport-connectivity-metric",
+      "dataPeriod": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+      "retrievalDate": "2026-09-09",
+      "geography": "2021 Output Areas aggregated to reviewed April 2024 built-up areas",
+      "coverage": "All 83 locations; complete expected population coverage",
+      "limitations": "Modelled scheduled opportunity to reach employment, services and social engagements; not fares, crowding, cancellations, reliability, personal security, step-free access or access from a particular home. Aggregation uses Census 2021 usual-resident population and the official OA-to-BUA best-fit lookup."
     }
   ],
   "composite": {
@@ -9932,19 +10728,19 @@ window.FLATS_DATA = {
     "score_bands": {
       "buy": {
         "low": {
-          "count": 21,
+          "count": 22,
           "minimum": 48.5,
-          "maximum": 60.5
+          "maximum": 59.0
         },
         "mid": {
-          "count": 21,
-          "minimum": 61.0,
-          "maximum": 65.0
+          "count": 20,
+          "minimum": 59.5,
+          "maximum": 63.5
         },
         "high": {
           "count": 21,
-          "minimum": 65.5,
-          "maximum": 80.0
+          "minimum": 64.0,
+          "maximum": 77.0
         },
         "unknown": 20
       },
@@ -9952,17 +10748,17 @@ window.FLATS_DATA = {
         "low": {
           "count": 20,
           "minimum": 48.0,
-          "maximum": 60.0
+          "maximum": 57.5
         },
         "mid": {
-          "count": 21,
-          "minimum": 60.5,
-          "maximum": 65.0
+          "count": 22,
+          "minimum": 58.0,
+          "maximum": 63.5
         },
         "high": {
-          "count": 22,
-          "minimum": 65.5,
-          "maximum": 80.0
+          "count": 21,
+          "minimum": 64.0,
+          "maximum": 77.0
         },
         "unknown": 20
       }
@@ -9982,7 +10778,7 @@ window.FLATS_DATA = {
               "stock": 3
             },
             "score": 64.5,
-            "band": "mid"
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -10005,27 +10801,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 1.0,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.5,
               "affordability": 1,
               "stock": 5
             },
-            "score": 57.0,
+            "score": 54.0,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.5,
               "affordability": 1,
               "stock": 5
             },
-            "score": 57.0,
+            "score": 54.0,
             "band": "low"
           }
         }
@@ -10057,7 +10853,7 @@ window.FLATS_DATA = {
               "stock": 1
             },
             "score": 59.0,
-            "band": "low"
+            "band": "mid"
           }
         }
       },
@@ -10067,27 +10863,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 1.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.0,
               "affordability": 5,
               "stock": 4
             },
-            "score": 61.0,
-            "band": "mid"
+            "score": 58.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.0,
               "affordability": 5,
               "stock": 4
             },
-            "score": 61.0,
+            "score": 58.0,
             "band": "mid"
           }
         }
@@ -10222,27 +11018,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 4.5,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.0,
               "affordability": 1,
               "stock": 5
             },
-            "score": 75.5,
+            "score": 72.5,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.0,
               "affordability": 1,
               "stock": 5
             },
-            "score": 75.5,
+            "score": 72.5,
             "band": "high"
           }
         }
@@ -10253,27 +11049,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 4.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 4,
               "quiet": 3,
               "national_transport": 3.5,
               "affordability": 1,
               "stock": 3
             },
-            "score": 65.5,
-            "band": "high"
+            "score": 62.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 4,
               "quiet": 3,
               "national_transport": 3.5,
               "affordability": 3,
               "stock": 3
             },
-            "score": 71.5,
+            "score": 68.5,
             "band": "high"
           }
         }
@@ -10336,7 +11132,7 @@ window.FLATS_DATA = {
               "stock": 4
             },
             "score": 59.5,
-            "band": "low"
+            "band": "mid"
           }
         }
       },
@@ -10346,27 +11142,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 3.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.5,
               "affordability": 5,
               "stock": 2
             },
-            "score": 62.0,
-            "band": "mid"
+            "score": 59.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 3.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.5,
               "affordability": 5,
               "stock": 2
             },
-            "score": 62.0,
+            "score": 59.0,
             "band": "mid"
           }
         }
@@ -10377,27 +11173,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 1.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.5,
               "affordability": 3,
               "stock": 3
             },
-            "score": 57.0,
+            "score": 54.0,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.5,
               "affordability": 3,
               "stock": 4
             },
-            "score": 60.0,
+            "score": 57.0,
             "band": "low"
           }
         }
@@ -10408,27 +11204,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 2.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 63.5,
+            "score": 60.5,
             "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 2.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 63.5,
+            "score": 60.5,
             "band": "mid"
           }
         }
@@ -10439,27 +11235,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 4.5,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 2,
               "quiet": 3,
               "national_transport": 1.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 69.5,
+            "score": 66.5,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 2,
               "quiet": 3,
               "national_transport": 1.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 69.5,
+            "score": 66.5,
             "band": "high"
           }
         }
@@ -10470,27 +11266,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 2.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.5,
               "affordability": 3,
               "stock": 3
             },
-            "score": 67.5,
+            "score": 64.5,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 2.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.5,
               "affordability": 3,
               "stock": 3
             },
-            "score": 67.5,
+            "score": 64.5,
             "band": "high"
           }
         }
@@ -10501,27 +11297,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 1.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.0,
               "affordability": 3,
               "stock": 3
             },
-            "score": 53.5,
+            "score": 50.5,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 59.5,
+            "score": 56.5,
             "band": "low"
           }
         }
@@ -10563,27 +11359,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 3.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 4,
               "national_transport": 2.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 67.0,
+            "score": 64.0,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 3.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 4,
               "national_transport": 2.0,
               "affordability": 5,
               "stock": 4
             },
-            "score": 70.0,
+            "score": 67.0,
             "band": "high"
           }
         }
@@ -10594,28 +11390,28 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 1.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 2.5,
               "affordability": 5,
               "stock": 4
             },
-            "score": 60.5,
+            "score": 57.5,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 2.5,
               "affordability": 5,
               "stock": 4
             },
-            "score": 60.5,
-            "band": "mid"
+            "score": 57.5,
+            "band": "low"
           }
         }
       },
@@ -10625,27 +11421,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 3.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.0,
               "affordability": 3,
               "stock": 4
             },
-            "score": 63.0,
+            "score": 60.0,
             "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 3.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.0,
               "affordability": 3,
               "stock": 4
             },
-            "score": 63.0,
+            "score": 60.0,
             "band": "mid"
           }
         }
@@ -10687,27 +11483,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 5.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 4,
               "quiet": 4,
               "national_transport": 3.0,
               "affordability": 3,
               "stock": 3
             },
-            "score": 75.0,
+            "score": 72.0,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 5.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 4,
               "quiet": 4,
               "national_transport": 3.0,
               "affordability": 3,
               "stock": 1
             },
-            "score": 69.0,
+            "score": 66.0,
             "band": "high"
           }
         }
@@ -10718,27 +11514,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 1.5,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
               "affordability": 1,
               "stock": 5
             },
-            "score": 59.5,
+            "score": 56.5,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
               "affordability": 1,
               "stock": 5
             },
-            "score": 59.5,
+            "score": 56.5,
             "band": "low"
           }
         }
@@ -10757,7 +11553,7 @@ window.FLATS_DATA = {
               "stock": 4
             },
             "score": 64.0,
-            "band": "mid"
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -10811,27 +11607,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 2.0,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
               "affordability": 3,
               "stock": 5
             },
-            "score": 67.0,
+            "score": 64.0,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 2.0,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 2,
               "quiet": 3,
               "national_transport": 3.5,
               "affordability": 3,
               "stock": 5
             },
-            "score": 67.0,
+            "score": 64.0,
             "band": "high"
           }
         }
@@ -10904,27 +11700,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 4.0,
-              "local_transport": 3,
+              "local_transport": 2,
               "condition": 2,
               "quiet": 3,
               "national_transport": 1.5,
               "affordability": 5,
               "stock": 1
             },
-            "score": 57.0,
+            "score": 54.0,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 4.0,
-              "local_transport": 3,
+              "local_transport": 2,
               "condition": 2,
               "quiet": 3,
               "national_transport": 1.5,
               "affordability": 5,
               "stock": 1
             },
-            "score": 57.0,
+            "score": 54.0,
             "band": "low"
           }
         }
@@ -10935,27 +11731,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 1.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 2.0,
               "affordability": 5,
               "stock": 2
             },
-            "score": 52.0,
+            "score": 49.0,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 2.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 55.0,
+            "score": 52.0,
             "band": "low"
           }
         }
@@ -10966,27 +11762,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 4.0,
-              "local_transport": 3,
+              "local_transport": 2,
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.5,
               "affordability": 5,
               "stock": 1
             },
-            "score": 59.0,
+            "score": 56.0,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 4.0,
-              "local_transport": 3,
+              "local_transport": 2,
               "condition": 2,
               "quiet": 3,
               "national_transport": 2.5,
               "affordability": 5,
               "stock": 1
             },
-            "score": 59.0,
+            "score": 56.0,
             "band": "low"
           }
         }
@@ -10997,27 +11793,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 2.5,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 4,
               "quiet": 3,
               "national_transport": 2.0,
               "affordability": 3,
               "stock": 4
             },
-            "score": 68.5,
+            "score": 65.5,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 2.5,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 4,
               "quiet": 3,
               "national_transport": 2.0,
               "affordability": 1,
               "stock": 4
             },
-            "score": 62.5,
+            "score": 59.5,
             "band": "mid"
           }
         }
@@ -11028,27 +11824,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 2.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
               "affordability": 3,
               "stock": 3
             },
-            "score": 57.5,
+            "score": 54.5,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 2.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
               "affordability": 3,
               "stock": 3
             },
-            "score": 57.5,
+            "score": 54.5,
             "band": "low"
           }
         }
@@ -11059,27 +11855,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 2.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 5.0,
               "affordability": 1,
               "stock": 4
             },
-            "score": 59.5,
+            "score": 56.5,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 2.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 5.0,
               "affordability": 1,
               "stock": 4
             },
-            "score": 59.5,
+            "score": 56.5,
             "band": "low"
           }
         }
@@ -11090,27 +11886,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 1.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 5,
               "quiet": 4,
               "national_transport": 2.5,
               "affordability": 1,
               "stock": 4
             },
-            "score": 63.5,
+            "score": 60.5,
             "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 5,
               "quiet": 4,
               "national_transport": 2.5,
               "affordability": 1,
               "stock": 4
             },
-            "score": 63.5,
+            "score": 60.5,
             "band": "mid"
           }
         }
@@ -11121,27 +11917,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 1.5,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.0,
               "affordability": 3,
               "stock": 4
             },
-            "score": 69.5,
+            "score": 66.5,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.0,
               "affordability": 3,
               "stock": 5
             },
-            "score": 72.5,
+            "score": 69.5,
             "band": "high"
           }
         }
@@ -11152,27 +11948,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 2.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.5,
               "affordability": 3,
               "stock": 4
             },
-            "score": 60.0,
+            "score": 57.0,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 2.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.5,
               "affordability": 3,
               "stock": 4
             },
-            "score": 60.0,
+            "score": 57.0,
             "band": "low"
           }
         }
@@ -11183,28 +11979,28 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 1.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 4,
               "quiet": 4,
               "national_transport": 2.0,
               "affordability": 3,
               "stock": 4
             },
-            "score": 65.5,
-            "band": "high"
+            "score": 62.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 4,
               "quiet": 4,
               "national_transport": 2.0,
               "affordability": 3,
               "stock": 4
             },
-            "score": 65.5,
-            "band": "high"
+            "score": 62.5,
+            "band": "mid"
           }
         }
       },
@@ -11276,28 +12072,28 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 3.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 3.5,
               "affordability": 5,
               "stock": 2
             },
-            "score": 62.5,
+            "score": 59.5,
             "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 3.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 3.5,
               "affordability": 5,
               "stock": 3
             },
-            "score": 65.5,
-            "band": "high"
+            "score": 62.5,
+            "band": "mid"
           }
         }
       },
@@ -11338,27 +12134,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 4.0,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.0,
               "affordability": 3,
               "stock": 5
             },
-            "score": 80.0,
+            "score": 77.0,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 4.0,
-              "local_transport": 5,
+              "local_transport": 4,
               "condition": 4,
               "quiet": 3,
               "national_transport": 4.0,
               "affordability": 3,
               "stock": 5
             },
-            "score": 80.0,
+            "score": 77.0,
             "band": "high"
           }
         }
@@ -11369,27 +12165,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 5.0,
-              "local_transport": 3,
+              "local_transport": 2,
               "condition": 5,
               "quiet": 4,
               "national_transport": 3.5,
               "affordability": 1,
               "stock": 3
             },
-            "score": 70.0,
+            "score": 67.0,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 5.0,
-              "local_transport": 3,
+              "local_transport": 2,
               "condition": 5,
               "quiet": 4,
               "national_transport": 3.5,
               "affordability": 3,
               "stock": 3
             },
-            "score": 76.0,
+            "score": 73.0,
             "band": "high"
           }
         }
@@ -11408,7 +12204,7 @@ window.FLATS_DATA = {
               "stock": 1
             },
             "score": 60.0,
-            "band": "low"
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -11431,27 +12227,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 4.5,
-              "local_transport": 3,
+              "local_transport": 2,
               "condition": 4,
               "quiet": 4,
               "national_transport": 4.5,
               "affordability": 3,
               "stock": 2
             },
-            "score": 70.5,
+            "score": 67.5,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
-              "local_transport": 3,
+              "local_transport": 2,
               "condition": 4,
               "quiet": 4,
               "national_transport": 4.5,
               "affordability": 3,
               "stock": 2
             },
-            "score": 70.5,
+            "score": 67.5,
             "band": "high"
           }
         }
@@ -11524,27 +12320,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 1.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.5,
               "affordability": 5,
               "stock": 3
             },
-            "score": 63.0,
+            "score": 60.0,
             "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.5,
               "affordability": 5,
               "stock": 3
             },
-            "score": 63.0,
+            "score": 60.0,
             "band": "mid"
           }
         }
@@ -11586,28 +12382,28 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 4.5,
-              "local_transport": 4,
+              "local_transport": 2,
               "condition": 4,
               "quiet": 4,
               "national_transport": 2.0,
               "affordability": 3,
               "stock": 3
             },
-            "score": 71.5,
+            "score": 65.5,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
-              "local_transport": 4,
+              "local_transport": 2,
               "condition": 4,
               "quiet": 4,
               "national_transport": 2.0,
               "affordability": 3,
               "stock": 2
             },
-            "score": 68.5,
-            "band": "high"
+            "score": 62.5,
+            "band": "mid"
           }
         }
       },
@@ -11617,27 +12413,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 4.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.0,
               "affordability": 1,
               "stock": 4
             },
-            "score": 63.5,
+            "score": 60.5,
             "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.0,
               "affordability": 1,
               "stock": 4
             },
-            "score": 63.5,
+            "score": 60.5,
             "band": "mid"
           }
         }
@@ -11648,27 +12444,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 3.5,
-              "local_transport": 3,
+              "local_transport": 2,
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 66.5,
-            "band": "high"
+            "score": 63.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 3.5,
-              "local_transport": 3,
+              "local_transport": 2,
               "condition": 2,
               "quiet": 3,
               "national_transport": 4.0,
               "affordability": 3,
               "stock": 2
             },
-            "score": 57.5,
+            "score": 54.5,
             "band": "low"
           }
         }
@@ -11679,27 +12475,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 2.0,
-              "local_transport": 3,
+              "local_transport": 2,
               "condition": 4,
               "quiet": 4,
               "national_transport": 2.0,
               "affordability": 3,
               "stock": 4
             },
-            "score": 64.0,
+            "score": 61.0,
             "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 2.0,
-              "local_transport": 3,
+              "local_transport": 2,
               "condition": 4,
               "quiet": 4,
               "national_transport": 2.0,
               "affordability": 3,
               "stock": 3
             },
-            "score": 61.0,
+            "score": 58.0,
             "band": "mid"
           }
         }
@@ -11710,28 +12506,28 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 1.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
               "affordability": 3,
               "stock": 3
             },
-            "score": 54.5,
+            "score": 51.5,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
               "affordability": 5,
               "stock": 3
             },
-            "score": 60.5,
-            "band": "mid"
+            "score": 57.5,
+            "band": "low"
           }
         }
       },
@@ -11749,7 +12545,7 @@ window.FLATS_DATA = {
               "stock": 3
             },
             "score": 65.0,
-            "band": "mid"
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -11762,7 +12558,7 @@ window.FLATS_DATA = {
               "stock": 3
             },
             "score": 65.0,
-            "band": "mid"
+            "band": "high"
           }
         }
       },
@@ -11772,27 +12568,27 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 4.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
               "affordability": 3,
               "stock": 3
             },
-            "score": 62.0,
-            "band": "mid"
+            "score": 59.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 4.0,
-              "local_transport": 4,
+              "local_transport": 3,
               "condition": 2,
               "quiet": 2,
               "national_transport": 4.0,
               "affordability": 3,
               "stock": 3
             },
-            "score": 62.0,
+            "score": 59.0,
             "band": "mid"
           }
         }
@@ -11855,7 +12651,7 @@ window.FLATS_DATA = {
               "stock": 4
             },
             "score": 64.5,
-            "band": "mid"
+            "band": "high"
           }
         }
       },
@@ -11904,7 +12700,7 @@ window.FLATS_DATA = {
               "stock": 1
             },
             "score": 59.5,
-            "band": "low"
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -11927,7 +12723,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 1.0,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
@@ -11940,7 +12736,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 1.0,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
@@ -11958,7 +12754,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 1.0,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 3.5,
@@ -11971,7 +12767,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 1.0,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 3.5,
@@ -11989,7 +12785,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 5.0,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 2.5,
@@ -12002,7 +12798,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 5.0,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 2.5,
@@ -12020,7 +12816,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 3.0,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
@@ -12033,7 +12829,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 3.0,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
@@ -12051,7 +12847,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 2.0,
-              "local_transport": null,
+              "local_transport": 3,
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
@@ -12064,7 +12860,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 2.0,
-              "local_transport": null,
+              "local_transport": 3,
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
@@ -12082,7 +12878,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 3.5,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 4.5,
@@ -12095,7 +12891,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 3.5,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 4.5,
@@ -12113,7 +12909,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 3.5,
-              "local_transport": null,
+              "local_transport": 3,
               "condition": null,
               "quiet": null,
               "national_transport": 5.0,
@@ -12126,7 +12922,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 3.5,
-              "local_transport": null,
+              "local_transport": 3,
               "condition": null,
               "quiet": null,
               "national_transport": 5.0,
@@ -12144,7 +12940,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 4.5,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
@@ -12157,7 +12953,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 4.5,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
@@ -12175,7 +12971,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 2.0,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
@@ -12188,7 +12984,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 2.0,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
@@ -12206,7 +13002,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 5.0,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
@@ -12219,7 +13015,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 5.0,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
@@ -12237,7 +13033,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 3.0,
-              "local_transport": null,
+              "local_transport": 3,
               "condition": null,
               "quiet": null,
               "national_transport": 3.5,
@@ -12250,7 +13046,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 3.0,
-              "local_transport": null,
+              "local_transport": 3,
               "condition": null,
               "quiet": null,
               "national_transport": 3.5,
@@ -12268,7 +13064,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 3.5,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 5.0,
@@ -12281,7 +13077,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 3.5,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 5.0,
@@ -12299,7 +13095,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 4.5,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 3.5,
@@ -12312,7 +13108,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 4.5,
-              "local_transport": null,
+              "local_transport": 4,
               "condition": null,
               "quiet": null,
               "national_transport": 3.5,
@@ -12330,7 +13126,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 4.5,
-              "local_transport": null,
+              "local_transport": 2,
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
@@ -12343,7 +13139,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 4.5,
-              "local_transport": null,
+              "local_transport": 2,
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
@@ -12361,7 +13157,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 4.5,
-              "local_transport": null,
+              "local_transport": 2,
               "condition": null,
               "quiet": null,
               "national_transport": 1.5,
@@ -12374,7 +13170,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 4.5,
-              "local_transport": null,
+              "local_transport": 2,
               "condition": null,
               "quiet": null,
               "national_transport": 1.5,
@@ -12392,7 +13188,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 4.0,
-              "local_transport": null,
+              "local_transport": 2,
               "condition": null,
               "quiet": null,
               "national_transport": 2.0,
@@ -12405,7 +13201,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 4.0,
-              "local_transport": null,
+              "local_transport": 2,
               "condition": null,
               "quiet": null,
               "national_transport": 2.0,
@@ -12423,7 +13219,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 2.0,
-              "local_transport": null,
+              "local_transport": 3,
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
@@ -12436,7 +13232,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 2.0,
-              "local_transport": null,
+              "local_transport": 3,
               "condition": null,
               "quiet": null,
               "national_transport": 3.0,
@@ -12454,7 +13250,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 5.0,
-              "local_transport": null,
+              "local_transport": 3,
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
@@ -12467,7 +13263,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 5.0,
-              "local_transport": null,
+              "local_transport": 3,
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
@@ -12485,7 +13281,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 3.5,
-              "local_transport": null,
+              "local_transport": 3,
               "condition": null,
               "quiet": null,
               "national_transport": 2.5,
@@ -12498,7 +13294,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 3.5,
-              "local_transport": null,
+              "local_transport": 3,
               "condition": null,
               "quiet": null,
               "national_transport": 2.5,
@@ -12516,7 +13312,7 @@ window.FLATS_DATA = {
           "buy": {
             "factors": {
               "safety": 5.0,
-              "local_transport": null,
+              "local_transport": 3,
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,
@@ -12529,7 +13325,7 @@ window.FLATS_DATA = {
           "rent": {
             "factors": {
               "safety": 5.0,
-              "local_transport": null,
+              "local_transport": 3,
               "condition": null,
               "quiet": null,
               "national_transport": 4.0,

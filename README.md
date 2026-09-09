@@ -64,8 +64,9 @@ Every location uses the same canonical fields and composite method. Observation
 provenance is assessed per location and topic in the generated release audit:
 some non-crime observations still need retained row-level artifacts, while
 others are reproducible from dated releases. This limitation is evidence context,
-not a separate kind of location. The 20 locations without transport and
-environmental assessments remain blank for those topics pending acquisition.
+not a separate kind of location. Local public-transport connectivity is complete
+for all 83 locations; some inherited environmental assessments remain blank
+pending replacement.
 Buying is an all-flat achieved-price proxy; renting is a modelled one-bedroom
 local-authority mean. The screen calculates separate Buy/Rent broad composite
 scores; their safety component uses the separate ONS CSP recorded-offence rates.
@@ -77,3 +78,6 @@ The national-rail comparison is an accepted dated station-to-station snapshot;
 its method and collection procedure are in the
 [national transport methodology](docs/national-transport-methodology.md) and
 [runbook](docs/national-transport-runbook.md).
+The local public-transport factor is the DfT 2025 connectivity metric aggregated
+to reviewed built-up areas; its reproducible method is in the
+[local transport methodology](docs/local-transport-methodology.md).
