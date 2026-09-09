@@ -36,7 +36,7 @@ codes `W01001981`--`W01001984` in Bridgend. The preparer now uses the official
 exact-fit OA21-to-LSOA21 lookup for both countries and reserves the 2011
 allocation for the genuinely older green-space source.
 
-### Blocker 1: incomplete green-space coverage
+### Blocker 1: incomplete green-space coverage — resolution selected
 
 The latest fail-closed result identifies two candidate BUAs whose 2021
 population cannot be fully assigned a value from the corrected 2020 ONS
@@ -64,21 +64,62 @@ Do not clear this blocker by:
 - calculating a newer value for only these four OAs and mixing it into the 2020
   national series.
 
-The preferred resolution is a new national green-pillar calculation for every
-England-and-Wales BUA, probably using current OS Open Greenspace polygons plus a
-consistent set of residential origin points. OS Open Greenspace is available as
-a bulk OpenData download through the documented OS Downloads API, so source
-access is not itself blocked. The replacement still needs a documented choice
-of origin-point data, residential filtering, distance and area calculation,
-duplicate handling, projected CRS and population aggregation. It must regenerate
-the complete national reference distribution rather than patch Shrewsbury and
-Stafford. An alternative is an official allocation or postcode-level release
-that reproduces the ONS observation for the missing areas.
+**Selected decision (2026-09-09): replace the ONS 2020 green-space series with a
+new national green-pillar calculation for every England-and-Wales BUA using a
+current OS Open Greenspace bulk snapshot and one consistent residential-origin
+method.** This is a replacement series, not a patch for Shrewsbury and Stafford.
+It must regenerate the complete national reference distribution and receive a
+new method version.
+
+The selected method version is `residential-environment-bua24-v2`. It reuses
+Census 2021 OA usual-resident population, the ONS OA21 population-weighted
+centroids and the reviewed April 2024 OA-to-BUA lookup. It does not introduce a
+postcode, address or UPRN origin source.
+
+The green calculation is frozen as follows:
+
+- use the latest complete OS Open Greenspace bulk snapshot available on the
+  acquisition date;
+- include only sites whose function is `Public Park Or Garden` or `Playing
+  Field`; do not use the other OS Open Greenspace functions;
+- do not use OS access points or infer an access status: product inclusion and
+  the two selected functions are the eligibility rule, with OS's warning that
+  inclusion does not guarantee unrestricted public access retained as a
+  limitation;
+- use each OA21 population-weighted centroid as its residential origin;
+- calculate straight-line Euclidean distance in British National Grid
+  (EPSG:27700) to the nearest eligible polygon, with an origin inside or on the
+  boundary assigned zero distance and equality at 300 m counted as within;
+- calculate provision as the area of eligible geometry actually falling within
+  the closed 1,000 m Euclidean buffer around the origin, rather than the full
+  area of every intersecting site;
+- repair invalid geometry deterministically, union eligible polygons before
+  measurement and count overlapping area once;
+- aggregate OA observations to every England-and-Wales BUA using Census 2021 OA
+  population, retaining covered and expected population independently; and
+- use the superseded ONS results only for temporary development validation. Do
+  not retain its workbook or old-series observations in the released inputs or
+  outputs.
+
+OS Open Greenspace is available as a bulk OpenData download through the
+documented OS Downloads API, so source access is not itself blocked. The release
+must document the source snapshot, CRS, geometry-repair operation, predicates,
+empty or unmatched cases, duplicate handling and coverage checks.
+
+Because the old inputs were pilot research and were never used in production,
+the successor implementation must remove them rather than archive or retain
+them as supported inputs: the corrected ONS green-space workbook, the 2011
+OA-to-2021 OA change lookup, the 2011 OA-to-LSOA lookup and Census 2011 OA
+population. Remove their files, acquisition entries, manifest rows, parser code
+and dependency checks. Do not copy them into `data/archive/` or another retained
+release. Other pipelines' independently required copies, if any, are outside
+this deletion instruction. The repository documentation may retain a concise
+explanation of why the pilot source was rejected.
 
 This blocker is cleared only when all four pillars cover the full expected
-population of all 83 candidates and the same green method has been applied to
-every national-reference BUA. Until then the canonical environment output and
-overall composite must remain incomplete.
+population of all 83 candidates and the selected replacement green method has
+been applied to every national-reference BUA. Until then the canonical
+environment output and overall composite must remain incomplete.
 
 ### Blocker 2: England-Wales source compatibility
 
@@ -248,28 +289,34 @@ Limitations must remain visible:
 
 ### 3. Green-space access
 
-Use the corrected ONS **Access to gardens and public green space in Great
-Britain** workbook. It applies a common Ordnance Survey-based method across
-England and Wales and contains LSOA-level measures including:
-
-- average distance to the nearest park, public garden or playing field;
-- combined green-space area within 1,000 metres;
-- number of built-up-area postcodes;
-- postcodes within 300 and 900 metres of green space.[^9]
+Use the latest complete OS Open Greenspace bulk snapshot available on the
+acquisition date. Include only `Public Park Or Garden` and `Playing Field`
+polygons. Use OA21 population-weighted centroids as residential origins and
+Census 2021 OA population for BUA aggregation. Do not use OS access points.
+The exact geometry rules are frozen under Blocker 1 above.
 
 Recommended green pillar:
 
 ```text
-green_proximity =
-    built_up_postcodes_within_300m / built_up_postcodes
+oa_green_within_300m =
+    1 if distance(oa21_population_weighted_centroid,
+                  nearest_eligible_greenspace_polygon) <= 300m
+    else 0
 
-green_provision =
-    average combined park/garden/playing-field area within 1,000m
+bua_green_within_300m_pct =
+    100 * population_weighted_mean(oa_green_within_300m)
+
+oa_green_area_within_1000m =
+    area(union(eligible_greenspace_polygons)
+         intersect buffer(oa21_population_weighted_centroid, 1000m))
+
+bua_green_area_within_1000m =
+    population_weighted_mean(oa_green_area_within_1000m)
 
 green_pillar =
     mean(
-        national population percentile(green_proximity),
-        national population percentile(green_provision)
+        national population percentile(bua_green_within_300m_pct),
+        national population percentile(bua_green_area_within_1000m)
     )
 ```
 
@@ -277,14 +324,8 @@ Using 300 metres follows the approximate five-minute-access concept used by
 WIMD, while the provision term prevents a tiny nearby site from representing the
 same environmental benefit as substantial surrounding green space.[^3]
 
-This is the weakest source temporally. ONS published it in 2020, later corrected
-the workbook, and confirmed in 2025 that it has no plans for a recurring
-update.[^10] That does not prevent a reproducible current baseline, but the
-factor must be described as a multi-period structural measure rather than “2026
-conditions.”
-
-A future version could replace it with a scripted England-and-Wales calculation
-from OS Open Greenspace. That should not delay the first objective replacement.
+The earlier ONS 2020 pilot source was rejected after preparation exposed
+irreducible coverage gaps. It is not an input to the selected release method.
 
 ### 4. Housing environmental quality
 
@@ -353,11 +394,9 @@ For each source:
 5. For composite locations, combine BUAs using the same population weighting.
 6. Record covered and expected population independently for every pillar.
 
-The older green-space data require a retained ONS 2011-to-2021 geography lookup.
-Split areas should be apportioned using published lookup weights or constituent
-OA population—not names, centroids or manual judgement. ONS itself warns that
-best-fit areas can differ between OA- and LSOA-based datasets, so the boundary
-approximation must be quantified.[^13]
+The rejected pilot used an ONS 2011-to-2021 geography allocation. The selected
+OS Open Greenspace replacement instead calculates observations directly from
+OA21 residential origins and therefore removes that allocation and its inputs.
 
 Third-party GIS libraries are permitted for this workstream. Prefer an official
 bulk lookup where it expresses the required relationship adequately; otherwise,
@@ -473,7 +512,7 @@ The raw manifest should cover:
 - English IoD 2025 v2 underlying indicators;
 - WIMD 2025 housing and physical-environment indicator downloads;
 - Defra 2024 PCM files;
-- corrected ONS green-space workbook;
+- current OS Open Greenspace bulk snapshot and product metadata;
 - Census population and geography lookups;
 - April 2024 BUA lookup already used by local transport.
 
@@ -605,8 +644,8 @@ Update:
 1. Freeze the methodology and release schema.
 2. Build a 12-location stratified feasibility probe, including at least three
    Welsh locations, small/large BUAs, coastal/inland places and composite BUAs.
-3. Implement the green-space and pollution geography joins with official lookups
-   and pinned GIS libraries, then prove full population coverage.
+3. Implement the frozen OS Open Greenspace national calculation with pinned GIS
+   libraries, then prove full population coverage.
 4. Acquire and hash the complete releases.
 5. Generate the all-BUA reference distribution.
 6. Produce all 83 canonical observations in one run.
@@ -617,12 +656,11 @@ Update:
 11. Accept only as a single coordinated change containing inputs, scripts, raw
     manifests, generated outputs, tests and documentation.
 
-The 2011 green-space geography conversion remains an important validation gate,
-but it is not expected to require manual or browser-based collection. If official
-lookups plus reproducible GIS joins still cannot meet the declared coverage and
-allocation checks, the correct response is to keep the environment factor blank
-while developing an OS Open Greenspace successor—not to fall back to separate
-English and Welsh deprivation ranks.
+The selected OS Open Greenspace calculation must pass the declared national
+coverage and geometry-audit gates. If it cannot, the correct response is to keep
+the environment factor blank while correcting the national method—not to restore
+the rejected 2020 series or fall back to separate English and Welsh deprivation
+ranks.
 
 ## Sources
 
