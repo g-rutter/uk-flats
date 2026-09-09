@@ -239,6 +239,21 @@ OA population—not names, centroids or manual judgement. ONS itself warns that
 best-fit areas can differ between OA- and LSOA-based datasets, so the boundary
 approximation must be quantified.[^13]
 
+Third-party GIS libraries are permitted for this workstream. Prefer an official
+bulk lookup where it expresses the required relationship adequately; otherwise,
+perform the spatial work reproducibly with `geopandas`, `pyogrio` and `shapely`.
+In particular, an overlay or spatial join can assign current OAs to the 2011
+green-space geography, and can associate Defra's 1 km pollution grid with the
+population geography. Use `rasterio` only if a selected source is supplied as a
+raster rather than as grid CSV or vector data.
+
+Spatial operations must use a documented projected coordinate reference system,
+validate and repair invalid geometries explicitly, state the boundary predicate,
+and record unmatched, multiply matched and sliver features. Population—not
+polygon area—remains the final aggregation weight. Geometry libraries remove the
+need to implement GIS algorithms in the standard library; they do not remove the
+need to retain and audit the geographic allocation decisions.
+
 ### Standardisation
 
 For each pillar:
@@ -304,8 +319,28 @@ Add:
 - `scripts/acquire_residential_environment.py`: downloads only published
   artifacts, records exact URLs, request details, timestamps, MIME types,
   licences, sizes and SHA-256 hashes.
-- `scripts/prepare_residential_environment.py`: offline, standard-library-only
-  parsing, geography joins, aggregation, scoring and audit generation.
+- `scripts/prepare_residential_environment.py`: offline parsing, GIS joins,
+  aggregation, scoring and audit generation using pinned data-processing and GIS
+  dependencies where they simplify or strengthen the work.
+
+All observations are available as bulk datasets. Acquisition should use stable
+HTTP download URLs or documented APIs and must never perform one browser workflow
+per location. If an interactive download page obscures its endpoint, inspect the
+request once and encode the resulting bulk request in the acquisition script.
+Playwright is not part of the refresh method.
+
+The preparer can produce reviewed canonical CSVs that `scripts/build.py` then
+validates and consumes offline. Add a dedicated pinned dependency file, for
+example `requirements-environment.txt`, containing what the preparation workflow
+uses. The likely initial set is:
+
+- `pandas` and `openpyxl` for tabular workbooks;
+- `geopandas`, `pyogrio` and `shapely` for vector data and spatial joins;
+- `rasterio` only if required by the chosen source format.
+
+Document supported Python and library versions, installation, coordinate-system
+requirements and the exact preparation command. A clean environment must be able
+to reproduce the canonical candidate and audit outputs from retained raw files.
 
 Retain the sources under a dated directory such as:
 
@@ -450,7 +485,8 @@ Update:
 1. Freeze the methodology and release schema.
 2. Build a 12-location stratified feasibility probe, including at least three
    Welsh locations, small/large BUAs, coastal/inland places and composite BUAs.
-3. Resolve green-space geography conversion and prove full population coverage.
+3. Implement the green-space and pollution geography joins with official lookups
+   and pinned GIS libraries, then prove full population coverage.
 4. Acquire and hash the complete releases.
 5. Generate the all-BUA reference distribution.
 6. Produce all 83 canonical observations in one run.
@@ -461,11 +497,12 @@ Update:
 11. Accept only as a single coordinated change containing inputs, scripts, raw
     manifests, generated outputs, tests and documentation.
 
-The principal go/no-go issue is the 2011 green-space geography conversion. If
-that cannot meet the declared coverage and allocation checks, the correct
-response is to keep the environment factor blank while developing an OS Open
-Greenspace successor—not to fall back to separate English and Welsh deprivation
-ranks.
+The 2011 green-space geography conversion remains an important validation gate,
+but it is not expected to require manual or browser-based collection. If official
+lookups plus reproducible GIS joins still cannot meet the declared coverage and
+allocation checks, the correct response is to keep the environment factor blank
+while developing an OS Open Greenspace successor—not to fall back to separate
+English and Welsh deprivation ranks.
 
 ## Sources
 

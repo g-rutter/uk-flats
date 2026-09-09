@@ -11,7 +11,7 @@ unless explicitly requested. See [visualisation notes](docs/visualisation.md).
 
 ## Rebuild
 
-Requires Python 3.9+ (standard library only):
+Requires Python 3.9+:
 
 ```sh
 python3 scripts/build.py

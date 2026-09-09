@@ -18,9 +18,9 @@ user explicitly changes the scope. Do not inherit material from
 - `docs/`: methodology, provenance, schema and outstanding work.
 
 Read README.md and docs/methodology.md before changing data or presentation.
-Use Python 3 standard library only for this pipeline. Run `python3 scripts/build.py`
-and `python3 -m unittest discover -s tests` after pipeline changes. Commit inputs,
-scripts and generated outputs together. Never hand-edit generated files.
+Run `python3 scripts/build.py` and `python3 -m unittest discover -s tests` after
+pipeline changes. Commit inputs, scripts and generated outputs together. Never
+hand-edit generated files.
 
 ## Evidence rules
 
