@@ -173,16 +173,11 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
         values['air_burden'] = (values['no2'] / 10 + values['pm25'] / 5 + values['pm10'] / 15) / 3
         legacy = [(oa11, oa11_population.get(oa11, 0), green_lsoa.get(oa11_lsoa.get(oa11, '')))
                   for oa11 in oa21_oa11.get(oa, ())]
-        if oa.startswith('E'):
-            values.update(lsoa_indicators.get(oa_lsoa21[oa], {}))
-        else:
-            indicator_parts = [(oa11_population.get(oa11, 0), lsoa_indicators.get(oa11_lsoa.get(oa11, '')))
-                               for oa11 in oa21_oa11.get(oa, ())]
-            indicator_parts = [(weight, item) for weight, item in indicator_parts if weight > 0 and item]
-            if indicator_parts:
-                indicator_total = sum(weight for weight, _ in indicator_parts)
-                values['noise'] = sum(weight * item['noise'] for weight, item in indicator_parts) / indicator_total
-                values['epc'] = sum(weight * item['epc'] for weight, item in indicator_parts) / indicator_total
+        # Both 2025 indicator releases identify their observations by 2021 LSOA.
+        # Use the exact OA21-to-LSOA21 relationship in both countries.  Routing
+        # Welsh observations through predecessor LSOA11 codes loses replacement
+        # areas such as Coity Higher 1--4 (W01001981--W01001984).
+        values.update(lsoa_indicators.get(oa_lsoa21[oa], {}))
         usable = [(weight, item) for _, weight, item in legacy if weight > 0 and item]
         if usable:
             total = sum(weight for weight, _ in usable)
@@ -260,21 +255,28 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
     components = defaultdict(list)
     for row in read_csv(inputs_dir / 'location_geography_components.csv'):
         components[row['location_id']].append(row['geography_code'])
+    incomplete_locations = []
+    for ident in sorted(locations):
+        codes = components.get(ident, [])
+        if codes and all(code in complete for code in codes):
+            continue
+        details = []
+        for code in codes:
+            row = raw_buas.get(code)
+            if not row:
+                details.append(f'{code}: absent')
+            else:
+                missing = [f'{pillar}={row[f"{pillar}_population_covered"]}/{row["population_expected"]}'
+                           for pillar in PILLARS
+                           if row[f'{pillar}_population_covered'] != row['population_expected']]
+                details.append(f'{code}: {", ".join(missing) or "not in complete reference"}')
+        incomplete_locations.append(f'{ident} ({"; ".join(details) or "no geography components"})')
+    if incomplete_locations:
+        raise ValueError('Residential environment is incomplete: ' + '; '.join(incomplete_locations))
+
     output = []
     for ident in sorted(locations):
         codes = components.get(ident, [])
-        if not codes or any(code not in complete for code in codes):
-            details = []
-            for code in codes:
-                row = raw_buas.get(code)
-                if not row:
-                    details.append(f'{code}: absent')
-                else:
-                    missing = [f'{pillar}={row[f"{pillar}_population_covered"]}/{row["population_expected"]}'
-                               for pillar in PILLARS
-                               if row[f'{pillar}_population_covered'] != row['population_expected']]
-                    details.append(f'{code}: {", ".join(missing) or "not in complete reference"}')
-            raise ValueError(f'{ident}: residential environment is incomplete ({"; ".join(details)})')
         expected = sum(complete[code]['population_expected'] for code in codes)
         combined = {'population_expected': expected}
         numeric = ('air_burden', 'no2', 'pm25', 'pm10', 'noise', 'green_proximity', 'green_provision', 'epc',

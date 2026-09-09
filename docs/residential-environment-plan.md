@@ -15,6 +15,9 @@ Completed foundation:
   `data/raw/environment/2026-09-09/`;
 - added shared percentile/quintile helpers in
   `scripts/residential_environment.py`;
+- froze the pilot definition, fields, geography, standardisation, missing-data
+  behaviour and release gates in
+  `docs/residential-environment-methodology.md`;
 - added the offline `scripts/prepare_residential_environment.py` pipeline for
   OA-to-grid air assignment, LSOA indicators, 2011-to-2021 green-space
   allocation, BUA aggregation, national percentiles/quintiles, candidate rows
@@ -27,12 +30,26 @@ The preparer has not yet passed its coverage gate. Run it in an environment with
 python3 scripts/prepare_residential_environment.py
 ```
 
-The latest fail-closed result is Bridgend BUA `W45001212`: Welsh noise and EPC
-cover 44,916 of 51,751 expected residents. Bangor's initial failure was resolved
-by recognising that WIMD 2025 still uses 2011 LSOA codes and allocating its
-values through the retained OA11-to-OA21 relationship. The next step is to audit
-the unmatched Bridgend OAs and implement a documented official allocation for
-new/irregular Welsh OAs; do not zero-fill or silently drop their population.
+The Welsh noise/EPC coverage gate is now resolved. The retained WIMD downloads
+contain one observation for every current Welsh LSOA21, including replacement
+codes `W01001981`--`W01001984` in Bridgend. The preparer now uses the official
+exact-fit OA21-to-LSOA21 lookup for both countries and reserves the 2011
+allocation for the genuinely older green-space source.
+
+The latest fail-closed result instead identifies two green-space gaps caused by
+the ONS workbook's restriction to residential urban postcodes. Shrewsbury BUA
+`E63009578` covers 75,419 of 75,784 residents (missing OA21 `E00187218`, 365
+residents, whose predecessor LSOA11 `E01028959` has no workbook row). Stafford
+BUA `E63009353` covers 70,762 of 71,695 residents (missing OA21s `E00179367`,
+`E00179398` and `E00179419`, 933 residents in LSOA `E01029743`, also absent from
+the workbook). No other current candidate fails the coverage gate. Do not
+zero-fill, borrow an adjacent LSOA, or silently reduce expected population. A
+documented OS Open Greenspace calculation or another official allocation is now
+required for these OAs before release. OS Open Greenspace is available as a
+bulk OpenData download through the documented OS Downloads API, so upstream
+access is not itself blocked. It would be a new national green-pillar method and
+must replace the 2020 observation consistently for every BUA; it must not be
+used only to patch these four OAs.
 
 Two source facts found during implementation amend assumptions later in this
 plan and must remain explicit:
@@ -45,7 +62,7 @@ plan and must remain explicit:
   exact unshrunk mean. Review whether these differences are acceptable before
   release; otherwise the factor must remain blank pending harmonised inputs.
 
-Remaining work after the coverage/source-compatibility decision:
+Remaining work after the green-coverage and source-compatibility decisions:
 
 1. generate and review the canonical candidate, release and all-BUA audit CSVs;
 2. add sensitivity, outlier, correlation and country-domain validation outputs;
