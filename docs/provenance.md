@@ -42,6 +42,8 @@ signed decimal degrees. Original camelCase names are retained for traceability.
 | transport_stations.csv | `location_id`; reviewed origin CRS, name, rationale, confidence and evidence IDs | National-transport acquisition workstream; contains reviewed mappings for all 83 screen locations |
 | transport_route_observations.csv | one review-only, manually transcribed route observation per location/destination, with planner query, timed itinerary and capture reference | National-transport acquisition workstream; not a canonical replacement until a complete release is approved |
 | condition.csv | `location_id`; explicit assessment, confidence, evidence IDs, method version and reason | Current broad assessment; the band drives the score while reason is explanatory context |
+| residential_environment.csv | `location_id`; four raw pillar observations and percentiles, combined index/national percentile/score, separate periods and evidence IDs, BUA components, per-pillar covered population, expected population, method, confidence and reason | Complete research-only v2 candidate release; not consumed by `build.py` while the noise/EPC compatibility gate remains open |
+| residential_environment_release.csv | release/method IDs, national reference count/population and quintile thresholds, equality rule, weights, air fallback count and OS Open Greenspace geometry/coverage audit | Versioned `residential-environment-bua24-v2` national reference and preparation controls |
 | sources.csv | `location_id`, topic, url; multiple rows per location/topic | JS sources; original links, including archived crime context |
 | evidence.csv | `id`; workstream, title, publisher, url, dataPeriod, retrievalDate, geography, coverage, limitations | JS evidence; inherited source-level metadata |
 
@@ -91,6 +93,25 @@ writes a full review table plus the canonical input. The score uses national
 population-weighted thresholds stored in `local_transport_release.csv`, not the
 candidate distribution. See [local transport methodology](local-transport-methodology.md).
 
+The residential-environment research workstream is also source-to-output
+reproducible, but is not a live build input. `acquire_residential_environment.py`
+downloads official bulk sources and discovers the current GB-wide OS Open
+Greenspace GeoPackage through the OS Downloads API. The retained 2026-09-09
+environment manifest contains ten hash-pinned artifacts, including the April
+2026 product metadata and national geometry archive. The rejected ONS 2020
+green-space workbook and its three 2011 allocation inputs were removed rather
+than archived as supported inputs.
+
+`prepare_residential_environment.py` verifies both the environment manifest and
+the shared local-transport population/BUA release. It calculates green distance
+and clipped provision from OA21 population-weighted origins in EPSG:27700,
+aggregates all four pillars to every BUA, derives the combined national
+distribution, and writes `residential_environment.csv`,
+`residential_environment_release.csv` and the generated
+`data/derived/residential_environment_bua_audit.csv`. The audit contains 7,070
+complete reference BUAs; all four pillars cover the full expected population of
+all 83 candidates. See [residential-environment methodology](residential-environment-methodology.md).
+
 ## Release controls
 
 `data/registry/location_registry.csv` is an intentionally empty, editable intake
@@ -105,7 +126,11 @@ inputs by default.
 Every new raw release has a `manifest.csv` with the columns documented in
 `scripts/release_manifest.py`: relative artifact path, URL, complete request/query,
 retrieval time, data period, SHA-256, MIME type, publisher, licence/terms and
-coverage limitations. `scripts/release_audit.py`, run by `build.py`, writes
+coverage limitations. A release may additionally retain `byte_size`; when it is
+present, the shared manifest loader verifies it before the SHA-256. The
+environment release records this field for all ten artifacts.
+
+`scripts/release_audit.py`, run by `build.py`, writes
 `data/derived/release_audit.csv`. It is one location/topic checklist row with
 `ready`, `missing` or `review-required`. A non-crime observation without a
 retained row-level raw artifact is `review-required`; an ONS crime observation is

@@ -458,15 +458,17 @@ Do not:
 - parse narrative reasons to obtain scores.
 
 If any pillar is missing, the environment factor and overall composite remain
-blank. The release is not ready until all current locations have all four
-pillars.
+blank. V2 satisfies this coverage gate for all current locations; every future
+release must do the same.
 
-## Repository implementation plan
+## Repository implementation record and remaining plan
 
 ### 1. Write and freeze the method
 
-Add `docs/residential-environment-methodology.md` before inspecting candidate
-rankings. It should freeze:
+Status: complete for `residential-environment-bua24-v2`.
+
+`docs/residential-environment-methodology.md` was frozen before inspecting
+candidate rankings. It records:
 
 - definition and exclusions;
 - four equal pillar weights;
@@ -482,7 +484,10 @@ This prevents outcome-driven weight adjustment.
 
 ### 2. Separate acquisition from transformation
 
-Add:
+Status: complete. The acquisition and preparation scripts, exact dependencies
+and retained 2026-09-09 raw release are now present.
+
+Implemented components:
 
 - `scripts/acquire_residential_environment.py`: downloads only published
   artifacts, records exact URLs, request details, timestamps, MIME types,
@@ -497,10 +502,10 @@ per location. If an interactive download page obscures its endpoint, inspect the
 request once and encode the resulting bulk request in the acquisition script.
 Playwright is not part of the refresh method.
 
-The preparer can produce reviewed canonical CSVs that `scripts/build.py` then
-validates and consumes offline. Add a dedicated pinned dependency file, for
-example `requirements-environment.txt`, containing what the preparation workflow
-uses. The likely initial set is:
+The preparer produces research candidate/release CSVs and an all-BUA audit
+offline. `scripts/build.py` does not yet validate or consume them; that switch is
+deferred until Blocker 2 and the research QA are resolved. The exact preparation
+dependencies are pinned in `requirements-environment.txt`:
 
 - `pandas` and `openpyxl` for tabular workbooks;
 - `geopandas`, `pyogrio` and `shapely` for vector data and spatial joins;
@@ -527,7 +532,10 @@ The raw manifest should cover:
 
 ### 3. Introduce purpose-specific canonical tables
 
-Replace `condition.csv` with:
+Status: the two tables have been created as research inputs. They sit alongside
+`condition.csv`; replacing the live condition input remains deferred.
+
+Created tables:
 
 ```text
 data/inputs/residential_environment.csv
@@ -553,7 +561,10 @@ housing_environment_percentile
 environment_index_0_100
 national_percentile
 score
-population_covered
+air_population_covered
+quiet_population_covered
+green_population_covered
+housing_environment_population_covered
 population_expected
 method_version
 confidence
@@ -566,7 +577,10 @@ conceal important vintage differences and should not be used.
 
 ### 4. Generate a national reference audit
 
-Retain or generate an audit row for every England-and-Wales BUA containing:
+Status: complete for v2. The retained audit has 7,070 complete BUA rows and the
+release row records the reference distribution and green geometry controls.
+
+The retained audit row for every England-and-Wales BUA contains:
 
 - four raw pillars;
 - four percentiles;
@@ -580,6 +594,8 @@ thresholds, reference BUA count, population total, equality rule and method
 version.
 
 ### 5. Replace the scoring path
+
+Status: outstanding pending Blocker 2 and research QA.
 
 In `scripts/composite.py`:
 
@@ -604,6 +620,11 @@ In the browser:
 - remove editorial labels such as “Highest broad condition.”
 
 ### 6. Tests and acceptance gates
+
+Status: preparation-time coverage, geography, manifest, direction/unit,
+percentile, threshold and tie gates pass for v2. Live-build missing-input tests
+and the research QA below remain outstanding because the live scoring path has
+not switched.
 
 The release should fail unless:
 
@@ -634,42 +655,43 @@ Research QA before acceptance:
 
 ### 7. Documentation cleanup
 
+Status: README, methodology, provenance, TODO and this plan describe the v2
+research release. The live evidence catalogue and browser documentation remain
+unchanged until the factor is accepted for the live screen.
+
 The live repository contains 83 locations, while the earlier repository
 orientation described 63. The current `condition.csv` still contains only 63
 rows: 45 `mixed`, 15 `favourable`, three `highest`, and no observations for the
 20 later locations. The replacement should cover all 83 in one release.
 
-Update:
+Updated in the research phase: `README.md`, `docs/methodology.md`,
+`docs/provenance.md`, `docs/TODO.md` and this plan.
 
-- `README.md`;
-- `docs/methodology.md`;
-- `docs/provenance.md`;
-- `docs/TODO.md`;
-- the old `ENV001`–`ENV005` evidence records whose coverage still describes 57
-  English and six Welsh candidates.
+Remaining for the live switch: replace the old `ENV001`–`ENV005` evidence
+records whose coverage still describes 57 English and six Welsh candidates.
 
-## Delivery sequence
+## Delivery status
 
-1. Freeze the methodology and release schema.
-2. Build a 12-location stratified feasibility probe, including at least three
-   Welsh locations, small/large BUAs, coastal/inland places and composite BUAs.
-3. Implement the frozen OS Open Greenspace national calculation with pinned GIS
-   libraries, then prove full population coverage.
-4. Acquire and hash the complete releases.
-5. Generate the all-BUA reference distribution.
-6. Produce all 83 canonical observations in one run.
-7. Perform sensitivity and outlier review.
-8. Replace condition scoring, UI and documentation.
-9. Run `python3 scripts/build.py` and the full unit-test suite.
-10. Visually review the browser at desktop and narrow widths.
-11. Accept only as a single coordinated change containing inputs, scripts, raw
-    manifests, generated outputs, tests and documentation.
+Completed: freeze the method/schema; separate acquisition and transformation;
+retain and hash the complete releases; implement and audit the national OS Open
+Greenspace calculation; generate the 7,070-BUA reference distribution; and
+produce all 83 candidate observations in one run.
 
-The selected OS Open Greenspace calculation must pass the declared national
-coverage and geometry-audit gates. If it cannot, the correct response is to keep
-the environment factor blank while correcting the national method—not to restore
-the rejected 2020 series or fall back to separate English and Welsh deprivation
-ranks.
+Remaining sequence:
+
+1. Resolve the England–Wales noise/EPC compatibility decision.
+2. Perform sensitivity, outlier, correlation and country-domain review.
+3. If accepted, replace condition scoring and update the UI, evidence catalogue
+   and live documentation as one coordinated change.
+4. Add strict build-path reproduction and missing-input tests, then run
+   `python3 scripts/build.py` and the full unit-test suite.
+5. Visually review the browser at desktop and narrow widths.
+
+The selected OS Open Greenspace calculation passed the declared national
+coverage and geometry-audit gates. Every future refresh must pass them again; a
+failure keeps the environment factor blank while the national method is
+corrected—it must not restore the rejected 2020 series or fall back to separate
+English and Welsh deprivation ranks.
 
 ## Sources
 

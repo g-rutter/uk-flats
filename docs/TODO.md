@@ -3,7 +3,7 @@
 - Audit every source, calculation and proxy for suitability, reproducibility and opportunities for more objective measures; record any resulting methodology changes and evidence limitations.
   - Is there a better measure of market thickness than rightmove listings?
   - Improve the 'recorded offenses' field. It's meant to be a measure of personal safety against crime and harassment. Continue looking for external sources of this data that are suitable, free and easy to integrate. Consider combining multiple measures, including the current police data. Consider using the 'crime' domain from the English Indices of Deprivation, which is described as, "Risk of personal and material victimisation". (Is it available for Wales?)
-  - Finish the documented Residential environment replacement: implement the selected national OS Open Greenspace method, resolve the remaining England–Wales noise/EPC compatibility decision, validate all 83 locations and only then replace Local condition. See `docs/residential-environment-plan.md`.
+  - Finish the documented Residential environment replacement: resolve the England–Wales noise/EPC compatibility decision, perform the planned sensitivity/outlier/correlation/country-domain review, and only then replace Local condition. See `docs/residential-environment-plan.md`.
   - What is simply being done in a stupid way - too much effort for the payoff perhaps?
 - Re-acquire and document prices and rents for all locations; decide whether reproducible portal stock snapshots are sufficiently reliable to retain as a comparison input.
 - Make end-to-end location additions and data refreshes agent-operable: document and automate the acquisition, validation, evidence, build and review workflow.

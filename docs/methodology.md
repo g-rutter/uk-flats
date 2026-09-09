@@ -80,6 +80,9 @@ dated archive and geography/coverage review supports comparable CSP rates.
   reason, evidence IDs and `broad-assessment-v1` method version. The reason is
   explanatory evidence and never controls the score. These are not measured
   neighbourhood quality. Deprivation is not equivalent to visual condition.
+  A complete research-only `residential-environment-bua24-v2` candidate release
+  and national BUA audit now exist, but they remain outside this live composite
+  until the documented England–Wales noise/EPC compatibility gate is resolved.
 - Recorded offences: ONS CSP violence-against-the-person and sexual-offence rates
   per 1,000 mid-2024 residents for April 2025–March 2026 are shown for all 83
   locations and are the limited recorded-offence component of the composite score.
