@@ -36,31 +36,80 @@ codes `W01001981`--`W01001984` in Bridgend. The preparer now uses the official
 exact-fit OA21-to-LSOA21 lookup for both countries and reserves the 2011
 allocation for the genuinely older green-space source.
 
-The latest fail-closed result instead identifies two green-space gaps caused by
-the ONS workbook's restriction to residential urban postcodes. Shrewsbury BUA
-`E63009578` covers 75,419 of 75,784 residents (missing OA21 `E00187218`, 365
-residents, whose predecessor LSOA11 `E01028959` has no workbook row). Stafford
-BUA `E63009353` covers 70,762 of 71,695 residents (missing OA21s `E00179367`,
-`E00179398` and `E00179419`, 933 residents in LSOA `E01029743`, also absent from
-the workbook). No other current candidate fails the coverage gate. Do not
-zero-fill, borrow an adjacent LSOA, or silently reduce expected population. A
-documented OS Open Greenspace calculation or another official allocation is now
-required for these OAs before release. OS Open Greenspace is available as a
-bulk OpenData download through the documented OS Downloads API, so upstream
-access is not itself blocked. It would be a new national green-pillar method and
-must replace the 2020 observation consistently for every BUA; it must not be
-used only to patch these four OAs.
+### Blocker 1: incomplete green-space coverage
 
-Two source facts found during implementation amend assumptions later in this
-plan and must remain explicit:
+The latest fail-closed result identifies two candidate BUAs whose 2021
+population cannot be fully assigned a value from the corrected 2020 ONS
+green-space workbook:
 
-- the English IoD 2025 noise observation includes major-airport noise alongside
-  road and rail, whereas the Welsh observation is road and rail;
-- England publishes a shrunk deprivation transform of the mean EPC SAP score,
-  while Wales publishes the rounded mean SAP score. The current preparer
-  reverses the English direction as `100 - published score`, but this is not an
-  exact unshrunk mean. Review whether these differences are acceptable before
-  release; otherwise the factor must remain blank pending harmonised inputs.
+| Candidate BUA | Covered / expected population | Missing source allocation |
+| --- | ---: | --- |
+| Shrewsbury `E63009578` | 75,419 / 75,784 | OA21 `E00187218` has 365 residents; its predecessor LSOA11 `E01028959` has no workbook row |
+| Stafford `E63009353` | 70,762 / 71,695 | OA21s `E00179367`, `E00179398` and `E00179419` have 933 residents in total; LSOA `E01029743` has no workbook row |
+
+No other current candidate fails the coverage gate. This is not a broken
+2011-to-2021 lookup: the OAs and their predecessor areas resolve. The source
+observation itself is absent. The mismatch arises because the old ONS analysis
+was restricted to residential urban postcodes, while this project uses April
+2024 BUA membership and Census 2021 usual-resident population. A currently
+included OA can therefore have residents but no observation in the older
+postcode-based source.
+
+Do not clear this blocker by:
+
+- interpreting absence as zero green space or zero access;
+- borrowing an adjacent LSOA's value;
+- silently removing the residents from expected population;
+- renormalising the BUA from its covered residents; or
+- calculating a newer value for only these four OAs and mixing it into the 2020
+  national series.
+
+The preferred resolution is a new national green-pillar calculation for every
+England-and-Wales BUA, probably using current OS Open Greenspace polygons plus a
+consistent set of residential origin points. OS Open Greenspace is available as
+a bulk OpenData download through the documented OS Downloads API, so source
+access is not itself blocked. The replacement still needs a documented choice
+of origin-point data, residential filtering, distance and area calculation,
+duplicate handling, projected CRS and population aggregation. It must regenerate
+the complete national reference distribution rather than patch Shrewsbury and
+Stafford. An alternative is an official allocation or postcode-level release
+that reproduces the ONS observation for the missing areas.
+
+This blocker is cleared only when all four pillars cover the full expected
+population of all 83 candidates and the same green method has been applied to
+every national-reference BUA. Until then the canonical environment output and
+overall composite must remain incomplete.
+
+### Blocker 2: England-Wales source compatibility
+
+Full row coverage would not by itself make the pilot observations comparable.
+Two country-specific measurement differences remain:
+
+1. **Noise scope.** The English IoD 2025 observation includes major-airport
+   noise alongside road and rail. The Welsh WIMD observation is road and rail.
+   An airport-affected English BUA can therefore be penalised for exposure that
+   the Welsh source would not count. This is a systematic definition difference,
+   not ordinary sampling uncertainty, and can change the combined national
+   percentile distribution and individual candidate scores.
+2. **EPC scale.** Wales publishes the rounded mean EPC SAP score. England
+   publishes a shrunk deprivation transform derived from mean SAP rather than
+   the unshrunk mean itself. The current preparer reverses its direction as
+   `100 - published score`, but that operation does not recover mean SAP and
+   cannot undo the shrinkage. Consequently, numerical spacing and potentially
+   ordering among English areas are not directly comparable with Welsh mean SAP
+   values in one England-and-Wales percentile distribution.
+
+The preferred resolution is to obtain or reproduce harmonised raw observations:
+road-and-rail-only noise and mean SAP on the same conceptual scale in both
+countries. A weaker release option would be to accept the mixed observations as
+proxies, label the differences prominently and demonstrate through country
+diagnostics and sensitivity analysis that they do not materially distort the 83
+candidate results. That option requires an explicit methodological acceptance;
+the shared formula alone does not make the inputs harmonised.
+
+This blocker is cleared only by harmonised inputs or a documented acceptance of
+the mixed proxies after the planned validation. Until then the new factor must
+not replace `condition`, even if the green-space coverage blocker is solved.
 
 Remaining work after the green-coverage and source-compatibility decisions:
 
