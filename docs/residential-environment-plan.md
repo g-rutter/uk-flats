@@ -1,5 +1,59 @@
 # Replacing local condition with a residential-environment measure
 
+## Implementation status (2026-09-09 handoff)
+
+This plan is partially implemented. The live screen and composite still use
+`condition.csv`; do not switch them until the new preparer produces complete,
+reviewed outputs for all 83 locations.
+
+Completed foundation:
+
+- added the pinned workbook dependency in `requirements-environment.txt`;
+- added `scripts/acquire_residential_environment.py`, with bulk GET/POST requests
+  for the official English, Welsh, Defra, ONS/Nomis and geography artifacts;
+- retained twelve source artifacts and a hash-verifying manifest under
+  `data/raw/environment/2026-09-09/`;
+- added shared percentile/quintile helpers in
+  `scripts/residential_environment.py`;
+- added the offline `scripts/prepare_residential_environment.py` pipeline for
+  OA-to-grid air assignment, LSOA indicators, 2011-to-2021 green-space
+  allocation, BUA aggregation, national percentiles/quintiles, candidate rows
+  and the national BUA audit.
+
+The preparer has not yet passed its coverage gate. Run it in an environment with
+`openpyxl==3.1.5` using:
+
+```sh
+python3 scripts/prepare_residential_environment.py
+```
+
+The latest fail-closed result is Bridgend BUA `W45001212`: Welsh noise and EPC
+cover 44,916 of 51,751 expected residents. Bangor's initial failure was resolved
+by recognising that WIMD 2025 still uses 2011 LSOA codes and allocating its
+values through the retained OA11-to-OA21 relationship. The next step is to audit
+the unmatched Bridgend OAs and implement a documented official allocation for
+new/irregular Welsh OAs; do not zero-fill or silently drop their population.
+
+Two source facts found during implementation amend assumptions later in this
+plan and must remain explicit:
+
+- the English IoD 2025 noise observation includes major-airport noise alongside
+  road and rail, whereas the Welsh observation is road and rail;
+- England publishes a shrunk deprivation transform of the mean EPC SAP score,
+  while Wales publishes the rounded mean SAP score. The current preparer
+  reverses the English direction as `100 - published score`, but this is not an
+  exact unshrunk mean. Review whether these differences are acceptable before
+  release; otherwise the factor must remain blank pending harmonised inputs.
+
+Remaining work after the coverage/source-compatibility decision:
+
+1. generate and review the canonical candidate, release and all-BUA audit CSVs;
+2. add sensitivity, outlier, correlation and country-domain validation outputs;
+3. replace `condition` in build/composite code and add strict reproduction tests;
+4. update the browser, evidence/source catalogue, README, methodology,
+   provenance and TODO;
+5. rebuild, run all tests and visually review desktop and narrow layouts.
+
 ## Recommendation
 
 Replace the editorial **Local condition** factor with an objective

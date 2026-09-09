@@ -1,0 +1,77 @@
+#!/usr/bin/env python3
+"""Acquire one dated residential-environment source release without transforming it."""
+import argparse
+import hashlib
+import mimetypes
+from datetime import datetime, timezone
+from pathlib import Path
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
+
+from csv_io import write_csv
+
+
+SOURCES = (
+    ('iod2025-underlying-indicators-v2.xlsx', 'GET',
+     'https://assets.publishing.service.gov.uk/media/691dec012c6b98ecdbc500d4/File_8_IoD2025_Underlying_Indicators.xlsx', '',
+     'English IoD 2025 underlying indicators, corrected v2', 'Ministry of Housing, Communities and Local Government'),
+    ('wimd2025-physical-environment.csv', 'POST',
+     'https://stats.gov.wales/en-GB/2f8dfe38-bfa8-4f61-bc34-1d84d470a940/download',
+     'view_type=unfiltered&format=csv&view_choice=raw&extended=yes&download_language=en-GB&selected_filter_options=[]&action=download',
+     'WIMD 2025 physical-environment indicators', 'Welsh Government'),
+    ('wimd2025-housing.csv', 'POST',
+     'https://stats.gov.wales/en-GB/8c4e387a-d221-4a24-9fd4-50bdaacbe273/download',
+     'view_type=unfiltered&format=csv&view_choice=raw&extended=yes&download_language=en-GB&selected_filter_options=[]&action=download',
+     'WIMD 2025 housing indicators', 'Welsh Government'),
+    ('defra-no2-2024.csv', 'GET', 'https://uk-air.defra.gov.uk/datastore/pcm/mapno22024.csv', '',
+     '2024 annual mean NO2 1 km grid', 'Department for Environment, Food & Rural Affairs'),
+    ('defra-pm25-2024.csv', 'GET', 'https://uk-air.defra.gov.uk/datastore/pcm/mappm252024g.csv', '',
+     '2024 annual mean PM2.5 1 km grid', 'Department for Environment, Food & Rural Affairs'),
+    ('defra-pm10-2024.csv', 'GET', 'https://uk-air.defra.gov.uk/datastore/pcm/mappm102024g.csv', '',
+     '2024 annual mean PM10 1 km grid', 'Department for Environment, Food & Rural Affairs'),
+    ('ons-public-green-space-corrected.xlsx', 'GET',
+     'https://www.ons.gov.uk/file?uri=%2Feconomy%2Fenvironmentalaccounts%2Fdatasets%2Faccesstogardensandpublicgreenspaceingreatbritain%2Faccesstopublicparksandplayingfieldsgreatbritainapril2020%2Fospublicgreenspacereferencetables.xlsx', '',
+     'Corrected Access to public green space workbook, structural 2020 baseline', 'Office for National Statistics'),
+    ('oa21-population-weighted-centroids.csv', 'GET',
+     'https://hub.arcgis.com/api/v3/datasets/558170d37ab04f34845034db91a86914_0/downloads/data?format=csv&spatialRefId=27700', '',
+     'December 2021 OA population-weighted centroids v4', 'Office for National Statistics'),
+    ('oa21-lsoa21-msoa21-lookup.csv', 'GET',
+     'https://hub.arcgis.com/api/download/v1/items/b9ca90c10aaa4b8d9791e9859a38ca67/csv?layers=0', '',
+     'December 2021 OA to LSOA/MSOA exact-fit lookup v3', 'Office for National Statistics'),
+    ('oa11-oa21-change-lookup.csv', 'GET',
+     'https://hub.arcgis.com/api/download/v1/items/93ffd0c524db494aa11914d44023c730/csv?layers=0', '',
+     '2011 OA to 2021 OA exact-fit change lookup v3', 'Office for National Statistics'),
+    ('oa11-lsoa11-msoa11-lookup.csv', 'GET',
+     'https://hub.arcgis.com/api/download/v1/items/d382604321554ed49cc15dbc1edb3de3/csv?layers=0', '',
+     '2011 OA to LSOA/MSOA exact-fit lookup v2', 'Office for National Statistics'),
+    ('census2011-ks101ew-oa.zip', 'GET',
+     'https://www.nomisweb.co.uk/output/census/2011/ks101ew_2011_oa.zip', '',
+     'Census 2011 OA usual-resident population', 'Office for National Statistics / Nomis'),
+)
+
+
+def acquire(destination):
+    destination.mkdir(parents=True, exist_ok=False)
+    rows = []
+    for name, method, url, query, period, publisher in SOURCES:
+        body = urlencode(dict(item.split('=', 1) for item in query.split('&'))).encode() if query else None
+        request = Request(url, data=body, method=method)
+        with urlopen(request, timeout=180) as response:
+            payload = response.read()
+            content_type = response.headers.get_content_type()
+        (destination / name).write_bytes(payload)
+        rows.append({
+            'relative_path': name, 'original_url': url, 'request_query': query,
+            'retrieved_at': datetime.now(timezone.utc).isoformat(), 'data_period': period,
+            'sha256': hashlib.sha256(payload).hexdigest(),
+            'mime_type': content_type or mimetypes.guess_type(name)[0] or 'application/octet-stream',
+            'publisher': publisher, 'licence_or_terms': 'Open Government Licence v3.0',
+            'coverage_limitations': 'England and Wales source coverage; see methodology for indicator-specific limitations.',
+        })
+    write_csv(destination / 'manifest.csv', rows, rows[0])
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('destination', type=Path, help='New snapshot directory (must not exist)')
+    acquire(parser.parse_args().destination)
