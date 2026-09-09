@@ -1,6 +1,6 @@
 # Broad comparison methodology
 
-Keep all 83 candidates in view. Broad price, stock, transport, quiet and condition
+Keep all 83 candidates in view. Broad price, stock, transport and condition
 data are in scope; building, subarea and listing research are not. Buying and
 renting remain separate.
 
@@ -16,18 +16,18 @@ They compare only the current location set and are not final grades, price advic
 or neighbourhood conclusions. The calculation is new: it does not use archived
 scores, rankings, shortlists or decisions.
 
-| Factor | Weight | Calculation |
+| Factor | Relative weight | Calculation |
 | --- | ---: | --- |
 | Housing cost | 15 | Within each tenure, fresh equal quintiles of the current proxy distribution score 5, 4, 3, 2 and 1 from cheapest to most expensive. |
 | Recorded-offence safety proxy | 15 | Equal mean of fresh 1--5 quintile scores for the ONS CSP violence-against-the-person and sexual-offence rates; lower recorded rates score higher. |
 | Local public-transport connectivity | 15 | Population-weighted mean of the DfT 2025 OA `Overall (public transport)` metric within each reviewed April 2024 BUA mapping. National population-weighted England-and-Wales quintiles score 1--5; higher is better. |
 | Local condition | 15 | The explicit `assessment` field maps `highest`, `favourable` and `mixed` to 5, 4 and 2. |
-| Quiet | 15 | The explicit `assessment` field maps `persistent_noise`, `mixed_exposure` and `lower_intensity` to 2, 3 and 4. |
 | One-bed stock | 15 | Current tenure-specific Rightmove headline counts of under 10, 10--24, 25--74, 75--249 and 250+ score 1--5. |
 | National transport | 10 | London and Birmingham routes score 5, 4, 3, 2 or 1 at effective journey times (minutes plus 15 per change) of <=75, <=120, <=165, <=210 or >210. The two route scores are averaged. |
 
-The weighted score is `sum(weight * factor score / 5)`. All seven inputs must be
-known or the tenure score remains blank; missing data are never zero-filled.
+The weighted score is `100 * sum(weight * factor score / 5) / sum(weight)`, so
+the configured weights are relative and do not need to total 100. All six inputs
+must be known or the tenure score remains blank; missing data are never zero-filled.
 Confidence labels and buy transaction counts remain evidence context and do not
 arbitrarily change scores. The browser shows the component values and raw measures.
 Housing-cost quintiles are recalculated independently for buying and renting from
@@ -74,11 +74,10 @@ dated archive and geography/coverage review supports comparable CSP rates.
 - National transport: dated representative station-to-station journeys to London
   and Birmingham. This deliberately answers a different question and is scored
   independently of local connectivity.
-- Quiet/condition: inherited coarse judgements with an explicit assessment band,
+- Condition: inherited coarse judgements with an explicit assessment band,
   reason, evidence IDs and `broad-assessment-v1` method version. The reason is
   explanatory evidence and never controls the score. These are not measured
-  exposure or neighbourhood quality. Deprivation is not equivalent to visual
-  condition.
+  neighbourhood quality. Deprivation is not equivalent to visual condition.
 - Recorded offences: ONS CSP violence-against-the-person and sexual-offence rates
   per 1,000 mid-2024 residents for April 2025–March 2026 are shown for all 83
   locations and are the limited recorded-offence component of the composite score.

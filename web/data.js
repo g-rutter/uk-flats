@@ -47,13 +47,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Major radial roads, rail and nearby M1 create exposed corridors, but this is a mixed town-wide noise screen."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -107,13 +100,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "persistent_noise",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Dense road and rail corridors, airport influence and a large nightlife core make persistent noise exposure comparatively likely."
       },
       "condition": {
         "assessment": "mixed",
@@ -169,13 +155,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "The M65, arterial roads and rail create noisy corridors, while much of the wider urban area is less intensively active."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -229,13 +208,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 1,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Visitor traffic, entertainment/nightlife and the promenade corridor raise evening and seasonal noise risk."
       },
       "condition": {
         "assessment": "mixed",
@@ -291,13 +263,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M61 access, busy radial roads and rail create local noise pressure, with quieter residential parts away from them."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -351,13 +316,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 1,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Dense radial traffic, rail corridors, industry and a sizeable nightlife centre make quietness inconsistent."
       },
       "condition": {
         "assessment": "mixed",
@@ -413,13 +371,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M65, rail and industrial corridors are conspicuous, but the town is less continuously busy than a major city."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -473,13 +424,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "The A38, railways and major brewing/industrial activity create conspicuous transport and industrial noise corridors."
       },
       "condition": {
         "assessment": "mixed",
@@ -535,13 +479,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV002;ENV004;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Capital-city traffic, dense rail approaches, major events and nightlife make central noise exposure comparatively likely."
-      },
       "condition": {
         "assessment": "favourable",
         "confidence": "Medium",
@@ -595,13 +532,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 1,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "The A55 and railways are clear noise sources, but the compact city has many areas away from intensive urban activity."
       },
       "condition": {
         "assessment": "favourable",
@@ -657,13 +587,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "lower_intensity",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "The A61, rail and industrial corridors bring noise, while the town's scale leaves plausible calmer areas."
-      },
       "condition": {
         "assessment": "favourable",
         "confidence": "Medium",
@@ -717,13 +640,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "persistent_noise",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "The inner ring road, motorway approaches, rail and a substantial night-time economy create widespread noise pressure."
       },
       "condition": {
         "assessment": "mixed",
@@ -779,13 +695,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A1(M)/A66 approaches and a major rail corridor are conspicuous, but the town is not continuously high-intensity."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -839,13 +748,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Ring roads, a major rail corridor, industry and proximity to East Midlands Airport increase transport-noise exposure."
       },
       "condition": {
         "assessment": "mixed",
@@ -901,13 +803,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "persistent_noise",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Motorways, a nationally important railway and extensive logistics/industrial land create multiple persistent noise corridors."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -961,13 +856,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 1,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "The A1/A184, rail, river crossings and adjacency to Newcastle's urban core make noise exposure likely."
       },
       "condition": {
         "assessment": "mixed",
@@ -1023,13 +911,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M5 access, rail and industrial/port approaches create noise corridors, with calmer fabric beyond them."
-      },
       "condition": {
         "assessment": "favourable",
         "confidence": "Medium",
@@ -1083,13 +964,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 2,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Valley roads, rail and town-centre activity create concentrated noise, while the wider hilly urban area is mixed."
       },
       "condition": {
         "assessment": "mixed",
@@ -1145,13 +1019,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Port industry, rail and arterial traffic are conspicuous, but overall urban intensity is moderate."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -1205,13 +1072,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 2,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "lower_intensity",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Ring-road traffic, rail and town-centre nightlife are evident, with lower-intensity residential areas beyond."
       },
       "condition": {
         "assessment": "mixed",
@@ -1267,13 +1127,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "persistent_noise",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Port, industry, freight traffic and broad arterial roads create substantial persistent-noise exposure."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -1327,13 +1180,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 2,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A14 approaches, rail and port activity create noise corridors, but the town's overall intensity is moderate."
       },
       "condition": {
         "assessment": "mixed",
@@ -1389,13 +1235,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "lower_intensity",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A14 traffic and the Midland Main Line are conspicuous, while the smaller town scale allows calmer areas."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -1449,13 +1288,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "lower_intensity",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M6 and West Coast Main Line corridors are clear sources, but the compact historic city has substantial lower-intensity fabric."
       },
       "condition": {
         "assessment": "favourable",
@@ -1511,13 +1343,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Motorways, dense rail, arterial traffic, nightlife and airport influence make quietness inconsistent across the large city."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Medium",
@@ -1571,13 +1396,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Dense radial traffic, ring roads, rail and a large night-time economy create widespread urban noise pressure."
       },
       "condition": {
         "assessment": "mixed",
@@ -1633,13 +1451,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "lower_intensity",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "The A46, rail, tourism and student/nightlife activity create concentrated noise, with calmer areas elsewhere."
-      },
       "condition": {
         "assessment": "favourable",
         "confidence": "Medium",
@@ -1693,13 +1504,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Port activity, dense road and rail infrastructure and a major nightlife economy create substantial noise pressure."
       },
       "condition": {
         "assessment": "mixed",
@@ -1755,13 +1559,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M1 proximity, rail and university/nightlife activity create noise corridors but not continuous big-city intensity."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -1815,13 +1612,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "persistent_noise",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Dense road, tram and rail networks, major nightlife and airport-related activity make persistent quiet comparatively scarce."
       },
       "condition": {
         "assessment": "favourable",
@@ -1877,13 +1667,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV002;ENV004;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "The A470, valley rail and industrial legacy create linear noise corridors, while surrounding low-density landscape moderates the town-wide picture."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -1937,13 +1720,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 1,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "persistent_noise",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A66 traffic, rail, port and heavy Teesside industry create conspicuous and persistent noise sources."
       },
       "condition": {
         "assessment": "mixed",
@@ -1999,13 +1775,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV002;ENV004;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M4, rail and nearby industry create strong linear noise sources, but the smaller centre and valley setting moderate intensity."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -2059,13 +1828,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A1/A167 traffic, rail, metro and a major nightlife core make central quietness comparatively weak."
       },
       "condition": {
         "assessment": "favourable",
@@ -2121,13 +1883,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "persistent_noise",
-        "confidence": "Medium",
-        "evidence_ids": "ENV002;ENV004;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M4, dense rail approaches, port industry and arterial traffic create multiple persistent noise corridors."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -2181,13 +1936,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M1/A45 traffic, a major rail corridor and extensive logistics activity create notable noise exposure."
       },
       "condition": {
         "assessment": "mixed",
@@ -2243,13 +1991,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "lower_intensity",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "With no urban motorway, noise is concentrated on ring roads, rail and the nightlife core rather than dominating city-wide."
-      },
       "condition": {
         "assessment": "highest",
         "confidence": "Medium",
@@ -2303,13 +2044,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 1,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Ring roads, rail, tram corridors and a major nightlife economy create substantial urban noise pressure."
       },
       "condition": {
         "assessment": "favourable",
@@ -2365,13 +2099,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "persistent_noise",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A1/A47 traffic, a very busy rail corridor and logistics/industrial land create multiple persistent noise sources."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -2425,13 +2152,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "lower_intensity",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A38, rail, naval/port activity and nightlife create noise corridors, while coastal topography provides lower-intensity areas."
       },
       "condition": {
         "assessment": "favourable",
@@ -2487,13 +2207,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "persistent_noise",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Dense island roads, rail, ferry/naval port activity and nightlife make quietness relatively difficult at city scale."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Medium",
@@ -2547,13 +2260,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M6/M55 approaches, major rail, ring-road traffic and nightlife create substantial transport-noise exposure."
       },
       "condition": {
         "assessment": "mixed",
@@ -2609,13 +2315,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "persistent_noise",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M1/M18 approaches, rail, steel industry and freight corridors create conspicuous persistent noise sources."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -2669,13 +2368,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 2,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "persistent_noise",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Motorways, rail, dense Manchester urban activity and nightlife/venue areas create widespread noise pressure."
       },
       "condition": {
         "assessment": "mixed",
@@ -2731,13 +2423,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Arterial roads, rail, tram, industry and nightlife create busy corridors, but hills and extensive green space moderate the city-wide score."
-      },
       "condition": {
         "assessment": "favourable",
         "confidence": "Medium",
@@ -2791,13 +2476,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "lower_intensity",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Bypass roads and rail are clear sources, but the compact town and rural edge offer broadly lower urban intensity."
       },
       "condition": {
         "assessment": "highest",
@@ -2853,13 +2531,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M62 access, arterial roads, rail and industrial/logistics land create multiple noise corridors."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -2913,13 +2584,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "lower_intensity",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M6 and West Coast Main Line corridors are conspicuous, but the smaller town has substantial quieter fabric away from them."
       },
       "condition": {
         "assessment": "favourable",
@@ -2975,13 +2639,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M60, A6, dense rail and Manchester Airport flight paths create significant transport-noise exposure."
-      },
       "condition": {
         "assessment": "favourable",
         "confidence": "Medium",
@@ -3035,13 +2692,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 2,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "persistent_noise",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A19/A66, rail and nearby Teesside industry create prominent and persistent noise sources."
       },
       "condition": {
         "assessment": "mixed",
@@ -3097,13 +2747,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A500/M6 access, rail and dispersed industrial land create widespread road and industrial noise corridors."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -3157,13 +2800,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 1,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A19 approaches, Metro/rail, port industry and nightlife create multiple urban noise sources."
       },
       "condition": {
         "assessment": "mixed",
@@ -3219,13 +2855,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "lower_intensity",
-        "confidence": "Medium",
-        "evidence_ids": "ENV002;ENV004;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M4/A483 approaches, rail, port and nightlife create corridors of noise, moderated by the coastal setting and lower-intensity areas."
-      },
       "condition": {
         "assessment": "favourable",
         "confidence": "Medium",
@@ -3279,13 +2908,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 1,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M4 access, a busy rail corridor and broad arterial roads create substantial transport-noise exposure."
       },
       "condition": {
         "assessment": "mixed",
@@ -3341,13 +2963,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M54/A442 traffic and dispersed industrial estates create local noise, but low-density form reduces continuous urban intensity."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -3401,13 +3016,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "lower_intensity",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Seasonal visitor traffic, rail and resort nightlife create hotspots, but much of the coastal conurbation is lower-intensity."
       },
       "condition": {
         "assessment": "favourable",
@@ -3463,13 +3071,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "persistent_noise",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M1/M62 approaches, major rail and arterial traffic create multiple persistent noise corridors."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -3523,13 +3124,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M6, dense arterial roads, rail and industrial land create widespread transport and industrial noise pressure."
       },
       "condition": {
         "assessment": "mixed",
@@ -3585,13 +3179,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "persistent_noise",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M6/M62/M56, busy railways and extensive logistics/industry create unusually dense transport-noise corridors."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -3645,13 +3232,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 0,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M6/M61 access, rail and arterial roads create clear corridors, but overall activity is below major-city intensity."
       },
       "condition": {
         "assessment": "mixed",
@@ -3707,13 +3287,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "persistent_noise",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Ring roads, rail/Metro, industry and nearby motorway corridors create substantial persistent noise pressure."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -3767,13 +3340,6 @@ window.FLATS_DATA = {
         "birminghamChanges": 1,
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
-      },
-      "quiet": {
-        "assessment": "lower_intensity",
-        "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "M5 and railways create defined corridors, but the small historic city has much lower-intensity fabric away from them."
       },
       "condition": {
         "assessment": "highest",
@@ -3829,13 +3395,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {
-        "assessment": "mixed_exposure",
-        "confidence": "Medium",
-        "evidence_ids": "ENV002;ENV004;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A483, rail and large industrial estates create noticeable corridors, while the town's scale limits continuous intensity."
-      },
       "condition": {
         "assessment": "mixed",
         "confidence": "Low",
@@ -3890,7 +3449,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -3939,7 +3497,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -3988,7 +3545,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4037,7 +3593,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4086,7 +3641,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4135,7 +3689,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4184,7 +3737,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4233,7 +3785,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4282,7 +3833,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4331,7 +3881,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4380,7 +3929,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4429,7 +3977,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4478,7 +4025,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4527,7 +4073,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4576,7 +4121,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4625,7 +4169,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4674,7 +4217,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4723,7 +4265,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4772,7 +4313,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     },
     {
@@ -4821,7 +4361,6 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "quiet": {},
       "condition": {}
     }
   ],
@@ -10719,7 +10258,6 @@ window.FLATS_DATA = {
       "safety": 15,
       "local_transport": 15,
       "condition": 15,
-      "quiet": 15,
       "stock": 15,
       "national_transport": 10
     },
@@ -10784,37 +10322,37 @@ window.FLATS_DATA = {
     "score_bands": {
       "buy": {
         "low": {
-          "count": 21,
-          "minimum": 48.5,
-          "maximum": 58.0
+          "count": 22,
+          "minimum": 48.8,
+          "maximum": 59.4
         },
         "mid": {
-          "count": 23,
-          "minimum": 59.0,
+          "count": 20,
+          "minimum": 60.0,
           "maximum": 63.5
         },
         "high": {
-          "count": 19,
-          "minimum": 64.0,
-          "maximum": 75.5
+          "count": 21,
+          "minimum": 64.1,
+          "maximum": 78.2
         },
         "unknown": 20
       },
       "rent": {
         "low": {
-          "count": 21,
-          "minimum": 48.0,
-          "maximum": 59.0
+          "count": 24,
+          "minimum": 45.9,
+          "maximum": 59.4
         },
         "mid": {
-          "count": 19,
-          "minimum": 59.5,
-          "maximum": 63.0
+          "count": 20,
+          "minimum": 60.0,
+          "maximum": 64.1
         },
         "high": {
-          "count": 23,
-          "minimum": 63.5,
-          "maximum": 77.0
+          "count": 19,
+          "minimum": 64.7,
+          "maximum": 80.0
         },
         "unknown": 20
       }
@@ -10828,12 +10366,11 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 3.0,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 64.5,
+            "score": 65.3,
             "band": "high"
           },
           "rent": {
@@ -10841,12 +10378,11 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 3.0,
               "housing_cost": 5,
               "stock": 2
             },
-            "score": 61.5,
+            "score": 61.8,
             "band": "mid"
           }
         }
@@ -10859,26 +10395,24 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 4.5,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 57.0,
-            "band": "low"
+            "score": 60.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 4.5,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 57.0,
-            "band": "low"
+            "score": 60.0,
+            "band": "mid"
           }
         }
       },
@@ -10890,12 +10424,11 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.5,
               "housing_cost": 4,
               "stock": 1
             },
-            "score": 56.0,
+            "score": 55.3,
             "band": "low"
           },
           "rent": {
@@ -10903,12 +10436,11 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 1
             },
-            "score": 59.0,
+            "score": 58.8,
             "band": "low"
           }
         }
@@ -10921,12 +10453,11 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 4
             },
-            "score": 58.0,
+            "score": 57.6,
             "band": "low"
           },
           "rent": {
@@ -10934,12 +10465,11 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 4
             },
-            "score": 58.0,
+            "score": 57.6,
             "band": "low"
           }
         }
@@ -10952,12 +10482,11 @@ window.FLATS_DATA = {
               "safety": 2.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.5,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 60.5,
+            "score": 60.6,
             "band": "mid"
           },
           "rent": {
@@ -10965,12 +10494,11 @@ window.FLATS_DATA = {
               "safety": 2.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.5,
               "housing_cost": 3,
               "stock": 4
             },
-            "score": 60.5,
+            "score": 60.6,
             "band": "mid"
           }
         }
@@ -10983,12 +10511,11 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 4
             },
-            "score": 62.5,
+            "score": 62.9,
             "band": "mid"
           },
           "rent": {
@@ -10996,13 +10523,12 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.0,
               "housing_cost": 4,
               "stock": 4
             },
-            "score": 59.5,
-            "band": "mid"
+            "score": 59.4,
+            "band": "low"
           }
         }
       },
@@ -11014,12 +10540,11 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 1
             },
-            "score": 52.0,
+            "score": 50.6,
             "band": "low"
           },
           "rent": {
@@ -11027,12 +10552,11 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 2
             },
-            "score": 55.0,
+            "score": 54.1,
             "band": "low"
           }
         }
@@ -11045,12 +10569,11 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.5,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 69.0,
+            "score": 70.6,
             "band": "high"
           },
           "rent": {
@@ -11058,12 +10581,11 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 66.0,
+            "score": 67.1,
             "band": "high"
           }
         }
@@ -11076,12 +10598,11 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 4,
               "condition": 4,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 75.5,
+            "score": 78.2,
             "band": "high"
           },
           "rent": {
@@ -11089,12 +10610,11 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 4,
               "condition": 4,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": 72.5,
+            "score": 74.7,
             "band": "high"
           }
         }
@@ -11107,12 +10627,11 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 3,
               "condition": 4,
-              "quiet": 3,
               "national_transport": 3.5,
               "housing_cost": 2,
               "stock": 3
             },
-            "score": 65.5,
+            "score": 66.5,
             "band": "high"
           },
           "rent": {
@@ -11120,12 +10639,11 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 3,
               "condition": 4,
-              "quiet": 3,
               "national_transport": 3.5,
               "housing_cost": 2,
               "stock": 3
             },
-            "score": 65.5,
+            "score": 66.5,
             "band": "high"
           }
         }
@@ -11138,25 +10656,23 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 3,
               "condition": 4,
-              "quiet": 4,
               "national_transport": 4.5,
               "housing_cost": 4,
               "stock": 2
             },
-            "score": 66.0,
-            "band": "high"
+            "score": 63.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 2.0,
               "local_transport": 3,
               "condition": 4,
-              "quiet": 4,
               "national_transport": 4.5,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 72.0,
+            "score": 70.6,
             "band": "high"
           }
         }
@@ -11169,12 +10685,11 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 5.0,
               "housing_cost": 3,
               "stock": 4
             },
-            "score": 65.5,
+            "score": 70.0,
             "band": "high"
           },
           "rent": {
@@ -11182,13 +10697,12 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 5.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 62.5,
-            "band": "mid"
+            "score": 66.5,
+            "band": "high"
           }
         }
       },
@@ -11200,25 +10714,23 @@ window.FLATS_DATA = {
               "safety": 3.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 2
             },
-            "score": 59.0,
-            "band": "mid"
+            "score": 58.8,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 3.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 2
             },
-            "score": 59.0,
+            "score": 58.8,
             "band": "low"
           }
         }
@@ -11231,12 +10743,11 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 54.0,
+            "score": 52.9,
             "band": "low"
           },
           "rent": {
@@ -11244,7 +10755,6 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.5,
               "housing_cost": 4,
               "stock": 4
@@ -11262,25 +10772,23 @@ window.FLATS_DATA = {
               "safety": 2.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 57.5,
-            "band": "low"
+            "score": 60.6,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 2.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 4.0,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 60.5,
+            "score": 64.1,
             "band": "mid"
           }
         }
@@ -11293,12 +10801,11 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 1.0,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 66.5,
+            "score": 67.6,
             "band": "high"
           },
           "rent": {
@@ -11306,13 +10813,12 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 1.0,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 63.5,
-            "band": "high"
+            "score": 64.1,
+            "band": "mid"
           }
         }
       },
@@ -11324,12 +10830,11 @@ window.FLATS_DATA = {
               "safety": 2.5,
               "local_transport": 3,
               "condition": 4,
-              "quiet": 3,
               "national_transport": 4.5,
               "housing_cost": 2,
               "stock": 3
             },
-            "score": 61.5,
+            "score": 61.8,
             "band": "mid"
           },
           "rent": {
@@ -11337,12 +10842,11 @@ window.FLATS_DATA = {
               "safety": 2.5,
               "local_transport": 3,
               "condition": 4,
-              "quiet": 3,
               "national_transport": 4.5,
               "housing_cost": 2,
               "stock": 3
             },
-            "score": 61.5,
+            "score": 61.8,
             "band": "mid"
           }
         }
@@ -11355,12 +10859,11 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 50.5,
+            "score": 48.8,
             "band": "low"
           },
           "rent": {
@@ -11368,12 +10871,11 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.0,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 53.5,
+            "score": 52.4,
             "band": "low"
           }
         }
@@ -11386,12 +10888,11 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 1.5,
               "housing_cost": 5,
               "stock": 2
             },
-            "score": 51.0,
+            "score": 49.4,
             "band": "low"
           },
           "rent": {
@@ -11399,12 +10900,11 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 1.5,
               "housing_cost": 5,
               "stock": 1
             },
-            "score": 48.0,
+            "score": 45.9,
             "band": "low"
           }
         }
@@ -11417,26 +10917,24 @@ window.FLATS_DATA = {
               "safety": 3.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 4,
               "national_transport": 2.0,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 61.0,
-            "band": "mid"
+            "score": 57.6,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 3.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 4,
               "national_transport": 2.0,
               "housing_cost": 4,
               "stock": 4
             },
-            "score": 64.0,
-            "band": "high"
+            "score": 61.2,
+            "band": "mid"
           }
         }
       },
@@ -11448,26 +10946,24 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 4
             },
-            "score": 57.5,
-            "band": "low"
+            "score": 60.6,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 4
             },
-            "score": 57.5,
-            "band": "low"
+            "score": 60.6,
+            "band": "mid"
           }
         }
       },
@@ -11479,7 +10975,6 @@ window.FLATS_DATA = {
               "safety": 3.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 3.0,
               "housing_cost": 3,
               "stock": 4
@@ -11492,12 +10987,11 @@ window.FLATS_DATA = {
               "safety": 3.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 3.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 57.0,
+            "score": 56.5,
             "band": "low"
           }
         }
@@ -11510,12 +11004,11 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 4,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 2
             },
-            "score": 63.0,
+            "score": 60.0,
             "band": "mid"
           },
           "rent": {
@@ -11523,13 +11016,12 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 4,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 66.0,
-            "band": "high"
+            "score": 63.5,
+            "band": "mid"
           }
         }
       },
@@ -11541,12 +11033,11 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 3,
               "condition": 4,
-              "quiet": 4,
               "national_transport": 3.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 72.0,
+            "score": 70.6,
             "band": "high"
           },
           "rent": {
@@ -11554,12 +11045,11 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 3,
               "condition": 4,
-              "quiet": 4,
               "national_transport": 3.0,
               "housing_cost": 4,
               "stock": 1
             },
-            "score": 69.0,
+            "score": 67.1,
             "band": "high"
           }
         }
@@ -11572,26 +11062,24 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 3.5,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 59.5,
-            "band": "mid"
+            "score": 59.4,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 3.5,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 59.5,
-            "band": "mid"
+            "score": 59.4,
+            "band": "low"
           }
         }
       },
@@ -11603,12 +11091,11 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 5.0,
               "housing_cost": 3,
               "stock": 4
             },
-            "score": 64.0,
+            "score": 64.7,
             "band": "high"
           },
           "rent": {
@@ -11616,12 +11103,11 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 5.0,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 64.0,
+            "score": 64.7,
             "band": "high"
           }
         }
@@ -11634,26 +11120,24 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 3,
               "condition": 4,
-              "quiet": 4,
               "national_transport": 3.5,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 65.5,
-            "band": "high"
+            "score": 62.9,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
               "condition": 4,
-              "quiet": 4,
               "national_transport": 3.5,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 62.5,
-            "band": "mid"
+            "score": 59.4,
+            "band": "low"
           }
         }
       },
@@ -11665,12 +11149,11 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 3.5,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 61.0,
+            "score": 61.2,
             "band": "mid"
           },
           "rent": {
@@ -11678,12 +11161,11 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 3.5,
               "housing_cost": 3,
               "stock": 5
             },
-            "score": 64.0,
+            "score": 64.7,
             "band": "high"
           }
         }
@@ -11696,12 +11178,11 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 2
             },
-            "score": 63.0,
+            "score": 63.5,
             "band": "mid"
           },
           "rent": {
@@ -11709,12 +11190,11 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 2
             },
-            "score": 63.0,
+            "score": 63.5,
             "band": "mid"
           }
         }
@@ -11727,26 +11207,24 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 5,
               "condition": 4,
-              "quiet": 2,
               "national_transport": 3.5,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": 61.0,
-            "band": "mid"
+            "score": 64.7,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
               "local_transport": 5,
               "condition": 4,
-              "quiet": 2,
               "national_transport": 3.5,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": 61.0,
-            "band": "mid"
+            "score": 64.7,
+            "band": "high"
           }
         }
       },
@@ -11758,12 +11236,11 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 2,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 1.5,
               "housing_cost": 5,
               "stock": 1
             },
-            "score": 54.0,
+            "score": 52.9,
             "band": "low"
           },
           "rent": {
@@ -11771,12 +11248,11 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 2,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 1.5,
               "housing_cost": 4,
               "stock": 1
             },
-            "score": 51.0,
+            "score": 49.4,
             "band": "low"
           }
         }
@@ -11789,12 +11265,11 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 2
             },
-            "score": 49.0,
+            "score": 50.6,
             "band": "low"
           },
           "rent": {
@@ -11802,12 +11277,11 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 52.0,
+            "score": 54.1,
             "band": "low"
           }
         }
@@ -11820,12 +11294,11 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 2,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 1
             },
-            "score": 56.0,
+            "score": 55.3,
             "band": "low"
           },
           "rent": {
@@ -11833,12 +11306,11 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 2,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 1
             },
-            "score": 56.0,
+            "score": 55.3,
             "band": "low"
           }
         }
@@ -11851,12 +11323,11 @@ window.FLATS_DATA = {
               "safety": 2.5,
               "local_transport": 4,
               "condition": 4,
-              "quiet": 3,
               "national_transport": 2.0,
               "housing_cost": 3,
               "stock": 4
             },
-            "score": 65.5,
+            "score": 66.5,
             "band": "high"
           },
           "rent": {
@@ -11864,12 +11335,11 @@ window.FLATS_DATA = {
               "safety": 2.5,
               "local_transport": 4,
               "condition": 4,
-              "quiet": 3,
               "national_transport": 2.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 62.5,
+            "score": 62.9,
             "band": "mid"
           }
         }
@@ -11882,12 +11352,11 @@ window.FLATS_DATA = {
               "safety": 2.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 4.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 54.5,
+            "score": 57.1,
             "band": "low"
           },
           "rent": {
@@ -11895,12 +11364,11 @@ window.FLATS_DATA = {
               "safety": 2.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 4.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 54.5,
+            "score": 57.1,
             "band": "low"
           }
         }
@@ -11913,26 +11381,24 @@ window.FLATS_DATA = {
               "safety": 2.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 5.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 59.5,
-            "band": "mid"
+            "score": 59.4,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 2.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 5.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 59.5,
-            "band": "mid"
+            "score": 59.4,
+            "band": "low"
           }
         }
       },
@@ -11944,12 +11410,11 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 3,
               "condition": 5,
-              "quiet": 4,
               "national_transport": 2.5,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 63.5,
+            "score": 60.6,
             "band": "mid"
           },
           "rent": {
@@ -11957,13 +11422,12 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 3,
               "condition": 5,
-              "quiet": 4,
               "national_transport": 2.5,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 63.5,
-            "band": "high"
+            "score": 60.6,
+            "band": "mid"
           }
         }
       },
@@ -11975,25 +11439,23 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 4,
               "condition": 4,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 63.5,
-            "band": "mid"
+            "score": 64.1,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
               "local_transport": 4,
               "condition": 4,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 66.5,
+            "score": 67.6,
             "band": "high"
           }
         }
@@ -12006,26 +11468,24 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 4
             },
-            "score": 57.0,
-            "band": "low"
+            "score": 60.0,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 2.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 4
             },
-            "score": 57.0,
-            "band": "low"
+            "score": 60.0,
+            "band": "mid"
           }
         }
       },
@@ -12037,26 +11497,24 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 3,
               "condition": 4,
-              "quiet": 4,
               "national_transport": 2.0,
               "housing_cost": 3,
               "stock": 4
             },
-            "score": 62.5,
-            "band": "mid"
+            "score": 59.4,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
               "condition": 4,
-              "quiet": 4,
               "national_transport": 2.0,
               "housing_cost": 3,
               "stock": 4
             },
-            "score": 62.5,
-            "band": "mid"
+            "score": 59.4,
+            "band": "low"
           }
         }
       },
@@ -12068,12 +11526,11 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 2.5,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 51.5,
+            "score": 53.5,
             "band": "low"
           },
           "rent": {
@@ -12081,12 +11538,11 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 2.5,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": 48.5,
+            "score": 50.0,
             "band": "low"
           }
         }
@@ -12099,12 +11555,11 @@ window.FLATS_DATA = {
               "safety": 2.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 3.5,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 62.5,
+            "score": 62.9,
             "band": "mid"
           },
           "rent": {
@@ -12112,12 +11567,11 @@ window.FLATS_DATA = {
               "safety": 2.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 3.5,
               "housing_cost": 4,
               "stock": 4
             },
-            "score": 65.5,
+            "score": 66.5,
             "band": "high"
           }
         }
@@ -12130,12 +11584,11 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 3.5,
               "housing_cost": 4,
               "stock": 2
             },
-            "score": 56.5,
+            "score": 59.4,
             "band": "low"
           },
           "rent": {
@@ -12143,13 +11596,12 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 3.5,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 62.5,
-            "band": "mid"
+            "score": 66.5,
+            "band": "high"
           }
         }
       },
@@ -12161,12 +11613,11 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 5,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 2.0,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": 55.0,
+            "score": 57.6,
             "band": "low"
           },
           "rent": {
@@ -12174,12 +11625,11 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 5,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 2.0,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": 55.0,
+            "score": 57.6,
             "band": "low"
           }
         }
@@ -12192,12 +11642,11 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 4,
               "condition": 4,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 74.0,
+            "score": 76.5,
             "band": "high"
           },
           "rent": {
@@ -12205,12 +11654,11 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 4,
               "condition": 4,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 3,
               "stock": 5
             },
-            "score": 77.0,
+            "score": 80.0,
             "band": "high"
           }
         }
@@ -12223,12 +11671,11 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 2,
               "condition": 5,
-              "quiet": 4,
               "national_transport": 3.5,
               "housing_cost": 2,
               "stock": 3
             },
-            "score": 70.0,
+            "score": 68.2,
             "band": "high"
           },
           "rent": {
@@ -12236,12 +11683,11 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 2,
               "condition": 5,
-              "quiet": 4,
               "national_transport": 3.5,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 76.0,
+            "score": 75.3,
             "band": "high"
           }
         }
@@ -12254,7 +11700,6 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 3.0,
               "housing_cost": 5,
               "stock": 1
@@ -12267,7 +11712,6 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 3.0,
               "housing_cost": 4,
               "stock": 2
@@ -12285,12 +11729,11 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 2,
               "condition": 4,
-              "quiet": 4,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 2
             },
-            "score": 67.5,
+            "score": 65.3,
             "band": "high"
           },
           "rent": {
@@ -12298,12 +11741,11 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 2,
               "condition": 4,
-              "quiet": 4,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 2
             },
-            "score": 67.5,
+            "score": 65.3,
             "band": "high"
           }
         }
@@ -12316,12 +11758,11 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 4,
               "condition": 4,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 3
             },
-            "score": 71.0,
+            "score": 72.9,
             "band": "high"
           },
           "rent": {
@@ -12329,12 +11770,11 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 4,
               "condition": 4,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 74.0,
+            "score": 76.5,
             "band": "high"
           }
         }
@@ -12347,12 +11787,11 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 1.0,
               "housing_cost": 5,
               "stock": 2
             },
-            "score": 48.5,
+            "score": 50.0,
             "band": "low"
           },
           "rent": {
@@ -12360,12 +11799,11 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 1.0,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 51.5,
+            "score": 53.5,
             "band": "low"
           }
         }
@@ -12378,7 +11816,6 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.5,
               "housing_cost": 5,
               "stock": 3
@@ -12391,7 +11828,6 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.5,
               "housing_cost": 5,
               "stock": 3
@@ -12409,26 +11845,24 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 1.0,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 63.5,
-            "band": "mid"
+            "score": 64.1,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 3.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 1.0,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 63.5,
-            "band": "high"
+            "score": 64.1,
+            "band": "mid"
           }
         }
       },
@@ -12440,26 +11874,24 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 2,
               "condition": 4,
-              "quiet": 4,
               "national_transport": 2.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 65.5,
-            "band": "high"
+            "score": 62.9,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
               "local_transport": 2,
               "condition": 4,
-              "quiet": 4,
               "national_transport": 2.0,
               "housing_cost": 3,
               "stock": 2
             },
-            "score": 62.5,
-            "band": "mid"
+            "score": 59.4,
+            "band": "low"
           }
         }
       },
@@ -12471,26 +11903,24 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 63.5,
-            "band": "mid"
+            "score": 64.1,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 63.5,
-            "band": "high"
+            "score": 64.1,
+            "band": "mid"
           }
         }
       },
@@ -12502,12 +11932,11 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 2,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 60.5,
+            "score": 60.6,
             "band": "mid"
           },
           "rent": {
@@ -12515,12 +11944,11 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 2,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 2
             },
-            "score": 57.5,
+            "score": 57.1,
             "band": "low"
           }
         }
@@ -12533,12 +11961,11 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 2,
               "condition": 4,
-              "quiet": 4,
               "national_transport": 2.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 58.0,
+            "score": 54.1,
             "band": "low"
           },
           "rent": {
@@ -12546,12 +11973,11 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 2,
               "condition": 4,
-              "quiet": 4,
               "national_transport": 2.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 58.0,
+            "score": 54.1,
             "band": "low"
           }
         }
@@ -12564,12 +11990,11 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 54.5,
+            "score": 57.1,
             "band": "low"
           },
           "rent": {
@@ -12577,12 +12002,11 @@ window.FLATS_DATA = {
               "safety": 1.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 54.5,
+            "score": 57.1,
             "band": "low"
           }
         }
@@ -12595,12 +12019,11 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 68.0,
+            "score": 69.4,
             "band": "high"
           },
           "rent": {
@@ -12608,12 +12031,11 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 65.0,
+            "score": 65.9,
             "band": "high"
           }
         }
@@ -12626,12 +12048,11 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 4.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 59.0,
+            "score": 62.4,
             "band": "mid"
           },
           "rent": {
@@ -12639,13 +12060,12 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 4.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 59.0,
-            "band": "low"
+            "score": 62.4,
+            "band": "mid"
           }
         }
       },
@@ -12657,26 +12077,24 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 2
             },
-            "score": 63.5,
-            "band": "mid"
+            "score": 64.1,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 3.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 2
             },
-            "score": 63.5,
-            "band": "high"
+            "score": 64.1,
+            "band": "mid"
           }
         }
       },
@@ -12688,12 +12106,11 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 4.5,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 64.5,
+            "score": 68.8,
             "band": "high"
           },
           "rent": {
@@ -12701,12 +12118,11 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 4,
               "condition": 2,
-              "quiet": 2,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 4
             },
-            "score": 64.5,
+            "score": 68.8,
             "band": "high"
           }
         }
@@ -12719,12 +12135,11 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 3,
               "condition": 5,
-              "quiet": 4,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 3
             },
-            "score": 74.0,
+            "score": 72.9,
             "band": "high"
           },
           "rent": {
@@ -12732,12 +12147,11 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 3,
               "condition": 5,
-              "quiet": 4,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 3
             },
-            "score": 74.0,
+            "score": 72.9,
             "band": "high"
           }
         }
@@ -12750,12 +12164,11 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 3.5,
               "housing_cost": 4,
               "stock": 1
             },
-            "score": 56.5,
+            "score": 55.9,
             "band": "low"
           },
           "rent": {
@@ -12763,13 +12176,12 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 3,
               "condition": 2,
-              "quiet": 3,
               "national_transport": 3.5,
               "housing_cost": 4,
               "stock": 2
             },
-            "score": 59.5,
-            "band": "mid"
+            "score": 59.4,
+            "band": "low"
           }
         }
       },
@@ -12781,7 +12193,6 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 5
@@ -12794,7 +12205,6 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 5
@@ -12812,7 +12222,6 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.5,
               "housing_cost": 1,
               "stock": 5
@@ -12825,7 +12234,6 @@ window.FLATS_DATA = {
               "safety": 1.0,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.5,
               "housing_cost": 1,
               "stock": 5
@@ -12843,7 +12251,6 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 2.5,
               "housing_cost": 1,
               "stock": 5
@@ -12856,7 +12263,6 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 2.5,
               "housing_cost": 1,
               "stock": 5
@@ -12874,7 +12280,6 @@ window.FLATS_DATA = {
               "safety": 3.0,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.0,
               "housing_cost": 1,
               "stock": 5
@@ -12887,7 +12292,6 @@ window.FLATS_DATA = {
               "safety": 3.0,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.0,
               "housing_cost": 1,
               "stock": 5
@@ -12905,7 +12309,6 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 3,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.0,
               "housing_cost": 1,
               "stock": 4
@@ -12918,7 +12321,6 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 3,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.0,
               "housing_cost": 1,
               "stock": 3
@@ -12936,7 +12338,6 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 4.5,
               "housing_cost": 1,
               "stock": 4
@@ -12949,7 +12350,6 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 4.5,
               "housing_cost": 1,
               "stock": 5
@@ -12967,7 +12367,6 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 3,
               "condition": null,
-              "quiet": null,
               "national_transport": 5.0,
               "housing_cost": 1,
               "stock": 4
@@ -12980,7 +12379,6 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 3,
               "condition": null,
-              "quiet": null,
               "national_transport": 5.0,
               "housing_cost": 1,
               "stock": 4
@@ -12998,7 +12396,6 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 4
@@ -13011,7 +12408,6 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 4
@@ -13029,7 +12425,6 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.0,
               "housing_cost": 1,
               "stock": 4
@@ -13042,7 +12437,6 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.0,
               "housing_cost": 1,
               "stock": 3
@@ -13060,7 +12454,6 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 4
@@ -13073,7 +12466,6 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 4
@@ -13091,7 +12483,6 @@ window.FLATS_DATA = {
               "safety": 3.0,
               "local_transport": 3,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.5,
               "housing_cost": 1,
               "stock": 4
@@ -13104,7 +12495,6 @@ window.FLATS_DATA = {
               "safety": 3.0,
               "local_transport": 3,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.5,
               "housing_cost": 2,
               "stock": 4
@@ -13122,7 +12512,6 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 5.0,
               "housing_cost": 1,
               "stock": 4
@@ -13135,7 +12524,6 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 5.0,
               "housing_cost": 1,
               "stock": 4
@@ -13153,7 +12541,6 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.5,
               "housing_cost": 1,
               "stock": 4
@@ -13166,7 +12553,6 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 4,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.5,
               "housing_cost": 1,
               "stock": 4
@@ -13184,7 +12570,6 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 2,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.0,
               "housing_cost": 3,
               "stock": 1
@@ -13197,7 +12582,6 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 2,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.0,
               "housing_cost": 4,
               "stock": 1
@@ -13215,7 +12599,6 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 2,
               "condition": null,
-              "quiet": null,
               "national_transport": 1.5,
               "housing_cost": 4,
               "stock": 1
@@ -13228,7 +12611,6 @@ window.FLATS_DATA = {
               "safety": 4.5,
               "local_transport": 2,
               "condition": null,
-              "quiet": null,
               "national_transport": 1.5,
               "housing_cost": 5,
               "stock": 1
@@ -13246,7 +12628,6 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 2,
               "condition": null,
-              "quiet": null,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 1
@@ -13259,7 +12640,6 @@ window.FLATS_DATA = {
               "safety": 4.0,
               "local_transport": 2,
               "condition": null,
-              "quiet": null,
               "national_transport": 2.0,
               "housing_cost": 4,
               "stock": 1
@@ -13277,7 +12657,6 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 3,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.0,
               "housing_cost": 5,
               "stock": 1
@@ -13290,7 +12669,6 @@ window.FLATS_DATA = {
               "safety": 2.0,
               "local_transport": 3,
               "condition": null,
-              "quiet": null,
               "national_transport": 3.0,
               "housing_cost": 4,
               "stock": 1
@@ -13308,7 +12686,6 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 3,
               "condition": null,
-              "quiet": null,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 4
@@ -13321,7 +12698,6 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 3,
               "condition": null,
-              "quiet": null,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 4
@@ -13339,7 +12715,6 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 3,
               "condition": null,
-              "quiet": null,
               "national_transport": 2.5,
               "housing_cost": 4,
               "stock": 1
@@ -13352,7 +12727,6 @@ window.FLATS_DATA = {
               "safety": 3.5,
               "local_transport": 3,
               "condition": null,
-              "quiet": null,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 1
@@ -13370,7 +12744,6 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 3,
               "condition": null,
-              "quiet": null,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 4
@@ -13383,7 +12756,6 @@ window.FLATS_DATA = {
               "safety": 5.0,
               "local_transport": 3,
               "condition": null,
-              "quiet": null,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 4

@@ -1,10 +1,10 @@
 # Next work
 
 - Complete the outstanding location records:
-  - Replace the remaining reviewer rubrics for quiet and condition with suitable objective releases; do not infer bands from nearby places or treat deprivation as appearance. Local transport now uses the reproducible DfT connectivity metric.
+  - Replace the remaining reviewer rubric for condition with a suitable objective release; do not infer bands from nearby places or treat deprivation as appearance. Local transport now uses the reproducible DfT connectivity metric.
 - Audit every source, calculation and proxy for suitability, reproducibility and opportunities for more objective measures; record any resulting methodology changes and evidence limitations.
   - Is there a better measure of market thickness than rightmove listings?
-  - Can we make the quietness and condition fields more objective and data driven?
+  - Can we make the condition field more objective and data driven?
   - Keep Police.uk ASB research-only unless a dated archive passes the documented force/month coverage and geography review.
   - What is simply being done in a stupid way - too much effort for the payoff perhaps?
 - Re-acquire and document prices and rents for all locations; decide whether reproducible portal stock snapshots are sufficiently reliable to retain as a comparison input.

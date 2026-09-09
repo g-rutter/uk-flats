@@ -41,13 +41,13 @@ signed decimal degrees. Original camelCase names are retained for traceability.
 | nationalTransport.csv | `location_id`; londonMinutes/Changes, birminghamMinutes/Changes, confidence and reason | JS nationalTransport; TR01 and per-location transport links |
 | transport_stations.csv | `location_id`; reviewed origin CRS, name, rationale, confidence and evidence IDs | National-transport acquisition workstream; contains reviewed mappings for all 83 screen locations |
 | transport_route_observations.csv | one review-only, manually transcribed route observation per location/destination, with planner query, timed itinerary and capture reference | National-transport acquisition workstream; not a canonical replacement until a complete release is approved |
-| quiet.csv, condition.csv | `location_id`; explicit assessment, confidence, evidence IDs, method version and reason | Current broad assessment; the band drives the score while reason is explanatory context |
+| condition.csv | `location_id`; explicit assessment, confidence, evidence IDs, method version and reason | Current broad assessment; the band drives the score while reason is explanatory context |
 | sources.csv | `location_id`, topic, url; multiple rows per location/topic | JS sources; original links, including archived crime context |
 | evidence.csv | `id`; workstream, title, publisher, url, dataPeriod, retrievalDate, geography, coverage, limitations | JS evidence; inherited source-level metadata |
 
 The topic-to-evidence mapping above documents the inherited common periods. Most
 visitor links by location live in sources.csv; local transport resolves its
-shared DfT link through the row's `evidence_id`. For quietness and condition,
+shared DfT link through the row's `evidence_id`. For condition,
 `evidence_ids` is a semicolon-separated list of evidence-catalogue IDs and
 `method_version` identifies the assessment rubric; the validated `assessment`
 enum alone controls those scores. Local transport no longer uses an assessment

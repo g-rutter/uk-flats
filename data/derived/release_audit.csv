@@ -4,7 +4,6 @@ barnsley,rent,review-required,Barnsley,,,Imported baseline value has no retained
 barnsley,market,review-required,Barnsley,,,Imported baseline value has no retained row-level raw artifact
 barnsley,localTransport,ready,E63008268,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 barnsley,nationalTransport,review-required,Barnsley,,,Imported baseline value has no retained row-level raw artifact
-barnsley,quiet,review-required,Barnsley,,,Imported baseline value has no retained row-level raw artifact
 barnsley,condition,review-required,Barnsley,,,Imported baseline value has no retained row-level raw artifact
 barnsley,crime,ready,E22000259,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 birmingham,buy,review-required,Birmingham,,,Imported baseline value has no retained row-level raw artifact
@@ -12,7 +11,6 @@ birmingham,rent,review-required,Birmingham,,,Imported baseline value has no reta
 birmingham,market,review-required,Birmingham,,,Imported baseline value has no retained row-level raw artifact
 birmingham,localTransport,ready,E63010038,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 birmingham,nationalTransport,review-required,Birmingham,,,Imported baseline value has no retained row-level raw artifact
-birmingham,quiet,review-required,Birmingham,,,Imported baseline value has no retained row-level raw artifact
 birmingham,condition,review-required,Birmingham,,,Imported baseline value has no retained row-level raw artifact
 birmingham,crime,ready,E22000335,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 blackburn,buy,review-required,Blackburn with Darwen,,,Imported baseline value has no retained row-level raw artifact
@@ -20,7 +18,6 @@ blackburn,rent,review-required,Blackburn with Darwen,,,Imported baseline value h
 blackburn,market,review-required,Blackburn with Darwen,,,Imported baseline value has no retained row-level raw artifact
 blackburn,localTransport,ready,E63007969,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 blackburn,nationalTransport,review-required,Blackburn with Darwen,,,Imported baseline value has no retained row-level raw artifact
-blackburn,quiet,review-required,Blackburn with Darwen,,,Imported baseline value has no retained row-level raw artifact
 blackburn,condition,review-required,Blackburn with Darwen,,,Imported baseline value has no retained row-level raw artifact
 blackburn,crime,ready,E22000150,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 blackpool,buy,review-required,Blackpool,,,Imported baseline value has no retained row-level raw artifact
@@ -28,7 +25,6 @@ blackpool,rent,review-required,Blackpool,,,Imported baseline value has no retain
 blackpool,market,review-required,Blackpool,,,Imported baseline value has no retained row-level raw artifact
 blackpool,localTransport,ready,E63007890,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 blackpool,nationalTransport,review-required,Blackpool,,,Imported baseline value has no retained row-level raw artifact
-blackpool,quiet,review-required,Blackpool,,,Imported baseline value has no retained row-level raw artifact
 blackpool,condition,review-required,Blackpool,,,Imported baseline value has no retained row-level raw artifact
 blackpool,crime,ready,E22000151,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 bolton,buy,review-required,Bolton,,,Imported baseline value has no retained row-level raw artifact
@@ -36,7 +32,6 @@ bolton,rent,review-required,Bolton,,,Imported baseline value has no retained row
 bolton,market,review-required,Bolton,,,Imported baseline value has no retained row-level raw artifact
 bolton,localTransport,ready,E63008201,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 bolton,nationalTransport,review-required,Bolton,,,Imported baseline value has no retained row-level raw artifact
-bolton,quiet,review-required,Bolton,,,Imported baseline value has no retained row-level raw artifact
 bolton,condition,review-required,Bolton,,,Imported baseline value has no retained row-level raw artifact
 bolton,crime,ready,E22000099,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 bradford,buy,review-required,Bradford,,,Imported baseline value has no retained row-level raw artifact
@@ -44,7 +39,6 @@ bradford,rent,review-required,Bradford,,,Imported baseline value has no retained
 bradford,market,review-required,Bradford,,,Imported baseline value has no retained row-level raw artifact
 bradford,localTransport,ready,E63007920,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 bradford,nationalTransport,review-required,Bradford,,,Imported baseline value has no retained row-level raw artifact
-bradford,quiet,review-required,Bradford,,,Imported baseline value has no retained row-level raw artifact
 bradford,condition,review-required,Bradford,,,Imported baseline value has no retained row-level raw artifact
 bradford,crime,ready,E22000342,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 burnley,buy,review-required,Burnley,,,Imported baseline value has no retained row-level raw artifact
@@ -52,7 +46,6 @@ burnley,rent,review-required,Burnley,,,Imported baseline value has no retained r
 burnley,market,review-required,Burnley,,,Imported baseline value has no retained row-level raw artifact
 burnley,localTransport,ready,E63007907,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 burnley,nationalTransport,review-required,Burnley,,,Imported baseline value has no retained row-level raw artifact
-burnley,quiet,review-required,Burnley,,,Imported baseline value has no retained row-level raw artifact
 burnley,condition,review-required,Burnley,,,Imported baseline value has no retained row-level raw artifact
 burnley,crime,ready,E22000152,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 burton-on-trent,buy,review-required,East Staffordshire,,,Imported baseline value has no retained row-level raw artifact
@@ -60,7 +53,6 @@ burton-on-trent,rent,review-required,East Staffordshire,,,Imported baseline valu
 burton-on-trent,market,review-required,East Staffordshire,,,Imported baseline value has no retained row-level raw artifact
 burton-on-trent,localTransport,ready,E63009360,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 burton-on-trent,nationalTransport,review-required,East Staffordshire,,,Imported baseline value has no retained row-level raw artifact
-burton-on-trent,quiet,review-required,East Staffordshire,,,Imported baseline value has no retained row-level raw artifact
 burton-on-trent,condition,review-required,East Staffordshire,,,Imported baseline value has no retained row-level raw artifact
 burton-on-trent,crime,ready,E22000264,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 cardiff,buy,review-required,Cardiff,,,Imported baseline value has no retained row-level raw artifact
@@ -68,7 +60,6 @@ cardiff,rent,review-required,Cardiff,,,Imported baseline value has no retained r
 cardiff,market,review-required,Cardiff,,,Imported baseline value has no retained row-level raw artifact
 cardiff,localTransport,ready,W45001208,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 cardiff,nationalTransport,review-required,Cardiff,,,Imported baseline value has no retained row-level raw artifact
-cardiff,quiet,review-required,Cardiff,,,Imported baseline value has no retained row-level raw artifact
 cardiff,condition,review-required,Cardiff,,,Imported baseline value has no retained row-level raw artifact
 cardiff,crime,ready,W14000015,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 chester,buy,review-required,Cheshire West and Chester,,,Imported baseline value has no retained row-level raw artifact
@@ -76,7 +67,6 @@ chester,rent,review-required,Cheshire West and Chester,,,Imported baseline value
 chester,market,review-required,Cheshire West and Chester,,,Imported baseline value has no retained row-level raw artifact
 chester,localTransport,ready,K08000011,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 chester,nationalTransport,review-required,Cheshire West and Chester,,,Imported baseline value has no retained row-level raw artifact
-chester,quiet,review-required,Cheshire West and Chester,,,Imported baseline value has no retained row-level raw artifact
 chester,condition,review-required,Cheshire West and Chester,,,Imported baseline value has no retained row-level raw artifact
 chester,crime,ready,E22000355,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 chesterfield,buy,review-required,Chesterfield,,,Imported baseline value has no retained row-level raw artifact
@@ -84,7 +74,6 @@ chesterfield,rent,review-required,Chesterfield,,,Imported baseline value has no 
 chesterfield,market,review-required,Chesterfield,,,Imported baseline value has no retained row-level raw artifact
 chesterfield,localTransport,ready,E63008717,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 chesterfield,nationalTransport,review-required,Chesterfield,,,Imported baseline value has no retained row-level raw artifact
-chesterfield,quiet,review-required,Chesterfield,,,Imported baseline value has no retained row-level raw artifact
 chesterfield,condition,review-required,Chesterfield,,,Imported baseline value has no retained row-level raw artifact
 chesterfield,crime,ready,E22000039,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 coventry,buy,review-required,Coventry,,,Imported baseline value has no retained row-level raw artifact
@@ -92,7 +81,6 @@ coventry,rent,review-required,Coventry,,,Imported baseline value has no retained
 coventry,market,review-required,Coventry,,,Imported baseline value has no retained row-level raw artifact
 coventry,localTransport,ready,E63010120,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 coventry,nationalTransport,review-required,Coventry,,,Imported baseline value has no retained row-level raw artifact
-coventry,quiet,review-required,Coventry,,,Imported baseline value has no retained row-level raw artifact
 coventry,condition,review-required,Coventry,,,Imported baseline value has no retained row-level raw artifact
 coventry,crime,ready,E22000336,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 darlington,buy,review-required,Darlington,,,Imported baseline value has no retained row-level raw artifact
@@ -100,7 +88,6 @@ darlington,rent,review-required,Darlington,,,Imported baseline value has no reta
 darlington,market,review-required,Darlington,,,Imported baseline value has no retained row-level raw artifact
 darlington,localTransport,ready,E63007428,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 darlington,nationalTransport,review-required,Darlington,,,Imported baseline value has no retained row-level raw artifact
-darlington,quiet,review-required,Darlington,,,Imported baseline value has no retained row-level raw artifact
 darlington,condition,review-required,Darlington,,,Imported baseline value has no retained row-level raw artifact
 darlington,crime,ready,E22000072,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 derby,buy,review-required,Derby,,,Imported baseline value has no retained row-level raw artifact
@@ -108,7 +95,6 @@ derby,rent,review-required,Derby,,,Imported baseline value has no retained row-l
 derby,market,review-required,Derby,,,Imported baseline value has no retained row-level raw artifact
 derby,localTransport,ready,E63009183,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 derby,nationalTransport,review-required,Derby,,,Imported baseline value has no retained row-level raw artifact
-derby,quiet,review-required,Derby,,,Imported baseline value has no retained row-level raw artifact
 derby,condition,review-required,Derby,,,Imported baseline value has no retained row-level raw artifact
 derby,crime,ready,E22000040,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 doncaster,buy,review-required,Doncaster,,,Imported baseline value has no retained row-level raw artifact
@@ -116,7 +102,6 @@ doncaster,rent,review-required,Doncaster,,,Imported baseline value has no retain
 doncaster,market,review-required,Doncaster,,,Imported baseline value has no retained row-level raw artifact
 doncaster,localTransport,ready,E63008314,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 doncaster,nationalTransport,review-required,Doncaster,,,Imported baseline value has no retained row-level raw artifact
-doncaster,quiet,review-required,Doncaster,,,Imported baseline value has no retained row-level raw artifact
 doncaster,condition,review-required,Doncaster,,,Imported baseline value has no retained row-level raw artifact
 doncaster,crime,ready,E22000260,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 gateshead,buy,review-required,Gateshead,,,Imported baseline value has no retained row-level raw artifact
@@ -124,7 +109,6 @@ gateshead,rent,review-required,Gateshead,,,Imported baseline value has no retain
 gateshead,market,review-required,Gateshead,,,Imported baseline value has no retained row-level raw artifact
 gateshead,localTransport,ready,E63007200,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 gateshead,nationalTransport,review-required,Gateshead,,,Imported baseline value has no retained row-level raw artifact
-gateshead,quiet,review-required,Gateshead,,,Imported baseline value has no retained row-level raw artifact
 gateshead,condition,review-required,Gateshead,,,Imported baseline value has no retained row-level raw artifact
 gateshead,crime,ready,E22000244,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 gloucester,buy,review-required,Gloucester,,,Imported baseline value has no retained row-level raw artifact
@@ -132,7 +116,6 @@ gloucester,rent,review-required,Gloucester,,,Imported baseline value has no reta
 gloucester,market,review-required,Gloucester,,,Imported baseline value has no retained row-level raw artifact
 gloucester,localTransport,ready,E63011389,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 gloucester,nationalTransport,review-required,Gloucester,,,Imported baseline value has no retained row-level raw artifact
-gloucester,quiet,review-required,Gloucester,,,Imported baseline value has no retained row-level raw artifact
 gloucester,condition,review-required,Gloucester,,,Imported baseline value has no retained row-level raw artifact
 gloucester,crime,ready,E22000096,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 halifax,buy,review-required,Calderdale,,,Imported baseline value has no retained row-level raw artifact
@@ -140,7 +123,6 @@ halifax,rent,review-required,Calderdale,,,Imported baseline value has no retaine
 halifax,market,review-required,Calderdale,,,Imported baseline value has no retained row-level raw artifact
 halifax,localTransport,ready,E63007966,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 halifax,nationalTransport,review-required,Calderdale,,,Imported baseline value has no retained row-level raw artifact
-halifax,quiet,review-required,Calderdale,,,Imported baseline value has no retained row-level raw artifact
 halifax,condition,review-required,Calderdale,,,Imported baseline value has no retained row-level raw artifact
 halifax,crime,ready,E22000343,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 hartlepool,buy,review-required,Hartlepool,,,Imported baseline value has no retained row-level raw artifact
@@ -148,7 +130,6 @@ hartlepool,rent,review-required,Hartlepool,,,Imported baseline value has no reta
 hartlepool,market,review-required,Hartlepool,,,Imported baseline value has no retained row-level raw artifact
 hartlepool,localTransport,ready,E63007337,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 hartlepool,nationalTransport,review-required,Hartlepool,,,Imported baseline value has no retained row-level raw artifact
-hartlepool,quiet,review-required,Hartlepool,,,Imported baseline value has no retained row-level raw artifact
 hartlepool,condition,review-required,Hartlepool,,,Imported baseline value has no retained row-level raw artifact
 hartlepool,crime,ready,E22000027,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 huddersfield,buy,review-required,Kirklees,,,Imported baseline value has no retained row-level raw artifact
@@ -156,7 +137,6 @@ huddersfield,rent,review-required,Kirklees,,,Imported baseline value has no reta
 huddersfield,market,review-required,Kirklees,,,Imported baseline value has no retained row-level raw artifact
 huddersfield,localTransport,ready,E63008114,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 huddersfield,nationalTransport,review-required,Kirklees,,,Imported baseline value has no retained row-level raw artifact
-huddersfield,quiet,review-required,Kirklees,,,Imported baseline value has no retained row-level raw artifact
 huddersfield,condition,review-required,Kirklees,,,Imported baseline value has no retained row-level raw artifact
 huddersfield,crime,ready,E22000344,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 hull-kingston-upon-hull,buy,review-required,"Kingston upon Hull, City of",,,Imported baseline value has no retained row-level raw artifact
@@ -164,7 +144,6 @@ hull-kingston-upon-hull,rent,review-required,"Kingston upon Hull, City of",,,Imp
 hull-kingston-upon-hull,market,review-required,"Kingston upon Hull, City of",,,Imported baseline value has no retained row-level raw artifact
 hull-kingston-upon-hull,localTransport,ready,E63007930,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 hull-kingston-upon-hull,nationalTransport,review-required,"Kingston upon Hull, City of",,,Imported baseline value has no retained row-level raw artifact
-hull-kingston-upon-hull,quiet,review-required,"Kingston upon Hull, City of",,,Imported baseline value has no retained row-level raw artifact
 hull-kingston-upon-hull,condition,review-required,"Kingston upon Hull, City of",,,Imported baseline value has no retained row-level raw artifact
 hull-kingston-upon-hull,crime,ready,E22000134,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 ipswich,buy,review-required,Ipswich,,,Imported baseline value has no retained row-level raw artifact
@@ -172,7 +151,6 @@ ipswich,rent,review-required,Ipswich,,,Imported baseline value has no retained r
 ipswich,market,review-required,Ipswich,,,Imported baseline value has no retained row-level raw artifact
 ipswich,localTransport,ready,E63010852,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 ipswich,nationalTransport,review-required,Ipswich,,,Imported baseline value has no retained row-level raw artifact
-ipswich,quiet,review-required,Ipswich,,,Imported baseline value has no retained row-level raw artifact
 ipswich,condition,review-required,Ipswich,,,Imported baseline value has no retained row-level raw artifact
 ipswich,crime,ready,E22000273,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 kettering,buy,review-required,North Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
@@ -180,7 +158,6 @@ kettering,rent,review-required,North Northamptonshire,,,Imported baseline value 
 kettering,market,review-required,North Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
 kettering,localTransport,ready,E63010129,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 kettering,nationalTransport,review-required,North Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
-kettering,quiet,review-required,North Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
 kettering,condition,review-required,North Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
 kettering,crime,ready,E22000236,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 lancaster,buy,review-required,Lancaster,,,Imported baseline value has no retained row-level raw artifact
@@ -188,7 +165,6 @@ lancaster,rent,review-required,Lancaster,,,Imported baseline value has no retain
 lancaster,market,review-required,Lancaster,,,Imported baseline value has no retained row-level raw artifact
 lancaster,localTransport,ready,E63007656,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 lancaster,nationalTransport,review-required,Lancaster,,,Imported baseline value has no retained row-level raw artifact
-lancaster,quiet,review-required,Lancaster,,,Imported baseline value has no retained row-level raw artifact
 lancaster,condition,review-required,Lancaster,,,Imported baseline value has no retained row-level raw artifact
 lancaster,crime,ready,E22000156,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 leeds,buy,review-required,Leeds,,,Imported baseline value has no retained row-level raw artifact
@@ -196,7 +172,6 @@ leeds,rent,review-required,Leeds,,,Imported baseline value has no retained row-l
 leeds,market,review-required,Leeds,,,Imported baseline value has no retained row-level raw artifact
 leeds,localTransport,ready,E63007883,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 leeds,nationalTransport,review-required,Leeds,,,Imported baseline value has no retained row-level raw artifact
-leeds,quiet,review-required,Leeds,,,Imported baseline value has no retained row-level raw artifact
 leeds,condition,review-required,Leeds,,,Imported baseline value has no retained row-level raw artifact
 leeds,crime,ready,E22000345,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 leicester,buy,review-required,Leicester,,,Imported baseline value has no retained row-level raw artifact
@@ -204,7 +179,6 @@ leicester,rent,review-required,Leicester,,,Imported baseline value has no retain
 leicester,market,review-required,Leicester,,,Imported baseline value has no retained row-level raw artifact
 leicester,localTransport,ready,E63009743,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 leicester,nationalTransport,review-required,Leicester,,,Imported baseline value has no retained row-level raw artifact
-leicester,quiet,review-required,Leicester,,,Imported baseline value has no retained row-level raw artifact
 leicester,condition,review-required,Leicester,,,Imported baseline value has no retained row-level raw artifact
 leicester,crime,ready,E22000168,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 lincoln,buy,review-required,Lincoln,,,Imported baseline value has no retained row-level raw artifact
@@ -212,7 +186,6 @@ lincoln,rent,review-required,Lincoln,,,Imported baseline value has no retained r
 lincoln,market,review-required,Lincoln,,,Imported baseline value has no retained row-level raw artifact
 lincoln,localTransport,ready,E63008729,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 lincoln,nationalTransport,review-required,Lincoln,,,Imported baseline value has no retained row-level raw artifact
-lincoln,quiet,review-required,Lincoln,,,Imported baseline value has no retained row-level raw artifact
 lincoln,condition,review-required,Lincoln,,,Imported baseline value has no retained row-level raw artifact
 lincoln,crime,ready,E22000175,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 liverpool,buy,review-required,Liverpool,,,Imported baseline value has no retained row-level raw artifact
@@ -220,7 +193,6 @@ liverpool,rent,review-required,Liverpool,,,Imported baseline value has no retain
 liverpool,market,review-required,Liverpool,,,Imported baseline value has no retained row-level raw artifact
 liverpool,localTransport,ready,E63008477,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 liverpool,nationalTransport,review-required,Liverpool,,,Imported baseline value has no retained row-level raw artifact
-liverpool,quiet,review-required,Liverpool,,,Imported baseline value has no retained row-level raw artifact
 liverpool,condition,review-required,Liverpool,,,Imported baseline value has no retained row-level raw artifact
 liverpool,crime,ready,E22000182,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 loughborough,buy,review-required,Charnwood,,,Imported baseline value has no retained row-level raw artifact
@@ -228,7 +200,6 @@ loughborough,rent,review-required,Charnwood,,,Imported baseline value has no ret
 loughborough,market,review-required,Charnwood,,,Imported baseline value has no retained row-level raw artifact
 loughborough,localTransport,ready,E63009412,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 loughborough,nationalTransport,review-required,Charnwood,,,Imported baseline value has no retained row-level raw artifact
-loughborough,quiet,review-required,Charnwood,,,Imported baseline value has no retained row-level raw artifact
 loughborough,condition,review-required,Charnwood,,,Imported baseline value has no retained row-level raw artifact
 loughborough,crime,ready,E22000165,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 manchester,buy,review-required,Manchester,,,Imported baseline value has no retained row-level raw artifact
@@ -236,7 +207,6 @@ manchester,rent,review-required,Manchester,,,Imported baseline value has no reta
 manchester,market,review-required,Manchester,,,Imported baseline value has no retained row-level raw artifact
 manchester,localTransport,ready,E63008401,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 manchester,nationalTransport,review-required,Manchester,,,Imported baseline value has no retained row-level raw artifact
-manchester,quiet,review-required,Manchester,,,Imported baseline value has no retained row-level raw artifact
 manchester,condition,review-required,Manchester,,,Imported baseline value has no retained row-level raw artifact
 manchester,crime,ready,E22000101,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 merthyr-tydfil,buy,review-required,Merthyr Tydfil,,,Imported baseline value has no retained row-level raw artifact
@@ -244,7 +214,6 @@ merthyr-tydfil,rent,review-required,Merthyr Tydfil,,,Imported baseline value has
 merthyr-tydfil,market,review-required,Merthyr Tydfil,,,Imported baseline value has no retained row-level raw artifact
 merthyr-tydfil,localTransport,ready,W45001012,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 merthyr-tydfil,nationalTransport,review-required,Merthyr Tydfil,,,Imported baseline value has no retained row-level raw artifact
-merthyr-tydfil,quiet,review-required,Merthyr Tydfil,,,Imported baseline value has no retained row-level raw artifact
 merthyr-tydfil,condition,review-required,Merthyr Tydfil,,,Imported baseline value has no retained row-level raw artifact
 merthyr-tydfil,crime,ready,W14000023,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 middlesbrough,buy,review-required,Middlesbrough,,,Imported baseline value has no retained row-level raw artifact
@@ -252,7 +221,6 @@ middlesbrough,rent,review-required,Middlesbrough,,,Imported baseline value has n
 middlesbrough,market,review-required,Middlesbrough,,,Imported baseline value has no retained row-level raw artifact
 middlesbrough,localTransport,ready,E63007408,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 middlesbrough,nationalTransport,review-required,Middlesbrough,,,Imported baseline value has no retained row-level raw artifact
-middlesbrough,quiet,review-required,Middlesbrough,,,Imported baseline value has no retained row-level raw artifact
 middlesbrough,condition,review-required,Middlesbrough,,,Imported baseline value has no retained row-level raw artifact
 middlesbrough,crime,ready,E22000029,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 neath,buy,review-required,Neath Port Talbot,,,Imported baseline value has no retained row-level raw artifact
@@ -260,7 +228,6 @@ neath,rent,review-required,Neath Port Talbot,,,Imported baseline value has no re
 neath,market,review-required,Neath Port Talbot,,,Imported baseline value has no retained row-level raw artifact
 neath,localTransport,ready,W45001091,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 neath,nationalTransport,review-required,Neath Port Talbot,,,Imported baseline value has no retained row-level raw artifact
-neath,quiet,review-required,Neath Port Talbot,,,Imported baseline value has no retained row-level raw artifact
 neath,condition,review-required,Neath Port Talbot,,,Imported baseline value has no retained row-level raw artifact
 neath,crime,ready,W14000012,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 newcastle-upon-tyne,buy,review-required,Newcastle upon Tyne,,,Imported baseline value has no retained row-level raw artifact
@@ -268,7 +235,6 @@ newcastle-upon-tyne,rent,review-required,Newcastle upon Tyne,,,Imported baseline
 newcastle-upon-tyne,market,review-required,Newcastle upon Tyne,,,Imported baseline value has no retained row-level raw artifact
 newcastle-upon-tyne,localTransport,ready,E63007169,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 newcastle-upon-tyne,nationalTransport,review-required,Newcastle upon Tyne,,,Imported baseline value has no retained row-level raw artifact
-newcastle-upon-tyne,quiet,review-required,Newcastle upon Tyne,,,Imported baseline value has no retained row-level raw artifact
 newcastle-upon-tyne,condition,review-required,Newcastle upon Tyne,,,Imported baseline value has no retained row-level raw artifact
 newcastle-upon-tyne,crime,ready,E22000245,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 newport,buy,review-required,Newport,,,Imported baseline value has no retained row-level raw artifact
@@ -276,7 +242,6 @@ newport,rent,review-required,Newport,,,Imported baseline value has no retained r
 newport,market,review-required,Newport,,,Imported baseline value has no retained row-level raw artifact
 newport,localTransport,ready,W45001174,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 newport,nationalTransport,review-required,Newport,,,Imported baseline value has no retained row-level raw artifact
-newport,quiet,review-required,Newport,,,Imported baseline value has no retained row-level raw artifact
 newport,condition,review-required,Newport,,,Imported baseline value has no retained row-level raw artifact
 newport,crime,ready,W14000022,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 northampton,buy,review-required,West Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
@@ -284,7 +249,6 @@ northampton,rent,review-required,West Northamptonshire,,,Imported baseline value
 northampton,market,review-required,West Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
 northampton,localTransport,ready,E63010463,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 northampton,nationalTransport,review-required,West Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
-northampton,quiet,review-required,West Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
 northampton,condition,review-required,West Northamptonshire,,,Imported baseline value has no retained row-level raw artifact
 northampton,crime,ready,E22000237,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 norwich,buy,review-required,Norwich,,,Imported baseline value has no retained row-level raw artifact
@@ -292,7 +256,6 @@ norwich,rent,review-required,Norwich,,,Imported baseline value has no retained r
 norwich,market,review-required,Norwich,,,Imported baseline value has no retained row-level raw artifact
 norwich,localTransport,ready,E63009624,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 norwich,nationalTransport,review-required,Norwich,,,Imported baseline value has no retained row-level raw artifact
-norwich,quiet,review-required,Norwich,,,Imported baseline value has no retained row-level raw artifact
 norwich,condition,review-required,Norwich,,,Imported baseline value has no retained row-level raw artifact
 norwich,crime,ready,E22000223,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 nottingham,buy,review-required,Nottingham,,,Imported baseline value has no retained row-level raw artifact
@@ -300,7 +263,6 @@ nottingham,rent,review-required,Nottingham,,,Imported baseline value has no reta
 nottingham,market,review-required,Nottingham,,,Imported baseline value has no retained row-level raw artifact
 nottingham,localTransport,ready,E63009088,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 nottingham,nationalTransport,review-required,Nottingham,,,Imported baseline value has no retained row-level raw artifact
-nottingham,quiet,review-required,Nottingham,,,Imported baseline value has no retained row-level raw artifact
 nottingham,condition,review-required,Nottingham,,,Imported baseline value has no retained row-level raw artifact
 nottingham,crime,ready,E22000257,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 peterborough,buy,review-required,Peterborough,,,Imported baseline value has no retained row-level raw artifact
@@ -308,7 +270,6 @@ peterborough,rent,review-required,Peterborough,,,Imported baseline value has no 
 peterborough,market,review-required,Peterborough,,,Imported baseline value has no retained row-level raw artifact
 peterborough,localTransport,ready,E63009810,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 peterborough,nationalTransport,review-required,Peterborough,,,Imported baseline value has no retained row-level raw artifact
-peterborough,quiet,review-required,Peterborough,,,Imported baseline value has no retained row-level raw artifact
 peterborough,condition,review-required,Peterborough,,,Imported baseline value has no retained row-level raw artifact
 peterborough,crime,ready,E22000017,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 plymouth,buy,review-required,Plymouth,,,Imported baseline value has no retained row-level raw artifact
@@ -316,7 +277,6 @@ plymouth,rent,review-required,Plymouth,,,Imported baseline value has no retained
 plymouth,market,review-required,Plymouth,,,Imported baseline value has no retained row-level raw artifact
 plymouth,localTransport,ready,E63014082,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 plymouth,nationalTransport,review-required,Plymouth,,,Imported baseline value has no retained row-level raw artifact
-plymouth,quiet,review-required,Plymouth,,,Imported baseline value has no retained row-level raw artifact
 plymouth,condition,review-required,Plymouth,,,Imported baseline value has no retained row-level raw artifact
 plymouth,crime,ready,E22000056,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 portsmouth,buy,review-required,Portsmouth,,,Imported baseline value has no retained row-level raw artifact
@@ -324,7 +284,6 @@ portsmouth,rent,review-required,Portsmouth,,,Imported baseline value has no reta
 portsmouth,market,review-required,Portsmouth,,,Imported baseline value has no retained row-level raw artifact
 portsmouth,localTransport,ready,E63013748,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 portsmouth,nationalTransport,review-required,Portsmouth,,,Imported baseline value has no retained row-level raw artifact
-portsmouth,quiet,review-required,Portsmouth,,,Imported baseline value has no retained row-level raw artifact
 portsmouth,condition,review-required,Portsmouth,,,Imported baseline value has no retained row-level raw artifact
 portsmouth,crime,ready,E22000118,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 preston,buy,review-required,Preston,,,Imported baseline value has no retained row-level raw artifact
@@ -332,7 +291,6 @@ preston,rent,review-required,Preston,,,Imported baseline value has no retained r
 preston,market,review-required,Preston,,,Imported baseline value has no retained row-level raw artifact
 preston,localTransport,ready,E63007926,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 preston,nationalTransport,review-required,Preston,,,Imported baseline value has no retained row-level raw artifact
-preston,quiet,review-required,Preston,,,Imported baseline value has no retained row-level raw artifact
 preston,condition,review-required,Preston,,,Imported baseline value has no retained row-level raw artifact
 preston,crime,ready,E22000158,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 rotherham,buy,review-required,Rotherham,,,Imported baseline value has no retained row-level raw artifact
@@ -340,7 +298,6 @@ rotherham,rent,review-required,Rotherham,,,Imported baseline value has no retain
 rotherham,market,review-required,Rotherham,,,Imported baseline value has no retained row-level raw artifact
 rotherham,localTransport,ready,E63008458,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 rotherham,nationalTransport,review-required,Rotherham,,,Imported baseline value has no retained row-level raw artifact
-rotherham,quiet,review-required,Rotherham,,,Imported baseline value has no retained row-level raw artifact
 rotherham,condition,review-required,Rotherham,,,Imported baseline value has no retained row-level raw artifact
 rotherham,crime,ready,E22000261,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 salford,buy,review-required,Salford,,,Imported baseline value has no retained row-level raw artifact
@@ -348,7 +305,6 @@ salford,rent,review-required,Salford,,,Imported baseline value has no retained r
 salford,market,review-required,Salford,,,Imported baseline value has no retained row-level raw artifact
 salford,localTransport,ready,E63008377,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 salford,nationalTransport,review-required,Salford,,,Imported baseline value has no retained row-level raw artifact
-salford,quiet,review-required,Salford,,,Imported baseline value has no retained row-level raw artifact
 salford,condition,review-required,Salford,,,Imported baseline value has no retained row-level raw artifact
 salford,crime,ready,E22000104,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 sheffield,buy,review-required,Sheffield,,,Imported baseline value has no retained row-level raw artifact
@@ -356,7 +312,6 @@ sheffield,rent,review-required,Sheffield,,,Imported baseline value has no retain
 sheffield,market,review-required,Sheffield,,,Imported baseline value has no retained row-level raw artifact
 sheffield,localTransport,ready,E63008489,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 sheffield,nationalTransport,review-required,Sheffield,,,Imported baseline value has no retained row-level raw artifact
-sheffield,quiet,review-required,Sheffield,,,Imported baseline value has no retained row-level raw artifact
 sheffield,condition,review-required,Sheffield,,,Imported baseline value has no retained row-level raw artifact
 sheffield,crime,ready,E22000262,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 shrewsbury,buy,review-required,Shropshire,,,Imported baseline value has no retained row-level raw artifact
@@ -364,7 +319,6 @@ shrewsbury,rent,review-required,Shropshire,,,Imported baseline value has no reta
 shrewsbury,market,review-required,Shropshire,,,Imported baseline value has no retained row-level raw artifact
 shrewsbury,localTransport,ready,E63009578,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 shrewsbury,nationalTransport,review-required,Shropshire,,,Imported baseline value has no retained row-level raw artifact
-shrewsbury,quiet,review-required,Shropshire,,,Imported baseline value has no retained row-level raw artifact
 shrewsbury,condition,review-required,Shropshire,,,Imported baseline value has no retained row-level raw artifact
 shrewsbury,crime,ready,E22000360,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 st-helens,buy,review-required,St. Helens,,,Imported baseline value has no retained row-level raw artifact
@@ -372,7 +326,6 @@ st-helens,rent,review-required,St. Helens,,,Imported baseline value has no retai
 st-helens,market,review-required,St. Helens,,,Imported baseline value has no retained row-level raw artifact
 st-helens,localTransport,ready,E63008434,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 st-helens,nationalTransport,review-required,St. Helens,,,Imported baseline value has no retained row-level raw artifact
-st-helens,quiet,review-required,St. Helens,,,Imported baseline value has no retained row-level raw artifact
 st-helens,condition,review-required,St. Helens,,,Imported baseline value has no retained row-level raw artifact
 st-helens,crime,ready,E22000184,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 stafford,buy,review-required,Stafford,,,Imported baseline value has no retained row-level raw artifact
@@ -380,7 +333,6 @@ stafford,rent,review-required,Stafford,,,Imported baseline value has no retained
 stafford,market,review-required,Stafford,,,Imported baseline value has no retained row-level raw artifact
 stafford,localTransport,ready,E63009353,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 stafford,nationalTransport,review-required,Stafford,,,Imported baseline value has no retained row-level raw artifact
-stafford,quiet,review-required,Stafford,,,Imported baseline value has no retained row-level raw artifact
 stafford,condition,review-required,Stafford,,,Imported baseline value has no retained row-level raw artifact
 stafford,crime,ready,E22000268,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 stockport,buy,review-required,Stockport,,,Imported baseline value has no retained row-level raw artifact
@@ -388,7 +340,6 @@ stockport,rent,review-required,Stockport,,,Imported baseline value has no retain
 stockport,market,review-required,Stockport,,,Imported baseline value has no retained row-level raw artifact
 stockport,localTransport,ready,E63008478,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 stockport,nationalTransport,review-required,Stockport,,,Imported baseline value has no retained row-level raw artifact
-stockport,quiet,review-required,Stockport,,,Imported baseline value has no retained row-level raw artifact
 stockport,condition,review-required,Stockport,,,Imported baseline value has no retained row-level raw artifact
 stockport,crime,ready,E22000105,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 stockton-on-tees,buy,review-required,Stockton-on-Tees,,,Imported baseline value has no retained row-level raw artifact
@@ -396,7 +347,6 @@ stockton-on-tees,rent,review-required,Stockton-on-Tees,,,Imported baseline value
 stockton-on-tees,market,review-required,Stockton-on-Tees,,,Imported baseline value has no retained row-level raw artifact
 stockton-on-tees,localTransport,ready,E63007405,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 stockton-on-tees,nationalTransport,review-required,Stockton-on-Tees,,,Imported baseline value has no retained row-level raw artifact
-stockton-on-tees,quiet,review-required,Stockton-on-Tees,,,Imported baseline value has no retained row-level raw artifact
 stockton-on-tees,condition,review-required,Stockton-on-Tees,,,Imported baseline value has no retained row-level raw artifact
 stockton-on-tees,crime,ready,E22000030,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 stoke-on-trent,buy,review-required,Stoke-on-Trent,,,Imported baseline value has no retained row-level raw artifact
@@ -404,7 +354,6 @@ stoke-on-trent,rent,review-required,Stoke-on-Trent,,,Imported baseline value has
 stoke-on-trent,market,review-required,Stoke-on-Trent,,,Imported baseline value has no retained row-level raw artifact
 stoke-on-trent,localTransport,ready,E63009014,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 stoke-on-trent,nationalTransport,review-required,Stoke-on-Trent,,,Imported baseline value has no retained row-level raw artifact
-stoke-on-trent,quiet,review-required,Stoke-on-Trent,,,Imported baseline value has no retained row-level raw artifact
 stoke-on-trent,condition,review-required,Stoke-on-Trent,,,Imported baseline value has no retained row-level raw artifact
 stoke-on-trent,crime,ready,E22000270,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 sunderland,buy,review-required,Sunderland,,,Imported baseline value has no retained row-level raw artifact
@@ -412,7 +361,6 @@ sunderland,rent,review-required,Sunderland,,,Imported baseline value has no reta
 sunderland,market,review-required,Sunderland,,,Imported baseline value has no retained row-level raw artifact
 sunderland,localTransport,ready,E63007220,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 sunderland,nationalTransport,review-required,Sunderland,,,Imported baseline value has no retained row-level raw artifact
-sunderland,quiet,review-required,Sunderland,,,Imported baseline value has no retained row-level raw artifact
 sunderland,condition,review-required,Sunderland,,,Imported baseline value has no retained row-level raw artifact
 sunderland,crime,ready,E22000248,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 swansea,buy,review-required,Swansea,,,Imported baseline value has no retained row-level raw artifact
@@ -420,7 +368,6 @@ swansea,rent,review-required,Swansea,,,Imported baseline value has no retained r
 swansea,market,review-required,Swansea,,,Imported baseline value has no retained row-level raw artifact
 swansea,localTransport,ready,W45001113,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 swansea,nationalTransport,review-required,Swansea,,,Imported baseline value has no retained row-level raw artifact
-swansea,quiet,review-required,Swansea,,,Imported baseline value has no retained row-level raw artifact
 swansea,condition,review-required,Swansea,,,Imported baseline value has no retained row-level raw artifact
 swansea,crime,ready,W14000011,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 swindon,buy,review-required,Swindon,,,Imported baseline value has no retained row-level raw artifact
@@ -428,7 +375,6 @@ swindon,rent,review-required,Swindon,,,Imported baseline value has no retained r
 swindon,market,review-required,Swindon,,,Imported baseline value has no retained row-level raw artifact
 swindon,localTransport,ready,E63011979,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 swindon,nationalTransport,review-required,Swindon,,,Imported baseline value has no retained row-level raw artifact
-swindon,quiet,review-required,Swindon,,,Imported baseline value has no retained row-level raw artifact
 swindon,condition,review-required,Swindon,,,Imported baseline value has no retained row-level raw artifact
 swindon,crime,ready,E22000350,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 telford,buy,review-required,Telford and Wrekin,,,Imported baseline value has no retained row-level raw artifact
@@ -436,7 +382,6 @@ telford,rent,review-required,Telford and Wrekin,,,Imported baseline value has no
 telford,market,review-required,Telford and Wrekin,,,Imported baseline value has no retained row-level raw artifact
 telford,localTransport,ready,E63009565,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 telford,nationalTransport,review-required,Telford and Wrekin,,,Imported baseline value has no retained row-level raw artifact
-telford,quiet,review-required,Telford and Wrekin,,,Imported baseline value has no retained row-level raw artifact
 telford,condition,review-required,Telford and Wrekin,,,Imported baseline value has no retained row-level raw artifact
 telford,crime,ready,E22000333,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 torbay,buy,review-required,Torbay,,,Imported baseline value has no retained row-level raw artifact
@@ -444,7 +389,6 @@ torbay,rent,review-required,Torbay,,,Imported baseline value has no retained row
 torbay,market,review-required,Torbay,,,Imported baseline value has no retained row-level raw artifact
 torbay,localTransport,ready,E63014039;E63014055;E63014084,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 torbay,nationalTransport,review-required,Torbay,,,Imported baseline value has no retained row-level raw artifact
-torbay,quiet,review-required,Torbay,,,Imported baseline value has no retained row-level raw artifact
 torbay,condition,review-required,Torbay,,,Imported baseline value has no retained row-level raw artifact
 torbay,crime,ready,E22000060,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 wakefield,buy,review-required,Wakefield,,,Imported baseline value has no retained row-level raw artifact
@@ -452,7 +396,6 @@ wakefield,rent,review-required,Wakefield,,,Imported baseline value has no retain
 wakefield,market,review-required,Wakefield,,,Imported baseline value has no retained row-level raw artifact
 wakefield,localTransport,ready,E63008062,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 wakefield,nationalTransport,review-required,Wakefield,,,Imported baseline value has no retained row-level raw artifact
-wakefield,quiet,review-required,Wakefield,,,Imported baseline value has no retained row-level raw artifact
 wakefield,condition,review-required,Wakefield,,,Imported baseline value has no retained row-level raw artifact
 wakefield,crime,ready,E22000346,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 walsall,buy,review-required,Walsall,,,Imported baseline value has no retained row-level raw artifact
@@ -460,7 +403,6 @@ walsall,rent,review-required,Walsall,,,Imported baseline value has no retained r
 walsall,market,review-required,Walsall,,,Imported baseline value has no retained row-level raw artifact
 walsall,localTransport,ready,E63009845,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 walsall,nationalTransport,review-required,Walsall,,,Imported baseline value has no retained row-level raw artifact
-walsall,quiet,review-required,Walsall,,,Imported baseline value has no retained row-level raw artifact
 walsall,condition,review-required,Walsall,,,Imported baseline value has no retained row-level raw artifact
 walsall,crime,ready,E22000340,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 warrington,buy,review-required,Warrington,,,Imported baseline value has no retained row-level raw artifact
@@ -468,7 +410,6 @@ warrington,rent,review-required,Warrington,,,Imported baseline value has no reta
 warrington,market,review-required,Warrington,,,Imported baseline value has no retained row-level raw artifact
 warrington,localTransport,ready,E63008488,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 warrington,nationalTransport,review-required,Warrington,,,Imported baseline value has no retained row-level raw artifact
-warrington,quiet,review-required,Warrington,,,Imported baseline value has no retained row-level raw artifact
 warrington,condition,review-required,Warrington,,,Imported baseline value has no retained row-level raw artifact
 warrington,crime,ready,E22000026,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 wigan,buy,review-required,Wigan,,,Imported baseline value has no retained row-level raw artifact
@@ -476,7 +417,6 @@ wigan,rent,review-required,Wigan,,,Imported baseline value has no retained row-l
 wigan,market,review-required,Wigan,,,Imported baseline value has no retained row-level raw artifact
 wigan,localTransport,ready,E63008282,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 wigan,nationalTransport,review-required,Wigan,,,Imported baseline value has no retained row-level raw artifact
-wigan,quiet,review-required,Wigan,,,Imported baseline value has no retained row-level raw artifact
 wigan,condition,review-required,Wigan,,,Imported baseline value has no retained row-level raw artifact
 wigan,crime,ready,E22000108,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 wolverhampton,buy,review-required,Wolverhampton,,,Imported baseline value has no retained row-level raw artifact
@@ -484,7 +424,6 @@ wolverhampton,rent,review-required,Wolverhampton,,,Imported baseline value has n
 wolverhampton,market,review-required,Wolverhampton,,,Imported baseline value has no retained row-level raw artifact
 wolverhampton,localTransport,ready,E63009805,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 wolverhampton,nationalTransport,review-required,Wolverhampton,,,Imported baseline value has no retained row-level raw artifact
-wolverhampton,quiet,review-required,Wolverhampton,,,Imported baseline value has no retained row-level raw artifact
 wolverhampton,condition,review-required,Wolverhampton,,,Imported baseline value has no retained row-level raw artifact
 wolverhampton,crime,ready,E22000341,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 worcester,buy,review-required,Worcester,,,Imported baseline value has no retained row-level raw artifact
@@ -492,7 +431,6 @@ worcester,rent,review-required,Worcester,,,Imported baseline value has no retain
 worcester,market,review-required,Worcester,,,Imported baseline value has no retained row-level raw artifact
 worcester,localTransport,ready,E63010595,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 worcester,nationalTransport,review-required,Worcester,,,Imported baseline value has no retained row-level raw artifact
-worcester,quiet,review-required,Worcester,,,Imported baseline value has no retained row-level raw artifact
 worcester,condition,review-required,Worcester,,,Imported baseline value has no retained row-level raw artifact
 worcester,crime,ready,E22000332,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 wrexham,buy,review-required,Wrexham,,,Imported baseline value has no retained row-level raw artifact
@@ -500,7 +438,6 @@ wrexham,rent,review-required,Wrexham,,,Imported baseline value has no retained r
 wrexham,market,review-required,Wrexham,,,Imported baseline value has no retained row-level raw artifact
 wrexham,localTransport,ready,W45000777,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 wrexham,nationalTransport,review-required,Wrexham,,,Imported baseline value has no retained row-level raw artifact
-wrexham,quiet,review-required,Wrexham,,,Imported baseline value has no retained row-level raw artifact
 wrexham,condition,review-required,Wrexham,,,Imported baseline value has no retained row-level raw artifact
 wrexham,crime,ready,W14000006,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 bristol,buy,review-required,"Bristol, City of",,,Imported baseline value has no retained row-level raw artifact
@@ -508,7 +445,6 @@ bristol,rent,review-required,"Bristol, City of",,,Imported baseline value has no
 bristol,market,ready,REGION^219 Bristol,,212d3a1eb811382410066414c6c2fd15efba541664debee31c3ac7a6d58242ed;11f2c8ea90bb658bfa95314d80d1a2075ff285e28d254cca6b032ec23079caa0;39f89cd6b16bddf266ecc05afaa3ad9e0140f275febf7f7aab219b461b898adb,
 bristol,localTransport,ready,E63012168,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 bristol,nationalTransport,review-required,"Bristol, City of",,,Imported baseline value has no retained row-level raw artifact
-bristol,quiet,missing,"Bristol, City of",,,No observation supplied
 bristol,condition,missing,"Bristol, City of",,,No observation supplied
 bristol,crime,ready,E22000002,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 southampton,buy,review-required,Southampton,,,Imported baseline value has no retained row-level raw artifact
@@ -516,7 +452,6 @@ southampton,rent,review-required,Southampton,,,Imported baseline value has no re
 southampton,market,ready,"REGION^1231 Southampton, Hampshire",,57433b6d05b364ae8abe4b44529fdd21f2305da8cbf84f10300d9f4df532fbc7;b243e90c92a7bc252b40bb3611559f81ceb2c146d312f1fbdfca9ca25f76746b;ff05531aed641013d72a93b0c94300889dc5212658ec42dd6461f17ed5729f9e,
 southampton,localTransport,ready,E63013524,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 southampton,nationalTransport,review-required,Southampton,,,Imported baseline value has no retained row-level raw artifact
-southampton,quiet,missing,Southampton,,,No observation supplied
 southampton,condition,missing,Southampton,,,No observation supplied
 southampton,crime,ready,E22000120,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 bournemouth-poole,buy,review-required,"Bournemouth, Christchurch and Poole",,,Imported baseline value has no retained row-level raw artifact
@@ -524,7 +459,6 @@ bournemouth-poole,rent,review-required,"Bournemouth, Christchurch and Poole",,,I
 bournemouth-poole,market,ready,"REGION^194 Bournemouth, Dorset; REGION^1079 Poole, Dorset",,7eb71afb0e5cfc294e13995f58e286bd48d4cd56bb41bfb1df58c4bc85c9d359;483f0c316f8b7fb4bb7d7eb138e292f2943e4104a9562c69eb49599134b9aaba;9ff5e22923dee14a981f7655efb51b7864b545d5c78508182a3e8708e7bc458f;4bcf9fe2eca172be1400fa2693d437d1e52f552f82b7bcefed1bc5c9ef75a078;66bf60b104518ce9b1c41e5ec0aa31302ed73d7f577e243f35c94db60cc86356;92da85e683627f423ceaea9eabd379aff5117cf2a6de5543ea0ad55a7820f595,
 bournemouth-poole,localTransport,ready,E63013847;E63013860,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 bournemouth-poole,nationalTransport,review-required,"Bournemouth, Christchurch and Poole",,,Imported baseline value has no retained row-level raw artifact
-bournemouth-poole,quiet,missing,"Bournemouth, Christchurch and Poole",,,No observation supplied
 bournemouth-poole,condition,missing,"Bournemouth, Christchurch and Poole",,,No observation supplied
 bournemouth-poole,crime,ready,E22000367,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 brighton-hove,buy,review-required,Brighton and Hove,,,Imported baseline value has no retained row-level raw artifact
@@ -532,7 +466,6 @@ brighton-hove,rent,review-required,Brighton and Hove,,,Imported baseline value h
 brighton-hove,market,ready,REGION^61480 Brighton and Hove,,90d6fc5d5e2f28fc509f938a30c2910e3d26204290bf7f748496871cfd286113;54b32ef9d1a4f90b45d929405525a2178220ab18c63e6a675b707f2a503aebc8;0e060dcb82c9a602e9ef72015d4fd0fc48c11125610760b808c883197900cfdb,
 brighton-hove,localTransport,ready,E63013666,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 brighton-hove,nationalTransport,review-required,Brighton and Hove,,,Imported baseline value has no retained row-level raw artifact
-brighton-hove,quiet,missing,Brighton and Hove,,,No observation supplied
 brighton-hove,condition,missing,Brighton and Hove,,,No observation supplied
 brighton-hove,crime,ready,E22000292,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 exeter,buy,review-required,Exeter,,,Imported baseline value has no retained row-level raw artifact
@@ -540,7 +473,6 @@ exeter,rent,review-required,Exeter,,,Imported baseline value has no retained row
 exeter,market,ready,"REGION^494 Exeter, Devon",,b9c3676b8091cc99fbb59645ceede5c39284e708b7646827667381f97935c9ac;56a87b15802451a53d06cef191e88e6f0df181cfde8a8cc871362971ad11bb84;6f2ec710d5199689567bafd6c6dc3888b43364ea94ce115340d44ee5f01d6879,
 exeter,localTransport,ready,E63013856,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 exeter,nationalTransport,review-required,Exeter,,,Imported baseline value has no retained row-level raw artifact
-exeter,quiet,missing,Exeter,,,No observation supplied
 exeter,condition,missing,Exeter,,,No observation supplied
 exeter,crime,ready,E22000049,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 reading,buy,review-required,Reading,,,Imported baseline value has no retained row-level raw artifact
@@ -548,7 +480,6 @@ reading,rent,review-required,Reading,,,Imported baseline value has no retained r
 reading,market,ready,"REGION^1114 Reading, Berkshire",,753f6e9ea403429af292f71325224b9ecb16d688ea16a1ccab915e603a531207;94bf20df40b25901ce8891234cb19d6624855e20d515e58bcf1f2112f420e155;da3bdb8d7898aa750e517c641315e1ca4b006c839348be3cd169b93c2f3b16ff,
 reading,localTransport,ready,E63012182,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 reading,nationalTransport,review-required,Reading,,,Imported baseline value has no retained row-level raw artifact
-reading,quiet,missing,Reading,,,No observation supplied
 reading,condition,missing,Reading,,,No observation supplied
 reading,crime,ready,E22000309,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 milton-keynes,buy,review-required,Milton Keynes,,,Imported baseline value has no retained row-level raw artifact
@@ -556,7 +487,6 @@ milton-keynes,rent,review-required,Milton Keynes,,,Imported baseline value has n
 milton-keynes,market,ready,"REGION^940 Milton Keynes, Buckinghamshire",,7f58b5bcf1e9455bffcf1c8c3edc513392e4b1928dcfc8f69c87a4526a8de0eb;179f5319c518c888708b10be33740865c6300131e7cf05f5a4cc0c22a4e25ae9;a52d39845dbda3d8adb375f30e5301d5a11e69b5b47d244e453441de045ffe3e,
 milton-keynes,localTransport,ready,E63010901,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 milton-keynes,nationalTransport,review-required,Milton Keynes,,,Imported baseline value has no retained row-level raw artifact
-milton-keynes,quiet,missing,Milton Keynes,,,No observation supplied
 milton-keynes,condition,missing,Milton Keynes,,,No observation supplied
 milton-keynes,crime,ready,E22000307,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 luton,buy,review-required,Luton,,,Imported baseline value has no retained row-level raw artifact
@@ -564,7 +494,6 @@ luton,rent,review-required,Luton,,,Imported baseline value has no retained row-l
 luton,market,ready,"REGION^876 Luton, Bedfordshire",,6b09f73fffaac46631c3f523018327f1f3c5666356969618bb33c5e083fea0b4;117b92f87ee6e0315875102ccb938803423f0168ca08500b2431638bdcfd7143;d2d65cde7995c46670ac254b0b9a5d5d6950952ba9864045d0fb24528be55ebb,
 luton,localTransport,ready,E63011256,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 luton,nationalTransport,review-required,Luton,,,Imported baseline value has no retained row-level raw artifact
-luton,quiet,missing,Luton,,,No observation supplied
 luton,condition,missing,Luton,,,No observation supplied
 luton,crime,ready,E22000010,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 southend-on-sea,buy,review-required,Southend-on-Sea,,,Imported baseline value has no retained row-level raw artifact
@@ -572,7 +501,6 @@ southend-on-sea,rent,review-required,Southend-on-Sea,,,Imported baseline value h
 southend-on-sea,market,ready,"REGION^1232 Southend-On-Sea, Essex",,edc34d971bf0e96a1cf5d000c308f1c9365baaff874fdd35a7ffbad9f9a40802;8ca82dc2300436a42cf870fc848606655c3892e89d2e67d621e3086073dcbacf;060ce9d301c6bdf4b4e7190b1d9d1d2c8cddd3fc2a9dc5732fd4f5e5985a5733,
 southend-on-sea,localTransport,ready,E63011939,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 southend-on-sea,nationalTransport,review-required,Southend-on-Sea,,,Imported baseline value has no retained row-level raw artifact
-southend-on-sea,quiet,missing,Southend-on-Sea,,,No observation supplied
 southend-on-sea,condition,missing,Southend-on-Sea,,,No observation supplied
 southend-on-sea,crime,ready,E22000089,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 cambridge,buy,review-required,Cambridge,,,Imported baseline value has no retained row-level raw artifact
@@ -580,7 +508,6 @@ cambridge,rent,review-required,Cambridge,,,Imported baseline value has no retain
 cambridge,market,ready,"REGION^274 Cambridge, Cambridgeshire",,ed8b0c35faef06d963b4a348f8a54e7976478b46319eb313dd17412af9f31511;77fa02394b89085d452e171b30d1e7244685c6867a654bac7cf41888c3c7057f;507ad13f1d312f0d2d1a432846eae14027a0e1dd1604becf6475a4a204ad1c11,
 cambridge,localTransport,ready,E63010556,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 cambridge,nationalTransport,review-required,Cambridge,,,Imported baseline value has no retained row-level raw artifact
-cambridge,quiet,missing,Cambridge,,,No observation supplied
 cambridge,condition,missing,Cambridge,,,No observation supplied
 cambridge,crime,ready,E22000013,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 colchester,buy,review-required,Colchester,,,Imported baseline value has no retained row-level raw artifact
@@ -588,7 +515,6 @@ colchester,rent,review-required,Colchester,,,Imported baseline value has no reta
 colchester,market,ready,"REGION^347 Colchester, Essex",,3d3b1de9ba64a6458ab0b6e977bacab7a062706f505ebb588be69bebd345ea34;a51902d3a8db9f396fb62919250c7624384f919c36fa346312f5ba58b08ac9c1;b48f4f887b17b776d803db04e07764b7bcce23edf3172f4279cd3303b16e8ec1,
 colchester,localTransport,ready,E63011220,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 colchester,nationalTransport,review-required,Colchester,,,Imported baseline value has no retained row-level raw artifact
-colchester,quiet,missing,Colchester,,,No observation supplied
 colchester,condition,missing,Colchester,,,No observation supplied
 colchester,crime,ready,E22000084,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 oxford,buy,review-required,Oxford,,,Imported baseline value has no retained row-level raw artifact
@@ -596,7 +522,6 @@ oxford,rent,review-required,Oxford,,,Imported baseline value has no retained row
 oxford,market,ready,"REGION^1036 Oxford, Oxfordshire",,b8c8c49c9ff38ba1480ea5933310ccda016668e69b9b7c8cbdfa3e48f3c3ead6;e8c7ee1bbe2d4e42d42219e2908346467060b82e22bdfdd15112ae686f702129;39f206ff82e54be702c7810269f5b73cf1cfd0d7c7458e9eb1987ad4b97e24ac,
 oxford,localTransport,ready,E63011595,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 oxford,nationalTransport,review-required,Oxford,,,Imported baseline value has no retained row-level raw artifact
-oxford,quiet,missing,Oxford,,,No observation supplied
 oxford,condition,missing,Oxford,,,No observation supplied
 oxford,crime,ready,E22000308,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 bath,buy,review-required,Bath and North East Somerset,,,Imported baseline value has no retained row-level raw artifact
@@ -604,7 +529,6 @@ bath,rent,review-required,Bath and North East Somerset,,,Imported baseline value
 bath,market,ready,"REGION^116 Bath, Somerset",,8366bdd224d009f749e1aa6ee62ef06fdd4d4ac33923538386af805e93e48cf4;e229a3bc3920ff1b35eba8380b8567f83a122e8854e1e8469f7ef8f443a99823;c7eadb21fae084066effe9acfa12180a59e8b509890084679134673815a6b8d0,
 bath,localTransport,ready,E63012364,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 bath,nationalTransport,review-required,Bath and North East Somerset,,,Imported baseline value has no retained row-level raw artifact
-bath,quiet,missing,Bath and North East Somerset,,,No observation supplied
 bath,condition,missing,Bath and North East Somerset,,,No observation supplied
 bath,crime,ready,E22000001,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 bridgend,buy,review-required,Bridgend,,,Imported baseline value has no retained row-level raw artifact
@@ -612,7 +536,6 @@ bridgend,rent,review-required,Bridgend,,,Imported baseline value has no retained
 bridgend,market,ready,"REGION^210 Bridgend, Bridgend (County of), Mid Glamorgan",,e0e1ba6398fd946b32901b13c63c5963f6682b9154065568b5d12b585cdb0850;8468f9e6cd7647d4f65924d8562a644951488fb4d34187c31fc2ad2d7c41047e;687867fa6cb88adc8186a713fb5bc11b09a956576faa50031872533693237348,
 bridgend,localTransport,ready,W45001212,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 bridgend,nationalTransport,review-required,Bridgend,,,Imported baseline value has no retained row-level raw artifact
-bridgend,quiet,missing,Bridgend,,,No observation supplied
 bridgend,condition,missing,Bridgend,,,No observation supplied
 bridgend,crime,ready,W14000013,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 llanelli,buy,review-required,Carmarthenshire,,,Imported baseline value has no retained row-level raw artifact
@@ -620,7 +543,6 @@ llanelli,rent,review-required,Carmarthenshire,,,Imported baseline value has no r
 llanelli,market,ready,"REGION^827 Llanelli, Carmarthenshire, Mid Wales",,5f10b418e0b2cfadf7f2c57557e365448631faafd62dd94d6aaa66a02b972214;9c8765d2b444b2f6b9e5d2a2b34c70f5ae973267ad1a8a4e4e2cdaa2c8952fbd;8ffe39c4252bfd54cd6bb0017ec7a7a33748286306f9bcef2ac76b3ecae36641,
 llanelli,localTransport,ready,W45001070,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 llanelli,nationalTransport,review-required,Carmarthenshire,,,Imported baseline value has no retained row-level raw artifact
-llanelli,quiet,missing,Carmarthenshire,,,No observation supplied
 llanelli,condition,missing,Carmarthenshire,,,No observation supplied
 llanelli,crime,ready,W14000010,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 bangor,buy,review-required,Gwynedd,,,Imported baseline value has no retained row-level raw artifact
@@ -628,7 +550,6 @@ bangor,rent,review-required,Gwynedd,,,Imported baseline value has no retained ro
 bangor,market,ready,"REGION^98 Bangor, Gwynedd",,b3e2e659cb03dc5a4e555dbb16d0937ecc2d595c6292324e57f8b999183d4156;78cb5c85af8cde9092033a1c3bba73a1a315b78970aa3624835c7e1c4f92dce2;334fe43e629c8886c8cfbe3ffc089523ff4eb1b59cdd0f394bc8ac11db4bfaa1,
 bangor,localTransport,ready,W45000697,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 bangor,nationalTransport,review-required,Gwynedd,,,Imported baseline value has no retained row-level raw artifact
-bangor,quiet,missing,Gwynedd,,,No observation supplied
 bangor,condition,missing,Gwynedd,,,No observation supplied
 bangor,crime,ready,W14000002,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 rhyl,buy,review-required,Denbighshire,,,Imported baseline value has no retained row-level raw artifact
@@ -636,7 +557,6 @@ rhyl,rent,review-required,Denbighshire,,,Imported baseline value has no retained
 rhyl,market,ready,"REGION^1125 Rhyl, Denbighshire",,8b9340ea7e832cfa747f06c2b911741363241ba0a45741022a875a92dc6b9ea9;0c7ea4fdc904dff532c77b194dc7a9fb1667a3e3ecfd231a30dae5f131a93151;7763441c6cfde827cbcc33fc83bd28066b569a6d11baa9bda904be2567776cad,
 rhyl,localTransport,ready,W45000645,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 rhyl,nationalTransport,review-required,Denbighshire,,,Imported baseline value has no retained row-level raw artifact
-rhyl,quiet,missing,Denbighshire,,,No observation supplied
 rhyl,condition,missing,Denbighshire,,,No observation supplied
 rhyl,crime,ready,W14000004,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 york,buy,review-required,York,,,Imported baseline value has no retained row-level raw artifact
@@ -644,7 +564,6 @@ york,rent,review-required,York,,,Imported baseline value has no retained row-lev
 york,market,ready,"REGION^1498 York, North Yorkshire",,626cb4b1fe9c1904ffecd46e1bab334bec97447352f63d25eab176af6c8a46fd;e57d25704ba854f52b92878dbf6b8f8fe34b5e9c723134cb629807c87d88d34c;4d94425b03b398c40489205c94909c497eb9cfcb5908517ec889602f1aeebca7,
 york,localTransport,ready,E63007706,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 york,nationalTransport,review-required,York,,,Imported baseline value has no retained row-level raw artifact
-york,quiet,missing,York,,,No observation supplied
 york,condition,missing,York,,,No observation supplied
 york,crime,ready,E22000371,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 durham,buy,review-required,County Durham,,,Imported baseline value has no retained row-level raw artifact
@@ -652,7 +571,6 @@ durham,rent,review-required,County Durham,,,Imported baseline value has no retai
 durham,market,ready,"REGION^460 Durham, County Durham",,442c53dd40f0221f91625611f105133b753e0b1db63b051c097cc3b9a0457dcf;b23bda51c58005a827a738fb08baa3399ceae5de8b34d0769604e1a51ea153c1;4508313d27eedd0240e96db182b15b2aa50d4ca67ed5121d676402e612bf58a7,
 durham,localTransport,ready,E63007282,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 durham,nationalTransport,review-required,County Durham,,,Imported baseline value has no retained row-level raw artifact
-durham,quiet,missing,County Durham,,,No observation supplied
 durham,condition,missing,County Durham,,,No observation supplied
 durham,crime,ready,E22000365,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,
 cheltenham,buy,review-required,Cheltenham,,,Imported baseline value has no retained row-level raw artifact
@@ -660,6 +578,5 @@ cheltenham,rent,review-required,Cheltenham,,,Imported baseline value has no reta
 cheltenham,market,ready,"REGION^308 Cheltenham, Gloucestershire",,975abed7086d22ddbed69655851f958a82d54c1de2029c7c258cef40933329f1;338565c1703005e5aa260287fbc31e826f10de8579be1431e250200538a8cb69;6e823b589b977dd1982650e6d87bd78819e14722a27aafe72e25d60046924664,
 cheltenham,localTransport,ready,E63011286,Q4 2024 transport and destination data; 2023 provisional BRES employment data,4f6589aeb3b3f51a26dae6d9d27c45188c36512a3dc052d848b4dc665cb16476,
 cheltenham,nationalTransport,review-required,Cheltenham,,,Imported baseline value has no retained row-level raw artifact
-cheltenham,quiet,missing,Cheltenham,,,No observation supplied
 cheltenham,condition,missing,Cheltenham,,,No observation supplied
 cheltenham,crime,ready,E22000093,2025-04-01 to 2026-03-31,27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f,

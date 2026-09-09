@@ -5,7 +5,7 @@ from pathlib import Path
 
 from csv_io import write_csv
 
-TOPICS = ('buy', 'rent', 'market', 'localTransport', 'nationalTransport', 'quiet', 'condition', 'crime')
+TOPICS = ('buy', 'rent', 'market', 'localTransport', 'nationalTransport', 'condition', 'crime')
 
 
 def read(path):
@@ -26,7 +26,6 @@ def metric_present(topic, row):
         'market': ('reason',),
         'localTransport': ('pt_connectivity_0_100', 'score'),
         'nationalTransport': ('londonMinutes', 'birminghamMinutes'),
-        'quiet': ('assessment',),
         'condition': ('assessment',),
         'crime': ('count', 'population'),
     }[topic]

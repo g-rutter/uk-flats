@@ -8,7 +8,6 @@ WEIGHTS = {
     'safety': 15,
     'local_transport': 15,
     'condition': 15,
-    'quiet': 15,
     'stock': 15,
     'national_transport': 10,
 }
@@ -20,11 +19,6 @@ ASSESSMENT_SCORES = {
         'highest': 5,
         'favourable': 4,
         'mixed': 2,
-    },
-    'quiet': {
-        'persistent_noise': 2,
-        'mixed_exposure': 3,
-        'lower_intensity': 4,
     },
 }
 
@@ -109,7 +103,9 @@ def national_transport_score(row):
 def weighted_score(factors):
     if any(value is None for value in factors.values()):
         return None
-    return round(sum(WEIGHTS[name] * value / 5 for name, value in factors.items()), 1)
+    total_weight = sum(WEIGHTS[name] for name in factors)
+    return round(100 * sum(WEIGHTS[name] * value / 5 for name, value in factors.items())
+                 / total_weight, 1)
 
 
 def assign_score_bands(results, tenure):
@@ -163,7 +159,6 @@ def compile_composite(locations, crime):
             'safety': safety.get(row['id']),
             'local_transport': supplied_score(row['localTransport']),
             'condition': assessment_score('condition', row['condition'].get('assessment')),
-            'quiet': assessment_score('quiet', row['quiet'].get('assessment')),
             'national_transport': national_transport_score(row['nationalTransport']),
         }
         results[row['id']] = {'safety': common['safety'], 'tenures': {}}

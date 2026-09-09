@@ -13,7 +13,7 @@ from release_audit import export as export_release_audit
 from composite import ASSESSMENT_SCORES, compile_composite
 
 ROOT = Path(__file__).resolve().parents[1]
-GROUPS = ('buy', 'rent', 'market', 'localTransport', 'nationalTransport', 'quiet', 'condition')
+GROUPS = ('buy', 'rent', 'market', 'localTransport', 'nationalTransport', 'condition')
 INTEGER_NUMERIC = {'proxyMedian', 'transactions', 'proxyMonthly', 'oneBedCount', 'londonMinutes', 'londonChanges', 'birminghamMinutes', 'birminghamChanges', 'score', 'population_covered', 'population_expected'}
 FLOAT_NUMERIC = {'lat', 'lon', 'pt_connectivity_0_100', 'national_percentile'}
 REQUIRED_COLUMNS = {
@@ -28,12 +28,11 @@ REQUIRED_COLUMNS = {
     'nationalTransport.csv': {'location_id', 'londonMinutes', 'londonChanges', 'birminghamMinutes', 'birminghamChanges', 'confidence', 'reason'},
     'transport_stations.csv': {'location_id', 'station_crs', 'station_name', 'selection_reason', 'confidence', 'evidence_ids'},
     'transport_route_observations.csv': {'location_id', 'destination_id', 'origin_crs', 'destination_crs', 'measurement_date', 'selection_window_start_local', 'selection_window_end_local', 'planner_search_times', 'query_timestamp_local', 'selected_departure_local', 'selected_arrival_local', 'elapsed_minutes', 'changes', 'frequency_window_start_local', 'frequency_window_end_local', 'usable_departures_in_window', 'source_url', 'raw_capture_path', 'retrieval_timestamp', 'confidence', 'evidence_id', 'reason'},
-    'quiet.csv': {'location_id', 'assessment', 'confidence', 'evidence_ids', 'method_version', 'reason'},
     'condition.csv': {'location_id', 'assessment', 'confidence', 'evidence_ids', 'method_version', 'reason'},
     'sources.csv': {'location_id', 'topic', 'url'},
     'evidence.csv': {'id', 'workstream', 'title', 'publisher', 'url', 'dataPeriod', 'retrievalDate', 'geography', 'coverage', 'limitations'},
 }
-ASSESSMENT_TOPICS = ('condition', 'quiet')
+ASSESSMENT_TOPICS = ('condition',)
 
 
 def read(path):

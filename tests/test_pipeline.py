@@ -15,7 +15,7 @@ from crime import compile_crime, read as read_crime
 from crime_residuals import audit as audit_residuals
 from crime_outliers import audit as audit_outliers
 from composite import (ASSESSMENT_SCORES, housing_cost_scores, assessment_score,
-                       compile_composite)
+                       compile_composite, weighted_score)
 from prepare_locations import prepare
 from prepare_national_transport import prepare as prepare_national_transport
 from prepare_local_transport import score_for, weighted_quantile_cutpoints
@@ -246,7 +246,7 @@ class PipelineTests(unittest.TestCase):
                 self.assertEqual(band_by_score[result['score']], result['band'])
         with (ROOT / 'data/derived/release_audit.csv').open(newline='') as source:
             release_rows = list(csv.DictReader(source))
-        self.assertEqual(len(release_rows), location_count * 8)
+        self.assertEqual(len(release_rows), location_count * 7)
         self.assertEqual({row['status'] for row in release_rows if row['topic'] == 'crime'}, {'ready'})
         self.assertEqual({row['status'] for row in release_rows if row['topic'] == 'buy'}, {'review-required'})
 
@@ -312,7 +312,7 @@ class PipelineTests(unittest.TestCase):
             with (inputs / 'locations.csv').open('a', newline='') as target:
                 csv.writer(target).writerow(['test-place', 'Test Place', 'England', '', '', ''])
             rows = [row for row in release_audit(inputs) if row['location_id'] == 'test-place']
-            self.assertEqual(len(rows), 8)
+            self.assertEqual(len(rows), 7)
             self.assertTrue(all(row['status'] == 'missing' for row in rows))
 
     def test_validation_probe_is_predeclared_and_records_completed_quantitative_results(self):
@@ -341,41 +341,45 @@ class PipelineTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 compile_data(inputs)
 
-    def test_explicit_assessments_are_validated_and_reasons_do_not_score(self):
+    def test_condition_assessments_are_validated_and_reasons_do_not_score(self):
         self.assertEqual(assessment_score('condition', 'highest'), 5)
         self.assertEqual(assessment_score('condition', 'favourable'), 4)
         self.assertEqual(assessment_score('condition', 'mixed'), 2)
-        self.assertEqual(assessment_score('quiet', 'persistent_noise'), 2)
-        self.assertEqual(assessment_score('quiet', 'mixed_exposure'), 3)
-        self.assertEqual(assessment_score('quiet', 'lower_intensity'), 4)
-        self.assertIsNone(assessment_score('quiet', ''))
-        self.assertEqual(set(ASSESSMENT_SCORES), {'condition', 'quiet'})
+        self.assertIsNone(assessment_score('condition', ''))
+        self.assertEqual(set(ASSESSMENT_SCORES), {'condition'})
         baseline_data = compile_data(ROOT / 'data/inputs')
         baseline_crime = compile_crime(ROOT / 'data/inputs', baseline_data['locations'], baseline_data['evidence'])
         baseline_score = compile_composite(baseline_data['locations'], baseline_crime)['results']['barnsley']['tenures']['buy']['score']
         with tempfile.TemporaryDirectory() as tmp:
             inputs = Path(tmp) / 'inputs'
             shutil.copytree(ROOT / 'data/inputs', inputs)
-            with (inputs / 'quiet.csv').open(newline='') as f:
+            with (inputs / 'condition.csv').open(newline='') as f:
                 rows = list(csv.DictReader(f))
             original_assessment = rows[0]['assessment']
             rows[0]['reason'] = 'Completely rewritten evidence text.'
-            with (inputs / 'quiet.csv').open('w', newline='') as f:
+            with (inputs / 'condition.csv').open('w', newline='') as f:
                 writer = csv.DictWriter(f, fieldnames=rows[0].keys())
                 writer.writeheader()
                 writer.writerows(rows)
             data = compile_data(inputs)
-            self.assertEqual(data['locations'][0]['quiet']['assessment'], original_assessment)
+            self.assertEqual(data['locations'][0]['condition']['assessment'], original_assessment)
             changed_crime = compile_crime(inputs, data['locations'], data['evidence'])
             changed_score = compile_composite(data['locations'], changed_crime)['results']['barnsley']['tenures']['buy']['score']
             self.assertEqual(changed_score, baseline_score)
             rows[0]['assessment'] = 'synonymous_but_invalid'
-            with (inputs / 'quiet.csv').open('w', newline='') as f:
+            with (inputs / 'condition.csv').open('w', newline='') as f:
                 writer = csv.DictWriter(f, fieldnames=rows[0].keys())
                 writer.writeheader()
                 writer.writerows(rows)
             with self.assertRaisesRegex(ValueError, 'invalid assessment'):
                 compile_data(inputs)
+
+    def test_composite_weights_are_automatically_normalised(self):
+        factors = {name: 5 for name in ('housing_cost', 'safety', 'local_transport',
+                                        'condition', 'stock', 'national_transport')}
+        self.assertEqual(weighted_score(factors), 100.0)
+        factors['housing_cost'] = 1
+        self.assertEqual(weighted_score(factors), 85.9)
 
     def test_housing_cost_uses_all_quintiles_and_keeps_ties_together(self):
         locations = [
