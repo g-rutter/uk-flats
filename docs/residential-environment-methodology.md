@@ -1,7 +1,8 @@
 # Residential-environment methodology
 
-Status: frozen pilot method, not yet used by the live screen. Method version:
-`residential-environment-bua24-v1`.
+Status: frozen research method, not yet used by the live screen because the
+noise/EPC compatibility decision remains open. Method version:
+`residential-environment-bua24-v2`.
 
 ## Definition and exclusions
 
@@ -26,7 +27,7 @@ never zero-filled and the remaining weights are never renormalised.
 | --- | --- | --- |
 | Clean air | Mean of annual NO2/10, PM2.5/5 and PM10/15 concentrations from the Defra 1 km background grids | Lower is better; 2024 annual mean; concentrations are µg/m³ and divisors are the WHO 2021 annual guidelines |
 | Quiet surroundings | Percentage of residents exposed to modelled transport noise of at least 55 dB Lden, from the 2025 English IoD or WIMD underlying indicator | Lower is better; the model uses Census 2021 population and strategic noise mapping |
-| Green-space access | Equal mean of the national percentiles for built-up postcodes within 300 m of a park, public garden or playing field and average combined area of those sites within 1,000 m | Higher is better; ONS 2020 structural baseline, corrected workbook published in 2022 |
+| Green-space access | Equal mean of the national percentiles for OA21 population-weighted centroids within 300 m of an eligible polygon and eligible polygon area within 1,000 m of each centroid | Higher is better; OS Open Greenspace April 2026 snapshot; `Public Park Or Garden` and `Playing Field` only |
 | Housing environmental quality | Published LSOA EPC SAP observation from the 2025 English IoD or WIMD housing indicator | Higher is better; EPC records cover 2012–2024 |
 
 The raw pollutant concentrations, noise percentage, green proximity and area,
@@ -38,6 +39,12 @@ Exact artifact URLs, request details, retrieval timestamps, periods, publishers,
 licences, sizes and SHA-256 hashes are retained in
 `data/raw/environment/2026-09-09/manifest.csv`. Preparation is offline and first
 verifies every manifest hash.
+
+The acquisition script discovers the current `OpenGreenspace` product version
+through the unauthenticated OS Downloads API and selects exactly one GB-wide
+GeoPackage. The retained product metadata records version `2026-04`; the bulk
+ZIP and metadata response are both hash-pinned. Product inclusion is the
+eligibility rule and does not guarantee unrestricted public access.
 
 The supported runtime is the repository baseline of Python 3.9 or later with
 the exact packages in `requirements-environment.txt`. A clean checkout can use:
@@ -73,19 +80,28 @@ components. Candidate counts are dynamic.
   containing coastal cell is absent; the fallback count is retained.
 - English and Welsh 2025 noise and EPC observations are attached through the
   official exact-fit OA21-to-LSOA21 lookup.
-- The ONS green-space workbook uses 2011 LSOAs. Its values are allocated to
-  OA21s through the official OA11-to-OA21 change lookup and OA11-to-LSOA11
-  lookup, weighted by Census 2011 OA usual residents. No name, centroid or
-  polygon-area allocation is used.
+- OS Open Greenspace is processed in British National Grid (EPSG:27700). Only
+  `Public Park Or Garden` and `Playing Field` site polygons are retained; access
+  points are not used. Duplicate IDs may be collapsed only when their function
+  and geometry agree; conflicting duplicates fail preparation. Exact duplicate
+  and overlapping geometry is counted once by unioning all eligible polygons.
+- Invalid eligible geometry is repaired with Shapely `make_valid`; any empty
+  polygonal result fails preparation. For each OA21 population-weighted
+  centroid, nearest straight-line distance is measured to the union, with
+  distance `<= 300` metres counted as within. Provision is the area of that
+  union intersecting a 1,000-metre GEOS buffer (`quad_segs=32`). Boundary-only
+  intersections contribute zero area and origins inside or on a site have zero
+  distance.
 - Each BUA pillar is the Census 2021 population-weighted mean of its constituent
   OA observations. Composite locations are combined with the same population
   weighting.
 
 Covered and expected 2021 population are recorded independently for every
 pillar. Release requires equality for every pillar and candidate component.
-The 2020 workbook is restricted to residential urban postcodes. Where an older
-LSOA has no published row but one of its OAs falls within a 2024 BUA, the pilot
-correctly reports missing coverage; it does not borrow a neighbouring value.
+The v2 preparation covers 177,643 populated OA origins in 7,070 BUAs without an
+unmatched green origin. All four pillars cover the full expected population of
+all 83 candidates. The release CSV retains source-feature, duplicate, repair,
+union, predicate and coverage audit counts.
 
 ## National reference and score
 
@@ -139,6 +155,8 @@ must record a new manifest. The preparer must run offline with the versions in
 `requirements-environment.txt`. Never update a single candidate in isolation.
 
 Use the latest common completed Defra year and compatible complete national
-noise/EPC releases. The non-recurring ONS green-space workbook remains a clearly
-labelled structural baseline until a scripted England-and-Wales replacement,
-preferably from OS Open Greenspace, passes the same coverage and audit gates.
+noise/EPC releases. Each refresh uses the latest complete OS Open Greenspace
+snapshot available on the acquisition date and recalculates every national BUA;
+never update one OA, BUA or candidate in isolation. The rejected ONS 2020
+green-space workbook and its 2011 allocation inputs are not supported sources
+and are not retained.

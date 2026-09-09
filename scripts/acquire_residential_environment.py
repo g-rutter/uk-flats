@@ -2,6 +2,7 @@
 """Acquire one dated residential-environment source release without transforming it."""
 import argparse
 import hashlib
+import json
 import mimetypes
 from datetime import datetime, timezone
 from pathlib import Path
@@ -29,25 +30,17 @@ SOURCES = (
      '2024 annual mean PM2.5 1 km grid', 'Department for Environment, Food & Rural Affairs'),
     ('defra-pm10-2024.csv', 'GET', 'https://uk-air.defra.gov.uk/datastore/pcm/mappm102024g.csv', '',
      '2024 annual mean PM10 1 km grid', 'Department for Environment, Food & Rural Affairs'),
-    ('ons-public-green-space-corrected.xlsx', 'GET',
-     'https://www.ons.gov.uk/file?uri=%2Feconomy%2Fenvironmentalaccounts%2Fdatasets%2Faccesstogardensandpublicgreenspaceingreatbritain%2Faccesstopublicparksandplayingfieldsgreatbritainapril2020%2Fospublicgreenspacereferencetables.xlsx', '',
-     'Corrected Access to public green space workbook, structural 2020 baseline', 'Office for National Statistics'),
     ('oa21-population-weighted-centroids.csv', 'GET',
      'https://hub.arcgis.com/api/v3/datasets/558170d37ab04f34845034db91a86914_0/downloads/data?format=csv&spatialRefId=27700', '',
      'December 2021 OA population-weighted centroids v4', 'Office for National Statistics'),
     ('oa21-lsoa21-msoa21-lookup.csv', 'GET',
      'https://hub.arcgis.com/api/download/v1/items/b9ca90c10aaa4b8d9791e9859a38ca67/csv?layers=0', '',
      'December 2021 OA to LSOA/MSOA exact-fit lookup v3', 'Office for National Statistics'),
-    ('oa11-oa21-change-lookup.csv', 'GET',
-     'https://hub.arcgis.com/api/download/v1/items/93ffd0c524db494aa11914d44023c730/csv?layers=0', '',
-     '2011 OA to 2021 OA exact-fit change lookup v3', 'Office for National Statistics'),
-    ('oa11-lsoa11-msoa11-lookup.csv', 'GET',
-     'https://hub.arcgis.com/api/download/v1/items/d382604321554ed49cc15dbc1edb3de3/csv?layers=0', '',
-     '2011 OA to LSOA/MSOA exact-fit lookup v2', 'Office for National Statistics'),
-    ('census2011-ks101ew-oa.zip', 'GET',
-     'https://www.nomisweb.co.uk/output/census/2011/ks101ew_2011_oa.zip', '',
-     'Census 2011 OA usual-resident population', 'Office for National Statistics / Nomis'),
 )
+
+OS_PRODUCT_URL = 'https://api.os.uk/downloads/v1/products/OpenGreenspace'
+OS_DOWNLOADS_URL = f'{OS_PRODUCT_URL}/downloads'
+OS_DOWNLOAD_QUERY = 'area=GB&format=GeoPackage'
 
 
 def acquire(destination):
@@ -64,10 +57,51 @@ def acquire(destination):
             'relative_path': name, 'original_url': url, 'request_query': query,
             'retrieved_at': datetime.now(timezone.utc).isoformat(), 'data_period': period,
             'sha256': hashlib.sha256(payload).hexdigest(),
+            'byte_size': str(len(payload)),
             'mime_type': content_type or mimetypes.guess_type(name)[0] or 'application/octet-stream',
             'publisher': publisher, 'licence_or_terms': 'Open Government Licence v3.0',
             'coverage_limitations': 'England and Wales source coverage; see methodology for indicator-specific limitations.',
         })
+    with urlopen(Request(OS_PRODUCT_URL, method='GET'), timeout=180) as response:
+        product_payload = response.read()
+        product_content_type = response.headers.get_content_type()
+    product = json.loads(product_payload)
+    if product.get('id') != 'OpenGreenspace' or not product.get('version'):
+        raise ValueError('OS Downloads API returned unexpected OpenGreenspace metadata')
+    (destination / 'os-open-greenspace-product.json').write_bytes(product_payload)
+    rows.append({
+        'relative_path': 'os-open-greenspace-product.json', 'original_url': OS_PRODUCT_URL,
+        'request_query': '', 'retrieved_at': datetime.now(timezone.utc).isoformat(),
+        'data_period': f"OS Open Greenspace {product['version']}",
+        'sha256': hashlib.sha256(product_payload).hexdigest(),
+        'byte_size': str(len(product_payload)),
+        'mime_type': product_content_type or 'application/json', 'publisher': 'Ordnance Survey',
+        'licence_or_terms': 'Open Government Licence v3.0',
+        'coverage_limitations': 'Product metadata captured with the selected national bulk snapshot.',
+    })
+    with urlopen(f'{OS_DOWNLOADS_URL}?{OS_DOWNLOAD_QUERY}', timeout=180) as response:
+        downloads = json.load(response)
+    matches = [item for item in downloads if item.get('area') == 'GB' and item.get('format') == 'GeoPackage']
+    if len(matches) != 1 or matches[0].get('fileName') != 'opgrsp_gpkg_gb.zip':
+        raise ValueError('OS Downloads API did not return exactly one GB GeoPackage')
+    with urlopen(matches[0]['url'], timeout=300) as response:
+        payload = response.read()
+        content_type = response.headers.get_content_type()
+    if matches[0].get('size') != len(payload):
+        raise ValueError('OS Open Greenspace payload size differs from API metadata')
+    name = 'os-open-greenspace-gb.gpkg.zip'
+    (destination / name).write_bytes(payload)
+    rows.append({
+        'relative_path': name, 'original_url': OS_DOWNLOADS_URL,
+        'request_query': OS_DOWNLOAD_QUERY, 'retrieved_at': datetime.now(timezone.utc).isoformat(),
+        'data_period': f"OS Open Greenspace {product['version']}",
+        'sha256': hashlib.sha256(payload).hexdigest(),
+        'byte_size': str(len(payload)),
+        'mime_type': content_type or 'application/zip', 'publisher': 'Ordnance Survey',
+        'licence_or_terms': 'Open Government Licence v3.0',
+        'coverage_limitations': ('Product inclusion does not guarantee unrestricted public access; '
+                                 'only Public Park Or Garden and Playing Field are used.'),
+    })
     write_csv(destination / 'manifest.csv', rows, rows[0])
 
 

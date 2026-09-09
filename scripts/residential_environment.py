@@ -1,7 +1,7 @@
 """Shared residential-environment scoring helpers."""
 
 
-METHOD_VERSION = 'residential-environment-bua24-v1'
+METHOD_VERSION = 'residential-environment-bua24-v2'
 BOUNDARY_RULE = 'A value equal to a threshold enters the higher score band.'
 
 

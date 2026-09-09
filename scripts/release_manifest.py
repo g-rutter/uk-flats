@@ -36,6 +36,9 @@ def load(release_dir):
         artifact = release_dir / path
         if not artifact.is_file():
             raise ValueError(f'Release manifest artifact missing: {path}')
+        if 'byte_size' in row:
+            if not row['byte_size'].isdigit() or int(row['byte_size']) != artifact.stat().st_size:
+                raise ValueError(f'Release manifest size mismatch: {path}')
         if hashlib.sha256(artifact.read_bytes()).hexdigest() != row['sha256']:
             raise ValueError(f'Release manifest hash mismatch: {path}')
         result[path.as_posix()] = row

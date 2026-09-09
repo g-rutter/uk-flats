@@ -3,15 +3,14 @@
 ## Implementation status (2026-09-09 handoff)
 
 This plan is partially implemented. The live screen and composite still use
-`condition.csv`; do not switch them until the new preparer produces complete,
-reviewed outputs for all 83 locations.
+`condition.csv`; do not switch them while Blocker 2 remains unresolved.
 
 Completed foundation:
 
-- added the pinned workbook dependency in `requirements-environment.txt`;
+- added pinned tabular and GIS dependencies in `requirements-environment.txt`;
 - added `scripts/acquire_residential_environment.py`, with bulk GET/POST requests
-  for the official English, Welsh, Defra, ONS/Nomis and geography artifacts;
-- retained twelve source artifacts and a hash-verifying manifest under
+  for the official English, Welsh, Defra, Ordnance Survey and geography artifacts;
+- retained ten source artifacts and a hash-verifying manifest under
   `data/raw/environment/2026-09-09/`;
 - added shared percentile/quintile helpers in
   `scripts/residential_environment.py`;
@@ -19,26 +18,38 @@ Completed foundation:
   behaviour and release gates in
   `docs/residential-environment-methodology.md`;
 - added the offline `scripts/prepare_residential_environment.py` pipeline for
-  OA-to-grid air assignment, LSOA indicators, 2011-to-2021 green-space
-  allocation, BUA aggregation, national percentiles/quintiles, candidate rows
-  and the national BUA audit.
+  OA-to-grid air assignment, LSOA indicators, OS Open Greenspace geometry,
+  BUA aggregation, national percentiles/quintiles, candidate rows and the
+  national BUA audit;
+- replaced the rejected ONS green pilot with the hash-pinned April 2026 OS Open
+  Greenspace GB GeoPackage and product metadata; and
+- generated 83 complete candidate rows and a complete 7,070-BUA national audit
+  under method `residential-environment-bua24-v2`.
 
-The preparer has not yet passed its coverage gate. Run it in an environment with
-`openpyxl==3.1.5` using:
+The preparer now passes the population-coverage gate. Run it with the pinned
+tabular and GIS dependencies using:
 
 ```sh
 python3 scripts/prepare_residential_environment.py
 ```
 
-The Welsh noise/EPC coverage gate is now resolved. The retained WIMD downloads
+The Welsh noise/EPC row-coverage gate is resolved. The retained WIMD downloads
 contain one observation for every current Welsh LSOA21, including replacement
 codes `W01001981`--`W01001984` in Bridgend. The preparer now uses the official
-exact-fit OA21-to-LSOA21 lookup for both countries and reserves the 2011
-allocation for the genuinely older green-space source.
+exact-fit OA21-to-LSOA21 lookup for both countries.
 
-### Blocker 1: incomplete green-space coverage — resolution selected
+### Blocker 1: incomplete green-space coverage — resolved
 
-The latest fail-closed result identifies two candidate BUAs whose 2021
+Implemented on 2026-09-09. The April 2026 OS Open Greenspace calculation covers
+all 177,643 populated OA origins assigned to 7,070 England-and-Wales BUAs. No
+origin is unmatched. All four pillars cover the full expected population of all
+83 candidates, including Shrewsbury at 75,784/75,784 and Stafford at
+71,695/71,695. The retained audit records 43,961 eligible source features, no
+duplicate IDs, one duplicate geometry, no invalid or empty repaired geometry,
+and the union and predicate parameters. Blocker 2 still prevents a live-factor
+switch.
+
+The rejected v1 fail-closed result identified two candidate BUAs whose 2021
 population cannot be fully assigned a value from the corrected 2020 ONS
 green-space workbook:
 
@@ -64,7 +75,7 @@ Do not clear this blocker by:
 - calculating a newer value for only these four OAs and mixing it into the 2020
   national series.
 
-**Selected decision (2026-09-09): replace the ONS 2020 green-space series with a
+**Implemented decision (2026-09-09): replace the ONS 2020 green-space series with a
 new national green-pillar calculation for every England-and-Wales BUA using a
 current OS Open Greenspace bulk snapshot and one consistent residential-origin
 method.** This is a replacement series, not a patch for Shrewsbury and Stafford.
@@ -116,10 +127,9 @@ release. Other pipelines' independently required copies, if any, are outside
 this deletion instruction. The repository documentation may retain a concise
 explanation of why the pilot source was rejected.
 
-This blocker is cleared only when all four pillars cover the full expected
-population of all 83 candidates and the selected replacement green method has
-been applied to every national-reference BUA. Until then the canonical
-environment output and overall composite must remain incomplete.
+This gate is cleared. The selected replacement method has been applied to every
+national-reference BUA and all four pillars cover the full expected population
+of all 83 candidates. The overall composite remains unchanged pending Blocker 2.
 
 ### Blocker 2: England-Wales source compatibility
 
@@ -152,9 +162,9 @@ This blocker is cleared only by harmonised inputs or a documented acceptance of
 the mixed proxies after the planned validation. Until then the new factor must
 not replace `condition`, even if the green-space coverage blocker is solved.
 
-Remaining work after the green-coverage and source-compatibility decisions:
+Remaining work after the source-compatibility decision:
 
-1. generate and review the canonical candidate, release and all-BUA audit CSVs;
+1. review the generated canonical candidate, release and all-BUA audit CSVs;
 2. add sensitivity, outlier, correlation and country-domain validation outputs;
 3. replace `condition` in build/composite code and add strict reproduction tests;
 4. update the browser, evidence/source catalogue, README, methodology,
@@ -401,10 +411,9 @@ OA21 residential origins and therefore removes that allocation and its inputs.
 Third-party GIS libraries are permitted for this workstream. Prefer an official
 bulk lookup where it expresses the required relationship adequately; otherwise,
 perform the spatial work reproducibly with `geopandas`, `pyogrio` and `shapely`.
-In particular, an overlay or spatial join can assign current OAs to the 2011
-green-space geography, and can associate Defra's 1 km pollution grid with the
-population geography. Use `rasterio` only if a selected source is supplied as a
-raster rather than as grid CSV or vector data.
+The OS Open Greenspace calculation uses direct OA21 origins; Defra's 1 km grid
+uses the same population-weighted centroids. Use `rasterio` only if a future
+selected source is supplied as a raster rather than as grid CSV or vector data.
 
 Spatial operations must use a documented projected coordinate reference system,
 validate and repair invalid geometries explicitly, state the boundary predicate,

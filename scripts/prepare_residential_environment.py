@@ -2,12 +2,18 @@
 """Prepare BUA residential-environment observations from a retained raw release."""
 import argparse
 import csv
+import json
 import math
 from collections import defaultdict
 from pathlib import Path
+from tempfile import TemporaryDirectory
 from zipfile import ZipFile
 
+import numpy as np
+import pyogrio
+import shapely
 from openpyxl import load_workbook
+from shapely.strtree import STRtree
 
 from csv_io import write_csv
 from release_manifest import load as load_manifest
@@ -18,10 +24,9 @@ from prepare_local_transport import read_population
 RAW_FILES = {
     'iod2025-underlying-indicators-v2.xlsx', 'wimd2025-physical-environment.csv',
     'wimd2025-housing.csv', 'defra-no2-2024.csv', 'defra-pm25-2024.csv',
-    'defra-pm10-2024.csv', 'ons-public-green-space-corrected.xlsx',
+    'defra-pm10-2024.csv', 'os-open-greenspace-product.json',
+    'os-open-greenspace-gb.gpkg.zip',
     'oa21-population-weighted-centroids.csv', 'oa21-lsoa21-msoa21-lookup.csv',
-    'oa11-oa21-change-lookup.csv', 'oa11-lsoa11-msoa11-lookup.csv',
-    'census2011-ks101ew-oa.zip',
 }
 PILLARS = ('air', 'quiet', 'green', 'housing_environment')
 OUTPUT_COLUMNS = (
@@ -114,24 +119,118 @@ def read_welsh_indicators(physical_path, housing_path):
     return result
 
 
-def read_green(path):
-    ws = load_workbook(path, read_only=True, data_only=True)['LSOA Parks and Playing Fields']
-    rows = ws.iter_rows(values_only=True); header = list(next(rows))
-    code_i, area_i, built_i, near_i = 8, 15, 16, 17
-    result = {}
-    for row in rows:
-        if row[code_i] and row[area_i] is not None and row[built_i] not in (None, 0) and row[near_i] is not None:
-            result[row[code_i]] = {'proximity': 100 * float(row[near_i]) / float(row[built_i]),
-                                   'provision': float(row[area_i])}
-    return result
+def _polygonal(geometry):
+    """Retain only polygonal parts after deterministic make-valid repair."""
+    if geometry.is_empty:
+        return geometry
+    if geometry.geom_type in ('Polygon', 'MultiPolygon'):
+        return geometry
+    parts = [part for part in shapely.get_parts(geometry)
+             if part.geom_type in ('Polygon', 'MultiPolygon') and not part.is_empty]
+    return shapely.union_all(parts) if parts else shapely.GeometryCollection()
 
 
-def read_oa11_population(path):
-    member = 'ks101ew_2011oa/KS101EWDATA.CSV'
-    with ZipFile(path) as archive, archive.open(member) as raw:
-        import io
-        return {row['GeographyCode']: int(row['KS101EW0001']) for row in csv.DictReader(io.TextIOWrapper(raw, encoding='utf-8-sig'))
-                if row['GeographyCode'].startswith(('E00', 'W00'))}
+def read_green_metrics(archive_path, product_path, centroids):
+    """Calculate the frozen OS Open Greenspace observation for every supplied OA."""
+    product = json.loads(Path(product_path).read_text(encoding='utf-8'))
+    if product.get('id') != 'OpenGreenspace' or not product.get('version'):
+        raise ValueError('Invalid retained OS Open Greenspace product metadata')
+    with TemporaryDirectory(prefix='residential-environment-green-') as temporary:
+        member = 'Data/opgrsp_gb.gpkg'
+        with ZipFile(archive_path) as archive:
+            if member not in archive.namelist():
+                raise ValueError(f'{archive_path}: missing {member}')
+            archive.extract(member, temporary)
+        gpkg = Path(temporary) / member
+        layers = {name: geometry_type for name, geometry_type in pyogrio.list_layers(gpkg)}
+        if layers.get('greenspace_site') != 'MultiPolygon':
+            raise ValueError('OS Open Greenspace has an unexpected greenspace_site layer')
+        info = pyogrio.read_info(gpkg, layer='greenspace_site')
+        if info['crs'] != 'EPSG:27700' or not {'id', 'function'} <= set(info['fields']):
+            raise ValueError('OS Open Greenspace has an unexpected CRS or schema')
+        frame = pyogrio.read_dataframe(
+            gpkg, layer='greenspace_site', columns=['id', 'function'],
+            where="function IN ('Public Park Or Garden', 'Playing Field')")
+
+    if frame.empty or frame['id'].isna().any() or frame.geometry.isna().any():
+        raise ValueError('OS Open Greenspace eligible sites contain empty identifiers or geometry')
+    functions = set(frame['function'])
+    if functions != {'Public Park Or Garden', 'Playing Field'}:
+        raise ValueError(f'OS Open Greenspace eligibility filter returned {sorted(functions)}')
+    source_eligible_features = len(frame)
+    duplicate_ids = int(frame['id'].duplicated(keep=False).sum())
+    if duplicate_ids:
+        for _, group in frame[frame['id'].duplicated(keep=False)].groupby('id'):
+            if len(set(group.geometry.to_wkb())) != 1 or len(set(group['function'])) != 1:
+                raise ValueError('OS Open Greenspace repeats an ID with conflicting observations')
+        frame = frame.drop_duplicates('id', keep='first')
+    duplicate_geometries = int(frame.geometry.to_wkb().duplicated().sum())
+    invalid_before = int((~frame.geometry.is_valid).sum())
+    repaired = [_polygonal(shapely.make_valid(geometry)) for geometry in frame.geometry]
+    empty_after_repair = sum(geometry.is_empty for geometry in repaired)
+    if empty_after_repair:
+        raise ValueError('OS Open Greenspace repair produced empty eligible geometry')
+
+    coordinates = np.asarray([centroids[oa] for oa in centroids], dtype=float)
+    if len(coordinates) == 0 or not np.isfinite(coordinates).all():
+        raise ValueError('No valid OA population-weighted origins for green-space calculation')
+    min_x, min_y = coordinates.min(axis=0) - 1000
+    max_x, max_y = coordinates.max(axis=0) + 1000
+    relevant = [geometry for geometry in repaired
+                if shapely.intersects(geometry, shapely.box(min_x, min_y, max_x, max_y))]
+    coverage = shapely.union_all(relevant)
+    union_parts = np.asarray([part for part in shapely.get_parts(coverage)
+                              if part.geom_type in ('Polygon', 'MultiPolygon') and not part.is_empty], dtype=object)
+    if not len(union_parts):
+        raise ValueError('OS Open Greenspace union is empty')
+
+    points = shapely.points(coordinates[:, 0], coordinates[:, 1])
+    tree = STRtree(union_parts)
+    nearest_pairs, distances = tree.query_nearest(points, return_distance=True, all_matches=False)
+    if len(distances) != len(points) or len(set(nearest_pairs[0])) != len(points):
+        raise ValueError('Not every OA origin resolved to one nearest eligible green polygon')
+    nearest_by_origin = np.empty(len(points), dtype=float)
+    nearest_by_origin[nearest_pairs[0]] = distances
+
+    areas = np.zeros(len(points), dtype=float)
+    chunk_size = 5000
+    for start in range(0, len(points), chunk_size):
+        stop = min(start + chunk_size, len(points))
+        buffers = shapely.buffer(points[start:stop], 1000, quad_segs=32)
+        pairs = tree.query(buffers, predicate='intersects')
+        if pairs.size:
+            clipped = shapely.intersection(buffers[pairs[0]], union_parts[pairs[1]])
+            areas[start:stop] = np.bincount(
+                pairs[0], weights=shapely.area(clipped), minlength=stop - start)
+
+    result = {
+        oa: {'proximity': 100.0 if nearest_by_origin[index] <= 300 else 0.0,
+             'provision': float(areas[index])}
+        for index, oa in enumerate(centroids)
+    }
+    audit = {
+        'green_source_version': product['version'],
+        'green_eligible_functions': 'Public Park Or Garden;Playing Field',
+        'green_access_points_used': 'false',
+        'green_source_eligible_feature_count': str(source_eligible_features),
+        'green_duplicate_id_row_count': str(duplicate_ids),
+        'green_duplicate_geometry_count': str(duplicate_geometries),
+        'green_duplicate_handling': ('identical IDs collapse; conflicting IDs fail; '
+                                     'polygon union counts overlapping area once'),
+        'green_invalid_geometry_repaired_count': str(invalid_before),
+        'green_empty_geometry_after_repair_count': str(empty_after_repair),
+        'green_geometry_repair_operation': 'Shapely make_valid; retain polygonal parts; fail if empty',
+        'green_relevant_feature_count': str(len(relevant)),
+        'green_union_part_count': str(len(union_parts)),
+        'green_origin_count': str(len(points)),
+        'green_unmatched_origin_count': '0',
+        'green_distance_crs': 'EPSG:27700',
+        'green_distance_predicate': 'nearest_distance <= 300 metres',
+        'green_area_predicate': 'area(union(eligible) intersect closed 1000 metre buffer)',
+        'green_buffer_quad_segs': '32',
+        'green_coverage_rule': 'covered population must equal expected population',
+    }
+    return result, audit
 
 
 def weighted(values, populations):
@@ -140,7 +239,8 @@ def weighted(values, populations):
 
 
 def prepare(raw_dir, shared_release_dir, inputs_dir):
-    if set(load_manifest(raw_dir)) != RAW_FILES:
+    raw_manifest = load_manifest(raw_dir)
+    if set(raw_manifest) != RAW_FILES:
         raise ValueError('Residential-environment manifest does not match the required release')
     shared = load_manifest(shared_release_dir)
     if set(shared) != {'connectivity_metrics_2025.ods', 'oa21_bua24_best_fit.csv', 'census2021-ts001.zip'}:
@@ -153,13 +253,15 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
     english = read_english_indicators(raw_dir / 'iod2025-underlying-indicators-v2.xlsx')
     welsh = read_welsh_indicators(raw_dir / 'wimd2025-physical-environment.csv', raw_dir / 'wimd2025-housing.csv')
     lsoa_indicators = dict(english, **welsh)
-    green_lsoa = read_green(raw_dir / 'ons-public-green-space-corrected.xlsx')
-    oa11_population = read_oa11_population(raw_dir / 'census2011-ks101ew-oa.zip')
-    oa11_lsoa = keyed(read_csv(raw_dir / 'oa11-lsoa11-msoa11-lookup.csv'), 'OA11CD', lambda row: row['LSOA11CD'])
-    oa21_oa11 = defaultdict(set)
-    for row in read_csv(raw_dir / 'oa11-oa21-change-lookup.csv'):
-        if row['OA11CD'] and row['OA21CD']:
-            oa21_oa11[row['OA21CD']].add(row['OA11CD'])
+    green_centroids = {oa: centroids[oa] for oa, bua in oa_to_bua.items()
+                       if bua and oa in population and oa in centroids}
+    green_by_oa, green_audit = read_green_metrics(
+        raw_dir / 'os-open-greenspace-gb.gpkg.zip',
+        raw_dir / 'os-open-greenspace-product.json', green_centroids)
+    expected_green_period = f"OS Open Greenspace {green_audit['green_source_version']}"
+    if any(raw_manifest[name]['data_period'] != expected_green_period for name in
+           ('os-open-greenspace-product.json', 'os-open-greenspace-gb.gpkg.zip')):
+        raise ValueError('OS Open Greenspace manifest period differs from retained product metadata')
     grids = {name: read_defra(raw_dir / filename) for name, filename in
              [('no2', 'defra-no2-2024.csv'), ('pm25', 'defra-pm25-2024.csv'), ('pm10', 'defra-pm10-2024.csv')]}
 
@@ -171,18 +273,12 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
         for pollutant, grid in grids.items():
             values[pollutant], fallback = nearest_grid_value(grid, x, y); air_fallbacks += int(fallback)
         values['air_burden'] = (values['no2'] / 10 + values['pm25'] / 5 + values['pm10'] / 15) / 3
-        legacy = [(oa11, oa11_population.get(oa11, 0), green_lsoa.get(oa11_lsoa.get(oa11, '')))
-                  for oa11 in oa21_oa11.get(oa, ())]
         # Both 2025 indicator releases identify their observations by 2021 LSOA.
         # Use the exact OA21-to-LSOA21 relationship in both countries.  Routing
         # Welsh observations through predecessor LSOA11 codes loses replacement
         # areas such as Coity Higher 1--4 (W01001981--W01001984).
         values.update(lsoa_indicators.get(oa_lsoa21[oa], {}))
-        usable = [(weight, item) for _, weight, item in legacy if weight > 0 and item]
-        if usable:
-            total = sum(weight for weight, _ in usable)
-            values['green_proximity'] = sum(weight * item['proximity'] for weight, item in usable) / total
-            values['green_provision'] = sum(weight * item['provision'] for weight, item in usable) / total
+        values.update({f'green_{field}': value for field, value in green_by_oa[oa].items()})
         oa_values[oa] = values
 
     bua_oas = defaultdict(list)
@@ -214,13 +310,15 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
         'green_provision': [(row['green_provision'], populations_by_bua[code]) for code, row in complete.items()],
         'housing': [(row['epc'], populations_by_bua[code]) for code, row in complete.items()],
     }
-    for code, row in complete.items():
+    def assign_pillar_percentiles(row):
         row['air_percentile'] = percentile_for(row['air_burden'], distributions['air'], True)
         row['quiet_percentile'] = percentile_for(row['noise'], distributions['quiet'], True)
         row['green_percentile'] = (percentile_for(row['green_proximity'], distributions['green_proximity']) +
                                    percentile_for(row['green_provision'], distributions['green_provision'])) / 2
         row['housing_environment_percentile'] = percentile_for(row['epc'], distributions['housing'])
         row['environment_index'] = sum(row[f'{pillar}_percentile'] for pillar in PILLARS) / 4
+    for row in complete.values():
+        assign_pillar_percentiles(row)
     index_distribution = [(row['environment_index'], populations_by_bua[code]) for code, row in complete.items()]
     cutpoints = weighted_cutpoints(index_distribution)
     for row in complete.values():
@@ -230,7 +328,7 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
     def format_row(row, ident='', codes=()):
         reason = ('Population-weighted across the reviewed April 2024 built-up area; '
                   'air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, '
-                  'and the structural green-space baseline uses constituent 2011 OA population weights.')
+                  'and green space uses current OA origins and the union of eligible OS Open Greenspace polygons.')
         return {
             'location_id': ident, 'air_burden': f"{row['air_burden']:.4f}", 'no2_ug_m3': f"{row['no2']:.3f}",
             'pm25_ug_m3': f"{row['pm25']:.3f}", 'pm10_ug_m3': f"{row['pm10']:.3f}",
@@ -242,9 +340,11 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
             'environment_index_0_100': f"{row['environment_index']:.3f}",
             'national_percentile': f"{row['national_percentile']:.3f}", 'score': str(row['score']),
             'air_period': '2024 annual mean', 'quiet_period': '2021 strategic noise model',
-            'green_period': '2020 structural baseline (corrected 2022)', 'housing_environment_period': 'EPCs 2012-2024',
+            'green_period': f"OS Open Greenspace {green_audit['green_source_version']}",
+            'housing_environment_period': 'EPCs 2012-2024',
             'air_evidence_id': 'ENV-AIR-DEFRA-2024', 'quiet_evidence_id': 'ENV-NOISE-IOD-WIMD-2025',
-            'green_evidence_id': 'ENV-GREEN-ONS-2020', 'housing_environment_evidence_id': 'ENV-EPC-IOD-WIMD-2025',
+            'green_evidence_id': 'ENV-GREEN-OS-OPEN-2026-04',
+            'housing_environment_evidence_id': 'ENV-EPC-IOD-WIMD-2025',
             'geography_code': ';'.join(codes), 'geography_vintage': 'April 2024',
             **{f'{pillar}_population_covered': str(row[f'{pillar}_population_covered']) for pillar in PILLARS},
             'population_expected': str(row['population_expected']), 'method_version': METHOD_VERSION,
@@ -279,13 +379,14 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
         codes = components.get(ident, [])
         expected = sum(complete[code]['population_expected'] for code in codes)
         combined = {'population_expected': expected}
-        numeric = ('air_burden', 'no2', 'pm25', 'pm10', 'noise', 'green_proximity', 'green_provision', 'epc',
-                   'air_percentile', 'quiet_percentile', 'green_percentile', 'housing_environment_percentile',
-                   'environment_index', 'national_percentile')
-        for field in numeric:
+        raw_fields = ('air_burden', 'no2', 'pm25', 'pm10', 'noise',
+                      'green_proximity', 'green_provision', 'epc')
+        for field in raw_fields:
             combined[field] = sum(complete[code][field] * complete[code]['population_expected'] for code in codes) / expected
         for pillar in PILLARS:
             combined[f'{pillar}_population_covered'] = sum(complete[code][f'{pillar}_population_covered'] for code in codes)
+        assign_pillar_percentiles(combined)
+        combined['national_percentile'] = percentile_for(combined['environment_index'], index_distribution)
         combined['score'] = score_for(combined['environment_index'], cutpoints)
         output.append(format_row(combined, ident, codes))
 
@@ -293,6 +394,7 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
     for code, row in sorted(raw_buas.items()):
         if code in complete:
             audit = {'bua_code': code, 'bua_name': row['bua_name'], **format_row(row)}
+            audit.pop('location_id')
             audit['exclusion_reason'] = ''
         else:
             audit = {'bua_code': code, 'bua_name': row['bua_name'], 'population_expected': row['population_expected'],
@@ -301,12 +403,13 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
                 audit[f'{pillar}_population_covered'] = row[f'{pillar}_population_covered']
         audits.append(audit)
     release = {
-        'release_id': 'residential-environment-2026-09-09', 'method_version': METHOD_VERSION,
+        'release_id': 'residential-environment-2026-09-09-v2', 'method_version': METHOD_VERSION,
         'reference_bua_count': str(len(complete)), 'reference_population': str(sum(populations_by_bua.values())),
         'q20': f'{cutpoints[0]:.3f}', 'q40': f'{cutpoints[1]:.3f}', 'q60': f'{cutpoints[2]:.3f}',
         'q80': f'{cutpoints[3]:.3f}', 'boundary_rule': BOUNDARY_RULE,
         'pillar_weights': 'air=25;quiet=25;green=25;housing_environment=25',
         'air_grid_nearest_fallback_oa_count': str(air_fallbacks),
+        **green_audit,
     }
     return output, audits, release
 
