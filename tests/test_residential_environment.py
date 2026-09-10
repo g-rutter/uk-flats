@@ -15,7 +15,7 @@ def read_csv(path):
 
 
 class ResidentialEnvironmentTests(unittest.TestCase):
-    def test_v2_green_release_has_complete_national_and_candidate_coverage(self):
+    def test_v3_release_has_complete_national_and_candidate_coverage(self):
         raw = ROOT / 'data/raw/environment/2026-09-09'
         manifest_names = {row['relative_path'] for row in read_csv(raw / 'manifest.csv')}
         self.assertTrue({'os-open-greenspace-product.json',
@@ -33,6 +33,15 @@ class ResidentialEnvironmentTests(unittest.TestCase):
                          {row['location_id'] for row in candidates})
         self.assertEqual(len(release), 1)
         self.assertEqual(release[0]['method_version'], METHOD_VERSION)
+        self.assertEqual(
+            release[0]['quiet_standardisation'],
+            'population-weighted percentile within England or Wales')
+        self.assertEqual(
+            release[0]['housing_environment_standardisation'],
+            'population-weighted percentile within England or Wales')
+        self.assertEqual(
+            release[0]['cross_border_bua_country_rule'],
+            'country containing the majority of the BUA population')
         self.assertEqual(int(release[0]['reference_bua_count']), len(audit))
         self.assertEqual(release[0]['green_unmatched_origin_count'], '0')
         proximity_distribution = [
@@ -47,6 +56,8 @@ class ResidentialEnvironmentTests(unittest.TestCase):
             for pillar in ('air', 'quiet', 'green', 'housing_environment'):
                 self.assertEqual(row[f'{pillar}_population_covered'], row['population_expected'])
             self.assertEqual(row['method_version'], METHOD_VERSION)
+        self.assertEqual({'England', 'Wales'},
+                         {row['standardisation_country'] for row in audit})
         for row in candidates:
             reproduced = (
                 percentile_for(float(row['green_within_300m_pct']), proximity_distribution) +
@@ -76,6 +87,32 @@ class ResidentialEnvironmentTests(unittest.TestCase):
         self.assertEqual(welsh_lsoas, noise_lsoas)
         self.assertTrue(welsh_lsoas <= epc_lsoas)
         self.assertTrue({'W01001981', 'W01001982', 'W01001983', 'W01001984'} <= welsh_lsoas)
+
+    def test_compatibility_stress_test_covers_candidates_and_reproduces_band_changes(self):
+        locations = read_csv(ROOT / 'data/inputs/locations.csv')
+        candidates = {row['location_id']: row for row in
+                      read_csv(ROOT / 'data/inputs/residential_environment.csv')}
+        audit = read_csv(ROOT / 'data/derived/residential_environment_compatibility_audit.csv')
+        self.assertEqual({row['id'] for row in locations},
+                         {row['location_id'] for row in audit})
+        self.assertEqual(len(audit), len(locations))
+        for row in audit:
+            baseline = int(row['baseline_score'])
+            scenario_scores = [
+                int(row['quiet_calibrated_score']),
+                int(row['housing_calibrated_score']),
+                int(row['both_calibrated_score']),
+            ]
+            self.assertEqual(
+                int(row['maximum_absolute_band_change']),
+                max(abs(score - baseline) for score in scenario_scores))
+            self.assertTrue(all(1 <= score <= 5 for score in scenario_scores))
+            candidate = candidates[row['location_id']]
+            self.assertEqual(candidate['quiet_percentile'],
+                             row['country_calibrated_quiet_percentile'])
+            self.assertEqual(candidate['housing_environment_percentile'],
+                             row['country_calibrated_housing_environment_percentile'])
+            self.assertEqual(candidate['score'], row['both_calibrated_score'])
 
     def test_population_weighted_boundaries_are_inclusive(self):
         observations = [(10, 1), (20, 1), (30, 1), (40, 1), (50, 1)]

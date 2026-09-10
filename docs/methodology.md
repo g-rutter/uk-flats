@@ -19,8 +19,8 @@ scores, rankings, shortlists or decisions.
 | Factor | Relative weight | Calculation |
 | --- | ---: | --- |
 | Housing cost | 15 | Within each tenure, fresh equal quintiles of the current proxy distribution score 5, 4, 3, 2 and 1 from cheapest to most expensive. |
-| Recorded-offence safety proxy | 15 | Equal mean of fresh 1--5 quintile scores for the ONS CSP violence-against-the-person and sexual-offence rates; lower recorded rates score higher. |
-| Local public-transport connectivity | 15 | Population-weighted mean of the DfT 2025 OA `Overall (public transport)` metric within each reviewed April 2024 BUA mapping. National population-weighted England-and-Wales quintiles score 1--5; higher is better. |
+| Recorded-offence safety proxy | 15 | Equal mean of fresh 1--5 quintile scores for the Office for National Statistics (ONS) Community Safety Partnership (CSP) violence-against-the-person and sexual-offence rates; lower recorded rates score higher. |
+| Local public-transport connectivity | 15 | Population-weighted mean of the Department for Transport (DfT) 2025 Census Output Area (OA) `Overall (public transport)` metric within each reviewed April 2024 Built-up Area (BUA) mapping. National population-weighted England-and-Wales quintiles score 1--5; higher is better. |
 | Local condition | 15 | The explicit `assessment` field maps `highest`, `favourable` and `mixed` to 5, 4 and 2. |
 | One-bed stock | 15 | Current tenure-specific Rightmove headline counts of under 10, 10--24, 25--74, 75--249 and 250+ score 1--5. |
 | National transport | 10 | London and Birmingham routes score 5, 4, 3, 2 or 1 at effective journey times (minutes plus 15 per change) of <=75, <=120, <=165, <=210 or >210. The two route scores are averaged. |
@@ -52,15 +52,16 @@ percentile. See the [full local transport methodology](local-transport-methodolo
 for source fields, BUA mappings, weights, coverage checks and limitations.
 
 The safety proxy is a limited comparison of recorded offences, not victimisation
-risk, personal safety, or a neighbourhood measure. It excludes ASB: the Police.uk
+risk, personal safety, or a neighbourhood measure. It excludes anti-social
+behaviour (ASB): the Police.uk
 archive lacks verified force/month completeness, including missing Greater
 Manchester files, and has unassigned split/unmapped records. Add ASB only after a
 dated archive and geography/coverage review supports comparable CSP rates.
 
-- Buying: recorded 24-month HMLR category-A flat/maisonette median across all sizes,
+- Buying: recorded 24-month HM Land Registry (HMLR) category-A flat/maisonette median across all sizes,
   with transaction count. The displayed whole-pound median rounds an exact .5
   midpoint up. Uses the Town/City field, except Torbay's district proxy.
-- Renting: recorded July 2026 ONS one-bedroom modelled LA mean, not an asking median.
+- Renting: recorded July 2026 ONS one-bedroom modelled local-authority (LA) mean, not an asking median.
   No observation counts survive for this series. Town and LA boundaries differ.
 - Stock: Rightmove headline counts are dated snapshots, not deduplicated listings.
   Their exact retrieval and resolver evidence vary by observation; consult the
@@ -80,9 +81,14 @@ dated archive and geography/coverage review supports comparable CSP rates.
   reason, evidence IDs and `broad-assessment-v1` method version. The reason is
   explanatory evidence and never controls the score. These are not measured
   neighbourhood quality. Deprivation is not equivalent to visual condition.
-  A complete research-only `residential-environment-bua24-v2` candidate release
+  A complete research-only `residential-environment-bua24-v3-country-calibrated`
+  candidate release
   and national BUA audit now exist, but they remain outside this live composite
-  until the documented England–Wales noise/EPC compatibility gate is resolved.
+  pending the remaining research quality assurance and live integration. Because
+  the published English and Welsh noise and Energy Performance Certificate (EPC)
+  fields differ, those two pillars are converted to population-weighted
+  within-country percentiles before they are combined. Raw values and the
+  migration audit remain visible.
 - Recorded offences: ONS CSP violence-against-the-person and sexual-offence rates
   per 1,000 mid-2024 residents for April 2025–March 2026 are shown for all 83
   locations and are the limited recorded-offence component of the composite score.

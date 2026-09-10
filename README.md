@@ -33,7 +33,9 @@ python3 -m venv .venv
 ```
 
 That command verifies the retained raw manifests and regenerates the 83-row
-candidate input, versioned release row and 7,070-BUA national audit.
+candidate input, versioned release row, national audit covering 7,070 Office for
+National Statistics (ONS) Built-up Areas (BUAs), and the 83-row England–Wales
+compatibility stress test.
 
 Repeat the historical extraction without changing current inputs:
 
@@ -77,10 +79,13 @@ provenance is assessed per location and topic in the generated release audit:
 some non-crime observations still need retained row-level artifacts, while
 others are reproducible from dated releases. This limitation is evidence context,
 not a separate kind of location. Local public-transport connectivity is complete
-for all 83 locations. The research-only residential-environment v2 release also
+for all 83 locations. The research-only residential-environment v3 release also
 has full population coverage for all 83 candidates and 7,070 national-reference
-BUAs, but it does not yet replace the inherited condition factor because the
-England–Wales noise/EPC compatibility decision remains open. Some inherited
+BUAs. Its quiet and Energy Performance Certificate (EPC) pillars use an explicit
+within-country percentile calibration to make the mixed published measures
+approximately comparable. It does not yet replace the inherited condition factor
+because the remaining research quality assurance and live integration are
+unfinished. Some inherited
 condition assessments therefore remain blank in the live screen.
 Buying is an all-flat achieved-price proxy; renting is a modelled one-bedroom
 local-authority mean. The screen calculates separate Buy/Rent broad composite
@@ -96,7 +101,7 @@ its method and collection procedure are in the
 The local public-transport factor is the DfT 2025 connectivity metric aggregated
 to reviewed built-up areas; its reproducible method is in the
 [local transport methodology](docs/local-transport-methodology.md).
-The candidate residential-environment release, national audit and remaining
-compatibility gate are described in the
+The candidate residential-environment release, national audit and selected
+compatibility transform are described in the
 [residential-environment methodology](docs/residential-environment-methodology.md)
 and [implementation plan](docs/residential-environment-plan.md).

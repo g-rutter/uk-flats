@@ -30,10 +30,12 @@ transport quality or commutability in the interface.
 Each screen location has a reviewed mapping in
 `data/inputs/location_geographies.csv`; component codes are separate in
 `data/inputs/location_geography_components.csv`. The implementation uses the
-official ONS best-fit lookup from 2021 Output Areas to Built-up Areas as at
-17 April 2024. This is the available official OA-to-2024-BUA lookup and is
-recorded precisely rather than being described as the later December 2024
-boundary edition proposed during research.
+official Office for National Statistics (ONS) best-fit lookup from 2021 Output
+Areas (OAs) to Built-up Areas (BUAs) as at 17 April 2024. A BUA represents the
+physical footprint of a continuously built-up settlement, rather than a council
+or other administrative boundary. This is the available official OA-to-2024-BUA
+lookup and is recorded precisely rather than being described as the later
+December 2024 boundary edition proposed during research.
 
 Most locations map to one named BUA. Bournemouth–Poole is the population-
 weighted combination of Bournemouth and Poole. Torbay combines Torquay,

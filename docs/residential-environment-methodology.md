@@ -1,8 +1,8 @@
 # Residential-environment methodology
 
-Status: frozen research method, not yet used by the live screen because the
-noise/EPC compatibility decision remains open. Method version:
-`residential-environment-bua24-v2`.
+Status: frozen research method, not yet used by the live screen while the
+remaining research quality assurance and live integration are completed. Method
+version: `residential-environment-bua24-v3-country-calibrated`.
 
 ## Definition and exclusions
 
@@ -10,6 +10,8 @@ Residential environment measures the population-weighted quality of everyday
 physical surroundings across each reviewed April 2024 built-up area (BUA):
 cleaner air, less transport noise, convenient public green space and housing
 energy quality. It is not a property, street or neighbourhood assessment.
+A BUA represents the physical footprint of a continuously built-up settlement,
+rather than a council or other administrative boundary.
 
 It excludes crime and perceived safety; housing cost and wealth; employment;
 transport and service access; schools, retail, culture and nightlife;
@@ -28,7 +30,7 @@ never zero-filled and the remaining weights are never renormalised.
 | Clean air | Mean of annual NO2/10, PM2.5/5 and PM10/15 concentrations from the Defra 1 km background grids | Lower is better; 2024 annual mean; concentrations are µg/m³ and divisors are the WHO 2021 annual guidelines |
 | Quiet surroundings | Percentage of residents exposed to modelled transport noise of at least 55 dB Lden, from the 2025 English IoD or WIMD underlying indicator | Lower is better; the model uses Census 2021 population and strategic noise mapping |
 | Green-space access | Equal mean of the national percentiles for OA21 population-weighted centroids within 300 m of an eligible polygon and eligible polygon area within 1,000 m of each centroid | Higher is better; OS Open Greenspace April 2026 snapshot; `Public Park Or Garden` and `Playing Field` only |
-| Housing environmental quality | Published LSOA EPC SAP observation from the 2025 English IoD or WIMD housing indicator | Higher is better; EPC records cover 2012–2024 |
+| Housing environmental quality | Published Lower-layer Super Output Area (LSOA) Energy Performance Certificate (EPC) Standard Assessment Procedure (SAP) observation from the 2025 English Indices of Deprivation (IoD) or Welsh Index of Multiple Deprivation (WIMD) housing indicator | Higher is better; EPC records cover 2012–2024 |
 
 The raw pollutant concentrations, noise percentage, green proximity and area,
 and EPC observation must be retained alongside all derived values.
@@ -55,8 +57,8 @@ python3 -m venv .venv
 .venv/bin/python scripts/prepare_residential_environment.py
 ```
 
-Two cross-country differences require an explicit release decision and remain
-visible rather than being described as harmonised:
+Two cross-country differences prevent the raw observations from being described
+as harmonised:
 
 - the English noise indicator includes major-airport noise in addition to road
   and rail, while the Welsh indicator is road and rail;
@@ -64,8 +66,15 @@ visible rather than being described as harmonised:
   reverses its direction as `100 - published score`, which is not an exact
   unshrunk mean. Wales publishes a rounded mean SAP score.
 
-Until those differences are accepted as sufficiently compatible or replaced by
-harmonised observations, the new factor must not replace local condition.
+The 2026-09-10 compatibility review found no complete published path to reverse
+those differences. Version 3 therefore uses an explicit approximate ordinal
+transform: quiet and housing observations become population-weighted percentiles
+within their recorded country before being combined with air and green. This
+removes genuine country-level distribution differences as well as source effects,
+so it is not described as raw-value harmonisation. The raw observations remain
+visible, and the generated migration audit and interpretation are documented in
+`data/derived/residential_environment_compatibility_audit.csv` and
+`docs/residential-environment-compatibility.md`.
 
 ## Geography and aggregation
 
@@ -73,14 +82,15 @@ The settlement geography is the reviewed April 2024 BUA mapping already used by
 local transport. Bournemouth–Poole and Torbay retain their reviewed composite
 components. Candidate counts are dynamic.
 
-- Census 2021 OA usual residents supply final aggregation weights.
+- Census 2021 Output Area (OA) usual residents supply final aggregation weights.
 - Defra grid values are assigned using the OA21 population-weighted centroid in
   British National Grid (EPSG:27700). The containing 1 km cell is preferred. A
   nearest populated cell within five grid cells is allowed only when the
   containing coastal cell is absent; the fallback count is retained.
 - English and Welsh 2025 noise and EPC observations are attached through the
   official exact-fit OA21-to-LSOA21 lookup.
-- OS Open Greenspace is processed in British National Grid (EPSG:27700). Only
+- Ordnance Survey (OS) Open Greenspace is processed in British National Grid
+  (EPSG:27700). Only
   `Public Park Or Garden` and `Playing Field` site polygons are retained; access
   points are not used. Duplicate IDs may be collapsed only when their function
   and geometry agree; conflicting duplicates fail preparation. Exact duplicate
@@ -98,17 +108,22 @@ components. Candidate counts are dynamic.
 
 Covered and expected 2021 population are recorded independently for every
 pillar. Release requires equality for every pillar and candidate component.
-The v2 preparation covers 177,643 populated OA origins in 7,070 BUAs without an
+The v3 preparation covers 177,643 populated OA origins in 7,070 BUAs without an
 unmatched green origin. All four pillars cover the full expected population of
 all 83 candidates. The release CSV retains source-feature, duplicate, repair,
-union, predicate and coverage audit counts.
+union, predicate and coverage audit counts. The national audit records the
+standardisation country used for every BUA.
 
 ## National reference and score
 
 Raw pillar values are calculated for every April 2024 BUA in England and Wales
-with complete coverage. Each becomes a 0–100 population-weighted percentile
-against that combined national BUA distribution, with 100 always meaning the
-better environment. Equal raw values receive the same inclusive percentile.
+with complete coverage. Air and both green components become 0–100
+population-weighted percentiles against the combined national BUA distribution.
+Quiet and housing become 0–100 population-weighted percentiles within England or
+Wales to approximately align the incompatible published scales. Cross-border
+BUAs use the country containing the majority of their Census 2021 population.
+In every case 100 means the better environment and equal raw values receive the
+same inclusive percentile.
 
 ```text
 green_percentile = mean(
@@ -146,6 +161,10 @@ switching the live factor, the retained outputs must also demonstrate:
 - correlations with housing cost, crime and transport;
 - within-country comparison with the English Living Environment and WIMD
   Physical Environment domains, used only as validation rather than inputs.
+
+The migration audit records the effect of adopting country calibration:
+quiet-only calibration changes no candidate band, housing-only changes six, and
+calibrating both changes seven; no candidate changes by more than one band.
 
 ## Refresh and supersession
 

@@ -40,7 +40,16 @@ OUTPUT_COLUMNS = (
     'green_population_covered', 'housing_environment_population_covered', 'population_expected',
     'method_version', 'confidence', 'reason',
 )
-AUDIT_COLUMNS = ('bua_code', 'bua_name',) + OUTPUT_COLUMNS[1:] + ('exclusion_reason',)
+AUDIT_COLUMNS = ('bua_code', 'bua_name', 'standardisation_country') + OUTPUT_COLUMNS[1:] + ('exclusion_reason',)
+COMPATIBILITY_COLUMNS = (
+    'location_id', 'country', 'noise_exposed_pct', 'baseline_quiet_percentile',
+    'country_calibrated_quiet_percentile', 'quiet_percentile_delta', 'epc_sap_mean',
+    'baseline_housing_environment_percentile', 'country_calibrated_housing_environment_percentile',
+    'housing_environment_percentile_delta', 'baseline_environment_index_0_100', 'baseline_score',
+    'quiet_calibrated_index_0_100', 'quiet_calibrated_score',
+    'housing_calibrated_index_0_100', 'housing_calibrated_score',
+    'both_calibrated_index_0_100', 'both_calibrated_score', 'maximum_absolute_band_change',
+)
 
 
 def read_csv(path):
@@ -303,6 +312,13 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
     if not complete:
         raise ValueError('No complete national BUA observations')
     populations_by_bua = {code: row['population_expected'] for code, row in complete.items()}
+    bua_country_prefixes = {}
+    for code in complete:
+        country_populations = {
+            prefix: sum(population[oa] for oa in bua_oas[code] if oa.startswith(prefix))
+            for prefix in ('E', 'W')
+        }
+        bua_country_prefixes[code] = max(country_populations, key=country_populations.get)
     distributions = {
         'air': [(row['air_burden'], populations_by_bua[code]) for code, row in complete.items()],
         'quiet': [(row['noise'], populations_by_bua[code]) for code, row in complete.items()],
@@ -325,10 +341,66 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
         row['national_percentile'] = percentile_for(row['environment_index'], index_distribution)
         row['score'] = score_for(row['environment_index'], cutpoints)
 
+    # The published English quiet and housing observations are not on exactly the
+    # same definitions/scales as their Welsh counterparts. Re-express both as
+    # within-country population percentiles before combining them. This is an
+    # approximate ordinal calibration: it removes country-level distribution
+    # differences as well as source effects, so the raw observations remain in
+    # the output and the former mixed-scale result is retained in the migration
+    # audit below.
+    country_distributions = {}
+    for country_prefix in ('E', 'W'):
+        country_rows = [row for code, row in complete.items()
+                        if bua_country_prefixes[code] == country_prefix]
+        country_distributions[(country_prefix, 'quiet')] = [
+            (row['noise'], row['population_expected']) for row in country_rows]
+        country_distributions[(country_prefix, 'housing')] = [
+            (row['epc'], row['population_expected']) for row in country_rows]
+    for code, row in complete.items():
+        prefix = bua_country_prefixes[code]
+        row['country_calibrated_quiet_percentile'] = percentile_for(
+            row['noise'], country_distributions[(prefix, 'quiet')], True)
+        row['country_calibrated_housing_percentile'] = percentile_for(
+            row['epc'], country_distributions[(prefix, 'housing')])
+        row['quiet_calibrated_index'] = (
+            row['environment_index'] +
+            (row['country_calibrated_quiet_percentile'] - row['quiet_percentile']) / 4)
+        row['housing_calibrated_index'] = (
+            row['environment_index'] +
+            (row['country_calibrated_housing_percentile'] - row['housing_environment_percentile']) / 4)
+        row['both_calibrated_index'] = (
+            row['environment_index'] +
+            (row['country_calibrated_quiet_percentile'] - row['quiet_percentile']) / 4 +
+            (row['country_calibrated_housing_percentile'] - row['housing_environment_percentile']) / 4)
+    scenario_names = ('quiet_calibrated', 'housing_calibrated', 'both_calibrated')
+    scenario_cutpoints = {
+        scenario: weighted_cutpoints([
+            (row[f'{scenario}_index'], row['population_expected']) for row in complete.values()
+        ])
+        for scenario in scenario_names
+    }
+    mixed_index_distribution, mixed_cutpoints = index_distribution, cutpoints
+    index_distribution = [
+        (row['both_calibrated_index'], row['population_expected'])
+        for row in complete.values()
+    ]
+    cutpoints = scenario_cutpoints['both_calibrated']
+    for row in complete.values():
+        row['mixed_quiet_percentile'] = row['quiet_percentile']
+        row['mixed_housing_environment_percentile'] = row['housing_environment_percentile']
+        row['mixed_environment_index'] = row['environment_index']
+        row['mixed_score'] = row['score']
+        row['quiet_percentile'] = row['country_calibrated_quiet_percentile']
+        row['housing_environment_percentile'] = row['country_calibrated_housing_percentile']
+        row['environment_index'] = row['both_calibrated_index']
+        row['national_percentile'] = percentile_for(row['environment_index'], index_distribution)
+        row['score'] = score_for(row['environment_index'], cutpoints)
+
     def format_row(row, ident='', codes=()):
         reason = ('Population-weighted across the reviewed April 2024 built-up area; '
                   'air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, '
-                  'and green space uses current OA origins and the union of eligible OS Open Greenspace polygons.')
+                  'green space uses current OA origins and the union of eligible OS Open Greenspace polygons, '
+                  'and quiet and housing use population-weighted within-country percentile calibration.')
         return {
             'location_id': ident, 'air_burden': f"{row['air_burden']:.4f}", 'no2_ug_m3': f"{row['no2']:.3f}",
             'pm25_ug_m3': f"{row['pm25']:.3f}", 'pm10_ug_m3': f"{row['pm10']:.3f}",
@@ -351,7 +423,9 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
             'confidence': 'Medium', 'reason': reason,
         }
 
-    locations = {row['id'] for row in read_csv(inputs_dir / 'locations.csv')}
+    location_rows = read_csv(inputs_dir / 'locations.csv')
+    locations = {row['id'] for row in location_rows}
+    location_countries = {row['id']: row['country'] for row in location_rows}
     components = defaultdict(list)
     for row in read_csv(inputs_dir / 'location_geography_components.csv'):
         components[row['location_id']].append(row['geography_code'])
@@ -374,7 +448,7 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
     if incomplete_locations:
         raise ValueError('Residential environment is incomplete: ' + '; '.join(incomplete_locations))
 
-    output = []
+    output, compatibility = [], []
     for ident in sorted(locations):
         codes = components.get(ident, [])
         expected = sum(complete[code]['population_expected'] for code in codes)
@@ -386,8 +460,49 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
         for pillar in PILLARS:
             combined[f'{pillar}_population_covered'] = sum(complete[code][f'{pillar}_population_covered'] for code in codes)
         assign_pillar_percentiles(combined)
+        combined['national_percentile'] = percentile_for(combined['environment_index'], mixed_index_distribution)
+        combined['score'] = score_for(combined['environment_index'], mixed_cutpoints)
+        prefix = 'E' if location_countries[ident] == 'England' else 'W'
+        calibrated_quiet = percentile_for(
+            combined['noise'], country_distributions[(prefix, 'quiet')], True)
+        calibrated_housing = percentile_for(
+            combined['epc'], country_distributions[(prefix, 'housing')])
+        scenario_indexes = {
+            'quiet_calibrated': combined['environment_index'] +
+                                (calibrated_quiet - combined['quiet_percentile']) / 4,
+            'housing_calibrated': combined['environment_index'] +
+                                  (calibrated_housing - combined['housing_environment_percentile']) / 4,
+            'both_calibrated': combined['environment_index'] +
+                               (calibrated_quiet - combined['quiet_percentile']) / 4 +
+                               (calibrated_housing - combined['housing_environment_percentile']) / 4,
+        }
+        scenario_scores = {
+            scenario: score_for(value, scenario_cutpoints[scenario])
+            for scenario, value in scenario_indexes.items()
+        }
+        compatibility.append({
+            'location_id': ident, 'country': location_countries[ident],
+            'noise_exposed_pct': f"{combined['noise']:.3f}",
+            'baseline_quiet_percentile': f"{combined['quiet_percentile']:.3f}",
+            'country_calibrated_quiet_percentile': f'{calibrated_quiet:.3f}',
+            'quiet_percentile_delta': f"{calibrated_quiet - combined['quiet_percentile']:.3f}",
+            'epc_sap_mean': f"{combined['epc']:.3f}",
+            'baseline_housing_environment_percentile': f"{combined['housing_environment_percentile']:.3f}",
+            'country_calibrated_housing_environment_percentile': f'{calibrated_housing:.3f}',
+            'housing_environment_percentile_delta': f"{calibrated_housing - combined['housing_environment_percentile']:.3f}",
+            'baseline_environment_index_0_100': f"{combined['environment_index']:.3f}",
+            'baseline_score': str(combined['score']),
+            **{f'{scenario}_index_0_100': f'{scenario_indexes[scenario]:.3f}'
+               for scenario in scenario_names},
+            **{f'{scenario}_score': str(scenario_scores[scenario]) for scenario in scenario_names},
+            'maximum_absolute_band_change': str(max(
+                abs(score - combined['score']) for score in scenario_scores.values())),
+        })
+        combined['quiet_percentile'] = calibrated_quiet
+        combined['housing_environment_percentile'] = calibrated_housing
+        combined['environment_index'] = scenario_indexes['both_calibrated']
         combined['national_percentile'] = percentile_for(combined['environment_index'], index_distribution)
-        combined['score'] = score_for(combined['environment_index'], cutpoints)
+        combined['score'] = scenario_scores['both_calibrated']
         output.append(format_row(combined, ident, codes))
 
     audits = []
@@ -395,23 +510,29 @@ def prepare(raw_dir, shared_release_dir, inputs_dir):
         if code in complete:
             audit = {'bua_code': code, 'bua_name': row['bua_name'], **format_row(row)}
             audit.pop('location_id')
+            audit['standardisation_country'] = (
+                'England' if bua_country_prefixes[code] == 'E' else 'Wales')
             audit['exclusion_reason'] = ''
         else:
             audit = {'bua_code': code, 'bua_name': row['bua_name'], 'population_expected': row['population_expected'],
+                     'standardisation_country': '',
                      'exclusion_reason': '; '.join(p for p in PILLARS if row[f'{p}_population_covered'] != row['population_expected'])}
             for pillar in PILLARS:
                 audit[f'{pillar}_population_covered'] = row[f'{pillar}_population_covered']
         audits.append(audit)
     release = {
-        'release_id': 'residential-environment-2026-09-09-v2', 'method_version': METHOD_VERSION,
+        'release_id': 'residential-environment-2026-09-10-v3', 'method_version': METHOD_VERSION,
         'reference_bua_count': str(len(complete)), 'reference_population': str(sum(populations_by_bua.values())),
         'q20': f'{cutpoints[0]:.3f}', 'q40': f'{cutpoints[1]:.3f}', 'q60': f'{cutpoints[2]:.3f}',
         'q80': f'{cutpoints[3]:.3f}', 'boundary_rule': BOUNDARY_RULE,
         'pillar_weights': 'air=25;quiet=25;green=25;housing_environment=25',
+        'quiet_standardisation': 'population-weighted percentile within England or Wales',
+        'housing_environment_standardisation': 'population-weighted percentile within England or Wales',
+        'cross_border_bua_country_rule': 'country containing the majority of the BUA population',
         'air_grid_nearest_fallback_oa_count': str(air_fallbacks),
         **green_audit,
     }
-    return output, audits, release
+    return output, audits, release, compatibility
 
 
 def main():
@@ -422,11 +543,14 @@ def main():
     parser.add_argument('--canonical-output', type=Path, default=Path('data/inputs/residential_environment.csv'))
     parser.add_argument('--release-output', type=Path, default=Path('data/inputs/residential_environment_release.csv'))
     parser.add_argument('--audit-output', type=Path, default=Path('data/derived/residential_environment_bua_audit.csv'))
+    parser.add_argument('--compatibility-output', type=Path,
+                        default=Path('data/derived/residential_environment_compatibility_audit.csv'))
     args = parser.parse_args()
-    rows, audit, release = prepare(args.release_dir, args.shared_release_dir, args.inputs_dir)
+    rows, audit, release, compatibility = prepare(args.release_dir, args.shared_release_dir, args.inputs_dir)
     write_csv(args.canonical_output, rows, OUTPUT_COLUMNS)
     write_csv(args.audit_output, audit, AUDIT_COLUMNS)
     write_csv(args.release_output, [release], release)
+    write_csv(args.compatibility_output, compatibility, COMPATIBILITY_COLUMNS)
     print(f'Prepared {len(rows)} candidate locations from {release["reference_bua_count"]} complete BUAs.')
 
 

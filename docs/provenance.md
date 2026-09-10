@@ -1,5 +1,13 @@
 # Provenance and CSV schema
 
+Recurring acronyms in this document are JavaScript (JS), Office for National
+Statistics (ONS), Department for Transport (DfT), Output Area (OA), Built-up Area (BUA),
+Energy Performance Certificate (EPC), Community Safety Partnership (CSP),
+Police Force Area (PFA), local authority (LA), Geographic Information System
+(GIS) and anti-social behaviour (ASB). A BUA represents the physical footprint
+of a continuously built-up settlement rather than a council or other
+administrative boundary.
+
 ## What survived
 
 The untouched `data/archive/UK flats (attempt 2)/` directory is the historical
@@ -42,8 +50,8 @@ signed decimal degrees. Original camelCase names are retained for traceability.
 | transport_stations.csv | `location_id`; reviewed origin CRS, name, rationale, confidence and evidence IDs | National-transport acquisition workstream; contains reviewed mappings for all 83 screen locations |
 | transport_route_observations.csv | one review-only, manually transcribed route observation per location/destination, with planner query, timed itinerary and capture reference | National-transport acquisition workstream; not a canonical replacement until a complete release is approved |
 | condition.csv | `location_id`; explicit assessment, confidence, evidence IDs, method version and reason | Current broad assessment; the band drives the score while reason is explanatory context |
-| residential_environment.csv | `location_id`; four raw pillar observations and percentiles, combined index/national percentile/score, separate periods and evidence IDs, BUA components, per-pillar covered population, expected population, method, confidence and reason | Complete research-only v2 candidate release; not consumed by `build.py` while the noise/EPC compatibility gate remains open |
-| residential_environment_release.csv | release/method IDs, national reference count/population and quintile thresholds, equality rule, weights, air fallback count and OS Open Greenspace geometry/coverage audit | Versioned `residential-environment-bua24-v2` national reference and preparation controls |
+| residential_environment.csv | `location_id`; four raw pillar observations and percentiles, combined index/national percentile/score, separate periods and evidence IDs, BUA components, per-pillar covered population, expected population, method, confidence and reason | Complete research-only v3 candidate release; quiet and EPC percentiles are calibrated within country and the table is not yet consumed by `build.py` |
+| residential_environment_release.csv | release/method IDs, national reference count/population and quintile thresholds, equality rule, weights, compatibility transforms, air fallback count and OS Open Greenspace geometry/coverage audit | Versioned `residential-environment-bua24-v3-country-calibrated` national reference and preparation controls |
 | sources.csv | `location_id`, topic, url; multiple rows per location/topic | JS sources; original links, including archived crime context |
 | evidence.csv | `id`; workstream, title, publisher, url, dataPeriod, retrievalDate, geography, coverage, limitations | JS evidence; inherited source-level metadata |
 
@@ -108,9 +116,13 @@ and clipped provision from OA21 population-weighted origins in EPSG:27700,
 aggregates all four pillars to every BUA, derives the combined national
 distribution, and writes `residential_environment.csv`,
 `residential_environment_release.csv` and the generated
-`data/derived/residential_environment_bua_audit.csv`. The audit contains 7,070
-complete reference BUAs; all four pillars cover the full expected population of
-all 83 candidates. See [residential-environment methodology](residential-environment-methodology.md).
+`data/derived/residential_environment_bua_audit.csv`. It also writes
+`data/derived/residential_environment_compatibility_audit.csv`, a candidate-level
+migration audit comparing the former mixed-scale noise and EPC percentiles with
+the selected country-calibrated method. The national audit
+contains 7,070 complete reference BUAs; all four pillars cover the full expected
+population of all 83 candidates. See [residential-environment methodology](residential-environment-methodology.md)
+and the [compatibility review](residential-environment-compatibility.md).
 
 ## Release controls
 

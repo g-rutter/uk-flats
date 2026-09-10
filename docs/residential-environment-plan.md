@@ -1,9 +1,17 @@
 # Replacing local condition with a residential-environment measure
 
-## Implementation status (2026-09-09 handoff)
+## Implementation status (updated 2026-09-10)
 
 This plan is partially implemented. The live screen and composite still use
-`condition.csv`; do not switch them while Blocker 2 remains unresolved.
+`condition.csv`; do not switch them before the remaining research quality
+assurance is complete.
+
+Terminology used below: Office for National Statistics (ONS), Output Area (OA),
+Lower-layer Super Output Area (LSOA), Built-up Area (BUA),
+Energy Performance Certificate (EPC), Standard Assessment Procedure (SAP), Ordnance Survey (OS),
+Geographic Information System (GIS) and coordinate reference system (CRS). A BUA
+represents the physical footprint of a continuously built-up settlement, rather
+than a council or other administrative boundary.
 
 Completed foundation:
 
@@ -24,7 +32,7 @@ Completed foundation:
 - replaced the rejected ONS green pilot with the hash-pinned April 2026 OS Open
   Greenspace GB GeoPackage and product metadata; and
 - generated 83 complete candidate rows and a complete 7,070-BUA national audit
-  under method `residential-environment-bua24-v2`.
+  under method `residential-environment-bua24-v3-country-calibrated`.
 
 The preparer now passes the population-coverage gate. Run it with the pinned
 tabular and GIS dependencies using:
@@ -46,8 +54,8 @@ origin is unmatched. All four pillars cover the full expected population of all
 83 candidates, including Shrewsbury at 75,784/75,784 and Stafford at
 71,695/71,695. The retained audit records 43,961 eligible source features, no
 duplicate IDs, one duplicate geometry, no invalid or empty repaired geometry,
-and the union and predicate parameters. Blocker 2 still prevents a live-factor
-switch.
+and the union and predicate parameters. The remaining research quality assurance
+still prevents a live-factor switch.
 
 The rejected v1 fail-closed result identified two candidate BUAs whose 2021
 population cannot be fully assigned a value from the corrected 2020 ONS
@@ -82,7 +90,8 @@ method.** This is a replacement series, not a patch for Shrewsbury and Stafford.
 It must regenerate the complete national reference distribution and receive a
 new method version.
 
-The selected method version is `residential-environment-bua24-v2`. It reuses
+The selected method version is now
+`residential-environment-bua24-v3-country-calibrated`. It reuses
 Census 2021 OA usual-resident population, the ONS OA21 population-weighted
 centroids and the reviewed April 2024 OA-to-BUA lookup. It does not introduce a
 postcode, address or UPRN origin source.
@@ -129,7 +138,8 @@ explanation of why the pilot source was rejected.
 
 This gate is cleared. The selected replacement method has been applied to every
 national-reference BUA and all four pillars cover the full expected population
-of all 83 candidates. The overall composite remains unchanged pending Blocker 2.
+of all 83 candidates. The overall composite remains unchanged pending the
+remaining research quality assurance and live integration.
 
 ### Blocker 2: England-Wales source compatibility
 
@@ -158,14 +168,34 @@ diagnostics and sensitivity analysis that they do not materially distort the 83
 candidate results. That option requires an explicit methodological acceptance;
 the shared formula alone does not make the inputs harmonised.
 
-This blocker is cleared only by harmonised inputs or a documented acceptance of
-the mixed proxies after the planned validation. Until then the new factor must
-not replace `condition`, even if the green-space coverage blocker is solved.
+This blocker was resolved on 2026-09-10 by selecting an approximate ordinal
+transform. Quiet and housing observations are converted to population-weighted
+percentiles within England or Wales before they enter the four-pillar index.
+This does not make the raw observations harmonised: it deliberately removes real
+country-level distribution differences as well as measurement differences.
 
-Remaining work after the source-compatibility decision:
+Compatibility investigation completed on 2026-09-10. The official technical
+material confirms that the EPC property-level imputation was common to both
+countries, but the published English value remains a shrunk transform while
+Wales publishes the rounded unshrunk mean. The English noise value additionally
+includes major airports and shrinkage. The published road/rail GIS maps and EPC
+register cannot reproduce the official all-property/building-population
+observations without unpublished inputs.
+
+A reproducible migration audit accompanies the release. Quiet-only calibration
+changes no candidate band; housing-only changes six; calibrating both changes
+seven. Across all three scenarios, eight of 83 candidates change in at least one
+scenario and no change exceeds one band. See
+`docs/residential-environment-compatibility.md` and
+`data/derived/residential_environment_compatibility_audit.csv`. The combined
+calibration is the v3 release method; the former mixed-scale result is retained
+only as the audit baseline.
+
+Remaining work after the source-compatibility transform:
 
 1. review the generated canonical candidate, release and all-BUA audit CSVs;
-2. add sensitivity, outlier, correlation and country-domain validation outputs;
+2. add the remaining weight sensitivity, outlier, correlation and country-domain
+   validation outputs (the blocker-specific country calibration is complete);
 3. replace `condition` in build/composite code and add strict reproduction tests;
 4. update the browser, evidence/source catalogue, README, methodology,
    provenance and TODO;
@@ -428,8 +458,10 @@ For each pillar:
 
 1. Calculate the raw observation for every April 2024 BUA in England and Wales,
    not merely the candidate locations.
-2. Convert it to a 0–100 population-weighted national percentile, with 100 always
-   meaning better residential conditions.
+2. Convert air and both green components to 0–100 population-weighted national
+   percentiles. Convert quiet and housing to population-weighted percentiles
+   within England or Wales to approximately align the incompatible published
+   observations. In every case 100 means better residential conditions.
 3. Average the four pillar percentiles:
 
    ```text
@@ -451,7 +483,8 @@ environmental score.
 
 Do not:
 
-- rank England and Wales separately;
+- rank air or green separately by country; the country calibration is limited to
+  the incompatible quiet and housing observations;
 - create quintiles from only the 83 candidates;
 - fill missing pillars with zero;
 - renormalise weights when a pillar is missing;
@@ -465,7 +498,7 @@ release must do the same.
 
 ### 1. Write and freeze the method
 
-Status: complete for `residential-environment-bua24-v2`.
+Status: complete for `residential-environment-bua24-v3-country-calibrated`.
 
 `docs/residential-environment-methodology.md` was frozen before inspecting
 candidate rankings. It records:
@@ -504,7 +537,7 @@ Playwright is not part of the refresh method.
 
 The preparer produces research candidate/release CSVs and an all-BUA audit
 offline. `scripts/build.py` does not yet validate or consume them; that switch is
-deferred until Blocker 2 and the research QA are resolved. The exact preparation
+deferred until the remaining research QA is resolved. The exact preparation
 dependencies are pinned in `requirements-environment.txt`:
 
 - `pandas` and `openpyxl` for tabular workbooks;
@@ -577,13 +610,15 @@ conceal important vintage differences and should not be used.
 
 ### 4. Generate a national reference audit
 
-Status: complete for v2. The retained audit has 7,070 complete BUA rows and the
-release row records the reference distribution and green geometry controls.
+Status: complete for v3. The retained audit has 7,070 complete BUA rows and the
+release row records the reference distribution, compatibility transforms and
+green geometry controls.
 
 The retained audit row for every England-and-Wales BUA contains:
 
 - four raw pillars;
 - four percentiles;
+- the standardisation country used for quiet and housing;
 - population and coverage;
 - combined index;
 - factor score;
@@ -595,7 +630,7 @@ version.
 
 ### 5. Replace the scoring path
 
-Status: outstanding pending Blocker 2 and research QA.
+Status: outstanding pending the remaining research QA.
 
 In `scripts/composite.py`:
 
@@ -622,9 +657,10 @@ In the browser:
 ### 6. Tests and acceptance gates
 
 Status: preparation-time coverage, geography, manifest, direction/unit,
-percentile, threshold and tie gates pass for v2. Live-build missing-input tests
-and the research QA below remain outstanding because the live scoring path has
-not switched.
+percentile, threshold and tie gates pass for v3. The country-calibration migration
+audit is complete. Live-build missing-input tests and the remaining
+research QA below remain outstanding because the live scoring path has not
+switched.
 
 The release should fail unless:
 
@@ -655,7 +691,7 @@ Research QA before acceptance:
 
 ### 7. Documentation cleanup
 
-Status: README, methodology, provenance, TODO and this plan describe the v2
+Status: README, methodology, provenance, TODO and this plan describe the v3
 research release. The live evidence catalogue and browser documentation remain
 unchanged until the factor is accepted for the live screen.
 
@@ -679,13 +715,13 @@ produce all 83 candidate observations in one run.
 
 Remaining sequence:
 
-1. Resolve the England–Wales noise/EPC compatibility decision.
-2. Perform sensitivity, outlier, correlation and country-domain review.
-3. If accepted, replace condition scoring and update the UI, evidence catalogue
+1. Perform sensitivity, outlier, correlation and country-domain review for the
+   selected country-calibrated method.
+2. If accepted, replace condition scoring and update the UI, evidence catalogue
    and live documentation as one coordinated change.
-4. Add strict build-path reproduction and missing-input tests, then run
+3. Add strict build-path reproduction and missing-input tests, then run
    `python3 scripts/build.py` and the full unit-test suite.
-5. Visually review the browser at desktop and narrow widths.
+4. Visually review the browser at desktop and narrow widths.
 
 The selected OS Open Greenspace calculation passed the declared national
 coverage and geometry-audit gates. Every future refresh must pass them again; a
