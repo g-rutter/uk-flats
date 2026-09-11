@@ -81,6 +81,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 92.0731,
+        "residential_premises": 33771,
+        "matched_residential_premises": 33770,
+        "gigabit_available_premises": 31094,
+        "oa_rows_covered": 238,
+        "oa_rows_expected": 238,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008268",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Barnsley; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -163,6 +179,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 95.5176,
+        "residential_premises": 443802,
+        "matched_residential_premises": 441944,
+        "gigabit_available_premises": 423909,
+        "oa_rows_covered": 3240,
+        "oa_rows_expected": 3244,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63010038",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Birmingham; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -245,6 +277,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 94.3928,
+        "residential_premises": 48687,
+        "matched_residential_premises": 48668,
+        "gigabit_available_premises": 45957,
+        "oa_rows_covered": 349,
+        "oa_rows_expected": 349,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007969",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Blackburn (Blackburn with Darwen); Reviewed official BUA name corresponds to the screen location Blackburn. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -327,6 +375,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 88.2732,
+        "residential_premises": 77131,
+        "matched_residential_premises": 76695,
+        "gigabit_available_premises": 68086,
+        "oa_rows_covered": 538,
+        "oa_rows_expected": 538,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007890",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Blackpool; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -409,6 +473,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 95.7662,
+        "residential_premises": 76385,
+        "matched_residential_premises": 76359,
+        "gigabit_available_premises": 73151,
+        "oa_rows_covered": 554,
+        "oa_rows_expected": 554,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008201",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Bolton (Bolton); Reviewed official BUA name corresponds to the screen location Bolton. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -491,6 +571,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 95.8448,
+        "residential_premises": 119634,
+        "matched_residential_premises": 119319,
+        "gigabit_available_premises": 114663,
+        "oa_rows_covered": 900,
+        "oa_rows_expected": 901,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007920",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Bradford; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -573,6 +669,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 97.1945,
+        "residential_premises": 34753,
+        "matched_residential_premises": 34737,
+        "gigabit_available_premises": 33778,
+        "oa_rows_covered": 249,
+        "oa_rows_expected": 249,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007907",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Burnley; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -655,6 +767,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 84.3873,
+        "residential_premises": 33921,
+        "matched_residential_premises": 33864,
+        "gigabit_available_premises": 28625,
+        "oa_rows_covered": 229,
+        "oa_rows_expected": 229,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63009360",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Burton upon Trent; Reviewed official BUA name corresponds to the screen location Burton-on-Trent. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -737,6 +865,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 95.1293,
+        "residential_premises": 152340,
+        "matched_residential_premises": 151770,
+        "gigabit_available_premises": 144920,
+        "oa_rows_covered": 1067,
+        "oa_rows_expected": 1068,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "W45001208",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Cardiff; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -819,6 +963,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 82.8401,
+        "residential_premises": 43386,
+        "matched_residential_premises": 43346,
+        "gigabit_available_premises": 35941,
+        "oa_rows_covered": 315,
+        "oa_rows_expected": 315,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "K08000011",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Chester; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -901,6 +1061,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 92.9307,
+        "residential_premises": 38533,
+        "matched_residential_premises": 38511,
+        "gigabit_available_premises": 35809,
+        "oa_rows_covered": 276,
+        "oa_rows_expected": 276,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008717",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Chesterfield; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -983,6 +1159,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 97.4277,
+        "residential_premises": 143453,
+        "matched_residential_premises": 142228,
+        "gigabit_available_premises": 139763,
+        "oa_rows_covered": 1043,
+        "oa_rows_expected": 1043,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63010120",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Coventry; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -1065,6 +1257,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 97.1398,
+        "residential_premises": 46186,
+        "matched_residential_premises": 46181,
+        "gigabit_available_premises": 44865,
+        "oa_rows_covered": 324,
+        "oa_rows_expected": 324,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007428",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Darlington; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -1147,6 +1355,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 97.5687,
+        "residential_premises": 121498,
+        "matched_residential_premises": 121228,
+        "gigabit_available_premises": 118544,
+        "oa_rows_covered": 841,
+        "oa_rows_expected": 841,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63009183",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Derby; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -1229,6 +1453,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 99.0815,
+        "residential_premises": 40610,
+        "matched_residential_premises": 40581,
+        "gigabit_available_premises": 40237,
+        "oa_rows_covered": 283,
+        "oa_rows_expected": 283,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008314",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Doncaster; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -1311,6 +1551,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 93.9468,
+        "residential_premises": 56664,
+        "matched_residential_premises": 56593,
+        "gigabit_available_premises": 53234,
+        "oa_rows_covered": 420,
+        "oa_rows_expected": 420,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007200",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Gateshead; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -1393,6 +1649,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 93.5098,
+        "residential_premises": 52649,
+        "matched_residential_premises": 52634,
+        "gigabit_available_premises": 49232,
+        "oa_rows_covered": 380,
+        "oa_rows_expected": 380,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63011389",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Gloucester; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -1475,6 +1747,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 88.2937,
+        "residential_premises": 40098,
+        "matched_residential_premises": 40056,
+        "gigabit_available_premises": 35404,
+        "oa_rows_covered": 280,
+        "oa_rows_expected": 280,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007966",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Halifax; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -1557,6 +1845,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 98.8662,
+        "residential_premises": 43129,
+        "matched_residential_premises": 43025,
+        "gigabit_available_premises": 42640,
+        "oa_rows_covered": 310,
+        "oa_rows_expected": 310,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007337",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Hartlepool; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -1639,6 +1943,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 96.2321,
+        "residential_premises": 63430,
+        "matched_residential_premises": 63381,
+        "gigabit_available_premises": 61040,
+        "oa_rows_covered": 446,
+        "oa_rows_expected": 446,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008114",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Huddersfield; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -1721,6 +2041,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 99.7516,
+        "residential_premises": 125187,
+        "matched_residential_premises": 124886,
+        "gigabit_available_premises": 124876,
+        "oa_rows_covered": 894,
+        "oa_rows_expected": 894,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007930",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Kingston upon Hull; Reviewed official BUA name corresponds to the screen location Hull (Kingston upon Hull). Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -1803,6 +2139,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 96.461,
+        "residential_premises": 67421,
+        "matched_residential_premises": 67402,
+        "gigabit_available_premises": 65035,
+        "oa_rows_covered": 487,
+        "oa_rows_expected": 487,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63010852",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Ipswich; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -1885,6 +2237,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 97.1681,
+        "residential_premises": 28815,
+        "matched_residential_premises": 28752,
+        "gigabit_available_premises": 27999,
+        "oa_rows_covered": 192,
+        "oa_rows_expected": 192,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63010129",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Kettering; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -1967,6 +2335,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 90.4,
+        "residential_premises": 23448,
+        "matched_residential_premises": 23421,
+        "gigabit_available_premises": 21197,
+        "oa_rows_covered": 173,
+        "oa_rows_expected": 173,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007656",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Lancaster; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -2049,6 +2433,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 96.5832,
+        "residential_premises": 241423,
+        "matched_residential_premises": 240937,
+        "gigabit_available_premises": 233174,
+        "oa_rows_covered": 1703,
+        "oa_rows_expected": 1704,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007883",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Leeds (Leeds); Reviewed official BUA name corresponds to the screen location Leeds. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -2131,6 +2531,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 97.6872,
+        "residential_premises": 152067,
+        "matched_residential_premises": 152016,
+        "gigabit_available_premises": 148550,
+        "oa_rows_covered": 1127,
+        "oa_rows_expected": 1127,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63009743",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Leicester; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -2213,6 +2629,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 91.4115,
+        "residential_premises": 48076,
+        "matched_residential_premises": 46495,
+        "gigabit_available_premises": 43947,
+        "oa_rows_covered": 323,
+        "oa_rows_expected": 323,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008729",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Lincoln; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -2295,6 +2727,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 91.4342,
+        "residential_premises": 229201,
+        "matched_residential_premises": 228179,
+        "gigabit_available_premises": 209568,
+        "oa_rows_covered": 1691,
+        "oa_rows_expected": 1691,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008477",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Liverpool; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -2377,6 +2825,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 98.3772,
+        "residential_premises": 24711,
+        "matched_residential_premises": 24697,
+        "gigabit_available_premises": 24310,
+        "oa_rows_covered": 190,
+        "oa_rows_expected": 190,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63009412",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Loughborough; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -2459,6 +2923,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 87.9447,
+        "residential_premises": 207153,
+        "matched_residential_premises": 202345,
+        "gigabit_available_premises": 182180,
+        "oa_rows_covered": 1336,
+        "oa_rows_expected": 1340,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008401",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Manchester; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -2541,6 +3021,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 87.8044,
+        "residential_premises": 18892,
+        "matched_residential_premises": 18883,
+        "gigabit_available_premises": 16588,
+        "oa_rows_covered": 134,
+        "oa_rows_expected": 134,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "W45001012",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Merthyr Tydfil; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -2623,6 +3119,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 97.7562,
+        "residential_premises": 68231,
+        "matched_residential_premises": 68204,
+        "gigabit_available_premises": 66700,
+        "oa_rows_covered": 478,
+        "oa_rows_expected": 478,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007408",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Middlesbrough; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -2705,6 +3217,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 96.448,
+        "residential_premises": 19510,
+        "matched_residential_premises": 19509,
+        "gigabit_available_premises": 18817,
+        "oa_rows_covered": 145,
+        "oa_rows_expected": 145,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "W45001091",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Neath; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -2787,6 +3315,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 93.7901,
+        "residential_premises": 127200,
+        "matched_residential_premises": 127013,
+        "gigabit_available_premises": 119301,
+        "oa_rows_covered": 897,
+        "oa_rows_expected": 897,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007169",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Newcastle upon Tyne; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -2869,6 +3413,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 95.2004,
+        "residential_premises": 57963,
+        "matched_residential_premises": 57937,
+        "gigabit_available_premises": 55181,
+        "oa_rows_covered": 421,
+        "oa_rows_expected": 421,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "W45001174",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Newport (Newport); Reviewed official BUA name corresponds to the screen location Newport. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -2951,6 +3511,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 96.0067,
+        "residential_premises": 103699,
+        "matched_residential_premises": 102444,
+        "gigabit_available_premises": 99558,
+        "oa_rows_covered": 733,
+        "oa_rows_expected": 734,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63010463",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Northampton; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -3033,6 +3609,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 93.7567,
+        "residential_premises": 80871,
+        "matched_residential_premises": 80800,
+        "gigabit_available_premises": 75822,
+        "oa_rows_covered": 671,
+        "oa_rows_expected": 671,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63009624",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Norwich; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -3115,6 +3707,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 95.76,
+        "residential_premises": 125331,
+        "matched_residential_premises": 125289,
+        "gigabit_available_premises": 120017,
+        "oa_rows_covered": 925,
+        "oa_rows_expected": 926,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63009088",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Nottingham; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -3197,6 +3805,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 96.4268,
+        "residential_premises": 79620,
+        "matched_residential_premises": 79557,
+        "gigabit_available_premises": 76775,
+        "oa_rows_covered": 577,
+        "oa_rows_expected": 579,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63009810",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Peterborough; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -3279,6 +3903,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 94.1306,
+        "residential_premises": 123284,
+        "matched_residential_premises": 122307,
+        "gigabit_available_premises": 116048,
+        "oa_rows_covered": 873,
+        "oa_rows_expected": 873,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63014082",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Plymouth; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -3361,6 +4001,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 96.6505,
+        "residential_premises": 97806,
+        "matched_residential_premises": 97767,
+        "gigabit_available_premises": 94530,
+        "oa_rows_covered": 708,
+        "oa_rows_expected": 708,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63013748",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Portsmouth; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -3443,6 +4099,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 90.1971,
+        "residential_premises": 42171,
+        "matched_residential_premises": 41902,
+        "gigabit_available_premises": 38037,
+        "oa_rows_covered": 287,
+        "oa_rows_expected": 287,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007926",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Preston (Preston); Reviewed official BUA name corresponds to the screen location Preston. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -3525,6 +4197,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 98.8979,
+        "residential_premises": 31305,
+        "matched_residential_premises": 31294,
+        "gigabit_available_premises": 30960,
+        "oa_rows_covered": 228,
+        "oa_rows_expected": 228,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008458",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Rotherham; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -3607,6 +4295,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 85.0078,
+        "residential_premises": 56903,
+        "matched_residential_premises": 56896,
+        "gigabit_available_premises": 48372,
+        "oa_rows_covered": 342,
+        "oa_rows_expected": 342,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008377",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Salford; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -3689,6 +4393,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 93.793,
+        "residential_premises": 225277,
+        "matched_residential_premises": 225186,
+        "gigabit_available_premises": 211294,
+        "oa_rows_covered": 1635,
+        "oa_rows_expected": 1635,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008489",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Sheffield; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -3771,6 +4491,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 93.2682,
+        "residential_premises": 35904,
+        "matched_residential_premises": 35895,
+        "gigabit_available_premises": 33487,
+        "oa_rows_covered": 248,
+        "oa_rows_expected": 248,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63009578",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Shrewsbury; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -3853,6 +4589,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 97.5422,
+        "residential_premises": 50573,
+        "matched_residential_premises": 50561,
+        "gigabit_available_premises": 49330,
+        "oa_rows_covered": 362,
+        "oa_rows_expected": 362,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008434",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across St Helens (St. Helens); Reviewed official BUA name corresponds to the screen location St Helens. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -3935,6 +4687,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 95.2086,
+        "residential_premises": 34103,
+        "matched_residential_premises": 33665,
+        "gigabit_available_premises": 32469,
+        "oa_rows_covered": 235,
+        "oa_rows_expected": 235,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63009353",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Stafford; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -4017,6 +4785,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 95.5029,
+        "residential_premises": 54502,
+        "matched_residential_premises": 54479,
+        "gigabit_available_premises": 52051,
+        "oa_rows_covered": 396,
+        "oa_rows_expected": 396,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008478",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Stockport; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -4099,6 +4883,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 97.2072,
+        "residential_premises": 39494,
+        "matched_residential_premises": 39487,
+        "gigabit_available_premises": 38391,
+        "oa_rows_covered": 288,
+        "oa_rows_expected": 288,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007405",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Stockton-on-Tees; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -4181,6 +4981,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 96.7582,
+        "residential_premises": 117588,
+        "matched_residential_premises": 117375,
+        "gigabit_available_premises": 113776,
+        "oa_rows_covered": 868,
+        "oa_rows_expected": 868,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63009014",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Stoke-on-Trent; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -4263,6 +5079,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 94.0612,
+        "residential_premises": 82508,
+        "matched_residential_premises": 82412,
+        "gigabit_available_premises": 77608,
+        "oa_rows_covered": 605,
+        "oa_rows_expected": 605,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007220",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Sunderland; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -4345,6 +5177,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 96.4795,
+        "residential_premises": 80130,
+        "matched_residential_premises": 80119,
+        "gigabit_available_premises": 77309,
+        "oa_rows_covered": 573,
+        "oa_rows_expected": 574,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "W45001113",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Swansea; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -4427,6 +5275,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 98.2624,
+        "residential_premises": 77405,
+        "matched_residential_premises": 77401,
+        "gigabit_available_premises": 76060,
+        "oa_rows_covered": 597,
+        "oa_rows_expected": 597,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63011979",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Swindon (Swindon); Reviewed official BUA name corresponds to the screen location Swindon. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -4509,6 +5373,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 87.3897,
+        "residential_premises": 69253,
+        "matched_residential_premises": 69204,
+        "gigabit_available_premises": 60520,
+        "oa_rows_covered": 493,
+        "oa_rows_expected": 494,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63009565",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Telford; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -4591,6 +5471,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 88.6442,
+        "residential_premises": 71479,
+        "matched_residential_premises": 71235,
+        "gigabit_available_premises": 63362,
+        "oa_rows_covered": 473,
+        "oa_rows_expected": 473,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63014039;E63014055;E63014084",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Torquay, Paignton, Brixham; Reviewed composite represents Torbay using the Torquay, Paignton and Brixham BUAs. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -4673,6 +5569,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 97.3243,
+        "residential_premises": 44736,
+        "matched_residential_premises": 44709,
+        "gigabit_available_premises": 43539,
+        "oa_rows_covered": 306,
+        "oa_rows_expected": 306,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008062",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Wakefield; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -4755,6 +5667,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 84.6769,
+        "residential_premises": 25902,
+        "matched_residential_premises": 25770,
+        "gigabit_available_premises": 21933,
+        "oa_rows_covered": 194,
+        "oa_rows_expected": 194,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63009845",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Walsall; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -4837,6 +5765,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 95.4244,
+        "residential_premises": 79443,
+        "matched_residential_premises": 79415,
+        "gigabit_available_premises": 75808,
+        "oa_rows_covered": 578,
+        "oa_rows_expected": 579,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008488",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Warrington; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -4919,6 +5863,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 96.6681,
+        "residential_premises": 37306,
+        "matched_residential_premises": 37303,
+        "gigabit_available_premises": 36063,
+        "oa_rows_covered": 268,
+        "oa_rows_expected": 268,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63008282",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Wigan; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -5001,6 +5961,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 98.1161,
+        "residential_premises": 100325,
+        "matched_residential_premises": 100267,
+        "gigabit_available_premises": 98435,
+        "oa_rows_covered": 721,
+        "oa_rows_expected": 721,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63009805",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Wolverhampton; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -5083,6 +6059,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 91.8873,
+        "residential_premises": 47703,
+        "matched_residential_premises": 47652,
+        "gigabit_available_premises": 43833,
+        "oa_rows_covered": 344,
+        "oa_rows_expected": 344,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63010595",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Worcester; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -5165,6 +6157,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 89.9002,
+        "residential_premises": 21238,
+        "matched_residential_premises": 21024,
+        "gigabit_available_premises": 19093,
+        "oa_rows_covered": 149,
+        "oa_rows_expected": 149,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "W45000777",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Wrexham; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -5247,6 +6255,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 94.6442,
+        "residential_premises": 182120,
+        "matched_residential_premises": 180936,
+        "gigabit_available_premises": 172366,
+        "oa_rows_covered": 1268,
+        "oa_rows_expected": 1269,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63012168",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Bristol; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -5329,6 +6353,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 95.2352,
+        "residential_premises": 109554,
+        "matched_residential_premises": 109244,
+        "gigabit_available_premises": 104334,
+        "oa_rows_covered": 794,
+        "oa_rows_expected": 794,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63013524",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Southampton; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -5411,6 +6451,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 90.4647,
+        "residential_premises": 159439,
+        "matched_residential_premises": 158818,
+        "gigabit_available_premises": 144236,
+        "oa_rows_covered": 1049,
+        "oa_rows_expected": 1049,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63013847;E63013860",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Bournemouth, Poole; Reviewed composite represents the named two-settlement location using the Bournemouth and Poole BUAs. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -5493,6 +6549,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 84.2846,
+        "residential_premises": 135205,
+        "matched_residential_premises": 134106,
+        "gigabit_available_premises": 113957,
+        "oa_rows_covered": 936,
+        "oa_rows_expected": 936,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63013666",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Brighton and Hove; Reviewed official BUA name corresponds to the screen location Brighton & Hove. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -5575,6 +6647,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 91.1441,
+        "residential_premises": 55793,
+        "matched_residential_premises": 55449,
+        "gigabit_available_premises": 50852,
+        "oa_rows_covered": 390,
+        "oa_rows_expected": 390,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63013856",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Exeter; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -5657,6 +6745,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 96.4918,
+        "residential_premises": 84772,
+        "matched_residential_premises": 84740,
+        "gigabit_available_premises": 81798,
+        "oa_rows_covered": 602,
+        "oa_rows_expected": 602,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63012182",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Reading; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -5739,6 +6843,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 96.8345,
+        "residential_premises": 83811,
+        "matched_residential_premises": 83763,
+        "gigabit_available_premises": 81158,
+        "oa_rows_covered": 591,
+        "oa_rows_expected": 591,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63010901",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Milton Keynes; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -5821,6 +6941,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 98.1067,
+        "residential_premises": 87517,
+        "matched_residential_premises": 87419,
+        "gigabit_available_premises": 85860,
+        "oa_rows_covered": 644,
+        "oa_rows_expected": 644,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63011256",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Luton; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -5903,6 +7039,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 97.9218,
+        "residential_premises": 83295,
+        "matched_residential_premises": 83213,
+        "gigabit_available_premises": 81564,
+        "oa_rows_covered": 592,
+        "oa_rows_expected": 592,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63011939",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Southend-on-Sea; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -5985,6 +7137,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 94.7661,
+        "residential_premises": 61331,
+        "matched_residential_premises": 61291,
+        "gigabit_available_premises": 58121,
+        "oa_rows_covered": 447,
+        "oa_rows_expected": 448,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63010556",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Cambridge (Cambridge); Reviewed official BUA name corresponds to the screen location Cambridge. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -6067,6 +7235,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 88.822,
+        "residential_premises": 58132,
+        "matched_residential_premises": 57395,
+        "gigabit_available_premises": 51634,
+        "oa_rows_covered": 425,
+        "oa_rows_expected": 425,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63011220",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Colchester; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -6149,6 +7333,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 78.4246,
+        "residential_premises": 67169,
+        "matched_residential_premises": 65423,
+        "gigabit_available_premises": 52677,
+        "oa_rows_covered": 467,
+        "oa_rows_expected": 467,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63011595",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Oxford; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -6231,6 +7431,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 75.744,
+        "residential_premises": 42538,
+        "matched_residential_premises": 42426,
+        "gigabit_available_premises": 32220,
+        "oa_rows_covered": 311,
+        "oa_rows_expected": 311,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63012364",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Bath; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -6313,6 +7529,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 95.5285,
+        "residential_premises": 22364,
+        "matched_residential_premises": 22360,
+        "gigabit_available_premises": 21364,
+        "oa_rows_covered": 164,
+        "oa_rows_expected": 165,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "W45001212",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Bridgend; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -6395,6 +7627,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 96.0951,
+        "residential_premises": 19898,
+        "matched_residential_premises": 19886,
+        "gigabit_available_premises": 19121,
+        "oa_rows_covered": 145,
+        "oa_rows_expected": 145,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "W45001070",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Llanelli; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -6477,6 +7725,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 56.0023,
+        "residential_premises": 6964,
+        "matched_residential_premises": 6913,
+        "gigabit_available_premises": 3900,
+        "oa_rows_covered": 49,
+        "oa_rows_expected": 49,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "W45000697",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Bangor; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -6559,6 +7823,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 84.414,
+        "residential_premises": 13711,
+        "matched_residential_premises": 13692,
+        "gigabit_available_premises": 11574,
+        "oa_rows_covered": 88,
+        "oa_rows_expected": 88,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "W45000645",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Rhyl; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -6641,6 +7921,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 92.9618,
+        "residential_premises": 64221,
+        "matched_residential_premises": 64063,
+        "gigabit_available_premises": 59701,
+        "oa_rows_covered": 455,
+        "oa_rows_expected": 457,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007706",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across York; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -6723,6 +8019,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 75.0489,
+        "residential_premises": 21466,
+        "matched_residential_premises": 21408,
+        "gigabit_available_premises": 16110,
+        "oa_rows_covered": 140,
+        "oa_rows_expected": 140,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63007282",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Durham; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     },
     {
@@ -6805,6 +8117,22 @@ window.FLATS_DATA = {
         "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
         "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 92.3311,
+        "residential_premises": 55627,
+        "matched_residential_premises": 55591,
+        "gigabit_available_premises": 51361,
+        "oa_rows_covered": 395,
+        "oa_rows_expected": 395,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63011286",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Cheltenham; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     }
   ],
@@ -13043,6 +14371,18 @@ window.FLATS_DATA = {
       "geography": "2021 Output Areas aggregated to reviewed April 2024 built-up areas",
       "coverage": "All 83 locations; complete expected population coverage",
       "limitations": "Modelled scheduled opportunity to reach employment, services and social engagements; not fares, crowding, cancellations, reliability, personal security, step-free access or access from a particular home. Aggregation uses Census 2021 usual-resident population and the official OA-to-BUA best-fit lookup."
+    },
+    {
+      "id": "DIGITAL-OFCOM-CN-SPRING-2025",
+      "workstream": "digital_connectivity",
+      "title": "Connected Nations update Spring 2025: residential gigabit availability",
+      "publisher": "Ofcom",
+      "url": "https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/connected-nations-update-spring-2025",
+      "dataPeriod": "January 2025 availability snapshot",
+      "retrievalDate": "2026-09-11",
+      "geography": "Residential premises in 2021 Census Output Areas aggregated to reviewed April 2024 built-up areas",
+      "coverage": "All 83 locations have positive residential-premise coverage",
+      "limitations": "Provider-reported gigabit-capable fixed-broadband availability; Ofcom collected the wider fixed-coverage release from nearly 70 fixed-network and fixed-wireless providers. This is not observed or guaranteed speed, take-up, price, reliability, latency, service quality or in-home performance. Premises use Ordnance Survey AddressBase Epoch 115. OAs absent from the residential file do not enter either premise count; matched-premise and OA-row coverage diagnostics are retained."
     }
   ],
   "composite": {

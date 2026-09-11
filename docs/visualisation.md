@@ -34,7 +34,9 @@ inclusion.
 
 Marker colour can show the composite score, the recorded-offence and
 national-transport component scores, or the observed price, rent, transport,
-environment or listing value that directly underpins a component. It uses a
+environment or listing value that directly underpins a component. It can also
+show the contextual Ofcom gigabit-availability percentage, which is not a
+composite input. It uses a
 continuous gradient over the full candidate-set range for the selected tenure and
 measure: the lowest and highest observed values receive the first and last
 palette colours, and filters do not change the scale. The fixed Forest gradient

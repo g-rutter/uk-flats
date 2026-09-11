@@ -20,6 +20,7 @@ GROUP_FILES = {
     'buy': 'buy.csv', 'rent': 'rent.csv', 'market': 'market.csv',
     'localTransport': 'localTransport.csv', 'nationalTransport': 'nationalTransport.csv',
     'residentialEnvironment': 'residential_environment.csv',
+    'digitalConnectivity': 'digital_connectivity.csv',
 }
 GROUPS = tuple(GROUP_FILES)
 INTEGER_NUMERIC = {
@@ -28,6 +29,8 @@ INTEGER_NUMERIC = {
     'population_covered', 'population_expected', 'air_population_covered',
     'quiet_population_covered', 'green_population_covered',
     'housing_environment_population_covered', 'reference_bua_count', 'reference_population',
+    'residential_premises', 'matched_residential_premises',
+    'gigabit_available_premises', 'oa_rows_covered', 'oa_rows_expected',
 }
 FLOAT_NUMERIC = {
     'lat', 'lon', 'pt_connectivity_0_100', 'national_percentile', 'air_burden',
@@ -35,6 +38,7 @@ FLOAT_NUMERIC = {
     'green_within_300m_pct', 'green_area_within_1000m_m2', 'epc_sap_mean',
     'air_percentile', 'quiet_percentile', 'green_percentile',
     'housing_environment_percentile', 'environment_index_0_100',
+    'gigabit_availability_pct',
 }
 REQUIRED_COLUMNS = {
     'locations.csv': {'id', 'name', 'country', 'localAuthority', 'lat', 'lon'},
@@ -50,6 +54,7 @@ REQUIRED_COLUMNS = {
     'transport_route_observations.csv': {'location_id', 'destination_id', 'origin_crs', 'destination_crs', 'measurement_date', 'selection_window_start_local', 'selection_window_end_local', 'planner_search_times', 'query_timestamp_local', 'selected_departure_local', 'selected_arrival_local', 'elapsed_minutes', 'changes', 'frequency_window_start_local', 'frequency_window_end_local', 'usable_departures_in_window', 'source_url', 'raw_capture_path', 'retrieval_timestamp', 'confidence', 'evidence_id', 'reason'},
     'residential_environment.csv': {'location_id', 'air_burden', 'no2_ug_m3', 'pm25_ug_m3', 'pm10_ug_m3', 'noise_exposed_pct', 'green_within_300m_pct', 'green_area_within_1000m_m2', 'epc_sap_mean', 'air_percentile', 'quiet_percentile', 'green_percentile', 'housing_environment_percentile', 'environment_index_0_100', 'national_percentile', 'score', 'air_period', 'quiet_period', 'green_period', 'housing_environment_period', 'air_evidence_id', 'quiet_evidence_id', 'green_evidence_id', 'housing_environment_evidence_id', 'geography_code', 'geography_vintage', 'air_population_covered', 'quiet_population_covered', 'green_population_covered', 'housing_environment_population_covered', 'population_expected', 'method_version', 'confidence', 'reason'},
     'residential_environment_release.csv': {'release_id', 'method_version', 'reference_bua_count', 'reference_population', 'q20', 'q40', 'q60', 'q80', 'boundary_rule', 'pillar_weights', 'quiet_standardisation', 'housing_environment_standardisation', 'cross_border_bua_country_rule'},
+    'digital_connectivity.csv': {'location_id', 'gigabit_availability_pct', 'residential_premises', 'matched_residential_premises', 'gigabit_available_premises', 'oa_rows_covered', 'oa_rows_expected', 'source_period', 'retrieval_date', 'evidence_id', 'geography_code', 'geography_vintage', 'method_version', 'confidence', 'reason'},
     'sources.csv': {'location_id', 'topic', 'url'},
     'evidence.csv': {'id', 'workstream', 'title', 'publisher', 'url', 'dataPeriod', 'retrievalDate', 'geography', 'coverage', 'limitations'},
 }
@@ -213,6 +218,31 @@ def compile_data(inputs):
                 any(not period for period in periods) or row['confidence'] not in ('High', 'Medium', 'Low') or
                 not row['reason'] or row['geography_vintage'] != 'April 2024'):
             raise ValueError(f'residentialEnvironment: incomplete evidence context for {ident}')
+    for location in locations:
+        row = location['digitalConnectivity']
+        if not row:
+            continue
+        ident = location['id']
+        premises = row['residential_premises']
+        matched = row['matched_residential_premises']
+        gigabit = row['gigabit_available_premises']
+        if (row['gigabit_availability_pct'] is None or
+                not 0 <= row['gigabit_availability_pct'] <= 100 or
+                premises is None or premises <= 0 or
+                not 0 <= gigabit <= matched <= premises or
+                row['oa_rows_covered'] <= 0 or
+                row['oa_rows_covered'] > row['oa_rows_expected']):
+            raise ValueError(f'digitalConnectivity: invalid availability or coverage for {ident}')
+        reproduced = 100 * gigabit / premises
+        if abs(reproduced - row['gigabit_availability_pct']) > 0.00015:
+            raise ValueError(f'digitalConnectivity: percentage does not reproduce for {ident}')
+        if (set(row['geography_code'].split(';')) != component_codes[ident] or
+                row['geography_vintage'] != 'April 2024' or
+                row['method_version'] != 'ofcom-gigabit-bua24-v1' or
+                row['evidence_id'] not in evidence_ids or
+                row['confidence'] not in ('High', 'Medium', 'Low') or
+                not row['source_period'] or not row['retrieval_date'] or not row['reason']):
+            raise ValueError(f'digitalConnectivity: incomplete evidence context for {ident}')
     return dict(locations=locations, sources=sources, evidence=evidence)
 
 
@@ -226,6 +256,10 @@ def build():
             'os-open-greenspace-gb.gpkg.zip', 'oa21-population-weighted-centroids.csv',
             'oa21-lsoa21-msoa21-lookup.csv'}:
         raise ValueError('Residential-environment raw release is incomplete')
+    connectivity_manifest = load_manifest(ROOT / 'data/raw/connectivity/2026-09-11')
+    if set(connectivity_manifest) != {
+            'fixed-coverage-output-areas.zip', 'about-this-data-fixed-coverage.pdf'}:
+        raise ValueError('Digital-connectivity raw release is incomplete')
     data = compile_data(ROOT / 'data/inputs')
     crime = compile_crime(ROOT / 'data/inputs', data['locations'], data['evidence'])
     data['composite'] = compile_composite(data['locations'], crime)

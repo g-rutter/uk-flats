@@ -6,8 +6,11 @@ from pathlib import Path
 from csv_io import write_csv
 
 TOPICS = ('buy', 'rent', 'market', 'localTransport', 'nationalTransport',
-          'residentialEnvironment', 'crime')
-FILES = {'residentialEnvironment': 'residential_environment.csv'}
+          'residentialEnvironment', 'digitalConnectivity', 'crime')
+FILES = {
+    'residentialEnvironment': 'residential_environment.csv',
+    'digitalConnectivity': 'digital_connectivity.csv',
+}
 
 
 def read(path):
@@ -29,6 +32,7 @@ def metric_present(topic, row):
         'localTransport': ('pt_connectivity_0_100', 'score'),
         'nationalTransport': ('londonMinutes', 'birminghamMinutes'),
         'residentialEnvironment': ('environment_index_0_100', 'score'),
+        'digitalConnectivity': ('gigabit_availability_pct',),
         'crime': ('count', 'population'),
     }[topic]
     return any(row.get(field, '') for field in fields)
@@ -107,6 +111,19 @@ def audit(inputs):
                     except (OSError, ValueError, KeyError):
                         status = 'review-required'
                         reason = 'Canonical observation does not match a complete hash-verified residential-environment release'
+                elif topic == 'digitalConnectivity' and present:
+                    from release_manifest import load
+                    release = Path(inputs).parent / 'raw/connectivity/2026-09-11'
+                    try:
+                        manifest = load(release)
+                        artifact_hash = manifest['fixed-coverage-output-areas.zip']['sha256']
+                        status = 'ready'
+                        period = row['source_period']
+                        geography = row['geography_code']
+                        reason = ''
+                    except (OSError, ValueError, KeyError):
+                        status = 'review-required'
+                        reason = 'Canonical observation does not match a complete hash-verified Ofcom release'
                 else:
                     # The current non-crime dataset is explicitly an imported baseline;
                     # it cannot acquire a raw-artifact claim merely by having a URL.

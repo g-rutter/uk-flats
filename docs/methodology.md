@@ -41,7 +41,9 @@ locations or observations change even if its own proxy does not.
 The map can colour locations by the composite score, the recorded-offence and
 national-transport component scores, or the directly observed value behind a
 single-measure component: median flat price or rent, public-transport
-connectivity, residential-environment index, and one-bedroom listing count.
+connectivity, residential-environment index, and one-bedroom listing count. It
+can also show Ofcom residential gigabit-capable broadband availability, which is
+context only and is not a composite component.
 Marker colours use a continuous gradient whose first and last colours are the
 lowest and highest known value across the full candidate set; filters do not
 rescale it. The fixed Forest gradient changes presentation only, not scores,
@@ -82,6 +84,13 @@ dated archive and geography/coverage review supports comparable CSP rates.
 - National transport: dated representative station-to-station journeys to London
   and Birmingham. This deliberately answers a different question and is scored
   independently of local connectivity.
+- Digital connectivity: Ofcom's provider-reported share of residential premises
+  with gigabit-capable fixed-broadband availability in January 2025, aggregated
+  from 2021 OAs to the reviewed April 2024 BUA using premise counts. It is
+  availability, not observed or guaranteed speed, take-up, price, latency,
+  reliability or in-home performance. It is plottable but unscored and excluded
+  from both composites. See the
+  [digital connectivity methodology](digital-connectivity-methodology.md).
 - Residential environment: method
   `residential-environment-bua24-v3-country-calibrated` equally combines cleaner
   air, less modelled transport noise, OS Open Greenspace access and housing energy

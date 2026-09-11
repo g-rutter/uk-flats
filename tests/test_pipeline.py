@@ -18,6 +18,7 @@ from composite import housing_cost_scores, compile_composite, weighted_score
 from prepare_locations import prepare
 from prepare_national_transport import prepare as prepare_national_transport
 from prepare_local_transport import score_for, weighted_quantile_cutpoints
+from prepare_digital_connectivity import read_ofcom
 from create_national_transport_queue import create_queue
 from collect_national_transport_ui import expand_details_code, visible_query
 from collect_national_transport_http import REQUEST_HEADERS, request_body
@@ -227,6 +228,7 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(sum(bool(r['rate_per_1000']) for r in rows), location_count)
         self.assertEqual(len(compile_data(ROOT / 'data/inputs')['locations']), location_count)
         self.assertEqual(payload['composite']['weights']['safety'], 15)
+        self.assertNotIn('digital_connectivity', payload['composite']['weights'])
         housing_scores = [5 - index * 0.5 for index in range(9)]
         for tenure in ('buy', 'rent'):
             housing_cost_bands = payload['composite']['housing_cost_bands'][tenure]
@@ -242,12 +244,14 @@ class PipelineTests(unittest.TestCase):
             band_by_score = {}
             for location in payload['locations']:
                 result = payload['composite']['results'][location['id']]['tenures'][tenure]
+                self.assertNotIn('digital_connectivity', result['factors'])
                 band_by_score.setdefault(result['score'], result['band'])
                 self.assertEqual(band_by_score[result['score']], result['band'])
         with (ROOT / 'data/derived/release_audit.csv').open(newline='') as source:
             release_rows = list(csv.DictReader(source))
-        self.assertEqual(len(release_rows), location_count * 7)
+        self.assertEqual(len(release_rows), location_count * 8)
         self.assertEqual({row['status'] for row in release_rows if row['topic'] == 'crime'}, {'ready'})
+        self.assertEqual({row['status'] for row in release_rows if row['topic'] == 'digitalConnectivity'}, {'ready'})
         self.assertEqual({row['status'] for row in release_rows if row['topic'] == 'buy'}, {'review-required'})
 
     def test_registry_rejects_unretained_or_unresolved_accepted_mapping(self):
@@ -312,7 +316,7 @@ class PipelineTests(unittest.TestCase):
             with (inputs / 'locations.csv').open('a', newline='') as target:
                 csv.writer(target).writerow(['test-place', 'Test Place', 'England', '', '', ''])
             rows = [row for row in release_audit(inputs) if row['location_id'] == 'test-place']
-            self.assertEqual(len(rows), 7)
+            self.assertEqual(len(rows), 8)
             self.assertTrue(all(row['status'] == 'missing' for row in rows))
 
     def test_validation_probe_is_predeclared_and_records_completed_quantitative_results(self):
@@ -430,6 +434,31 @@ class PipelineTests(unittest.TestCase):
                 writer.writerows(rows)
             with self.assertRaisesRegex(ValueError, 'incomplete population coverage'):
                 compile_data(inputs)
+
+    def test_digital_connectivity_uses_premise_counts_and_reproduces_percentage(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            archive = Path(tmp) / 'ofcom.zip'
+            header = ('output_area,All Premises,All Matched Premises,'
+                      'Gigabit availability (% premises),'
+                      'Number of premises with Gigabit availability\n')
+            residential = header + 'E00000001,10,9,70,7\nE00000002,30,30,50,15\n'
+            from zipfile import ZipFile
+            with ZipFile(archive, 'w') as target:
+                target.writestr('202501_fixed_oa_coverage_r01.csv', header)
+                target.writestr('202501_fixed_oa_res_coverage_r01.csv', residential)
+            rows = read_ofcom(archive)
+            self.assertEqual(rows['E00000001'], {
+                'premises': 10, 'matched': 9, 'gigabit': 7,
+            })
+            self.assertAlmostEqual(
+                100 * sum(row['gigabit'] for row in rows.values()) /
+                sum(row['premises'] for row in rows.values()), 55.0)
+            with ZipFile(archive, 'w') as target:
+                target.writestr('202501_fixed_oa_coverage_r01.csv', header)
+                target.writestr('202501_fixed_oa_res_coverage_r01.csv',
+                                header + 'E00000001,10,9,60,7\n')
+            with self.assertRaisesRegex(ValueError, 'percentage does not match counts'):
+                read_ofcom(archive)
 
     def test_original_artifact_hashes(self):
         with (ROOT / 'data/archive/manifest.csv').open(newline='') as f:

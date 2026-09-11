@@ -88,6 +88,9 @@ national-reference BUAs. Its quiet and Energy Performance Certificate (EPC)
 pillars use explicit within-country percentile calibration to make the mixed
 published measures approximately comparable; raw values and limitations remain
 visible in the browser.
+Ofcom January 2025 residential gigabit-capable broadband availability is also
+aggregated to the reviewed built-up areas and can colour the map. It is evidence
+context only and does not enter either composite score.
 Buying is an all-flat achieved-price proxy; renting is a modelled one-bedroom
 local-authority mean. The screen calculates separate Buy/Rent broad composite
 scores; their safety component uses the separate ONS CSP recorded-offence rates.
@@ -102,6 +105,9 @@ its method and collection procedure are in the
 The local public-transport factor is the DfT 2025 connectivity metric aggregated
 to reviewed built-up areas; its reproducible method is in the
 [local transport methodology](docs/local-transport-methodology.md).
+The plottable digital-connectivity field and its premise-weighted Ofcom
+aggregation are described in the
+[digital connectivity methodology](docs/digital-connectivity-methodology.md).
 The residential-environment release, national audit and selected
 compatibility transform are described in the
 [residential-environment methodology](docs/residential-environment-methodology.md)

@@ -25,6 +25,7 @@
     housing_cost: { label: () => state.tenure === 'buy' ? 'Median flat price' : 'Typical one-bedroom rent', value: marketPrice, format: value => `${money(value)}${state.tenure === 'rent' && known(value) ? ' per month' : ''}`, reverse: true },
     safety: { label: 'Recorded-offence score', value: x => data.composite.results[x.id].tenures[state.tenure].factors.safety, format: value => `${show(value)} / 5` },
     local_transport: { label: 'Public-transport connectivity', value: x => x.localTransport.pt_connectivity_0_100, format: value => `${oneDecimal(value)} / 100` },
+    digital_connectivity: { label: 'Gigabit broadband availability', value: x => x.digitalConnectivity.gigabit_availability_pct, format: value => `${oneDecimal(value)}% of residential premises` },
     residential_environment: { label: 'Residential-environment index', value: x => x.residentialEnvironment.environment_index_0_100, format: value => `${oneDecimal(value)} / 100` },
     stock: { label: 'One-bedroom listings', value: stock, format: value => known(value) ? `${wholeNumber(value)} listings` : 'Not available' },
     national_transport: { label: 'National-transport score', value: x => data.composite.results[x.id].tenures[state.tenure].factors.national_transport, format: value => `${show(value)} / 5` }
@@ -41,6 +42,7 @@
   };
   const rate = (x, category) => crime.get(x.id)?.[category]?.rate_per_1000;
   const localTransportDefinition = 'DfT modelled public-transport opportunity to reach employment, services and social engagements. The settlement value is a Census-population-weighted mean of Output Area scores. It does not measure fares, crowding, cancellations, reliability, step-free access or travel from a particular home.';
+  const digitalConnectivityDefinition = 'Ofcom provider-reported share of residential premises with gigabit-capable fixed-broadband availability in January 2025, aggregated across the reviewed built-up area. Availability is not observed or guaranteed speed, take-up, price, reliability, latency or in-home Wi-Fi performance. This field does not enter the composite score.';
   const environmentDefinition = 'Population-weighted residential surroundings across the reviewed built-up area: cleaner air, less modelled transport noise, access to eligible public green space and housing energy quality. It is not a street, building, safety, beauty or general deprivation measure.';
   const medianFlatPriceDefinition = 'Median completed flat and maisonette price for sales dated 1 July 2024 to 30 June 2026. It covers all flat sizes, not just one-bedroom flats; recent transactions can be incomplete because registration lags.';
   const project = x => [((x.lon - MAP.minLon) / (MAP.maxLon - MAP.minLon)) * MAP.width, MAP.height - ((x.lat - MAP.minLat) / (MAP.maxLat - MAP.minLat)) * MAP.height];
@@ -135,7 +137,11 @@
     if (localEvidence?.url && !list.some(source => source.url === localEvidence.url)) {
       list.push({ topic: 'localTransport', url: localEvidence.url });
     }
-    const topic = value => ({ buy: 'Buying', rent: 'Renting', market: 'Market', localTransport: 'Public-transport connectivity', nationalTransport: 'Rail connections', environment: 'Residential environment' }[value] || value);
+    const digitalEvidence = evidenceById.get(x.digitalConnectivity.evidence_id);
+    if (digitalEvidence?.url && !list.some(source => source.url === digitalEvidence.url)) {
+      list.push({ topic: 'digitalConnectivity', url: digitalEvidence.url });
+    }
+    const topic = value => ({ buy: 'Buying', rent: 'Renting', market: 'Market', localTransport: 'Public-transport connectivity', digitalConnectivity: 'Digital connectivity', nationalTransport: 'Rail connections', environment: 'Residential environment' }[value] || value);
     const label = source => {
       const url = source.url;
       if (url.includes('price-paid-data-downloads')) return 'HM Land Registry price-paid data';
@@ -146,6 +152,7 @@
       if (url.includes('los.rightmove')) return 'Rightmove location lookup';
       if (url.includes('nationalrail.co.uk')) return 'National Rail journey planner';
       if (url.includes('transport-connectivity-metric')) return 'DfT transport connectivity metric';
+      if (url.includes('connected-nations-update-spring-2025')) return 'Ofcom Connected Nations Spring 2025';
       if (url.includes('uk-air.defra.gov.uk')) return 'Defra modelled background pollution';
       if (url.includes('api.os.uk')) return 'OS Open Greenspace';
       if (url.includes('traveline.info')) return 'Traveline journey planner';
@@ -190,9 +197,11 @@
       ? [row('Median flat price', money(x.buy.proxyMedian), medianFlatPriceDefinition), row('Completed sales in sample', known(x.buy.transactions) ? `${show(x.buy.transactions)} sales` : 'Not available'), row('One-bedroom listings', known(x.buy.oneBedCount) ? `${show(x.buy.oneBedCount)} listings` : 'Not available', 'Rightmove headline count at the recorded snapshot; listings are not deduplicated.')]
       : [row('Typical one-bedroom rent', `${money(x.rent.proxyMonthly)}${known(x.rent.proxyMonthly) ? ' per month' : ''}`, 'Modelled monthly local-authority average; not an asking-rent median.'), row('One-bedroom listings', known(x.rent.oneBedCount) ? `${show(x.rent.oneBedCount)} listings` : 'Not available', 'Rightmove headline count at the recorded snapshot; listings are not deduplicated.')];
     const environment = x.residentialEnvironment;
+    const digital = x.digitalConnectivity;
     const localRows = [
       row('Public-transport connectivity', known(x.localTransport.pt_connectivity_0_100) ? `${oneDecimal(x.localTransport.pt_connectivity_0_100)} out of 100` : 'Not available', `${localTransportDefinition} Source period: ${show(x.localTransport.source_period)}.`),
       row('Transport national percentile', known(x.localTransport.national_percentile) ? `${oneDecimal(x.localTransport.national_percentile)} out of 100` : 'Not available', 'Compared with the Census-population-weighted distribution of all England and Wales Output Areas in the same DfT release; higher is better.'),
+      row('Gigabit broadband availability', known(digital.gigabit_availability_pct) ? `${oneDecimal(digital.gigabit_availability_pct)}% of residential premises` : 'Not available', `${digitalConnectivityDefinition} Based on ${wholeNumber(digital.gigabit_available_premises)} of ${wholeNumber(digital.residential_premises)} residential premises; ${oneDecimal(known(digital.residential_premises) && digital.residential_premises ? 100 * digital.matched_residential_premises / digital.residential_premises : null)}% were matched to provider records. Source period: ${show(digital.source_period)}.`),
       row('Residential-environment index', known(environment.environment_index_0_100) ? `${oneDecimal(environment.environment_index_0_100)} out of 100` : 'Not available', environmentDefinition),
       row('Environment national percentile', known(environment.national_percentile) ? `${oneDecimal(environment.national_percentile)} out of 100` : 'Not available', 'Compared with the Census-population-weighted distribution of all April 2024 England and Wales built-up areas; higher is better.'),
       row('Air pollution', known(environment.air_burden) ? `Burden ${oneDecimal(environment.air_burden)} · NO₂ ${oneDecimal(environment.no2_ug_m3)}, PM₂.₅ ${oneDecimal(environment.pm25_ug_m3)}, PM₁₀ ${oneDecimal(environment.pm10_ug_m3)} µg/m³` : 'Not available', `Annual modelled outdoor concentrations. The burden equally averages each pollutant divided by its WHO 2021 annual guideline; lower is better. Source period: ${show(environment.air_period)}.`),

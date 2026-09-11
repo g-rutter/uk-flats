@@ -51,12 +51,13 @@ signed decimal degrees. Original camelCase names are retained for traceability.
 | transport_route_observations.csv | one review-only, manually transcribed route observation per location/destination, with planner query, timed itinerary and capture reference | National-transport acquisition workstream; not a canonical replacement until a complete release is approved |
 | residential_environment.csv | `location_id`; four raw pillar observations and percentiles, combined index/national percentile/score, separate periods and evidence IDs, BUA components, per-pillar covered population, expected population, method, confidence and reason | Live v3 factor input; quiet and EPC percentiles are calibrated within country |
 | residential_environment_release.csv | release/method IDs, national reference count/population and quintile thresholds, equality rule, weights, compatibility transforms, air fallback count and OS Open Greenspace geometry/coverage audit | Versioned `residential-environment-bua24-v3-country-calibrated` national reference and preparation controls |
+| digital_connectivity.csv | `location_id`; gigabit availability percentage, residential/matched/available premise counts, source and expected OA-row counts, period/date/evidence, BUA geography, method, confidence and reason | Reproducible Ofcom January 2025 residential OA availability aggregated to reviewed BUAs; contextual and unscored |
 | sources.csv | `location_id`, topic, url; multiple rows per location/topic | JS sources; original links, including archived crime context |
 | evidence.csv | `id`; workstream, title, publisher, url, dataPeriod, retrievalDate, geography, coverage, limitations | JS evidence; inherited source-level metadata |
 
 The topic-to-evidence mapping above documents the inherited common periods. Most
-visitor links by location live in sources.csv; local transport resolves its
-shared DfT link through the row's `evidence_id`. Local transport and residential
+visitor links by location live in sources.csv; local transport and digital
+connectivity resolve shared links through each row's `evidence_id`. Local transport and residential
 environment use supplied integer scores that must reproduce from their versioned
 national thresholds. Residential environment additionally requires its equal
 four-pillar index, evidence IDs, periods and complete populations to reproduce.
@@ -75,6 +76,9 @@ It validates unique identities, topic foreign keys, duplicate topic rows, numeri
 values and source URL schemes. For local transport it additionally validates
 0--100/percentile bounds, 1--5 threshold agreement, evidence and method IDs,
 complete positive population coverage, and complete reviewed geography mappings.
+Digital connectivity additionally validates 0--100 bounds, premise-count order,
+percentage reproduction, OA-row coverage bounds, evidence/method IDs and the
+reviewed BUA components. It has no score field and is not read by `composite.py`.
 It does not validate upstream statistical truth.
 No row count is hard-coded. Generation contains no clock timestamps or network calls.
 
@@ -97,6 +101,15 @@ April-2024-BUA best-fit lookup, weights by Census 2021 TS001 usual residents, an
 writes a full review table plus the canonical input. The score uses national
 population-weighted thresholds stored in `local_transport_release.csv`, not the
 candidate distribution. See [local transport methodology](local-transport-methodology.md).
+
+The digital-connectivity workstream is source-to-output reproducible and stays
+outside the composite. `acquire_digital_connectivity.py` records the official
+Ofcom OA archive and data dictionary in a new dated, hash-pinned release.
+`prepare_digital_connectivity.py` reads the residential OA member, reuses the
+hash-verified ONS OA-to-BUA lookup and reviewed BUA components, then sums Ofcom's
+available-premise and total-premise counts. It writes a full review table and
+the canonical `digital_connectivity.csv`. See the
+[digital connectivity methodology](digital-connectivity-methodology.md).
 
 The residential-environment workstream is source-to-output reproducible and its
 canonical candidate table is a live build input. `acquire_residential_environment.py`
