@@ -1,6 +1,6 @@
 # Next work
 
-- Review the chosen per-location fields of information which go into the composite score.
+- Review the chosen per-location fields of information which go into the composite score. Are these useful, suitable for the purpose, being interpreted correctly, easy enough to maintain, and consistent in their meaning across locations? Do they exclude information that may be relevant? Some more specific questions:
   - Obtaining market thickness through rightmove queries is token-expensive and biased. What other alternatives exist to this?
   - It seems that some other fields may merely proxy area size or population in a location. Examples include 'Green space within 1,000m' and 'One-bedroom listings'. Are there more cases? How can these be made fair for comparison?
   - Identify work that adds little decision value relative to its collection or maintenance cost.
