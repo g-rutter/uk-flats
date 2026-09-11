@@ -1,10 +1,9 @@
 # Replacing local condition with a residential-environment measure
 
-## Implementation status (updated 2026-09-10)
+## Implementation status (completed 2026-09-10)
 
-This plan is partially implemented. The live screen and composite still use
-`condition.csv`; do not switch them before the remaining research quality
-assurance is complete.
+This plan is complete. Residential environment now replaces the former
+`condition.csv` factor in the live screen and composite.
 
 Terminology used below: Office for National Statistics (ONS), Output Area (OA),
 Lower-layer Super Output Area (LSOA), Built-up Area (BUA),
@@ -54,8 +53,8 @@ origin is unmatched. All four pillars cover the full expected population of all
 83 candidates, including Shrewsbury at 75,784/75,784 and Stafford at
 71,695/71,695. The retained audit records 43,961 eligible source features, no
 duplicate IDs, one duplicate geometry, no invalid or empty repaired geometry,
-and the union and predicate parameters. The remaining research quality assurance
-still prevents a live-factor switch.
+and the union and predicate parameters. Subsequent research quality assurance
+passed and the live-factor switch is complete.
 
 The rejected v1 fail-closed result identified two candidate BUAs whose 2021
 population cannot be fully assigned a value from the corrected 2020 ONS
@@ -138,8 +137,8 @@ explanation of why the pilot source was rejected.
 
 This gate is cleared. The selected replacement method has been applied to every
 national-reference BUA and all four pillars cover the full expected population
-of all 83 candidates. The overall composite remains unchanged pending the
-remaining research quality assurance and live integration.
+of all 83 candidates. The overall composite was switched after the subsequent
+research quality assurance and live integration were completed.
 
 ### Blocker 2: England-Wales source compatibility
 
@@ -191,15 +190,11 @@ scenario and no change exceeds one band. See
 calibration is the v3 release method; the former mixed-scale result is retained
 only as the audit baseline.
 
-Remaining work after the source-compatibility transform:
-
-1. review the generated canonical candidate, release and all-BUA audit CSVs;
-2. add the remaining weight sensitivity, outlier, correlation and country-domain
-   validation outputs (the blocker-specific country calibration is complete);
-3. replace `condition` in build/composite code and add strict reproduction tests;
-4. update the browser, evidence/source catalogue, README, methodology,
-   provenance and TODO;
-5. rebuild, run all tests and visually review desktop and narrow layouts.
+After the source-compatibility transform, the generated candidate, release and
+all-BUA audit CSVs were reviewed; weight sensitivity, outlier, correlation,
+country-domain and boundary diagnostics were retained; the build/composite path,
+browser and evidence catalogue were migrated; strict reproduction and
+missing-input tests were added; and desktop and narrow layouts were reviewed.
 
 ## Recommendation
 
@@ -535,9 +530,9 @@ per location. If an interactive download page obscures its endpoint, inspect the
 request once and encode the resulting bulk request in the acquisition script.
 Playwright is not part of the refresh method.
 
-The preparer produces research candidate/release CSVs and an all-BUA audit
-offline. `scripts/build.py` does not yet validate or consume them; that switch is
-deferred until the remaining research QA is resolved. The exact preparation
+The preparer produces candidate/release CSVs and an all-BUA audit offline.
+`scripts/build.py` validates and consumes the canonical candidate CSV without
+requiring the GIS environment. The exact preparation
 dependencies are pinned in `requirements-environment.txt`:
 
 - `pandas` and `openpyxl` for tabular workbooks;
@@ -565,8 +560,8 @@ The raw manifest should cover:
 
 ### 3. Introduce purpose-specific canonical tables
 
-Status: the two tables have been created as research inputs. They sit alongside
-`condition.csv`; replacing the live condition input remains deferred.
+Status: complete. The two tables are live inputs and the superseded
+`condition.csv` has been removed.
 
 Created tables:
 
@@ -630,37 +625,35 @@ version.
 
 ### 5. Replace the scoring path
 
-Status: outstanding pending the remaining research QA.
+Status: complete.
 
-In `scripts/composite.py`:
+In `scripts/composite.py` the implementation:
 
-- rename the factor key from `condition` to `residential_environment`;
-- preserve its relative weight of 15 initially;
-- delete `ASSESSMENT_SCORES['condition']`;
-- consume the validated supplied 1–5 score.
+- renamed the factor key from `condition` to `residential_environment`;
+- preserved its relative weight of 15;
+- deleted `ASSESSMENT_SCORES['condition']`;
+- consumes the validated supplied 1–5 score.
 
-In `scripts/build.py`:
+In `scripts/build.py` it:
 
-- remove the condition enum validation;
-- validate all raw bounds, evidence references, method IDs, coverage equality
+- removes the condition enum validation;
+- validates all raw bounds, evidence references, method IDs, coverage equality
   and score-threshold agreement;
-- require each environment score to reproduce from its four pillars;
-- keep row counts dynamic.
+- requires each environment score to reproduce from its four pillars;
+- keeps row counts dynamic.
 
-In the browser:
+In the browser it:
 
-- replace “Local condition” with “Residential environment”;
-- show the 0–100 index, national percentile and four raw pillar observations;
-- describe each source period separately;
-- remove editorial labels such as “Highest broad condition.”
+- replaces “Local condition” with “Residential environment”;
+- shows the 0–100 index, national percentile and four raw pillar observations;
+- describes each source period separately;
+- removes editorial labels such as “Highest broad condition.”
 
 ### 6. Tests and acceptance gates
 
-Status: preparation-time coverage, geography, manifest, direction/unit,
-percentile, threshold and tie gates pass for v3. The country-calibration migration
-audit is complete. Live-build missing-input tests and the remaining
-research QA below remain outstanding because the live scoring path has not
-switched.
+Status: complete. Preparation-time and live-build coverage, geography, manifest,
+direction/unit, percentile, threshold, tie and missing-input gates pass for v3.
+The compatibility and remaining research QA audits are retained.
 
 The release should fail unless:
 
@@ -676,7 +669,7 @@ The release should fail unless:
 - ties enter the same band;
 - missing input produces a blank factor and composite.
 
-Research QA before acceptance:
+Completed research QA:
 
 - compare English results with the English Living Environment domain and Welsh
   results with WIMD Physical Environment—but only within each country;
@@ -691,37 +684,25 @@ Research QA before acceptance:
 
 ### 7. Documentation cleanup
 
-Status: README, methodology, provenance, TODO and this plan describe the v3
-research release. The live evidence catalogue and browser documentation remain
-unchanged until the factor is accepted for the live screen.
+Status: complete. README, methodology, provenance, TODO, this plan, the live
+evidence catalogue and browser describe the v3 factor.
 
-The live repository contains 83 locations, while the earlier repository
-orientation described 63. The current `condition.csv` still contains only 63
-rows: 45 `mixed`, 15 `favourable`, three `highest`, and no observations for the
-20 later locations. The replacement should cover all 83 in one release.
+The live repository contains 83 locations and the replacement covers all 83 in
+one release. The former 63-row editorial condition input has been removed.
 
 Updated in the research phase: `README.md`, `docs/methodology.md`,
 `docs/provenance.md`, `docs/TODO.md` and this plan.
 
-Remaining for the live switch: replace the old `ENV001`–`ENV005` evidence
-records whose coverage still describes 57 English and six Welsh candidates.
+The old `ENV001`–`ENV005` evidence records were replaced with the four pillar
+sources and a validation-only official-domain record covering the current screen.
 
 ## Delivery status
 
-Completed: freeze the method/schema; separate acquisition and transformation;
-retain and hash the complete releases; implement and audit the national OS Open
-Greenspace calculation; generate the 7,070-BUA reference distribution; and
-produce all 83 candidate observations in one run.
-
-Remaining sequence:
-
-1. Perform sensitivity, outlier, correlation and country-domain review for the
-   selected country-calibrated method.
-2. If accepted, replace condition scoring and update the UI, evidence catalogue
-   and live documentation as one coordinated change.
-3. Add strict build-path reproduction and missing-input tests, then run
-   `python3 scripts/build.py` and the full unit-test suite.
-4. Visually review the browser at desktop and narrow widths.
+Completed: the frozen method/schema, acquisition and transformation, retained
+hash-valid releases, national OS Open Greenspace calculation, 7,070-BUA reference
+distribution, 83 candidate observations, compatibility and research QA audits,
+live scoring/UI/evidence migration, strict tests, rebuild and responsive visual
+review.
 
 The selected OS Open Greenspace calculation passed the declared national
 coverage and geometry-audit gates. Every future refresh must pass them again; a

@@ -4,15 +4,19 @@ import argparse
 import hashlib
 import json
 import mimetypes
+from http.cookiejar import CookieJar
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlencode
-from urllib.request import Request, urlopen
+from urllib.request import HTTPCookieProcessor, Request, build_opener
 
 from csv_io import write_csv
 
 
 SOURCES = (
+    ('iod2025-domains-v2.xlsx', 'GET',
+     'https://assets.publishing.service.gov.uk/media/691decfae39a085bda43efcd/File_2_IoD2025_Domains_of_Deprivation.xlsx', '',
+     'English IoD 2025 domains, corrected v2', 'Ministry of Housing, Communities and Local Government'),
     ('iod2025-underlying-indicators-v2.xlsx', 'GET',
      'https://assets.publishing.service.gov.uk/media/691dec012c6b98ecdbc500d4/File_8_IoD2025_Underlying_Indicators.xlsx', '',
      'English IoD 2025 underlying indicators, corrected v2', 'Ministry of Housing, Communities and Local Government'),
@@ -24,6 +28,10 @@ SOURCES = (
      'https://stats.gov.wales/en-GB/8c4e387a-d221-4a24-9fd4-50bdaacbe273/download',
      'view_type=unfiltered&format=csv&view_choice=raw&extended=yes&download_language=en-GB&selected_filter_options=[]&action=download',
      'WIMD 2025 housing indicators', 'Welsh Government'),
+    ('wimd2025-domain-ranks.csv', 'POST',
+     'https://stats.gov.wales/en-GB/9706edd9-73ad-4902-bb12-7ccd7038626e/download',
+     'view_type=unfiltered&format=csv&view_choice=raw&extended=yes&download_language=en-GB&selected_filter_options=[]&action=download',
+     'WIMD 2025 index and domain ranks', 'Welsh Government'),
     ('defra-no2-2024.csv', 'GET', 'https://uk-air.defra.gov.uk/datastore/pcm/mapno22024.csv', '',
      '2024 annual mean NO2 1 km grid', 'Department for Environment, Food & Rural Affairs'),
     ('defra-pm25-2024.csv', 'GET', 'https://uk-air.defra.gov.uk/datastore/pcm/mappm252024g.csv', '',
@@ -45,11 +53,12 @@ OS_DOWNLOAD_QUERY = 'area=GB&format=GeoPackage'
 
 def acquire(destination):
     destination.mkdir(parents=True, exist_ok=False)
+    opener = build_opener(HTTPCookieProcessor(CookieJar()))
     rows = []
     for name, method, url, query, period, publisher in SOURCES:
         body = urlencode(dict(item.split('=', 1) for item in query.split('&'))).encode() if query else None
         request = Request(url, data=body, method=method)
-        with urlopen(request, timeout=180) as response:
+        with opener.open(request, timeout=180) as response:
             payload = response.read()
             content_type = response.headers.get_content_type()
         (destination / name).write_bytes(payload)
@@ -62,7 +71,7 @@ def acquire(destination):
             'publisher': publisher, 'licence_or_terms': 'Open Government Licence v3.0',
             'coverage_limitations': 'England and Wales source coverage; see methodology for indicator-specific limitations.',
         })
-    with urlopen(Request(OS_PRODUCT_URL, method='GET'), timeout=180) as response:
+    with opener.open(Request(OS_PRODUCT_URL, method='GET'), timeout=180) as response:
         product_payload = response.read()
         product_content_type = response.headers.get_content_type()
     product = json.loads(product_payload)
@@ -79,12 +88,12 @@ def acquire(destination):
         'licence_or_terms': 'Open Government Licence v3.0',
         'coverage_limitations': 'Product metadata captured with the selected national bulk snapshot.',
     })
-    with urlopen(f'{OS_DOWNLOADS_URL}?{OS_DOWNLOAD_QUERY}', timeout=180) as response:
+    with opener.open(f'{OS_DOWNLOADS_URL}?{OS_DOWNLOAD_QUERY}', timeout=180) as response:
         downloads = json.load(response)
     matches = [item for item in downloads if item.get('area') == 'GB' and item.get('format') == 'GeoPackage']
     if len(matches) != 1 or matches[0].get('fileName') != 'opgrsp_gpkg_gb.zip':
         raise ValueError('OS Downloads API did not return exactly one GB GeoPackage')
-    with urlopen(matches[0]['url'], timeout=300) as response:
+    with opener.open(matches[0]['url'], timeout=300) as response:
         payload = response.read()
         content_type = response.headers.get_content_type()
     if matches[0].get('size') != len(payload):

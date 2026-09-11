@@ -7,21 +7,10 @@ WEIGHTS = {
     'housing_cost': 15,
     'safety': 15,
     'local_transport': 15,
-    'condition': 15,
+    'residential_environment': 15,
     'stock': 15,
     'national_transport': 10,
 }
-
-# These are deliberately explicit editorial assessment bands.  Narrative reasons
-# are evidence context for people; they must never determine a score.
-ASSESSMENT_SCORES = {
-    'condition': {
-        'highest': 5,
-        'favourable': 4,
-        'mixed': 2,
-    },
-}
-
 
 def known(value):
     return value is not None and value != ''
@@ -71,13 +60,6 @@ def stock_score(count):
     if not known(count):
         return None
     return 1 if count < 10 else 2 if count < 25 else 3 if count < 75 else 4 if count < 250 else 5
-
-
-def assessment_score(topic, assessment):
-    """Return the documented score for an explicit assessment band."""
-    if not known(assessment):
-        return None
-    return ASSESSMENT_SCORES[topic][assessment]
 
 
 def supplied_score(row):
@@ -158,7 +140,7 @@ def compile_composite(locations, crime):
         common = {
             'safety': safety.get(row['id']),
             'local_transport': supplied_score(row['localTransport']),
-            'condition': assessment_score('condition', row['condition'].get('assessment')),
+            'residential_environment': supplied_score(row['residentialEnvironment']),
             'national_transport': national_transport_score(row['nationalTransport']),
         }
         results[row['id']] = {'safety': common['safety'], 'tenures': {}}

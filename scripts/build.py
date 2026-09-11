@@ -2,6 +2,7 @@
 """Validate canonical CSVs and generate the broad comparison, offline."""
 import csv
 import json
+from collections import defaultdict
 from pathlib import Path
 from csv_io import write_csv
 from crime import compile_crime, export_source_tables
@@ -10,12 +11,31 @@ from crime_boundaries import export_boundaries
 from crime_residuals import export_residuals
 from crime_outliers import export_outliers
 from release_audit import export as export_release_audit
-from composite import ASSESSMENT_SCORES, compile_composite
+from composite import compile_composite
+from residential_environment import BOUNDARY_RULE, METHOD_VERSION, score_for
+from release_manifest import load as load_manifest
 
 ROOT = Path(__file__).resolve().parents[1]
-GROUPS = ('buy', 'rent', 'market', 'localTransport', 'nationalTransport', 'condition')
-INTEGER_NUMERIC = {'proxyMedian', 'transactions', 'proxyMonthly', 'oneBedCount', 'londonMinutes', 'londonChanges', 'birminghamMinutes', 'birminghamChanges', 'score', 'population_covered', 'population_expected'}
-FLOAT_NUMERIC = {'lat', 'lon', 'pt_connectivity_0_100', 'national_percentile'}
+GROUP_FILES = {
+    'buy': 'buy.csv', 'rent': 'rent.csv', 'market': 'market.csv',
+    'localTransport': 'localTransport.csv', 'nationalTransport': 'nationalTransport.csv',
+    'residentialEnvironment': 'residential_environment.csv',
+}
+GROUPS = tuple(GROUP_FILES)
+INTEGER_NUMERIC = {
+    'proxyMedian', 'transactions', 'proxyMonthly', 'oneBedCount', 'londonMinutes',
+    'londonChanges', 'birminghamMinutes', 'birminghamChanges', 'score',
+    'population_covered', 'population_expected', 'air_population_covered',
+    'quiet_population_covered', 'green_population_covered',
+    'housing_environment_population_covered', 'reference_bua_count', 'reference_population',
+}
+FLOAT_NUMERIC = {
+    'lat', 'lon', 'pt_connectivity_0_100', 'national_percentile', 'air_burden',
+    'no2_ug_m3', 'pm25_ug_m3', 'pm10_ug_m3', 'noise_exposed_pct',
+    'green_within_300m_pct', 'green_area_within_1000m_m2', 'epc_sap_mean',
+    'air_percentile', 'quiet_percentile', 'green_percentile',
+    'housing_environment_percentile', 'environment_index_0_100',
+}
 REQUIRED_COLUMNS = {
     'locations.csv': {'id', 'name', 'country', 'localAuthority', 'lat', 'lon'},
     'buy.csv': {'location_id', 'proxyMedian', 'transactions', 'housingCostConfidence', 'oneBedCount', 'housingCostReason'},
@@ -28,13 +48,11 @@ REQUIRED_COLUMNS = {
     'nationalTransport.csv': {'location_id', 'londonMinutes', 'londonChanges', 'birminghamMinutes', 'birminghamChanges', 'confidence', 'reason'},
     'transport_stations.csv': {'location_id', 'station_crs', 'station_name', 'selection_reason', 'confidence', 'evidence_ids'},
     'transport_route_observations.csv': {'location_id', 'destination_id', 'origin_crs', 'destination_crs', 'measurement_date', 'selection_window_start_local', 'selection_window_end_local', 'planner_search_times', 'query_timestamp_local', 'selected_departure_local', 'selected_arrival_local', 'elapsed_minutes', 'changes', 'frequency_window_start_local', 'frequency_window_end_local', 'usable_departures_in_window', 'source_url', 'raw_capture_path', 'retrieval_timestamp', 'confidence', 'evidence_id', 'reason'},
-    'condition.csv': {'location_id', 'assessment', 'confidence', 'evidence_ids', 'method_version', 'reason'},
+    'residential_environment.csv': {'location_id', 'air_burden', 'no2_ug_m3', 'pm25_ug_m3', 'pm10_ug_m3', 'noise_exposed_pct', 'green_within_300m_pct', 'green_area_within_1000m_m2', 'epc_sap_mean', 'air_percentile', 'quiet_percentile', 'green_percentile', 'housing_environment_percentile', 'environment_index_0_100', 'national_percentile', 'score', 'air_period', 'quiet_period', 'green_period', 'housing_environment_period', 'air_evidence_id', 'quiet_evidence_id', 'green_evidence_id', 'housing_environment_evidence_id', 'geography_code', 'geography_vintage', 'air_population_covered', 'quiet_population_covered', 'green_population_covered', 'housing_environment_population_covered', 'population_expected', 'method_version', 'confidence', 'reason'},
+    'residential_environment_release.csv': {'release_id', 'method_version', 'reference_bua_count', 'reference_population', 'q20', 'q40', 'q60', 'q80', 'boundary_rule', 'pillar_weights', 'quiet_standardisation', 'housing_environment_standardisation', 'cross_border_bua_country_rule'},
     'sources.csv': {'location_id', 'topic', 'url'},
     'evidence.csv': {'id', 'workstream', 'title', 'publisher', 'url', 'dataPeriod', 'retrievalDate', 'geography', 'coverage', 'limitations'},
 }
-ASSESSMENT_TOPICS = ('condition',)
-
-
 def read(path):
     with path.open(newline='', encoding='utf-8') as f:
         reader = csv.DictReader(f)
@@ -77,9 +95,9 @@ def compile_data(inputs):
         by_id[row['id']] = row
     if not locations:
         raise ValueError('No locations')
-    for group in GROUPS:
+    for group, filename in GROUP_FILES.items():
         seen = set()
-        for row in read(inputs / f'{group}.csv'):
+        for row in read(inputs / filename):
             ident = row.pop('location_id')
             if ident not in by_id or ident in seen:
                 raise ValueError(f'{group}: orphan or duplicate location_id {ident}')
@@ -140,26 +158,74 @@ def compile_data(inputs):
             if key in seen:
                 raise ValueError(f'{filename}: duplicate location/destination row')
             seen.add(key)
-    for group in ASSESSMENT_TOPICS:
-        for location in locations:
-            row = location[group]
-            if not row:
-                continue
-            assessment = row['assessment']
-            if assessment not in ASSESSMENT_SCORES[group]:
-                allowed = ', '.join(sorted(ASSESSMENT_SCORES[group]))
-                raise ValueError(f'{group}: invalid assessment {assessment!r}; expected one of {allowed}')
-            if row['confidence'] not in ('High', 'Medium', 'Low'):
-                raise ValueError(f'{group}: invalid confidence for {location["id"]}')
-            if not row['reason'] or not row['method_version']:
-                raise ValueError(f'{group}: assessment requires reason and method_version for {location["id"]}')
-            row_evidence_ids = row['evidence_ids'].split(';') if row['evidence_ids'] else []
-            if not row_evidence_ids or any(not item or item not in evidence_ids for item in row_evidence_ids):
-                raise ValueError(f'{group}: invalid evidence_ids for {location["id"]}')
+    environment_releases = read(inputs / 'residential_environment_release.csv')
+    if len(environment_releases) != 1:
+        raise ValueError('residential environment requires exactly one release-method row')
+    environment_release = environment_releases[0]
+    environment_cutpoints = [float(environment_release[key]) for key in ('q20', 'q40', 'q60', 'q80')]
+    if (environment_release['method_version'] != METHOD_VERSION or
+            environment_release['boundary_rule'] != BOUNDARY_RULE or
+            environment_release['pillar_weights'] != 'air=25;quiet=25;green=25;housing_environment=25' or
+            environment_release['quiet_standardisation'] != 'population-weighted percentile within England or Wales' or
+            environment_release['housing_environment_standardisation'] != 'population-weighted percentile within England or Wales' or
+            environment_cutpoints != sorted(environment_cutpoints) or
+            environment_release['reference_bua_count'] <= 0 or
+            environment_release['reference_population'] <= 0):
+        raise ValueError('residential environment release controls are invalid')
+    component_codes = defaultdict(set)
+    for component in components:
+        component_codes[component['location_id']].add(component['geography_code'])
+    for location in locations:
+        row = location['residentialEnvironment']
+        if not row:
+            continue
+        ident = location['id']
+        bounded = ('noise_exposed_pct', 'green_within_300m_pct', 'epc_sap_mean',
+                   'air_percentile', 'quiet_percentile', 'green_percentile',
+                   'housing_environment_percentile', 'environment_index_0_100',
+                   'national_percentile')
+        if any(row[field] is None or not 0 <= row[field] <= 100 for field in bounded):
+            raise ValueError(f'residentialEnvironment: invalid bounded metric for {ident}')
+        positive = ('air_burden', 'no2_ug_m3', 'pm25_ug_m3', 'pm10_ug_m3',
+                    'green_area_within_1000m_m2')
+        if any(row[field] is None or row[field] < 0 for field in positive):
+            raise ValueError(f'residentialEnvironment: invalid raw metric for {ident}')
+        burden = (row['no2_ug_m3'] / 10 + row['pm25_ug_m3'] / 5 + row['pm10_ug_m3'] / 15) / 3
+        if abs(burden - row['air_burden']) > 0.00015:
+            raise ValueError(f'residentialEnvironment: air burden does not reproduce for {ident}')
+        reproduced_index = sum(row[f'{pillar}_percentile'] for pillar in
+                               ('air', 'quiet', 'green', 'housing_environment')) / 4
+        if abs(reproduced_index - row['environment_index_0_100']) > 0.001:
+            raise ValueError(f'residentialEnvironment: index does not reproduce for {ident}')
+        if row['score'] not in range(1, 6) or row['score'] != score_for(row['environment_index_0_100'], environment_cutpoints):
+            raise ValueError(f'residentialEnvironment: score does not match national thresholds for {ident}')
+        coverage = [row[f'{pillar}_population_covered'] for pillar in
+                    ('air', 'quiet', 'green', 'housing_environment')]
+        if row['population_expected'] <= 0 or any(value != row['population_expected'] for value in coverage):
+            raise ValueError(f'residentialEnvironment: incomplete population coverage for {ident}')
+        if set(row['geography_code'].split(';')) != component_codes[ident]:
+            raise ValueError(f'residentialEnvironment: geography components differ for {ident}')
+        row_evidence = [row[f'{pillar}_evidence_id'] for pillar in
+                        ('air', 'quiet', 'green', 'housing_environment')]
+        periods = [row[f'{pillar}_period'] for pillar in
+                   ('air', 'quiet', 'green', 'housing_environment')]
+        if (row['method_version'] != METHOD_VERSION or any(item not in evidence_ids for item in row_evidence) or
+                any(not period for period in periods) or row['confidence'] not in ('High', 'Medium', 'Low') or
+                not row['reason'] or row['geography_vintage'] != 'April 2024'):
+            raise ValueError(f'residentialEnvironment: incomplete evidence context for {ident}')
     return dict(locations=locations, sources=sources, evidence=evidence)
 
 
 def build():
+    environment_manifest = load_manifest(ROOT / 'data/raw/environment/2026-09-09')
+    if set(environment_manifest) != {
+            'iod2025-domains-v2.xlsx', 'iod2025-underlying-indicators-v2.xlsx',
+            'wimd2025-physical-environment.csv', 'wimd2025-housing.csv',
+            'wimd2025-domain-ranks.csv', 'defra-no2-2024.csv', 'defra-pm25-2024.csv',
+            'defra-pm10-2024.csv', 'os-open-greenspace-product.json',
+            'os-open-greenspace-gb.gpkg.zip', 'oa21-population-weighted-centroids.csv',
+            'oa21-lsoa21-msoa21-lookup.csv'}:
+        raise ValueError('Residential-environment raw release is incomplete')
     data = compile_data(ROOT / 'data/inputs')
     crime = compile_crime(ROOT / 'data/inputs', data['locations'], data['evidence'])
     data['composite'] = compile_composite(data['locations'], crime)

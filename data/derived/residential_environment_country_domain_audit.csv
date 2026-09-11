@@ -1,0 +1,84 @@
+location_id,country,official_domain,bua_environment_index_0_100,bua_official_domain_rank_percentile,source_local_authority_codes,local_authority_domain_rank_percentile,bua_minus_local_authority_percentile,population_covered,population_expected,coverage_complete,use
+bangor,Wales,WIMD 2025 Physical Environment,53.583,72.920287,W06000002,61.856217,11.064070,16994,16994,true,within-country validation and boundary diagnostic only
+barnsley,England,English IoD 2025 Living Environment,58.268,55.904479,E08000016,59.990682,-4.086204,71394,71394,true,within-country validation and boundary diagnostic only
+bath,England,English IoD 2025 Living Environment,59.583,44.216858,E06000022,53.285252,-9.068395,94080,94080,true,within-country validation and boundary diagnostic only
+birmingham,England,English IoD 2025 Living Environment,31.067,31.573405,E07000234;E08000025;E08000028;E08000029,38.342076,-6.768671,1119786,1119786,true,within-country validation and boundary diagnostic only
+blackburn,England,English IoD 2025 Living Environment,40.936,37.661271,E06000008;E07000120;E07000124,32.956573,4.704697,124958,124958,true,within-country validation and boundary diagnostic only
+blackpool,England,English IoD 2025 Living Environment,48.259,26.975830,E06000009;E07000119;E07000128,41.089930,-14.114100,149087,149087,true,within-country validation and boundary diagnostic only
+bolton,England,English IoD 2025 Living Environment,42.753,35.977979,E08000001,39.827916,-3.849936,184618,184618,true,within-country validation and boundary diagnostic only
+bournemouth-poole,England,English IoD 2025 Living Environment,63.239,55.939047,E06000058,59.291904,-3.352857,337141,337141,true,within-country validation and boundary diagnostic only
+bradford,England,English IoD 2025 Living Environment,37.886,27.302084,E08000032;E08000034;E08000035,37.032932,-9.730849,333968,333968,true,within-country validation and boundary diagnostic only
+bridgend,Wales,WIMD 2025 Physical Environment,73.036,66.565020,W06000013;W06000014,61.038277,5.526743,51751,51751,true,within-country validation and boundary diagnostic only
+brighton-hove,England,English IoD 2025 Living Environment,47.713,43.779306,E06000043,43.779306,-0.000000,277096,277096,true,within-country validation and boundary diagnostic only
+bristol,England,English IoD 2025 Living Environment,63.890,38.897014,E06000023;E06000025,49.634198,-10.737184,425196,425196,true,within-country validation and boundary diagnostic only
+burnley,England,English IoD 2025 Living Environment,44.263,26.645572,E07000117,26.692754,-0.047182,78266,78266,true,within-country validation and boundary diagnostic only
+burton-on-trent,England,English IoD 2025 Living Environment,38.604,53.880893,E07000039;E07000193,59.188829,-5.307936,76031,76031,true,within-country validation and boundary diagnostic only
+cambridge,England,English IoD 2025 Living Environment,64.341,49.427891,E07000008;E07000012,59.082087,-9.654196,152742,152742,true,within-country validation and boundary diagnostic only
+cardiff,Wales,WIMD 2025 Physical Environment,63.928,17.872624,W06000014;W06000015,30.438739,-12.566115,347880,347880,true,within-country validation and boundary diagnostic only
+cheltenham,England,English IoD 2025 Living Environment,66.031,57.798647,E07000078;E07000083,64.346765,-6.548119,115941,115941,true,within-country validation and boundary diagnostic only
+chester,England,English IoD 2025 Living Environment,55.934,55.181590,E06000050;W06000005,59.001471,-3.819880,92756,92756,true,within-country validation and boundary diagnostic only
+chesterfield,England,English IoD 2025 Living Environment,48.479,55.367354,E07000034;E07000038,60.666309,-5.298955,76394,76394,true,within-country validation and boundary diagnostic only
+colchester,England,English IoD 2025 Living Environment,62.927,65.876101,E07000071;E07000076,58.733345,7.142756,130396,130396,true,within-country validation and boundary diagnostic only
+coventry,England,English IoD 2025 Living Environment,42.986,43.529975,E07000222;E08000026,48.051461,-4.521486,343623,343623,true,within-country validation and boundary diagnostic only
+darlington,England,English IoD 2025 Living Environment,55.688,52.523759,E06000005,54.029660,-1.505900,93058,93058,true,within-country validation and boundary diagnostic only
+derby,England,English IoD 2025 Living Environment,48.748,50.567198,E06000015;E07000032;E07000039,51.544694,-0.977497,275561,275561,true,within-country validation and boundary diagnostic only
+doncaster,England,English IoD 2025 Living Environment,33.269,49.671913,E08000017,57.499501,-7.827588,87094,87094,true,within-country validation and boundary diagnostic only
+durham,England,English IoD 2025 Living Environment,53.642,60.552621,E06000047,57.009423,3.543199,50502,50502,true,within-country validation and boundary diagnostic only
+exeter,England,English IoD 2025 Living Environment,75.941,55.810748,E07000041,55.738958,0.071790,126522,126522,true,within-country validation and boundary diagnostic only
+gateshead,England,English IoD 2025 Living Environment,54.553,43.085923,E08000037,49.150113,-6.064190,114825,114825,true,within-country validation and boundary diagnostic only
+gloucester,England,English IoD 2025 Living Environment,70.331,61.849510,E07000081;E07000083,67.554138,-5.704629,118562,118562,true,within-country validation and boundary diagnostic only
+halifax,England,English IoD 2025 Living Environment,34.676,24.730055,E08000033,24.418705,0.311350,89394,89394,true,within-country validation and boundary diagnostic only
+hartlepool,England,English IoD 2025 Living Environment,61.371,61.680508,E06000001,62.390988,-0.710480,88001,88001,true,within-country validation and boundary diagnostic only
+huddersfield,England,English IoD 2025 Living Environment,39.338,32.000617,E08000034,36.874001,-4.873385,140930,140930,true,within-country validation and boundary diagnostic only
+hull-kingston-upon-hull,England,English IoD 2025 Living Environment,59.042,47.271928,E06000010;E06000011,52.229204,-4.957276,270816,270816,true,within-country validation and boundary diagnostic only
+ipswich,England,English IoD 2025 Living Environment,44.552,55.871906,E07000200;E07000202;E07000203;E07000244,53.476181,2.395724,151566,151566,true,within-country validation and boundary diagnostic only
+kettering,England,English IoD 2025 Living Environment,54.192,54.841317,E06000061,64.626881,-9.785564,63149,63149,true,within-country validation and boundary diagnostic only
+lancaster,England,English IoD 2025 Living Environment,56.883,37.861144,E07000121,37.827789,0.033355,52646,52646,true,within-country validation and boundary diagnostic only
+leeds,England,English IoD 2025 Living Environment,40.887,35.554065,E08000035,41.206303,-5.652238,536262,536262,true,within-country validation and boundary diagnostic only
+leicester,England,English IoD 2025 Living Environment,49.470,38.236218,E06000016;E07000129;E07000130;E07000131,51.172863,-12.936645,406331,406331,true,within-country validation and boundary diagnostic only
+lincoln,England,English IoD 2025 Living Environment,55.175,54.521997,E07000138;E07000142,55.617695,-1.095699,104553,104553,true,within-country validation and boundary diagnostic only
+liverpool,England,English IoD 2025 Living Environment,55.175,37.623503,E08000011;E08000012;E08000014,43.315232,-5.691729,506768,506768,true,within-country validation and boundary diagnostic only
+llanelli,Wales,WIMD 2025 Physical Environment,48.849,43.639465,W06000010,56.145352,-12.505888,42143,42143,true,within-country validation and boundary diagnostic only
+loughborough,England,English IoD 2025 Living Environment,52.764,57.120621,E07000130,62.913887,-5.793265,64299,64299,true,within-country validation and boundary diagnostic only
+luton,England,English IoD 2025 Living Environment,32.725,48.454304,E06000032;E06000056,60.422130,-11.967827,233524,233524,true,within-country validation and boundary diagnostic only
+manchester,England,English IoD 2025 Living Environment,44.668,33.030915,E08000003;E08000007;E08000009,40.595137,-7.564223,470736,470736,true,within-country validation and boundary diagnostic only
+merthyr-tydfil,Wales,WIMD 2025 Physical Environment,62.318,55.842495,W06000024,51.983789,3.858705,40817,40817,true,within-country validation and boundary diagnostic only
+middlesbrough,England,English IoD 2025 Living Environment,58.440,54.249848,E06000002;E06000003,56.390357,-2.140510,147862,147862,true,within-country validation and boundary diagnostic only
+milton-keynes,England,English IoD 2025 Living Environment,81.528,85.249209,E06000042,81.453029,3.796180,194584,194584,true,within-country validation and boundary diagnostic only
+neath,Wales,WIMD 2025 Physical Environment,50.920,45.025161,W06000012,43.860297,1.164864,40738,40738,true,within-country validation and boundary diagnostic only
+newcastle-upon-tyne,England,English IoD 2025 Living Environment,58.835,44.965766,E08000021;E08000022,49.793745,-4.827979,285852,285852,true,within-country validation and boundary diagnostic only
+newport,Wales,WIMD 2025 Physical Environment,60.452,20.059333,W06000022,22.411750,-2.352416,130882,130882,true,within-country validation and boundary diagnostic only
+northampton,England,English IoD 2025 Living Environment,62.591,59.861798,E06000062,60.245783,-0.383985,243883,243883,true,within-country validation and boundary diagnostic only
+norwich,England,English IoD 2025 Living Environment,55.607,60.196902,E07000144;E07000148;E07000149,59.292692,0.904211,200492,200492,true,within-country validation and boundary diagnostic only
+nottingham,England,English IoD 2025 Living Environment,47.500,34.814825,E06000018;E07000172;E07000173,43.143406,-8.328581,299786,299786,true,within-country validation and boundary diagnostic only
+oxford,England,English IoD 2025 Living Environment,60.275,55.779748,E07000178;E07000179;E07000180,65.495845,-9.716096,169612,169612,true,within-country validation and boundary diagnostic only
+peterborough,England,English IoD 2025 Living Environment,66.836,66.870918,E06000031;E07000011,69.524194,-2.653276,190592,190592,true,within-country validation and boundary diagnostic only
+plymouth,England,English IoD 2025 Living Environment,75.554,57.523541,E06000026;E07000044,54.159142,3.364400,266970,266970,true,within-country validation and boundary diagnostic only
+portsmouth,England,English IoD 2025 Living Environment,43.638,35.207169,E06000044;E07000087;E07000090,55.933741,-20.726571,223324,223324,true,within-country validation and boundary diagnostic only
+preston,England,English IoD 2025 Living Environment,47.654,33.423241,E07000123,45.090919,-11.667679,94502,94502,true,within-country validation and boundary diagnostic only
+reading,England,English IoD 2025 Living Environment,45.246,60.705714,E06000037;E06000038;E06000041,65.413555,-4.707841,203097,203097,true,within-country validation and boundary diagnostic only
+rhyl,Wales,WIMD 2025 Physical Environment,55.152,55.740884,W06000004,54.640670,1.100213,26982,26982,true,within-country validation and boundary diagnostic only
+rotherham,England,English IoD 2025 Living Environment,38.209,49.795674,E08000018,60.196169,-10.400494,70761,70761,true,within-country validation and boundary diagnostic only
+salford,England,English IoD 2025 Living Environment,49.135,31.199740,E08000006,39.350233,-8.150493,108431,108431,true,within-country validation and boundary diagnostic only
+sheffield,England,English IoD 2025 Living Environment,53.476,47.116692,E08000018;E08000019,52.288141,-5.171449,500587,500587,true,within-country validation and boundary diagnostic only
+shrewsbury,England,English IoD 2025 Living Environment,67.060,67.262045,E06000051,46.861760,20.400284,75784,75784,true,within-country validation and boundary diagnostic only
+southampton,England,English IoD 2025 Living Environment,49.941,46.998470,E06000045;E07000086,57.256066,-10.257596,249633,249633,true,within-country validation and boundary diagnostic only
+southend-on-sea,England,English IoD 2025 Living Environment,28.968,39.103395,E06000033;E07000069;E07000075,51.569422,-12.466027,182295,182295,true,within-country validation and boundary diagnostic only
+st-helens,England,English IoD 2025 Living Environment,58.705,47.477554,E08000013,48.796699,-1.319146,107409,107409,true,within-country validation and boundary diagnostic only
+stafford,England,English IoD 2025 Living Environment,43.282,69.857705,E07000197,63.458801,6.398904,71695,71695,true,within-country validation and boundary diagnostic only
+stockport,England,English IoD 2025 Living Environment,39.497,35.195808,E08000007,44.732235,-9.536427,118146,118146,true,within-country validation and boundary diagnostic only
+stockton-on-tees,England,English IoD 2025 Living Environment,60.312,57.391648,E06000004,67.263418,-9.871770,84824,84824,true,within-country validation and boundary diagnostic only
+stoke-on-trent,England,English IoD 2025 Living Environment,52.804,48.371345,E06000021;E07000195;E07000197,54.122322,-5.750977,260001,260001,true,within-country validation and boundary diagnostic only
+sunderland,England,English IoD 2025 Living Environment,41.430,45.676262,E08000024,53.558848,-7.882586,167989,167989,true,within-country validation and boundary diagnostic only
+swansea,Wales,WIMD 2025 Physical Environment,63.695,54.188490,W06000011;W06000012,52.935722,1.252769,169795,169795,true,within-country validation and boundary diagnostic only
+swindon,England,English IoD 2025 Living Environment,83.785,67.780496,E06000030;E06000054,61.690472,6.090023,183687,183687,true,within-country validation and boundary diagnostic only
+telford,England,English IoD 2025 Living Environment,78.993,78.351193,E06000020,76.896446,1.454746,156326,156326,true,within-country validation and boundary diagnostic only
+torbay,England,English IoD 2025 Living Environment,61.849,48.431041,E06000027,48.504215,-0.073175,137645,137645,true,within-country validation and boundary diagnostic only
+wakefield,England,English IoD 2025 Living Environment,47.883,50.405225,E08000036,55.666444,-5.261219,97656,97656,true,within-country validation and boundary diagnostic only
+walsall,England,English IoD 2025 Living Environment,20.801,27.738919,E08000030,46.775294,-19.036375,70777,70777,true,within-country validation and boundary diagnostic only
+warrington,England,English IoD 2025 Living Environment,60.459,57.089411,E06000007,57.334855,-0.245444,174064,174064,true,within-country validation and boundary diagnostic only
+wigan,England,English IoD 2025 Living Environment,50.340,49.633842,E08000010,52.644326,-3.010484,81514,81514,true,within-country validation and boundary diagnostic only
+wolverhampton,England,English IoD 2025 Living Environment,35.858,47.646219,E07000196;E08000031,53.152701,-5.506482,233643,233643,true,within-country validation and boundary diagnostic only
+worcester,England,English IoD 2025 Living Environment,49.799,60.526212,E07000237;E07000238,60.993226,-0.467014,105439,105439,true,within-country validation and boundary diagnostic only
+wrexham,Wales,WIMD 2025 Physical Environment,77.165,64.064727,W06000006,66.326702,-2.261976,44277,44277,true,within-country validation and boundary diagnostic only
+york,England,English IoD 2025 Living Environment,69.343,54.794390,E06000014,61.995632,-7.201242,141286,141286,true,within-country validation and boundary diagnostic only

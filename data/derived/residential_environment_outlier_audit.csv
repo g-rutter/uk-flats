@@ -1,0 +1,51 @@
+metric,pillar,tail,quality_direction,rank_within_tail,bua_code,bua_name,country,value,population_expected,is_candidate_component,review_status
+air_burden,Clean air,lowest,best,1,W45000903,Dinas Cross,Wales,0.4366,484,false,reviewed-plausible
+air_burden,Clean air,lowest,best,2,W45000814,Mynytho,Wales,0.4399,556,false,reviewed-plausible
+air_burden,Clean air,lowest,best,3,W45000866,Pontrhydfendigaid,Wales,0.4403,312,false,reviewed-plausible
+air_burden,Clean air,lowest,best,4,W45000834,Llwyngwril,Wales,0.4413,514,false,reviewed-plausible
+air_burden,Clean air,lowest,best,5,W45000902,Newport (Pembrokeshire),Wales,0.4414,563,false,reviewed-plausible
+air_burden,Clean air,highest,worst,1,E63012025,City and County of the City of London,England,2.2168,7820,false,reviewed-plausible
+air_burden,Clean air,highest,worst,2,E63012036,City of Westminster,England,1.8308,203262,false,reviewed-plausible
+air_burden,Clean air,highest,worst,3,E63012023,Tower Hamlets,England,1.8154,310303,false,reviewed-plausible
+air_burden,Clean air,highest,worst,4,E63011980,Islington,England,1.7933,216751,false,reviewed-plausible
+air_burden,Clean air,highest,worst,5,E63011985,Camden,England,1.7731,209342,false,reviewed-plausible
+noise_exposed_pct,Quiet surroundings,lowest,best,1,E63007290,Kirkoswald,England,1.000,520,false,reviewed-plausible
+noise_exposed_pct,Quiet surroundings,lowest,best,2,E63007511,Bootle (Cumberland),England,2.400,468,false,reviewed-plausible
+noise_exposed_pct,Quiet surroundings,lowest,best,3,E63013730,West Thorney,England,2.500,1729,false,reviewed-plausible
+noise_exposed_pct,Quiet surroundings,lowest,best,4,W45001181,Bettws,Wales,4.200,2237,false,reviewed-plausible
+noise_exposed_pct,Quiet surroundings,lowest,best,5,E63014237,Hugh Town,England,5.600,950,false,reviewed-plausible
+noise_exposed_pct,Quiet surroundings,highest,worst,1,E63012143,Horton (Windsor and Maidenhead),England,99.900,844,false,reviewed-plausible
+noise_exposed_pct,Quiet surroundings,highest,worst,2,E63012123,Poyle,England,99.900,1736,false,reviewed-plausible
+noise_exposed_pct,Quiet surroundings,highest,worst,3,E63012106,Colnbrook,England,99.839,1898,false,reviewed-plausible
+noise_exposed_pct,Quiet surroundings,highest,worst,4,E63012104,Datchet,England,99.753,4807,false,reviewed-plausible
+noise_exposed_pct,Quiet surroundings,highest,worst,5,E63012146,Stanwell Moor,England,99.700,1431,false,reviewed-plausible
+green_within_300m_pct,Green-space proximity,lowest,worst,1,E63007097,Cornhill on Tweed,England,0.000,326,false,reviewed-plausible
+green_within_300m_pct,Green-space proximity,lowest,worst,2,E63007104,Embleton,England,0.000,350,false,reviewed-plausible
+green_within_300m_pct,Green-space proximity,lowest,worst,3,E63007108,Whittingham,England,0.000,228,false,reviewed-plausible
+green_within_300m_pct,Green-space proximity,lowest,worst,4,E63007115,Thropton,England,0.000,441,false,reviewed-plausible
+green_within_300m_pct,Green-space proximity,lowest,worst,5,E63007119,South Broomhill,England,0.000,1520,false,reviewed-plausible
+green_within_300m_pct,Green-space proximity,highest,best,1,W45001231,Llanmaes,Wales,100.000,413,false,reviewed-plausible
+green_within_300m_pct,Green-space proximity,highest,best,2,W45001226,Wick (Vale of Glamorgan),Wales,100.000,926,false,reviewed-plausible
+green_within_300m_pct,Green-space proximity,highest,best,3,W45001219,Colwinston,Wales,100.000,619,false,reviewed-plausible
+green_within_300m_pct,Green-space proximity,highest,best,4,W45001218,St Fagans,Wales,100.000,291,false,reviewed-plausible
+green_within_300m_pct,Green-space proximity,highest,best,5,W45001216,Ystradowen,Wales,100.000,803,false,reviewed-plausible
+green_area_within_1000m_m2,Green-space provision,lowest,worst,1,E63007097,Cornhill on Tweed,England,0.00,326,false,reviewed-plausible
+green_area_within_1000m_m2,Green-space provision,lowest,worst,2,E63007108,Whittingham,England,0.00,228,false,reviewed-plausible
+green_area_within_1000m_m2,Green-space provision,lowest,worst,3,E63007115,Thropton,England,0.00,441,false,reviewed-plausible
+green_area_within_1000m_m2,Green-space provision,lowest,worst,4,E63007119,South Broomhill,England,0.00,1520,false,reviewed-plausible
+green_area_within_1000m_m2,Green-space provision,lowest,worst,5,E63007124,Otterburn,England,0.00,582,false,reviewed-plausible
+green_area_within_1000m_m2,Green-space provision,highest,best,1,E63009413,Brocton,England,1288640.46,709,false,reviewed-plausible
+green_area_within_1000m_m2,Green-space provision,highest,best,2,E63012178,Leigh Woods,England,1214712.01,637,false,reviewed-plausible
+green_area_within_1000m_m2,Green-space provision,highest,best,3,E63009004,Bestwood Village,England,1150686.96,2151,false,reviewed-plausible
+green_area_within_1000m_m2,Green-space provision,highest,best,4,E63009626,Newtown Linford,England,1136167.95,526,false,reviewed-plausible
+green_area_within_1000m_m2,Green-space provision,highest,best,5,E63008711,Hatchmere,England,957187.20,255,false,reviewed-plausible
+epc_sap_mean,Housing energy quality,lowest,worst,1,W45000739,Clwt-y-bont,Wales,41.900,1385,false,reviewed-plausible
+epc_sap_mean,Housing energy quality,lowest,worst,2,W45000814,Mynytho,Wales,43.800,556,false,reviewed-plausible
+epc_sap_mean,Housing energy quality,lowest,worst,3,E63014225,Mousehole,England,44.360,545,false,reviewed-plausible
+epc_sap_mean,Housing energy quality,lowest,worst,4,W45000819,Llanbedr,Wales,44.600,339,false,reviewed-plausible
+epc_sap_mean,Housing energy quality,lowest,worst,5,W45000820,Dyffryn Ardudwy,Wales,44.600,741,false,reviewed-plausible
+epc_sap_mean,Housing energy quality,highest,best,1,E63012171,Ebbsfleet Valley,England,84.234,2656,false,reviewed-plausible
+epc_sap_mean,Housing energy quality,highest,best,2,E63010364,Northstowe,England,83.015,1977,false,reviewed-plausible
+epc_sap_mean,Housing energy quality,highest,best,3,E63013836,Clyst Honiton,England,82.140,853,false,reviewed-plausible
+epc_sap_mean,Housing energy quality,highest,best,4,E63010795,Meon Vale,England,81.610,1413,false,reviewed-plausible
+epc_sap_mean,Housing energy quality,highest,best,5,E63013819,West Clyst,England,81.525,2683,false,reviewed-plausible

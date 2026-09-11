@@ -87,5 +87,5 @@ The approximate country-percentile transform was selected on 2026-09-10. It is
 used for both affected pillars because it is robust to shrinkage, rounding and
 non-linear spacing without inventing unavailable raw observations. The former
 mixed-scale result remains only as the baseline in the migration audit. The
-compatibility blocker is resolved; the remaining research quality assurance must
-still pass before `condition` is replaced.
+compatibility blocker and subsequent research quality assurance are resolved;
+the factor now replaces the former `condition` input.

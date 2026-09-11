@@ -14,8 +14,7 @@ from build import compile_data, build
 from crime import compile_crime, read as read_crime
 from crime_residuals import audit as audit_residuals
 from crime_outliers import audit as audit_outliers
-from composite import (ASSESSMENT_SCORES, housing_cost_scores, assessment_score,
-                       compile_composite, weighted_score)
+from composite import housing_cost_scores, compile_composite, weighted_score
 from prepare_locations import prepare
 from prepare_national_transport import prepare as prepare_national_transport
 from prepare_local_transport import score_for, weighted_quantile_cutpoints
@@ -341,42 +340,51 @@ class PipelineTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 compile_data(inputs)
 
-    def test_condition_assessments_are_validated_and_reasons_do_not_score(self):
-        self.assertEqual(assessment_score('condition', 'highest'), 5)
-        self.assertEqual(assessment_score('condition', 'favourable'), 4)
-        self.assertEqual(assessment_score('condition', 'mixed'), 2)
-        self.assertIsNone(assessment_score('condition', ''))
-        self.assertEqual(set(ASSESSMENT_SCORES), {'condition'})
+    def test_residential_environment_is_strictly_validated_and_reasons_do_not_score(self):
         baseline_data = compile_data(ROOT / 'data/inputs')
         baseline_crime = compile_crime(ROOT / 'data/inputs', baseline_data['locations'], baseline_data['evidence'])
         baseline_score = compile_composite(baseline_data['locations'], baseline_crime)['results']['barnsley']['tenures']['buy']['score']
         with tempfile.TemporaryDirectory() as tmp:
             inputs = Path(tmp) / 'inputs'
             shutil.copytree(ROOT / 'data/inputs', inputs)
-            with (inputs / 'condition.csv').open(newline='') as f:
+            with (inputs / 'residential_environment.csv').open(newline='') as f:
                 rows = list(csv.DictReader(f))
-            original_assessment = rows[0]['assessment']
             rows[0]['reason'] = 'Completely rewritten evidence text.'
-            with (inputs / 'condition.csv').open('w', newline='') as f:
+            with (inputs / 'residential_environment.csv').open('w', newline='') as f:
                 writer = csv.DictWriter(f, fieldnames=rows[0].keys())
                 writer.writeheader()
                 writer.writerows(rows)
             data = compile_data(inputs)
-            self.assertEqual(data['locations'][0]['condition']['assessment'], original_assessment)
             changed_crime = compile_crime(inputs, data['locations'], data['evidence'])
             changed_score = compile_composite(data['locations'], changed_crime)['results']['barnsley']['tenures']['buy']['score']
             self.assertEqual(changed_score, baseline_score)
-            rows[0]['assessment'] = 'synonymous_but_invalid'
-            with (inputs / 'condition.csv').open('w', newline='') as f:
+            rows[0]['environment_index_0_100'] = '99'
+            with (inputs / 'residential_environment.csv').open('w', newline='') as f:
                 writer = csv.DictWriter(f, fieldnames=rows[0].keys())
                 writer.writeheader()
                 writer.writerows(rows)
-            with self.assertRaisesRegex(ValueError, 'invalid assessment'):
+            with self.assertRaisesRegex(ValueError, 'index does not reproduce'):
                 compile_data(inputs)
+
+    def test_missing_residential_environment_keeps_factor_and_composite_blank(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            inputs = Path(tmp) / 'inputs'
+            shutil.copytree(ROOT / 'data/inputs', inputs)
+            with (inputs / 'residential_environment.csv').open(newline='') as source:
+                rows = list(csv.DictReader(source))
+            with (inputs / 'residential_environment.csv').open('w', newline='') as target:
+                writer = csv.DictWriter(target, fieldnames=rows[0].keys())
+                writer.writeheader()
+                writer.writerows(row for row in rows if row['location_id'] != 'barnsley')
+            data = compile_data(inputs)
+            crime = compile_crime(inputs, data['locations'], data['evidence'])
+            result = compile_composite(data['locations'], crime)['results']['barnsley']['tenures']['buy']
+            self.assertIsNone(result['factors']['residential_environment'])
+            self.assertIsNone(result['score'])
 
     def test_composite_weights_are_automatically_normalised(self):
         factors = {name: 5 for name in ('housing_cost', 'safety', 'local_transport',
-                                        'condition', 'stock', 'national_transport')}
+                                        'residential_environment', 'stock', 'national_transport')}
         self.assertEqual(weighted_score(factors), 100.0)
         factors['housing_cost'] = 1
         self.assertEqual(weighted_score(factors), 85.9)

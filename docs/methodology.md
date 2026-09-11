@@ -1,6 +1,6 @@
 # Broad comparison methodology
 
-Keep all 83 candidates in view. Broad price, stock, transport and condition
+Keep all 83 candidates in view. Broad price, stock, transport and residential-environment
 data are in scope; building, subarea and listing research are not. Buying and
 renting remain separate.
 
@@ -21,7 +21,7 @@ scores, rankings, shortlists or decisions.
 | Housing cost | 15 | Within each tenure, fresh equal quintiles of the current proxy distribution score 5, 4, 3, 2 and 1 from cheapest to most expensive. |
 | Recorded-offence safety proxy | 15 | Equal mean of fresh 1--5 quintile scores for the Office for National Statistics (ONS) Community Safety Partnership (CSP) violence-against-the-person and sexual-offence rates; lower recorded rates score higher. |
 | Local public-transport connectivity | 15 | Population-weighted mean of the Department for Transport (DfT) 2025 Census Output Area (OA) `Overall (public transport)` metric within each reviewed April 2024 Built-up Area (BUA) mapping. National population-weighted England-and-Wales quintiles score 1--5; higher is better. |
-| Local condition | 15 | The explicit `assessment` field maps `highest`, `favourable` and `mixed` to 5, 4 and 2. |
+| Residential environment | 15 | Equal mean of population-weighted air, quiet, green-space and housing-energy percentiles. Fixed national population-weighted BUA quintiles score 1--5; higher is better. |
 | One-bed stock | 15 | Current tenure-specific Rightmove headline counts of under 10, 10--24, 25--74, 75--249 and 250+ score 1--5. |
 | National transport | 10 | London and Birmingham routes score 5, 4, 3, 2 or 1 at effective journey times (minutes plus 15 per change) of <=75, <=120, <=165, <=210 or >210. The two route scores are averaged. |
 
@@ -77,18 +77,15 @@ dated archive and geography/coverage review supports comparable CSP rates.
 - National transport: dated representative station-to-station journeys to London
   and Birmingham. This deliberately answers a different question and is scored
   independently of local connectivity.
-- Condition: inherited coarse judgements with an explicit assessment band,
-  reason, evidence IDs and `broad-assessment-v1` method version. The reason is
-  explanatory evidence and never controls the score. These are not measured
-  neighbourhood quality. Deprivation is not equivalent to visual condition.
-  A complete research-only `residential-environment-bua24-v3-country-calibrated`
-  candidate release
-  and national BUA audit now exist, but they remain outside this live composite
-  pending the remaining research quality assurance and live integration. Because
-  the published English and Welsh noise and Energy Performance Certificate (EPC)
-  fields differ, those two pillars are converted to population-weighted
-  within-country percentiles before they are combined. Raw values and the
-  migration audit remain visible.
+- Residential environment: method
+  `residential-environment-bua24-v3-country-calibrated` equally combines cleaner
+  air, less modelled transport noise, OS Open Greenspace access and housing energy
+  quality across the reviewed BUA. Air and green use the England-and-Wales national
+  distribution; incompatible published quiet and EPC observations use
+  population-weighted within-country percentiles. The resulting index uses fixed
+  national population-weighted BUA thresholds of 37.719, 45.246, 53.483 and
+  63.209. It is not a street, property, beauty, safety or general deprivation
+  assessment. The browser shows the raw observations and their separate periods.
 - Recorded offences: ONS CSP violence-against-the-person and sexual-offence rates
   per 1,000 mid-2024 residents for April 2025–March 2026 are shown for all 83
   locations and are the limited recorded-offence component of the composite score.

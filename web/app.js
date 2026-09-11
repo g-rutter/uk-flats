@@ -13,17 +13,16 @@
   const known = v => v !== null && v !== undefined && v !== '';
   const show = v => known(v) ? escape(v) : 'Not available';
   const oneDecimal = v => known(v) ? Number(v).toFixed(1) : 'Not available';
+  const wholeNumber = v => known(v) ? new Intl.NumberFormat('en-GB', { maximumFractionDigits: 0 }).format(v) : 'Not available';
   const money = v => known(v) ? new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP', maximumFractionDigits: 0 }).format(v) : 'Not available';
   const minutes = (v, c) => known(v) ? `${v} min${known(c) ? ` · ${c} change${c === 1 ? '' : 's'}` : ''}` : 'Not available';
-  const assessment = (topic, value) => ({
-    condition: { highest: 'Highest broad condition', favourable: 'Favourable broad condition', mixed: 'Mixed broad condition' }
-  }[topic]?.[value] || 'Not available');
   const price = x => x[state.tenure][state.tenure === 'buy' ? 'proxyMedian' : 'proxyMonthly'];
   const stock = x => x[state.tenure].oneBedCount;
   const score = x => data.composite.results[x.id].tenures[state.tenure].score;
   const band = x => `score-${data.composite.results[x.id].tenures[state.tenure].band || 'unknown'}`;
   const rate = (x, category) => crime.get(x.id)?.[category]?.rate_per_1000;
   const localTransportDefinition = 'DfT modelled public-transport opportunity to reach employment, services and social engagements. The settlement value is a Census-population-weighted mean of Output Area scores. It does not measure fares, crowding, cancellations, reliability, step-free access or travel from a particular home.';
+  const environmentDefinition = 'Population-weighted residential surroundings across the reviewed built-up area: cleaner air, less modelled transport noise, access to eligible public green space and housing energy quality. It is not a street, building, safety, beauty or general deprivation measure.';
   const recentSalesDefinition = '“Recent” means completed flat and maisonette sales dated 1 July 2024 to 30 June 2026. The figure is the median across all flat sizes, not a one-bedroom estimate; recent transactions can be incomplete because registration lags.';
   const project = x => [((x.lon - MAP.minLon) / (MAP.maxLon - MAP.minLon)) * MAP.width, MAP.height - ((x.lat - MAP.minLat) / (MAP.maxLat - MAP.minLat)) * MAP.height];
   const helpBody = content => typeof content === 'string' ? escape(content) :
@@ -39,7 +38,7 @@
     housing_cost: ['Housing cost', ''],
     safety: ['Recorded offences', 'Compares recorded rates for two offence types across broad CSP areas. Rates can be affected by reporting, recording practice, visitors and commuters, and area boundaries; they do not describe unreported crime, personal risk, or variation between streets and times.'],
     local_transport: ['Local public-transport connectivity', localTransportDefinition],
-    condition: ['Local condition', 'Broad assessment of the town or city’s physical condition.'],
+    residential_environment: ['Residential environment', environmentDefinition],
     stock: ['One-bedroom listings', 'Rightmove headline count at the recorded snapshot; listings are not deduplicated.'],
     national_transport: ['Rail connections', 'Representative journeys to London and Birmingham, including an allowance for changes.']
   };
@@ -110,7 +109,7 @@
     if (localEvidence?.url && !list.some(source => source.url === localEvidence.url)) {
       list.push({ topic: 'localTransport', url: localEvidence.url });
     }
-    const topic = value => ({ buy: 'Buying', rent: 'Renting', market: 'Market', localTransport: 'Public-transport connectivity', nationalTransport: 'Rail connections', condition: 'Local condition' }[value] || value);
+    const topic = value => ({ buy: 'Buying', rent: 'Renting', market: 'Market', localTransport: 'Public-transport connectivity', nationalTransport: 'Rail connections', environment: 'Residential environment' }[value] || value);
     const label = source => {
       const url = source.url;
       if (url.includes('price-paid-data-downloads')) return 'HM Land Registry price-paid data';
@@ -121,6 +120,8 @@
       if (url.includes('los.rightmove')) return 'Rightmove location lookup';
       if (url.includes('nationalrail.co.uk')) return 'National Rail journey planner';
       if (url.includes('transport-connectivity-metric')) return 'DfT transport connectivity metric';
+      if (url.includes('uk-air.defra.gov.uk')) return 'Defra modelled background pollution';
+      if (url.includes('api.os.uk')) return 'OS Open Greenspace';
       if (url.includes('traveline.info')) return 'Traveline journey planner';
       if (url.includes('travelsouthyorkshire')) return 'Travel South Yorkshire network';
       if (url.includes('tfwm.org.uk')) return 'Transport for West Midlands network';
@@ -162,9 +163,23 @@
     const priceRows = state.tenure === 'buy'
       ? [row('Recent sales price', money(x.buy.proxyMedian), recentSalesDefinition), row('Completed sales in sample', known(x.buy.transactions) ? `${show(x.buy.transactions)} sales` : 'Not available'), row('One-bedroom listings', known(x.buy.oneBedCount) ? `${show(x.buy.oneBedCount)} listings` : 'Not available', 'Rightmove headline count at the recorded snapshot; listings are not deduplicated.')]
       : [row('Typical one-bedroom rent', `${money(x.rent.proxyMonthly)}${known(x.rent.proxyMonthly) ? ' per month' : ''}`, 'Modelled monthly local-authority average; not an asking-rent median.'), row('One-bedroom listings', known(x.rent.oneBedCount) ? `${show(x.rent.oneBedCount)} listings` : 'Not available', 'Rightmove headline count at the recorded snapshot; listings are not deduplicated.')];
-    const assessmentNote = 'Explicit broad-assessment band. The accompanying reason explains the judgement but does not determine the score.';
-    const localRows = [row('Public-transport connectivity', known(x.localTransport.pt_connectivity_0_100) ? `${oneDecimal(x.localTransport.pt_connectivity_0_100)} out of 100` : 'Not available', localTransportDefinition), row('National population percentile', known(x.localTransport.national_percentile) ? `${oneDecimal(x.localTransport.national_percentile)}th percentile` : 'Not available', 'Compared with the Census-population-weighted distribution of all England and Wales Output Areas in the same DfT release; higher is better.'), row('Measurement area', show(x.localTransport.reason), 'A reviewed April 2024 built-up-area mapping; composite locations combine all named built-up areas using Census population weights.'), row('Source period', show(x.localTransport.source_period)), row('Local condition assessment', assessment('condition', x.condition.assessment), assessmentNote), row('Local condition reason', show(x.condition.reason))];
-    $('details').innerHTML = `<p class="eyebrow">${escape(x.country)} · ${escape(x.localAuthority)}</p><h2>${escape(x.name)}</h2><div class="headline-grid"><div class="score-card ${band(x)}"><span>${state.tenure === 'buy' ? 'Buying' : 'Renting'} composite score</span><strong>${show(score(x))}<small>out of 100</small></strong></div><div><span>${state.tenure === 'buy' ? help('Recent sales price', recentSalesDefinition) : 'Typical one-bedroom rent'}</span><strong>${money(price(x))}${state.tenure === 'rent' ? '<small>per month</small>' : ''}</strong></div></div><section class="detail-section score-section"><div class="section-heading"><h3>Score components</h3><span>Each score is out of 5</span></div><div class="component-grid">${factorRows}</div></section>${section(state.tenure === 'buy' ? 'Buying evidence' : 'Renting evidence', priceRows, [['Price', factorValues.housing_cost], ['Listings', factorValues.stock]])}${section('Rail connections', [row('To London', minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)), row('To Birmingham', minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges))], [['Rail', factorValues.national_transport]])}${section('Recorded offences', [row('Violence against the person', `${show(offences?.violence_against_person?.rate_per_1000)} per 1,000${offences?.violence_against_person ? ` · ${escape(offences.violence_against_person.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.'), row('Sexual offences', `${show(offences?.sexual_offences?.rate_per_1000)} per 1,000${offences?.sexual_offences ? ` · ${escape(offences.sexual_offences.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.')], [['Offences', factorValues.safety]])}${section('Local picture', localRows, [['Transport', factorValues.local_transport], ['Condition', factorValues.condition]])}${sources(x)}`;
+    const environment = x.residentialEnvironment;
+    const localRows = [
+      row('Public-transport connectivity', known(x.localTransport.pt_connectivity_0_100) ? `${oneDecimal(x.localTransport.pt_connectivity_0_100)} out of 100` : 'Not available', localTransportDefinition),
+      row('Transport national percentile', known(x.localTransport.national_percentile) ? `${oneDecimal(x.localTransport.national_percentile)} out of 100` : 'Not available', 'Compared with the Census-population-weighted distribution of all England and Wales Output Areas in the same DfT release; higher is better.'),
+      row('Residential-environment index', known(environment.environment_index_0_100) ? `${oneDecimal(environment.environment_index_0_100)} out of 100` : 'Not available', environmentDefinition),
+      row('Environment national percentile', known(environment.national_percentile) ? `${oneDecimal(environment.national_percentile)} out of 100` : 'Not available', 'Compared with the Census-population-weighted distribution of all April 2024 England and Wales built-up areas; higher is better.'),
+      row('Air pollution', known(environment.air_burden) ? `Burden ${oneDecimal(environment.air_burden)} · NO₂ ${oneDecimal(environment.no2_ug_m3)}, PM₂.₅ ${oneDecimal(environment.pm25_ug_m3)}, PM₁₀ ${oneDecimal(environment.pm10_ug_m3)} µg/m³` : 'Not available', 'Annual modelled outdoor concentrations. The burden equally averages each pollutant divided by its WHO 2021 annual guideline; lower is better.'),
+      row('Transport-noise exposure', known(environment.noise_exposed_pct) ? `${oneDecimal(environment.noise_exposed_pct)}% of residents` : 'Not available', 'Modelled residents exposed at or above 55 dB Lden. England includes major-airport exposure while Wales covers road and rail; the score uses within-country percentiles.'),
+      row('Green space within 300 m', known(environment.green_within_300m_pct) ? `${oneDecimal(environment.green_within_300m_pct)}% of residents` : 'Not available', 'Straight-line distance from OA population-weighted centroids to an OS public park, garden or playing field.'),
+      row('Green space within 1,000 m', known(environment.green_area_within_1000m_m2) ? `${wholeNumber(environment.green_area_within_1000m_m2)} m²` : 'Not available', 'Population-weighted eligible polygon area inside a 1,000 m buffer; overlapping area is counted once.'),
+      row('Mean EPC SAP score', oneDecimal(environment.epc_sap_mean), 'Modelled or imputed housing energy quality. England and Wales publish different transforms, so the score uses within-country percentiles.'),
+      row('Environment measurement area', show(environment.reason), 'A reviewed April 2024 built-up-area mapping; composite locations combine all named built-up areas using Census population weights.'),
+      row('Air period', show(environment.air_period)), row('Noise period', show(environment.quiet_period)),
+      row('Green-space period', show(environment.green_period)), row('Housing-energy period', show(environment.housing_environment_period)),
+      row('Transport period', show(x.localTransport.source_period)),
+    ];
+    $('details').innerHTML = `<p class="eyebrow">${escape(x.country)} · ${escape(x.localAuthority)}</p><h2>${escape(x.name)}</h2><div class="headline-grid"><div class="score-card ${band(x)}"><span>${state.tenure === 'buy' ? 'Buying' : 'Renting'} composite score</span><strong>${show(score(x))}<small>out of 100</small></strong></div><div><span>${state.tenure === 'buy' ? help('Recent sales price', recentSalesDefinition) : 'Typical one-bedroom rent'}</span><strong>${money(price(x))}${state.tenure === 'rent' ? '<small>per month</small>' : ''}</strong></div></div><section class="detail-section score-section"><div class="section-heading"><h3>Score components</h3><span>Each score is out of 5</span></div><div class="component-grid">${factorRows}</div></section>${section(state.tenure === 'buy' ? 'Buying evidence' : 'Renting evidence', priceRows, [['Price', factorValues.housing_cost], ['Listings', factorValues.stock]])}${section('Rail connections', [row('To London', minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)), row('To Birmingham', minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges))], [['Rail', factorValues.national_transport]])}${section('Recorded offences', [row('Violence against the person', `${show(offences?.violence_against_person?.rate_per_1000)} per 1,000${offences?.violence_against_person ? ` · ${escape(offences.violence_against_person.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.'), row('Sexual offences', `${show(offences?.sexual_offences?.rate_per_1000)} per 1,000${offences?.sexual_offences ? ` · ${escape(offences.sexual_offences.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.')], [['Offences', factorValues.safety]])}${section('Local picture', localRows, [['Transport', factorValues.local_transport], ['Environment', factorValues.residential_environment]])}${sources(x)}`;
     $('details').querySelectorAll('.help').forEach(button => button.addEventListener('click', () => {
       const text = button.nextElementSibling, willOpen = text.hidden;
       closeHelp();

@@ -7,6 +7,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from residential_environment import METHOD_VERSION, percentile_for, score_for, weighted_cutpoints
+from review_residential_environment import review
 
 
 def read_csv(path):
@@ -121,6 +122,33 @@ class ResidentialEnvironmentTests(unittest.TestCase):
         self.assertEqual(score_for(20, cutpoints), 3)
         self.assertEqual(percentile_for(30, observations), 60)
         self.assertEqual(percentile_for(30, observations, lower_is_better=True), 60)
+
+    def test_research_qa_is_reproducible_and_flags_only_extreme_sensitivity(self):
+        outputs = review(ROOT)
+        sensitivity = outputs['residential_environment_sensitivity_audit.csv']
+        outliers = outputs['residential_environment_outlier_audit.csv']
+        correlations = outputs['residential_environment_correlation_audit.csv']
+        domains = outputs['residential_environment_country_domain_audit.csv']
+        self.assertEqual(len(sensitivity), 83 * 12)
+        self.assertEqual(len(outliers), 5 * 2 * 5)
+        self.assertEqual(len(domains), 83)
+        self.assertTrue(all(row['coverage_complete'] == 'true' for row in domains))
+        self.assertFalse(any(row['changes_more_than_one_band'] == 'true'
+                             for row in sensitivity if not row['scenario'].startswith('leave_out_')))
+        self.assertTrue(any(row['changes_more_than_one_band'] == 'true'
+                            for row in sensitivity if row['scenario'].startswith('leave_out_')))
+        validation = {(row['scope'], row['method']): float(row['coefficient'])
+                      for row in correlations
+                      if row['right_measure'] == 'official_country_environment_domain_rank_percentile'}
+        self.assertGreater(validation[('England', 'spearman')], 0)
+        self.assertGreater(validation[('Wales', 'spearman')], 0)
+
+    def test_environment_scores_are_fixed_when_candidate_set_changes(self):
+        candidates = read_csv(ROOT / 'data/inputs/residential_environment.csv')
+        before = {row['location_id']: row['score'] for row in candidates}
+        candidates.append({**candidates[0], 'location_id': 'dummy-location'})
+        after = {row['location_id']: row['score'] for row in candidates[:-1]}
+        self.assertEqual(before, after)
 
 
 if __name__ == '__main__':

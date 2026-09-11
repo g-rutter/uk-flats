@@ -1,8 +1,7 @@
 # Residential-environment methodology
 
-Status: frozen research method, not yet used by the live screen while the
-remaining research quality assurance and live integration are completed. Method
-version: `residential-environment-bua24-v3-country-calibrated`.
+Status: accepted live method. Method version:
+`residential-environment-bua24-v3-country-calibrated`.
 
 ## Definition and exclusions
 
@@ -147,9 +146,9 @@ reference distribution or another candidate's score.
 
 ## Validation and release gates
 
-The preparer must fail unless all current candidates resolve to reviewed BUA
-components and all four covered populations equal expected population. Before
-switching the live factor, the retained outputs must also demonstrate:
+The preparer fails unless all current candidates resolve to reviewed BUA
+components and all four covered populations equal expected population. The
+retained release demonstrates:
 
 - hash-valid raw artifacts and exact source fields, directions and units;
 - reproducible pillar percentiles, combined index, thresholds and score;
@@ -165,6 +164,22 @@ switching the live factor, the retained outputs must also demonstrate:
 The migration audit records the effect of adopting country calibration:
 quiet-only calibration changes no candidate band, housing-only changes six, and
 calibrating both changes seven; no candidate changes by more than one band.
+
+`review_residential_environment.py` writes the retained sensitivity, outlier,
+correlation and country-domain/boundary audits. No ±10 percentage-point weight
+scenario changes a candidate by more than one band. Thirteen two-band changes
+occur only in the deliberately more severe leave-one-pillar-out scenarios. The
+candidate index has Spearman correlations of 0.183 with buying cost, 0.179 with
+rent, -0.227 with the mean of the two displayed offence rates, -0.417 with local
+transport connectivity and 0.045 with national-rail effective time. These are
+diagnostics, not tuning targets.
+
+Within country, its Spearman correlation with population-weighted official
+environment-domain rank is 0.621 across 73 English candidates and 0.224 across
+10 Welsh candidates. The latter is a small sample and WIMD Physical Environment
+has a materially different definition. The same audit compares BUA aggregation
+with the relevant full local-authority domain distribution as a boundary
+diagnostic; it never substitutes the administrative geography for the BUA.
 
 ## Refresh and supersession
 

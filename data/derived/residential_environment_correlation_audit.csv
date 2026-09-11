@@ -1,0 +1,55 @@
+scope,left_measure,right_measure,method,observations,coefficient,interpretation
+all candidates,environment_index_0_100,buy_price,pearson,83,0.149173,diagnostic only; the method was not tuned to reduce correlation
+all candidates,environment_index_0_100,buy_price,spearman,83,0.182552,diagnostic only; the method was not tuned to reduce correlation
+all candidates,environment_index_0_100,one_bed_rent,pearson,83,0.151563,diagnostic only; the method was not tuned to reduce correlation
+all candidates,environment_index_0_100,one_bed_rent,spearman,83,0.179041,diagnostic only; the method was not tuned to reduce correlation
+all candidates,environment_index_0_100,recorded_offence_rate_mean,pearson,83,-0.213943,diagnostic only; the method was not tuned to reduce correlation
+all candidates,environment_index_0_100,recorded_offence_rate_mean,spearman,83,-0.226986,diagnostic only; the method was not tuned to reduce correlation
+all candidates,environment_index_0_100,local_transport_connectivity,pearson,83,-0.411980,diagnostic only; the method was not tuned to reduce correlation
+all candidates,environment_index_0_100,local_transport_connectivity,spearman,83,-0.417008,diagnostic only; the method was not tuned to reduce correlation
+all candidates,environment_index_0_100,national_rail_effective_minutes_mean,pearson,83,0.042561,diagnostic only; the method was not tuned to reduce correlation
+all candidates,environment_index_0_100,national_rail_effective_minutes_mean,spearman,83,0.045004,diagnostic only; the method was not tuned to reduce correlation
+all candidates,air,buy_price,pearson,83,-0.162473,diagnostic only; the method was not tuned to reduce correlation
+all candidates,air,buy_price,spearman,83,-0.227398,diagnostic only; the method was not tuned to reduce correlation
+all candidates,air,one_bed_rent,pearson,83,-0.261257,diagnostic only; the method was not tuned to reduce correlation
+all candidates,air,one_bed_rent,spearman,83,-0.293533,diagnostic only; the method was not tuned to reduce correlation
+all candidates,air,recorded_offence_rate_mean,pearson,83,-0.228183,diagnostic only; the method was not tuned to reduce correlation
+all candidates,air,recorded_offence_rate_mean,spearman,83,-0.308048,diagnostic only; the method was not tuned to reduce correlation
+all candidates,air,local_transport_connectivity,pearson,83,-0.660401,diagnostic only; the method was not tuned to reduce correlation
+all candidates,air,local_transport_connectivity,spearman,83,-0.586772,diagnostic only; the method was not tuned to reduce correlation
+all candidates,air,national_rail_effective_minutes_mean,pearson,83,0.484510,diagnostic only; the method was not tuned to reduce correlation
+all candidates,air,national_rail_effective_minutes_mean,spearman,83,0.472762,diagnostic only; the method was not tuned to reduce correlation
+all candidates,quiet,buy_price,pearson,83,0.167676,diagnostic only; the method was not tuned to reduce correlation
+all candidates,quiet,buy_price,spearman,83,0.161406,diagnostic only; the method was not tuned to reduce correlation
+all candidates,quiet,one_bed_rent,pearson,83,0.139719,diagnostic only; the method was not tuned to reduce correlation
+all candidates,quiet,one_bed_rent,spearman,83,0.141299,diagnostic only; the method was not tuned to reduce correlation
+all candidates,quiet,recorded_offence_rate_mean,pearson,83,0.070413,diagnostic only; the method was not tuned to reduce correlation
+all candidates,quiet,recorded_offence_rate_mean,spearman,83,0.076571,diagnostic only; the method was not tuned to reduce correlation
+all candidates,quiet,local_transport_connectivity,pearson,83,-0.272973,diagnostic only; the method was not tuned to reduce correlation
+all candidates,quiet,local_transport_connectivity,spearman,83,-0.245141,diagnostic only; the method was not tuned to reduce correlation
+all candidates,quiet,national_rail_effective_minutes_mean,pearson,83,-0.123977,diagnostic only; the method was not tuned to reduce correlation
+all candidates,quiet,national_rail_effective_minutes_mean,spearman,83,-0.134666,diagnostic only; the method was not tuned to reduce correlation
+all candidates,green,buy_price,pearson,83,0.039715,diagnostic only; the method was not tuned to reduce correlation
+all candidates,green,buy_price,spearman,83,0.098007,diagnostic only; the method was not tuned to reduce correlation
+all candidates,green,one_bed_rent,pearson,83,0.133829,diagnostic only; the method was not tuned to reduce correlation
+all candidates,green,one_bed_rent,spearman,83,0.183039,diagnostic only; the method was not tuned to reduce correlation
+all candidates,green,recorded_offence_rate_mean,pearson,83,0.018258,diagnostic only; the method was not tuned to reduce correlation
+all candidates,green,recorded_offence_rate_mean,spearman,83,0.063033,diagnostic only; the method was not tuned to reduce correlation
+all candidates,green,local_transport_connectivity,pearson,83,0.209566,diagnostic only; the method was not tuned to reduce correlation
+all candidates,green,local_transport_connectivity,spearman,83,0.190756,diagnostic only; the method was not tuned to reduce correlation
+all candidates,green,national_rail_effective_minutes_mean,pearson,83,-0.172218,diagnostic only; the method was not tuned to reduce correlation
+all candidates,green,national_rail_effective_minutes_mean,spearman,83,-0.171704,diagnostic only; the method was not tuned to reduce correlation
+all candidates,housing_environment,buy_price,pearson,83,0.264469,diagnostic only; the method was not tuned to reduce correlation
+all candidates,housing_environment,buy_price,spearman,83,0.331388,diagnostic only; the method was not tuned to reduce correlation
+all candidates,housing_environment,one_bed_rent,pearson,83,0.307244,diagnostic only; the method was not tuned to reduce correlation
+all candidates,housing_environment,one_bed_rent,spearman,83,0.354385,diagnostic only; the method was not tuned to reduce correlation
+all candidates,housing_environment,recorded_offence_rate_mean,pearson,83,-0.292185,diagnostic only; the method was not tuned to reduce correlation
+all candidates,housing_environment,recorded_offence_rate_mean,spearman,83,-0.259141,diagnostic only; the method was not tuned to reduce correlation
+all candidates,housing_environment,local_transport_connectivity,pearson,83,-0.130545,diagnostic only; the method was not tuned to reduce correlation
+all candidates,housing_environment,local_transport_connectivity,spearman,83,-0.174615,diagnostic only; the method was not tuned to reduce correlation
+all candidates,housing_environment,national_rail_effective_minutes_mean,pearson,83,-0.111415,diagnostic only; the method was not tuned to reduce correlation
+all candidates,housing_environment,national_rail_effective_minutes_mean,spearman,83,-0.090092,diagnostic only; the method was not tuned to reduce correlation
+England,environment_index_0_100,official_country_environment_domain_rank_percentile,pearson,73,0.658145,within-country validation only; domain definitions differ
+England,environment_index_0_100,official_country_environment_domain_rank_percentile,spearman,73,0.621457,within-country validation only; domain definitions differ
+Wales,environment_index_0_100,official_country_environment_domain_rank_percentile,pearson,10,0.190432,within-country validation only; domain definitions differ
+Wales,environment_index_0_100,official_country_environment_domain_rank_percentile,spearman,10,0.224242,within-country validation only; domain definitions differ

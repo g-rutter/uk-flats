@@ -5,7 +5,9 @@ from pathlib import Path
 
 from csv_io import write_csv
 
-TOPICS = ('buy', 'rent', 'market', 'localTransport', 'nationalTransport', 'condition', 'crime')
+TOPICS = ('buy', 'rent', 'market', 'localTransport', 'nationalTransport',
+          'residentialEnvironment', 'crime')
+FILES = {'residentialEnvironment': 'residential_environment.csv'}
 
 
 def read(path):
@@ -26,7 +28,7 @@ def metric_present(topic, row):
         'market': ('reason',),
         'localTransport': ('pt_connectivity_0_100', 'score'),
         'nationalTransport': ('londonMinutes', 'birminghamMinutes'),
-        'condition': ('assessment',),
+        'residentialEnvironment': ('environment_index_0_100', 'score'),
         'crime': ('count', 'population'),
     }[topic]
     return any(row.get(field, '') for field in fields)
@@ -34,7 +36,8 @@ def metric_present(topic, row):
 
 def audit(inputs):
     locations = read(Path(inputs) / 'locations.csv')
-    tables = {topic: index(read(Path(inputs) / f'{topic}.csv')) for topic in TOPICS if topic != 'crime'}
+    tables = {topic: index(read(Path(inputs) / FILES.get(topic, f'{topic}.csv')))
+              for topic in TOPICS if topic != 'crime'}
     crime = {}
     for row in read(Path(inputs) / 'crime_observations.csv'):
         if row['category'] in ('violence_against_person', 'sexual_offences'):
@@ -89,6 +92,21 @@ def audit(inputs):
                     except (OSError, ValueError, KeyError):
                         status = 'review-required'
                         reason = 'Canonical observation does not match a complete hash-verified local-transport release'
+                elif topic == 'residentialEnvironment' and present:
+                    from release_manifest import load
+                    release = Path(inputs).parent / 'raw/environment/2026-09-09'
+                    try:
+                        manifest = load(release)
+                        artifact_hash = ';'.join(sorted(item['sha256'] for item in manifest.values()))
+                        status = 'ready'
+                        period = '; '.join(row[field] for field in
+                                           ('air_period', 'quiet_period', 'green_period',
+                                            'housing_environment_period'))
+                        geography = row['geography_code']
+                        reason = ''
+                    except (OSError, ValueError, KeyError):
+                        status = 'review-required'
+                        reason = 'Canonical observation does not match a complete hash-verified residential-environment release'
                 else:
                     # The current non-crime dataset is explicitly an imported baseline;
                     # it cannot acquire a raw-artifact claim merely by having a URL.

@@ -22,8 +22,9 @@ from prepare_local_transport import read_population
 
 
 RAW_FILES = {
-    'iod2025-underlying-indicators-v2.xlsx', 'wimd2025-physical-environment.csv',
-    'wimd2025-housing.csv', 'defra-no2-2024.csv', 'defra-pm25-2024.csv',
+    'iod2025-domains-v2.xlsx', 'iod2025-underlying-indicators-v2.xlsx',
+    'wimd2025-physical-environment.csv', 'wimd2025-housing.csv',
+    'wimd2025-domain-ranks.csv', 'defra-no2-2024.csv', 'defra-pm25-2024.csv',
     'defra-pm10-2024.csv', 'os-open-greenspace-product.json',
     'os-open-greenspace-gb.gpkg.zip',
     'oa21-population-weighted-centroids.csv', 'oa21-lsoa21-msoa21-lookup.csv',

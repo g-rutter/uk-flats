@@ -47,12 +47,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Industrial legacy and uneven renewal make the overall fabric less consistently cared-for; this is a coarse judgement."
+      "residentialEnvironment": {
+        "air_burden": 1.0578,
+        "no2_ug_m3": 9.524,
+        "pm25_ug_m3": 7.22,
+        "pm10_ug_m3": 11.654,
+        "noise_exposed_pct": 34.505,
+        "green_within_300m_pct": 80.991,
+        "green_area_within_1000m_m2": 301778.99,
+        "epc_sap_mean": 65.659,
+        "air_percentile": 44.928,
+        "quiet_percentile": 50.574,
+        "green_percentile": 86.787,
+        "housing_environment_percentile": 50.782,
+        "environment_index_0_100": 58.268,
+        "national_percentile": 69.015,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008268",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 71394,
+        "quiet_population_covered": 71394,
+        "green_population_covered": 71394,
+        "housing_environment_population_covered": 71394,
+        "population_expected": 71394,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -101,12 +129,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Major renewed central districts coexist with extensive uneven and deprived urban fabric, producing a mixed city-wide judgement."
+      "residentialEnvironment": {
+        "air_burden": 1.2895,
+        "no2_ug_m3": 14.575,
+        "pm25_ug_m3": 7.89,
+        "pm10_ug_m3": 12.493,
+        "noise_exposed_pct": 38.139,
+        "green_within_300m_pct": 65.533,
+        "green_area_within_1000m_m2": 264277.58,
+        "epc_sap_mean": 63.173,
+        "air_percentile": 18.864,
+        "quiet_percentile": 35.875,
+        "green_percentile": 57.068,
+        "housing_environment_percentile": 12.463,
+        "environment_index_0_100": 31.067,
+        "national_percentile": 10.732,
+        "score": 1,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63010038",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 1119786,
+        "quiet_population_covered": 1119786,
+        "green_population_covered": 1119786,
+        "housing_environment_population_covered": 1119786,
+        "population_expected": 1119786,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -155,12 +211,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Strong heritage assets are offset by visibly uneven town-centre and industrial-era fabric in this broad proxy assessment."
+      "residentialEnvironment": {
+        "air_burden": 0.916,
+        "no2_ug_m3": 8.363,
+        "pm25_ug_m3": 6.308,
+        "pm10_ug_m3": 9.753,
+        "noise_exposed_pct": 35.677,
+        "green_within_300m_pct": 55.8,
+        "green_area_within_1000m_m2": 174226.15,
+        "epc_sap_mean": 63.687,
+        "air_percentile": 71.879,
+        "quiet_percentile": 45.751,
+        "green_percentile": 28.573,
+        "housing_environment_percentile": 17.541,
+        "environment_index_0_100": 40.936,
+        "national_percentile": 29.336,
+        "score": 2,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007969",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 124958,
+        "quiet_population_covered": 124958,
+        "green_population_covered": 124958,
+        "housing_environment_population_covered": 124958,
+        "population_expected": 124958,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -209,12 +293,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Distinctive resort heritage is offset by concentrated deprivation and uneven upkeep, so pleasantness is not consistent town-wide."
+      "residentialEnvironment": {
+        "air_burden": 0.7489,
+        "no2_ug_m3": 6.276,
+        "pm25_ug_m3": 5.386,
+        "pm10_ug_m3": 8.128,
+        "noise_exposed_pct": 30.803,
+        "green_within_300m_pct": 59.307,
+        "green_area_within_1000m_m2": 144534.93,
+        "epc_sap_mean": 61.939,
+        "air_percentile": 91.048,
+        "quiet_percentile": 68.957,
+        "green_percentile": 26.722,
+        "housing_environment_percentile": 6.31,
+        "environment_index_0_100": 48.259,
+        "national_percentile": 48.1,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007890",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 149087,
+        "quiet_population_covered": 149087,
+        "green_population_covered": 149087,
+        "housing_environment_population_covered": 149087,
+        "population_expected": 149087,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -263,12 +375,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Civic and heritage pockets coexist with substantial deprived and uneven post-industrial fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.0831,
+        "no2_ug_m3": 11.504,
+        "pm25_ug_m3": 6.882,
+        "pm10_ug_m3": 10.835,
+        "noise_exposed_pct": 37.599,
+        "green_within_300m_pct": 73.558,
+        "green_area_within_1000m_m2": 230517.01,
+        "epc_sap_mean": 64.642,
+        "air_percentile": 40.599,
+        "quiet_percentile": 37.578,
+        "green_percentile": 62.84,
+        "housing_environment_percentile": 29.994,
+        "environment_index_0_100": 42.753,
+        "national_percentile": 33.742,
+        "score": 2,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008201",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 184618,
+        "quiet_population_covered": 184618,
+        "green_population_covered": 184618,
+        "housing_environment_population_covered": 184618,
+        "population_expected": 184618,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -317,12 +457,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "High-quality historic architecture is offset by vacancy, deprivation and uneven upkeep across the built-up area."
+      "residentialEnvironment": {
+        "air_burden": 1.1775,
+        "no2_ug_m3": 13.017,
+        "pm25_ug_m3": 7.378,
+        "pm10_ug_m3": 11.328,
+        "noise_exposed_pct": 33.365,
+        "green_within_300m_pct": 77.237,
+        "green_area_within_1000m_m2": 187716.4,
+        "epc_sap_mean": 61.34,
+        "air_percentile": 27.535,
+        "quiet_percentile": 57.234,
+        "green_percentile": 62.205,
+        "housing_environment_percentile": 4.569,
+        "environment_index_0_100": 37.886,
+        "national_percentile": 21.383,
+        "score": 2,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007920",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 333968,
+        "quiet_population_covered": 333968,
+        "green_population_covered": 333968,
+        "housing_environment_population_covered": 333968,
+        "population_expected": 333968,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -371,12 +539,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Industrial heritage and nearby landscape are positives, but deprivation and uneven town-centre fabric weaken the broad condition score."
+      "residentialEnvironment": {
+        "air_burden": 0.9059,
+        "no2_ug_m3": 8.178,
+        "pm25_ug_m3": 6.308,
+        "pm10_ug_m3": 9.576,
+        "noise_exposed_pct": 50.552,
+        "green_within_300m_pct": 82.758,
+        "green_area_within_1000m_m2": 281881.99,
+        "epc_sap_mean": 62.37,
+        "air_percentile": 73.605,
+        "quiet_percentile": 10.256,
+        "green_percentile": 85.662,
+        "housing_environment_percentile": 7.529,
+        "environment_index_0_100": 44.263,
+        "national_percentile": 37.494,
+        "score": 2,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007907",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 78266,
+        "quiet_population_covered": 78266,
+        "green_population_covered": 78266,
+        "housing_environment_population_covered": 78266,
+        "population_expected": 78266,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -425,12 +621,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A serviceable centre and riverside assets are balanced by traffic-dominated and industrial urban fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.0008,
+        "no2_ug_m3": 8.795,
+        "pm25_ug_m3": 6.828,
+        "pm10_ug_m3": 11.358,
+        "noise_exposed_pct": 38.968,
+        "green_within_300m_pct": 63.282,
+        "green_area_within_1000m_m2": 113405.26,
+        "epc_sap_mean": 65.119,
+        "air_percentile": 57.745,
+        "quiet_percentile": 31.492,
+        "green_percentile": 27.063,
+        "housing_environment_percentile": 38.114,
+        "environment_index_0_100": 38.604,
+        "national_percentile": 23.285,
+        "score": 2,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63009360",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 76031,
+        "quiet_population_covered": 76031,
+        "green_population_covered": 76031,
+        "housing_environment_population_covered": 76031,
+        "population_expected": 76031,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -479,12 +703,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "favourable",
+      "residentialEnvironment": {
+        "air_burden": 1.0191,
+        "no2_ug_m3": 12.235,
+        "pm25_ug_m3": 5.933,
+        "pm10_ug_m3": 9.709,
+        "noise_exposed_pct": 35.42,
+        "green_within_300m_pct": 75.119,
+        "green_area_within_1000m_m2": 250527.6,
+        "epc_sap_mean": 66.559,
+        "air_percentile": 55.224,
+        "quiet_percentile": 51.333,
+        "green_percentile": 70.968,
+        "housing_environment_percentile": 78.187,
+        "environment_index_0_100": 63.928,
+        "national_percentile": 82.373,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "W45001208",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 347880,
+        "quiet_population_covered": 347880,
+        "green_population_covered": 347880,
+        "housing_environment_population_covered": 347880,
+        "population_expected": 347880,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV002;ENV004;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Substantial civic, park and renewed waterfront assets make the city broadly pleasant despite uneven inner corridors."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -533,12 +785,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "favourable",
+      "residentialEnvironment": {
+        "air_burden": 0.8986,
+        "no2_ug_m3": 8.292,
+        "pm25_ug_m3": 6.07,
+        "pm10_ug_m3": 9.789,
+        "noise_exposed_pct": 39.117,
+        "green_within_300m_pct": 74.245,
+        "green_area_within_1000m_m2": 120403.47,
+        "epc_sap_mean": 66.619,
+        "air_percentile": 74.683,
+        "quiet_percentile": 31.192,
+        "green_percentile": 47.629,
+        "housing_environment_percentile": 70.231,
+        "environment_index_0_100": 55.934,
+        "national_percentile": 64.959,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "K08000011",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 92756,
+        "quiet_population_covered": 92756,
+        "green_population_covered": 92756,
+        "housing_environment_population_covered": 92756,
+        "population_expected": 92756,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Exceptional historic fabric, river setting and generally strong public realm support a strongly favourable broad judgement."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -587,12 +867,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "favourable",
+      "residentialEnvironment": {
+        "air_burden": 1.0052,
+        "no2_ug_m3": 8.57,
+        "pm25_ug_m3": 7.085,
+        "pm10_ug_m3": 11.125,
+        "noise_exposed_pct": 34.765,
+        "green_within_300m_pct": 71.194,
+        "green_area_within_1000m_m2": 199234.88,
+        "epc_sap_mean": 64.915,
+        "air_percentile": 56.851,
+        "quiet_percentile": 49.455,
+        "green_percentile": 52.254,
+        "housing_environment_percentile": 35.357,
+        "environment_index_0_100": 48.479,
+        "national_percentile": 48.605,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008717",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 76394,
+        "quiet_population_covered": 76394,
+        "green_population_covered": 76394,
+        "housing_environment_population_covered": 76394,
+        "population_expected": 76394,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A coherent historic centre and nearby landscape support a favourable judgement despite some post-industrial and arterial-road fabric."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -641,12 +949,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Major public-realm renewal and heritage pockets coexist with traffic-heavy and uneven reconstructed urban fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.141,
+        "no2_ug_m3": 11.19,
+        "pm25_ug_m3": 7.511,
+        "pm10_ug_m3": 12.026,
+        "noise_exposed_pct": 35.177,
+        "green_within_300m_pct": 69.401,
+        "green_area_within_1000m_m2": 216870.69,
+        "epc_sap_mean": 65.168,
+        "air_percentile": 31.109,
+        "quiet_percentile": 47.929,
+        "green_percentile": 52.831,
+        "housing_environment_percentile": 40.075,
+        "environment_index_0_100": 42.986,
+        "national_percentile": 34.967,
+        "score": 2,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63010120",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 343623,
+        "quiet_population_covered": 343623,
+        "green_population_covered": 343623,
+        "housing_environment_population_covered": 343623,
+        "population_expected": 343623,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -695,12 +1031,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Victorian and civic assets are balanced by ordinary and sometimes uneven edge and centre fabric."
+      "residentialEnvironment": {
+        "air_burden": 0.8109,
+        "no2_ug_m3": 7.112,
+        "pm25_ug_m3": 5.52,
+        "pm10_ug_m3": 9.262,
+        "noise_exposed_pct": 34.353,
+        "green_within_300m_pct": 75.104,
+        "green_area_within_1000m_m2": 199669.16,
+        "epc_sap_mean": 64.14,
+        "air_percentile": 85.754,
+        "quiet_percentile": 51.236,
+        "green_percentile": 61.007,
+        "housing_environment_percentile": 24.755,
+        "environment_index_0_100": 55.688,
+        "national_percentile": 64.621,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007428",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 93058,
+        "quiet_population_covered": 93058,
+        "green_population_covered": 93058,
+        "housing_environment_population_covered": 93058,
+        "population_expected": 93058,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -749,12 +1113,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Renewal and historic pockets coexist with traffic-dominated approaches and extensive industrial urban form."
+      "residentialEnvironment": {
+        "air_burden": 1.1443,
+        "no2_ug_m3": 11.52,
+        "pm25_ug_m3": 7.386,
+        "pm10_ug_m3": 12.057,
+        "noise_exposed_pct": 27.182,
+        "green_within_300m_pct": 69.105,
+        "green_area_within_1000m_m2": 200133.12,
+        "epc_sap_mean": 64.655,
+        "air_percentile": 30.424,
+        "quiet_percentile": 84.233,
+        "green_percentile": 49.712,
+        "housing_environment_percentile": 30.623,
+        "environment_index_0_100": 48.748,
+        "national_percentile": 50.591,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63009183",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 275561,
+        "quiet_population_covered": 275561,
+        "green_population_covered": 275561,
+        "housing_environment_population_covered": 275561,
+        "population_expected": 275561,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -803,12 +1195,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Civic assets and renewal are offset by extensive post-industrial, logistics and deprived urban fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.1602,
+        "no2_ug_m3": 10.791,
+        "pm25_ug_m3": 7.614,
+        "pm10_ug_m3": 13.18,
+        "noise_exposed_pct": 34.115,
+        "green_within_300m_pct": 58.548,
+        "green_area_within_1000m_m2": 110515.75,
+        "epc_sap_mean": 64.695,
+        "air_percentile": 28.995,
+        "quiet_percentile": 51.746,
+        "green_percentile": 21.074,
+        "housing_environment_percentile": 31.262,
+        "environment_index_0_100": 33.269,
+        "national_percentile": 13.631,
+        "score": 1,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008314",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 87094,
+        "quiet_population_covered": 87094,
+        "green_population_covered": 87094,
+        "housing_environment_population_covered": 87094,
+        "population_expected": 87094,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -857,12 +1277,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Strong riverside cultural assets and regeneration coexist with large traffic corridors and uneven post-industrial fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.0332,
+        "no2_ug_m3": 11.812,
+        "pm25_ug_m3": 6.246,
+        "pm10_ug_m3": 10.04,
+        "noise_exposed_pct": 44.262,
+        "green_within_300m_pct": 85.999,
+        "green_area_within_1000m_m2": 294016.03,
+        "epc_sap_mean": 65.953,
+        "air_percentile": 52.603,
+        "quiet_percentile": 18.663,
+        "green_percentile": 89.264,
+        "housing_environment_percentile": 57.681,
+        "environment_index_0_100": 54.553,
+        "national_percentile": 61.586,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007200",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 114825,
+        "quiet_population_covered": 114825,
+        "green_population_covered": 114825,
+        "housing_environment_population_covered": 114825,
+        "population_expected": 114825,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -911,12 +1359,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "favourable",
+      "residentialEnvironment": {
+        "air_burden": 0.9619,
+        "no2_ug_m3": 8.668,
+        "pm25_ug_m3": 6.587,
+        "pm10_ug_m3": 10.521,
+        "noise_exposed_pct": 24.503,
+        "green_within_300m_pct": 82.689,
+        "green_area_within_1000m_m2": 239095.83,
+        "epc_sap_mean": 65.666,
+        "air_percentile": 63.889,
+        "quiet_percentile": 90.473,
+        "green_percentile": 75.918,
+        "housing_environment_percentile": 51.044,
+        "environment_index_0_100": 70.331,
+        "national_percentile": 90.175,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63011389",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 118562,
+        "quiet_population_covered": 118562,
+        "green_population_covered": 118562,
+        "housing_environment_population_covered": 118562,
+        "population_expected": 118562,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Historic core and renewed docks support a favourable broad judgement, although arterial and edge areas are mixed."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -965,12 +1441,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Outstanding civic and industrial architecture is tempered by deprivation and uneven upkeep in parts of the town."
+      "residentialEnvironment": {
+        "air_burden": 0.9534,
+        "no2_ug_m3": 8.743,
+        "pm25_ug_m3": 6.585,
+        "pm10_ug_m3": 10.032,
+        "noise_exposed_pct": 38.78,
+        "green_within_300m_pct": 65.409,
+        "green_area_within_1000m_m2": 162092.24,
+        "epc_sap_mean": 61.502,
+        "air_percentile": 65.111,
+        "quiet_percentile": 31.894,
+        "green_percentile": 36.726,
+        "housing_environment_percentile": 4.975,
+        "environment_index_0_100": 34.676,
+        "national_percentile": 15.653,
+        "score": 1,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007966",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 89394,
+        "quiet_population_covered": 89394,
+        "green_population_covered": 89394,
+        "housing_environment_population_covered": 89394,
+        "population_expected": 89394,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1019,12 +1523,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "The marina and heritage areas are positives, while deprivation and extensive industrial/post-industrial fabric reduce consistency."
+      "residentialEnvironment": {
+        "air_burden": 0.8124,
+        "no2_ug_m3": 7.224,
+        "pm25_ug_m3": 5.467,
+        "pm10_ug_m3": 9.318,
+        "noise_exposed_pct": 29.213,
+        "green_within_300m_pct": 60.604,
+        "green_area_within_1000m_m2": 143714.33,
+        "epc_sap_mean": 65.816,
+        "air_percentile": 85.509,
+        "quiet_percentile": 77.164,
+        "green_percentile": 28.286,
+        "housing_environment_percentile": 54.524,
+        "environment_index_0_100": 61.371,
+        "national_percentile": 76.576,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007337",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 88001,
+        "quiet_population_covered": 88001,
+        "green_population_covered": 88001,
+        "housing_environment_population_covered": 88001,
+        "population_expected": 88001,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1073,12 +1605,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Strong stone architecture and landscape setting are balanced by traffic-heavy approaches and uneven central upkeep."
+      "residentialEnvironment": {
+        "air_burden": 1.0649,
+        "no2_ug_m3": 10.784,
+        "pm25_ug_m3": 6.989,
+        "pm10_ug_m3": 10.78,
+        "noise_exposed_pct": 36.294,
+        "green_within_300m_pct": 82.219,
+        "green_area_within_1000m_m2": 121814.53,
+        "epc_sap_mean": 63.505,
+        "air_percentile": 43.686,
+        "quiet_percentile": 41.966,
+        "green_percentile": 56.705,
+        "housing_environment_percentile": 14.995,
+        "environment_index_0_100": 39.338,
+        "national_percentile": 26.133,
+        "score": 2,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008114",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 140930,
+        "quiet_population_covered": 140930,
+        "green_population_covered": 140930,
+        "housing_environment_population_covered": 140930,
+        "population_expected": 140930,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1127,12 +1687,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Renewed old town and waterfront areas coexist with extensive deprived and industrial urban fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.1035,
+        "no2_ug_m3": 9.941,
+        "pm25_ug_m3": 7.435,
+        "pm10_ug_m3": 12.444,
+        "noise_exposed_pct": 20.798,
+        "green_within_300m_pct": 68.489,
+        "green_area_within_1000m_m2": 200784.5,
+        "epc_sap_mean": 65.782,
+        "air_percentile": 35.787,
+        "quiet_percentile": 97.062,
+        "green_percentile": 49.084,
+        "housing_environment_percentile": 54.234,
+        "environment_index_0_100": 59.042,
+        "national_percentile": 71.365,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007930",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 270816,
+        "quiet_population_covered": 270816,
+        "green_population_covered": 270816,
+        "housing_environment_population_covered": 270816,
+        "population_expected": 270816,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1181,12 +1769,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Waterfront renewal and historic fabric are balanced by uneven centre, arterial and industrial areas."
+      "residentialEnvironment": {
+        "air_burden": 1.0902,
+        "no2_ug_m3": 9.826,
+        "pm25_ug_m3": 7.388,
+        "pm10_ug_m3": 12.156,
+        "noise_exposed_pct": 36.165,
+        "green_within_300m_pct": 63.248,
+        "green_area_within_1000m_m2": 218875.45,
+        "epc_sap_mean": 65.718,
+        "air_percentile": 39.189,
+        "quiet_percentile": 43.653,
+        "green_percentile": 43.197,
+        "housing_environment_percentile": 52.171,
+        "environment_index_0_100": 44.552,
+        "national_percentile": 38.052,
+        "score": 2,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63010852",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 151566,
+        "quiet_population_covered": 151566,
+        "green_population_covered": 151566,
+        "housing_environment_population_covered": 151566,
+        "population_expected": 151566,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1235,12 +1851,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Historic pockets and ordinary maintained suburbs are balanced by traffic and commercial-edge fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.1011,
+        "no2_ug_m3": 9.814,
+        "pm25_ug_m3": 7.433,
+        "pm10_ug_m3": 12.531,
+        "noise_exposed_pct": 29.821,
+        "green_within_300m_pct": 73.483,
+        "green_area_within_1000m_m2": 206343.65,
+        "epc_sap_mean": 65.453,
+        "air_percentile": 37.04,
+        "quiet_percentile": 73.936,
+        "green_percentile": 59.293,
+        "housing_environment_percentile": 46.497,
+        "environment_index_0_100": 54.192,
+        "national_percentile": 60.931,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63010129",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 63149,
+        "quiet_population_covered": 63149,
+        "green_population_covered": 63149,
+        "housing_environment_population_covered": 63149,
+        "population_expected": 63149,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1289,12 +1933,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "favourable",
+      "residentialEnvironment": {
+        "air_burden": 0.7824,
+        "no2_ug_m3": 6.91,
+        "pm25_ug_m3": 5.401,
+        "pm10_ug_m3": 8.639,
+        "noise_exposed_pct": 43.597,
+        "green_within_300m_pct": 87.418,
+        "green_area_within_1000m_m2": 260702.78,
+        "epc_sap_mean": 65.111,
+        "air_percentile": 88.244,
+        "quiet_percentile": 19.573,
+        "green_percentile": 82.369,
+        "housing_environment_percentile": 37.344,
+        "environment_index_0_100": 56.883,
+        "national_percentile": 66.831,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007656",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 52646,
+        "quiet_population_covered": 52646,
+        "green_population_covered": 52646,
+        "housing_environment_population_covered": 52646,
+        "population_expected": 52646,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Coherent historic architecture, river and nearby landscape support a favourable broad condition judgement."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1343,12 +2015,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
+      "residentialEnvironment": {
+        "air_burden": 1.2185,
+        "no2_ug_m3": 13.658,
+        "pm25_ug_m3": 7.49,
+        "pm10_ug_m3": 11.878,
+        "noise_exposed_pct": 36.276,
+        "green_within_300m_pct": 71.614,
+        "green_area_within_1000m_m2": 241309.52,
+        "epc_sap_mean": 64.841,
+        "air_percentile": 24.404,
+        "quiet_percentile": 43.095,
+        "green_percentile": 61.995,
+        "housing_environment_percentile": 34.054,
+        "environment_index_0_100": 40.887,
+        "national_percentile": 29.09,
+        "score": 2,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007883",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 536262,
+        "quiet_population_covered": 536262,
+        "green_population_covered": 536262,
+        "housing_environment_population_covered": 536262,
+        "population_expected": 536262,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A strong renewed centre, civic fabric and parks support pleasantness, though conditions vary considerably."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1397,12 +2097,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Historic and renewed central pockets coexist with traffic-heavy and uneven fabric, yielding a mixed judgement."
+      "residentialEnvironment": {
+        "air_burden": 1.2706,
+        "no2_ug_m3": 13.877,
+        "pm25_ug_m3": 7.877,
+        "pm10_ug_m3": 12.728,
+        "noise_exposed_pct": 27.838,
+        "green_within_300m_pct": 73.947,
+        "green_area_within_1000m_m2": 270555.78,
+        "epc_sap_mean": 64.025,
+        "air_percentile": 20.435,
+        "quiet_percentile": 81.815,
+        "green_percentile": 73.569,
+        "housing_environment_percentile": 22.06,
+        "environment_index_0_100": 49.47,
+        "national_percentile": 52.606,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63009743",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 406331,
+        "quiet_population_covered": 406331,
+        "green_population_covered": 406331,
+        "housing_environment_population_covered": 406331,
+        "population_expected": 406331,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1451,12 +2179,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "favourable",
+      "residentialEnvironment": {
+        "air_burden": 1.0915,
+        "no2_ug_m3": 8.181,
+        "pm25_ug_m3": 7.773,
+        "pm10_ug_m3": 13.529,
+        "noise_exposed_pct": 29.805,
+        "green_within_300m_pct": 56.737,
+        "green_area_within_1000m_m2": 200673.57,
+        "epc_sap_mean": 66.864,
+        "air_percentile": 38.746,
+        "quiet_percentile": 74.131,
+        "green_percentile": 34.392,
+        "housing_environment_percentile": 73.432,
+        "environment_index_0_100": 55.175,
+        "national_percentile": 63.569,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008729",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 104553,
+        "quiet_population_covered": 104553,
+        "green_population_covered": 104553,
+        "housing_environment_population_covered": 104553,
+        "population_expected": 104553,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Cathedral-quarter heritage and a distinctive setting support a favourable judgement despite mixed lower-city approaches."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1505,12 +2261,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
+      "residentialEnvironment": {
+        "air_burden": 1.099,
+        "no2_ug_m3": 12.571,
+        "pm25_ug_m3": 6.692,
+        "pm10_ug_m3": 10.521,
+        "noise_exposed_pct": 34.008,
+        "green_within_300m_pct": 72.865,
+        "green_area_within_1000m_m2": 286005.96,
+        "epc_sap_mean": 65.858,
+        "air_percentile": 38.033,
+        "quiet_percentile": 52.793,
+        "green_percentile": 73.902,
+        "housing_environment_percentile": 55.971,
+        "environment_index_0_100": 55.175,
+        "national_percentile": 63.383,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008477",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 506768,
+        "quiet_population_covered": 506768,
+        "green_population_covered": 506768,
+        "housing_environment_population_covered": 506768,
+        "population_expected": 506768,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Exceptional civic and waterfront fabric plus renewal outweigh, but do not remove, marked variation and deprived areas."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1559,12 +2343,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A functional centre and greener university/residential fabric are balanced by ordinary industrial and arterial areas."
+      "residentialEnvironment": {
+        "air_burden": 1.0602,
+        "no2_ug_m3": 9.721,
+        "pm25_ug_m3": 7.099,
+        "pm10_ug_m3": 11.832,
+        "noise_exposed_pct": 29.56,
+        "green_within_300m_pct": 61.816,
+        "green_area_within_1000m_m2": 110576.34,
+        "epc_sap_mean": 66.437,
+        "air_percentile": 44.457,
+        "quiet_percentile": 75.351,
+        "green_percentile": 24.743,
+        "housing_environment_percentile": 66.505,
+        "environment_index_0_100": 52.764,
+        "national_percentile": 57.852,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63009412",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 64299,
+        "quiet_population_covered": 64299,
+        "green_population_covered": 64299,
+        "housing_environment_population_covered": 64299,
+        "population_expected": 64299,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1613,12 +2425,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "favourable",
+      "residentialEnvironment": {
+        "air_burden": 1.3054,
+        "no2_ug_m3": 15.598,
+        "pm25_ug_m3": 7.752,
+        "pm10_ug_m3": 12.091,
+        "noise_exposed_pct": 41.841,
+        "green_within_300m_pct": 70.407,
+        "green_area_within_1000m_m2": 235160.38,
+        "epc_sap_mean": 67.486,
+        "air_percentile": 15.8,
+        "quiet_percentile": 23.657,
+        "green_percentile": 57.734,
+        "housing_environment_percentile": 81.479,
+        "environment_index_0_100": 44.668,
+        "national_percentile": 39.214,
+        "score": 2,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008401",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 470736,
+        "quiet_population_covered": 470736,
+        "green_population_covered": 470736,
+        "housing_environment_population_covered": 470736,
+        "population_expected": 470736,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Extensive renewal, civic architecture and active public realm support a favourable score despite pronounced spatial inequality."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1667,12 +2507,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV002;ENV004;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Dramatic landscape and heritage are offset by concentrated deprivation and uneven post-industrial town fabric."
+      "residentialEnvironment": {
+        "air_burden": 0.685,
+        "no2_ug_m3": 5.211,
+        "pm25_ug_m3": 5.027,
+        "pm10_ug_m3": 7.93,
+        "noise_exposed_pct": 36.136,
+        "green_within_300m_pct": 72.301,
+        "green_area_within_1000m_m2": 228797.43,
+        "epc_sap_mean": 65.543,
+        "air_percentile": 95.286,
+        "quiet_percentile": 38.174,
+        "green_percentile": 59.879,
+        "housing_environment_percentile": 55.933,
+        "environment_index_0_100": 62.318,
+        "national_percentile": 78.318,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "W45001012",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 40817,
+        "quiet_population_covered": 40817,
+        "green_population_covered": 40817,
+        "housing_environment_population_covered": 40817,
+        "population_expected": 40817,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1721,12 +2589,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Regeneration and civic assets are outweighed in the broad screen by deprived, industrial and traffic-dominated fabric."
+      "residentialEnvironment": {
+        "air_burden": 0.9585,
+        "no2_ug_m3": 10.284,
+        "pm25_ug_m3": 5.933,
+        "pm10_ug_m3": 9.907,
+        "noise_exposed_pct": 31.952,
+        "green_within_300m_pct": 72.325,
+        "green_area_within_1000m_m2": 237014.49,
+        "epc_sap_mean": 65.37,
+        "air_percentile": 64.339,
+        "quiet_percentile": 63.413,
+        "green_percentile": 62.442,
+        "housing_environment_percentile": 43.566,
+        "environment_index_0_100": 58.44,
+        "national_percentile": 69.437,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007408",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 147862,
+        "quiet_population_covered": 147862,
+        "green_population_covered": 147862,
+        "housing_environment_population_covered": 147862,
+        "population_expected": 147862,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1775,12 +2671,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV002;ENV004;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Historic and landscape assets are balanced by traffic, industry and uneven post-industrial fabric."
+      "residentialEnvironment": {
+        "air_burden": 0.7219,
+        "no2_ug_m3": 6.63,
+        "pm25_ug_m3": 4.9,
+        "pm10_ug_m3": 7.839,
+        "noise_exposed_pct": 38.965,
+        "green_within_300m_pct": 68.877,
+        "green_area_within_1000m_m2": 118041.79,
+        "epc_sap_mean": 65.032,
+        "air_percentile": 93.277,
+        "quiet_percentile": 26.14,
+        "green_percentile": 36.317,
+        "housing_environment_percentile": 47.946,
+        "environment_index_0_100": 50.92,
+        "national_percentile": 55.243,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "W45001091",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 40738,
+        "quiet_population_covered": 40738,
+        "green_population_covered": 40738,
+        "housing_environment_population_covered": 40738,
+        "population_expected": 40738,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1829,12 +2753,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "favourable",
+      "residentialEnvironment": {
+        "air_burden": 1.0482,
+        "no2_ug_m3": 12.317,
+        "pm25_ug_m3": 6.251,
+        "pm10_ug_m3": 9.941,
+        "noise_exposed_pct": 41.426,
+        "green_within_300m_pct": 77.609,
+        "green_area_within_1000m_m2": 315273.91,
+        "epc_sap_mean": 66.982,
+        "air_percentile": 49.249,
+        "quiet_percentile": 25.893,
+        "green_percentile": 84.878,
+        "housing_environment_percentile": 75.321,
+        "environment_index_0_100": 58.835,
+        "national_percentile": 70.47,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007169",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 285852,
+        "quiet_population_covered": 285852,
+        "green_population_covered": 285852,
+        "housing_environment_population_covered": 285852,
+        "population_expected": 285852,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Strong historic streets, river setting and public realm support a favourable condition score despite uneven outer fabric."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1883,12 +2835,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV002;ENV004;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Riverfront renewal and heritage pockets are offset by substantial deprived, traffic-heavy and post-industrial fabric."
+      "residentialEnvironment": {
+        "air_burden": 0.9785,
+        "no2_ug_m3": 10.523,
+        "pm25_ug_m3": 6.037,
+        "pm10_ug_m3": 10.138,
+        "noise_exposed_pct": 38.798,
+        "green_within_300m_pct": 73.031,
+        "green_area_within_1000m_m2": 213199.69,
+        "epc_sap_mean": 67.117,
+        "air_percentile": 61.33,
+        "quiet_percentile": 31.085,
+        "green_percentile": 59.421,
+        "housing_environment_percentile": 89.971,
+        "environment_index_0_100": 60.452,
+        "national_percentile": 74.661,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "W45001174",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 130882,
+        "quiet_population_covered": 130882,
+        "green_population_covered": 130882,
+        "housing_environment_population_covered": 130882,
+        "population_expected": 130882,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1937,12 +2917,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Historic and maintained residential pockets are balanced by road-dominated growth and uneven central fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.1355,
+        "no2_ug_m3": 10.175,
+        "pm25_ug_m3": 7.542,
+        "pm10_ug_m3": 13.21,
+        "noise_exposed_pct": 29.894,
+        "green_within_300m_pct": 71.791,
+        "green_area_within_1000m_m2": 264163.4,
+        "epc_sap_mean": 67.264,
+        "air_percentile": 31.84,
+        "quiet_percentile": 73.395,
+        "green_percentile": 66.267,
+        "housing_environment_percentile": 78.861,
+        "environment_index_0_100": 62.591,
+        "national_percentile": 79.08,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63010463",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 243883,
+        "quiet_population_covered": 243883,
+        "green_population_covered": 243883,
+        "housing_environment_population_covered": 243883,
+        "population_expected": 243883,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -1991,12 +2999,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "highest",
+      "residentialEnvironment": {
+        "air_burden": 1.0674,
+        "no2_ug_m3": 9.142,
+        "pm25_ug_m3": 7.428,
+        "pm10_ug_m3": 12.035,
+        "noise_exposed_pct": 28.04,
+        "green_within_300m_pct": 60.468,
+        "green_area_within_1000m_m2": 157134.19,
+        "epc_sap_mean": 66.536,
+        "air_percentile": 43.259,
+        "quiet_percentile": 80.659,
+        "green_percentile": 29.986,
+        "housing_environment_percentile": 68.524,
+        "environment_index_0_100": 55.607,
+        "national_percentile": 64.38,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63009624",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 200492,
+        "quiet_population_covered": 200492,
+        "green_population_covered": 200492,
+        "housing_environment_population_covered": 200492,
+        "population_expected": 200492,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Exceptionally coherent historic fabric, waterways, parks and a generally attractive centre support the highest condition score."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2045,12 +3081,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "favourable",
+      "residentialEnvironment": {
+        "air_burden": 1.2561,
+        "no2_ug_m3": 13.912,
+        "pm25_ug_m3": 7.717,
+        "pm10_ug_m3": 12.506,
+        "noise_exposed_pct": 33.06,
+        "green_within_300m_pct": 72.33,
+        "green_area_within_1000m_m2": 230761.96,
+        "epc_sap_mean": 65.532,
+        "air_percentile": 21.855,
+        "quiet_percentile": 58.798,
+        "green_percentile": 61.074,
+        "housing_environment_percentile": 48.276,
+        "environment_index_0_100": 47.5,
+        "national_percentile": 45.096,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63009088",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 299786,
+        "quiet_population_covered": 299786,
+        "green_population_covered": 299786,
+        "housing_environment_population_covered": 299786,
+        "population_expected": 299786,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Historic, civic and renewed central districts plus strong parks support a favourable score despite spatial variation."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2099,12 +3163,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Cathedral and riverside assets are balanced by traffic-dominated modern growth and uneven central/edge fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.0864,
+        "no2_ug_m3": 9.414,
+        "pm25_ug_m3": 7.402,
+        "pm10_ug_m3": 12.562,
+        "noise_exposed_pct": 33.792,
+        "green_within_300m_pct": 87.119,
+        "green_area_within_1000m_m2": 263435.15,
+        "epc_sap_mean": 68.532,
+        "air_percentile": 40.128,
+        "quiet_percentile": 53.744,
+        "green_percentile": 83.164,
+        "housing_environment_percentile": 90.309,
+        "environment_index_0_100": 66.836,
+        "national_percentile": 86.404,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63009810",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 190592,
+        "quiet_population_covered": 190592,
+        "green_population_covered": 190592,
+        "housing_environment_population_covered": 190592,
+        "population_expected": 190592,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2153,12 +3245,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "favourable",
+      "residentialEnvironment": {
+        "air_burden": 0.83,
+        "no2_ug_m3": 7.383,
+        "pm25_ug_m3": 5.509,
+        "pm10_ug_m3": 9.746,
+        "noise_exposed_pct": 23.419,
+        "green_within_300m_pct": 73.91,
+        "green_area_within_1000m_m2": 189643.58,
+        "epc_sap_mean": 66.481,
+        "air_percentile": 83.6,
+        "quiet_percentile": 93.737,
+        "green_percentile": 57.19,
+        "housing_environment_percentile": 67.689,
+        "environment_index_0_100": 75.554,
+        "national_percentile": 95.069,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63014082",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 266970,
+        "quiet_population_covered": 266970,
+        "green_population_covered": 266970,
+        "housing_environment_population_covered": 266970,
+        "population_expected": 266970,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Waterfront, parks and historic assets support a favourable judgement despite reconstructed and uneven inner fabric."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2207,12 +3327,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
+      "residentialEnvironment": {
+        "air_burden": 1.0499,
+        "no2_ug_m3": 11.508,
+        "pm25_ug_m3": 6.58,
+        "pm10_ug_m3": 10.242,
+        "noise_exposed_pct": 36.658,
+        "green_within_300m_pct": 65.848,
+        "green_area_within_1000m_m2": 147872.57,
+        "epc_sap_mean": 65.608,
+        "air_percentile": 47.449,
+        "quiet_percentile": 40.614,
+        "green_percentile": 36.351,
+        "housing_environment_percentile": 50.14,
+        "environment_index_0_100": 43.638,
+        "national_percentile": 36.345,
+        "score": 2,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63013748",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 223324,
+        "quiet_population_covered": 223324,
+        "green_population_covered": 223324,
+        "housing_environment_population_covered": 223324,
+        "population_expected": 223324,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Historic waterfront, seafront and coherent terraces support pleasantness, despite density and traffic pressure."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2261,12 +3409,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Civic and park assets are balanced by traffic-heavy approaches and uneven centre/industrial fabric."
+      "residentialEnvironment": {
+        "air_burden": 0.9565,
+        "no2_ug_m3": 9.687,
+        "pm25_ug_m3": 6.157,
+        "pm10_ug_m3": 10.039,
+        "noise_exposed_pct": 41.255,
+        "green_within_300m_pct": 66.185,
+        "green_area_within_1000m_m2": 271830.14,
+        "epc_sap_mean": 65.167,
+        "air_percentile": 64.766,
+        "quiet_percentile": 26.254,
+        "green_percentile": 60.162,
+        "housing_environment_percentile": 39.433,
+        "environment_index_0_100": 47.654,
+        "national_percentile": 45.941,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007926",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 94502,
+        "quiet_population_covered": 94502,
+        "green_population_covered": 94502,
+        "housing_environment_population_covered": 94502,
+        "population_expected": 94502,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2315,12 +3491,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Renewal and heritage pockets are outweighed by extensive industrial, arterial and deprived urban fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.2065,
+        "no2_ug_m3": 12.548,
+        "pm25_ug_m3": 7.736,
+        "pm10_ug_m3": 12.261,
+        "noise_exposed_pct": 33.159,
+        "green_within_300m_pct": 56.364,
+        "green_area_within_1000m_m2": 250855.46,
+        "epc_sap_mean": 64.274,
+        "air_percentile": 25.387,
+        "quiet_percentile": 57.946,
+        "green_percentile": 43.044,
+        "housing_environment_percentile": 26.458,
+        "environment_index_0_100": 38.209,
+        "national_percentile": 22.348,
+        "score": 2,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008458",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 70761,
+        "quiet_population_covered": 70761,
+        "green_population_covered": 70761,
+        "housing_environment_population_covered": 70761,
+        "population_expected": 70761,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2369,12 +3573,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Major waterfront regeneration coexists with traffic infrastructure, deprivation and highly uneven urban fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.3543,
+        "no2_ug_m3": 16.613,
+        "pm25_ug_m3": 7.833,
+        "pm10_ug_m3": 12.526,
+        "noise_exposed_pct": 48.865,
+        "green_within_300m_pct": 77.075,
+        "green_area_within_1000m_m2": 254627.38,
+        "epc_sap_mean": 70.608,
+        "air_percentile": 12.528,
+        "quiet_percentile": 12.079,
+        "green_percentile": 73.753,
+        "housing_environment_percentile": 98.18,
+        "environment_index_0_100": 49.135,
+        "national_percentile": 51.503,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008377",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 108431,
+        "quiet_population_covered": 108431,
+        "green_population_covered": 108431,
+        "housing_environment_population_covered": 108431,
+        "population_expected": 108431,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2423,12 +3655,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "favourable",
+      "residentialEnvironment": {
+        "air_burden": 1.1031,
+        "no2_ug_m3": 10.884,
+        "pm25_ug_m3": 7.346,
+        "pm10_ug_m3": 11.278,
+        "noise_exposed_pct": 31.726,
+        "green_within_300m_pct": 72.157,
+        "green_area_within_1000m_m2": 273769.89,
+        "epc_sap_mean": 65.184,
+        "air_percentile": 36.699,
+        "quiet_percentile": 65.29,
+        "green_percentile": 70.756,
+        "housing_environment_percentile": 41.16,
+        "environment_index_0_100": 53.476,
+        "national_percentile": 59.997,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008489",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 500587,
+        "quiet_population_covered": 500587,
+        "green_population_covered": 500587,
+        "housing_environment_population_covered": 500587,
+        "population_expected": 500587,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Strong parks, stone neighbourhood fabric and renewed centre support a favourable judgement despite marked variation."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2477,12 +3737,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "highest",
+      "residentialEnvironment": {
+        "air_burden": 0.7815,
+        "no2_ug_m3": 5.552,
+        "pm25_ug_m3": 5.709,
+        "pm10_ug_m3": 9.714,
+        "noise_exposed_pct": 33.542,
+        "green_within_300m_pct": 75.629,
+        "green_area_within_1000m_m2": 116511.98,
+        "epc_sap_mean": 66.977,
+        "air_percentile": 88.413,
+        "quiet_percentile": 55.913,
+        "green_percentile": 49.204,
+        "housing_environment_percentile": 74.71,
+        "environment_index_0_100": 67.06,
+        "national_percentile": 86.871,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63009578",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 75784,
+        "quiet_population_covered": 75784,
+        "green_population_covered": 75784,
+        "housing_environment_population_covered": 75784,
+        "population_expected": 75784,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Exceptional historic fabric, river setting and coherent public realm support the highest broad condition score."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2531,12 +3819,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Regeneration efforts are offset by extensive post-industrial, deprived and traffic-dominated fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.0687,
+        "no2_ug_m3": 11.167,
+        "pm25_ug_m3": 6.811,
+        "pm10_ug_m3": 10.911,
+        "noise_exposed_pct": 32.57,
+        "green_within_300m_pct": 80.291,
+        "green_area_within_1000m_m2": 278404.1,
+        "epc_sap_mean": 65.539,
+        "air_percentile": 42.858,
+        "quiet_percentile": 60.327,
+        "green_percentile": 83.1,
+        "housing_environment_percentile": 48.533,
+        "environment_index_0_100": 58.705,
+        "national_percentile": 69.905,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008434",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 107409,
+        "quiet_population_covered": 107409,
+        "green_population_covered": 107409,
+        "housing_environment_population_covered": 107409,
+        "population_expected": 107409,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2585,12 +3901,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "favourable",
+      "residentialEnvironment": {
+        "air_burden": 0.9423,
+        "no2_ug_m3": 7.568,
+        "pm25_ug_m3": 6.651,
+        "pm10_ug_m3": 11.096,
+        "noise_exposed_pct": 40.437,
+        "green_within_300m_pct": 49.769,
+        "green_area_within_1000m_m2": 139680.06,
+        "epc_sap_mean": 65.92,
+        "air_percentile": 66.846,
+        "quiet_percentile": 28.848,
+        "green_percentile": 20.585,
+        "housing_environment_percentile": 56.851,
+        "environment_index_0_100": 43.282,
+        "national_percentile": 35.417,
+        "score": 2,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63009353",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 71695,
+        "quiet_population_covered": 71695,
+        "green_population_covered": 71695,
+        "housing_environment_population_covered": 71695,
+        "population_expected": 71695,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Historic centre, waterways and generally maintained residential fabric support a favourable broad judgement."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2639,12 +3983,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "favourable",
+      "residentialEnvironment": {
+        "air_burden": 1.2083,
+        "no2_ug_m3": 13.243,
+        "pm25_ug_m3": 7.564,
+        "pm10_ug_m3": 11.819,
+        "noise_exposed_pct": 44.27,
+        "green_within_300m_pct": 82.549,
+        "green_area_within_1000m_m2": 321106.67,
+        "epc_sap_mean": 64.162,
+        "air_percentile": 24.97,
+        "quiet_percentile": 18.44,
+        "green_percentile": 88.932,
+        "housing_environment_percentile": 25.648,
+        "environment_index_0_100": 39.497,
+        "national_percentile": 26.604,
+        "score": 2,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008478",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 118146,
+        "quiet_population_covered": 118146,
+        "green_population_covered": 118146,
+        "housing_environment_population_covered": 118146,
+        "population_expected": 118146,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "A strong historic market core, viaduct and generally attractive residential fabric support a favourable score despite traffic corridors."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2693,12 +4065,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "High-street and riverside renewal is balanced by industrial, deprived and uneven surrounding fabric."
+      "residentialEnvironment": {
+        "air_burden": 0.903,
+        "no2_ug_m3": 9.021,
+        "pm25_ug_m3": 5.817,
+        "pm10_ug_m3": 9.652,
+        "noise_exposed_pct": 29.437,
+        "green_within_300m_pct": 65.444,
+        "green_area_within_1000m_m2": 181623.88,
+        "epc_sap_mean": 65.674,
+        "air_percentile": 74.037,
+        "quiet_percentile": 76.042,
+        "green_percentile": 39.846,
+        "housing_environment_percentile": 51.323,
+        "environment_index_0_100": 60.312,
+        "national_percentile": 74.289,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007405",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 84824,
+        "quiet_population_covered": 84824,
+        "green_population_covered": 84824,
+        "housing_environment_population_covered": 84824,
+        "population_expected": 84824,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2747,12 +4147,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Ceramic heritage and renewal pockets are offset by vacancy, deprivation and fragmented post-industrial urban fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.0693,
+        "no2_ug_m3": 10.286,
+        "pm25_ug_m3": 7.119,
+        "pm10_ug_m3": 11.334,
+        "noise_exposed_pct": 36.657,
+        "green_within_300m_pct": 88.269,
+        "green_area_within_1000m_m2": 449338.29,
+        "epc_sap_mean": 64.71,
+        "air_percentile": 42.571,
+        "quiet_percentile": 41.099,
+        "green_percentile": 95.733,
+        "housing_environment_percentile": 31.813,
+        "environment_index_0_100": 52.804,
+        "national_percentile": 58.38,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63009014",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 260001,
+        "quiet_population_covered": 260001,
+        "green_population_covered": 260001,
+        "housing_environment_population_covered": 260001,
+        "population_expected": 260001,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2801,12 +4229,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Seafront and renewed riverside/civic areas are positives, while deprived and post-industrial fabric remains extensive."
+      "residentialEnvironment": {
+        "air_burden": 0.9426,
+        "no2_ug_m3": 9.663,
+        "pm25_ug_m3": 5.992,
+        "pm10_ug_m3": 9.948,
+        "noise_exposed_pct": 41.517,
+        "green_within_300m_pct": 57.363,
+        "green_area_within_1000m_m2": 155661.37,
+        "epc_sap_mean": 65.463,
+        "air_percentile": 66.705,
+        "quiet_percentile": 25.275,
+        "green_percentile": 26.725,
+        "housing_environment_percentile": 47.016,
+        "environment_index_0_100": 41.43,
+        "national_percentile": 30.805,
+        "score": 2,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007220",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 167989,
+        "quiet_population_covered": 167989,
+        "green_population_covered": 167989,
+        "housing_environment_population_covered": 167989,
+        "population_expected": 167989,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2855,12 +4311,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "favourable",
+      "residentialEnvironment": {
+        "air_burden": 0.7385,
+        "no2_ug_m3": 7.241,
+        "pm25_ug_m3": 4.914,
+        "pm10_ug_m3": 7.629,
+        "noise_exposed_pct": 29.98,
+        "green_within_300m_pct": 66.862,
+        "green_area_within_1000m_m2": 217926.83,
+        "epc_sap_mean": 64.466,
+        "air_percentile": 92.109,
+        "quiet_percentile": 70.897,
+        "green_percentile": 49.279,
+        "housing_environment_percentile": 42.494,
+        "environment_index_0_100": 63.695,
+        "national_percentile": 80.841,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "W45001113",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 169795,
+        "quiet_population_covered": 169795,
+        "green_population_covered": 169795,
+        "housing_environment_population_covered": 169795,
+        "population_expected": 169795,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV002;ENV004;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Bay, parks and waterfront renewal support a favourable judgement despite uneven centre and post-industrial corridors."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2909,12 +4393,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Maintained residential and park areas are balanced by road-dominated modern form and uneven central fabric."
+      "residentialEnvironment": {
+        "air_burden": 0.9764,
+        "no2_ug_m3": 8.579,
+        "pm25_ug_m3": 6.73,
+        "pm10_ug_m3": 10.879,
+        "noise_exposed_pct": 24.115,
+        "green_within_300m_pct": 89.341,
+        "green_area_within_1000m_m2": 307721.36,
+        "epc_sap_mean": 68.386,
+        "air_percentile": 61.937,
+        "quiet_percentile": 91.625,
+        "green_percentile": 92.337,
+        "housing_environment_percentile": 89.241,
+        "environment_index_0_100": 83.785,
+        "national_percentile": 99.485,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63011979",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 183687,
+        "quiet_population_covered": 183687,
+        "green_population_covered": 183687,
+        "housing_environment_population_covered": 183687,
+        "population_expected": 183687,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -2963,12 +4475,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Green space and maintained newer districts are balanced by fragmented, car-oriented townscape and industrial edges."
+      "residentialEnvironment": {
+        "air_burden": 0.858,
+        "no2_ug_m3": 6.364,
+        "pm25_ug_m3": 6.227,
+        "pm10_ug_m3": 10.381,
+        "noise_exposed_pct": 31.204,
+        "green_within_300m_pct": 90.532,
+        "green_area_within_1000m_m2": 223016.9,
+        "epc_sap_mean": 68.565,
+        "air_percentile": 80.366,
+        "quiet_percentile": 67.225,
+        "green_percentile": 77.385,
+        "housing_environment_percentile": 90.996,
+        "environment_index_0_100": 78.993,
+        "national_percentile": 97.685,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63009565",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 156326,
+        "quiet_population_covered": 156326,
+        "green_population_covered": 156326,
+        "housing_environment_population_covered": 156326,
+        "population_expected": 156326,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -3017,12 +4557,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "favourable",
+      "residentialEnvironment": {
+        "air_burden": 0.7213,
+        "no2_ug_m3": 4.867,
+        "pm25_ug_m3": 5.344,
+        "pm10_ug_m3": 9.123,
+        "noise_exposed_pct": 22.317,
+        "green_within_300m_pct": 71.057,
+        "green_area_within_1000m_m2": 130757.54,
+        "epc_sap_mean": 63.717,
+        "air_percentile": 93.291,
+        "quiet_percentile": 95.326,
+        "green_percentile": 41.067,
+        "housing_environment_percentile": 17.714,
+        "environment_index_0_100": 61.849,
+        "national_percentile": 77.289,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63014039;E63014055;E63014084",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 137645,
+        "quiet_population_covered": 137645,
+        "green_population_covered": 137645,
+        "housing_environment_population_covered": 137645,
+        "population_expected": 137645,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Coastal scenery, parks and resort heritage support a favourable score despite pockets of deprivation and uneven upkeep."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -3071,12 +4639,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Historic and cultural assets are balanced by traffic infrastructure and uneven post-industrial urban fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.1213,
+        "no2_ug_m3": 11.253,
+        "pm25_ug_m3": 7.197,
+        "pm10_ug_m3": 11.988,
+        "noise_exposed_pct": 38.284,
+        "green_within_300m_pct": 73.171,
+        "green_area_within_1000m_m2": 261063.53,
+        "epc_sap_mean": 65.899,
+        "air_percentile": 33.108,
+        "quiet_percentile": 33.505,
+        "green_percentile": 68.456,
+        "housing_environment_percentile": 56.463,
+        "environment_index_0_100": 47.883,
+        "national_percentile": 46.801,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008062",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 97656,
+        "quiet_population_covered": 97656,
+        "green_population_covered": 97656,
+        "housing_environment_population_covered": 97656,
+        "population_expected": 97656,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -3125,12 +4721,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Civic and park pockets are outweighed by traffic-dominated, industrial and deprived urban fabric in the broad screen."
+      "residentialEnvironment": {
+        "air_burden": 1.3849,
+        "no2_ug_m3": 15.545,
+        "pm25_ug_m3": 8.366,
+        "pm10_ug_m3": 13.906,
+        "noise_exposed_pct": 47.675,
+        "green_within_300m_pct": 64.561,
+        "green_area_within_1000m_m2": 214450.85,
+        "epc_sap_mean": 63.352,
+        "air_percentile": 11.358,
+        "quiet_percentile": 13.579,
+        "green_percentile": 44.3,
+        "housing_environment_percentile": 13.967,
+        "environment_index_0_100": 20.801,
+        "national_percentile": 0.49,
+        "score": 1,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63009845",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 70777,
+        "quiet_population_covered": 70777,
+        "green_population_covered": 70777,
+        "housing_environment_population_covered": 70777,
+        "population_expected": 70777,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -3179,12 +4803,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Waterways and maintained districts are balanced by logistics, road infrastructure and a mixed town centre."
+      "residentialEnvironment": {
+        "air_burden": 1.0412,
+        "no2_ug_m3": 10.809,
+        "pm25_ug_m3": 6.597,
+        "pm10_ug_m3": 10.849,
+        "noise_exposed_pct": 38.522,
+        "green_within_300m_pct": 84.123,
+        "green_area_within_1000m_m2": 282618.63,
+        "epc_sap_mean": 66.776,
+        "air_percentile": 50.591,
+        "quiet_percentile": 32.651,
+        "green_percentile": 86.436,
+        "housing_environment_percentile": 72.156,
+        "environment_index_0_100": 60.459,
+        "national_percentile": 74.97,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008488",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 174064,
+        "quiet_population_covered": 174064,
+        "green_population_covered": 174064,
+        "housing_environment_population_covered": 174064,
+        "population_expected": 174064,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -3233,12 +4885,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Renewal and historic pockets are balanced by post-industrial, traffic-heavy and uneven centre fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.0367,
+        "no2_ug_m3": 10.53,
+        "pm25_ug_m3": 6.658,
+        "pm10_ug_m3": 10.882,
+        "noise_exposed_pct": 33.287,
+        "green_within_300m_pct": 68.811,
+        "green_area_within_1000m_m2": 239144.3,
+        "epc_sap_mean": 64.966,
+        "air_percentile": 51.963,
+        "quiet_percentile": 57.603,
+        "green_percentile": 55.615,
+        "housing_environment_percentile": 36.181,
+        "environment_index_0_100": 50.34,
+        "national_percentile": 54.424,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63008282",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 81514,
+        "quiet_population_covered": 81514,
+        "green_population_covered": 81514,
+        "housing_environment_population_covered": 81514,
+        "population_expected": 81514,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -3287,12 +4967,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Civic assets and renewal are offset by extensive deprived, traffic-dominated and post-industrial fabric."
+      "residentialEnvironment": {
+        "air_burden": 1.1198,
+        "no2_ug_m3": 11.276,
+        "pm25_ug_m3": 7.324,
+        "pm10_ug_m3": 11.504,
+        "noise_exposed_pct": 32.359,
+        "green_within_300m_pct": 59.986,
+        "green_area_within_1000m_m2": 174911.8,
+        "epc_sap_mean": 63.531,
+        "air_percentile": 33.637,
+        "quiet_percentile": 62.042,
+        "green_percentile": 32.142,
+        "housing_environment_percentile": 15.611,
+        "environment_index_0_100": 35.858,
+        "national_percentile": 16.908,
+        "score": 1,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63009805",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 233643,
+        "quiet_population_covered": 233643,
+        "green_population_covered": 233643,
+        "housing_environment_population_covered": 233643,
+        "population_expected": 233643,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -3341,12 +5049,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "highest",
+      "residentialEnvironment": {
+        "air_burden": 0.9108,
+        "no2_ug_m3": 7.456,
+        "pm25_ug_m3": 6.441,
+        "pm10_ug_m3": 10.478,
+        "noise_exposed_pct": 33.64,
+        "green_within_300m_pct": 56.373,
+        "green_area_within_1000m_m2": 131450.66,
+        "epc_sap_mean": 65.553,
+        "air_percentile": 72.605,
+        "quiet_percentile": 55.28,
+        "green_percentile": 22.523,
+        "housing_environment_percentile": 48.786,
+        "environment_index_0_100": 49.799,
+        "national_percentile": 53.218,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63010595",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 105439,
+        "quiet_population_covered": 105439,
+        "green_population_covered": 105439,
+        "housing_environment_population_covered": 105439,
+        "population_expected": 105439,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
         "confidence": "Medium",
-        "evidence_ids": "ENV001;ENV003;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Coherent historic centre, river setting and generally attractive urban fabric support the highest condition score."
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -3395,12 +5131,40 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {
-        "assessment": "mixed",
-        "confidence": "Low",
-        "evidence_ids": "ENV002;ENV004;ENV005",
-        "method_version": "broad-assessment-v1",
-        "reason": "Historic and maintained pockets are balanced by industrial edges and a mixed, sometimes uneven centre."
+      "residentialEnvironment": {
+        "air_burden": 0.8535,
+        "no2_ug_m3": 7.293,
+        "pm25_ug_m3": 5.977,
+        "pm10_ug_m3": 9.538,
+        "noise_exposed_pct": 28.529,
+        "green_within_300m_pct": 82.634,
+        "green_area_within_1000m_m2": 272123.72,
+        "epc_sap_mean": 66.543,
+        "air_percentile": 81.174,
+        "quiet_percentile": 78.387,
+        "green_percentile": 83.659,
+        "housing_environment_percentile": 65.438,
+        "environment_index_0_100": 77.165,
+        "national_percentile": 96.545,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "W45000777",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 44277,
+        "quiet_population_covered": 44277,
+        "green_population_covered": 44277,
+        "housing_environment_population_covered": 44277,
+        "population_expected": 44277,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
       }
     },
     {
@@ -3449,7 +5213,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 1.0489,
+        "no2_ug_m3": 11.357,
+        "pm25_ug_m3": 6.572,
+        "pm10_ug_m3": 10.448,
+        "noise_exposed_pct": 28.616,
+        "green_within_300m_pct": 77.034,
+        "green_area_within_1000m_m2": 301013.14,
+        "epc_sap_mean": 65.431,
+        "air_percentile": 48.381,
+        "quiet_percentile": 79.132,
+        "green_percentile": 82.572,
+        "housing_environment_percentile": 45.475,
+        "environment_index_0_100": 63.89,
+        "national_percentile": 81.71,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63012168",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 425196,
+        "quiet_population_covered": 425196,
+        "green_population_covered": 425196,
+        "housing_environment_population_covered": 425196,
+        "population_expected": 425196,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "southampton",
@@ -3497,7 +5295,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 1.0438,
+        "no2_ug_m3": 11.682,
+        "pm25_ug_m3": 6.488,
+        "pm10_ug_m3": 9.985,
+        "noise_exposed_pct": 37.054,
+        "green_within_300m_pct": 63.144,
+        "green_area_within_1000m_m2": 242465.0,
+        "epc_sap_mean": 66.188,
+        "air_percentile": 50.014,
+        "quiet_percentile": 39.497,
+        "green_percentile": 48.157,
+        "housing_environment_percentile": 62.094,
+        "environment_index_0_100": 49.941,
+        "national_percentile": 53.718,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63013524",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 249633,
+        "quiet_population_covered": 249633,
+        "green_population_covered": 249633,
+        "housing_environment_population_covered": 249633,
+        "population_expected": 249633,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "bournemouth-poole",
@@ -3545,7 +5377,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 0.8823,
+        "no2_ug_m3": 8.55,
+        "pm25_ug_m3": 5.95,
+        "pm10_ug_m3": 9.029,
+        "noise_exposed_pct": 27.928,
+        "green_within_300m_pct": 64.539,
+        "green_area_within_1000m_m2": 191735.21,
+        "epc_sap_mean": 65.805,
+        "air_percentile": 77.207,
+        "quiet_percentile": 80.873,
+        "green_percentile": 40.517,
+        "housing_environment_percentile": 54.358,
+        "environment_index_0_100": 63.239,
+        "national_percentile": 80.031,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63013847;E63013860",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 337141,
+        "quiet_population_covered": 337141,
+        "green_population_covered": 337141,
+        "housing_environment_population_covered": 337141,
+        "population_expected": 337141,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "brighton-hove",
@@ -3593,7 +5459,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 0.9797,
+        "no2_ug_m3": 9.14,
+        "pm25_ug_m3": 6.706,
+        "pm10_ug_m3": 10.26,
+        "noise_exposed_pct": 33.767,
+        "green_within_300m_pct": 61.33,
+        "green_area_within_1000m_m2": 145039.21,
+        "epc_sap_mean": 65.432,
+        "air_percentile": 61.027,
+        "quiet_percentile": 54.427,
+        "green_percentile": 29.405,
+        "housing_environment_percentile": 45.992,
+        "environment_index_0_100": 47.713,
+        "national_percentile": 46.479,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63013666",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 277096,
+        "quiet_population_covered": 277096,
+        "green_population_covered": 277096,
+        "housing_environment_population_covered": 277096,
+        "population_expected": 277096,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "exeter",
@@ -3641,7 +5541,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 0.7838,
+        "no2_ug_m3": 6.161,
+        "pm25_ug_m3": 5.519,
+        "pm10_ug_m3": 9.474,
+        "noise_exposed_pct": 25.823,
+        "green_within_300m_pct": 70.068,
+        "green_area_within_1000m_m2": 180754.43,
+        "epc_sap_mean": 67.431,
+        "air_percentile": 88.002,
+        "quiet_percentile": 87.617,
+        "green_percentile": 47.631,
+        "housing_environment_percentile": 80.514,
+        "environment_index_0_100": 75.941,
+        "national_percentile": 95.761,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63013856",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 126522,
+        "quiet_population_covered": 126522,
+        "green_population_covered": 126522,
+        "housing_environment_population_covered": 126522,
+        "population_expected": 126522,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "reading",
@@ -3689,7 +5623,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 1.0535,
+        "no2_ug_m3": 9.928,
+        "pm25_ug_m3": 7.109,
+        "pm10_ug_m3": 11.187,
+        "noise_exposed_pct": 35.685,
+        "green_within_300m_pct": 58.762,
+        "green_area_within_1000m_m2": 166494.69,
+        "epc_sap_mean": 66.022,
+        "air_percentile": 46.657,
+        "quiet_percentile": 45.517,
+        "green_percentile": 29.469,
+        "housing_environment_percentile": 59.341,
+        "environment_index_0_100": 45.246,
+        "national_percentile": 40.274,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63012182",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 203097,
+        "quiet_population_covered": 203097,
+        "green_population_covered": 203097,
+        "housing_environment_population_covered": 203097,
+        "population_expected": 203097,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "milton-keynes",
@@ -3737,7 +5705,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 1.0634,
+        "no2_ug_m3": 9.069,
+        "pm25_ug_m3": 7.294,
+        "pm10_ug_m3": 12.367,
+        "noise_exposed_pct": 26.745,
+        "green_within_300m_pct": 95.778,
+        "green_area_within_1000m_m2": 477511.84,
+        "epc_sap_mean": 70.547,
+        "air_percentile": 44.147,
+        "quiet_percentile": 85.614,
+        "green_percentile": 98.414,
+        "housing_environment_percentile": 97.936,
+        "environment_index_0_100": 81.528,
+        "national_percentile": 98.758,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63010901",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 194584,
+        "quiet_population_covered": 194584,
+        "green_population_covered": 194584,
+        "housing_environment_population_covered": 194584,
+        "population_expected": 194584,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "luton",
@@ -3785,7 +5787,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 1.1753,
+        "no2_ug_m3": 11.761,
+        "pm25_ug_m3": 7.558,
+        "pm10_ug_m3": 12.575,
+        "noise_exposed_pct": 40.963,
+        "green_within_300m_pct": 63.274,
+        "green_area_within_1000m_m2": 239386.32,
+        "epc_sap_mean": 64.462,
+        "air_percentile": 28.082,
+        "quiet_percentile": 27.408,
+        "green_percentile": 47.328,
+        "housing_environment_percentile": 28.081,
+        "environment_index_0_100": 32.725,
+        "national_percentile": 13.246,
+        "score": 1,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63011256",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 233524,
+        "quiet_population_covered": 233524,
+        "green_population_covered": 233524,
+        "housing_environment_population_covered": 233524,
+        "population_expected": 233524,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "southend-on-sea",
@@ -3833,7 +5869,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 1.082,
+        "no2_ug_m3": 10.253,
+        "pm25_ug_m3": 7.342,
+        "pm10_ug_m3": 11.287,
+        "noise_exposed_pct": 34.833,
+        "green_within_300m_pct": 47.947,
+        "green_area_within_1000m_m2": 139369.25,
+        "epc_sap_mean": 61.806,
+        "air_percentile": 40.963,
+        "quiet_percentile": 49.238,
+        "green_percentile": 19.971,
+        "housing_environment_percentile": 5.702,
+        "environment_index_0_100": 28.968,
+        "national_percentile": 7.409,
+        "score": 1,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63011939",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 182295,
+        "quiet_population_covered": 182295,
+        "green_population_covered": 182295,
+        "housing_environment_population_covered": 182295,
+        "population_expected": 182295,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "cambridge",
@@ -3881,7 +5951,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 1.057,
+        "no2_ug_m3": 8.679,
+        "pm25_ug_m3": 7.389,
+        "pm10_ug_m3": 12.379,
+        "noise_exposed_pct": 31.617,
+        "green_within_300m_pct": 67.99,
+        "green_area_within_1000m_m2": 234962.65,
+        "epc_sap_mean": 68.88,
+        "air_percentile": 45.297,
+        "quiet_percentile": 65.799,
+        "green_percentile": 53.155,
+        "housing_environment_percentile": 93.113,
+        "environment_index_0_100": 64.341,
+        "national_percentile": 82.964,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63010556",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 152742,
+        "quiet_population_covered": 152742,
+        "green_population_covered": 152742,
+        "housing_environment_population_covered": 152742,
+        "population_expected": 152742,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "colchester",
@@ -3929,7 +6033,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 1.056,
+        "no2_ug_m3": 9.294,
+        "pm25_ug_m3": 7.202,
+        "pm10_ug_m3": 11.971,
+        "noise_exposed_pct": 35.906,
+        "green_within_300m_pct": 72.185,
+        "green_area_within_1000m_m2": 273261.35,
+        "epc_sap_mean": 68.614,
+        "air_percentile": 45.57,
+        "quiet_percentile": 44.576,
+        "green_percentile": 70.256,
+        "housing_environment_percentile": 91.307,
+        "environment_index_0_100": 62.927,
+        "national_percentile": 79.58,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63011220",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 130396,
+        "quiet_population_covered": 130396,
+        "green_population_covered": 130396,
+        "housing_environment_population_covered": 130396,
+        "population_expected": 130396,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "oxford",
@@ -3977,7 +6115,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 1.0536,
+        "no2_ug_m3": 9.848,
+        "pm25_ug_m3": 7.055,
+        "pm10_ug_m3": 11.477,
+        "noise_exposed_pct": 33.741,
+        "green_within_300m_pct": 75.027,
+        "green_area_within_1000m_m2": 220587.16,
+        "epc_sap_mean": 66.983,
+        "air_percentile": 46.148,
+        "quiet_percentile": 54.782,
+        "green_percentile": 64.535,
+        "housing_environment_percentile": 75.637,
+        "environment_index_0_100": 60.275,
+        "national_percentile": 74.115,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63011595",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 169612,
+        "quiet_population_covered": 169612,
+        "green_population_covered": 169612,
+        "housing_environment_population_covered": 169612,
+        "population_expected": 169612,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "bath",
@@ -4025,7 +6197,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 0.8985,
+        "no2_ug_m3": 7.782,
+        "pm25_ug_m3": 6.279,
+        "pm10_ug_m3": 9.921,
+        "noise_exposed_pct": 28.442,
+        "green_within_300m_pct": 76.351,
+        "green_area_within_1000m_m2": 172606.05,
+        "epc_sap_mean": 64.267,
+        "air_percentile": 74.955,
+        "quiet_percentile": 79.728,
+        "green_percentile": 57.334,
+        "housing_environment_percentile": 26.316,
+        "environment_index_0_100": 59.583,
+        "national_percentile": 72.32,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63012364",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 94080,
+        "quiet_population_covered": 94080,
+        "green_population_covered": 94080,
+        "housing_environment_population_covered": 94080,
+        "population_expected": 94080,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "bridgend",
@@ -4073,7 +6279,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 0.7626,
+        "no2_ug_m3": 7.138,
+        "pm25_ug_m3": 5.045,
+        "pm10_ug_m3": 8.477,
+        "noise_exposed_pct": 24.053,
+        "green_within_300m_pct": 60.352,
+        "green_area_within_1000m_m2": 66269.04,
+        "epc_sap_mean": 68.573,
+        "air_percentile": 89.762,
+        "quiet_percentile": 87.113,
+        "green_percentile": 17.794,
+        "housing_environment_percentile": 97.476,
+        "environment_index_0_100": 73.036,
+        "national_percentile": 92.532,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "W45001212",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 51751,
+        "quiet_population_covered": 51751,
+        "green_population_covered": 51751,
+        "housing_environment_population_covered": 51751,
+        "population_expected": 51751,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "llanelli",
@@ -4121,7 +6361,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 0.6374,
+        "no2_ug_m3": 5.592,
+        "pm25_ug_m3": 4.467,
+        "pm10_ug_m3": 6.896,
+        "noise_exposed_pct": 39.983,
+        "green_within_300m_pct": 71.013,
+        "green_area_within_1000m_m2": 172729.01,
+        "epc_sap_mean": 63.51,
+        "air_percentile": 97.483,
+        "quiet_percentile": 22.858,
+        "green_percentile": 47.306,
+        "housing_environment_percentile": 27.748,
+        "environment_index_0_100": 48.849,
+        "national_percentile": 50.957,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "W45001070",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 42143,
+        "quiet_population_covered": 42143,
+        "green_population_covered": 42143,
+        "housing_environment_population_covered": 42143,
+        "population_expected": 42143,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "bangor",
@@ -4169,7 +6443,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 0.6178,
+        "no2_ug_m3": 4.469,
+        "pm25_ug_m3": 4.563,
+        "pm10_ug_m3": 7.407,
+        "noise_exposed_pct": 37.177,
+        "green_within_300m_pct": 66.894,
+        "green_area_within_1000m_m2": 41731.55,
+        "epc_sap_mean": 65.622,
+        "air_percentile": 98.142,
+        "quiet_percentile": 34.563,
+        "green_percentile": 24.443,
+        "housing_environment_percentile": 57.185,
+        "environment_index_0_100": 53.583,
+        "national_percentile": 60.138,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "W45000697",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 16994,
+        "quiet_population_covered": 16994,
+        "green_population_covered": 16994,
+        "housing_environment_population_covered": 16994,
+        "population_expected": 16994,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "rhyl",
@@ -4217,7 +6525,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 0.6476,
+        "no2_ug_m3": 3.953,
+        "pm25_ug_m3": 4.973,
+        "pm10_ug_m3": 8.292,
+        "noise_exposed_pct": 29.568,
+        "green_within_300m_pct": 64.877,
+        "green_area_within_1000m_m2": 92428.87,
+        "epc_sap_mean": 63.436,
+        "air_percentile": 97.098,
+        "quiet_percentile": 72.371,
+        "green_percentile": 26.084,
+        "housing_environment_percentile": 25.056,
+        "environment_index_0_100": 55.152,
+        "national_percentile": 62.483,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "W45000645",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 26982,
+        "quiet_population_covered": 26982,
+        "green_population_covered": 26982,
+        "housing_environment_population_covered": 26982,
+        "population_expected": 26982,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "york",
@@ -4265,7 +6607,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 0.9064,
+        "no2_ug_m3": 8.181,
+        "pm25_ug_m3": 6.051,
+        "pm10_ug_m3": 10.362,
+        "noise_exposed_pct": 29.679,
+        "green_within_300m_pct": 74.332,
+        "green_area_within_1000m_m2": 217479.32,
+        "epc_sap_mean": 66.405,
+        "air_percentile": 73.439,
+        "quiet_percentile": 74.99,
+        "green_percentile": 62.904,
+        "housing_environment_percentile": 66.039,
+        "environment_index_0_100": 69.343,
+        "national_percentile": 89.176,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007706",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 141286,
+        "quiet_population_covered": 141286,
+        "green_population_covered": 141286,
+        "housing_environment_population_covered": 141286,
+        "population_expected": 141286,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "durham",
@@ -4313,7 +6689,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 0.8215,
+        "no2_ug_m3": 7.461,
+        "pm25_ug_m3": 5.478,
+        "pm10_ug_m3": 9.341,
+        "noise_exposed_pct": 39.402,
+        "green_within_300m_pct": 53.536,
+        "green_area_within_1000m_m2": 65075.18,
+        "epc_sap_mean": 68.107,
+        "air_percentile": 84.541,
+        "quiet_percentile": 30.226,
+        "green_percentile": 12.706,
+        "housing_environment_percentile": 87.094,
+        "environment_index_0_100": 53.642,
+        "national_percentile": 60.243,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63007282",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 50502,
+        "quiet_population_covered": 50502,
+        "green_population_covered": 50502,
+        "housing_environment_population_covered": 50502,
+        "population_expected": 50502,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     },
     {
       "id": "cheltenham",
@@ -4361,7 +6771,41 @@ window.FLATS_DATA = {
         "confidence": "Medium",
         "reason": "Reviewed National Rail Journey Planner station-to-station observation for 2026-09-11. Shortest returned public-transport itinerary departing 10:00–14:00; not a guaranteed, door-to-door, fare or accessibility measure."
       },
-      "condition": {}
+      "residentialEnvironment": {
+        "air_burden": 0.9226,
+        "no2_ug_m3": 7.912,
+        "pm25_ug_m3": 6.478,
+        "pm10_ug_m3": 10.215,
+        "noise_exposed_pct": 26.269,
+        "green_within_300m_pct": 72.367,
+        "green_area_within_1000m_m2": 159723.92,
+        "epc_sap_mean": 65.953,
+        "air_percentile": 70.542,
+        "quiet_percentile": 86.614,
+        "green_percentile": 49.5,
+        "housing_environment_percentile": 57.466,
+        "environment_index_0_100": 66.031,
+        "national_percentile": 85.485,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63011286",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 115941,
+        "quiet_population_covered": 115941,
+        "green_population_covered": 115941,
+        "housing_environment_population_covered": 115941,
+        "population_expected": 115941,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      }
     }
   ],
   "sources": [
@@ -4433,17 +6877,17 @@ window.FLATS_DATA = {
     {
       "location_id": "barnsley",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "barnsley",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "barnsley",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "barnsley",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Barnsley%2C%20UK"
     },
     {
       "location_id": "birmingham",
@@ -4513,17 +6957,17 @@ window.FLATS_DATA = {
     {
       "location_id": "birmingham",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "birmingham",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "birmingham",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "birmingham",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Birmingham%2C%20UK"
     },
     {
       "location_id": "blackburn",
@@ -4588,17 +7032,17 @@ window.FLATS_DATA = {
     {
       "location_id": "blackburn",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "blackburn",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "blackburn",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "blackburn",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Blackburn%2C%20UK"
     },
     {
       "location_id": "blackpool",
@@ -4668,17 +7112,17 @@ window.FLATS_DATA = {
     {
       "location_id": "blackpool",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "blackpool",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "blackpool",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "blackpool",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Blackpool%2C%20UK"
     },
     {
       "location_id": "bolton",
@@ -4753,17 +7197,17 @@ window.FLATS_DATA = {
     {
       "location_id": "bolton",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "bolton",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "bolton",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "bolton",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Bolton%2C%20UK"
     },
     {
       "location_id": "bradford",
@@ -4833,17 +7277,17 @@ window.FLATS_DATA = {
     {
       "location_id": "bradford",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "bradford",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "bradford",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "bradford",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Bradford%2C%20UK"
     },
     {
       "location_id": "burnley",
@@ -4908,17 +7352,17 @@ window.FLATS_DATA = {
     {
       "location_id": "burnley",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "burnley",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "burnley",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "burnley",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Burnley%2C%20UK"
     },
     {
       "location_id": "burton-on-trent",
@@ -4978,17 +7422,17 @@ window.FLATS_DATA = {
     {
       "location_id": "burton-on-trent",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "burton-on-trent",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "burton-on-trent",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "burton-on-trent",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Burton-on-Trent%2C%20UK"
     },
     {
       "location_id": "cardiff",
@@ -5058,17 +7502,22 @@ window.FLATS_DATA = {
     {
       "location_id": "cardiff",
       "topic": "environment",
-      "url": "https://datamap.gov.wales/layergroups/geonode%3AEnvironmental_Noise_Mapping_2022"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
     },
     {
       "location_id": "cardiff",
       "topic": "environment",
-      "url": "https://stats.gov.wales/en-GB/c67b9e08-dacc-439a-a244-2fce79b11400"
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "cardiff",
       "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Cardiff%2C%20UK"
+      "url": "https://stats.gov.wales/en-GB/2f8dfe38-bfa8-4f61-bc34-1d84d470a940"
+    },
+    {
+      "location_id": "cardiff",
+      "topic": "environment",
+      "url": "https://stats.gov.wales/en-GB/8c4e387a-d221-4a24-9fd4-50bdaacbe273"
     },
     {
       "location_id": "chester",
@@ -5133,17 +7582,17 @@ window.FLATS_DATA = {
     {
       "location_id": "chester",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "chester",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "chester",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "chester",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Chester%2C%20UK"
     },
     {
       "location_id": "chesterfield",
@@ -5208,17 +7657,17 @@ window.FLATS_DATA = {
     {
       "location_id": "chesterfield",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "chesterfield",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "chesterfield",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "chesterfield",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Chesterfield%2C%20UK"
     },
     {
       "location_id": "coventry",
@@ -5288,17 +7737,17 @@ window.FLATS_DATA = {
     {
       "location_id": "coventry",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "coventry",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "coventry",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "coventry",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Coventry%2C%20UK"
     },
     {
       "location_id": "darlington",
@@ -5363,17 +7812,17 @@ window.FLATS_DATA = {
     {
       "location_id": "darlington",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "darlington",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "darlington",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "darlington",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Darlington%2C%20UK"
     },
     {
       "location_id": "derby",
@@ -5438,17 +7887,17 @@ window.FLATS_DATA = {
     {
       "location_id": "derby",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "derby",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "derby",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "derby",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Derby%2C%20UK"
     },
     {
       "location_id": "doncaster",
@@ -5518,17 +7967,17 @@ window.FLATS_DATA = {
     {
       "location_id": "doncaster",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "doncaster",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "doncaster",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "doncaster",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Doncaster%2C%20UK"
     },
     {
       "location_id": "gateshead",
@@ -5598,17 +8047,17 @@ window.FLATS_DATA = {
     {
       "location_id": "gateshead",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "gateshead",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "gateshead",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "gateshead",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Gateshead%2C%20UK"
     },
     {
       "location_id": "gloucester",
@@ -5673,17 +8122,17 @@ window.FLATS_DATA = {
     {
       "location_id": "gloucester",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "gloucester",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "gloucester",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "gloucester",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Gloucester%2C%20UK"
     },
     {
       "location_id": "halifax",
@@ -5753,17 +8202,17 @@ window.FLATS_DATA = {
     {
       "location_id": "halifax",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "halifax",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "halifax",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "halifax",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Halifax%2C%20UK"
     },
     {
       "location_id": "hartlepool",
@@ -5828,17 +8277,17 @@ window.FLATS_DATA = {
     {
       "location_id": "hartlepool",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "hartlepool",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "hartlepool",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "hartlepool",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Hartlepool%2C%20UK"
     },
     {
       "location_id": "huddersfield",
@@ -5908,17 +8357,17 @@ window.FLATS_DATA = {
     {
       "location_id": "huddersfield",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "huddersfield",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "huddersfield",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "huddersfield",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Huddersfield%2C%20UK"
     },
     {
       "location_id": "hull-kingston-upon-hull",
@@ -5983,17 +8432,17 @@ window.FLATS_DATA = {
     {
       "location_id": "hull-kingston-upon-hull",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "hull-kingston-upon-hull",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "hull-kingston-upon-hull",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "hull-kingston-upon-hull",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Hull%20%28Kingston%20upon%20Hull%29%2C%20UK"
     },
     {
       "location_id": "ipswich",
@@ -6058,17 +8507,17 @@ window.FLATS_DATA = {
     {
       "location_id": "ipswich",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "ipswich",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "ipswich",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "ipswich",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Ipswich%2C%20UK"
     },
     {
       "location_id": "kettering",
@@ -6133,17 +8582,17 @@ window.FLATS_DATA = {
     {
       "location_id": "kettering",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "kettering",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "kettering",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "kettering",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Kettering%2C%20UK"
     },
     {
       "location_id": "lancaster",
@@ -6208,17 +8657,17 @@ window.FLATS_DATA = {
     {
       "location_id": "lancaster",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "lancaster",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "lancaster",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "lancaster",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Lancaster%2C%20UK"
     },
     {
       "location_id": "leeds",
@@ -6288,17 +8737,17 @@ window.FLATS_DATA = {
     {
       "location_id": "leeds",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "leeds",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "leeds",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "leeds",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Leeds%2C%20UK"
     },
     {
       "location_id": "leicester",
@@ -6363,17 +8812,17 @@ window.FLATS_DATA = {
     {
       "location_id": "leicester",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "leicester",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "leicester",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "leicester",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Leicester%2C%20UK"
     },
     {
       "location_id": "lincoln",
@@ -6438,17 +8887,17 @@ window.FLATS_DATA = {
     {
       "location_id": "lincoln",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "lincoln",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "lincoln",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "lincoln",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Lincoln%2C%20UK"
     },
     {
       "location_id": "liverpool",
@@ -6518,17 +8967,17 @@ window.FLATS_DATA = {
     {
       "location_id": "liverpool",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "liverpool",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "liverpool",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "liverpool",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Liverpool%2C%20UK"
     },
     {
       "location_id": "loughborough",
@@ -6593,17 +9042,17 @@ window.FLATS_DATA = {
     {
       "location_id": "loughborough",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "loughborough",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "loughborough",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "loughborough",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Loughborough%2C%20UK"
     },
     {
       "location_id": "manchester",
@@ -6678,17 +9127,17 @@ window.FLATS_DATA = {
     {
       "location_id": "manchester",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "manchester",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "manchester",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "manchester",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Manchester%2C%20UK"
     },
     {
       "location_id": "merthyr-tydfil",
@@ -6758,17 +9207,22 @@ window.FLATS_DATA = {
     {
       "location_id": "merthyr-tydfil",
       "topic": "environment",
-      "url": "https://datamap.gov.wales/layergroups/geonode%3AEnvironmental_Noise_Mapping_2022"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
     },
     {
       "location_id": "merthyr-tydfil",
       "topic": "environment",
-      "url": "https://stats.gov.wales/en-GB/c67b9e08-dacc-439a-a244-2fce79b11400"
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "merthyr-tydfil",
       "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Merthyr%20Tydfil%2C%20UK"
+      "url": "https://stats.gov.wales/en-GB/2f8dfe38-bfa8-4f61-bc34-1d84d470a940"
+    },
+    {
+      "location_id": "merthyr-tydfil",
+      "topic": "environment",
+      "url": "https://stats.gov.wales/en-GB/8c4e387a-d221-4a24-9fd4-50bdaacbe273"
     },
     {
       "location_id": "middlesbrough",
@@ -6833,17 +9287,17 @@ window.FLATS_DATA = {
     {
       "location_id": "middlesbrough",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "middlesbrough",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "middlesbrough",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "middlesbrough",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Middlesbrough%2C%20UK"
     },
     {
       "location_id": "neath",
@@ -6913,17 +9367,22 @@ window.FLATS_DATA = {
     {
       "location_id": "neath",
       "topic": "environment",
-      "url": "https://datamap.gov.wales/layergroups/geonode%3AEnvironmental_Noise_Mapping_2022"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
     },
     {
       "location_id": "neath",
       "topic": "environment",
-      "url": "https://stats.gov.wales/en-GB/c67b9e08-dacc-439a-a244-2fce79b11400"
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "neath",
       "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Neath%2C%20UK"
+      "url": "https://stats.gov.wales/en-GB/2f8dfe38-bfa8-4f61-bc34-1d84d470a940"
+    },
+    {
+      "location_id": "neath",
+      "topic": "environment",
+      "url": "https://stats.gov.wales/en-GB/8c4e387a-d221-4a24-9fd4-50bdaacbe273"
     },
     {
       "location_id": "newcastle-upon-tyne",
@@ -6993,17 +9452,17 @@ window.FLATS_DATA = {
     {
       "location_id": "newcastle-upon-tyne",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "newcastle-upon-tyne",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "newcastle-upon-tyne",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "newcastle-upon-tyne",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Newcastle%20upon%20Tyne%2C%20UK"
     },
     {
       "location_id": "newport",
@@ -7073,17 +9532,22 @@ window.FLATS_DATA = {
     {
       "location_id": "newport",
       "topic": "environment",
-      "url": "https://datamap.gov.wales/layergroups/geonode%3AEnvironmental_Noise_Mapping_2022"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
     },
     {
       "location_id": "newport",
       "topic": "environment",
-      "url": "https://stats.gov.wales/en-GB/c67b9e08-dacc-439a-a244-2fce79b11400"
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "newport",
       "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Newport%2C%20UK"
+      "url": "https://stats.gov.wales/en-GB/2f8dfe38-bfa8-4f61-bc34-1d84d470a940"
+    },
+    {
+      "location_id": "newport",
+      "topic": "environment",
+      "url": "https://stats.gov.wales/en-GB/8c4e387a-d221-4a24-9fd4-50bdaacbe273"
     },
     {
       "location_id": "northampton",
@@ -7148,17 +9612,17 @@ window.FLATS_DATA = {
     {
       "location_id": "northampton",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "northampton",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "northampton",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "northampton",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Northampton%2C%20UK"
     },
     {
       "location_id": "norwich",
@@ -7223,17 +9687,17 @@ window.FLATS_DATA = {
     {
       "location_id": "norwich",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "norwich",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "norwich",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "norwich",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Norwich%2C%20UK"
     },
     {
       "location_id": "nottingham",
@@ -7303,17 +9767,17 @@ window.FLATS_DATA = {
     {
       "location_id": "nottingham",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "nottingham",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "nottingham",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "nottingham",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Nottingham%2C%20UK"
     },
     {
       "location_id": "peterborough",
@@ -7378,17 +9842,17 @@ window.FLATS_DATA = {
     {
       "location_id": "peterborough",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "peterborough",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "peterborough",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "peterborough",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Peterborough%2C%20UK"
     },
     {
       "location_id": "plymouth",
@@ -7453,17 +9917,17 @@ window.FLATS_DATA = {
     {
       "location_id": "plymouth",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "plymouth",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "plymouth",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "plymouth",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Plymouth%2C%20UK"
     },
     {
       "location_id": "portsmouth",
@@ -7528,17 +9992,17 @@ window.FLATS_DATA = {
     {
       "location_id": "portsmouth",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "portsmouth",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "portsmouth",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "portsmouth",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Portsmouth%2C%20UK"
     },
     {
       "location_id": "preston",
@@ -7603,17 +10067,17 @@ window.FLATS_DATA = {
     {
       "location_id": "preston",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "preston",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "preston",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "preston",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Preston%2C%20UK"
     },
     {
       "location_id": "rotherham",
@@ -7683,17 +10147,17 @@ window.FLATS_DATA = {
     {
       "location_id": "rotherham",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "rotherham",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "rotherham",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "rotherham",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Rotherham%2C%20UK"
     },
     {
       "location_id": "salford",
@@ -7768,17 +10232,17 @@ window.FLATS_DATA = {
     {
       "location_id": "salford",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "salford",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "salford",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "salford",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Salford%2C%20UK"
     },
     {
       "location_id": "sheffield",
@@ -7848,17 +10312,17 @@ window.FLATS_DATA = {
     {
       "location_id": "sheffield",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "sheffield",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "sheffield",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "sheffield",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Sheffield%2C%20UK"
     },
     {
       "location_id": "shrewsbury",
@@ -7923,17 +10387,17 @@ window.FLATS_DATA = {
     {
       "location_id": "shrewsbury",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "shrewsbury",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "shrewsbury",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "shrewsbury",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Shrewsbury%2C%20UK"
     },
     {
       "location_id": "st-helens",
@@ -8003,17 +10467,17 @@ window.FLATS_DATA = {
     {
       "location_id": "st-helens",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "st-helens",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "st-helens",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "st-helens",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=St%20Helens%2C%20UK"
     },
     {
       "location_id": "stafford",
@@ -8078,17 +10542,17 @@ window.FLATS_DATA = {
     {
       "location_id": "stafford",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "stafford",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "stafford",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "stafford",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Stafford%2C%20UK"
     },
     {
       "location_id": "stockport",
@@ -8163,17 +10627,17 @@ window.FLATS_DATA = {
     {
       "location_id": "stockport",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "stockport",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "stockport",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "stockport",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Stockport%2C%20UK"
     },
     {
       "location_id": "stockton-on-tees",
@@ -8233,17 +10697,17 @@ window.FLATS_DATA = {
     {
       "location_id": "stockton-on-tees",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "stockton-on-tees",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "stockton-on-tees",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "stockton-on-tees",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Stockton-on-Tees%2C%20UK"
     },
     {
       "location_id": "stoke-on-trent",
@@ -8303,17 +10767,17 @@ window.FLATS_DATA = {
     {
       "location_id": "stoke-on-trent",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "stoke-on-trent",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "stoke-on-trent",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "stoke-on-trent",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Stoke-on-Trent%2C%20UK"
     },
     {
       "location_id": "sunderland",
@@ -8383,17 +10847,17 @@ window.FLATS_DATA = {
     {
       "location_id": "sunderland",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "sunderland",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "sunderland",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "sunderland",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Sunderland%2C%20UK"
     },
     {
       "location_id": "swansea",
@@ -8463,17 +10927,22 @@ window.FLATS_DATA = {
     {
       "location_id": "swansea",
       "topic": "environment",
-      "url": "https://datamap.gov.wales/layergroups/geonode%3AEnvironmental_Noise_Mapping_2022"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
     },
     {
       "location_id": "swansea",
       "topic": "environment",
-      "url": "https://stats.gov.wales/en-GB/c67b9e08-dacc-439a-a244-2fce79b11400"
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "swansea",
       "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Swansea%2C%20UK"
+      "url": "https://stats.gov.wales/en-GB/2f8dfe38-bfa8-4f61-bc34-1d84d470a940"
+    },
+    {
+      "location_id": "swansea",
+      "topic": "environment",
+      "url": "https://stats.gov.wales/en-GB/8c4e387a-d221-4a24-9fd4-50bdaacbe273"
     },
     {
       "location_id": "swindon",
@@ -8538,17 +11007,17 @@ window.FLATS_DATA = {
     {
       "location_id": "swindon",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "swindon",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "swindon",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "swindon",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Swindon%2C%20UK"
     },
     {
       "location_id": "telford",
@@ -8618,17 +11087,17 @@ window.FLATS_DATA = {
     {
       "location_id": "telford",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "telford",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "telford",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "telford",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Telford%2C%20UK"
     },
     {
       "location_id": "torbay",
@@ -8693,17 +11162,17 @@ window.FLATS_DATA = {
     {
       "location_id": "torbay",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "torbay",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "torbay",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "torbay",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Torbay%2C%20UK"
     },
     {
       "location_id": "wakefield",
@@ -8773,17 +11242,17 @@ window.FLATS_DATA = {
     {
       "location_id": "wakefield",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "wakefield",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "wakefield",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "wakefield",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Wakefield%2C%20UK"
     },
     {
       "location_id": "walsall",
@@ -8853,17 +11322,17 @@ window.FLATS_DATA = {
     {
       "location_id": "walsall",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "walsall",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "walsall",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "walsall",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Walsall%2C%20UK"
     },
     {
       "location_id": "warrington",
@@ -8928,17 +11397,17 @@ window.FLATS_DATA = {
     {
       "location_id": "warrington",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "warrington",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "warrington",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "warrington",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Warrington%2C%20UK"
     },
     {
       "location_id": "wigan",
@@ -9013,17 +11482,17 @@ window.FLATS_DATA = {
     {
       "location_id": "wigan",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "wigan",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "wigan",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "wigan",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Wigan%2C%20UK"
     },
     {
       "location_id": "wolverhampton",
@@ -9093,17 +11562,17 @@ window.FLATS_DATA = {
     {
       "location_id": "wolverhampton",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "wolverhampton",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "wolverhampton",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "wolverhampton",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Wolverhampton%2C%20UK"
     },
     {
       "location_id": "worcester",
@@ -9168,17 +11637,17 @@ window.FLATS_DATA = {
     {
       "location_id": "worcester",
       "topic": "environment",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "worcester",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "worcester",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
-    },
-    {
-      "location_id": "worcester",
-      "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Worcester%2C%20UK"
     },
     {
       "location_id": "wrexham",
@@ -9453,17 +11922,22 @@ window.FLATS_DATA = {
     {
       "location_id": "wrexham",
       "topic": "environment",
-      "url": "https://datamap.gov.wales/layergroups/geonode%3AEnvironmental_Noise_Mapping_2022"
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
     },
     {
       "location_id": "wrexham",
       "topic": "environment",
-      "url": "https://stats.gov.wales/en-GB/c67b9e08-dacc-439a-a244-2fce79b11400"
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
     },
     {
       "location_id": "wrexham",
       "topic": "environment",
-      "url": "https://www.openstreetmap.org/search?query=Wrexham%2C%20UK"
+      "url": "https://stats.gov.wales/en-GB/2f8dfe38-bfa8-4f61-bc34-1d84d470a940"
+    },
+    {
+      "location_id": "wrexham",
+      "topic": "environment",
+      "url": "https://stats.gov.wales/en-GB/8c4e387a-d221-4a24-9fd4-50bdaacbe273"
     },
     {
       "location_id": "bristol",
@@ -9779,6 +12253,326 @@ window.FLATS_DATA = {
       "location_id": "cheltenham",
       "topic": "market",
       "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E308&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&mustHave=&dontShow=houseShare%2Cretirement&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "bristol",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "bristol",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "bristol",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "southampton",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "southampton",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "southampton",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "bournemouth-poole",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "bournemouth-poole",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "bournemouth-poole",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "brighton-hove",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "brighton-hove",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "brighton-hove",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "exeter",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "exeter",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "exeter",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "reading",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "reading",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "reading",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "milton-keynes",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "milton-keynes",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "milton-keynes",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "luton",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "luton",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "luton",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "southend-on-sea",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "southend-on-sea",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "southend-on-sea",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "cambridge",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "cambridge",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "cambridge",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "colchester",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "colchester",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "colchester",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "oxford",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "oxford",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "oxford",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "bath",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "bath",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "bath",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "bridgend",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "bridgend",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "bridgend",
+      "topic": "environment",
+      "url": "https://stats.gov.wales/en-GB/2f8dfe38-bfa8-4f61-bc34-1d84d470a940"
+    },
+    {
+      "location_id": "bridgend",
+      "topic": "environment",
+      "url": "https://stats.gov.wales/en-GB/8c4e387a-d221-4a24-9fd4-50bdaacbe273"
+    },
+    {
+      "location_id": "llanelli",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "llanelli",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "llanelli",
+      "topic": "environment",
+      "url": "https://stats.gov.wales/en-GB/2f8dfe38-bfa8-4f61-bc34-1d84d470a940"
+    },
+    {
+      "location_id": "llanelli",
+      "topic": "environment",
+      "url": "https://stats.gov.wales/en-GB/8c4e387a-d221-4a24-9fd4-50bdaacbe273"
+    },
+    {
+      "location_id": "bangor",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "bangor",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "bangor",
+      "topic": "environment",
+      "url": "https://stats.gov.wales/en-GB/2f8dfe38-bfa8-4f61-bc34-1d84d470a940"
+    },
+    {
+      "location_id": "bangor",
+      "topic": "environment",
+      "url": "https://stats.gov.wales/en-GB/8c4e387a-d221-4a24-9fd4-50bdaacbe273"
+    },
+    {
+      "location_id": "rhyl",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "rhyl",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "rhyl",
+      "topic": "environment",
+      "url": "https://stats.gov.wales/en-GB/2f8dfe38-bfa8-4f61-bc34-1d84d470a940"
+    },
+    {
+      "location_id": "rhyl",
+      "topic": "environment",
+      "url": "https://stats.gov.wales/en-GB/8c4e387a-d221-4a24-9fd4-50bdaacbe273"
+    },
+    {
+      "location_id": "york",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "york",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "york",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "durham",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "durham",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "durham",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "cheltenham",
+      "topic": "environment",
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data"
+    },
+    {
+      "location_id": "cheltenham",
+      "topic": "environment",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace"
+    },
+    {
+      "location_id": "cheltenham",
+      "topic": "environment",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
     }
   ],
   "evidence": [
@@ -10143,64 +12937,64 @@ window.FLATS_DATA = {
       "limitations": "Operator source; service patterns and seasonal demand vary."
     },
     {
-      "id": "ENV001",
+      "id": "ENV-AIR-DEFRA-2024",
       "workstream": "environment",
-      "title": "Explaining the 2022 noise maps",
+      "title": "Modelled background pollution data 2024",
       "publisher": "Department for Environment, Food & Rural Affairs",
-      "url": "https://www.gov.uk/government/publications/strategic-noise-mapping-2022/explaining-the-2022-noise-maps",
-      "dataPeriod": "2022 mapping round; published 2024",
-      "retrievalDate": "2026-09-05",
-      "geography": "England: major roads, railways, airports and agglomerations",
-      "coverage": "All 57 English candidate locations",
-      "limitations": "Strategic mapping identifies modelled transport-noise exposure, not interior noise or every local source; used only as a broad screen."
+      "url": "https://uk-air.defra.gov.uk/data/pcm-data",
+      "dataPeriod": "2024 annual mean",
+      "retrievalDate": "2026-09-09",
+      "geography": "Defra 1 km background grid assigned to OA21 population-weighted centroids",
+      "coverage": "All 83 locations and the 7070-BUA national reference have complete population coverage",
+      "limitations": "Modelled outdoor background NO2, PM2.5 and PM10 concentrations are not property measurements; coastal missing grid cells would use a recorded nearest-cell fallback, of which this release has none."
     },
     {
-      "id": "ENV002",
+      "id": "ENV-NOISE-IOD-WIMD-2025",
       "workstream": "environment",
-      "title": "Environmental Noise Mapping 2022",
-      "publisher": "Welsh Government / DataMapWales",
-      "url": "https://datamap.gov.wales/layergroups/geonode%3AEnvironmental_Noise_Mapping_2022",
-      "dataPeriod": "2022",
-      "retrievalDate": "2026-09-05",
-      "geography": "Wales: major roads, major railways and large urban areas",
-      "coverage": "All 6 Welsh candidate locations",
-      "limitations": "Modelled strategic layers omit fine street-level and building-insulation effects; used only as a broad screen."
-    },
-    {
-      "id": "ENV003",
-      "workstream": "environment",
-      "title": "English indices of deprivation 2025",
-      "publisher": "Ministry of Housing, Communities and Local Government",
+      "title": "IoD and WIMD 2025 transport-noise indicators",
+      "publisher": "Ministry of Housing Communities and Local Government / Welsh Government",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025",
-      "dataPeriod": "2025 release",
-      "retrievalDate": "2026-09-05",
-      "geography": "England LSOAs",
-      "coverage": "All 57 English candidate locations",
-      "limitations": "Deprivation is not a direct measure of appearance or upkeep and within-town variation is large; used cautiously as context for condition judgements."
+      "dataPeriod": "2021 strategic noise model published in the 2025 deprivation releases",
+      "retrievalDate": "2026-09-09",
+      "geography": "England and Wales LSOA21 observations aggregated to reviewed April 2024 BUAs",
+      "coverage": "All 83 locations and the 7070-BUA national reference have complete population coverage",
+      "limitations": "England includes major-airport exposure and shrinkage while Wales covers road and rail; within-country percentile calibration reduces but does not harmonise that difference. Outdoor strategic exposure is not interior or property-level noise."
     },
     {
-      "id": "ENV004",
+      "id": "ENV-GREEN-OS-OPEN-2026-04",
       "workstream": "environment",
-      "title": "Welsh Index of Multiple Deprivation 2025",
-      "publisher": "Welsh Government",
-      "url": "https://stats.gov.wales/en-GB/c67b9e08-dacc-439a-a244-2fce79b11400",
-      "dataPeriod": "2025",
-      "retrievalDate": "2026-09-05",
-      "geography": "Wales LSOAs",
-      "coverage": "All 6 Welsh candidate locations",
-      "limitations": "WIMD is not a direct visual-condition measure; physical environment has limited weight and within-town variation is large."
+      "title": "OS Open Greenspace April 2026",
+      "publisher": "Ordnance Survey",
+      "url": "https://api.os.uk/downloads/v1/products/OpenGreenspace",
+      "dataPeriod": "April 2026 bulk snapshot",
+      "retrievalDate": "2026-09-09",
+      "geography": "Eligible GB polygons measured from OA21 population-weighted centroids in EPSG:27700",
+      "coverage": "All 83 locations and all 177643 populated OA origins assigned to 7070 BUAs have complete coverage",
+      "limitations": "Includes only Public Park Or Garden and Playing Field. Product inclusion does not guarantee unrestricted access; straight-line distance and clipped area do not describe route quality or every kind of green space."
     },
     {
-      "id": "ENV005",
+      "id": "ENV-EPC-IOD-WIMD-2025",
       "workstream": "environment",
-      "title": "OpenStreetMap current map",
-      "publisher": "OpenStreetMap contributors / OpenStreetMap Foundation",
-      "url": "https://www.openstreetmap.org/",
-      "dataPeriod": "Live map at retrieval",
-      "retrievalDate": "2026-09-05",
-      "geography": "Candidate built-up areas",
-      "coverage": "All 63 candidate locations",
-      "limitations": "Map context supports identification of conspicuous roads, railways, airports, industrial land and broad urban form; it does not establish actual noise, dereliction or upkeep."
+      "title": "IoD and WIMD 2025 housing-energy indicators",
+      "publisher": "Ministry of Housing Communities and Local Government / Welsh Government",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025",
+      "dataPeriod": "EPCs 2012-2024 published in the 2025 deprivation releases",
+      "retrievalDate": "2026-09-09",
+      "geography": "England and Wales LSOA21 observations aggregated to reviewed April 2024 BUAs",
+      "coverage": "All 83 locations and the 7070-BUA national reference have complete population coverage",
+      "limitations": "England publishes a shrunk deprivation transform while Wales publishes a rounded imputed mean SAP score; within-country percentile calibration reduces but does not harmonise that difference. EPC is not a building-maintenance survey."
+    },
+    {
+      "id": "ENV-DOMAIN-VALIDATION-2025",
+      "workstream": "environment",
+      "title": "Official environment-domain ranks used for validation only",
+      "publisher": "Ministry of Housing Communities and Local Government / Welsh Government",
+      "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025",
+      "dataPeriod": "2025 English IoD and WIMD releases",
+      "retrievalDate": "2026-09-10",
+      "geography": "Population-weighted LSOA21 ranks aggregated separately within England and Wales",
+      "coverage": "All 83 candidate BUAs have complete population coverage",
+      "limitations": "The English Living Environment and Welsh Physical Environment domains have different definitions and national rank scales. They are retained only for within-country validation and boundary diagnostics and never enter the factor score."
     },
     {
       "id": "CRIME-ONS-2026-CSP",
@@ -10257,7 +13051,7 @@ window.FLATS_DATA = {
       "housing_cost": 15,
       "safety": 15,
       "local_transport": 15,
-      "condition": 15,
+      "residential_environment": 15,
       "stock": 15,
       "national_transport": 10
     },
@@ -10322,39 +13116,39 @@ window.FLATS_DATA = {
     "score_bands": {
       "buy": {
         "low": {
-          "count": 22,
-          "minimum": 48.8,
-          "maximum": 59.4
+          "count": 26,
+          "minimum": 45.3,
+          "maximum": 60.0
         },
         "mid": {
-          "count": 20,
-          "minimum": 60.0,
-          "maximum": 63.5
+          "count": 31,
+          "minimum": 60.6,
+          "maximum": 66.5
         },
         "high": {
-          "count": 21,
-          "minimum": 64.1,
-          "maximum": 78.2
+          "count": 26,
+          "minimum": 67.1,
+          "maximum": 81.8
         },
-        "unknown": 20
+        "unknown": 0
       },
       "rent": {
         "low": {
-          "count": 24,
+          "count": 27,
           "minimum": 45.9,
-          "maximum": 59.4
+          "maximum": 60.6
         },
         "mid": {
-          "count": 20,
-          "minimum": 60.0,
-          "maximum": 64.1
+          "count": 26,
+          "minimum": 61.2,
+          "maximum": 66.5
         },
         "high": {
-          "count": 19,
-          "minimum": 64.7,
-          "maximum": 80.0
+          "count": 30,
+          "minimum": 67.1,
+          "maximum": 78.2
         },
-        "unknown": 20
+        "unknown": 0
       }
     },
     "results": {
@@ -10365,25 +13159,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 3.0,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 65.3,
+            "score": 72.4,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 3.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 3.0,
               "housing_cost": 5,
               "stock": 2
             },
-            "score": 61.8,
-            "band": "mid"
+            "score": 68.8,
+            "band": "high"
           }
         }
       },
@@ -10394,25 +13188,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.0,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 1,
               "national_transport": 4.5,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 60.0,
-            "band": "mid"
+            "score": 56.5,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 1,
               "national_transport": 4.5,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 60.0,
-            "band": "mid"
+            "score": 56.5,
+            "band": "low"
           }
         }
       },
@@ -10423,7 +13217,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 2.5,
               "housing_cost": 4,
               "stock": 1
@@ -10435,7 +13229,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 1
@@ -10452,25 +13246,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 4
             },
-            "score": 57.6,
-            "band": "low"
+            "score": 61.2,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 4
             },
-            "score": 57.6,
-            "band": "low"
+            "score": 61.2,
+            "band": "mid"
           }
         }
       },
@@ -10481,7 +13275,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 2.5,
               "housing_cost": 4,
               "stock": 3
@@ -10493,13 +13287,13 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 2.5,
               "housing_cost": 3,
               "stock": 4
             },
             "score": 60.6,
-            "band": "mid"
+            "band": "low"
           }
         }
       },
@@ -10510,7 +13304,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 4
@@ -10522,7 +13316,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 2.0,
               "housing_cost": 4,
               "stock": 4
@@ -10539,7 +13333,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 1
@@ -10551,7 +13345,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 2
@@ -10568,7 +13362,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 5.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 4.5,
               "housing_cost": 4,
               "stock": 3
@@ -10580,7 +13374,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 5.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 3
@@ -10597,24 +13391,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.5,
               "local_transport": 4,
-              "condition": 4,
+              "residential_environment": 5,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 78.2,
+            "score": 81.8,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
               "local_transport": 4,
-              "condition": 4,
+              "residential_environment": 5,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": 74.7,
+            "score": 78.2,
             "band": "high"
           }
         }
@@ -10626,25 +13420,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.5,
               "local_transport": 3,
-              "condition": 4,
+              "residential_environment": 4,
               "national_transport": 3.5,
               "housing_cost": 2,
               "stock": 3
             },
             "score": 66.5,
-            "band": "high"
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
               "local_transport": 3,
-              "condition": 4,
+              "residential_environment": 4,
               "national_transport": 3.5,
               "housing_cost": 2,
               "stock": 3
             },
             "score": 66.5,
-            "band": "high"
+            "band": "mid"
           }
         }
       },
@@ -10655,24 +13449,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.0,
               "local_transport": 3,
-              "condition": 4,
+              "residential_environment": 3,
               "national_transport": 4.5,
               "housing_cost": 4,
               "stock": 2
             },
-            "score": 63.5,
-            "band": "mid"
+            "score": 60.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 2.0,
               "local_transport": 3,
-              "condition": 4,
+              "residential_environment": 3,
               "national_transport": 4.5,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 70.6,
+            "score": 67.1,
             "band": "high"
           }
         }
@@ -10684,7 +13478,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 5.0,
               "housing_cost": 3,
               "stock": 4
@@ -10696,13 +13490,13 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 5.0,
               "housing_cost": 2,
               "stock": 4
             },
             "score": 66.5,
-            "band": "high"
+            "band": "mid"
           }
         }
       },
@@ -10713,25 +13507,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 2
             },
-            "score": 58.8,
-            "band": "low"
+            "score": 65.9,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 3.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 2
             },
-            "score": 58.8,
-            "band": "low"
+            "score": 65.9,
+            "band": "mid"
           }
         }
       },
@@ -10742,24 +13536,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 52.9,
+            "score": 56.5,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 4.5,
               "housing_cost": 4,
               "stock": 4
             },
-            "score": 60.0,
+            "score": 63.5,
             "band": "mid"
           }
         }
@@ -10771,25 +13565,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 1,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 60.6,
-            "band": "mid"
+            "score": 57.1,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 2.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 1,
               "national_transport": 4.0,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 64.1,
-            "band": "mid"
+            "score": 60.6,
+            "band": "low"
           }
         }
       },
@@ -10800,25 +13594,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 1.0,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 67.6,
+            "score": 74.7,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 1.0,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 64.1,
-            "band": "mid"
+            "score": 71.2,
+            "band": "high"
           }
         }
       },
@@ -10829,24 +13623,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.5,
               "local_transport": 3,
-              "condition": 4,
+              "residential_environment": 5,
               "national_transport": 4.5,
               "housing_cost": 2,
               "stock": 3
             },
-            "score": 61.8,
+            "score": 65.3,
             "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 2.5,
               "local_transport": 3,
-              "condition": 4,
+              "residential_environment": 5,
               "national_transport": 4.5,
               "housing_cost": 2,
               "stock": 3
             },
-            "score": 61.8,
+            "score": 65.3,
             "band": "mid"
           }
         }
@@ -10858,24 +13652,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 1,
               "national_transport": 2.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 48.8,
+            "score": 45.3,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 1,
               "national_transport": 2.0,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 52.4,
+            "score": 48.8,
             "band": "low"
           }
         }
@@ -10887,24 +13681,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 1.5,
               "housing_cost": 5,
               "stock": 2
             },
-            "score": 49.4,
+            "score": 56.5,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 1.5,
               "housing_cost": 5,
               "stock": 1
             },
-            "score": 45.9,
+            "score": 52.9,
             "band": "low"
           }
         }
@@ -10916,7 +13710,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 2.0,
               "housing_cost": 4,
               "stock": 3
@@ -10928,7 +13722,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 2.0,
               "housing_cost": 4,
               "stock": 4
@@ -10945,25 +13739,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 4
             },
-            "score": 60.6,
-            "band": "mid"
+            "score": 67.6,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 4
             },
-            "score": 60.6,
-            "band": "mid"
+            "score": 67.6,
+            "band": "high"
           }
         }
       },
@@ -10974,19 +13768,19 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 3.0,
               "housing_cost": 3,
               "stock": 4
             },
             "score": 60.0,
-            "band": "mid"
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 3.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 3.0,
               "housing_cost": 2,
               "stock": 4
@@ -11003,25 +13797,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 2
             },
-            "score": 60.0,
-            "band": "mid"
+            "score": 67.1,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 4.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 63.5,
-            "band": "mid"
+            "score": 70.6,
+            "band": "high"
           }
         }
       },
@@ -11032,7 +13826,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 5.0,
               "local_transport": 3,
-              "condition": 4,
+              "residential_environment": 4,
               "national_transport": 3.0,
               "housing_cost": 3,
               "stock": 3
@@ -11044,7 +13838,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 5.0,
               "local_transport": 3,
-              "condition": 4,
+              "residential_environment": 4,
               "national_transport": 3.0,
               "housing_cost": 4,
               "stock": 1
@@ -11061,7 +13855,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 3.5,
               "housing_cost": 2,
               "stock": 5
@@ -11073,7 +13867,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 3.5,
               "housing_cost": 2,
               "stock": 5
@@ -11090,24 +13884,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.0,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 5.0,
               "housing_cost": 3,
               "stock": 4
             },
-            "score": 64.7,
+            "score": 68.2,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 2.0,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 5.0,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 64.7,
+            "score": 68.2,
             "band": "high"
           }
         }
@@ -11119,7 +13913,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
-              "condition": 4,
+              "residential_environment": 4,
               "national_transport": 3.5,
               "housing_cost": 4,
               "stock": 3
@@ -11131,7 +13925,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
-              "condition": 4,
+              "residential_environment": 4,
               "national_transport": 3.5,
               "housing_cost": 3,
               "stock": 3
@@ -11148,24 +13942,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.0,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 3.5,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 61.2,
-            "band": "mid"
+            "score": 68.2,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 2.0,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 3.5,
               "housing_cost": 3,
               "stock": 5
             },
-            "score": 64.7,
+            "score": 71.8,
             "band": "high"
           }
         }
@@ -11177,25 +13971,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 5.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 2
             },
-            "score": 63.5,
-            "band": "mid"
+            "score": 67.1,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 5.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 2
             },
-            "score": 63.5,
-            "band": "mid"
+            "score": 67.1,
+            "band": "high"
           }
         }
       },
@@ -11206,25 +14000,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.0,
               "local_transport": 5,
-              "condition": 4,
+              "residential_environment": 2,
               "national_transport": 3.5,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": 64.7,
-            "band": "high"
+            "score": 57.6,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
               "local_transport": 5,
-              "condition": 4,
+              "residential_environment": 2,
               "national_transport": 3.5,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": 64.7,
-            "band": "high"
+            "score": 57.6,
+            "band": "low"
           }
         }
       },
@@ -11235,24 +14029,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.0,
               "local_transport": 2,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 1.5,
               "housing_cost": 5,
               "stock": 1
             },
-            "score": 52.9,
+            "score": 60.0,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 4.0,
               "local_transport": 2,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 1.5,
               "housing_cost": 4,
               "stock": 1
             },
-            "score": 49.4,
+            "score": 56.5,
             "band": "low"
           }
         }
@@ -11264,25 +14058,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 2
             },
-            "score": 50.6,
+            "score": 57.6,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 54.1,
-            "band": "low"
+            "score": 61.2,
+            "band": "mid"
           }
         }
       },
@@ -11293,24 +14087,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.0,
               "local_transport": 2,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 1
             },
-            "score": 55.3,
+            "score": 58.8,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 4.0,
               "local_transport": 2,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 1
             },
-            "score": 55.3,
+            "score": 58.8,
             "band": "low"
           }
         }
@@ -11322,19 +14116,19 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.5,
               "local_transport": 4,
-              "condition": 4,
+              "residential_environment": 4,
               "national_transport": 2.0,
               "housing_cost": 3,
               "stock": 4
             },
             "score": 66.5,
-            "band": "high"
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 2.5,
               "local_transport": 4,
-              "condition": 4,
+              "residential_environment": 4,
               "national_transport": 2.0,
               "housing_cost": 2,
               "stock": 4
@@ -11351,25 +14145,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 4.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 57.1,
-            "band": "low"
+            "score": 64.1,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 2.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 4.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 57.1,
-            "band": "low"
+            "score": 64.1,
+            "band": "mid"
           }
         }
       },
@@ -11380,25 +14174,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 5.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 59.4,
-            "band": "low"
+            "score": 66.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 2.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 5.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 59.4,
-            "band": "low"
+            "score": 66.5,
+            "band": "mid"
           }
         }
       },
@@ -11409,25 +14203,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
-              "condition": 5,
+              "residential_environment": 4,
               "national_transport": 2.5,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 60.6,
-            "band": "mid"
+            "score": 57.1,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
-              "condition": 5,
+              "residential_environment": 4,
               "national_transport": 2.5,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 60.6,
-            "band": "mid"
+            "score": 57.1,
+            "band": "low"
           }
         }
       },
@@ -11438,25 +14232,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.5,
               "local_transport": 4,
-              "condition": 4,
+              "residential_environment": 3,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 64.1,
-            "band": "high"
+            "score": 60.6,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
               "local_transport": 4,
-              "condition": 4,
+              "residential_environment": 3,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 67.6,
-            "band": "high"
+            "score": 64.1,
+            "band": "mid"
           }
         }
       },
@@ -11467,25 +14261,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 5,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 4
             },
-            "score": 60.0,
-            "band": "mid"
+            "score": 70.6,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 2.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 5,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 4
             },
-            "score": 60.0,
-            "band": "mid"
+            "score": 70.6,
+            "band": "high"
           }
         }
       },
@@ -11496,25 +14290,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
-              "condition": 4,
+              "residential_environment": 5,
               "national_transport": 2.0,
               "housing_cost": 3,
               "stock": 4
             },
-            "score": 59.4,
-            "band": "low"
+            "score": 62.9,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
-              "condition": 4,
+              "residential_environment": 5,
               "national_transport": 2.0,
               "housing_cost": 3,
               "stock": 4
             },
-            "score": 59.4,
-            "band": "low"
+            "score": 62.9,
+            "band": "mid"
           }
         }
       },
@@ -11525,7 +14319,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 2.5,
               "housing_cost": 2,
               "stock": 4
@@ -11537,7 +14331,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 2.5,
               "housing_cost": 1,
               "stock": 4
@@ -11554,24 +14348,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 3.5,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 62.9,
+            "score": 66.5,
             "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 2.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 3.5,
               "housing_cost": 4,
               "stock": 4
             },
-            "score": 66.5,
+            "score": 70.0,
             "band": "high"
           }
         }
@@ -11583,7 +14377,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 3.5,
               "housing_cost": 4,
               "stock": 2
@@ -11595,13 +14389,13 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 3.5,
               "housing_cost": 5,
               "stock": 3
             },
             "score": 66.5,
-            "band": "high"
+            "band": "mid"
           }
         }
       },
@@ -11612,25 +14406,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.0,
               "local_transport": 5,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 2.0,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": 57.6,
-            "band": "low"
+            "score": 61.2,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 2.0,
               "local_transport": 5,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 2.0,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": 57.6,
-            "band": "low"
+            "score": 61.2,
+            "band": "mid"
           }
         }
       },
@@ -11641,24 +14435,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.0,
               "local_transport": 4,
-              "condition": 4,
+              "residential_environment": 3,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 5
             },
-            "score": 76.5,
+            "score": 72.9,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 4.0,
               "local_transport": 4,
-              "condition": 4,
+              "residential_environment": 3,
               "national_transport": 4.0,
               "housing_cost": 3,
               "stock": 5
             },
-            "score": 80.0,
+            "score": 76.5,
             "band": "high"
           }
         }
@@ -11670,7 +14464,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 5.0,
               "local_transport": 2,
-              "condition": 5,
+              "residential_environment": 5,
               "national_transport": 3.5,
               "housing_cost": 2,
               "stock": 3
@@ -11682,7 +14476,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 5.0,
               "local_transport": 2,
-              "condition": 5,
+              "residential_environment": 5,
               "national_transport": 3.5,
               "housing_cost": 4,
               "stock": 3
@@ -11699,25 +14493,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 3.0,
               "housing_cost": 5,
               "stock": 1
             },
-            "score": 60.0,
-            "band": "mid"
+            "score": 67.1,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 4.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 3.0,
               "housing_cost": 4,
               "stock": 2
             },
-            "score": 60.0,
-            "band": "mid"
+            "score": 67.1,
+            "band": "high"
           }
         }
       },
@@ -11728,25 +14522,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.5,
               "local_transport": 2,
-              "condition": 4,
+              "residential_environment": 2,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 2
             },
-            "score": 65.3,
-            "band": "high"
+            "score": 58.2,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
               "local_transport": 2,
-              "condition": 4,
+              "residential_environment": 2,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 2
             },
-            "score": 65.3,
-            "band": "high"
+            "score": 58.2,
+            "band": "low"
           }
         }
       },
@@ -11757,24 +14551,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 5.0,
               "local_transport": 4,
-              "condition": 4,
+              "residential_environment": 2,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 3
             },
-            "score": 72.9,
-            "band": "high"
+            "score": 65.9,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 5.0,
               "local_transport": 4,
-              "condition": 4,
+              "residential_environment": 2,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 76.5,
+            "score": 69.4,
             "band": "high"
           }
         }
@@ -11786,24 +14580,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 1.0,
               "housing_cost": 5,
               "stock": 2
             },
-            "score": 50.0,
+            "score": 57.1,
             "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 1.0,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 53.5,
+            "score": 60.6,
             "band": "low"
           }
         }
@@ -11815,24 +14609,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 4.5,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 60.0,
+            "score": 63.5,
             "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 4.5,
               "housing_cost": 5,
               "stock": 3
             },
-            "score": 60.0,
+            "score": 63.5,
             "band": "mid"
           }
         }
@@ -11844,19 +14638,19 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 1.0,
               "housing_cost": 5,
               "stock": 3
             },
             "score": 64.1,
-            "band": "high"
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 3.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 2,
               "national_transport": 1.0,
               "housing_cost": 5,
               "stock": 3
@@ -11873,25 +14667,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.5,
               "local_transport": 2,
-              "condition": 4,
+              "residential_environment": 5,
               "national_transport": 2.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 62.9,
+            "score": 66.5,
             "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
               "local_transport": 2,
-              "condition": 4,
+              "residential_environment": 5,
               "national_transport": 2.0,
               "housing_cost": 3,
               "stock": 2
             },
-            "score": 59.4,
-            "band": "low"
+            "score": 62.9,
+            "band": "mid"
           }
         }
       },
@@ -11902,25 +14696,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 5,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 64.1,
+            "score": 74.7,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 5,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": 64.1,
-            "band": "mid"
+            "score": 74.7,
+            "band": "high"
           }
         }
       },
@@ -11931,25 +14725,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.5,
               "local_transport": 2,
-              "condition": 2,
+              "residential_environment": 5,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 60.6,
-            "band": "mid"
+            "score": 71.2,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 3.5,
               "local_transport": 2,
-              "condition": 2,
+              "residential_environment": 5,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 2
             },
-            "score": 57.1,
-            "band": "low"
+            "score": 67.6,
+            "band": "high"
           }
         }
       },
@@ -11960,7 +14754,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.0,
               "local_transport": 2,
-              "condition": 4,
+              "residential_environment": 4,
               "national_transport": 2.0,
               "housing_cost": 2,
               "stock": 4
@@ -11972,7 +14766,7 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.0,
               "local_transport": 2,
-              "condition": 4,
+              "residential_environment": 4,
               "national_transport": 2.0,
               "housing_cost": 3,
               "stock": 3
@@ -11989,24 +14783,24 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 57.1,
-            "band": "low"
+            "score": 60.6,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 1.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 57.1,
+            "score": 60.6,
             "band": "low"
           }
         }
@@ -12018,25 +14812,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.0,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 1,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 69.4,
-            "band": "high"
+            "score": 65.9,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 4.0,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 1,
               "national_transport": 4.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 65.9,
-            "band": "high"
+            "score": 62.4,
+            "band": "mid"
           }
         }
       },
@@ -12047,25 +14841,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 4.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 62.4,
-            "band": "mid"
+            "score": 69.4,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 4.0,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 4,
               "national_transport": 4.0,
               "housing_cost": 3,
               "stock": 3
             },
-            "score": 62.4,
-            "band": "mid"
+            "score": 69.4,
+            "band": "high"
           }
         }
       },
@@ -12076,25 +14870,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 2
             },
-            "score": 64.1,
+            "score": 67.6,
             "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 3.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 3,
               "national_transport": 4.0,
               "housing_cost": 4,
               "stock": 2
             },
-            "score": 64.1,
-            "band": "mid"
+            "score": 67.6,
+            "band": "high"
           }
         }
       },
@@ -12105,25 +14899,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 1,
               "national_transport": 4.5,
               "housing_cost": 4,
               "stock": 3
             },
-            "score": 68.8,
-            "band": "high"
+            "score": 65.3,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 3.5,
               "local_transport": 4,
-              "condition": 2,
+              "residential_environment": 1,
               "national_transport": 4.5,
               "housing_cost": 3,
               "stock": 4
             },
-            "score": 68.8,
-            "band": "high"
+            "score": 65.3,
+            "band": "mid"
           }
         }
       },
@@ -12134,25 +14928,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 5.0,
               "local_transport": 3,
-              "condition": 5,
+              "residential_environment": 3,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 3
             },
-            "score": 72.9,
-            "band": "high"
+            "score": 65.9,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 5.0,
               "local_transport": 3,
-              "condition": 5,
+              "residential_environment": 3,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 3
             },
-            "score": 72.9,
-            "band": "high"
+            "score": 65.9,
+            "band": "mid"
           }
         }
       },
@@ -12163,25 +14957,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 5,
               "national_transport": 3.5,
               "housing_cost": 4,
               "stock": 1
             },
-            "score": 55.9,
-            "band": "low"
+            "score": 66.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 3.5,
               "local_transport": 3,
-              "condition": 2,
+              "residential_environment": 5,
               "national_transport": 3.5,
               "housing_cost": 4,
               "stock": 2
             },
-            "score": 59.4,
-            "band": "low"
+            "score": 70.0,
+            "band": "high"
           }
         }
       },
@@ -12192,25 +14986,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.0,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": null,
-            "band": "unknown"
+            "score": 65.9,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": null,
-            "band": "unknown"
+            "score": 65.9,
+            "band": "mid"
           }
         }
       },
@@ -12221,25 +15015,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 1.0,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 3,
               "national_transport": 3.5,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": null,
-            "band": "unknown"
+            "score": 57.6,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 1.0,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 3,
               "national_transport": 3.5,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": null,
-            "band": "unknown"
+            "score": 57.6,
+            "band": "low"
           }
         }
       },
@@ -12250,25 +15044,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 5.0,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 2.5,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": null,
-            "band": "unknown"
+            "score": 76.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 5.0,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 2.5,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": null,
-            "band": "unknown"
+            "score": 76.5,
+            "band": "high"
           }
         }
       },
@@ -12279,25 +15073,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.0,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 3,
               "national_transport": 3.0,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": null,
-            "band": "unknown"
+            "score": 63.5,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 3.0,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 3,
               "national_transport": 3.0,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": null,
-            "band": "unknown"
+            "score": 63.5,
+            "band": "mid"
           }
         }
       },
@@ -12308,25 +15102,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.0,
               "local_transport": 3,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 3.0,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 60.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 2.0,
               "local_transport": 3,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 3.0,
               "housing_cost": 1,
               "stock": 3
             },
-            "score": null,
-            "band": "unknown"
+            "score": 56.5,
+            "band": "low"
           }
         }
       },
@@ -12337,25 +15131,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.5,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 3,
               "national_transport": 4.5,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 65.3,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 3.5,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 3,
               "national_transport": 4.5,
               "housing_cost": 1,
               "stock": 5
             },
-            "score": null,
-            "band": "unknown"
+            "score": 68.8,
+            "band": "high"
           }
         }
       },
@@ -12366,25 +15160,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.5,
               "local_transport": 3,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 5.0,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 70.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 3.5,
               "local_transport": 3,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 5.0,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 70.0,
+            "band": "high"
           }
         }
       },
@@ -12395,25 +15189,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.5,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 1,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 64.1,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 1,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 60.6,
+            "band": "low"
           }
         }
       },
@@ -12424,25 +15218,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.0,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 1,
               "national_transport": 3.0,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 49.4,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 2.0,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 1,
               "national_transport": 3.0,
               "housing_cost": 1,
               "stock": 3
             },
-            "score": null,
-            "band": "unknown"
+            "score": 45.9,
+            "band": "low"
           }
         }
       },
@@ -12453,25 +15247,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 5.0,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 76.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 5.0,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 76.5,
+            "band": "high"
           }
         }
       },
@@ -12482,25 +15276,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.0,
               "local_transport": 3,
-              "condition": null,
+              "residential_environment": 4,
               "national_transport": 3.5,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 61.2,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 3.0,
               "local_transport": 3,
-              "condition": null,
+              "residential_environment": 4,
               "national_transport": 3.5,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 64.7,
+            "band": "mid"
           }
         }
       },
@@ -12511,25 +15305,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.5,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 4,
               "national_transport": 5.0,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 70.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 3.5,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 4,
               "national_transport": 5.0,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 70.0,
+            "band": "high"
           }
         }
       },
@@ -12540,25 +15334,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.5,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 4,
               "national_transport": 3.5,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 70.0,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
               "local_transport": 4,
-              "condition": null,
+              "residential_environment": 4,
               "national_transport": 3.5,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 70.0,
+            "band": "high"
           }
         }
       },
@@ -12569,25 +15363,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.5,
               "local_transport": 2,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 3.0,
               "housing_cost": 3,
               "stock": 1
             },
-            "score": null,
-            "band": "unknown"
+            "score": 61.8,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
               "local_transport": 2,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 3.0,
               "housing_cost": 4,
               "stock": 1
             },
-            "score": null,
-            "band": "unknown"
+            "score": 65.3,
+            "band": "mid"
           }
         }
       },
@@ -12598,25 +15392,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.5,
               "local_transport": 2,
-              "condition": null,
+              "residential_environment": 3,
               "national_transport": 1.5,
               "housing_cost": 4,
               "stock": 1
             },
-            "score": null,
-            "band": "unknown"
+            "score": 54.7,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 4.5,
               "local_transport": 2,
-              "condition": null,
+              "residential_environment": 3,
               "national_transport": 1.5,
               "housing_cost": 5,
               "stock": 1
             },
-            "score": null,
-            "band": "unknown"
+            "score": 58.2,
+            "band": "low"
           }
         }
       },
@@ -12627,25 +15421,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 4.0,
               "local_transport": 2,
-              "condition": null,
+              "residential_environment": 4,
               "national_transport": 2.0,
               "housing_cost": 5,
               "stock": 1
             },
-            "score": null,
-            "band": "unknown"
+            "score": 61.2,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 4.0,
               "local_transport": 2,
-              "condition": null,
+              "residential_environment": 4,
               "national_transport": 2.0,
               "housing_cost": 4,
               "stock": 1
             },
-            "score": null,
-            "band": "unknown"
+            "score": 57.6,
+            "band": "low"
           }
         }
       },
@@ -12656,25 +15450,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 2.0,
               "local_transport": 3,
-              "condition": null,
+              "residential_environment": 4,
               "national_transport": 3.0,
               "housing_cost": 5,
               "stock": 1
             },
-            "score": null,
-            "band": "unknown"
+            "score": 60.0,
+            "band": "low"
           },
           "rent": {
             "factors": {
               "safety": 2.0,
               "local_transport": 3,
-              "condition": null,
+              "residential_environment": 4,
               "national_transport": 3.0,
               "housing_cost": 4,
               "stock": 1
             },
-            "score": null,
-            "band": "unknown"
+            "score": 56.5,
+            "band": "low"
           }
         }
       },
@@ -12685,25 +15479,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 5.0,
               "local_transport": 3,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 72.9,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 5.0,
               "local_transport": 3,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 76.5,
+            "band": "high"
           }
         }
       },
@@ -12714,25 +15508,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 3.5,
               "local_transport": 3,
-              "condition": null,
+              "residential_environment": 4,
               "national_transport": 2.5,
               "housing_cost": 4,
               "stock": 1
             },
-            "score": null,
-            "band": "unknown"
+            "score": 60.6,
+            "band": "mid"
           },
           "rent": {
             "factors": {
               "safety": 3.5,
               "local_transport": 3,
-              "condition": null,
+              "residential_environment": 4,
               "national_transport": 2.5,
               "housing_cost": 5,
               "stock": 1
             },
-            "score": null,
-            "band": "unknown"
+            "score": 64.1,
+            "band": "mid"
           }
         }
       },
@@ -12743,25 +15537,25 @@ window.FLATS_DATA = {
             "factors": {
               "safety": 5.0,
               "local_transport": 3,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 4.0,
               "housing_cost": 1,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 72.9,
+            "band": "high"
           },
           "rent": {
             "factors": {
               "safety": 5.0,
               "local_transport": 3,
-              "condition": null,
+              "residential_environment": 5,
               "national_transport": 4.0,
               "housing_cost": 2,
               "stock": 4
             },
-            "score": null,
-            "band": "unknown"
+            "score": 76.5,
+            "band": "high"
           }
         }
       }

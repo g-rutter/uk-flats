@@ -23,19 +23,22 @@ Edit CSVs in `data/inputs/`, then rebuild. Generated outputs are
 UI changes belong in `web/index.html`, `web/styles.css` and `web/app.js`.
 Commit changes to inputs, scripts and generated files together.
 
-The research-only residential-environment release has a separate pinned GIS
-environment and is not yet consumed by `build.py`:
+The residential-environment source preparation and research QA use a separate
+pinned tabular/GIS environment:
 
 ```sh
 python3 -m venv .venv
 .venv/bin/pip install -r requirements-environment.txt
 .venv/bin/python scripts/prepare_residential_environment.py
+.venv/bin/python scripts/review_residential_environment.py
 ```
 
-That command verifies the retained raw manifests and regenerates the 83-row
+These commands verify the retained raw manifests and regenerate the 83-row
 candidate input, versioned release row, national audit covering 7,070 Office for
 National Statistics (ONS) Built-up Areas (BUAs), and the 83-row England–Wales
-compatibility stress test.
+compatibility stress test plus sensitivity, outlier, correlation, country-domain
+and boundary diagnostics. The standard build validates and consumes the resulting
+canonical input without requiring GIS libraries.
 
 Repeat the historical extraction without changing current inputs:
 
@@ -79,14 +82,12 @@ provenance is assessed per location and topic in the generated release audit:
 some non-crime observations still need retained row-level artifacts, while
 others are reproducible from dated releases. This limitation is evidence context,
 not a separate kind of location. Local public-transport connectivity is complete
-for all 83 locations. The research-only residential-environment v3 release also
-has full population coverage for all 83 candidates and 7,070 national-reference
-BUAs. Its quiet and Energy Performance Certificate (EPC) pillars use an explicit
-within-country percentile calibration to make the mixed published measures
-approximately comparable. It does not yet replace the inherited condition factor
-because the remaining research quality assurance and live integration are
-unfinished. Some inherited
-condition assessments therefore remain blank in the live screen.
+for all 83 locations. Residential environment replaces the former editorial
+condition factor and has full population coverage for all 83 candidates and 7,070
+national-reference BUAs. Its quiet and Energy Performance Certificate (EPC)
+pillars use explicit within-country percentile calibration to make the mixed
+published measures approximately comparable; raw values and limitations remain
+visible in the browser.
 Buying is an all-flat achieved-price proxy; renting is a modelled one-bedroom
 local-authority mean. The screen calculates separate Buy/Rent broad composite
 scores; their safety component uses the separate ONS CSP recorded-offence rates.
@@ -101,7 +102,7 @@ its method and collection procedure are in the
 The local public-transport factor is the DfT 2025 connectivity metric aggregated
 to reviewed built-up areas; its reproducible method is in the
 [local transport methodology](docs/local-transport-methodology.md).
-The candidate residential-environment release, national audit and selected
+The residential-environment release, national audit and selected
 compatibility transform are described in the
 [residential-environment methodology](docs/residential-environment-methodology.md)
 and [implementation plan](docs/residential-environment-plan.md).
