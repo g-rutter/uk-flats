@@ -1,7 +1,7 @@
 # Next work
 
 - Review the remaining proxies for suitability, reproducibility and payoff; record any accepted methodology change and its limitations.
-  - Test a reproducible measure of market thickness that is more robust than Rightmove headline listings, or explicitly retain the snapshot measure with its limitations.
+  - Obtaining market thickness through rightmove queries is token-expensive and biased. What other alternatives exist to this?
   - It seems that some other fields may merely proxy area size or population in a location. Examples include 'Green space within 1,000m' and 'One-bedroom listings'. Are there more cases? How can these be made fair for comparison?
   - Identify work that adds little decision value relative to its collection or maintenance cost.
   - Improve the recorded-offence safety proxy beyond the complete ONS CSP violence-against-the-person and sexual-offence rates where a free, England-and-Wales-comparable, documented source supports it. Consider the English Indices of Deprivation crime domain only alongside a compatible Welsh measure and an explicit geography review. Keep Police.uk ASB research-only unless a dated archive passes the documented force/month coverage and geography review.
