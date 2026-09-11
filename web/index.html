@@ -23,6 +23,20 @@
         <button id="rentToggle" type="button" aria-pressed="false">Renting</button>
       </div>
     </header>
+    <section class="filter-card" aria-labelledby="filterHeading">
+      <div class="filter-heading">
+        <div>
+          <h2 id="filterHeading">Refine locations</h2>
+          <p>Filters affect both the map and the list. A location must meet every filled limit.</p>
+        </div>
+        <div class="filter-actions">
+          <button id="addFilter" class="secondary-button" type="button">Add criterion</button>
+          <button id="clearFilters" class="text-button" type="button" hidden>Clear all</button>
+        </div>
+      </div>
+      <div id="filters" class="filter-list"></div>
+      <p id="filterNote" class="filter-note" aria-live="polite">No filters applied.</p>
+    </section>
     <p id="count" class="result-count" aria-live="polite"></p>
     <section class="workspace">
       <article class="map-card">

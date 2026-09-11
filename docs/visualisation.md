@@ -28,9 +28,12 @@ marker rather than inventing a position.
 - `web/styles.css` owns the shared responsive presentation; `web/help.css`
   styles the click-to-open explanations in the detail panel.
 
-The map and list always retain the full current screen. Each table-column heading
-changes only the table order; it never changes marker colours, scores or map
-inclusion.
+The candidate set always retains the full current screen. Visitors can add any
+number of numeric criteria, give each an inclusive minimum, maximum or both, and
+combine them to refine the map and list. A location must meet every filled limit;
+an unavailable value excludes it only when that measure is constrained. Clearing
+the filters restores every candidate. Each table-column heading changes only the
+table order; it never changes marker colours, scores or map inclusion.
 
 Marker colour can show the composite score, the recorded-offence and
 national-transport component scores, or the observed price, rent, transport,
@@ -40,8 +43,8 @@ composite input. It uses a
 continuous gradient over the full candidate-set range for the selected tenure and
 measure: the lowest and highest observed values receive the first and last
 palette colours, and filters do not change the scale. The fixed Forest gradient
-changes presentation only. Each known location is marked on the bar, and the
-selected location is called out with its exact displayed value.
+changes presentation only. Each visible location with a known value is marked on
+the bar, and the selected location is called out with its exact displayed value.
 The key shows the active measure and its range in the measure's own units. For
 price and rent, the palette stays in its normal visual direction while the key's
 endpoints are swapped: lower housing costs receive the better-end colour and

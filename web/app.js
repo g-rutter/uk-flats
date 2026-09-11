@@ -8,7 +8,7 @@
   const evidenceById = new Map(data.evidence.map(x => [x.id, x]));
   const crime = new Map();
   data.crimeResearch.forEach(x => { if (!crime.has(x.location_id)) crime.set(x.location_id, {}); crime.get(x.location_id)[x.category] = x; });
-  const state = { tenure: 'buy', sort: 'score', sortDirection: 'desc', selectedId: data.locations[0]?.id, mapMeasure: 'composite' };
+  const state = { tenure: 'buy', sort: 'score', sortDirection: 'desc', selectedId: data.locations[0]?.id, mapMeasure: 'composite', filters: [], nextFilterId: 1 };
   const escape = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const known = v => v !== null && v !== undefined && v !== '';
   const show = v => known(v) ? escape(v) : 'Not available';
@@ -42,6 +42,45 @@
     return mapMeasure().reverse ? 1 - position : position;
   };
   const rate = (x, category) => crime.get(x.id)?.[category]?.rate_per_1000;
+  const factor = (x, key) => data.composite.results[x.id].tenures[state.tenure].factors[key];
+  const filterCriteria = {
+    composite: { label: () => `${state.tenure === 'buy' ? 'Buying' : 'Renting'} composite score`, value: score, format: compactNumber },
+    housing_cost: { label: () => state.tenure === 'buy' ? 'Median flat price (£)' : 'Typical one-bedroom rent (£/month)', value: marketPrice, format: money },
+    stock: { label: () => `${state.tenure === 'buy' ? 'For-sale' : 'Rental'} one-bedroom listings`, value: stock, format: wholeNumber },
+    housing_cost_score: { label: 'Housing-cost score', value: x => factor(x, 'housing_cost') },
+    safety: { label: 'Recorded-offence score', value: x => factor(x, 'safety') },
+    local_transport: { label: 'Public-transport connectivity', value: x => x.localTransport.pt_connectivity_0_100 },
+    local_transport_percentile: { label: 'Transport national percentile', value: x => x.localTransport.national_percentile },
+    local_transport_score: { label: 'Local public-transport score', value: x => factor(x, 'local_transport') },
+    digital_connectivity: { label: 'Gigabit broadband availability (%)', value: x => x.digitalConnectivity.gigabit_availability_pct, format: value => `${oneDecimal(value)}%` },
+    residential_environment: { label: 'Residential-environment index', value: x => x.residentialEnvironment.environment_index_0_100 },
+    residential_environment_percentile: { label: 'Environment national percentile', value: x => x.residentialEnvironment.national_percentile },
+    residential_environment_score: { label: 'Residential-environment score', value: x => factor(x, 'residential_environment') },
+    air_burden: { label: 'Air-pollution burden', value: x => x.residentialEnvironment.air_burden },
+    no2: { label: 'NO₂ concentration (µg/m³)', value: x => x.residentialEnvironment.no2_ug_m3 },
+    pm25: { label: 'PM₂.₅ concentration (µg/m³)', value: x => x.residentialEnvironment.pm25_ug_m3 },
+    pm10: { label: 'PM₁₀ concentration (µg/m³)', value: x => x.residentialEnvironment.pm10_ug_m3 },
+    noise: { label: 'Transport-noise exposure (%)', value: x => x.residentialEnvironment.noise_exposed_pct },
+    green_access: { label: 'Residents within 300 m of green space (%)', value: x => x.residentialEnvironment.green_within_300m_pct },
+    green_area: { label: 'Green space within 1,000 m (m²)', value: x => x.residentialEnvironment.green_area_within_1000m_m2 },
+    epc: { label: 'Mean EPC SAP score', value: x => x.residentialEnvironment.epc_sap_mean },
+    stock_score: { label: 'One-bedroom listings score', value: x => factor(x, 'stock') },
+    national_transport: { label: 'National-transport score', value: x => factor(x, 'national_transport') },
+    london: { label: 'London rail journey (minutes)', value: x => x.nationalTransport.londonMinutes, format: wholeNumber },
+    london_changes: { label: 'London rail changes', value: x => x.nationalTransport.londonChanges, format: wholeNumber },
+    birmingham: { label: 'Birmingham rail journey (minutes)', value: x => x.nationalTransport.birminghamMinutes, format: wholeNumber },
+    birmingham_changes: { label: 'Birmingham rail changes', value: x => x.nationalTransport.birminghamChanges, format: wholeNumber },
+    violence: { label: 'Violence against the person (/1,000)', value: x => rate(x, 'violence_against_person') },
+    sexual: { label: 'Sexual offences (/1,000)', value: x => rate(x, 'sexual_offences') },
+    transactions: { label: 'Completed flat sales in sample', value: x => x.buy.transactions, format: wholeNumber }
+  };
+  const criterionLabel = criterion => typeof criterion.label === 'function' ? criterion.label() : criterion.label;
+  const criterionRange = criterion => {
+    const values = data.locations.map(criterion.value).filter(known).map(Number);
+    if (!values.length) return 'No values available';
+    const format = criterion.format || compactNumber;
+    return `Observed range: ${format(Math.min(...values))}–${format(Math.max(...values))}`;
+  };
   const localTransportDefinition = 'DfT modelled public-transport opportunity to reach employment, services and social engagements. The settlement value is a Census-population-weighted mean of Output Area scores. It does not measure fares, crowding, cancellations, reliability, step-free access or travel from a particular home.';
   const digitalConnectivityDefinition = 'Ofcom provider-reported share of residential premises with gigabit-capable fixed-broadband availability in January 2025, aggregated across the reviewed built-up area. Availability is not observed or guaranteed speed, take-up, price, reliability, latency or in-home Wi-Fi performance. This field does not enter the composite score.';
   const environmentDefinition = 'Population-weighted residential surroundings across the reviewed built-up area: cleaner air, less modelled transport noise, access to eligible public green space and housing energy quality. It is not a street, building, safety, beauty or general deprivation measure.';
@@ -105,6 +144,37 @@
         ? compareValue(aValue?.[0], bValue?.[0]) || compareValue(aValue?.[1], bValue?.[1])
         : compareValue(aValue, bValue);
       return result * (state.sortDirection === 'asc' ? 1 : -1) || a.name.localeCompare(b.name);
+    });
+  }
+  function activeFilters() {
+    return state.filters.filter(filter => filter.minimum !== '' || filter.maximum !== '');
+  }
+  function filteredLocations() {
+    const filters = activeFilters();
+    return data.locations.filter(location => filters.every(filter => {
+      const value = filterCriteria[filter.criterion].value(location);
+      if (!known(value)) return false;
+      const number = Number(value);
+      const minimum = filter.minimum === '' ? null : Number(filter.minimum);
+      const maximum = filter.maximum === '' ? null : Number(filter.maximum);
+      return (minimum === null || number >= minimum) && (maximum === null || number <= maximum);
+    }));
+  }
+  function renderFilters() {
+    const options = selected => Object.entries(filterCriteria).map(([key, criterion]) => `<option value="${key}"${key === selected ? ' selected' : ''}>${escape(criterionLabel(criterion))}</option>`).join('');
+    $('filters').innerHTML = state.filters.map((filter, index) => `<div class="filter-row" data-filter-id="${filter.id}">
+      <label class="criterion-field"><span>Criterion ${index + 1}</span><select aria-label="Criterion ${index + 1}">${options(filter.criterion)}</select><small>${escape(criterionRange(filterCriteria[filter.criterion]))}</small></label>
+      <label><span>At least</span><input class="filter-minimum" type="number" inputmode="decimal" step="any" value="${escape(filter.minimum)}" placeholder="No minimum" aria-label="Minimum ${escape(criterionLabel(filterCriteria[filter.criterion]))}"></label>
+      <label><span>At most</span><input class="filter-maximum" type="number" inputmode="decimal" step="any" value="${escape(filter.maximum)}" placeholder="No maximum" aria-label="Maximum ${escape(criterionLabel(filterCriteria[filter.criterion]))}"></label>
+      <button class="remove-filter" type="button" aria-label="Remove criterion ${index + 1}">Remove</button>
+    </div>`).join('');
+    $('clearFilters').hidden = state.filters.length === 0;
+    $('filters').querySelectorAll('.filter-row').forEach(row => {
+      const filter = state.filters.find(item => item.id === Number(row.dataset.filterId));
+      row.querySelector('select').addEventListener('change', event => { filter.criterion = event.target.value; renderFilters(); renderView(); });
+      row.querySelector('.filter-minimum').addEventListener('input', event => { filter.minimum = event.target.value; renderView(); });
+      row.querySelector('.filter-maximum').addEventListener('input', event => { filter.maximum = event.target.value; renderView(); });
+      row.querySelector('.remove-filter').addEventListener('click', () => { state.filters = state.filters.filter(item => item.id !== filter.id); renderFilters(); renderView(); });
     });
   }
   function tooltip(x, target) {
@@ -220,7 +290,7 @@
     }));
   }
   function renderTable(locations) {
-    $('rows').innerHTML = locations.map(x => `<tr class="${x.id === state.selectedId ? 'is-selected' : ''}"><td><button data-id="${escape(x.id)}">${escape(x.name)}</button><small>${escape(x.localAuthority)} · ${escape(x.country)}</small></td><td><strong>${show(score(x))}</strong><small>out of 100</small></td><td>${money(marketPrice(x))}${state.tenure === 'buy' && known(x.buy.transactions) ? `<small>${x.buy.transactions} completed sales</small>` : ''}</td><td>${show(stock(x))}</td><td>${minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)}</td><td>${minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges)}</td><td>${show(rate(x, 'violence_against_person'))}</td><td>${show(rate(x, 'sexual_offences'))}</td></tr>`).join('');
+    $('rows').innerHTML = locations.length ? locations.map(x => `<tr class="${x.id === state.selectedId ? 'is-selected' : ''}"><td><button data-id="${escape(x.id)}">${escape(x.name)}</button><small>${escape(x.localAuthority)} · ${escape(x.country)}</small></td><td><strong>${show(score(x))}</strong><small>out of 100</small></td><td>${money(marketPrice(x))}${state.tenure === 'buy' && known(x.buy.transactions) ? `<small>${x.buy.transactions} completed sales</small>` : ''}</td><td>${show(stock(x))}</td><td>${minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)}</td><td>${minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges)}</td><td>${show(rate(x, 'violence_against_person'))}</td><td>${show(rate(x, 'sexual_offences'))}</td></tr>`).join('') : '<tr><td class="empty-results" colspan="8">No locations meet every filter. Adjust a limit or clear the filters.</td></tr>';
     $('rows').querySelectorAll('button').forEach(button => button.addEventListener('click', () => select(button.dataset.id, true)));
   }
   function renderSortHeadings() {
@@ -237,7 +307,7 @@
       state.sort = key; render();
     }));
   }
-  function renderMapKey() {
+  function renderMapKey(locations) {
     // Browsers can restore a form control's prior value after reload. Keep the
     // displayed choice aligned with the freshly initialised application state.
     $('mapMeasure').value = state.mapMeasure;
@@ -253,7 +323,7 @@
     $('mapGradient').style.background = `linear-gradient(90deg, ${forestGradient.join(', ')})`;
     const valueMarks = $('mapValueMarks'); valueMarks.replaceChildren();
     const locationsAtValue = new Map();
-    data.locations.forEach(location => {
+    locations.forEach(location => {
       const value = mapValue(location);
       if (!known(value)) return;
       const key = String(value);
@@ -325,11 +395,32 @@
     }
     $('mapSelectionValue').textContent = selectedPosition === null ? '' : `${selected.name}: ${mapMeasure().format(selectedValue)}`;
   }
-  function render() { const locations = data.locations; $('count').textContent = `${locations.length} locations shown on the map`; $('resultSummary').textContent = `Showing all ${locations.length}`; renderMapKey(); renderMap(locations); renderDetail(); renderTable(ordered(locations)); renderSortHeadings(); }
-  function select(id, scroll = false) { state.selectedId = id; render(); if (scroll && matchMedia('(max-width: 920px)').matches) $('details').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  function renderView() {
+    const locations = filteredLocations();
+    if (!locations.some(location => location.id === state.selectedId)) state.selectedId = locations[0]?.id;
+    const filterCount = activeFilters().length;
+    const invalidIndex = state.filters.findIndex(filter => filter.minimum !== '' && filter.maximum !== '' && Number(filter.minimum) > Number(filter.maximum));
+    $('filterNote').textContent = invalidIndex >= 0 ? `Criterion ${invalidIndex + 1} has a minimum above its maximum.` : state.filters.length ? 'Leave either limit blank for an open-ended range. Locations without a value are excluded when that criterion has a filled limit.' : 'No filters applied.';
+    $('filters').querySelectorAll('.filter-row').forEach((row, index) => {
+      const invalid = index === invalidIndex;
+      row.classList.toggle('is-invalid', invalid);
+      row.querySelectorAll('input').forEach(input => input.setAttribute('aria-invalid', String(invalid)));
+    });
+    $('count').textContent = `${locations.length} ${locations.length === 1 ? 'location' : 'locations'} shown on the map`;
+    $('resultSummary').textContent = filterCount ? `Showing ${locations.length} of ${data.locations.length} · ${filterCount} ${filterCount === 1 ? 'criterion' : 'criteria'}` : `Showing all ${locations.length}`;
+    renderMapKey(locations); renderMap(locations); renderDetail(); renderTable(ordered(locations)); renderSortHeadings();
+  }
+  function render() { renderFilters(); renderView(); }
+  function select(id, scroll = false) { state.selectedId = id; renderView(); if (scroll && matchMedia('(max-width: 920px)').matches) $('details').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
   function setTenure(tenure) { state.tenure = tenure; $('buyToggle').setAttribute('aria-pressed', tenure === 'buy'); $('rentToggle').setAttribute('aria-pressed', tenure === 'rent'); $('mapPriceMeasure').textContent = tenure === 'buy' ? 'Median flat price' : 'Typical one-bedroom rent'; render(); }
   $('buyToggle').addEventListener('click', () => setTenure('buy')); $('rentToggle').addEventListener('click', () => setTenure('rent'));
-  $('mapMeasure').addEventListener('input', event => { state.mapMeasure = event.target.value; render(); });
+  $('addFilter').addEventListener('click', () => {
+    const filter = { id: state.nextFilterId++, criterion: 'composite', minimum: '', maximum: '' };
+    state.filters.push(filter); renderFilters();
+    $('filters').querySelector(`[data-filter-id="${filter.id}"] select`).focus();
+  });
+  $('clearFilters').addEventListener('click', () => { state.filters = []; render(); $('addFilter').focus(); });
+  $('mapMeasure').addEventListener('input', event => { state.mapMeasure = event.target.value; renderView(); });
   document.addEventListener('click', event => { if (!event.target.closest('.help-wrap')) closeHelp(); });
   document.addEventListener('keydown', event => { if (event.key === 'Escape') closeHelp(); });
   $('evidence').innerHTML = data.evidence.filter(x => x.workstream !== 'geography_crime' || x.id === 'CRIME-ONS-2026-CSP').map(x => `<h3>${escape(x.title)}</h3><p>${escape(x.dataPeriod)} · Recorded retrieval: ${escape(x.retrievalDate)} · ${escape(x.geography)}</p><p>${escape(x.limitations)}</p>`).join('');
