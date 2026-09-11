@@ -1,6 +1,6 @@
 # Next work
 
-- Review the remaining proxies for suitability, reproducibility and payoff; record any accepted methodology change and its limitations.
+- Review the chosen per-location fields of information which go into the composite score.
   - Obtaining market thickness through rightmove queries is token-expensive and biased. What other alternatives exist to this?
   - It seems that some other fields may merely proxy area size or population in a location. Examples include 'Green space within 1,000m' and 'One-bedroom listings'. Are there more cases? How can these be made fair for comparison?
   - Identify work that adds little decision value relative to its collection or maintenance cost.
