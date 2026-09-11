@@ -1,14 +1,14 @@
 # Next work
 
-- Audit every source, calculation and proxy for suitability, reproducibility and opportunities for more objective measures; record any resulting methodology changes and evidence limitations.
-  - Is there a better measure of market thickness than rightmove listings?
-  - Improve the 'recorded offenses' field. It's meant to be a measure of personal safety against crime and harassment. Continue looking for external sources of this data that are suitable, free and easy to integrate. Consider combining multiple measures, including the current police data. Consider using the 'crime' domain from the English Indices of Deprivation, which is described as, "Risk of personal and material victimisation". (Is it available for Wales?)
-  - What is simply being done in a stupid way - too much effort for the payoff perhaps?
-- Re-acquire and document prices and rents for all locations; decide whether reproducible portal stock snapshots are sufficiently reliable to retain as a comparison input.
-- Make end-to-end location additions and data refreshes agent-operable: document and automate the acquisition, validation, evidence, build and review workflow.
-- Allow the map to colour locations by an individual score component.
+- Review the remaining proxies for suitability, reproducibility and payoff; record any accepted methodology change and its limitations.
+  - Test a reproducible measure of market thickness that is more robust than Rightmove headline listings, or explicitly retain the snapshot measure with its limitations.
+  - Improve the recorded-offence safety proxy beyond the complete ONS CSP violence-against-the-person and sexual-offence rates where a free, England-and-Wales-comparable, documented source supports it. Consider the English Indices of Deprivation crime domain only alongside a compatible Welsh measure and an explicit geography review. Keep Police.uk ASB research-only unless a dated archive passes the documented force/month coverage and geography review.
+  - Identify work that adds little decision value relative to its collection or maintenance cost.
+- Re-acquire and document buying prices, rents, national-transport observations and market-stock snapshots for all 83 locations. The current price, rent and national-transport inputs are imported baseline observations; 63 market observations also lack retained row-level captures. Promote a replacement only after its raw release, geography mapping, evidence and validation are complete.
+- Complete an agent-operable, end-to-end workflow for adding locations and refreshing each source: acquisition, raw-release retention, geography mapping, preparation, evidence, validation, build and browser review.
+- Let the map colour locations by a selected composite-score component as well as the composite score.
 - Add map overlays where suitably sourced evidence is available, beginning with noise or air pollution, recorded offences, market thickness and isochrone travel times.
 - Repo health:
-  - When possible, homogenise the original and existing location information such that there is no longer any reference in the repo that they are distinct. They should indeed be identical at this point. Identically acquired, uniformly recorded, methods of acquistion identical with no remaining mention of any differences in methodology because there are none. It should not be recorded that one part is an expansion and the other the original.
-  - Thoroughly purge the code base of bloat in both code and natural language.
-  - Look for fragmentation and unify the same processes or documentation being repeated
+  - Remove stale distinctions between location cohorts from active inputs and methodology, while preserving required archive and imported-baseline provenance until every affected observation is reproducibly replaced.
+  - Purge unnecessary code and prose.
+  - Consolidate duplicated processes and documentation.
