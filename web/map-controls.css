@@ -73,10 +73,13 @@
 .heatmap-value-mark:hover,
 .heatmap-value-mark:focus-visible { width: 4px; margin-left: -2px; outline: 2px solid #18332f; outline-offset: 2px; }
 
-.heatmap-tooltip { position: absolute; z-index: 3; bottom: calc(100% + 9px); max-width: min(300px, 90vw); padding: 7px 9px; border-radius: 7px; background: rgba(18, 62, 52, .96); color: #fff; font-size: .74rem; line-height: 1.35; pointer-events: none; transform: translateX(-50%); box-shadow: 0 6px 16px rgba(0, 0, 0, .18); }
+.heatmap-tooltip { position: absolute; z-index: 3; bottom: calc(100% + 9px); max-width: min(300px, 90vw); padding: 7px 9px; border-radius: 7px; background: rgba(18, 62, 52, .96); color: #fff; font-size: .74rem; line-height: 1.35; transform: translateX(-50%); box-shadow: 0 6px 16px rgba(0, 0, 0, .18); }
+.heatmap-tooltip::after { content: ''; position: absolute; top: 100%; right: 0; left: 0; height: 9px; }
 .heatmap-tooltip strong,.heatmap-tooltip span { display: block; }
 .heatmap-tooltip span { color: #dbe8e1; }
 .heatmap-tooltip ul { margin: 3px 0 0; padding-left: 16px; }
+.heatmap-tooltip button { padding: 0; border: 0; background: none; color: inherit; font: inherit; text-align: left; text-decoration: underline; cursor: pointer; }
+.heatmap-tooltip button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 
 .heatmap-selection-mark {
   position: absolute;

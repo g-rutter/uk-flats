@@ -250,22 +250,34 @@
       if (!locationsAtValue.has(key)) locationsAtValue.set(key, { value, locations: [] });
       locationsAtValue.get(key).locations.push(location);
     });
-    const hideHeatmapTooltip = () => { $('heatmapTooltip').hidden = true; };
+    let heatmapTooltipHideTimer;
+    const hideHeatmapTooltip = () => {
+      clearTimeout(heatmapTooltipHideTimer);
+      heatmapTooltipHideTimer = setTimeout(() => { $('heatmapTooltip').hidden = true; }, 120);
+    };
     locationsAtValue.forEach(({ value, locations }) => {
       const position = heatmapPosition(value, [minimum, maximum]);
       const mark = document.createElement('button');
       mark.type = 'button'; mark.className = 'heatmap-value-mark'; mark.style.left = `${position * 100}%`;
-      const locationNames = locations.map(location => location.name).sort((a, b) => a.localeCompare(b));
+      const sortedLocations = [...locations].sort((a, b) => a.name.localeCompare(b.name));
+      const locationNames = sortedLocations.map(location => location.name);
       const formattedValue = mapMeasure().format(value);
       mark.setAttribute('aria-label', `${mapMeasureLabel()} ${formattedValue}: ${locationNames.join(', ')}`);
       const showHeatmapTooltip = () => {
+        clearTimeout(heatmapTooltipHideTimer);
         const tooltip = $('heatmapTooltip');
-        tooltip.innerHTML = `<strong>${escape(mapMeasureLabel())}: ${formattedValue}</strong><span>Locations at this value</span><ul>${locationNames.map(name => `<li>${escape(name)}</li>`).join('')}</ul>`;
+        tooltip.innerHTML = `<strong>${escape(mapMeasureLabel())}: ${formattedValue}</strong><span>Locations at this value</span><ul>${sortedLocations.map(location => `<li><button type="button" data-location-id="${escape(location.id)}">${escape(location.name)}</button></li>`).join('')}</ul>`;
         tooltip.style.left = `${position * 100}%`;
         tooltip.hidden = false;
+        tooltip.onmouseenter = () => clearTimeout(heatmapTooltipHideTimer);
+        tooltip.onmouseleave = hideHeatmapTooltip;
+        tooltip.querySelectorAll('[data-location-id]').forEach(button => button.addEventListener('click', () => {
+          tooltip.hidden = true;
+          select(button.dataset.locationId);
+        }));
       };
       mark.addEventListener('mouseenter', showHeatmapTooltip);
-      mark.addEventListener('mouseleave', hideHeatmapTooltip);
+      mark.addEventListener('mouseleave', event => { if (!$('heatmapTooltip').contains(event.relatedTarget)) hideHeatmapTooltip(); });
       mark.addEventListener('focus', showHeatmapTooltip);
       mark.addEventListener('blur', hideHeatmapTooltip);
       valueMarks.appendChild(mark);
