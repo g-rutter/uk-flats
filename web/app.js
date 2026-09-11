@@ -250,35 +250,50 @@
       if (!locationsAtValue.has(key)) locationsAtValue.set(key, { value, locations: [] });
       locationsAtValue.get(key).locations.push(location);
     });
+    const heatmapWidth = $('mapGradient').getBoundingClientRect().width;
+    const groupingDistance = heatmapWidth ? Math.min(.03, 8 / heatmapWidth) : .018;
+    const valueGroups = [];
+    [...locationsAtValue.values()].map(entry => ({ ...entry, position: heatmapPosition(entry.value, [minimum, maximum]) })).sort((a, b) => a.position - b.position).forEach(entry => {
+      const group = valueGroups.at(-1);
+      if (group && entry.position - group.startPosition <= groupingDistance) {
+        group.entries.push(entry);
+        group.position = group.entries.reduce((total, item) => total + item.position, 0) / group.entries.length;
+      } else valueGroups.push({ startPosition: entry.position, position: entry.position, entries: [entry] });
+    });
     let heatmapTooltipHideTimer;
     const hideHeatmapTooltip = () => {
       clearTimeout(heatmapTooltipHideTimer);
       heatmapTooltipHideTimer = setTimeout(() => { $('heatmapTooltip').hidden = true; }, 120);
     };
-    locationsAtValue.forEach(({ value, locations }) => {
-      const position = heatmapPosition(value, [minimum, maximum]);
+    const showHeatmapTooltip = (entries, position) => {
+      clearTimeout(heatmapTooltipHideTimer);
+      const tooltip = $('heatmapTooltip');
+      const grouped = entries.length > 1;
+      const locations = entries.flatMap(entry => entry.locations).sort((a, b) => a.name.localeCompare(b.name));
+      const locationNames = locations.map(location => location.name);
+      const title = grouped ? `${mapMeasureLabel()}: nearby values` : `${mapMeasureLabel()}: ${mapMeasure().format(entries[0].value)}`;
+      tooltip.innerHTML = `<strong>${escape(title)}</strong><ul>${locations.map(location => `<li><button type="button" data-location-id="${escape(location.id)}">${escape(location.name)}${grouped ? ` <small>(${escape(mapMeasure().format(mapValue(location)))})</small>` : ''}</button></li>`).join('')}</ul>`;
+      tooltip.style.left = `${position * 100}%`;
+      tooltip.style.transform = position < .16 ? 'translateX(0)' : position > .84 ? 'translateX(-100%)' : 'translateX(-50%)';
+      tooltip.hidden = false;
+      tooltip.onmouseenter = () => clearTimeout(heatmapTooltipHideTimer);
+      tooltip.onmouseleave = hideHeatmapTooltip;
+      tooltip.querySelectorAll('[data-location-id]').forEach(button => button.addEventListener('click', () => {
+        tooltip.hidden = true;
+        select(button.dataset.locationId);
+      }));
+      return locationNames;
+    };
+    valueGroups.forEach(({ entries, position }) => {
       const mark = document.createElement('button');
       mark.type = 'button'; mark.className = 'heatmap-value-mark'; mark.style.left = `${position * 100}%`;
-      const sortedLocations = [...locations].sort((a, b) => a.name.localeCompare(b.name));
-      const locationNames = sortedLocations.map(location => location.name);
-      const formattedValue = mapMeasure().format(value);
-      mark.setAttribute('aria-label', `${mapMeasureLabel()} ${formattedValue}: ${locationNames.join(', ')}`);
-      const showHeatmapTooltip = () => {
-        clearTimeout(heatmapTooltipHideTimer);
-        const tooltip = $('heatmapTooltip');
-        tooltip.innerHTML = `<strong>${escape(mapMeasureLabel())}: ${formattedValue}</strong><span>Locations at this value</span><ul>${sortedLocations.map(location => `<li><button type="button" data-location-id="${escape(location.id)}">${escape(location.name)}</button></li>`).join('')}</ul>`;
-        tooltip.style.left = `${position * 100}%`;
-        tooltip.hidden = false;
-        tooltip.onmouseenter = () => clearTimeout(heatmapTooltipHideTimer);
-        tooltip.onmouseleave = hideHeatmapTooltip;
-        tooltip.querySelectorAll('[data-location-id]').forEach(button => button.addEventListener('click', () => {
-          tooltip.hidden = true;
-          select(button.dataset.locationId);
-        }));
-      };
-      mark.addEventListener('mouseenter', showHeatmapTooltip);
+      const allLocations = entries.flatMap(entry => entry.locations).sort((a, b) => a.name.localeCompare(b.name));
+      const label = entries.length > 1 ? 'nearby values' : mapMeasure().format(entries[0].value);
+      mark.setAttribute('aria-label', `${mapMeasureLabel()} ${label}: ${allLocations.map(location => location.name).join(', ')}`);
+      const show = () => showHeatmapTooltip(entries, position);
+      mark.addEventListener('mouseenter', show);
       mark.addEventListener('mouseleave', event => { if (!$('heatmapTooltip').contains(event.relatedTarget)) hideHeatmapTooltip(); });
-      mark.addEventListener('focus', showHeatmapTooltip);
+      mark.addEventListener('focus', show);
       mark.addEventListener('blur', hideHeatmapTooltip);
       valueMarks.appendChild(mark);
     });
@@ -286,6 +301,18 @@
     const selectedPosition = heatmapPosition(selectedValue, [minimum, maximum]);
     $('mapSelectionMark').style.left = `${(selectedPosition ?? 0) * 100}%`;
     $('mapSelectionMark').hidden = selectedPosition === null;
+    const selectedEntry = known(selectedValue) ? locationsAtValue.get(String(selectedValue)) : null;
+    if (selectedEntry) {
+      const selectionMark = $('mapSelectionMark');
+      const showSelected = () => showHeatmapTooltip([selectedEntry], selectedPosition);
+      selectionMark.setAttribute('aria-label', `${selected.name}: ${mapMeasure().format(selectedValue)}. Show locations at this value.`);
+      selectionMark.onmouseenter = showSelected;
+      selectionMark.onmouseleave = event => { if (!$('heatmapTooltip').contains(event.relatedTarget)) hideHeatmapTooltip(); };
+      selectionMark.onfocus = showSelected;
+      selectionMark.onblur = hideHeatmapTooltip;
+      $('mapSelectionValue').onmouseenter = showSelected;
+      $('mapSelectionValue').onmouseleave = hideHeatmapTooltip;
+    }
     $('mapSelectionValue').textContent = selectedPosition === null ? '' : `${selected.name}: ${mapMeasure().format(selectedValue)}`;
   }
   function render() { const locations = data.locations; $('count').textContent = `${locations.length} locations shown on the map`; $('resultSummary').textContent = `Showing all ${locations.length}`; renderMapKey(); renderMap(locations); renderDetail(); renderTable(ordered(locations)); renderSortHeadings(); }

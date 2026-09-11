@@ -73,7 +73,7 @@
 .heatmap-value-mark:hover,
 .heatmap-value-mark:focus-visible { width: 4px; margin-left: -2px; outline: 2px solid #18332f; outline-offset: 2px; }
 
-.heatmap-tooltip { position: absolute; z-index: 3; bottom: calc(100% + 9px); max-width: min(300px, 90vw); padding: 7px 9px; border-radius: 7px; background: rgba(18, 62, 52, .96); color: #fff; font-size: .74rem; line-height: 1.35; transform: translateX(-50%); box-shadow: 0 6px 16px rgba(0, 0, 0, .18); }
+.heatmap-tooltip { position: absolute; z-index: 3; bottom: calc(100% + 9px); width: max-content; max-width: min(460px, calc(100vw - 16px)); padding: 7px 9px; border-radius: 7px; background: rgba(18, 62, 52, .96); color: #fff; font-size: .74rem; line-height: 1.35; transform: translateX(-50%); box-shadow: 0 6px 16px rgba(0, 0, 0, .18); }
 .heatmap-tooltip::after { content: ''; position: absolute; top: 100%; right: 0; left: 0; height: 9px; }
 .heatmap-tooltip strong,.heatmap-tooltip span { display: block; }
 .heatmap-tooltip span { color: #dbe8e1; }
@@ -86,11 +86,18 @@
   left: 0;
   top: 0;
   bottom: 0;
+  margin: 0;
+  padding: 0;
   width: 0;
+  border: 0;
   border-left: 3px solid #17211b;
+  background: transparent;
   transform: translateX(-1px);
   filter: drop-shadow(0 0 1px #fff);
+  cursor: help;
 }
+
+.heatmap-selection-mark:focus-visible { outline: 2px solid #17211b; outline-offset: 3px; }
 
 .heatmap-selection-value {
   margin-top: 5px;
