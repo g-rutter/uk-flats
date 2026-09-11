@@ -13059,56 +13059,96 @@ window.FLATS_DATA = {
     "safety_note": "Equal-weighted quintile scores for ONS CSP violence-against-the-person and sexual-offence rates; lower recorded rates score higher. ASB is excluded pending coverage review.",
     "housing_cost_bands": {
       "buy": {
-        "5": {
-          "count": 17,
+        "5.0": {
+          "count": 10,
           "minimum": 66248,
-          "maximum": 101000
+          "maximum": 91250
         },
-        "4": {
-          "count": 17,
-          "minimum": 103750,
-          "maximum": 119975
+        "4.5": {
+          "count": 9,
+          "minimum": 94000,
+          "maximum": 104000
         },
-        "3": {
-          "count": 16,
-          "minimum": 122250,
-          "maximum": 139950
+        "4.0": {
+          "count": 9,
+          "minimum": 104625,
+          "maximum": 113500
         },
-        "2": {
-          "count": 17,
-          "minimum": 140000,
+        "3.5": {
+          "count": 10,
+          "minimum": 114000,
+          "maximum": 125000
+        },
+        "3.0": {
+          "count": 9,
+          "minimum": 127500,
+          "maximum": 135000
+        },
+        "2.5": {
+          "count": 9,
+          "minimum": 137000,
+          "maximum": 148000
+        },
+        "2.0": {
+          "count": 11,
+          "minimum": 148500,
           "maximum": 165000
         },
-        "1": {
-          "count": 16,
+        "1.5": {
+          "count": 7,
           "minimum": 172000,
+          "maximum": 192500
+        },
+        "1.0": {
+          "count": 9,
+          "minimum": 200000,
           "maximum": 315000
         }
       },
       "rent": {
-        "5": {
-          "count": 17,
+        "5.0": {
+          "count": 9,
           "minimum": 400,
-          "maximum": 538
+          "maximum": 498
         },
-        "4": {
-          "count": 17,
-          "minimum": 541,
-          "maximum": 606
+        "4.5": {
+          "count": 10,
+          "minimum": 499,
+          "maximum": 545
         },
-        "3": {
-          "count": 16,
-          "minimum": 610,
-          "maximum": 703
+        "4.0": {
+          "count": 9,
+          "minimum": 546,
+          "maximum": 587
         },
-        "2": {
-          "count": 17,
-          "minimum": 709,
-          "maximum": 871
+        "3.5": {
+          "count": 9,
+          "minimum": 590,
+          "maximum": 629
         },
-        "1": {
-          "count": 16,
-          "minimum": 872,
+        "3.0": {
+          "count": 10,
+          "minimum": 647,
+          "maximum": 689
+        },
+        "2.5": {
+          "count": 9,
+          "minimum": 696,
+          "maximum": 743
+        },
+        "2.0": {
+          "count": 9,
+          "minimum": 748,
+          "maximum": 825
+        },
+        "1.5": {
+          "count": 9,
+          "minimum": 869,
+          "maximum": 917
+        },
+        "1.0": {
+          "count": 9,
+          "minimum": 919,
           "maximum": 1353
         }
       }
@@ -13116,12 +13156,12 @@ window.FLATS_DATA = {
     "score_bands": {
       "buy": {
         "low": {
-          "count": 26,
+          "count": 27,
           "minimum": 45.3,
           "maximum": 60.0
         },
         "mid": {
-          "count": 31,
+          "count": 30,
           "minimum": 60.6,
           "maximum": 66.5
         },
@@ -13135,18 +13175,18 @@ window.FLATS_DATA = {
       "rent": {
         "low": {
           "count": 27,
-          "minimum": 45.9,
+          "minimum": 47.6,
           "maximum": 60.6
         },
         "mid": {
-          "count": 26,
+          "count": 27,
           "minimum": 61.2,
           "maximum": 66.5
         },
         "high": {
-          "count": 30,
+          "count": 29,
           "minimum": 67.1,
-          "maximum": 78.2
+          "maximum": 80.0
         },
         "unknown": 0
       }
@@ -13161,10 +13201,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.0,
-              "housing_cost": 5,
+              "housing_cost": 4.5,
               "stock": 3
             },
-            "score": 72.4,
+            "score": 70.6,
             "band": "high"
           },
           "rent": {
@@ -13173,10 +13213,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.0,
-              "housing_cost": 5,
+              "housing_cost": 4.5,
               "stock": 2
             },
-            "score": 68.8,
+            "score": 67.1,
             "band": "high"
           }
         }
@@ -13190,7 +13230,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 1,
               "national_transport": 4.5,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 5
             },
             "score": 56.5,
@@ -13202,7 +13242,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 1,
               "national_transport": 4.5,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 5
             },
             "score": 56.5,
@@ -13219,7 +13259,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 2.5,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 1
             },
             "score": 55.3,
@@ -13231,10 +13271,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 2.5,
-              "housing_cost": 5,
+              "housing_cost": 4.5,
               "stock": 1
             },
-            "score": 58.8,
+            "score": 57.1,
             "band": "low"
           }
         }
@@ -13248,7 +13288,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 3,
               "national_transport": 2.0,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 4
             },
             "score": 61.2,
@@ -13260,7 +13300,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 3,
               "national_transport": 2.0,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 4
             },
             "score": 61.2,
@@ -13277,11 +13317,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 2.5,
-              "housing_cost": 4,
+              "housing_cost": 3.5,
               "stock": 3
             },
-            "score": 60.6,
-            "band": "mid"
+            "score": 58.8,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -13289,7 +13329,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 2.5,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 4
             },
             "score": 60.6,
@@ -13306,10 +13346,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 2.0,
-              "housing_cost": 5,
+              "housing_cost": 4.5,
               "stock": 4
             },
-            "score": 62.9,
+            "score": 61.2,
             "band": "mid"
           },
           "rent": {
@@ -13318,7 +13358,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 2.0,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 4
             },
             "score": 59.4,
@@ -13335,7 +13375,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 2.0,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 1
             },
             "score": 50.6,
@@ -13347,7 +13387,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 2.0,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 2
             },
             "score": 54.1,
@@ -13364,10 +13404,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 4.5,
-              "housing_cost": 4,
+              "housing_cost": 4.5,
               "stock": 3
             },
-            "score": 70.6,
+            "score": 72.4,
             "band": "high"
           },
           "rent": {
@@ -13376,10 +13416,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 4.5,
-              "housing_cost": 3,
+              "housing_cost": 3.5,
               "stock": 3
             },
-            "score": 67.1,
+            "score": 68.8,
             "band": "high"
           }
         }
@@ -13393,7 +13433,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 5
             },
             "score": 81.8,
@@ -13405,10 +13445,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 1,
+              "housing_cost": 1.5,
               "stock": 5
             },
-            "score": 78.2,
+            "score": 80.0,
             "band": "high"
           }
         }
@@ -13422,7 +13462,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.5,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 3
             },
             "score": 66.5,
@@ -13434,11 +13474,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.5,
-              "housing_cost": 2,
+              "housing_cost": 2.5,
               "stock": 3
             },
-            "score": 66.5,
-            "band": "mid"
+            "score": 68.2,
+            "band": "high"
           }
         }
       },
@@ -13451,10 +13491,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 3,
               "national_transport": 4.5,
-              "housing_cost": 4,
+              "housing_cost": 3.5,
               "stock": 2
             },
-            "score": 60.0,
+            "score": 58.2,
             "band": "low"
           },
           "rent": {
@@ -13463,11 +13503,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 3,
               "national_transport": 4.5,
-              "housing_cost": 5,
+              "housing_cost": 4.5,
               "stock": 3
             },
-            "score": 67.1,
-            "band": "high"
+            "score": 65.3,
+            "band": "mid"
           }
         }
       },
@@ -13480,7 +13520,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 5.0,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 4
             },
             "score": 70.0,
@@ -13492,7 +13532,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 5.0,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 4
             },
             "score": 66.5,
@@ -13509,10 +13549,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 2.5,
-              "housing_cost": 5,
+              "housing_cost": 4.5,
               "stock": 2
             },
-            "score": 65.9,
+            "score": 64.1,
             "band": "mid"
           },
           "rent": {
@@ -13521,7 +13561,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 2.5,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 2
             },
             "score": 65.9,
@@ -13538,10 +13578,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 3,
               "national_transport": 4.5,
-              "housing_cost": 3,
+              "housing_cost": 3.5,
               "stock": 3
             },
-            "score": 56.5,
+            "score": 58.2,
             "band": "low"
           },
           "rent": {
@@ -13550,10 +13590,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 3,
               "national_transport": 4.5,
-              "housing_cost": 4,
+              "housing_cost": 3.5,
               "stock": 4
             },
-            "score": 63.5,
+            "score": 61.8,
             "band": "mid"
           }
         }
@@ -13567,7 +13607,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 1,
               "national_transport": 4.0,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 3
             },
             "score": 57.1,
@@ -13579,7 +13619,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 1,
               "national_transport": 4.0,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 3
             },
             "score": 60.6,
@@ -13596,10 +13636,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 4,
               "national_transport": 1.0,
-              "housing_cost": 5,
+              "housing_cost": 4.5,
               "stock": 3
             },
-            "score": 74.7,
+            "score": 72.9,
             "band": "high"
           },
           "rent": {
@@ -13608,7 +13648,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 4,
               "national_transport": 1.0,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 3
             },
             "score": 71.2,
@@ -13625,11 +13665,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 4.5,
-              "housing_cost": 2,
+              "housing_cost": 2.5,
               "stock": 3
             },
-            "score": 65.3,
-            "band": "mid"
+            "score": 67.1,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -13637,11 +13677,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 4.5,
-              "housing_cost": 2,
+              "housing_cost": 2.5,
               "stock": 3
             },
-            "score": 65.3,
-            "band": "mid"
+            "score": 67.1,
+            "band": "high"
           }
         }
       },
@@ -13654,7 +13694,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 1,
               "national_transport": 2.0,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 3
             },
             "score": 45.3,
@@ -13666,7 +13706,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 1,
               "national_transport": 2.0,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 3
             },
             "score": 48.8,
@@ -13683,7 +13723,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 1.5,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 2
             },
             "score": 56.5,
@@ -13695,7 +13735,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 1.5,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 1
             },
             "score": 52.9,
@@ -13712,7 +13752,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 2.0,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 3
             },
             "score": 57.6,
@@ -13724,7 +13764,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 2.0,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 4
             },
             "score": 61.2,
@@ -13741,11 +13781,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 2.5,
-              "housing_cost": 5,
+              "housing_cost": 4.5,
               "stock": 4
             },
-            "score": 67.6,
-            "band": "high"
+            "score": 65.9,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -13753,7 +13793,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 2.5,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 4
             },
             "score": 67.6,
@@ -13770,10 +13810,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 3.0,
-              "housing_cost": 3,
+              "housing_cost": 2.5,
               "stock": 4
             },
-            "score": 60.0,
+            "score": 58.2,
             "band": "low"
           },
           "rent": {
@@ -13782,10 +13822,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 3.0,
-              "housing_cost": 2,
+              "housing_cost": 2.5,
               "stock": 4
             },
-            "score": 56.5,
+            "score": 58.2,
             "band": "low"
           }
         }
@@ -13799,7 +13839,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 4.5,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 2
             },
             "score": 67.1,
@@ -13811,7 +13851,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 4.5,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 3
             },
             "score": 70.6,
@@ -13828,7 +13868,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.0,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 3
             },
             "score": 70.6,
@@ -13840,11 +13880,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.0,
-              "housing_cost": 4,
+              "housing_cost": 3.5,
               "stock": 1
             },
-            "score": 67.1,
-            "band": "high"
+            "score": 65.3,
+            "band": "mid"
           }
         }
       },
@@ -13857,7 +13897,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 3.5,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 5
             },
             "score": 59.4,
@@ -13869,7 +13909,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 3.5,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 5
             },
             "score": 59.4,
@@ -13886,7 +13926,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 5.0,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 4
             },
             "score": 68.2,
@@ -13898,10 +13938,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 5.0,
-              "housing_cost": 2,
+              "housing_cost": 2.5,
               "stock": 5
             },
-            "score": 68.2,
+            "score": 70.0,
             "band": "high"
           }
         }
@@ -13915,10 +13955,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.5,
-              "housing_cost": 4,
+              "housing_cost": 3.5,
               "stock": 3
             },
-            "score": 62.9,
+            "score": 61.2,
             "band": "mid"
           },
           "rent": {
@@ -13927,7 +13967,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.5,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 3
             },
             "score": 59.4,
@@ -13944,10 +13984,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 4,
               "national_transport": 3.5,
-              "housing_cost": 2,
+              "housing_cost": 2.5,
               "stock": 5
             },
-            "score": 68.2,
+            "score": 70.0,
             "band": "high"
           },
           "rent": {
@@ -13956,7 +13996,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 4,
               "national_transport": 3.5,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 5
             },
             "score": 71.8,
@@ -13973,7 +14013,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 3,
               "national_transport": 4.5,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 2
             },
             "score": 67.1,
@@ -13985,7 +14025,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 3,
               "national_transport": 4.5,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 2
             },
             "score": 67.1,
@@ -14002,10 +14042,10 @@ window.FLATS_DATA = {
               "local_transport": 5,
               "residential_environment": 2,
               "national_transport": 3.5,
-              "housing_cost": 1,
+              "housing_cost": 1.5,
               "stock": 5
             },
-            "score": 57.6,
+            "score": 59.4,
             "band": "low"
           },
           "rent": {
@@ -14014,7 +14054,7 @@ window.FLATS_DATA = {
               "local_transport": 5,
               "residential_environment": 2,
               "national_transport": 3.5,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 5
             },
             "score": 57.6,
@@ -14031,7 +14071,7 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 4,
               "national_transport": 1.5,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 1
             },
             "score": 60.0,
@@ -14043,7 +14083,7 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 4,
               "national_transport": 1.5,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 1
             },
             "score": 56.5,
@@ -14060,7 +14100,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 2.0,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 2
             },
             "score": 57.6,
@@ -14072,11 +14112,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 2.0,
-              "housing_cost": 5,
+              "housing_cost": 4.5,
               "stock": 3
             },
-            "score": 61.2,
-            "band": "mid"
+            "score": 59.4,
+            "band": "low"
           }
         }
       },
@@ -14089,7 +14129,7 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 3,
               "national_transport": 2.5,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 1
             },
             "score": 58.8,
@@ -14101,7 +14141,7 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 3,
               "national_transport": 2.5,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 1
             },
             "score": 58.8,
@@ -14118,10 +14158,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 4,
               "national_transport": 2.0,
-              "housing_cost": 3,
+              "housing_cost": 2.5,
               "stock": 4
             },
-            "score": 66.5,
+            "score": 64.7,
             "band": "mid"
           },
           "rent": {
@@ -14130,7 +14170,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 4,
               "national_transport": 2.0,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 4
             },
             "score": 62.9,
@@ -14147,7 +14187,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 4.0,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 3
             },
             "score": 64.1,
@@ -14159,10 +14199,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 4.0,
-              "housing_cost": 3,
+              "housing_cost": 2.5,
               "stock": 3
             },
-            "score": 64.1,
+            "score": 62.4,
             "band": "mid"
           }
         }
@@ -14176,7 +14216,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 5.0,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 4
             },
             "score": 66.5,
@@ -14188,7 +14228,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 5.0,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 4
             },
             "score": 66.5,
@@ -14205,7 +14245,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 2.5,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 4
             },
             "score": 57.1,
@@ -14217,7 +14257,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 2.5,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 4
             },
             "score": 57.1,
@@ -14234,10 +14274,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 4.0,
-              "housing_cost": 2,
+              "housing_cost": 2.5,
               "stock": 4
             },
-            "score": 60.6,
+            "score": 62.4,
             "band": "mid"
           },
           "rent": {
@@ -14246,10 +14286,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 4.0,
-              "housing_cost": 2,
+              "housing_cost": 2.5,
               "stock": 5
             },
-            "score": 64.1,
+            "score": 65.9,
             "band": "mid"
           }
         }
@@ -14263,7 +14303,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 4.5,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 4
             },
             "score": 70.6,
@@ -14275,10 +14315,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 4.5,
-              "housing_cost": 3,
+              "housing_cost": 2.5,
               "stock": 4
             },
-            "score": 70.6,
+            "score": 68.8,
             "band": "high"
           }
         }
@@ -14292,10 +14332,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 2.0,
-              "housing_cost": 3,
+              "housing_cost": 2.5,
               "stock": 4
             },
-            "score": 62.9,
+            "score": 61.2,
             "band": "mid"
           },
           "rent": {
@@ -14304,10 +14344,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 2.0,
-              "housing_cost": 3,
+              "housing_cost": 2.5,
               "stock": 4
             },
-            "score": 62.9,
+            "score": 61.2,
             "band": "mid"
           }
         }
@@ -14321,7 +14361,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 2.5,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 4
             },
             "score": 53.5,
@@ -14333,10 +14373,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 2.5,
-              "housing_cost": 1,
+              "housing_cost": 1.5,
               "stock": 4
             },
-            "score": 50.0,
+            "score": 51.8,
             "band": "low"
           }
         }
@@ -14350,7 +14390,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 3.5,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 3
             },
             "score": 66.5,
@@ -14362,7 +14402,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 3.5,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 4
             },
             "score": 70.0,
@@ -14379,7 +14419,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 3.5,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 2
             },
             "score": 59.4,
@@ -14391,7 +14431,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 3.5,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 3
             },
             "score": 66.5,
@@ -14408,10 +14448,10 @@ window.FLATS_DATA = {
               "local_transport": 5,
               "residential_environment": 3,
               "national_transport": 2.0,
-              "housing_cost": 1,
+              "housing_cost": 1.5,
               "stock": 5
             },
-            "score": 61.2,
+            "score": 62.9,
             "band": "mid"
           },
           "rent": {
@@ -14420,10 +14460,10 @@ window.FLATS_DATA = {
               "local_transport": 5,
               "residential_environment": 3,
               "national_transport": 2.0,
-              "housing_cost": 1,
+              "housing_cost": 1.5,
               "stock": 5
             },
-            "score": 61.2,
+            "score": 62.9,
             "band": "mid"
           }
         }
@@ -14437,10 +14477,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 4.0,
-              "housing_cost": 2,
+              "housing_cost": 2.5,
               "stock": 5
             },
-            "score": 72.9,
+            "score": 74.7,
             "band": "high"
           },
           "rent": {
@@ -14449,7 +14489,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 4.0,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 5
             },
             "score": 76.5,
@@ -14466,7 +14506,7 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 5,
               "national_transport": 3.5,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 3
             },
             "score": 68.2,
@@ -14478,10 +14518,10 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 5,
               "national_transport": 3.5,
-              "housing_cost": 4,
+              "housing_cost": 3.5,
               "stock": 3
             },
-            "score": 75.3,
+            "score": 73.5,
             "band": "high"
           }
         }
@@ -14495,11 +14535,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.0,
-              "housing_cost": 5,
+              "housing_cost": 4.5,
               "stock": 1
             },
-            "score": 67.1,
-            "band": "high"
+            "score": 65.3,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -14507,11 +14547,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.0,
-              "housing_cost": 4,
+              "housing_cost": 3.5,
               "stock": 2
             },
-            "score": 67.1,
-            "band": "high"
+            "score": 65.3,
+            "band": "mid"
           }
         }
       },
@@ -14524,10 +14564,10 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 2,
               "national_transport": 4.5,
-              "housing_cost": 3,
+              "housing_cost": 3.5,
               "stock": 2
             },
-            "score": 58.2,
+            "score": 60.0,
             "band": "low"
           },
           "rent": {
@@ -14536,10 +14576,10 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 2,
               "national_transport": 4.5,
-              "housing_cost": 3,
+              "housing_cost": 3.5,
               "stock": 2
             },
-            "score": 58.2,
+            "score": 60.0,
             "band": "low"
           }
         }
@@ -14553,7 +14593,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 4.0,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 3
             },
             "score": 65.9,
@@ -14565,7 +14605,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 4.0,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 4
             },
             "score": 69.4,
@@ -14582,7 +14622,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 1.0,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 2
             },
             "score": 57.1,
@@ -14594,10 +14634,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 1.0,
-              "housing_cost": 5,
+              "housing_cost": 4.5,
               "stock": 3
             },
-            "score": 60.6,
+            "score": 58.8,
             "band": "low"
           }
         }
@@ -14611,7 +14651,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 3,
               "national_transport": 4.5,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 3
             },
             "score": 63.5,
@@ -14623,10 +14663,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 3,
               "national_transport": 4.5,
-              "housing_cost": 5,
+              "housing_cost": 4.5,
               "stock": 3
             },
-            "score": 63.5,
+            "score": 61.8,
             "band": "mid"
           }
         }
@@ -14640,7 +14680,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 1.0,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 3
             },
             "score": 64.1,
@@ -14652,10 +14692,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 1.0,
-              "housing_cost": 5,
+              "housing_cost": 4.5,
               "stock": 3
             },
-            "score": 64.1,
+            "score": 62.4,
             "band": "mid"
           }
         }
@@ -14669,7 +14709,7 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 5,
               "national_transport": 2.0,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 3
             },
             "score": 66.5,
@@ -14681,7 +14721,7 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 5,
               "national_transport": 2.0,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 2
             },
             "score": 62.9,
@@ -14698,7 +14738,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 4
             },
             "score": 74.7,
@@ -14710,7 +14750,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 4
             },
             "score": 74.7,
@@ -14727,7 +14767,7 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 3
             },
             "score": 71.2,
@@ -14739,11 +14779,11 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 4,
+              "housing_cost": 3.5,
               "stock": 2
             },
-            "score": 67.6,
-            "band": "high"
+            "score": 65.9,
+            "band": "mid"
           }
         }
       },
@@ -14756,10 +14796,10 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 4,
               "national_transport": 2.0,
-              "housing_cost": 2,
+              "housing_cost": 2.5,
               "stock": 4
             },
-            "score": 54.1,
+            "score": 55.9,
             "band": "low"
           },
           "rent": {
@@ -14768,10 +14808,10 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 4,
               "national_transport": 2.0,
-              "housing_cost": 3,
+              "housing_cost": 3.5,
               "stock": 3
             },
-            "score": 54.1,
+            "score": 55.9,
             "band": "low"
           }
         }
@@ -14785,11 +14825,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 3,
               "national_transport": 4.0,
-              "housing_cost": 4,
+              "housing_cost": 3.5,
               "stock": 3
             },
-            "score": 60.6,
-            "band": "mid"
+            "score": 58.8,
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -14797,7 +14837,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 3,
               "national_transport": 4.0,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 3
             },
             "score": 60.6,
@@ -14814,10 +14854,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 1,
               "national_transport": 4.0,
-              "housing_cost": 4,
+              "housing_cost": 3.5,
               "stock": 3
             },
-            "score": 65.9,
+            "score": 64.1,
             "band": "mid"
           },
           "rent": {
@@ -14826,7 +14866,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 1,
               "national_transport": 4.0,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 3
             },
             "score": 62.4,
@@ -14843,10 +14883,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 4.0,
-              "housing_cost": 3,
+              "housing_cost": 3.5,
               "stock": 3
             },
-            "score": 69.4,
+            "score": 71.2,
             "band": "high"
           },
           "rent": {
@@ -14855,7 +14895,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 4.0,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 3
             },
             "score": 69.4,
@@ -14872,10 +14912,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 4.0,
-              "housing_cost": 4,
+              "housing_cost": 4.5,
               "stock": 2
             },
-            "score": 67.6,
+            "score": 69.4,
             "band": "high"
           },
           "rent": {
@@ -14884,10 +14924,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 4.0,
-              "housing_cost": 4,
+              "housing_cost": 4.5,
               "stock": 2
             },
-            "score": 67.6,
+            "score": 69.4,
             "band": "high"
           }
         }
@@ -14901,10 +14941,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 1,
               "national_transport": 4.5,
-              "housing_cost": 4,
+              "housing_cost": 3.5,
               "stock": 3
             },
-            "score": 65.3,
+            "score": 63.5,
             "band": "mid"
           },
           "rent": {
@@ -14913,7 +14953,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 1,
               "national_transport": 4.5,
-              "housing_cost": 3,
+              "housing_cost": 3.0,
               "stock": 4
             },
             "score": 65.3,
@@ -14930,11 +14970,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 3,
               "national_transport": 4.0,
-              "housing_cost": 2,
+              "housing_cost": 2.5,
               "stock": 3
             },
-            "score": 65.9,
-            "band": "mid"
+            "score": 67.6,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -14942,11 +14982,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 3,
               "national_transport": 4.0,
-              "housing_cost": 2,
+              "housing_cost": 2.5,
               "stock": 3
             },
-            "score": 65.9,
-            "band": "mid"
+            "score": 67.6,
+            "band": "high"
           }
         }
       },
@@ -14959,7 +14999,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 3.5,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 1
             },
             "score": 66.5,
@@ -14971,10 +15011,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 3.5,
-              "housing_cost": 4,
+              "housing_cost": 3.5,
               "stock": 2
             },
-            "score": 70.0,
+            "score": 68.2,
             "band": "high"
           }
         }
@@ -14988,7 +15028,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 5
             },
             "score": 65.9,
@@ -15000,7 +15040,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 5
             },
             "score": 65.9,
@@ -15017,10 +15057,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 3.5,
-              "housing_cost": 1,
+              "housing_cost": 1.5,
               "stock": 5
             },
-            "score": 57.6,
+            "score": 59.4,
             "band": "low"
           },
           "rent": {
@@ -15029,10 +15069,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 3.5,
-              "housing_cost": 1,
+              "housing_cost": 1.5,
               "stock": 5
             },
-            "score": 57.6,
+            "score": 59.4,
             "band": "low"
           }
         }
@@ -15046,7 +15086,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 5,
               "national_transport": 2.5,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 5
             },
             "score": 76.5,
@@ -15058,7 +15098,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 5,
               "national_transport": 2.5,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 5
             },
             "score": 76.5,
@@ -15075,7 +15115,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 3.0,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 5
             },
             "score": 63.5,
@@ -15087,7 +15127,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 3.0,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 5
             },
             "score": 63.5,
@@ -15104,11 +15144,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 3.0,
-              "housing_cost": 1,
+              "housing_cost": 1.5,
               "stock": 4
             },
-            "score": 60.0,
-            "band": "low"
+            "score": 61.8,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -15116,10 +15156,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 3.0,
-              "housing_cost": 1,
+              "housing_cost": 1.5,
               "stock": 3
             },
-            "score": 56.5,
+            "score": 58.2,
             "band": "low"
           }
         }
@@ -15133,7 +15173,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 4.5,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 4
             },
             "score": 65.3,
@@ -15145,7 +15185,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 4.5,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 5
             },
             "score": 68.8,
@@ -15162,10 +15202,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 5.0,
-              "housing_cost": 1,
+              "housing_cost": 1.5,
               "stock": 4
             },
-            "score": 70.0,
+            "score": 71.8,
             "band": "high"
           },
           "rent": {
@@ -15174,7 +15214,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 5.0,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 4
             },
             "score": 70.0,
@@ -15191,7 +15231,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 1,
               "national_transport": 4.0,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 4
             },
             "score": 64.1,
@@ -15203,11 +15243,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 1,
               "national_transport": 4.0,
-              "housing_cost": 1,
+              "housing_cost": 1.5,
               "stock": 4
             },
-            "score": 60.6,
-            "band": "low"
+            "score": 62.4,
+            "band": "mid"
           }
         }
       },
@@ -15220,7 +15260,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 1,
               "national_transport": 3.0,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 4
             },
             "score": 49.4,
@@ -15232,10 +15272,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 1,
               "national_transport": 3.0,
-              "housing_cost": 1,
+              "housing_cost": 1.5,
               "stock": 3
             },
-            "score": 45.9,
+            "score": 47.6,
             "band": "low"
           }
         }
@@ -15249,7 +15289,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 4
             },
             "score": 76.5,
@@ -15261,7 +15301,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 4
             },
             "score": 76.5,
@@ -15278,10 +15318,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.5,
-              "housing_cost": 1,
+              "housing_cost": 1.5,
               "stock": 4
             },
-            "score": 61.2,
+            "score": 62.9,
             "band": "mid"
           },
           "rent": {
@@ -15290,7 +15330,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.5,
-              "housing_cost": 2,
+              "housing_cost": 2.0,
               "stock": 4
             },
             "score": 64.7,
@@ -15307,7 +15347,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 4,
               "national_transport": 5.0,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 4
             },
             "score": 70.0,
@@ -15319,7 +15359,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 4,
               "national_transport": 5.0,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 4
             },
             "score": 70.0,
@@ -15336,7 +15376,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 4,
               "national_transport": 3.5,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 4
             },
             "score": 70.0,
@@ -15348,7 +15388,7 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 4,
               "national_transport": 3.5,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 4
             },
             "score": 70.0,
@@ -15365,10 +15405,10 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 5,
               "national_transport": 3.0,
-              "housing_cost": 3,
+              "housing_cost": 3.5,
               "stock": 1
             },
-            "score": 61.8,
+            "score": 63.5,
             "band": "mid"
           },
           "rent": {
@@ -15377,7 +15417,7 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 5,
               "national_transport": 3.0,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 1
             },
             "score": 65.3,
@@ -15394,7 +15434,7 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 3,
               "national_transport": 1.5,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 1
             },
             "score": 54.7,
@@ -15406,10 +15446,10 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 3,
               "national_transport": 1.5,
-              "housing_cost": 5,
+              "housing_cost": 4.5,
               "stock": 1
             },
-            "score": 58.2,
+            "score": 56.5,
             "band": "low"
           }
         }
@@ -15423,7 +15463,7 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 4,
               "national_transport": 2.0,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 1
             },
             "score": 61.2,
@@ -15435,7 +15475,7 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 4,
               "national_transport": 2.0,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 1
             },
             "score": 57.6,
@@ -15452,10 +15492,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.0,
-              "housing_cost": 5,
+              "housing_cost": 4.5,
               "stock": 1
             },
-            "score": 60.0,
+            "score": 58.2,
             "band": "low"
           },
           "rent": {
@@ -15464,10 +15504,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.0,
-              "housing_cost": 4,
+              "housing_cost": 4.5,
               "stock": 1
             },
-            "score": 56.5,
+            "score": 58.2,
             "band": "low"
           }
         }
@@ -15481,10 +15521,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 1,
+              "housing_cost": 1.5,
               "stock": 4
             },
-            "score": 72.9,
+            "score": 74.7,
             "band": "high"
           },
           "rent": {
@@ -15493,10 +15533,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 2,
+              "housing_cost": 1.5,
               "stock": 4
             },
-            "score": 76.5,
+            "score": 74.7,
             "band": "high"
           }
         }
@@ -15510,7 +15550,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 2.5,
-              "housing_cost": 4,
+              "housing_cost": 4.0,
               "stock": 1
             },
             "score": 60.6,
@@ -15522,7 +15562,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 2.5,
-              "housing_cost": 5,
+              "housing_cost": 5.0,
               "stock": 1
             },
             "score": 64.1,
@@ -15539,7 +15579,7 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 1,
+              "housing_cost": 1.0,
               "stock": 4
             },
             "score": 72.9,
@@ -15551,10 +15591,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 2,
+              "housing_cost": 1.5,
               "stock": 4
             },
-            "score": 76.5,
+            "score": 74.7,
             "band": "high"
           }
         }

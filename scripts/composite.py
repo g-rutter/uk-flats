@@ -16,8 +16,8 @@ def known(value):
     return value is not None and value != ''
 
 
-def percentile_scores(rows, value, lower_is_better=True):
-    """Return 1--5 quintile scores, giving tied values their mean rank."""
+def percentile_scores(rows, value, lower_is_better=True, increment=1):
+    """Return 1--5 ranked scores, giving tied values their mean rank."""
     ordered = sorted((row for row in rows if known(value(row))), key=value,
                      reverse=not lower_is_better)
     result, index = {}, 0
@@ -28,7 +28,8 @@ def percentile_scores(rows, value, lower_is_better=True):
             finish += 1
         mean_rank = (index + 1 + finish) / 2
         percentile = (total - mean_rank + 1) / total
-        score = max(1, min(5, math.ceil(percentile * 5)))
+        levels = int((5 - 1) / increment) + 1
+        score = 1 + (math.ceil(percentile * levels) - 1) * increment
         for row in ordered[index:finish]:
             result[row['id']] = score
         index = finish
@@ -38,14 +39,14 @@ def percentile_scores(rows, value, lower_is_better=True):
 def housing_cost_scores(locations, tenure):
     field = 'proxyMedian' if tenure == 'buy' else 'proxyMonthly'
     return percentile_scores(locations, lambda row: row[tenure].get(field),
-                             lower_is_better=True)
+                             lower_is_better=True, increment=0.5)
 
 
 def housing_cost_bands(locations, tenure, scores):
-    """Describe the observed price range in each generated housing-cost quintile."""
+    """Describe the observed price range in each generated housing-cost band."""
     field = 'proxyMedian' if tenure == 'buy' else 'proxyMonthly'
     bands = {}
-    for score in range(5, 0, -1):
+    for score in (5 - index * 0.5 for index in range(9)):
         values = sorted(row[tenure][field] for row in locations
                         if scores.get(row['id']) == score)
         bands[str(score)] = {

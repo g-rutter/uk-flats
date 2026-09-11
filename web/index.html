@@ -7,6 +7,7 @@
   <title>UK flat location comparison</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="map-controls.css">
   <link rel="stylesheet" href="help.css">
 </head>
 <body>
@@ -22,11 +23,6 @@
         <button id="rentToggle" type="button" aria-pressed="false">Renting</button>
       </div>
     </header>
-    <section class="controls" aria-label="Map controls">
-      <label class="search-field">Location <select id="locationSelect"><option value="">All locations</option></select></label>
-      <label>Country <select id="country"><option value="all">England and Wales</option><option value="England">England</option><option value="Wales">Wales</option></select></label>
-      <button id="reset" class="secondary-button" type="button">Reset view</button>
-    </section>
     <p id="count" class="result-count" aria-live="polite"></p>
     <section class="workspace">
       <article class="map-card">
@@ -38,13 +34,34 @@
           </svg>
           <div id="mapTooltip" class="map-tooltip" hidden></div>
         </div>
-        <div class="map-footer" aria-label="Map colour key"><span class="legend-title">Marker colour: composite score</span><span><i class="marker score-high"></i><span id="highScoreRange"></span></span><span><i class="marker score-mid"></i><span id="midScoreRange"></span></span><span><i class="marker score-low"></i><span id="lowScoreRange"></span></span><span>Outline: Natural Earth, public domain</span></div>
+        <div class="map-footer" aria-label="Map colour key">
+          <div class="heatmap-key">
+            <div class="heatmap-ticks" aria-hidden="true"><span id="mapKey0"></span><span id="mapKey1"></span><span id="mapKey2"></span><span id="mapKey3"></span><span id="mapKey4"></span></div>
+            <div class="heatmap-bar">
+              <i id="mapGradient" class="score-gradient"></i>
+              <span id="mapValueMarks" class="heatmap-value-marks"></span>
+              <span id="mapSelectionMark" class="heatmap-selection-mark" aria-hidden="true"></span>
+              <div id="heatmapTooltip" class="heatmap-tooltip" role="tooltip" hidden></div>
+            </div>
+            <div id="mapSelectionValue" class="heatmap-selection-value" aria-live="polite"></div>
+          </div>
+          <select id="mapMeasure" aria-label="Colour markers by">
+            <option value="composite">Composite score</option>
+            <option value="housing_cost" id="mapPriceMeasure">Median flat price</option>
+            <option value="safety">Recorded-offence score</option>
+            <option value="local_transport">Public-transport connectivity</option>
+            <option value="residential_environment">Residential-environment index</option>
+            <option value="stock">One-bedroom listings</option>
+            <option value="national_transport">National-transport score</option>
+          </select>
+          <span>Outline: Natural Earth, public domain</span>
+        </div>
       </article>
       <aside id="details" class="detail-panel" aria-live="polite"><p>Select a location on the map or in the list for its evidence.</p></aside>
     </section>
     <section class="results-card">
-      <div class="panel-title results-title"><div><h2>All visible locations</h2><span id="resultSummary"></span></div><span>Choose a column heading to order this list</span></div>
-      <div class="table-wrap"><table><thead><tr><th id="nameHeading">Location / local authority</th><th id="scoreHeading">Composite score<br>out of 100</th><th id="priceHeading">Recent sales price</th><th id="stockHeading">One-bedroom listings</th><th id="londonHeading">London rail</th><th id="birminghamHeading">Birmingham rail</th><th id="violenceHeading">Violence / 1,000</th><th id="sexualHeading">Sexual offences / 1,000</th></tr></thead><tbody id="rows"></tbody></table></div>
+      <div class="panel-title results-title"><div><h2>All locations</h2><span id="resultSummary"></span></div><span>Choose a column heading to order this list</span></div>
+      <div class="table-wrap"><table><thead><tr><th id="nameHeading">Location / local authority</th><th id="scoreHeading">Composite score<br>out of 100</th><th id="priceHeading">Median flat price</th><th id="stockHeading">One-bedroom listings</th><th id="londonHeading">London rail</th><th id="birminghamHeading">Birmingham rail</th><th id="violenceHeading">Violence / 1,000</th><th id="sexualHeading">Sexual offences / 1,000</th></tr></thead><tbody id="rows"></tbody></table></div>
     </section>
     <details class="methodology-card"><summary>Source periods and limits</summary><div id="evidence"></div></details>
   </main>

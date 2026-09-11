@@ -28,14 +28,22 @@ marker rather than inventing a position.
 - `web/styles.css` owns the shared responsive presentation; `web/help.css`
   styles the click-to-open explanations in the detail panel.
 
-Location and country controls filter both the map and the list. Each table-column
-heading changes only the table order; it never changes marker colours, scores or
-map inclusion.
+The map and list always retain the full current screen. Each table-column heading
+changes only the table order; it never changes marker colours, scores or map
+inclusion.
 
-Marker colour shows each tenure's generated highest, middle and lowest score
-thirds, using the shared pine, amber and clay palette. Tied scores remain in the
-same group, so the groups are as evenly populated as ties allow. The grouping is
-calculated by the build from current canonical inputs, which also emits the
-inclusive score bounds displayed in the map key; do not copy archived scores or
-ranking logic. The two underlying ONS offence rates remain visible alongside
-the limited recorded-offence safety proxy, and ASB remains excluded.
+Marker colour can show the composite score, the recorded-offence and
+national-transport component scores, or the observed price, rent, transport,
+environment or listing value that directly underpins a component. It uses a
+continuous gradient over the full candidate-set range for the selected tenure and
+measure: the lowest and highest observed values receive the first and last
+palette colours, and filters do not change the scale. The fixed Forest gradient
+changes presentation only. Each known location is marked on the bar, and the
+selected location is called out with its exact displayed value.
+The key shows the active measure and its range in the measure's own units. For
+price and rent, the palette stays in its normal visual direction while the key's
+endpoints are swapped: lower housing costs receive the better-end colour and
+higher costs the worse-end colour.
+Unknown values are neutral; do not copy archived scores or ranking logic. The two
+underlying ONS offence rates remain visible alongside the limited recorded-offence
+safety proxy, and ASB remains excluded.

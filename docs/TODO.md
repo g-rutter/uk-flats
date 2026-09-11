@@ -4,9 +4,9 @@
   - Test a reproducible measure of market thickness that is more robust than Rightmove headline listings, or explicitly retain the snapshot measure with its limitations.
   - Improve the recorded-offence safety proxy beyond the complete ONS CSP violence-against-the-person and sexual-offence rates where a free, England-and-Wales-comparable, documented source supports it. Consider the English Indices of Deprivation crime domain only alongside a compatible Welsh measure and an explicit geography review. Keep Police.uk ASB research-only unless a dated archive passes the documented force/month coverage and geography review.
   - Identify work that adds little decision value relative to its collection or maintenance cost.
+- Listings is acting as a proxy for the population in the area. Not sure best solution for this as it genuinely would be easier ot move to a bigger place with more listings, yet the current metric seems unfair
 - Re-acquire and document buying prices, rents, national-transport observations and market-stock snapshots for all 83 locations. The current price, rent and national-transport inputs are imported baseline observations; 63 market observations also lack retained row-level captures. Promote a replacement only after its raw release, geography mapping, evidence and validation are complete.
 - Complete an agent-operable, end-to-end workflow for adding locations and refreshing each source: acquisition, raw-release retention, geography mapping, preparation, evidence, validation, build and browser review.
-- Let the map colour locations by a selected composite-score component as well as the composite score.
 - Add map overlays where suitably sourced evidence is available, beginning with noise or air pollution, recorded offences, market thickness and isochrone travel times.
 - Repo health:
   - Remove stale distinctions between location cohorts from active inputs and methodology, while preserving required archive and imported-baseline provenance until every affected observation is reproducibly replaced.

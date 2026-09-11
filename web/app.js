@@ -8,7 +8,7 @@
   const evidenceById = new Map(data.evidence.map(x => [x.id, x]));
   const crime = new Map();
   data.crimeResearch.forEach(x => { if (!crime.has(x.location_id)) crime.set(x.location_id, {}); crime.get(x.location_id)[x.category] = x; });
-  const state = { tenure: 'buy', locationId: '', country: 'all', sort: 'score', sortDirection: 'desc', selectedId: data.locations[0]?.id };
+  const state = { tenure: 'buy', sort: 'score', sortDirection: 'desc', selectedId: data.locations[0]?.id, mapMeasure: 'composite' };
   const escape = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const known = v => v !== null && v !== undefined && v !== '';
   const show = v => known(v) ? escape(v) : 'Not available';
@@ -16,15 +16,44 @@
   const wholeNumber = v => known(v) ? new Intl.NumberFormat('en-GB', { maximumFractionDigits: 0 }).format(v) : 'Not available';
   const money = v => known(v) ? new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP', maximumFractionDigits: 0 }).format(v) : 'Not available';
   const minutes = (v, c) => known(v) ? `${v} min${known(c) ? ` · ${c} change${c === 1 ? '' : 's'}` : ''}` : 'Not available';
-  const price = x => x[state.tenure][state.tenure === 'buy' ? 'proxyMedian' : 'proxyMonthly'];
+  const marketPrice = x => x[state.tenure][state.tenure === 'buy' ? 'proxyMedian' : 'proxyMonthly'];
   const stock = x => x[state.tenure].oneBedCount;
   const score = x => data.composite.results[x.id].tenures[state.tenure].score;
   const band = x => `score-${data.composite.results[x.id].tenures[state.tenure].band || 'unknown'}`;
+  const mapMeasures = {
+    composite: { label: 'Composite score', value: score, format: value => `${show(value)} / 100` },
+    housing_cost: { label: () => state.tenure === 'buy' ? 'Median flat price' : 'Typical one-bedroom rent', value: marketPrice, format: value => `${money(value)}${state.tenure === 'rent' && known(value) ? ' per month' : ''}`, reverse: true },
+    safety: { label: 'Recorded-offence score', value: x => data.composite.results[x.id].tenures[state.tenure].factors.safety, format: value => `${show(value)} / 5` },
+    local_transport: { label: 'Public-transport connectivity', value: x => x.localTransport.pt_connectivity_0_100, format: value => `${oneDecimal(value)} / 100` },
+    residential_environment: { label: 'Residential-environment index', value: x => x.residentialEnvironment.environment_index_0_100, format: value => `${oneDecimal(value)} / 100` },
+    stock: { label: 'One-bedroom listings', value: stock, format: value => known(value) ? `${wholeNumber(value)} listings` : 'Not available' },
+    national_transport: { label: 'National-transport score', value: x => data.composite.results[x.id].tenures[state.tenure].factors.national_transport, format: value => `${show(value)} / 5` }
+  };
+  const forestGradient = ['#a45152', '#d3a13a', '#17624f'];
+  const mapMeasure = () => mapMeasures[state.mapMeasure];
+  const mapMeasureLabel = () => typeof mapMeasure().label === 'function' ? mapMeasure().label() : mapMeasure().label;
+  const mapValue = x => mapMeasure().value(x);
+  const mapDomain = () => { const values = data.locations.map(mapValue).filter(known).map(Number); return values.length ? [Math.min(...values), Math.max(...values)] : [null, null]; };
+  const heatmapPosition = (value, domain) => {
+    if (!known(value) || !known(domain[0])) return null;
+    const position = domain[0] === domain[1] ? .5 : Math.max(0, Math.min(1, (Number(value) - domain[0]) / (domain[1] - domain[0])));
+    return mapMeasure().reverse ? 1 - position : position;
+  };
   const rate = (x, category) => crime.get(x.id)?.[category]?.rate_per_1000;
   const localTransportDefinition = 'DfT modelled public-transport opportunity to reach employment, services and social engagements. The settlement value is a Census-population-weighted mean of Output Area scores. It does not measure fares, crowding, cancellations, reliability, step-free access or travel from a particular home.';
   const environmentDefinition = 'Population-weighted residential surroundings across the reviewed built-up area: cleaner air, less modelled transport noise, access to eligible public green space and housing energy quality. It is not a street, building, safety, beauty or general deprivation measure.';
-  const recentSalesDefinition = '“Recent” means completed flat and maisonette sales dated 1 July 2024 to 30 June 2026. The figure is the median across all flat sizes, not a one-bedroom estimate; recent transactions can be incomplete because registration lags.';
+  const medianFlatPriceDefinition = 'Median completed flat and maisonette price for sales dated 1 July 2024 to 30 June 2026. It covers all flat sizes, not just one-bedroom flats; recent transactions can be incomplete because registration lags.';
   const project = x => [((x.lon - MAP.minLon) / (MAP.maxLon - MAP.minLon)) * MAP.width, MAP.height - ((x.lat - MAP.minLat) / (MAP.maxLat - MAP.minLat)) * MAP.height];
+  const hexToRgb = hex => hex.match(/\w\w/g).map(value => parseInt(value, 16));
+  const colourAt = (value, domain) => {
+    if (!known(value) || !known(domain[0])) return null;
+    const palettePosition = heatmapPosition(value, domain);
+    const colours = forestGradient, scaled = palettePosition * (colours.length - 1), index = Math.min(colours.length - 2, Math.floor(scaled)), fraction = scaled - index;
+    if (palettePosition === 0) return colours[0];
+    if (palettePosition === 1) return colours[colours.length - 1];
+    const start = hexToRgb(colours[index]), end = hexToRgb(colours[index + 1]);
+    return `rgb(${start.map((channel, i) => Math.round(channel + (end[i] - channel) * fraction)).join(', ')})`;
+  };
   const helpBody = content => typeof content === 'string' ? escape(content) :
     `<span>${escape(content.intro)}</span><span class="help-list" role="list">${content.items.map(item => `<span role="listitem">${escape(item)}</span>`).join('')}</span>`;
   const help = (label, content = '') => `${escape(label)}${content ? ` <span class="help-wrap"><button class="help" type="button" aria-expanded="false" aria-label="Show more information about ${escape(label)}">?</button><span class="help-text" hidden>${helpBody(content)}</span></span>` : ''}`;
@@ -48,12 +77,11 @@
     const suffix = state.tenure === 'rent' ? ' per month' : '';
     const range = band => band.minimum === band.maximum ? money(band.minimum) : `${money(band.minimum)}–${money(band.maximum)}`;
     return {
-      intro: `Relative quintiles across ${knownCount} current locations with known ${state.tenure === 'buy' ? 'sales prices' : 'one-bedroom rents'}; lower costs score higher.`,
-      items: [5, 4, 3, 2, 1].filter(score => bands[score].count).map(score => `Score ${score}: ${range(bands[score])}${suffix} (${bands[score].count} locations)`),
+      intro: `Relative half-point bands across ${knownCount} current locations with known ${state.tenure === 'buy' ? 'sales prices' : 'one-bedroom rents'}; lower costs score higher.`,
+      items: Object.entries(bands).map(([key, band]) => ({ score: Number(key), band })).sort((a, b) => b.score - a.score).filter(({ band }) => band.count).map(({ score, band }) => `Score ${score}: ${range(band)}${suffix} (${band.count} locations)`),
     };
   }
 
-  function filtered() { return data.locations.filter(x => (!state.locationId || x.id === state.locationId) && (state.country === 'all' || x.country === state.country)); }
   function ordered(locations) {
     const compareValue = (a, b) => {
       const aKnown = known(a), bKnown = known(b);
@@ -64,7 +92,7 @@
       const minutes = x.nationalTransport[`${destination}Minutes`];
       return known(minutes) ? [minutes, x.nationalTransport[`${destination}Changes`] ?? 0] : null;
     };
-    const value = x => ({ name: x.name, score: score(x), price: price(x), stock: stock(x), london: journey(x, 'london'), birmingham: journey(x, 'birmingham'), violence: rate(x, 'violence_against_person'), sexual: rate(x, 'sexual_offences') }[state.sort]);
+    const value = x => ({ name: x.name, score: score(x), price: marketPrice(x), stock: stock(x), london: journey(x, 'london'), birmingham: journey(x, 'birmingham'), violence: rate(x, 'violence_against_person'), sexual: rate(x, 'sexual_offences') }[state.sort]);
     return [...locations].sort((a, b) => {
       const aValue = value(a), bValue = value(b);
       const aKnown = Array.isArray(aValue) ? known(aValue[0]) : known(aValue);
@@ -76,25 +104,23 @@
       return result * (state.sortDirection === 'asc' ? 1 : -1) || a.name.localeCompare(b.name);
     });
   }
-  function populateLocations() {
-    data.locations.slice().sort((a, b) => a.name.localeCompare(b.name)).forEach(x => {
-      const option = document.createElement('option'); option.value = x.id; option.textContent = `${x.name} — ${x.localAuthority}`; $('locationSelect').appendChild(option);
-    });
-  }
   function tooltip(x, target) {
     const box = $('mapWrap').getBoundingClientRect(), marker = target.getBoundingClientRect();
-    $('mapTooltip').innerHTML = `<strong>${escape(x.name)}</strong><span>Composite score: ${show(score(x))} out of 100</span><span>${money(price(x))}${state.tenure === 'rent' ? ' per month' : ''} · ${show(stock(x))} one-bedroom listings</span>`;
+    const value = mapValue(x);
+    $('mapTooltip').innerHTML = `<strong>${escape(x.name)}</strong><span>${escape(mapMeasureLabel())}: ${mapMeasure().format(value)}</span><span>${money(marketPrice(x))}${state.tenure === 'rent' ? ' per month' : ''} · ${show(stock(x))} one-bedroom listings</span>`;
     $('mapTooltip').style.left = `${marker.left - box.left + marker.width / 2}px`; $('mapTooltip').style.top = `${marker.top - box.top - 8}px`; $('mapTooltip').hidden = false;
   }
   function renderMap(locations) {
     const group = $('mapMarkers'); group.replaceChildren();
     const ids = new Set(locations.map(x => x.id)); if (!ids.has(state.selectedId)) state.selectedId = locations[0]?.id;
+    const domain = mapDomain(), measure = mapMeasureLabel();
     let selectedLabel;
     locations.filter(x => known(x.lat) && known(x.lon)).forEach(x => {
       const [cx, cy] = project(x), marker = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
       marker.setAttribute('cx', cx.toFixed(2)); marker.setAttribute('cy', cy.toFixed(2)); marker.setAttribute('r', x.id === state.selectedId ? '9' : '6');
-      marker.setAttribute('class', `map-marker ${band(x)}${x.id === state.selectedId ? ' selected' : ''}`); marker.setAttribute('tabindex', '0'); marker.setAttribute('role', 'button');
-      marker.setAttribute('aria-label', `${x.name}: composite score ${show(score(x))} out of 100`);
+      const value = mapValue(x);
+      marker.setAttribute('class', `map-marker${!known(value) ? ' score-unknown' : ''}${x.id === state.selectedId ? ' selected' : ''}`); marker.setAttribute('fill', colourAt(value, domain) || 'var(--neutral)'); marker.setAttribute('tabindex', '0'); marker.setAttribute('role', 'button');
+      marker.setAttribute('aria-label', `${x.name}: ${measure} ${mapMeasure().format(value)}`);
       marker.addEventListener('mouseenter', () => tooltip(x, marker)); marker.addEventListener('mouseleave', () => { $('mapTooltip').hidden = true; });
       marker.addEventListener('focus', () => tooltip(x, marker)); marker.addEventListener('blur', () => { $('mapTooltip').hidden = true; });
       marker.addEventListener('click', () => select(x.id)); marker.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); select(x.id); } }); group.appendChild(marker);
@@ -161,25 +187,21 @@
       return `<div class="component component-${escape(key)}"><span>${help(label, note)}</span><strong class="score-pill score-${known(value) ? Math.ceil(value) : 'unknown'}">${show(value)}</strong></div>`;
     }).join('');
     const priceRows = state.tenure === 'buy'
-      ? [row('Recent sales price', money(x.buy.proxyMedian), recentSalesDefinition), row('Completed sales in sample', known(x.buy.transactions) ? `${show(x.buy.transactions)} sales` : 'Not available'), row('One-bedroom listings', known(x.buy.oneBedCount) ? `${show(x.buy.oneBedCount)} listings` : 'Not available', 'Rightmove headline count at the recorded snapshot; listings are not deduplicated.')]
+      ? [row('Median flat price', money(x.buy.proxyMedian), medianFlatPriceDefinition), row('Completed sales in sample', known(x.buy.transactions) ? `${show(x.buy.transactions)} sales` : 'Not available'), row('One-bedroom listings', known(x.buy.oneBedCount) ? `${show(x.buy.oneBedCount)} listings` : 'Not available', 'Rightmove headline count at the recorded snapshot; listings are not deduplicated.')]
       : [row('Typical one-bedroom rent', `${money(x.rent.proxyMonthly)}${known(x.rent.proxyMonthly) ? ' per month' : ''}`, 'Modelled monthly local-authority average; not an asking-rent median.'), row('One-bedroom listings', known(x.rent.oneBedCount) ? `${show(x.rent.oneBedCount)} listings` : 'Not available', 'Rightmove headline count at the recorded snapshot; listings are not deduplicated.')];
     const environment = x.residentialEnvironment;
     const localRows = [
-      row('Public-transport connectivity', known(x.localTransport.pt_connectivity_0_100) ? `${oneDecimal(x.localTransport.pt_connectivity_0_100)} out of 100` : 'Not available', localTransportDefinition),
+      row('Public-transport connectivity', known(x.localTransport.pt_connectivity_0_100) ? `${oneDecimal(x.localTransport.pt_connectivity_0_100)} out of 100` : 'Not available', `${localTransportDefinition} Source period: ${show(x.localTransport.source_period)}.`),
       row('Transport national percentile', known(x.localTransport.national_percentile) ? `${oneDecimal(x.localTransport.national_percentile)} out of 100` : 'Not available', 'Compared with the Census-population-weighted distribution of all England and Wales Output Areas in the same DfT release; higher is better.'),
       row('Residential-environment index', known(environment.environment_index_0_100) ? `${oneDecimal(environment.environment_index_0_100)} out of 100` : 'Not available', environmentDefinition),
       row('Environment national percentile', known(environment.national_percentile) ? `${oneDecimal(environment.national_percentile)} out of 100` : 'Not available', 'Compared with the Census-population-weighted distribution of all April 2024 England and Wales built-up areas; higher is better.'),
-      row('Air pollution', known(environment.air_burden) ? `Burden ${oneDecimal(environment.air_burden)} · NO₂ ${oneDecimal(environment.no2_ug_m3)}, PM₂.₅ ${oneDecimal(environment.pm25_ug_m3)}, PM₁₀ ${oneDecimal(environment.pm10_ug_m3)} µg/m³` : 'Not available', 'Annual modelled outdoor concentrations. The burden equally averages each pollutant divided by its WHO 2021 annual guideline; lower is better.'),
-      row('Transport-noise exposure', known(environment.noise_exposed_pct) ? `${oneDecimal(environment.noise_exposed_pct)}% of residents` : 'Not available', 'Modelled residents exposed at or above 55 dB Lden. England includes major-airport exposure while Wales covers road and rail; the score uses within-country percentiles.'),
-      row('Green space within 300 m', known(environment.green_within_300m_pct) ? `${oneDecimal(environment.green_within_300m_pct)}% of residents` : 'Not available', 'Straight-line distance from OA population-weighted centroids to an OS public park, garden or playing field.'),
-      row('Green space within 1,000 m', known(environment.green_area_within_1000m_m2) ? `${wholeNumber(environment.green_area_within_1000m_m2)} m²` : 'Not available', 'Population-weighted eligible polygon area inside a 1,000 m buffer; overlapping area is counted once.'),
-      row('Mean EPC SAP score', oneDecimal(environment.epc_sap_mean), 'Modelled or imputed housing energy quality. England and Wales publish different transforms, so the score uses within-country percentiles.'),
-      row('Environment measurement area', show(environment.reason), 'A reviewed April 2024 built-up-area mapping; composite locations combine all named built-up areas using Census population weights.'),
-      row('Air period', show(environment.air_period)), row('Noise period', show(environment.quiet_period)),
-      row('Green-space period', show(environment.green_period)), row('Housing-energy period', show(environment.housing_environment_period)),
-      row('Transport period', show(x.localTransport.source_period)),
+      row('Air pollution', known(environment.air_burden) ? `Burden ${oneDecimal(environment.air_burden)} · NO₂ ${oneDecimal(environment.no2_ug_m3)}, PM₂.₅ ${oneDecimal(environment.pm25_ug_m3)}, PM₁₀ ${oneDecimal(environment.pm10_ug_m3)} µg/m³` : 'Not available', `Annual modelled outdoor concentrations. The burden equally averages each pollutant divided by its WHO 2021 annual guideline; lower is better. Source period: ${show(environment.air_period)}.`),
+      row('Transport-noise exposure', known(environment.noise_exposed_pct) ? `${oneDecimal(environment.noise_exposed_pct)}% of residents` : 'Not available', `Modelled residents exposed at or above 55 dB Lden. England includes major-airport exposure while Wales covers road and rail; the score uses within-country percentiles. Source period: ${show(environment.quiet_period)}.`),
+      row('Green space within 300 m', known(environment.green_within_300m_pct) ? `${oneDecimal(environment.green_within_300m_pct)}% of residents` : 'Not available', `Straight-line distance from OA population-weighted centroids to an OS public park, garden or playing field. Source period: ${show(environment.green_period)}.`),
+      row('Green space within 1,000 m', known(environment.green_area_within_1000m_m2) ? `${wholeNumber(environment.green_area_within_1000m_m2)} m²` : 'Not available', `Population-weighted eligible polygon area inside a 1,000 m buffer; overlapping area is counted once. Source period: ${show(environment.green_period)}.`),
+      row('Mean EPC SAP score', oneDecimal(environment.epc_sap_mean), `Modelled or imputed housing energy quality. England and Wales publish different transforms, so the score uses within-country percentiles. Source period: ${show(environment.housing_environment_period)}.`),
     ];
-    $('details').innerHTML = `<p class="eyebrow">${escape(x.country)} · ${escape(x.localAuthority)}</p><h2>${escape(x.name)}</h2><div class="headline-grid"><div class="score-card ${band(x)}"><span>${state.tenure === 'buy' ? 'Buying' : 'Renting'} composite score</span><strong>${show(score(x))}<small>out of 100</small></strong></div><div><span>${state.tenure === 'buy' ? help('Recent sales price', recentSalesDefinition) : 'Typical one-bedroom rent'}</span><strong>${money(price(x))}${state.tenure === 'rent' ? '<small>per month</small>' : ''}</strong></div></div><section class="detail-section score-section"><div class="section-heading"><h3>Score components</h3><span>Each score is out of 5</span></div><div class="component-grid">${factorRows}</div></section>${section(state.tenure === 'buy' ? 'Buying evidence' : 'Renting evidence', priceRows, [['Price', factorValues.housing_cost], ['Listings', factorValues.stock]])}${section('Rail connections', [row('To London', minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)), row('To Birmingham', minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges))], [['Rail', factorValues.national_transport]])}${section('Recorded offences', [row('Violence against the person', `${show(offences?.violence_against_person?.rate_per_1000)} per 1,000${offences?.violence_against_person ? ` · ${escape(offences.violence_against_person.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.'), row('Sexual offences', `${show(offences?.sexual_offences?.rate_per_1000)} per 1,000${offences?.sexual_offences ? ` · ${escape(offences.sexual_offences.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.')], [['Offences', factorValues.safety]])}${section('Local picture', localRows, [['Transport', factorValues.local_transport], ['Environment', factorValues.residential_environment]])}${sources(x)}`;
+    $('details').innerHTML = `<p class="eyebrow">${escape(x.country)} · ${escape(x.localAuthority)}</p><h2>${escape(x.name)}</h2><div class="headline-grid"><div class="score-card ${band(x)}"><span>${state.tenure === 'buy' ? 'Buying' : 'Renting'} composite score</span><strong>${show(score(x))}<small>out of 100</small></strong></div><div><span>${state.tenure === 'buy' ? help('Median flat price', medianFlatPriceDefinition) : 'Typical one-bedroom rent'}</span><strong>${money(marketPrice(x))}${state.tenure === 'rent' ? '<small>per month</small>' : ''}</strong></div></div><section class="detail-section score-section"><div class="section-heading"><h3>Score components</h3><span>Each score is out of 5</span></div><div class="component-grid">${factorRows}</div></section>${section(state.tenure === 'buy' ? 'Buying evidence' : 'Renting evidence', priceRows, [['Price', factorValues.housing_cost], ['Listings', factorValues.stock]])}${section('Rail connections', [row('To London', minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)), row('To Birmingham', minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges))], [['Rail', factorValues.national_transport]])}${section('Recorded offences', [row('Violence against the person', `${show(offences?.violence_against_person?.rate_per_1000)} per 1,000${offences?.violence_against_person ? ` · ${escape(offences.violence_against_person.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.'), row('Sexual offences', `${show(offences?.sexual_offences?.rate_per_1000)} per 1,000${offences?.sexual_offences ? ` · ${escape(offences.sexual_offences.csp_name)} CSP` : ''}`, 'Recorded rate for Apr 2025–Mar 2026.')], [['Offences', factorValues.safety]])}${section('Local picture', localRows, [['Transport', factorValues.local_transport], ['Environment', factorValues.residential_environment]])}${sources(x)}`;
     $('details').querySelectorAll('.help').forEach(button => button.addEventListener('click', () => {
       const text = button.nextElementSibling, willOpen = text.hidden;
       closeHelp();
@@ -188,12 +210,12 @@
     }));
   }
   function renderTable(locations) {
-    $('rows').innerHTML = locations.map(x => `<tr class="${x.id === state.selectedId ? 'is-selected' : ''}"><td><button data-id="${escape(x.id)}">${escape(x.name)}</button><small>${escape(x.localAuthority)} · ${escape(x.country)}</small></td><td><strong>${show(score(x))}</strong><small>out of 100</small></td><td>${money(price(x))}${state.tenure === 'buy' && known(x.buy.transactions) ? `<small>${x.buy.transactions} completed sales</small>` : ''}</td><td>${show(stock(x))}</td><td>${minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)}</td><td>${minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges)}</td><td>${show(rate(x, 'violence_against_person'))}</td><td>${show(rate(x, 'sexual_offences'))}</td></tr>`).join('');
+    $('rows').innerHTML = locations.map(x => `<tr class="${x.id === state.selectedId ? 'is-selected' : ''}"><td><button data-id="${escape(x.id)}">${escape(x.name)}</button><small>${escape(x.localAuthority)} · ${escape(x.country)}</small></td><td><strong>${show(score(x))}</strong><small>out of 100</small></td><td>${money(marketPrice(x))}${state.tenure === 'buy' && known(x.buy.transactions) ? `<small>${x.buy.transactions} completed sales</small>` : ''}</td><td>${show(stock(x))}</td><td>${minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)}</td><td>${minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges)}</td><td>${show(rate(x, 'violence_against_person'))}</td><td>${show(rate(x, 'sexual_offences'))}</td></tr>`).join('');
     $('rows').querySelectorAll('button').forEach(button => button.addEventListener('click', () => select(button.dataset.id, true)));
   }
   function renderSortHeadings() {
     const headings = { name: 'nameHeading', score: 'scoreHeading', price: 'priceHeading', stock: 'stockHeading', london: 'londonHeading', birmingham: 'birminghamHeading', violence: 'violenceHeading', sexual: 'sexualHeading' };
-    const labels = { name: 'Location / local authority', score: 'Composite score out of 100', price: state.tenure === 'buy' ? 'Recent sales price' : 'Typical one-bedroom rent / month', stock: 'One-bedroom listings', london: 'London rail', birmingham: 'Birmingham rail', violence: 'Violence / 1,000', sexual: 'Sexual offences / 1,000' };
+    const labels = { name: 'Location / local authority', score: 'Composite score out of 100', price: state.tenure === 'buy' ? 'Median flat price' : 'Typical one-bedroom rent / month', stock: 'One-bedroom listings', london: 'London rail', birmingham: 'Birmingham rail', violence: 'Violence / 1,000', sexual: 'Sexual offences / 1,000' };
     Object.entries(headings).forEach(([key, id]) => {
       const heading = $(id), active = state.sort === key, label = labels[key];
       heading.setAttribute('aria-sort', active ? (state.sortDirection === 'asc' ? 'ascending' : 'descending') : 'none');
@@ -206,24 +228,59 @@
     }));
   }
   function renderMapKey() {
-    const format = value => Number.isInteger(value) ? String(value) : String(value).replace(/\.0$/, '');
-    ['high', 'mid', 'low'].forEach(bandName => {
-      const range = data.composite.score_bands[state.tenure][bandName];
-      const item = $(`${bandName}ScoreRange`).parentElement;
-      item.hidden = !range.count;
-      if (!range.count) return;
-      $(`${bandName}ScoreRange`).textContent = range.minimum === range.maximum
-        ? format(range.minimum) : `${format(range.minimum)}–${format(range.maximum)}`;
+    // Browsers can restore a form control's prior value after reload. Keep the
+    // displayed choice aligned with the freshly initialised application state.
+    $('mapMeasure').value = state.mapMeasure;
+    const [minimum, maximum] = mapDomain();
+    const start = mapMeasure().reverse ? maximum : minimum;
+    const end = mapMeasure().reverse ? minimum : maximum;
+    [0, .25, .5, .75, 1].forEach((position, index) => {
+      const value = known(start) && known(end) ? start + (end - start) * position : null;
+      const tick = $(`mapKey${index}`);
+      tick.textContent = known(value) ? mapMeasure().format(value) : 'No values';
+      tick.style.left = `${position * 100}%`;
     });
+    $('mapGradient').style.background = `linear-gradient(90deg, ${forestGradient.join(', ')})`;
+    const valueMarks = $('mapValueMarks'); valueMarks.replaceChildren();
+    const locationsAtValue = new Map();
+    data.locations.forEach(location => {
+      const value = mapValue(location);
+      if (!known(value)) return;
+      const key = String(value);
+      if (!locationsAtValue.has(key)) locationsAtValue.set(key, { value, locations: [] });
+      locationsAtValue.get(key).locations.push(location);
+    });
+    const hideHeatmapTooltip = () => { $('heatmapTooltip').hidden = true; };
+    locationsAtValue.forEach(({ value, locations }) => {
+      const position = heatmapPosition(value, [minimum, maximum]);
+      const mark = document.createElement('button');
+      mark.type = 'button'; mark.className = 'heatmap-value-mark'; mark.style.left = `${position * 100}%`;
+      const locationNames = locations.map(location => location.name).sort((a, b) => a.localeCompare(b));
+      const formattedValue = mapMeasure().format(value);
+      mark.setAttribute('aria-label', `${mapMeasureLabel()} ${formattedValue}: ${locationNames.join(', ')}`);
+      const showHeatmapTooltip = () => {
+        const tooltip = $('heatmapTooltip');
+        tooltip.innerHTML = `<strong>${escape(mapMeasureLabel())}: ${formattedValue}</strong><span>Locations at this value</span><ul>${locationNames.map(name => `<li>${escape(name)}</li>`).join('')}</ul>`;
+        tooltip.style.left = `${position * 100}%`;
+        tooltip.hidden = false;
+      };
+      mark.addEventListener('mouseenter', showHeatmapTooltip);
+      mark.addEventListener('mouseleave', hideHeatmapTooltip);
+      mark.addEventListener('focus', showHeatmapTooltip);
+      mark.addEventListener('blur', hideHeatmapTooltip);
+      valueMarks.appendChild(mark);
+    });
+    const selected = byId.get(state.selectedId), selectedValue = selected && mapValue(selected);
+    const selectedPosition = heatmapPosition(selectedValue, [minimum, maximum]);
+    $('mapSelectionMark').style.left = `${(selectedPosition ?? 0) * 100}%`;
+    $('mapSelectionMark').hidden = selectedPosition === null;
+    $('mapSelectionValue').textContent = selectedPosition === null ? '' : `${selected.name}: ${mapMeasure().format(selectedValue)}`;
   }
-  function render() { const locations = filtered(); $('count').textContent = `${locations.length} of ${data.locations.length} locations shown on the map`; $('resultSummary').textContent = `Showing ${locations.length} of ${data.locations.length}`; renderMapKey(); renderMap(locations); renderDetail(); renderTable(ordered(locations)); renderSortHeadings(); }
+  function render() { const locations = data.locations; $('count').textContent = `${locations.length} locations shown on the map`; $('resultSummary').textContent = `Showing all ${locations.length}`; renderMapKey(); renderMap(locations); renderDetail(); renderTable(ordered(locations)); renderSortHeadings(); }
   function select(id, scroll = false) { state.selectedId = id; render(); if (scroll && matchMedia('(max-width: 920px)').matches) $('details').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
-  function setTenure(tenure) { state.tenure = tenure; $('buyToggle').setAttribute('aria-pressed', tenure === 'buy'); $('rentToggle').setAttribute('aria-pressed', tenure === 'rent'); render(); }
-  populateLocations();
-  $('locationSelect').addEventListener('input', e => { state.locationId = e.target.value; render(); });
-  $('country').addEventListener('input', e => { state.country = e.target.value; render(); });
+  function setTenure(tenure) { state.tenure = tenure; $('buyToggle').setAttribute('aria-pressed', tenure === 'buy'); $('rentToggle').setAttribute('aria-pressed', tenure === 'rent'); $('mapPriceMeasure').textContent = tenure === 'buy' ? 'Median flat price' : 'Typical one-bedroom rent'; render(); }
   $('buyToggle').addEventListener('click', () => setTenure('buy')); $('rentToggle').addEventListener('click', () => setTenure('rent'));
-  $('reset').addEventListener('click', () => { state.locationId = ''; state.country = 'all'; state.sort = 'score'; state.sortDirection = 'desc'; $('locationSelect').value = ''; $('country').value = 'all'; render(); });
+  $('mapMeasure').addEventListener('input', event => { state.mapMeasure = event.target.value; render(); });
   document.addEventListener('click', event => { if (!event.target.closest('.help-wrap')) closeHelp(); });
   document.addEventListener('keydown', event => { if (event.key === 'Escape') closeHelp(); });
   $('evidence').innerHTML = data.evidence.filter(x => x.workstream !== 'geography_crime' || x.id === 'CRIME-ONS-2026-CSP').map(x => `<h3>${escape(x.title)}</h3><p>${escape(x.dataPeriod)} · Recorded retrieval: ${escape(x.retrievalDate)} · ${escape(x.geography)}</p><p>${escape(x.limitations)}</p>`).join('');

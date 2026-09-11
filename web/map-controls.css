@@ -1,0 +1,112 @@
+.map-footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  align-items: start;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.heatmap-key { width: 100%; min-width: 0; }
+
+.heatmap-ticks {
+  position: relative;
+  height: 27px;
+  margin: 0;
+  color: #36564c;
+  font-size: .68rem;
+  line-height: 1.2;
+}
+
+.heatmap-ticks span {
+  position: absolute;
+  bottom: 7px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  text-align: center;
+}
+
+.heatmap-ticks span::after {
+  position: absolute;
+  right: 50%;
+  bottom: -7px;
+  width: 1px;
+  height: 5px;
+  content: '';
+  background: #35574d;
+}
+
+.heatmap-ticks span:first-child { transform: none; text-align: left; }
+.heatmap-ticks span:first-child::after { right: auto; left: 0; }
+.heatmap-ticks span:last-child { transform: translateX(-100%); text-align: right; }
+.heatmap-ticks span:last-child::after { right: 0; }
+
+.score-gradient {
+  display: block;
+  width: 100%;
+  height: 17px;
+  border: 1px solid rgba(24, 51, 47, .22);
+  border-radius: 3px;
+}
+
+.heatmap-bar { position: relative; }
+
+.heatmap-value-marks {
+  position: absolute;
+  inset: 0;
+}
+
+.heatmap-value-mark {
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  width: 2px;
+  margin-left: -1px;
+  padding: 0;
+  border: 0;
+  appearance: none;
+  background: rgba(255, 255, 255, .72);
+  box-shadow: 0 0 0 1px rgba(24, 51, 47, .48);
+  cursor: help;
+}
+
+.heatmap-value-mark:hover,
+.heatmap-value-mark:focus-visible { width: 4px; margin-left: -2px; outline: 2px solid #18332f; outline-offset: 2px; }
+
+.heatmap-tooltip { position: absolute; z-index: 3; bottom: calc(100% + 9px); max-width: min(300px, 90vw); padding: 7px 9px; border-radius: 7px; background: rgba(18, 62, 52, .96); color: #fff; font-size: .74rem; line-height: 1.35; pointer-events: none; transform: translateX(-50%); box-shadow: 0 6px 16px rgba(0, 0, 0, .18); }
+.heatmap-tooltip strong,.heatmap-tooltip span { display: block; }
+.heatmap-tooltip span { color: #dbe8e1; }
+.heatmap-tooltip ul { margin: 3px 0 0; padding-left: 16px; }
+
+.heatmap-selection-mark {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  border-left: 3px solid #17211b;
+  transform: translateX(-1px);
+  filter: drop-shadow(0 0 1px #fff);
+}
+
+.heatmap-selection-value {
+  margin-top: 5px;
+  color: #18332f;
+  font-size: .76rem;
+  font-weight: 700;
+}
+
+.map-footer select {
+  width: max-content;
+  max-width: 100%;
+  font: inherit;
+  padding: 8px 10px;
+  color: #18332f;
+  background: #fff;
+  border: 1px solid #aac0b5;
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  .map-footer select { width: 100%; }
+}

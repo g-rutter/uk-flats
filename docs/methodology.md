@@ -18,7 +18,7 @@ scores, rankings, shortlists or decisions.
 
 | Factor | Relative weight | Calculation |
 | --- | ---: | --- |
-| Housing cost | 15 | Within each tenure, fresh equal quintiles of the current proxy distribution score 5, 4, 3, 2 and 1 from cheapest to most expensive. |
+| Housing cost | 15 | Within each tenure, fresh equal ninths of the current proxy distribution score 5, 4.5, 4, …, 1 from cheapest to most expensive. |
 | Recorded-offence safety proxy | 15 | Equal mean of fresh 1--5 quintile scores for the Office for National Statistics (ONS) Community Safety Partnership (CSP) violence-against-the-person and sexual-offence rates; lower recorded rates score higher. |
 | Local public-transport connectivity | 15 | Population-weighted mean of the Department for Transport (DfT) 2025 Census Output Area (OA) `Overall (public transport)` metric within each reviewed April 2024 Built-up Area (BUA) mapping. National population-weighted England-and-Wales quintiles score 1--5; higher is better. |
 | Residential environment | 15 | Equal mean of population-weighted air, quiet, green-space and housing-energy percentiles. Fixed national population-weighted BUA quintiles score 1--5; higher is better. |
@@ -32,17 +32,22 @@ With the current total relative weight of 85, a factor whose relative weight is
 15 contributes 15/85, or about 17.6%, of the composite.
 Confidence labels and buy transaction counts remain evidence context and do not
 arbitrarily change scores. The browser shows the component values and raw measures.
-Housing-cost quintiles are recalculated independently for buying and renting from
+Housing-cost half-point bands are recalculated independently for buying and renting from
 all locations with a known proxy in the current candidate set. Equal proxy values
-receive their shared mean rank and remain in the same quintile, so bucket counts
+receive their shared mean rank and remain in the same band, so band counts
 may differ slightly rather than assigning different scores to tied values. These
 are relative, candidate-set-dependent scores: a location's score can change when
 locations or observations change even if its own proxy does not.
-For the map only, each tenure's known scores are grouped into lowest, middle and
-highest thirds. Tied scores stay together, so groups are as even as possible
-without giving the same score different colours. This visual grouping does not
-alter the score or table order. The inclusive score bounds for each group are
-generated with the screen and displayed in the map key.
+The map can colour locations by the composite score, the recorded-offence and
+national-transport component scores, or the directly observed value behind a
+single-measure component: median flat price or rent, public-transport
+connectivity, residential-environment index, and one-bedroom listing count.
+Marker colours use a continuous gradient whose first and last colours are the
+lowest and highest known value across the full candidate set; filters do not
+rescale it. The fixed Forest gradient changes presentation only, not scores,
+table order or missing-data handling. The heat bar shows each known location's
+position and identifies the selected location with its exact displayed value.
+Unknown values remain neutral rather than being assigned a numeric colour.
 
 The local public-transport score uses a fixed national reference for the DfT
 2025 release, not candidate ranks. Population-weighted OA cut-points are
