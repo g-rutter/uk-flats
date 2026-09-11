@@ -13,6 +13,7 @@
   const known = v => v !== null && v !== undefined && v !== '';
   const show = v => known(v) ? escape(v) : 'Not available';
   const oneDecimal = v => known(v) ? Number(v).toFixed(1) : 'Not available';
+  const compactNumber = v => known(v) ? new Intl.NumberFormat('en-GB', { maximumFractionDigits: 1 }).format(v) : 'Not available';
   const wholeNumber = v => known(v) ? new Intl.NumberFormat('en-GB', { maximumFractionDigits: 0 }).format(v) : 'Not available';
   const money = v => known(v) ? new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP', maximumFractionDigits: 0 }).format(v) : 'Not available';
   const minutes = (v, c) => known(v) ? `${v} min${known(c) ? ` · ${c} change${c === 1 ? '' : 's'}` : ''}` : 'Not available';
@@ -21,14 +22,14 @@
   const score = x => data.composite.results[x.id].tenures[state.tenure].score;
   const band = x => `score-${data.composite.results[x.id].tenures[state.tenure].band || 'unknown'}`;
   const mapMeasures = {
-    composite: { label: 'Composite score', value: score, format: value => `${show(value)} / 100` },
-    housing_cost: { label: () => state.tenure === 'buy' ? 'Median flat price' : 'Typical one-bedroom rent', value: marketPrice, format: value => `${money(value)}${state.tenure === 'rent' && known(value) ? ' per month' : ''}`, reverse: true },
-    safety: { label: 'Recorded-offence score', value: x => data.composite.results[x.id].tenures[state.tenure].factors.safety, format: value => `${show(value)} / 5` },
-    local_transport: { label: 'Public-transport connectivity', value: x => x.localTransport.pt_connectivity_0_100, format: value => `${oneDecimal(value)} / 100` },
-    digital_connectivity: { label: 'Gigabit broadband availability', value: x => x.digitalConnectivity.gigabit_availability_pct, format: value => `${oneDecimal(value)}% of residential premises` },
-    residential_environment: { label: 'Residential-environment index', value: x => x.residentialEnvironment.environment_index_0_100, format: value => `${oneDecimal(value)} / 100` },
-    stock: { label: 'One-bedroom listings', value: stock, format: value => known(value) ? `${wholeNumber(value)} listings` : 'Not available' },
-    national_transport: { label: 'National-transport score', value: x => data.composite.results[x.id].tenures[state.tenure].factors.national_transport, format: value => `${show(value)} / 5` }
+    composite: { label: 'Composite score', value: score, format: value => `${show(value)} / 100`, tickFormat: compactNumber },
+    housing_cost: { label: () => state.tenure === 'buy' ? 'Median flat price' : 'Typical one-bedroom rent', value: marketPrice, format: value => `${money(value)}${state.tenure === 'rent' && known(value) ? ' per month' : ''}`, tickFormat: money, reverse: true },
+    safety: { label: 'Recorded-offence score', value: x => data.composite.results[x.id].tenures[state.tenure].factors.safety, format: value => `${show(value)} / 5`, tickFormat: compactNumber },
+    local_transport: { label: 'Public-transport connectivity', value: x => x.localTransport.pt_connectivity_0_100, format: value => `${oneDecimal(value)} / 100`, tickFormat: oneDecimal },
+    digital_connectivity: { label: 'Gigabit broadband availability', value: x => x.digitalConnectivity.gigabit_availability_pct, format: value => `${oneDecimal(value)}% of residential premises`, tickFormat: value => `${oneDecimal(value)}%` },
+    residential_environment: { label: 'Residential-environment index', value: x => x.residentialEnvironment.environment_index_0_100, format: value => `${oneDecimal(value)} / 100`, tickFormat: oneDecimal },
+    stock: { label: 'One-bedroom listings', value: stock, format: value => known(value) ? `${wholeNumber(value)} listings` : 'Not available', tickFormat: wholeNumber },
+    national_transport: { label: 'National-transport score', value: x => data.composite.results[x.id].tenures[state.tenure].factors.national_transport, format: value => `${show(value)} / 5`, tickFormat: compactNumber }
   };
   const forestGradient = ['#a45152', '#d3a13a', '#17624f'];
   const mapMeasure = () => mapMeasures[state.mapMeasure];
@@ -246,7 +247,7 @@
     [0, .25, .5, .75, 1].forEach((position, index) => {
       const value = known(start) && known(end) ? start + (end - start) * position : null;
       const tick = $(`mapKey${index}`);
-      tick.textContent = known(value) ? mapMeasure().format(value) : 'No values';
+      tick.textContent = known(value) ? mapMeasure().tickFormat(value) : 'No values';
       tick.style.left = `${position * 100}%`;
     });
     $('mapGradient').style.background = `linear-gradient(90deg, ${forestGradient.join(', ')})`;
