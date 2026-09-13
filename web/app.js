@@ -32,6 +32,7 @@
     national_transport: { label: 'National-transport score', value: x => data.composite.results[x.id].tenures[state.tenure].factors.national_transport, format: value => `${show(value)} / 5`, tickFormat: compactNumber }
   };
   const forestGradient = ['#a45152', '#d3a13a', '#17624f'];
+  const densitySmoothingMultiplier = 2 ** (-4 / 3); // Former smoothing level 1: the sharpest reviewed preset.
   const mapMeasure = () => mapMeasures[state.mapMeasure];
   const mapMeasureLabel = () => typeof mapMeasure().label === 'function' ? mapMeasure().label() : mapMeasure().label;
   const mapValue = x => mapMeasure().value(x);
@@ -40,6 +41,23 @@
     if (!known(value) || !known(domain[0])) return null;
     const position = domain[0] === domain[1] ? .5 : Math.max(0, Math.min(1, (Number(value) - domain[0]) / (domain[1] - domain[0])));
     return mapMeasure().reverse ? 1 - position : position;
+  };
+  const densityPaths = (locations, domain) => {
+    const positions = locations.map(mapValue).filter(known).map(value => heatmapPosition(value, domain)).filter(known);
+    if (!positions.length) return { fill: '', line: '', count: 0 };
+    const mean = positions.reduce((total, position) => total + position, 0) / positions.length;
+    const variance = positions.reduce((total, position) => total + (position - mean) ** 2, 0) / positions.length;
+    const automaticBandwidth = 1.06 * Math.sqrt(variance) * positions.length ** -.2 || .07;
+    const bandwidth = Math.max(.018, Math.min(.3, automaticBandwidth * densitySmoothingMultiplier));
+    const baseline = 33, top = 2, samples = 80;
+    const points = Array.from({ length: samples + 1 }, (_, index) => {
+      const position = index / samples;
+      const density = positions.reduce((total, observation) => total + Math.exp(-.5 * ((position - observation) / bandwidth) ** 2), 0);
+      return { x: position * 100, density };
+    });
+    const peak = Math.max(...points.map(point => point.density));
+    const line = points.map((point, index) => `${index ? 'L' : 'M'}${point.x.toFixed(2)} ${(baseline - (point.density / peak) * (baseline - top)).toFixed(2)}`).join(' ');
+    return { fill: `${line} L100 ${baseline} L0 ${baseline} Z`, line, count: positions.length };
   };
   const rate = (x, category) => crime.get(x.id)?.[category]?.rate_per_1000;
   const factor = (x, key) => data.composite.results[x.id].tenures[state.tenure].factors[key];
@@ -321,6 +339,12 @@
       tick.style.left = `${position * 100}%`;
     });
     $('mapGradient').style.background = `linear-gradient(90deg, ${forestGradient.join(', ')})`;
+    const density = densityPaths(locations, [minimum, maximum]);
+    $('mapDensityFill').setAttribute('d', density.fill);
+    $('mapDensityLine').setAttribute('d', density.line);
+    $('mapDensity').setAttribute('aria-label', density.count
+      ? `${mapMeasureLabel()} distribution for ${density.count} visible ${density.count === 1 ? 'location' : 'locations'}`
+      : `No visible locations have a ${mapMeasureLabel().toLowerCase()} value`);
     const valueMarks = $('mapValueMarks'); valueMarks.replaceChildren();
     const locationsAtValue = new Map();
     locations.forEach(location => {

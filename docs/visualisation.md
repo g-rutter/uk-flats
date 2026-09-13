@@ -52,3 +52,7 @@ higher costs the worse-end colour.
 Unknown values are neutral; do not copy archived scores or ranking logic. The two
 underlying ONS offence rates remain visible alongside the limited recorded-offence
 safety proxy, and ASB remains excluded.
+The smooth density sparkline above the colour bar summarises the visible known
+values on that same fixed scale, so filtering changes the distribution but does
+not move the scale endpoints. It uses the low smoothing level selected during
+interface review to preserve local peaks in the distribution.

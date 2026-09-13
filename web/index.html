@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <title>UK flat location comparison</title>
+  <title>Compare locations in England and Wales</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="map-controls.css">
@@ -13,11 +13,7 @@
 <body>
   <main class="page-shell">
     <header class="topbar">
-      <div>
-        <p class="eyebrow">UK FLAT LOCATION RESEARCH</p>
-        <h1>Compare locations broadly</h1>
-        <p class="subtitle">A map-based view of all 83 England and Wales locations. Buying and renting remain separate.</p>
-      </div>
+      <h1>Compare locations in England and Wales</h1>
       <div class="mode-switch" role="group" aria-label="Tenure">
         <button id="buyToggle" type="button" aria-pressed="true">Buying</button>
         <button id="rentToggle" type="button" aria-pressed="false">Renting</button>
@@ -50,6 +46,10 @@
         </div>
         <div class="map-footer" aria-label="Map colour key">
           <div class="heatmap-key">
+            <svg id="mapDensity" class="heatmap-density" viewBox="0 0 100 34" preserveAspectRatio="none" role="img" aria-label="Distribution of visible locations">
+              <path id="mapDensityFill" class="heatmap-density-fill"></path>
+              <path id="mapDensityLine" class="heatmap-density-line"></path>
+            </svg>
             <div class="heatmap-ticks" aria-hidden="true"><span id="mapKey0"></span><span id="mapKey1"></span><span id="mapKey2"></span><span id="mapKey3"></span><span id="mapKey4"></span></div>
             <div class="heatmap-bar">
               <i id="mapGradient" class="score-gradient"></i>
@@ -59,16 +59,20 @@
             </div>
             <div id="mapSelectionValue" class="heatmap-selection-value" aria-live="polite"></div>
           </div>
-          <select id="mapMeasure" aria-label="Colour markers by">
-            <option value="composite">Composite score</option>
-            <option value="housing_cost" id="mapPriceMeasure">Median flat price</option>
-            <option value="safety">Recorded-offence score</option>
-            <option value="local_transport">Public-transport connectivity</option>
-            <option value="digital_connectivity">Gigabit broadband availability</option>
-            <option value="residential_environment">Residential-environment index</option>
-            <option value="stock">One-bedroom listings</option>
-            <option value="national_transport">National-transport score</option>
-          </select>
+          <div class="map-settings">
+            <label class="map-measure-control"><span>Colour map by</span>
+              <select id="mapMeasure">
+                <option value="composite">Composite score</option>
+                <option value="housing_cost" id="mapPriceMeasure">Median flat price</option>
+                <option value="safety">Recorded-offence score</option>
+                <option value="local_transport">Public-transport connectivity</option>
+                <option value="digital_connectivity">Gigabit broadband availability</option>
+                <option value="residential_environment">Residential-environment index</option>
+                <option value="stock">One-bedroom listings</option>
+                <option value="national_transport">National-transport score</option>
+              </select>
+            </label>
+          </div>
           <span>Outline: Natural Earth, public domain</span>
         </div>
       </article>
