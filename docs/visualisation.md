@@ -34,6 +34,8 @@ combine them to refine the map and list. A location must meet every filled limit
 an unavailable value excludes it only when that measure is constrained. Clearing
 the filters restores every candidate. Each table-column heading changes only the
 table order; it never changes marker colours, scores or map inclusion.
+The name search above the table narrows table rows only, within any active
+criteria; it does not remove locations from the map.
 
 The filter and map-colour selectors expose the same measures, grouped into score
 components followed by the underlying and contextual feeds. This includes the

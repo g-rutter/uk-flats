@@ -8,7 +8,7 @@
   const evidenceById = new Map(data.evidence.map(x => [x.id, x]));
   const crime = new Map();
   data.crimeResearch.forEach(x => { if (!crime.has(x.location_id)) crime.set(x.location_id, {}); crime.get(x.location_id)[x.category] = x; });
-  const state = { tenure: 'buy', sort: 'score', sortDirection: 'desc', selectedId: data.locations[0]?.id, mapMeasure: 'composite', filters: [], nextFilterId: 1 };
+  const state = { tenure: 'buy', sort: 'score', sortDirection: 'desc', selectedId: data.locations[0]?.id, mapMeasure: 'composite', filters: [], nextFilterId: 1, locationSearch: '' };
   const escape = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const known = v => v !== null && v !== undefined && v !== '';
   const show = v => known(v) ? escape(v) : 'Not available';
@@ -306,8 +306,9 @@
       button.setAttribute('aria-expanded', String(willOpen));
     }));
   }
-  function renderTable(locations) {
-    $('rows').innerHTML = locations.length ? locations.map(x => `<tr class="${x.id === state.selectedId ? 'is-selected' : ''}"><td><button data-id="${escape(x.id)}">${escape(x.name)}</button><small>${escape(x.localAuthority)} · ${escape(x.country)}</small></td><td><strong>${show(score(x))}</strong><small>out of 100</small></td><td>${money(marketPrice(x))}${state.tenure === 'buy' && known(x.buy.transactions) ? `<small>${x.buy.transactions} completed sales</small>` : ''}</td><td>${show(stock(x))}</td><td>${minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)}</td><td>${minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges)}</td><td>${show(rate(x, 'violence_against_person'))}</td><td>${show(rate(x, 'sexual_offences'))}</td></tr>`).join('') : '<tr><td class="empty-results" colspan="8">No locations meet every filter. Adjust a limit or clear the filters.</td></tr>';
+  function renderTable(locations, searching = false) {
+    const emptyMessage = searching ? 'No location names match this search.' : 'No locations meet every filter. Adjust a limit or clear the filters.';
+    $('rows').innerHTML = locations.length ? locations.map(x => `<tr class="${x.id === state.selectedId ? 'is-selected' : ''}"><td><button data-id="${escape(x.id)}">${escape(x.name)}</button><small>${escape(x.localAuthority)} · ${escape(x.country)}</small></td><td><strong>${show(score(x))}</strong><small>out of 100</small></td><td>${money(marketPrice(x))}${state.tenure === 'buy' && known(x.buy.transactions) ? `<small>${x.buy.transactions} completed sales</small>` : ''}</td><td>${show(stock(x))}</td><td>${minutes(x.nationalTransport.londonMinutes, x.nationalTransport.londonChanges)}</td><td>${minutes(x.nationalTransport.birminghamMinutes, x.nationalTransport.birminghamChanges)}</td><td>${show(rate(x, 'violence_against_person'))}</td><td>${show(rate(x, 'sexual_offences'))}</td></tr>`).join('') : `<tr><td class="empty-results" colspan="8">${emptyMessage}</td></tr>`;
     $('rows').querySelectorAll('button').forEach(button => button.addEventListener('click', () => select(button.dataset.id, true)));
   }
   function renderSortHeadings() {
@@ -420,6 +421,8 @@
   }
   function renderView() {
     const locations = filteredLocations();
+    const searchTerm = state.locationSearch.trim().toLocaleLowerCase('en-GB');
+    const tableLocations = searchTerm ? locations.filter(location => location.name.toLocaleLowerCase('en-GB').includes(searchTerm)) : locations;
     if (!locations.some(location => location.id === state.selectedId)) state.selectedId = locations[0]?.id;
     const filterCount = activeFilters().length;
     const invalidIndex = state.filters.findIndex(filter => filter.minimum !== '' && filter.maximum !== '' && Number(filter.minimum) > Number(filter.maximum));
@@ -430,8 +433,10 @@
       row.querySelectorAll('input').forEach(input => input.setAttribute('aria-invalid', String(invalid)));
     });
     $('count').textContent = `${locations.length} ${locations.length === 1 ? 'location' : 'locations'} shown on the map`;
-    $('resultSummary').textContent = filterCount ? `Showing ${locations.length} of ${data.locations.length} · ${filterCount} ${filterCount === 1 ? 'criterion' : 'criteria'}` : `Showing all ${locations.length}`;
-    renderMapKey(locations); renderMap(locations); renderDetail(); renderTable(ordered(locations)); renderSortHeadings();
+    $('resultSummary').textContent = searchTerm
+      ? `Showing ${tableLocations.length} matching ${tableLocations.length === 1 ? 'location' : 'locations'} from ${locations.length}${filterCount ? ' refined' : ''}`
+      : filterCount ? `Showing ${locations.length} of ${data.locations.length} · ${filterCount} ${filterCount === 1 ? 'criterion' : 'criteria'}` : `Showing all ${locations.length}`;
+    renderMapKey(locations); renderMap(locations); renderDetail(); renderTable(ordered(tableLocations), Boolean(searchTerm)); renderSortHeadings();
   }
   function render() { $('mapMeasure').innerHTML = groupedOptions(state.mapMeasure); renderFilters(); renderView(); }
   function select(id, scroll = false) { state.selectedId = id; renderView(); if (scroll && matchMedia('(max-width: 920px)').matches) $('details').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
@@ -444,6 +449,7 @@
   });
   $('clearFilters').addEventListener('click', () => { state.filters = []; render(); $('addFilter').focus(); });
   $('mapMeasure').addEventListener('input', event => { state.mapMeasure = event.target.value; renderView(); });
+  $('locationSearch').addEventListener('input', event => { state.locationSearch = event.target.value; renderView(); });
   document.addEventListener('click', event => { if (!event.target.closest('.help-wrap')) closeHelp(); });
   document.addEventListener('keydown', event => { if (event.key === 'Escape') closeHelp(); });
   $('evidence').innerHTML = data.evidence.filter(x => x.workstream !== 'geography_crime' || x.id === 'CRIME-ONS-2026-CSP').map(x => `<h3>${escape(x.title)}</h3><p>${escape(x.dataPeriod)} · Recorded retrieval: ${escape(x.retrievalDate)} · ${escape(x.geography)}</p><p>${escape(x.limitations)}</p>`).join('');

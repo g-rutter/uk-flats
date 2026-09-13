@@ -1,5 +1,7 @@
 # UK flat location comparison
 
+**[Open the live web UI](https://g-rutter.github.io/uk-flats/)**
+
 A reproducible broad comparison of 83 England and Wales locations for buying or
 renting a one-bedroom flat. It does not cover neighbourhoods, individual
 buildings or listings.

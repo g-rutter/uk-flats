@@ -7,6 +7,7 @@
   <title>Compare locations in England and Wales</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="table-controls.css">
   <link rel="stylesheet" href="map-controls.css">
   <link rel="stylesheet" href="help.css">
 </head>
@@ -70,7 +71,13 @@
       <aside id="details" class="detail-panel" aria-live="polite"><p>Select a location on the map or in the list for its evidence.</p></aside>
     </section>
     <section class="results-card">
-      <div class="panel-title results-title"><div><h2>All locations</h2><span id="resultSummary"></span></div><span>Choose a column heading to order this list</span></div>
+      <div class="panel-title results-title">
+        <div><h2>All locations</h2><span id="resultSummary"></span></div>
+        <div class="results-tools">
+          <label class="location-search"><span>Search by location name</span><input id="locationSearch" type="search" placeholder="e.g. Sheffield" autocomplete="off"></label>
+          <span>Choose a column heading to order this list</span>
+        </div>
+      </div>
       <div class="table-wrap"><table><thead><tr><th id="nameHeading">Location / local authority</th><th id="scoreHeading">Composite score<br>out of 100</th><th id="priceHeading">Median flat price</th><th id="stockHeading">One-bedroom listings</th><th id="londonHeading">London rail</th><th id="birminghamHeading">Birmingham rail</th><th id="violenceHeading">Violence / 1,000</th><th id="sexualHeading">Sexual offences / 1,000</th></tr></thead><tbody id="rows"></tbody></table></div>
     </section>
     <details class="methodology-card"><summary>Source periods and limits</summary><div id="evidence"></div></details>
