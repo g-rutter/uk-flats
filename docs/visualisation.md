@@ -35,20 +35,19 @@ an unavailable value excludes it only when that measure is constrained. Clearing
 the filters restores every candidate. Each table-column heading changes only the
 table order; it never changes marker colours, scores or map inclusion.
 
-Marker colour can show the composite score, the recorded-offence and
-national-transport component scores, or the observed price, rent, transport,
-environment or listing value that directly underpins a component. It can also
-show the contextual Ofcom gigabit-availability percentage, which is not a
-composite input. It uses a
+The filter and map-colour selectors expose the same measures, grouped into score
+components followed by the underlying and contextual feeds. This includes the
+composite and all six component scores; housing, stock, local and national
+transport, residential-environment and recorded-offence observations; and the
+contextual Ofcom gigabit-availability percentage. The map uses a
 continuous gradient over the full candidate-set range for the selected tenure and
-measure: the lowest and highest observed values receive the first and last
-palette colours, and filters do not change the scale. The fixed Forest gradient
-changes presentation only. Each visible location with a known value is marked on
-the bar, and the selected location is called out with its exact displayed value.
-The key shows the active measure and its range in the measure's own units. For
-price and rent, the palette stays in its normal visual direction while the key's
-endpoints are swapped: lower housing costs receive the better-end colour and
-higher costs the worse-end colour.
+measure, and filters do not change the scale. Lower-is-better measures reverse the
+numeric endpoints so cost, pollution, noise, journey time, changes and
+recorded-offence rates retain the better-end colour for lower values. The fixed
+Forest gradient changes presentation only. Each visible location with a known
+value is marked on the bar, and the selected location is called out with its exact
+displayed value. The key shows the active measure and its range in the measure's
+own units.
 Unknown values are neutral; do not copy archived scores or ranking logic. The two
 underlying ONS offence rates remain visible alongside the limited recorded-offence
 safety proxy, and ASB remains excluded.

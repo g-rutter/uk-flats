@@ -21,22 +21,56 @@
   const stock = x => x[state.tenure].oneBedCount;
   const score = x => data.composite.results[x.id].tenures[state.tenure].score;
   const band = x => `score-${data.composite.results[x.id].tenures[state.tenure].band || 'unknown'}`;
-  const mapMeasures = {
-    composite: { label: 'Composite score', value: score, format: value => `${show(value)} / 100`, tickFormat: compactNumber },
-    housing_cost: { label: () => state.tenure === 'buy' ? 'Median flat price' : 'Typical one-bedroom rent', value: marketPrice, format: value => `${money(value)}${state.tenure === 'rent' && known(value) ? ' per month' : ''}`, tickFormat: money, reverse: true },
-    safety: { label: 'Recorded-offence score', value: x => data.composite.results[x.id].tenures[state.tenure].factors.safety, format: value => `${show(value)} / 5`, tickFormat: compactNumber },
-    local_transport: { label: 'Public-transport connectivity', value: x => x.localTransport.pt_connectivity_0_100, format: value => `${oneDecimal(value)} / 100`, tickFormat: oneDecimal },
-    digital_connectivity: { label: 'Gigabit broadband availability', value: x => x.digitalConnectivity.gigabit_availability_pct, format: value => `${oneDecimal(value)}% of residential premises`, tickFormat: value => `${oneDecimal(value)}%` },
-    residential_environment: { label: 'Residential-environment index', value: x => x.residentialEnvironment.environment_index_0_100, format: value => `${oneDecimal(value)} / 100`, tickFormat: oneDecimal },
-    stock: { label: 'One-bedroom listings', value: stock, format: value => known(value) ? `${wholeNumber(value)} listings` : 'Not available', tickFormat: wholeNumber },
-    national_transport: { label: 'National-transport score', value: x => data.composite.results[x.id].tenures[state.tenure].factors.national_transport, format: value => `${show(value)} / 5`, tickFormat: compactNumber }
-  };
   const forestGradient = ['#a45152', '#d3a13a', '#17624f'];
   const densitySmoothingMultiplier = 2 ** (-4 / 3); // Former smoothing level 1: the sharpest reviewed preset.
-  const mapMeasure = () => mapMeasures[state.mapMeasure];
-  const mapMeasureLabel = () => typeof mapMeasure().label === 'function' ? mapMeasure().label() : mapMeasure().label;
+  const rate = (x, category) => crime.get(x.id)?.[category]?.rate_per_1000;
+  const factor = (x, key) => data.composite.results[x.id].tenures[state.tenure].factors[key];
+  const filterCriteria = {
+    composite: { label: () => `${state.tenure === 'buy' ? 'Buying' : 'Renting'} composite score`, mapLabel: 'Composite score', value: score, format: compactNumber, mapFormat: value => `${show(value)} / 100` },
+    housing_cost_score: { label: 'Housing-cost score', value: x => factor(x, 'housing_cost'), mapFormat: value => `${show(value)} / 5` },
+    safety: { label: 'Recorded-offence score', value: x => factor(x, 'safety'), mapFormat: value => `${show(value)} / 5` },
+    local_transport_score: { label: 'Local public-transport score', value: x => factor(x, 'local_transport'), mapFormat: value => `${show(value)} / 5` },
+    residential_environment_score: { label: 'Residential-environment score', value: x => factor(x, 'residential_environment'), mapFormat: value => `${show(value)} / 5` },
+    stock_score: { label: 'One-bedroom listings score', value: x => factor(x, 'stock'), mapFormat: value => `${show(value)} / 5` },
+    national_transport: { label: 'National-transport score', value: x => factor(x, 'national_transport'), mapFormat: value => `${show(value)} / 5` },
+    housing_cost: { label: () => state.tenure === 'buy' ? 'Median flat price (£)' : 'Typical one-bedroom rent (£/month)', mapLabel: () => state.tenure === 'buy' ? 'Median flat price' : 'Typical one-bedroom rent', value: marketPrice, format: money, mapFormat: value => `${money(value)}${state.tenure === 'rent' && known(value) ? ' per month' : ''}`, mapTickFormat: money, reverse: true },
+    stock: { label: () => `${state.tenure === 'buy' ? 'For-sale' : 'Rental'} one-bedroom listings`, mapLabel: 'One-bedroom listings', value: stock, format: wholeNumber, mapFormat: value => known(value) ? `${wholeNumber(value)} listings` : 'Not available', mapTickFormat: wholeNumber },
+    local_transport: { label: 'Public-transport connectivity', value: x => x.localTransport.pt_connectivity_0_100, mapFormat: value => `${oneDecimal(value)} / 100`, mapTickFormat: oneDecimal },
+    local_transport_percentile: { label: 'Transport national percentile', value: x => x.localTransport.national_percentile },
+    digital_connectivity: { label: 'Gigabit broadband availability (%)', mapLabel: 'Gigabit broadband availability', value: x => x.digitalConnectivity.gigabit_availability_pct, format: value => `${oneDecimal(value)}%`, mapFormat: value => `${oneDecimal(value)}% of residential premises`, mapTickFormat: value => `${oneDecimal(value)}%` },
+    residential_environment: { label: 'Residential-environment index', value: x => x.residentialEnvironment.environment_index_0_100, mapFormat: value => `${oneDecimal(value)} / 100`, mapTickFormat: oneDecimal },
+    residential_environment_percentile: { label: 'Environment national percentile', value: x => x.residentialEnvironment.national_percentile },
+    air_burden: { label: 'Air-pollution burden', value: x => x.residentialEnvironment.air_burden, reverse: true },
+    no2: { label: 'NO₂ concentration (µg/m³)', value: x => x.residentialEnvironment.no2_ug_m3, reverse: true },
+    pm25: { label: 'PM₂.₅ concentration (µg/m³)', value: x => x.residentialEnvironment.pm25_ug_m3, reverse: true },
+    pm10: { label: 'PM₁₀ concentration (µg/m³)', value: x => x.residentialEnvironment.pm10_ug_m3, reverse: true },
+    noise: { label: 'Transport-noise exposure (%)', value: x => x.residentialEnvironment.noise_exposed_pct, reverse: true },
+    green_access: { label: 'Residents within 300 m of green space (%)', value: x => x.residentialEnvironment.green_within_300m_pct },
+    green_area: { label: 'Green space within 1,000 m (m²)', value: x => x.residentialEnvironment.green_area_within_1000m_m2 },
+    epc: { label: 'Mean EPC SAP score', value: x => x.residentialEnvironment.epc_sap_mean },
+    london: { label: 'London rail journey (minutes)', value: x => x.nationalTransport.londonMinutes, format: wholeNumber, reverse: true },
+    london_changes: { label: 'London rail changes', value: x => x.nationalTransport.londonChanges, format: wholeNumber, reverse: true },
+    birmingham: { label: 'Birmingham rail journey (minutes)', value: x => x.nationalTransport.birminghamMinutes, format: wholeNumber, reverse: true },
+    birmingham_changes: { label: 'Birmingham rail changes', value: x => x.nationalTransport.birminghamChanges, format: wholeNumber, reverse: true },
+    violence: { label: 'Violence against the person (/1,000)', value: x => rate(x, 'violence_against_person'), reverse: true },
+    sexual: { label: 'Sexual offences (/1,000)', value: x => rate(x, 'sexual_offences'), reverse: true },
+    transactions: { label: 'Completed flat sales in sample', value: x => x.buy.transactions, format: wholeNumber }
+  };
+  const criterionLabel = criterion => typeof criterion.label === 'function' ? criterion.label() : criterion.label;
+  const metricGroups = [
+    { label: 'Score components', keys: ['composite', 'housing_cost_score', 'safety', 'local_transport_score', 'residential_environment_score', 'stock_score', 'national_transport'] },
+    { label: 'Other feeds', keys: ['housing_cost', 'stock', 'local_transport', 'local_transport_percentile', 'digital_connectivity', 'residential_environment', 'residential_environment_percentile', 'air_burden', 'no2', 'pm25', 'pm10', 'noise', 'green_access', 'green_area', 'epc', 'london', 'london_changes', 'birmingham', 'birmingham_changes', 'violence', 'sexual', 'transactions'] }
+  ];
+  const groupedOptions = selected => metricGroups.map(group => `<optgroup label="${escape(group.label)}">${group.keys.map(key => `<option value="${key}"${key === selected ? ' selected' : ''}>${escape(criterionLabel(filterCriteria[key]))}</option>`).join('')}</optgroup>`).join('');
+  const mapMeasure = () => filterCriteria[state.mapMeasure];
+  const mapMeasureLabel = () => {
+    const label = mapMeasure().mapLabel || mapMeasure().label;
+    return typeof label === 'function' ? label() : label;
+  };
   const mapValue = x => mapMeasure().value(x);
   const mapDomain = () => { const values = data.locations.map(mapValue).filter(known).map(Number); return values.length ? [Math.min(...values), Math.max(...values)] : [null, null]; };
+  const mapFormat = value => (mapMeasure().mapFormat || mapMeasure().format || compactNumber)(value);
+  const mapTickFormat = value => (mapMeasure().mapTickFormat || mapMeasure().format || compactNumber)(value);
   const heatmapPosition = (value, domain) => {
     if (!known(value) || !known(domain[0])) return null;
     const position = domain[0] === domain[1] ? .5 : Math.max(0, Math.min(1, (Number(value) - domain[0]) / (domain[1] - domain[0])));
@@ -59,40 +93,6 @@
     const line = points.map((point, index) => `${index ? 'L' : 'M'}${point.x.toFixed(2)} ${(baseline - (point.density / peak) * (baseline - top)).toFixed(2)}`).join(' ');
     return { fill: `${line} L100 ${baseline} L0 ${baseline} Z`, line, count: positions.length };
   };
-  const rate = (x, category) => crime.get(x.id)?.[category]?.rate_per_1000;
-  const factor = (x, key) => data.composite.results[x.id].tenures[state.tenure].factors[key];
-  const filterCriteria = {
-    composite: { label: () => `${state.tenure === 'buy' ? 'Buying' : 'Renting'} composite score`, value: score, format: compactNumber },
-    housing_cost: { label: () => state.tenure === 'buy' ? 'Median flat price (£)' : 'Typical one-bedroom rent (£/month)', value: marketPrice, format: money },
-    stock: { label: () => `${state.tenure === 'buy' ? 'For-sale' : 'Rental'} one-bedroom listings`, value: stock, format: wholeNumber },
-    housing_cost_score: { label: 'Housing-cost score', value: x => factor(x, 'housing_cost') },
-    safety: { label: 'Recorded-offence score', value: x => factor(x, 'safety') },
-    local_transport: { label: 'Public-transport connectivity', value: x => x.localTransport.pt_connectivity_0_100 },
-    local_transport_percentile: { label: 'Transport national percentile', value: x => x.localTransport.national_percentile },
-    local_transport_score: { label: 'Local public-transport score', value: x => factor(x, 'local_transport') },
-    digital_connectivity: { label: 'Gigabit broadband availability (%)', value: x => x.digitalConnectivity.gigabit_availability_pct, format: value => `${oneDecimal(value)}%` },
-    residential_environment: { label: 'Residential-environment index', value: x => x.residentialEnvironment.environment_index_0_100 },
-    residential_environment_percentile: { label: 'Environment national percentile', value: x => x.residentialEnvironment.national_percentile },
-    residential_environment_score: { label: 'Residential-environment score', value: x => factor(x, 'residential_environment') },
-    air_burden: { label: 'Air-pollution burden', value: x => x.residentialEnvironment.air_burden },
-    no2: { label: 'NO₂ concentration (µg/m³)', value: x => x.residentialEnvironment.no2_ug_m3 },
-    pm25: { label: 'PM₂.₅ concentration (µg/m³)', value: x => x.residentialEnvironment.pm25_ug_m3 },
-    pm10: { label: 'PM₁₀ concentration (µg/m³)', value: x => x.residentialEnvironment.pm10_ug_m3 },
-    noise: { label: 'Transport-noise exposure (%)', value: x => x.residentialEnvironment.noise_exposed_pct },
-    green_access: { label: 'Residents within 300 m of green space (%)', value: x => x.residentialEnvironment.green_within_300m_pct },
-    green_area: { label: 'Green space within 1,000 m (m²)', value: x => x.residentialEnvironment.green_area_within_1000m_m2 },
-    epc: { label: 'Mean EPC SAP score', value: x => x.residentialEnvironment.epc_sap_mean },
-    stock_score: { label: 'One-bedroom listings score', value: x => factor(x, 'stock') },
-    national_transport: { label: 'National-transport score', value: x => factor(x, 'national_transport') },
-    london: { label: 'London rail journey (minutes)', value: x => x.nationalTransport.londonMinutes, format: wholeNumber },
-    london_changes: { label: 'London rail changes', value: x => x.nationalTransport.londonChanges, format: wholeNumber },
-    birmingham: { label: 'Birmingham rail journey (minutes)', value: x => x.nationalTransport.birminghamMinutes, format: wholeNumber },
-    birmingham_changes: { label: 'Birmingham rail changes', value: x => x.nationalTransport.birminghamChanges, format: wholeNumber },
-    violence: { label: 'Violence against the person (/1,000)', value: x => rate(x, 'violence_against_person') },
-    sexual: { label: 'Sexual offences (/1,000)', value: x => rate(x, 'sexual_offences') },
-    transactions: { label: 'Completed flat sales in sample', value: x => x.buy.transactions, format: wholeNumber }
-  };
-  const criterionLabel = criterion => typeof criterion.label === 'function' ? criterion.label() : criterion.label;
   const criterionRange = criterion => {
     const values = data.locations.map(criterion.value).filter(known).map(Number);
     if (!values.length) return 'No values available';
@@ -179,9 +179,8 @@
     }));
   }
   function renderFilters() {
-    const options = selected => Object.entries(filterCriteria).map(([key, criterion]) => `<option value="${key}"${key === selected ? ' selected' : ''}>${escape(criterionLabel(criterion))}</option>`).join('');
     $('filters').innerHTML = state.filters.map((filter, index) => `<div class="filter-row" data-filter-id="${filter.id}">
-      <label class="criterion-field"><span>Criterion ${index + 1}</span><select aria-label="Criterion ${index + 1}">${options(filter.criterion)}</select><small>${escape(criterionRange(filterCriteria[filter.criterion]))}</small></label>
+      <label class="criterion-field"><span>Criterion ${index + 1}</span><select aria-label="Criterion ${index + 1}">${groupedOptions(filter.criterion)}</select><small>${escape(criterionRange(filterCriteria[filter.criterion]))}</small></label>
       <label><span>At least</span><input class="filter-minimum" type="number" inputmode="decimal" step="any" value="${escape(filter.minimum)}" placeholder="No minimum" aria-label="Minimum ${escape(criterionLabel(filterCriteria[filter.criterion]))}"></label>
       <label><span>At most</span><input class="filter-maximum" type="number" inputmode="decimal" step="any" value="${escape(filter.maximum)}" placeholder="No maximum" aria-label="Maximum ${escape(criterionLabel(filterCriteria[filter.criterion]))}"></label>
       <button class="remove-filter" type="button" aria-label="Remove criterion ${index + 1}">Remove</button>
@@ -198,7 +197,7 @@
   function tooltip(x, target) {
     const box = $('mapWrap').getBoundingClientRect(), marker = target.getBoundingClientRect();
     const value = mapValue(x);
-    $('mapTooltip').innerHTML = `<strong>${escape(x.name)}</strong><span>${escape(mapMeasureLabel())}: ${mapMeasure().format(value)}</span><span>${money(marketPrice(x))}${state.tenure === 'rent' ? ' per month' : ''} · ${show(stock(x))} one-bedroom listings</span>`;
+    $('mapTooltip').innerHTML = `<strong>${escape(x.name)}</strong><span>${escape(mapMeasureLabel())}: ${mapFormat(value)}</span><span>${money(marketPrice(x))}${state.tenure === 'rent' ? ' per month' : ''} · ${show(stock(x))} one-bedroom listings</span>`;
     $('mapTooltip').style.left = `${marker.left - box.left + marker.width / 2}px`; $('mapTooltip').style.top = `${marker.top - box.top - 8}px`; $('mapTooltip').hidden = false;
   }
   function renderMap(locations) {
@@ -211,7 +210,7 @@
       marker.setAttribute('cx', cx.toFixed(2)); marker.setAttribute('cy', cy.toFixed(2)); marker.setAttribute('r', x.id === state.selectedId ? '9' : '6');
       const value = mapValue(x);
       marker.setAttribute('class', `map-marker${!known(value) ? ' score-unknown' : ''}${x.id === state.selectedId ? ' selected' : ''}`); marker.setAttribute('fill', colourAt(value, domain) || 'var(--neutral)'); marker.setAttribute('tabindex', '0'); marker.setAttribute('role', 'button');
-      marker.setAttribute('aria-label', `${x.name}: ${measure} ${mapMeasure().format(value)}`);
+      marker.setAttribute('aria-label', `${x.name}: ${measure} ${mapFormat(value)}`);
       marker.addEventListener('mouseenter', () => tooltip(x, marker)); marker.addEventListener('mouseleave', () => { $('mapTooltip').hidden = true; });
       marker.addEventListener('focus', () => tooltip(x, marker)); marker.addEventListener('blur', () => { $('mapTooltip').hidden = true; });
       marker.addEventListener('click', () => select(x.id)); marker.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); select(x.id); } }); group.appendChild(marker);
@@ -335,7 +334,7 @@
     [0, .25, .5, .75, 1].forEach((position, index) => {
       const value = known(start) && known(end) ? start + (end - start) * position : null;
       const tick = $(`mapKey${index}`);
-      tick.textContent = known(value) ? mapMeasure().tickFormat(value) : 'No values';
+      tick.textContent = known(value) ? mapTickFormat(value) : 'No values';
       tick.style.left = `${position * 100}%`;
     });
     $('mapGradient').style.background = `linear-gradient(90deg, ${forestGradient.join(', ')})`;
@@ -375,8 +374,8 @@
       const grouped = entries.length > 1;
       const locations = entries.flatMap(entry => entry.locations).sort((a, b) => a.name.localeCompare(b.name));
       const locationNames = locations.map(location => location.name);
-      const title = grouped ? `${mapMeasureLabel()}: nearby values` : `${mapMeasureLabel()}: ${mapMeasure().format(entries[0].value)}`;
-      tooltip.innerHTML = `<strong>${escape(title)}</strong><ul>${locations.map(location => `<li><button type="button" data-location-id="${escape(location.id)}">${escape(location.name)}${grouped ? ` <small>(${escape(mapMeasure().format(mapValue(location)))})</small>` : ''}</button></li>`).join('')}</ul>`;
+      const title = grouped ? `${mapMeasureLabel()}: nearby values` : `${mapMeasureLabel()}: ${mapFormat(entries[0].value)}`;
+      tooltip.innerHTML = `<strong>${escape(title)}</strong><ul>${locations.map(location => `<li><button type="button" data-location-id="${escape(location.id)}">${escape(location.name)}${grouped ? ` <small>(${escape(mapFormat(mapValue(location)))})</small>` : ''}</button></li>`).join('')}</ul>`;
       tooltip.style.left = `${position * 100}%`;
       tooltip.style.transform = position < .16 ? 'translateX(0)' : position > .84 ? 'translateX(-100%)' : 'translateX(-50%)';
       tooltip.hidden = false;
@@ -392,7 +391,7 @@
       const mark = document.createElement('button');
       mark.type = 'button'; mark.className = 'heatmap-value-mark'; mark.style.left = `${position * 100}%`;
       const allLocations = entries.flatMap(entry => entry.locations).sort((a, b) => a.name.localeCompare(b.name));
-      const label = entries.length > 1 ? 'nearby values' : mapMeasure().format(entries[0].value);
+      const label = entries.length > 1 ? 'nearby values' : mapFormat(entries[0].value);
       mark.setAttribute('aria-label', `${mapMeasureLabel()} ${label}: ${allLocations.map(location => location.name).join(', ')}`);
       const show = () => showHeatmapTooltip(entries, position);
       mark.addEventListener('mouseenter', show);
@@ -409,7 +408,7 @@
     if (selectedEntry) {
       const selectionMark = $('mapSelectionMark');
       const showSelected = () => showHeatmapTooltip([selectedEntry], selectedPosition);
-      selectionMark.setAttribute('aria-label', `${selected.name}: ${mapMeasure().format(selectedValue)}. Show locations at this value.`);
+      selectionMark.setAttribute('aria-label', `${selected.name}: ${mapFormat(selectedValue)}. Show locations at this value.`);
       selectionMark.onmouseenter = showSelected;
       selectionMark.onmouseleave = event => { if (!$('heatmapTooltip').contains(event.relatedTarget)) hideHeatmapTooltip(); };
       selectionMark.onfocus = showSelected;
@@ -417,7 +416,7 @@
       $('mapSelectionValue').onmouseenter = showSelected;
       $('mapSelectionValue').onmouseleave = hideHeatmapTooltip;
     }
-    $('mapSelectionValue').textContent = selectedPosition === null ? '' : `${selected.name}: ${mapMeasure().format(selectedValue)}`;
+    $('mapSelectionValue').textContent = selectedPosition === null ? '' : `${selected.name}: ${mapFormat(selectedValue)}`;
   }
   function renderView() {
     const locations = filteredLocations();
@@ -434,9 +433,9 @@
     $('resultSummary').textContent = filterCount ? `Showing ${locations.length} of ${data.locations.length} · ${filterCount} ${filterCount === 1 ? 'criterion' : 'criteria'}` : `Showing all ${locations.length}`;
     renderMapKey(locations); renderMap(locations); renderDetail(); renderTable(ordered(locations)); renderSortHeadings();
   }
-  function render() { renderFilters(); renderView(); }
+  function render() { $('mapMeasure').innerHTML = groupedOptions(state.mapMeasure); renderFilters(); renderView(); }
   function select(id, scroll = false) { state.selectedId = id; renderView(); if (scroll && matchMedia('(max-width: 920px)').matches) $('details').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
-  function setTenure(tenure) { state.tenure = tenure; $('buyToggle').setAttribute('aria-pressed', tenure === 'buy'); $('rentToggle').setAttribute('aria-pressed', tenure === 'rent'); $('mapPriceMeasure').textContent = tenure === 'buy' ? 'Median flat price' : 'Typical one-bedroom rent'; render(); }
+  function setTenure(tenure) { state.tenure = tenure; $('buyToggle').setAttribute('aria-pressed', tenure === 'buy'); $('rentToggle').setAttribute('aria-pressed', tenure === 'rent'); render(); }
   $('buyToggle').addEventListener('click', () => setTenure('buy')); $('rentToggle').addEventListener('click', () => setTenure('rent'));
   $('addFilter').addEventListener('click', () => {
     const filter = { id: state.nextFilterId++, criterion: 'composite', minimum: '', maximum: '' };

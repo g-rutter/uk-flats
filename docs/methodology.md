@@ -38,18 +38,20 @@ receive their shared mean rank and remain in the same band, so band counts
 may differ slightly rather than assigning different scores to tied values. These
 are relative, candidate-set-dependent scores: a location's score can change when
 locations or observations change even if its own proxy does not.
-The map can colour locations by the composite score, the recorded-offence and
-national-transport component scores, or the directly observed value behind a
-single-measure component: median flat price or rent, public-transport
-connectivity, residential-environment index, and one-bedroom listing count. It
-can also show Ofcom residential gigabit-capable broadband availability, which is
-context only and is not a composite component.
-Marker colours use a continuous gradient whose first and last colours are the
-lowest and highest known value across the full candidate set; filters do not
-rescale it. The fixed Forest gradient changes presentation only, not scores,
-table order or missing-data handling. The heat bar shows each known location's
-position and identifies the selected location with its exact displayed value.
-Unknown values remain neutral rather than being assigned a numeric colour.
+The map and filters offer the same grouped measure catalogue. Score components
+come first: the composite plus housing cost, recorded-offence safety, local
+public transport, residential environment, one-bedroom stock and national
+transport. The remaining feeds include their underlying observations and
+contextual measures, including Ofcom residential gigabit-capable broadband
+availability, which is not a composite component.
+Marker colours use a continuous gradient across the full candidate-set range;
+filters do not rescale it. Measures where lower is preferable (cost, pollution,
+noise, journey time, changes and recorded-offence rates) reverse the palette so
+the favourable end remains green. The fixed Forest gradient changes presentation
+only, not scores, table order or missing-data handling. The heat bar shows each
+known location's position and identifies the selected location with its exact
+displayed value. Unknown values remain neutral rather than being assigned a
+numeric colour.
 
 The local public-transport score uses a fixed national reference for the DfT
 2025 release, not candidate ranks. Population-weighted OA cut-points are
