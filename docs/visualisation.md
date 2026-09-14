@@ -43,7 +43,9 @@ composite and all six component scores; housing, stock, local and national
 transport, residential-environment and recorded-offence observations; Census 2021
 built-up-area population; and the contextual Ofcom gigabit-availability percentage. The map uses a
 continuous gradient over the full candidate-set range for the selected tenure and
-measure, and filters do not change the scale. Lower-is-better measures reverse the
+measure, and filters do not change the scale. Population uses a base-10 logarithmic
+scale, with resident counts retained in labels and tooltips; other measures use a
+linear scale. Lower-is-better measures reverse the
 numeric endpoints so cost, pollution, noise, journey time, changes and
 recorded-offence rates retain the better-end colour for lower values. The fixed
 Forest gradient changes presentation only. Each visible location with a known

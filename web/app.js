@@ -35,7 +35,7 @@
     national_transport: { label: 'National-transport score', value: x => factor(x, 'national_transport'), mapFormat: value => `${show(value)} / 5` },
     housing_cost: { label: () => state.tenure === 'buy' ? 'Median flat price (£)' : 'Typical one-bedroom rent (£/month)', mapLabel: () => state.tenure === 'buy' ? 'Median flat price' : 'Typical one-bedroom rent', value: marketPrice, format: money, mapFormat: value => `${money(value)}${state.tenure === 'rent' && known(value) ? ' per month' : ''}`, mapTickFormat: money, reverse: true },
     stock: { label: () => `${state.tenure === 'buy' ? 'For-sale' : 'Rental'} one-bedroom listings`, mapLabel: 'One-bedroom listings', value: stock, format: wholeNumber, mapFormat: value => known(value) ? `${wholeNumber(value)} listings` : 'Not available', mapTickFormat: wholeNumber },
-    population: { label: 'Population (Census 2021)', mapLabel: 'Population', value: x => x.population.population, format: wholeNumber, mapFormat: value => known(value) ? `${wholeNumber(value)} residents` : 'Not available', mapTickFormat: wholeNumber },
+    population: { label: 'Population (Census 2021)', mapLabel: 'Population', value: x => x.population.population, format: wholeNumber, mapFormat: value => known(value) ? `${wholeNumber(value)} residents` : 'Not available', mapTickFormat: wholeNumber, mapScale: 'log10' },
     local_transport: { label: 'Public-transport connectivity', value: x => x.localTransport.pt_connectivity_0_100, mapFormat: value => `${oneDecimal(value)} / 100`, mapTickFormat: oneDecimal },
     local_transport_percentile: { label: 'Transport national percentile', value: x => x.localTransport.national_percentile },
     digital_connectivity: { label: 'Gigabit broadband availability (%)', mapLabel: 'Gigabit broadband availability', value: x => x.digitalConnectivity.gigabit_availability_pct, format: value => `${oneDecimal(value)}%`, mapFormat: value => `${oneDecimal(value)}% of residential premises`, mapTickFormat: value => `${oneDecimal(value)}%` },
@@ -72,9 +72,12 @@
   const mapDomain = () => { const values = data.locations.map(mapValue).filter(known).map(Number); return values.length ? [Math.min(...values), Math.max(...values)] : [null, null]; };
   const mapFormat = value => (mapMeasure().mapFormat || mapMeasure().format || compactNumber)(value);
   const mapTickFormat = value => (mapMeasure().mapTickFormat || mapMeasure().format || compactNumber)(value);
+  const mapScaleValue = value => mapMeasure().mapScale === 'log10' ? Math.log10(Number(value)) : Number(value);
+  const mapScaleInvert = value => mapMeasure().mapScale === 'log10' ? 10 ** value : value;
   const heatmapPosition = (value, domain) => {
     if (!known(value) || !known(domain[0])) return null;
-    const position = domain[0] === domain[1] ? .5 : Math.max(0, Math.min(1, (Number(value) - domain[0]) / (domain[1] - domain[0])));
+    const scaledValue = mapScaleValue(value), scaledMinimum = mapScaleValue(domain[0]), scaledMaximum = mapScaleValue(domain[1]);
+    const position = scaledMinimum === scaledMaximum ? .5 : Math.max(0, Math.min(1, (scaledValue - scaledMinimum) / (scaledMaximum - scaledMinimum)));
     return mapMeasure().reverse ? 1 - position : position;
   };
   const densityPaths = (locations, domain) => {
@@ -341,7 +344,7 @@
     const start = mapMeasure().reverse ? maximum : minimum;
     const end = mapMeasure().reverse ? minimum : maximum;
     [0, .25, .5, .75, 1].forEach((position, index) => {
-      const value = known(start) && known(end) ? start + (end - start) * position : null;
+      const value = known(start) && known(end) ? mapScaleInvert(mapScaleValue(start) + (mapScaleValue(end) - mapScaleValue(start)) * position) : null;
       const tick = $(`mapKey${index}`);
       tick.textContent = known(value) ? mapTickFormat(value) : 'No values';
       tick.style.left = `${position * 100}%`;

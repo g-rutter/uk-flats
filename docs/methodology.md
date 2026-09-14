@@ -50,8 +50,9 @@ noise, journey time, changes and recorded-offence rates) reverse the palette so
 the favourable end remains green. The fixed Forest gradient changes presentation
 only, not scores, table order or missing-data handling. The heat bar shows each
 known location's position and identifies the selected location with its exact
-displayed value. Unknown values remain neutral rather than being assigned a
-numeric colour.
+displayed value. Population uses a base-10 logarithmic colour scale so equal
+ratios occupy equal distances; its labels remain untransformed resident counts.
+Unknown values remain neutral rather than being assigned a numeric colour.
 
 The local public-transport score uses a fixed national reference for the DfT
 2025 release, not candidate ranks. Population-weighted OA cut-points are
