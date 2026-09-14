@@ -236,7 +236,13 @@ def correlation_rows(root, candidates, domain_rows):
     result = []
     for field_label, field in candidate_fields.items():
         for measure, getter in measures.items():
-            pairs = [(float(row[field]), getter(row['location_id'])) for row in candidates]
+            pairs = []
+            for row in candidates:
+                try:
+                    observed = getter(row['location_id'])
+                except (KeyError, TypeError, ValueError):
+                    continue
+                pairs.append((float(row[field]), observed))
             for method in ('pearson', 'spearman'):
                 value = correlation([pair[0] for pair in pairs], [pair[1] for pair in pairs], method)
                 result.append({'scope': 'all candidates', 'left_measure': field_label,

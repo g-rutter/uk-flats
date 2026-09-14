@@ -17,6 +17,7 @@ from release_manifest import load as load_manifest
 
 ROOT = Path(__file__).resolve().parents[1]
 GROUP_FILES = {
+    'population': 'population.csv',
     'buy': 'buy.csv', 'rent': 'rent.csv', 'market': 'market.csv',
     'localTransport': 'localTransport.csv', 'nationalTransport': 'nationalTransport.csv',
     'residentialEnvironment': 'residential_environment.csv',
@@ -24,7 +25,7 @@ GROUP_FILES = {
 }
 GROUPS = tuple(GROUP_FILES)
 INTEGER_NUMERIC = {
-    'proxyMedian', 'transactions', 'proxyMonthly', 'oneBedCount', 'londonMinutes',
+    'population', 'proxyMedian', 'transactions', 'proxyMonthly', 'oneBedCount', 'londonMinutes',
     'londonChanges', 'birminghamMinutes', 'birminghamChanges', 'score',
     'population_covered', 'population_expected', 'air_population_covered',
     'quiet_population_covered', 'green_population_covered',
@@ -42,6 +43,9 @@ FLOAT_NUMERIC = {
 }
 REQUIRED_COLUMNS = {
     'locations.csv': {'id', 'name', 'country', 'localAuthority', 'lat', 'lon'},
+    'population.csv': {'location_id', 'population', 'census_date', 'retrieval_date',
+                       'evidence_id', 'geography_code', 'geography_name',
+                       'geography_vintage', 'method_version', 'confidence', 'reason'},
     'buy.csv': {'location_id', 'proxyMedian', 'transactions', 'housingCostConfidence', 'oneBedCount', 'housingCostReason'},
     'rent.csv': {'location_id', 'proxyMonthly', 'housingCostConfidence', 'oneBedCount', 'housingCostReason'},
     'market.csv': {'location_id', 'reason'},
@@ -180,6 +184,19 @@ def compile_data(inputs):
     component_codes = defaultdict(set)
     for component in components:
         component_codes[component['location_id']].add(component['geography_code'])
+    for location in locations:
+        row = location['population']
+        ident = location['id']
+        if not row:
+            continue
+        if (row['population'] is None or row['population'] <= 0 or
+                row['census_date'] != '2021-03-21' or not row['retrieval_date'] or
+                row['evidence_id'] not in evidence_ids or
+                set(row['geography_code'].split(';')) != component_codes[ident] or
+                not row['geography_name'] or row['geography_vintage'] != 'April 2024' or
+                row['method_version'] != 'census2021-ts001-bua24-v1' or
+                row['confidence'] not in ('High', 'Medium', 'Low') or not row['reason']):
+            raise ValueError(f'population: incomplete or invalid observation for {ident}')
     for location in locations:
         row = location['residentialEnvironment']
         if not row:

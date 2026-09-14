@@ -82,3 +82,10 @@ rhyl,W06000004,W14000004,Denbighshire,,ONS YE March 2026 C1/C2/C4; exact boundar
 york,E06000014,E22000371,City of York,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
 durham,E06000047,E22000365,County Durham,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Durham uses the County Durham CSP and LA rent proxy; it is not a city-only measure.
 cheltenham,E07000078,E22000093,Cheltenham,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+newbridge,W06000018,W14000018,Caerphilly,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+burford,E07000181,E22000315,West Oxfordshire,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+rye,E07000064,E22000300,Rother,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+tenby,W06000009,W14000009,Pembrokeshire,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+chepstow,W06000021,W14000021,Monmouthshire,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+hay-on-wye,W06000023,W14000007,Powys,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.
+narberth,W06000009,W14000009,Pembrokeshire,,ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated,Source C2 LA name matches canonical localAuthority; CSP proxy for the place.

@@ -40,8 +40,8 @@ criteria; it does not remove locations from the map.
 The filter and map-colour selectors expose the same measures, grouped into score
 components followed by the underlying and contextual feeds. This includes the
 composite and all six component scores; housing, stock, local and national
-transport, residential-environment and recorded-offence observations; and the
-contextual Ofcom gigabit-availability percentage. The map uses a
+transport, residential-environment and recorded-offence observations; Census 2021
+built-up-area population; and the contextual Ofcom gigabit-availability percentage. The map uses a
 continuous gradient over the full candidate-set range for the selected tenure and
 measure, and filters do not change the scale. Lower-is-better measures reverse the
 numeric endpoints so cost, pollution, noise, journey time, changes and

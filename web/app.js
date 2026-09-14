@@ -35,6 +35,7 @@
     national_transport: { label: 'National-transport score', value: x => factor(x, 'national_transport'), mapFormat: value => `${show(value)} / 5` },
     housing_cost: { label: () => state.tenure === 'buy' ? 'Median flat price (£)' : 'Typical one-bedroom rent (£/month)', mapLabel: () => state.tenure === 'buy' ? 'Median flat price' : 'Typical one-bedroom rent', value: marketPrice, format: money, mapFormat: value => `${money(value)}${state.tenure === 'rent' && known(value) ? ' per month' : ''}`, mapTickFormat: money, reverse: true },
     stock: { label: () => `${state.tenure === 'buy' ? 'For-sale' : 'Rental'} one-bedroom listings`, mapLabel: 'One-bedroom listings', value: stock, format: wholeNumber, mapFormat: value => known(value) ? `${wholeNumber(value)} listings` : 'Not available', mapTickFormat: wholeNumber },
+    population: { label: 'Population (Census 2021)', mapLabel: 'Population', value: x => x.population.population, format: wholeNumber, mapFormat: value => known(value) ? `${wholeNumber(value)} residents` : 'Not available', mapTickFormat: wholeNumber },
     local_transport: { label: 'Public-transport connectivity', value: x => x.localTransport.pt_connectivity_0_100, mapFormat: value => `${oneDecimal(value)} / 100`, mapTickFormat: oneDecimal },
     local_transport_percentile: { label: 'Transport national percentile', value: x => x.localTransport.national_percentile },
     digital_connectivity: { label: 'Gigabit broadband availability (%)', mapLabel: 'Gigabit broadband availability', value: x => x.digitalConnectivity.gigabit_availability_pct, format: value => `${oneDecimal(value)}%`, mapFormat: value => `${oneDecimal(value)}% of residential premises`, mapTickFormat: value => `${oneDecimal(value)}%` },
@@ -59,7 +60,7 @@
   const criterionLabel = criterion => typeof criterion.label === 'function' ? criterion.label() : criterion.label;
   const metricGroups = [
     { label: 'Score components', keys: ['composite', 'housing_cost_score', 'safety', 'local_transport_score', 'residential_environment_score', 'stock_score', 'national_transport'] },
-    { label: 'Other feeds', keys: ['housing_cost', 'stock', 'local_transport', 'local_transport_percentile', 'digital_connectivity', 'residential_environment', 'residential_environment_percentile', 'air_burden', 'no2', 'pm25', 'pm10', 'noise', 'green_access', 'green_area', 'epc', 'london', 'london_changes', 'birmingham', 'birmingham_changes', 'violence', 'sexual', 'transactions'] }
+    { label: 'Other feeds', keys: ['population', 'housing_cost', 'stock', 'local_transport', 'local_transport_percentile', 'digital_connectivity', 'residential_environment', 'residential_environment_percentile', 'air_burden', 'no2', 'pm25', 'pm10', 'noise', 'green_access', 'green_area', 'epc', 'london', 'london_changes', 'birmingham', 'birmingham_changes', 'violence', 'sexual', 'transactions'] }
   ];
   const groupedOptions = selected => metricGroups.map(group => `<optgroup label="${escape(group.label)}">${group.keys.map(key => `<option value="${key}"${key === selected ? ' selected' : ''}>${escape(criterionLabel(filterCriteria[key]))}</option>`).join('')}</optgroup>`).join('');
   const mapMeasure = () => filterCriteria[state.mapMeasure];
@@ -102,6 +103,7 @@
   const localTransportDefinition = 'DfT modelled public-transport opportunity to reach employment, services and social engagements. The settlement value is a Census-population-weighted mean of Output Area scores. It does not measure fares, crowding, cancellations, reliability, step-free access or travel from a particular home.';
   const digitalConnectivityDefinition = 'Ofcom provider-reported share of residential premises with gigabit-capable fixed-broadband availability in January 2025, aggregated across the reviewed built-up area. Availability is not observed or guaranteed speed, take-up, price, reliability, latency or in-home Wi-Fi performance. This field does not enter the composite score.';
   const environmentDefinition = 'Population-weighted residential surroundings across the reviewed built-up area: cleaner air, less modelled transport noise, access to eligible public green space and housing energy quality. It is not a street, building, safety, beauty or general deprivation measure.';
+  const populationDefinition = 'Census 2021 usual residents in the reviewed April 2024 built-up area. This represents the continuously built-up settlement, not the wider local authority, and is a Census count rather than a current-year estimate.';
   const medianFlatPriceDefinition = 'Median completed flat and maisonette price for sales dated 1 July 2024 to 30 June 2026. It covers all flat sizes, not just one-bedroom flats; recent transactions can be incomplete because registration lags.';
   const project = x => [((x.lon - MAP.minLon) / (MAP.maxLon - MAP.minLon)) * MAP.width, MAP.height - ((x.lat - MAP.minLat) / (MAP.maxLat - MAP.minLat)) * MAP.height];
   const hexToRgb = hex => hex.match(/\w\w/g).map(value => parseInt(value, 16));
@@ -229,10 +231,15 @@
     if (digitalEvidence?.url && !list.some(source => source.url === digitalEvidence.url)) {
       list.push({ topic: 'digitalConnectivity', url: digitalEvidence.url });
     }
-    const topic = value => ({ buy: 'Buying', rent: 'Renting', market: 'Market', localTransport: 'Public-transport connectivity', digitalConnectivity: 'Digital connectivity', nationalTransport: 'Rail connections', environment: 'Residential environment' }[value] || value);
+    const populationEvidence = evidenceById.get(x.population.evidence_id);
+    if (populationEvidence?.url && !list.some(source => source.url === populationEvidence.url)) {
+      list.push({ topic: 'population', url: populationEvidence.url });
+    }
+    const topic = value => ({ population: 'Population', buy: 'Buying', rent: 'Renting', market: 'Market', localTransport: 'Public-transport connectivity', digitalConnectivity: 'Digital connectivity', nationalTransport: 'Rail connections', environment: 'Residential environment' }[value] || value);
     const label = source => {
       const url = source.url;
       if (url.includes('price-paid-data-downloads')) return 'HM Land Registry price-paid data';
+      if (url.includes('census2021-ts001')) return 'ONS Census 2021 usual-resident data';
       if (url.includes('priceindexofprivaterentsukmonthlypricestatistics')) return 'ONS private-rent statistics';
       if (url.includes('privaterentandhousepricesuk')) return 'ONS rent and house-price bulletin';
       if (url.includes('property-for-sale')) return 'Rightmove one-bedroom flats for sale';
@@ -287,6 +294,7 @@
     const environment = x.residentialEnvironment;
     const digital = x.digitalConnectivity;
     const localRows = [
+      row('Population', known(x.population.population) ? `${wholeNumber(x.population.population)} residents` : 'Not available', `${populationDefinition} Census date: 21 March 2021. Geography: ${show(x.population.geography_name)}.`),
       row('Public-transport connectivity', known(x.localTransport.pt_connectivity_0_100) ? `${oneDecimal(x.localTransport.pt_connectivity_0_100)} out of 100` : 'Not available', `${localTransportDefinition} Source period: ${show(x.localTransport.source_period)}.`),
       row('Transport national percentile', known(x.localTransport.national_percentile) ? `${oneDecimal(x.localTransport.national_percentile)} out of 100` : 'Not available', 'Compared with the Census-population-weighted distribution of all England and Wales Output Areas in the same DfT release; higher is better.'),
       row('Gigabit broadband availability', known(digital.gigabit_availability_pct) ? `${oneDecimal(digital.gigabit_availability_pct)}% of residential premises` : 'Not available', `${digitalConnectivityDefinition} Based on ${wholeNumber(digital.gigabit_available_premises)} of ${wholeNumber(digital.residential_premises)} residential premises; ${oneDecimal(known(digital.residential_premises) && digital.residential_premises ? 100 * digital.matched_residential_premises / digital.residential_premises : null)}% were matched to provider records. Source period: ${show(digital.source_period)}.`),

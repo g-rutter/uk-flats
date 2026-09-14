@@ -1,6 +1,6 @@
 # Broad comparison methodology
 
-Keep all 83 candidates in view. Broad price, stock, transport and residential-environment
+Keep all 90 candidates in view. Broad price, stock, transport, population and residential-environment
 data are in scope; building, subarea and listing research are not. Buying and
 renting remain separate.
 
@@ -42,7 +42,7 @@ The map and filters offer the same grouped measure catalogue. Score components
 come first: the composite plus housing cost, recorded-offence safety, local
 public transport, residential environment, one-bedroom stock and national
 transport. The remaining feeds include their underlying observations and
-contextual measures, including Ofcom residential gigabit-capable broadband
+contextual measures, including Census 2021 built-up-area population and Ofcom residential gigabit-capable broadband
 availability, which is not a composite component.
 Marker colours use a continuous gradient across the full candidate-set range;
 filters do not rescale it. Measures where lower is preferable (cost, pollution,
@@ -76,6 +76,10 @@ dated archive and geography/coverage review supports comparable CSP rates.
   Their exact retrieval and resolver evidence vary by observation; consult the
   release audit and evidence catalogue. Bournemouth–Poole sums two named portal
   regions and may not exactly match the broad comparison geography.
+- Population: Census 2021 usual residents summed across the Output Areas assigned
+  to each reviewed April 2024 BUA. This is a consistent settlement count, not a
+  current-year estimate or local-authority population. Census disclosure control
+  can slightly perturb counts.
 - Local public-transport connectivity: DfT's modelled 0--100 scheduled opportunity
   to reach employment, services and social engagements, aggregated from 2021 OAs
   to reviewed April 2024 built-up areas using Census 2021 population. The retained
@@ -103,7 +107,7 @@ dated archive and geography/coverage review supports comparable CSP rates.
   63.209. It is not a street, property, beauty, safety or general deprivation
   assessment. The browser shows the raw observations and their separate periods.
 - Recorded offences: ONS CSP violence-against-the-person and sexual-offence rates
-  per 1,000 mid-2024 residents for April 2025–March 2026 are shown for all 83
+  per 1,000 mid-2024 residents for April 2025–March 2026 are shown for all 90
   locations and are the limited recorded-offence component of the composite score.
   They are not direct measures of safety.
   Kettering and Northampton use their

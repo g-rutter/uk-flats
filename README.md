@@ -2,7 +2,7 @@
 
 **[Open the live web UI](https://g-rutter.github.io/uk-flats/)**
 
-A reproducible broad comparison of 83 England and Wales locations for buying or
+A reproducible broad comparison of 90 England and Wales locations for buying or
 renting a one-bedroom flat. It does not cover neighbourhoods, individual
 buildings or listings.
 
@@ -35,9 +35,9 @@ python3 -m venv .venv
 .venv/bin/python scripts/review_residential_environment.py
 ```
 
-These commands verify the retained raw manifests and regenerate the 83-row
+These commands verify the retained raw manifests and regenerate the 90-row
 candidate input, versioned release row, national audit covering 7,070 Office for
-National Statistics (ONS) Built-up Areas (BUAs), and the 83-row England–Wales
+National Statistics (ONS) Built-up Areas (BUAs), and the 90-row England–Wales
 compatibility stress test plus sensitivity, outlier, correlation, country-domain
 and boundary diagnostics. The standard build validates and consumes the resulting
 canonical input without requiring GIS libraries.
@@ -77,6 +77,11 @@ existing local artifact differs from its committed checksum.
    gaps. Source updates require a documented acquisition script and raw snapshot;
    the handover cannot regenerate upstream statistics.
 
+Population is regenerated from the retained Census 2021 TS001 Output Area counts
+and official April 2024 BUA best-fit lookup with
+`python3 scripts/prepare_population.py`. Every location must have a reviewed BUA
+mapping and complete Census coverage.
+
 ## Current status
 
 Every location uses the same canonical fields and composite method. Observation
@@ -84,8 +89,8 @@ provenance is assessed per location and topic in the generated release audit:
 some non-crime observations still need retained row-level artifacts, while
 others are reproducible from dated releases. This limitation is evidence context,
 not a separate kind of location. Local public-transport connectivity is complete
-for all 83 locations. Residential environment replaces the former editorial
-condition factor and has full population coverage for all 83 candidates and 7,070
+for all 90 locations. Residential environment replaces the former editorial
+condition factor and has full population coverage for all 90 candidates and 7,070
 national-reference BUAs. Its quiet and Energy Performance Certificate (EPC)
 pillars use explicit within-country percentile calibration to make the mixed
 published measures approximately comparable; raw values and limitations remain

@@ -52,7 +52,7 @@ sum(OA DfT value × OA Census 2021 usual residents)
 
 Every component BUA must have complete expected population coverage. The
 preparer stops instead of treating a missing OA as zero. The current release
-covers 100% of the expected population for all 83 locations. The canonical mean
+covers 100% of the expected population for all 90 locations. The canonical mean
 retains four decimal places for score validation and is displayed to one decimal
 place; calculations use the unrounded OA values.
 

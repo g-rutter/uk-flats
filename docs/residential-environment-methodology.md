@@ -109,7 +109,7 @@ Covered and expected 2021 population are recorded independently for every
 pillar. Release requires equality for every pillar and candidate component.
 The v3 preparation covers 177,643 populated OA origins in 7,070 BUAs without an
 unmatched green origin. All four pillars cover the full expected population of
-all 83 candidates. The release CSV retains source-feature, duplicate, repair,
+all 90 candidates. The release CSV retains source-feature, duplicate, repair,
 union, predicate and coverage audit counts. The national audit records the
 standardisation country used for every BUA.
 

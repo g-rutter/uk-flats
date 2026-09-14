@@ -5,9 +5,10 @@ from pathlib import Path
 
 from csv_io import write_csv
 
-TOPICS = ('buy', 'rent', 'market', 'localTransport', 'nationalTransport',
+TOPICS = ('population', 'buy', 'rent', 'market', 'localTransport', 'nationalTransport',
           'residentialEnvironment', 'digitalConnectivity', 'crime')
 FILES = {
+    'population': 'population.csv',
     'residentialEnvironment': 'residential_environment.csv',
     'digitalConnectivity': 'digital_connectivity.csv',
 }
@@ -26,6 +27,7 @@ def metric_present(topic, row):
     if not row:
         return False
     fields = {
+        'population': ('population',),
         'buy': ('proxyMedian', 'transactions', 'oneBedCount'),
         'rent': ('proxyMonthly', 'oneBedCount'),
         'market': ('reason',),
@@ -64,7 +66,21 @@ def audit(inputs):
                 artifact_hash = ''
                 period = ''
                 geography = location['localAuthority']
-                if topic == 'market':
+                if topic == 'population' and present:
+                    from release_manifest import load
+                    release = Path(inputs).parent / 'raw/releases/2026-09-09-local-transport'
+                    try:
+                        manifest = load(release)
+                        artifact_hash = ';'.join((manifest['census2021-ts001.zip']['sha256'],
+                                                  manifest['oa21_bua24_best_fit.csv']['sha256']))
+                        status = 'ready'
+                        period = row['census_date']
+                        geography = row['geography_code']
+                        reason = ''
+                    except (OSError, ValueError, KeyError):
+                        status = 'review-required'
+                        reason = 'Canonical observation does not match the hash-verified Census and BUA release'
+                elif topic == 'market':
                     try:
                         from prepare_market_stock import retained_observation
                         observation = retained_observation(ident)

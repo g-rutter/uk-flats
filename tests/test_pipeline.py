@@ -16,6 +16,7 @@ from crime_residuals import audit as audit_residuals
 from crime_outliers import audit as audit_outliers
 from composite import housing_cost_scores, compile_composite, weighted_score
 from prepare_locations import prepare
+from prepare_population import prepare as prepare_population
 from prepare_national_transport import prepare as prepare_national_transport
 from prepare_local_transport import score_for, weighted_quantile_cutpoints
 from prepare_digital_connectivity import read_ofcom
@@ -33,6 +34,22 @@ from rehydrate_raw import rehydrate
 
 
 class PipelineTests(unittest.TestCase):
+    def test_population_is_reproducible_for_every_current_location(self):
+        release = ROOT / 'data/raw/releases/2026-09-09-local-transport'
+        rows = prepare_population(
+            release,
+            ROOT / 'data/inputs/locations.csv',
+            ROOT / 'data/inputs/location_geographies.csv',
+            ROOT / 'data/inputs/location_geography_components.csv',
+        )
+        with (ROOT / 'data/inputs/population.csv').open(newline='', encoding='utf-8') as source:
+            canonical = list(csv.DictReader(source))
+        self.assertEqual(rows, canonical)
+        with (ROOT / 'data/inputs/locations.csv').open(newline='', encoding='utf-8') as source:
+            location_count = sum(1 for _ in csv.DictReader(source))
+        self.assertEqual(len(rows), location_count)
+        self.assertTrue(all(int(row['population']) > 0 for row in rows))
+
     def test_national_transport_queue_blocks_unmapped_and_excludes_same_endpoint(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -233,7 +250,9 @@ class PipelineTests(unittest.TestCase):
         for tenure in ('buy', 'rent'):
             housing_cost_bands = payload['composite']['housing_cost_bands'][tenure]
             self.assertEqual(set(housing_cost_bands), {str(score) for score in housing_scores})
-            self.assertEqual(sum(band['count'] for band in housing_cost_bands.values()), location_count)
+            known_count = sum(location[tenure].get('proxyMedian' if tenure == 'buy' else 'proxyMonthly') is not None
+                              for location in payload['locations'])
+            self.assertEqual(sum(band['count'] for band in housing_cost_bands.values()), known_count)
             self.assertTrue(all(housing_cost_bands[str(score)]['count'] for score in housing_scores))
         self.assertTrue(any(payload['composite']['results'][location['id']]['tenures']['buy']['score'] is not None
                             for location in payload['locations']))
@@ -249,10 +268,13 @@ class PipelineTests(unittest.TestCase):
                 self.assertEqual(band_by_score[result['score']], result['band'])
         with (ROOT / 'data/derived/release_audit.csv').open(newline='') as source:
             release_rows = list(csv.DictReader(source))
-        self.assertEqual(len(release_rows), location_count * 8)
+        self.assertEqual(len(release_rows), location_count * 9)
+        self.assertEqual({row['status'] for row in release_rows if row['topic'] == 'population'}, {'ready'})
         self.assertEqual({row['status'] for row in release_rows if row['topic'] == 'crime'}, {'ready'})
         self.assertEqual({row['status'] for row in release_rows if row['topic'] == 'digitalConnectivity'}, {'ready'})
-        self.assertEqual({row['status'] for row in release_rows if row['topic'] == 'buy'}, {'review-required'})
+        self.assertEqual(sum(location['population']['population'] > 0 for location in payload['locations']), location_count)
+        buy_statuses = {row['status'] for row in release_rows if row['topic'] == 'buy'}
+        self.assertEqual(buy_statuses, {'review-required', 'missing'})
 
     def test_registry_rejects_unretained_or_unresolved_accepted_mapping(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -316,7 +338,7 @@ class PipelineTests(unittest.TestCase):
             with (inputs / 'locations.csv').open('a', newline='') as target:
                 csv.writer(target).writerow(['test-place', 'Test Place', 'England', '', '', ''])
             rows = [row for row in release_audit(inputs) if row['location_id'] == 'test-place']
-            self.assertEqual(len(rows), 8)
+            self.assertEqual(len(rows), 9)
             self.assertTrue(all(row['status'] == 'missing' for row in rows))
 
     def test_validation_probe_is_predeclared_and_records_completed_quantitative_results(self):
@@ -417,7 +439,7 @@ class PipelineTests(unittest.TestCase):
         data = compile_data(ROOT / 'data/inputs')
         transport = [row['localTransport'] for row in data['locations']]
         self.assertTrue(all(row['population_covered'] == row['population_expected'] for row in transport))
-        self.assertEqual({row['score'] for row in transport}, {2, 3, 4, 5})
+        self.assertEqual({row['score'] for row in transport}, {1, 2, 3, 4, 5})
         self.assertTrue(all('assessment' not in row for row in transport))
 
     def test_local_transport_rejects_partial_population_coverage(self):

@@ -129,9 +129,11 @@ class ResidentialEnvironmentTests(unittest.TestCase):
         outliers = outputs['residential_environment_outlier_audit.csv']
         correlations = outputs['residential_environment_correlation_audit.csv']
         domains = outputs['residential_environment_country_domain_audit.csv']
-        self.assertEqual(len(sensitivity), 83 * 12)
+        with (ROOT / 'data/inputs/locations.csv').open(newline='', encoding='utf-8') as source:
+            candidate_count = sum(1 for _ in csv.DictReader(source))
+        self.assertEqual(len(sensitivity), candidate_count * 12)
         self.assertEqual(len(outliers), 5 * 2 * 5)
-        self.assertEqual(len(domains), 83)
+        self.assertEqual(len(domains), candidate_count)
         self.assertTrue(all(row['coverage_complete'] == 'true' for row in domains))
         self.assertFalse(any(row['changes_more_than_one_band'] == 'true'
                              for row in sensitivity if not row['scenario'].startswith('leave_out_')))

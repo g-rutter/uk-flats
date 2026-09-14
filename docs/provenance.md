@@ -39,6 +39,7 @@ signed decimal degrees. Original camelCase names are retained for traceability.
 | File | Key and contents | Historical source context |
 | --- | --- | --- |
 | locations.csv | `id`; name, country, localAuthority, lat, lon | JS top-level identity; GC01/GC02 |
+| population.csv | `location_id`; Census usual residents, date, retrieval, evidence, reviewed BUA geography, method, confidence and reason | Reproducible Census 2021 TS001 OA counts aggregated through the official April 2024 OA-to-BUA best-fit lookup |
 | buy.csv | `location_id`; proxyMedian (GBP), transactions, oneBedCount, housingCostConfidence/Reason | JS buy; HC-BUY-PPD-2024-26; counts use MT-RM-SEARCH-20260905 |
 | rent.csv | `location_id`; proxyMonthly (GBP/month), oneBedCount, housingCostConfidence/Reason | JS rent; HC-RENT-PIPR-2026-07; counts use MT-RM-SEARCH-20260905 |
 | market.csv | `location_id`; reason | JS market; MT-RM-SEARCH-20260905 / MT-RM-LOS-20260905 |
@@ -47,7 +48,7 @@ signed decimal degrees. Original camelCase names are retained for traceability.
 | location_geography_components.csv | `location_id`, BUA code and name | One row per component; makes Bournemouth--Poole and Torbay composites explicit |
 | local_transport_release.csv | release/method IDs, exact source field, population/geography vintages, national population/OA count, range, quintile thresholds and boundary rule | Versioned national reference distribution for local transport |
 | nationalTransport.csv | `location_id`; londonMinutes/Changes, birminghamMinutes/Changes, confidence and reason | JS nationalTransport; TR01 and per-location transport links |
-| transport_stations.csv | `location_id`; reviewed origin CRS, name, rationale, confidence and evidence IDs | National-transport acquisition workstream; contains reviewed mappings for all 83 screen locations |
+| transport_stations.csv | `location_id`; reviewed origin CRS, name, rationale, confidence and evidence IDs | National-transport acquisition workstream; contains reviewed mappings for the 83 locations present in its accepted release; newer locations remain blank |
 | transport_route_observations.csv | one review-only, manually transcribed route observation per location/destination, with planner query, timed itinerary and capture reference | National-transport acquisition workstream; not a canonical replacement until a complete release is approved |
 | residential_environment.csv | `location_id`; four raw pillar observations and percentiles, combined index/national percentile/score, separate periods and evidence IDs, BUA components, per-pillar covered population, expected population, method, confidence and reason | Live v3 factor input; quiet and EPC percentiles are calibrated within country |
 | residential_environment_release.csv | release/method IDs, national reference count/population and quintile thresholds, equality rule, weights, compatibility transforms, air fallback count and OS Open Greenspace geometry/coverage audit | Versioned `residential-environment-bua24-v3-country-calibrated` national reference and preparation controls |
@@ -63,6 +64,12 @@ national thresholds. Residential environment additionally requires its equal
 four-pillar index, evidence IDs, periods and complete populations to reproduce.
 Reasons remain explanatory and are never parsed to derive a score.
 Crime references remain for provenance but are hidden from the active browser view.
+
+Population is not inherited evidence. `prepare_population.py` verifies the hashes
+of the retained Nomis Census 2021 TS001 ZIP and ONS OA-to-April-2024-BUA best-fit
+lookup, sums usual residents for every reviewed BUA component, and requires every
+current location to have complete positive coverage. The resulting settlement
+count is contextual and does not enter the composite score.
 
 Initial inputs remove `safety` and fields containing score, unknowns, weakness or
 composite. Removed values remain archived. Active inputs are maintained separately;
@@ -133,7 +140,7 @@ the selected country-calibrated method. `review_residential_environment.py`
 generates the retained sensitivity, outlier, correlation and official
 country-domain/boundary audits. The national audit
 contains 7,070 complete reference BUAs; all four pillars cover the full expected
-population of all 83 candidates. See [residential-environment methodology](residential-environment-methodology.md)
+population of all 90 candidates. See [residential-environment methodology](residential-environment-methodology.md)
 and the [compatibility review](residential-environment-compatibility.md).
 
 ## Release controls

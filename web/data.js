@@ -8,6 +8,18 @@ window.FLATS_DATA = {
       "localAuthority": "Barnsley",
       "lat": 53.553523,
       "lon": -1.482593,
+      "population": {
+        "population": 71394,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008268",
+        "geography_name": "Barnsley",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Barnsley; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 100000,
         "transactions": 214,
@@ -106,6 +118,18 @@ window.FLATS_DATA = {
       "localAuthority": "Birmingham",
       "lat": 52.479284,
       "lon": -1.902941,
+      "population": {
+        "population": 1119786,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63010038",
+        "geography_name": "Birmingham",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Birmingham; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 150000,
         "transactions": 3183,
@@ -204,6 +228,18 @@ window.FLATS_DATA = {
       "localAuthority": "Blackburn with Darwen",
       "lat": 53.750073,
       "lon": -2.481528,
+      "population": {
+        "population": 124958,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007969",
+        "geography_name": "Blackburn (Blackburn with Darwen)",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Blackburn (Blackburn with Darwen); Reviewed official BUA name corresponds to the screen location Blackburn."
+      },
       "buy": {
         "proxyMedian": 110000,
         "transactions": 141,
@@ -302,6 +338,18 @@ window.FLATS_DATA = {
       "localAuthority": "Blackpool",
       "lat": 53.82086,
       "lon": -3.051542,
+      "population": {
+        "population": 149087,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007890",
+        "geography_name": "Blackpool",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Blackpool; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 80000,
         "transactions": 297,
@@ -400,6 +448,18 @@ window.FLATS_DATA = {
       "localAuthority": "Bolton",
       "lat": 53.577709,
       "lon": -2.431041,
+      "population": {
+        "population": 184618,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008201",
+        "geography_name": "Bolton (Bolton)",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Bolton (Bolton); Reviewed official BUA name corresponds to the screen location Bolton."
+      },
       "buy": {
         "proxyMedian": 114000,
         "transactions": 493,
@@ -498,6 +558,18 @@ window.FLATS_DATA = {
       "localAuthority": "Bradford",
       "lat": 53.790778,
       "lon": -1.754561,
+      "population": {
+        "population": 333968,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007920",
+        "geography_name": "Bradford",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Bradford; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 99000,
         "transactions": 453,
@@ -596,6 +668,18 @@ window.FLATS_DATA = {
       "localAuthority": "Burnley",
       "lat": 53.787517,
       "lon": -2.24439,
+      "population": {
+        "population": 78266,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007907",
+        "geography_name": "Burnley",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Burnley; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 88625,
         "transactions": 98,
@@ -694,6 +778,18 @@ window.FLATS_DATA = {
       "localAuthority": "East Staffordshire",
       "lat": 52.807376,
       "lon": -1.644791,
+      "population": {
+        "population": 76031,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63009360",
+        "geography_name": "Burton upon Trent",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Burton upon Trent; Reviewed official BUA name corresponds to the screen location Burton-on-Trent."
+      },
       "buy": {
         "proxyMedian": 104000,
         "transactions": 147,
@@ -792,6 +888,18 @@ window.FLATS_DATA = {
       "localAuthority": "Cardiff",
       "lat": 51.480005,
       "lon": -3.176855,
+      "population": {
+        "population": 347880,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "W45001208",
+        "geography_name": "Cardiff",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Cardiff; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 165000,
         "transactions": 1883,
@@ -890,6 +998,18 @@ window.FLATS_DATA = {
       "localAuthority": "Cheshire West and Chester",
       "lat": 53.190204,
       "lon": -2.891644,
+      "population": {
+        "population": 92756,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "K08000011",
+        "geography_name": "Chester",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Chester; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 165000,
         "transactions": 570,
@@ -988,6 +1108,18 @@ window.FLATS_DATA = {
       "localAuthority": "Chesterfield",
       "lat": 53.23633,
       "lon": -1.429206,
+      "population": {
+        "population": 76394,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008717",
+        "geography_name": "Chesterfield",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Chesterfield; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 115500,
         "transactions": 204,
@@ -1086,6 +1218,18 @@ window.FLATS_DATA = {
       "localAuthority": "Coventry",
       "lat": 52.407707,
       "lon": -1.506857,
+      "population": {
+        "population": 343623,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63010120",
+        "geography_name": "Coventry",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Coventry; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 135000,
         "transactions": 830,
@@ -1184,6 +1328,18 @@ window.FLATS_DATA = {
       "localAuthority": "Darlington",
       "lat": 54.523274,
       "lon": -1.553611,
+      "population": {
+        "population": 93058,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007428",
+        "geography_name": "Darlington",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Darlington; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 95000,
         "transactions": 220,
@@ -1282,6 +1438,18 @@ window.FLATS_DATA = {
       "localAuthority": "Derby",
       "lat": 52.924693,
       "lon": -1.478054,
+      "population": {
+        "population": 275561,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63009183",
+        "geography_name": "Derby",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Derby; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 125000,
         "transactions": 532,
@@ -1380,6 +1548,18 @@ window.FLATS_DATA = {
       "localAuthority": "Doncaster",
       "lat": 53.522723,
       "lon": -1.132352,
+      "population": {
+        "population": 87094,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008314",
+        "geography_name": "Doncaster",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Doncaster; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 108000,
         "transactions": 281,
@@ -1478,6 +1658,18 @@ window.FLATS_DATA = {
       "localAuthority": "Gateshead",
       "lat": 54.959914,
       "lon": -1.604945,
+      "population": {
+        "population": 114825,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007200",
+        "geography_name": "Gateshead",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Gateshead; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 101000,
         "transactions": 597,
@@ -1576,6 +1768,18 @@ window.FLATS_DATA = {
       "localAuthority": "Gloucester",
       "lat": 51.86455,
       "lon": -2.246934,
+      "population": {
+        "population": 118562,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63011389",
+        "geography_name": "Gloucester",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Gloucester; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 145000,
         "transactions": 681,
@@ -1674,6 +1878,18 @@ window.FLATS_DATA = {
       "localAuthority": "Calderdale",
       "lat": 53.722827,
       "lon": -1.860176,
+      "population": {
+        "population": 89394,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007966",
+        "geography_name": "Halifax",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Halifax; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 127500,
         "transactions": 216,
@@ -1772,6 +1988,18 @@ window.FLATS_DATA = {
       "localAuthority": "Hartlepool",
       "lat": 54.685388,
       "lon": -1.212911,
+      "population": {
+        "population": 88001,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007337",
+        "geography_name": "Hartlepool",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Hartlepool; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 83014,
         "transactions": 106,
@@ -1870,6 +2098,18 @@ window.FLATS_DATA = {
       "localAuthority": "Kirklees",
       "lat": 53.644281,
       "lon": -1.782201,
+      "population": {
+        "population": 140930,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008114",
+        "geography_name": "Huddersfield",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Huddersfield; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 110000,
         "transactions": 288,
@@ -1968,6 +2208,18 @@ window.FLATS_DATA = {
       "localAuthority": "Kingston upon Hull, City of",
       "lat": 53.744587,
       "lon": -0.332576,
+      "population": {
+        "population": 270816,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007930",
+        "geography_name": "Kingston upon Hull",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Kingston upon Hull; Reviewed official BUA name corresponds to the screen location Hull (Kingston upon Hull)."
+      },
       "buy": {
         "proxyMedian": 95000,
         "transactions": 406,
@@ -2066,6 +2318,18 @@ window.FLATS_DATA = {
       "localAuthority": "Ipswich",
       "lat": 52.057066,
       "lon": 1.152832,
+      "population": {
+        "population": 151566,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63010852",
+        "geography_name": "Ipswich",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Ipswich; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 137000,
         "transactions": 545,
@@ -2164,6 +2428,18 @@ window.FLATS_DATA = {
       "localAuthority": "North Northamptonshire",
       "lat": 52.399947,
       "lon": -0.728307,
+      "population": {
+        "population": 63149,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63010129",
+        "geography_name": "Kettering",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Kettering; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 129475,
         "transactions": 210,
@@ -2262,6 +2538,18 @@ window.FLATS_DATA = {
       "localAuthority": "Lancaster",
       "lat": 54.050069,
       "lon": -2.803161,
+      "population": {
+        "population": 52646,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007656",
+        "geography_name": "Lancaster",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Lancaster; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 130000,
         "transactions": 231,
@@ -2360,6 +2648,18 @@ window.FLATS_DATA = {
       "localAuthority": "Leeds",
       "lat": 53.800703,
       "lon": -1.550264,
+      "population": {
+        "population": 536262,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007883",
+        "geography_name": "Leeds (Leeds)",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Leeds (Leeds); Reviewed official BUA name corresponds to the screen location Leeds."
+      },
       "buy": {
         "proxyMedian": 155000,
         "transactions": 2152,
@@ -2458,6 +2758,18 @@ window.FLATS_DATA = {
       "localAuthority": "Leicester",
       "lat": 52.633614,
       "lon": -1.133462,
+      "population": {
+        "population": 406331,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63009743",
+        "geography_name": "Leicester",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Leicester; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 130000,
         "transactions": 803,
@@ -2556,6 +2868,18 @@ window.FLATS_DATA = {
       "localAuthority": "Lincoln",
       "lat": 53.234841,
       "lon": -0.53844,
+      "population": {
+        "population": 104553,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008729",
+        "geography_name": "Lincoln",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Lincoln; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 118000,
         "transactions": 285,
@@ -2654,6 +2978,18 @@ window.FLATS_DATA = {
       "localAuthority": "Liverpool",
       "lat": 53.40935,
       "lon": -2.978495,
+      "population": {
+        "population": 506768,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008477",
+        "geography_name": "Liverpool",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Liverpool; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 145000,
         "transactions": 2356,
@@ -2752,6 +3088,18 @@ window.FLATS_DATA = {
       "localAuthority": "Charnwood",
       "lat": 52.7721,
       "lon": -1.206164,
+      "population": {
+        "population": 64299,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63009412",
+        "geography_name": "Loughborough",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Loughborough; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 132000,
         "transactions": 206,
@@ -2850,6 +3198,18 @@ window.FLATS_DATA = {
       "localAuthority": "Manchester",
       "lat": 53.47894,
       "lon": -2.245278,
+      "population": {
+        "population": 470736,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008401",
+        "geography_name": "Manchester",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Manchester; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 192500,
         "transactions": 4478,
@@ -2948,6 +3308,18 @@ window.FLATS_DATA = {
       "localAuthority": "Merthyr Tydfil",
       "lat": 51.745911,
       "lon": -3.378347,
+      "population": {
+        "population": 40817,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "W45001012",
+        "geography_name": "Merthyr Tydfil",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Merthyr Tydfil; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 66248,
         "transactions": 22,
@@ -3046,6 +3418,18 @@ window.FLATS_DATA = {
       "localAuthority": "Middlesbrough",
       "lat": 54.576431,
       "lon": -1.236825,
+      "population": {
+        "population": 147862,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007408",
+        "geography_name": "Middlesbrough",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Middlesbrough; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 85000,
         "transactions": 183,
@@ -3144,6 +3528,18 @@ window.FLATS_DATA = {
       "localAuthority": "Neath Port Talbot",
       "lat": 51.664226,
       "lon": -3.803389,
+      "population": {
+        "population": 40738,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "W45001091",
+        "geography_name": "Neath",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Neath; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 91250,
         "transactions": 42,
@@ -3242,6 +3638,18 @@ window.FLATS_DATA = {
       "localAuthority": "Newcastle upon Tyne",
       "lat": 54.978011,
       "lon": -1.610189,
+      "population": {
+        "population": 285852,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007169",
+        "geography_name": "Newcastle upon Tyne",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Newcastle upon Tyne; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 139950,
         "transactions": 1733,
@@ -3340,6 +3748,18 @@ window.FLATS_DATA = {
       "localAuthority": "Newport",
       "lat": 51.587902,
       "lon": -2.996742,
+      "population": {
+        "population": 130882,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "W45001174",
+        "geography_name": "Newport (Newport)",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Newport (Newport); Reviewed official BUA name corresponds to the screen location Newport."
+      },
       "buy": {
         "proxyMedian": 128000,
         "transactions": 541,
@@ -3438,6 +3858,18 @@ window.FLATS_DATA = {
       "localAuthority": "West Northamptonshire",
       "lat": 52.237858,
       "lon": -0.895046,
+      "population": {
+        "population": 243883,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63010463",
+        "geography_name": "Northampton",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Northampton; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 150000,
         "transactions": 717,
@@ -3536,6 +3968,18 @@ window.FLATS_DATA = {
       "localAuthority": "Norwich",
       "lat": 52.628869,
       "lon": 1.293307,
+      "population": {
+        "population": 200492,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63009624",
+        "geography_name": "Norwich",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Norwich; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 155000,
         "transactions": 1272,
@@ -3634,6 +4078,18 @@ window.FLATS_DATA = {
       "localAuthority": "Nottingham",
       "lat": 52.956196,
       "lon": -1.151204,
+      "population": {
+        "population": 299786,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63009088",
+        "geography_name": "Nottingham",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Nottingham; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 140000,
         "transactions": 1524,
@@ -3732,6 +4188,18 @@ window.FLATS_DATA = {
       "localAuthority": "Peterborough",
       "lat": 52.572509,
       "lon": -0.242498,
+      "population": {
+        "population": 190592,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63009810",
+        "geography_name": "Peterborough",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Peterborough; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 129000,
         "transactions": 420,
@@ -3830,6 +4298,18 @@ window.FLATS_DATA = {
       "localAuthority": "Plymouth",
       "lat": 50.370015,
       "lon": -4.142068,
+      "population": {
+        "population": 266970,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63014082",
+        "geography_name": "Plymouth",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Plymouth; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 138500,
         "transactions": 1343,
@@ -3928,6 +4408,18 @@ window.FLATS_DATA = {
       "localAuthority": "Portsmouth",
       "lat": 50.79685,
       "lon": -1.09117,
+      "population": {
+        "population": 223324,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63013748",
+        "geography_name": "Portsmouth",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Portsmouth; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 165000,
         "transactions": 541,
@@ -4026,6 +4518,18 @@ window.FLATS_DATA = {
       "localAuthority": "Preston",
       "lat": 53.760554,
       "lon": -2.698528,
+      "population": {
+        "population": 94502,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007926",
+        "geography_name": "Preston (Preston)",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Preston (Preston); Reviewed official BUA name corresponds to the screen location Preston."
+      },
       "buy": {
         "proxyMedian": 104625,
         "transactions": 470,
@@ -4124,6 +4628,18 @@ window.FLATS_DATA = {
       "localAuthority": "Rotherham",
       "lat": 53.43072,
       "lon": -1.354738,
+      "population": {
+        "population": 70761,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008458",
+        "geography_name": "Rotherham",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Rotherham; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 111625,
         "transactions": 260,
@@ -4222,6 +4738,18 @@ window.FLATS_DATA = {
       "localAuthority": "Salford",
       "lat": 53.480643,
       "lon": -2.294998,
+      "population": {
+        "population": 108431,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008377",
+        "geography_name": "Salford",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Salford; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 190000,
         "transactions": 1850,
@@ -4320,6 +4848,18 @@ window.FLATS_DATA = {
       "localAuthority": "Sheffield",
       "lat": 53.382508,
       "lon": -1.468536,
+      "population": {
+        "population": 500587,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008489",
+        "geography_name": "Sheffield",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Sheffield; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 140000,
         "transactions": 1707,
@@ -4418,6 +4958,18 @@ window.FLATS_DATA = {
       "localAuthority": "Shropshire",
       "lat": 52.708167,
       "lon": -2.754329,
+      "population": {
+        "population": 75784,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63009578",
+        "geography_name": "Shrewsbury",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Shrewsbury; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 157500,
         "transactions": 309,
@@ -4516,6 +5068,18 @@ window.FLATS_DATA = {
       "localAuthority": "St. Helens",
       "lat": 53.455338,
       "lon": -2.738189,
+      "population": {
+        "population": 107409,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008434",
+        "geography_name": "St Helens (St. Helens)",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to St Helens (St. Helens); Reviewed official BUA name corresponds to the screen location St Helens."
+      },
       "buy": {
         "proxyMedian": 94000,
         "transactions": 146,
@@ -4614,6 +5178,18 @@ window.FLATS_DATA = {
       "localAuthority": "Stafford",
       "lat": 52.8058,
       "lon": -2.116656,
+      "population": {
+        "population": 71695,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63009353",
+        "geography_name": "Stafford",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Stafford; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 125000,
         "transactions": 203,
@@ -4712,6 +5288,18 @@ window.FLATS_DATA = {
       "localAuthority": "Stockport",
       "lat": 53.408023,
       "lon": -2.158961,
+      "population": {
+        "population": 118146,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008478",
+        "geography_name": "Stockport",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Stockport; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 165000,
         "transactions": 830,
@@ -4810,6 +5398,18 @@ window.FLATS_DATA = {
       "localAuthority": "Stockton-on-Tees",
       "lat": 54.563971,
       "lon": -1.312668,
+      "population": {
+        "population": 84824,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007405",
+        "geography_name": "Stockton-on-Tees",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Stockton-on-Tees; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 78000,
         "transactions": 188,
@@ -4908,6 +5508,18 @@ window.FLATS_DATA = {
       "localAuthority": "Stoke-on-Trent",
       "lat": 53.022184,
       "lon": -2.173369,
+      "population": {
+        "population": 260001,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63009014",
+        "geography_name": "Stoke-on-Trent",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Stoke-on-Trent; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 85000,
         "transactions": 346,
@@ -5006,6 +5618,18 @@ window.FLATS_DATA = {
       "localAuthority": "Sunderland",
       "lat": 54.902165,
       "lon": -1.383803,
+      "population": {
+        "population": 167989,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007220",
+        "geography_name": "Sunderland",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Sunderland; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 79000,
         "transactions": 363,
@@ -5104,6 +5728,18 @@ window.FLATS_DATA = {
       "localAuthority": "Swansea",
       "lat": 51.62011,
       "lon": -3.941418,
+      "population": {
+        "population": 169795,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "W45001113",
+        "geography_name": "Swansea",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Swansea; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 130000,
         "transactions": 455,
@@ -5202,6 +5838,18 @@ window.FLATS_DATA = {
       "localAuthority": "Swindon",
       "lat": 51.561532,
       "lon": -1.785458,
+      "population": {
+        "population": 183687,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63011979",
+        "geography_name": "Swindon (Swindon)",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Swindon (Swindon); Reviewed official BUA name corresponds to the screen location Swindon."
+      },
       "buy": {
         "proxyMedian": 148500,
         "transactions": 906,
@@ -5300,6 +5948,18 @@ window.FLATS_DATA = {
       "localAuthority": "Telford and Wrekin",
       "lat": 52.675404,
       "lon": -2.448752,
+      "population": {
+        "population": 156326,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63009565",
+        "geography_name": "Telford",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Telford; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 113500,
         "transactions": 180,
@@ -5398,6 +6058,18 @@ window.FLATS_DATA = {
       "localAuthority": "Torbay",
       "lat": 50.468826,
       "lon": -3.531407,
+      "population": {
+        "population": 137645,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63014039;E63014055;E63014084",
+        "geography_name": "Torquay + Paignton + Brixham",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Torquay, Paignton, Brixham; Reviewed composite represents Torbay using the Torquay, Paignton and Brixham BUAs."
+      },
       "buy": {
         "proxyMedian": 148000,
         "transactions": 936,
@@ -5496,6 +6168,18 @@ window.FLATS_DATA = {
       "localAuthority": "Wakefield",
       "lat": 53.683704,
       "lon": -1.498169,
+      "population": {
+        "population": 97656,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008062",
+        "geography_name": "Wakefield",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Wakefield; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 116000,
         "transactions": 273,
@@ -5594,6 +6278,18 @@ window.FLATS_DATA = {
       "localAuthority": "Walsall",
       "lat": 52.586221,
       "lon": -1.980341,
+      "population": {
+        "population": 70777,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63009845",
+        "geography_name": "Walsall",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Walsall; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 119975,
         "transactions": 404,
@@ -5692,6 +6388,18 @@ window.FLATS_DATA = {
       "localAuthority": "Warrington",
       "lat": 53.38957,
       "lon": -2.590897,
+      "population": {
+        "population": 174064,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008488",
+        "geography_name": "Warrington",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Warrington; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 123250,
         "transactions": 498,
@@ -5790,6 +6498,18 @@ window.FLATS_DATA = {
       "localAuthority": "Wigan",
       "lat": 53.545539,
       "lon": -2.629695,
+      "population": {
+        "population": 81514,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63008282",
+        "geography_name": "Wigan",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Wigan; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 103750,
         "transactions": 200,
@@ -5888,6 +6608,18 @@ window.FLATS_DATA = {
       "localAuthority": "Wolverhampton",
       "lat": 52.586205,
       "lon": -2.129916,
+      "population": {
+        "population": 233643,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63009805",
+        "geography_name": "Wolverhampton",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Wolverhampton; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 117500,
         "transactions": 462,
@@ -5986,6 +6718,18 @@ window.FLATS_DATA = {
       "localAuthority": "Worcester",
       "lat": 52.192932,
       "lon": -2.221088,
+      "population": {
+        "population": 105439,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63010595",
+        "geography_name": "Worcester",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Worcester; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 145500,
         "transactions": 466,
@@ -6084,6 +6828,18 @@ window.FLATS_DATA = {
       "localAuthority": "Wrexham",
       "lat": 53.047921,
       "lon": -2.994781,
+      "population": {
+        "population": 44277,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "W45000777",
+        "geography_name": "Wrexham",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Wrexham; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 112500,
         "transactions": 186,
@@ -6182,6 +6938,18 @@ window.FLATS_DATA = {
       "localAuthority": "Bristol, City of",
       "lat": 51.454513,
       "lon": -2.58791,
+      "population": {
+        "population": 425196,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63012168",
+        "geography_name": "Bristol",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Bristol; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 242500,
         "transactions": 5367,
@@ -6280,6 +7048,18 @@ window.FLATS_DATA = {
       "localAuthority": "Southampton",
       "lat": 50.9097,
       "lon": -1.404351,
+      "population": {
+        "population": 249633,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63013524",
+        "geography_name": "Southampton",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Southampton; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 172000,
         "transactions": 2356,
@@ -6378,6 +7158,18 @@ window.FLATS_DATA = {
       "localAuthority": "Bournemouth, Christchurch and Poole",
       "lat": 50.758,
       "lon": -1.879,
+      "population": {
+        "population": 337141,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63013847;E63013860",
+        "geography_name": "Bournemouth + Poole",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Bournemouth, Poole; Reviewed composite represents the named two-settlement location using the Bournemouth and Poole BUAs."
+      },
       "buy": {
         "proxyMedian": 218000,
         "transactions": 3735,
@@ -6476,6 +7268,18 @@ window.FLATS_DATA = {
       "localAuthority": "Brighton and Hove",
       "lat": 50.82253,
       "lon": -0.137163,
+      "population": {
+        "population": 277096,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63013666",
+        "geography_name": "Brighton and Hove",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Brighton and Hove; Reviewed official BUA name corresponds to the screen location Brighton & Hove."
+      },
       "buy": {
         "proxyMedian": 285000,
         "transactions": 1766,
@@ -6574,6 +7378,18 @@ window.FLATS_DATA = {
       "localAuthority": "Exeter",
       "lat": 50.718412,
       "lon": -3.533899,
+      "population": {
+        "population": 126522,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63013856",
+        "geography_name": "Exeter",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Exeter; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 185000,
         "transactions": 664,
@@ -6672,6 +7488,18 @@ window.FLATS_DATA = {
       "localAuthority": "Reading",
       "lat": 51.454264,
       "lon": -0.97813,
+      "population": {
+        "population": 203097,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63012182",
+        "geography_name": "Reading",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Reading; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 238000,
         "transactions": 1755,
@@ -6770,6 +7598,18 @@ window.FLATS_DATA = {
       "localAuthority": "Milton Keynes",
       "lat": 52.040623,
       "lon": -0.759417,
+      "population": {
+        "population": 194584,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63010901",
+        "geography_name": "Milton Keynes",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Milton Keynes; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 185000,
         "transactions": 1000,
@@ -6868,6 +7708,18 @@ window.FLATS_DATA = {
       "localAuthority": "Luton",
       "lat": 51.87867,
       "lon": -0.420025,
+      "population": {
+        "population": 233524,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63011256",
+        "geography_name": "Luton",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Luton; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 164500,
         "transactions": 431,
@@ -6966,6 +7818,18 @@ window.FLATS_DATA = {
       "localAuthority": "Southend-on-Sea",
       "lat": 51.545926,
       "lon": 0.707713,
+      "population": {
+        "population": 182295,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63011939",
+        "geography_name": "Southend-on-Sea",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Southend-on-Sea; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 200000,
         "transactions": 619,
@@ -7064,6 +7928,18 @@ window.FLATS_DATA = {
       "localAuthority": "Cambridge",
       "lat": 52.205337,
       "lon": 0.121817,
+      "population": {
+        "population": 152742,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63010556",
+        "geography_name": "Cambridge (Cambridge)",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Cambridge (Cambridge); Reviewed official BUA name corresponds to the screen location Cambridge."
+      },
       "buy": {
         "proxyMedian": 299000,
         "transactions": 1017,
@@ -7162,6 +8038,18 @@ window.FLATS_DATA = {
       "localAuthority": "Colchester",
       "lat": 51.88921,
       "lon": 0.90421,
+      "population": {
+        "population": 130396,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63011220",
+        "geography_name": "Colchester",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Colchester; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 175000,
         "transactions": 905,
@@ -7260,6 +8148,18 @@ window.FLATS_DATA = {
       "localAuthority": "Oxford",
       "lat": 51.752021,
       "lon": -1.257726,
+      "population": {
+        "population": 169612,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63011595",
+        "geography_name": "Oxford",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Oxford; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 315000,
         "transactions": 710,
@@ -7358,6 +8258,18 @@ window.FLATS_DATA = {
       "localAuthority": "Bath and North East Somerset",
       "lat": 51.381064,
       "lon": -2.359016,
+      "population": {
+        "population": 94080,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63012364",
+        "geography_name": "Bath",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Bath; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 315000,
         "transactions": 809,
@@ -7456,6 +8368,18 @@ window.FLATS_DATA = {
       "localAuthority": "Bridgend",
       "lat": 51.505829,
       "lon": -3.576945,
+      "population": {
+        "population": 51751,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "W45001212",
+        "geography_name": "Bridgend",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Bridgend; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 122250,
         "transactions": 86,
@@ -7554,6 +8478,18 @@ window.FLATS_DATA = {
       "localAuthority": "Carmarthenshire",
       "lat": 51.681,
       "lon": -4.161,
+      "population": {
+        "population": 42143,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "W45001070",
+        "geography_name": "Llanelli",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Llanelli; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 112500,
         "transactions": 25,
@@ -7652,6 +8588,18 @@ window.FLATS_DATA = {
       "localAuthority": "Gwynedd",
       "lat": 53.227409,
       "lon": -4.129263,
+      "population": {
+        "population": 16994,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "W45000697",
+        "geography_name": "Bangor",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Bangor; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 90000,
         "transactions": 29,
@@ -7750,6 +8698,18 @@ window.FLATS_DATA = {
       "localAuthority": "Denbighshire",
       "lat": 53.319141,
       "lon": -3.491635,
+      "population": {
+        "population": 26982,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "W45000645",
+        "geography_name": "Rhyl",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Rhyl; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 94000,
         "transactions": 43,
@@ -7848,6 +8808,18 @@ window.FLATS_DATA = {
       "localAuthority": "York",
       "lat": 53.959055,
       "lon": -1.081536,
+      "population": {
+        "population": 141286,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007706",
+        "geography_name": "York",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to York; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 187000,
         "transactions": 955,
@@ -7946,6 +8918,18 @@ window.FLATS_DATA = {
       "localAuthority": "County Durham",
       "lat": 54.77525,
       "lon": -1.584852,
+      "population": {
+        "population": 50502,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63007282",
+        "geography_name": "Durham",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Durham; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 112500,
         "transactions": 151,
@@ -8044,6 +9028,18 @@ window.FLATS_DATA = {
       "localAuthority": "Cheltenham",
       "lat": 51.90073045590095,
       "lon": -2.076692699758725,
+      "population": {
+        "population": 115941,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63011286",
+        "geography_name": "Cheltenham",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Cheltenham; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
       "buy": {
         "proxyMedian": 200000,
         "transactions": 1067,
@@ -8133,6 +9129,636 @@ window.FLATS_DATA = {
         "method_version": "ofcom-gigabit-bua24-v1",
         "confidence": "High",
         "reason": "Premise-weighted aggregation across Cheltenham; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
+      }
+    },
+    {
+      "id": "newbridge",
+      "name": "Newbridge",
+      "country": "Wales",
+      "localAuthority": "Caerphilly",
+      "lat": 51.670125,
+      "lon": -3.143861,
+      "population": {
+        "population": 7582,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "W45001098",
+        "geography_name": "Newbridge",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Newbridge; Reviewed official BUA name and South Wales location correspond directly to the broad screen location."
+      },
+      "buy": {},
+      "rent": {},
+      "market": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 55.0542,
+        "national_percentile": 21.8,
+        "score": 2,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "W45001098",
+        "geography_vintage": "April 2024",
+        "population_covered": 7582,
+        "population_expected": 7582,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Newbridge; Reviewed official BUA name and South Wales location correspond directly to the broad screen location."
+      },
+      "nationalTransport": {},
+      "residentialEnvironment": {
+        "air_burden": 0.8139,
+        "no2_ug_m3": 7.287,
+        "pm25_ug_m3": 5.613,
+        "pm10_ug_m3": 8.858,
+        "noise_exposed_pct": 42.62,
+        "green_within_300m_pct": 86.468,
+        "green_area_within_1000m_m2": 75601.91,
+        "epc_sap_mean": 63.505,
+        "air_percentile": 85.293,
+        "quiet_percentile": 17.846,
+        "green_percentile": 53.25,
+        "housing_environment_percentile": 26.203,
+        "environment_index_0_100": 45.648,
+        "national_percentile": 41.025,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "W45001098",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 7582,
+        "quiet_population_covered": 7582,
+        "green_population_covered": 7582,
+        "housing_environment_population_covered": 7582,
+        "population_expected": 7582,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 89.7763,
+        "residential_premises": 3531,
+        "matched_residential_premises": 3514,
+        "gigabit_available_premises": 3170,
+        "oa_rows_covered": 25,
+        "oa_rows_expected": 25,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "W45001098",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Newbridge; Reviewed official BUA name and South Wales location correspond directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
+      }
+    },
+    {
+      "id": "burford",
+      "name": "Burford",
+      "country": "England",
+      "localAuthority": "West Oxfordshire",
+      "lat": 51.805499,
+      "lon": -1.63512,
+      "population": {
+        "population": 1257,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63011479",
+        "geography_name": "Burford",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Burford; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
+      "buy": {},
+      "rent": {},
+      "market": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 51.9174,
+        "national_percentile": 17.9,
+        "score": 1,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63011479",
+        "geography_vintage": "April 2024",
+        "population_covered": 1257,
+        "population_expected": 1257,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Burford; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
+      "nationalTransport": {},
+      "residentialEnvironment": {
+        "air_burden": 0.8114,
+        "no2_ug_m3": 4.858,
+        "pm25_ug_m3": 6.166,
+        "pm10_ug_m3": 10.729,
+        "noise_exposed_pct": 42.5,
+        "green_within_300m_pct": 62.45,
+        "green_area_within_1000m_m2": 49580.86,
+        "epc_sap_mean": 55.723,
+        "air_percentile": 85.561,
+        "quiet_percentile": 22.101,
+        "green_percentile": 18.02,
+        "housing_environment_percentile": 1.109,
+        "environment_index_0_100": 31.698,
+        "national_percentile": 11.931,
+        "score": 1,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63011479",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 1257,
+        "quiet_population_covered": 1257,
+        "green_population_covered": 1257,
+        "housing_environment_population_covered": 1257,
+        "population_expected": 1257,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 71.8519,
+        "residential_premises": 675,
+        "matched_residential_premises": 675,
+        "gigabit_available_premises": 485,
+        "oa_rows_covered": 5,
+        "oa_rows_expected": 5,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63011479",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Burford; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
+      }
+    },
+    {
+      "id": "rye",
+      "name": "Rye",
+      "country": "England",
+      "localAuthority": "Rother",
+      "lat": 50.951038,
+      "lon": 0.730115,
+      "population": {
+        "population": 4888,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "E63013389",
+        "geography_name": "Rye",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Rye; Reviewed official BUA name corresponds directly to the broad screen location in East Sussex."
+      },
+      "buy": {},
+      "rent": {},
+      "market": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 50.7855,
+        "national_percentile": 16.7,
+        "score": 1,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "E63013389",
+        "geography_vintage": "April 2024",
+        "population_covered": 4888,
+        "population_expected": 4888,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Rye; Reviewed official BUA name corresponds directly to the broad screen location in East Sussex."
+      },
+      "nationalTransport": {},
+      "residentialEnvironment": {
+        "air_burden": 0.8477,
+        "no2_ug_m3": 5.519,
+        "pm25_ug_m3": 6.441,
+        "pm10_ug_m3": 10.543,
+        "noise_exposed_pct": 41.538,
+        "green_within_300m_pct": 83.327,
+        "green_area_within_1000m_m2": 90324.78,
+        "epc_sap_mean": 64.236,
+        "air_percentile": 81.626,
+        "quiet_percentile": 24.954,
+        "green_percentile": 52.913,
+        "housing_environment_percentile": 26.011,
+        "environment_index_0_100": 46.376,
+        "national_percentile": 42.354,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "E63013389",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 4888,
+        "quiet_population_covered": 4888,
+        "green_population_covered": 4888,
+        "housing_environment_population_covered": 4888,
+        "population_expected": 4888,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 87.2411,
+        "residential_premises": 2704,
+        "matched_residential_premises": 2702,
+        "gigabit_available_premises": 2359,
+        "oa_rows_covered": 19,
+        "oa_rows_expected": 19,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "E63013389",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Rye; Reviewed official BUA name corresponds directly to the broad screen location in East Sussex. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
+      }
+    },
+    {
+      "id": "tenby",
+      "name": "Tenby",
+      "country": "Wales",
+      "localAuthority": "Pembrokeshire",
+      "lat": 51.674631,
+      "lon": -4.708957,
+      "population": {
+        "population": 4092,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "W45001069",
+        "geography_name": "Tenby",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Tenby; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
+      "buy": {},
+      "rent": {},
+      "market": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 52.8083,
+        "national_percentile": 18.9,
+        "score": 1,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "W45001069",
+        "geography_vintage": "April 2024",
+        "population_covered": 4092,
+        "population_expected": 4092,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Tenby; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
+      "nationalTransport": {},
+      "residentialEnvironment": {
+        "air_burden": 0.4929,
+        "no2_ug_m3": 2.677,
+        "pm25_ug_m3": 3.89,
+        "pm10_ug_m3": 6.493,
+        "noise_exposed_pct": 45.615,
+        "green_within_300m_pct": 81.647,
+        "green_area_within_1000m_m2": 45247.25,
+        "epc_sap_mean": 63.237,
+        "air_percentile": 99.754,
+        "quiet_percentile": 15.608,
+        "green_percentile": 46.632,
+        "housing_environment_percentile": 22.523,
+        "environment_index_0_100": 46.129,
+        "national_percentile": 41.883,
+        "score": 3,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "W45001069",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 4092,
+        "quiet_population_covered": 4092,
+        "green_population_covered": 4092,
+        "housing_environment_population_covered": 4092,
+        "population_expected": 4092,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 50.0988,
+        "residential_premises": 2531,
+        "matched_residential_premises": 2529,
+        "gigabit_available_premises": 1268,
+        "oa_rows_covered": 19,
+        "oa_rows_expected": 19,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "W45001069",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Tenby; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
+      }
+    },
+    {
+      "id": "chepstow",
+      "name": "Chepstow",
+      "country": "Wales",
+      "localAuthority": "Monmouthshire",
+      "lat": 51.634156,
+      "lon": -2.677752,
+      "population": {
+        "population": 11939,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "W45001132",
+        "geography_name": "Chepstow",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Chepstow; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
+      "buy": {},
+      "rent": {},
+      "market": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 59.2377,
+        "national_percentile": 28.7,
+        "score": 2,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "W45001132",
+        "geography_vintage": "April 2024",
+        "population_covered": 11939,
+        "population_expected": 11939,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Chepstow; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
+      "nationalTransport": {},
+      "residentialEnvironment": {
+        "air_burden": 0.7783,
+        "no2_ug_m3": 6.07,
+        "pm25_ug_m3": 5.602,
+        "pm10_ug_m3": 9.112,
+        "noise_exposed_pct": 22.417,
+        "green_within_300m_pct": 78.114,
+        "green_area_within_1000m_m2": 102668.12,
+        "epc_sap_mean": 68.69,
+        "air_percentile": 88.618,
+        "quiet_percentile": 90.262,
+        "green_percentile": 50.198,
+        "housing_environment_percentile": 98.191,
+        "environment_index_0_100": 81.817,
+        "national_percentile": 98.802,
+        "score": 5,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "W45001132",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 11939,
+        "quiet_population_covered": 11939,
+        "green_population_covered": 11939,
+        "housing_environment_population_covered": 11939,
+        "population_expected": 11939,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 94.0486,
+        "residential_premises": 5881,
+        "matched_residential_premises": 5878,
+        "gigabit_available_premises": 5531,
+        "oa_rows_covered": 40,
+        "oa_rows_expected": 40,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "W45001132",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Chepstow; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
+      }
+    },
+    {
+      "id": "hay-on-wye",
+      "name": "Hay-on-Wye",
+      "country": "Wales",
+      "localAuthority": "Powys",
+      "lat": 52.072531,
+      "lon": -3.128314,
+      "population": {
+        "population": 2065,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "K08000019",
+        "geography_name": "Hay-on-Wye",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Hay-on-Wye; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
+      "buy": {},
+      "rent": {},
+      "market": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 39.7039,
+        "national_percentile": 9.3,
+        "score": 1,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "K08000019",
+        "geography_vintage": "April 2024",
+        "population_covered": 2065,
+        "population_expected": 2065,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Hay-on-Wye; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
+      "nationalTransport": {},
+      "residentialEnvironment": {
+        "air_burden": 0.549,
+        "no2_ug_m3": 2.283,
+        "pm25_ug_m3": 4.583,
+        "pm10_ug_m3": 7.531,
+        "noise_exposed_pct": 34.943,
+        "green_within_300m_pct": 87.409,
+        "green_area_within_1000m_m2": 167863.04,
+        "epc_sap_mean": 62.304,
+        "air_percentile": 99.229,
+        "quiet_percentile": 52.389,
+        "green_percentile": 66.163,
+        "housing_environment_percentile": 17.226,
+        "environment_index_0_100": 58.752,
+        "national_percentile": 69.933,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "K08000019",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 2065,
+        "quiet_population_covered": 2065,
+        "green_population_covered": 2065,
+        "housing_environment_population_covered": 2065,
+        "population_expected": 2065,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 20.9383,
+        "residential_premises": 1151,
+        "matched_residential_premises": 1151,
+        "gigabit_available_premises": 241,
+        "oa_rows_covered": 7,
+        "oa_rows_expected": 7,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "K08000019",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Hay-on-Wye; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
+      }
+    },
+    {
+      "id": "narberth",
+      "name": "Narberth",
+      "country": "Wales",
+      "localAuthority": "Pembrokeshire",
+      "lat": 51.799812,
+      "lon": -4.742442,
+      "population": {
+        "population": 2365,
+        "census_date": "2021-03-21",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "POP-ONS-CENSUS-2021-BUA24",
+        "geography_code": "W45000950",
+        "geography_name": "Narberth",
+        "geography_vintage": "April 2024",
+        "method_version": "census2021-ts001-bua24-v1",
+        "confidence": "High",
+        "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Narberth; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
+      "buy": {},
+      "rent": {},
+      "market": {},
+      "localTransport": {
+        "pt_connectivity_0_100": 47.9696,
+        "national_percentile": 14.2,
+        "score": 1,
+        "source_period": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
+        "retrieval_date": "2026-09-09",
+        "evidence_id": "TR-LOCAL-DFT-2025",
+        "geography_code": "W45000950",
+        "geography_vintage": "April 2024",
+        "population_covered": 2365,
+        "population_expected": 2365,
+        "method_version": "dft-connectivity-bua24-v1",
+        "confidence": "High",
+        "reason": "Population-weighted mean across Narberth; Reviewed official BUA name corresponds directly to the broad screen location."
+      },
+      "nationalTransport": {},
+      "residentialEnvironment": {
+        "air_burden": 0.5069,
+        "no2_ug_m3": 2.769,
+        "pm25_ug_m3": 3.925,
+        "pm10_ug_m3": 6.88,
+        "noise_exposed_pct": 49.7,
+        "green_within_300m_pct": 100.0,
+        "green_area_within_1000m_m2": 44110.91,
+        "epc_sap_mean": 66.7,
+        "air_percentile": 99.649,
+        "quiet_percentile": 11.495,
+        "green_percentile": 54.59,
+        "housing_environment_percentile": 79.887,
+        "environment_index_0_100": 61.405,
+        "national_percentile": 76.627,
+        "score": 4,
+        "air_period": "2024 annual mean",
+        "quiet_period": "2021 strategic noise model",
+        "green_period": "OS Open Greenspace 2026-04",
+        "housing_environment_period": "EPCs 2012-2024",
+        "air_evidence_id": "ENV-AIR-DEFRA-2024",
+        "quiet_evidence_id": "ENV-NOISE-IOD-WIMD-2025",
+        "green_evidence_id": "ENV-GREEN-OS-OPEN-2026-04",
+        "housing_environment_evidence_id": "ENV-EPC-IOD-WIMD-2025",
+        "geography_code": "W45000950",
+        "geography_vintage": "April 2024",
+        "air_population_covered": 2365,
+        "quiet_population_covered": 2365,
+        "green_population_covered": 2365,
+        "housing_environment_population_covered": 2365,
+        "population_expected": 2365,
+        "method_version": "residential-environment-bua24-v3-country-calibrated",
+        "confidence": "Medium",
+        "reason": "Population-weighted across the reviewed April 2024 built-up area; air uses OA population-weighted centroids, small-area indicators use exact-fit lookups, green space uses current OA origins and the union of eligible OS Open Greenspace polygons, and quiet and housing use population-weighted within-country percentile calibration."
+      },
+      "digitalConnectivity": {
+        "gigabit_availability_pct": 53.0391,
+        "residential_premises": 1201,
+        "matched_residential_premises": 1200,
+        "gigabit_available_premises": 637,
+        "oa_rows_covered": 7,
+        "oa_rows_expected": 7,
+        "source_period": "January 2025 availability snapshot",
+        "retrieval_date": "2026-09-11",
+        "evidence_id": "DIGITAL-OFCOM-CN-SPRING-2025",
+        "geography_code": "W45000950",
+        "geography_vintage": "April 2024",
+        "method_version": "ofcom-gigabit-bua24-v1",
+        "confidence": "High",
+        "reason": "Premise-weighted aggregation across Narberth; Reviewed official BUA name corresponds directly to the broad screen location. Ofcom OAs absent from the residential file have no residential premise row and do not enter either count."
       }
     }
   ],
@@ -14273,7 +15899,7 @@ window.FLATS_DATA = {
       "dataPeriod": "2024 annual mean",
       "retrievalDate": "2026-09-09",
       "geography": "Defra 1 km background grid assigned to OA21 population-weighted centroids",
-      "coverage": "All 83 locations and the 7070-BUA national reference have complete population coverage",
+      "coverage": "All 90 locations and the 7070-BUA national reference have complete population coverage",
       "limitations": "Modelled outdoor background NO2, PM2.5 and PM10 concentrations are not property measurements; coastal missing grid cells would use a recorded nearest-cell fallback, of which this release has none."
     },
     {
@@ -14285,7 +15911,7 @@ window.FLATS_DATA = {
       "dataPeriod": "2021 strategic noise model published in the 2025 deprivation releases",
       "retrievalDate": "2026-09-09",
       "geography": "England and Wales LSOA21 observations aggregated to reviewed April 2024 BUAs",
-      "coverage": "All 83 locations and the 7070-BUA national reference have complete population coverage",
+      "coverage": "All 90 locations and the 7070-BUA national reference have complete population coverage",
       "limitations": "England includes major-airport exposure and shrinkage while Wales covers road and rail; within-country percentile calibration reduces but does not harmonise that difference. Outdoor strategic exposure is not interior or property-level noise."
     },
     {
@@ -14297,7 +15923,7 @@ window.FLATS_DATA = {
       "dataPeriod": "April 2026 bulk snapshot",
       "retrievalDate": "2026-09-09",
       "geography": "Eligible GB polygons measured from OA21 population-weighted centroids in EPSG:27700",
-      "coverage": "All 83 locations and all 177643 populated OA origins assigned to 7070 BUAs have complete coverage",
+      "coverage": "All 90 locations and all 177643 populated OA origins assigned to 7070 BUAs have complete coverage",
       "limitations": "Includes only Public Park Or Garden and Playing Field. Product inclusion does not guarantee unrestricted access; straight-line distance and clipped area do not describe route quality or every kind of green space."
     },
     {
@@ -14309,7 +15935,7 @@ window.FLATS_DATA = {
       "dataPeriod": "EPCs 2012-2024 published in the 2025 deprivation releases",
       "retrievalDate": "2026-09-09",
       "geography": "England and Wales LSOA21 observations aggregated to reviewed April 2024 BUAs",
-      "coverage": "All 83 locations and the 7070-BUA national reference have complete population coverage",
+      "coverage": "All 90 locations and the 7070-BUA national reference have complete population coverage",
       "limitations": "England publishes a shrunk deprivation transform while Wales publishes a rounded imputed mean SAP score; within-country percentile calibration reduces but does not harmonise that difference. EPC is not a building-maintenance survey."
     },
     {
@@ -14321,7 +15947,7 @@ window.FLATS_DATA = {
       "dataPeriod": "2025 English IoD and WIMD releases",
       "retrievalDate": "2026-09-10",
       "geography": "Population-weighted LSOA21 ranks aggregated separately within England and Wales",
-      "coverage": "All 83 candidate BUAs have complete population coverage",
+      "coverage": "All 90 candidate BUAs have complete population coverage",
       "limitations": "The English Living Environment and Welsh Physical Environment domains have different definitions and national rank scales. They are retained only for within-country validation and boundary diagnostics and never enter the factor score."
     },
     {
@@ -14333,7 +15959,7 @@ window.FLATS_DATA = {
       "dataPeriod": "2025-04-01 to 2026-03-31; population mid-2024 rounded to 100",
       "retrievalDate": "2026-09-05",
       "geography": "CSP codes and names in crime_geographies.csv; boundary vintage not stated",
-      "coverage": "All 83 locations have named CSP source cells; Kettering and Northampton use matching CSP populations rather than whole-LA values",
+      "coverage": "All 90 locations have named CSP source cells; Kettering and Northampton use matching CSP populations rather than whole-LA values",
       "limitations": "Official statistics, not accredited official statistics. Recorded offences reflect reporting and recording; CSP unallocated offences are not assigned. Resident population excludes visitors and commuters. ASB is excluded pending coverage review. Separate offence rates are not a safety score or ranking."
     },
     {
@@ -14369,7 +15995,7 @@ window.FLATS_DATA = {
       "dataPeriod": "Q4 2024 transport and destination data; 2023 provisional BRES employment data",
       "retrievalDate": "2026-09-09",
       "geography": "2021 Output Areas aggregated to reviewed April 2024 built-up areas",
-      "coverage": "All 83 locations; complete expected population coverage",
+      "coverage": "All 90 locations; complete expected population coverage",
       "limitations": "Modelled scheduled opportunity to reach employment, services and social engagements; not fares, crowding, cancellations, reliability, personal security, step-free access or access from a particular home. Aggregation uses Census 2021 usual-resident population and the official OA-to-BUA best-fit lookup."
     },
     {
@@ -14381,8 +16007,20 @@ window.FLATS_DATA = {
       "dataPeriod": "January 2025 availability snapshot",
       "retrievalDate": "2026-09-11",
       "geography": "Residential premises in 2021 Census Output Areas aggregated to reviewed April 2024 built-up areas",
-      "coverage": "All 83 locations have positive residential-premise coverage",
-      "limitations": "Provider-reported gigabit-capable fixed-broadband availability; Ofcom collected the wider fixed-coverage release from nearly 70 fixed-network and fixed-wireless providers. This is not observed or guaranteed speed, take-up, price, reliability, latency, service quality or in-home performance. Premises use Ordnance Survey AddressBase Epoch 115. OAs absent from the residential file do not enter either premise count; matched-premise and OA-row coverage diagnostics are retained."
+      "coverage": "All 90 locations have positive residential-premise coverage",
+      "limitations": "Provider-reported share of residential premises with gigabit-capable fixed-broadband availability; Ofcom collected the wider fixed-coverage release from nearly 70 fixed-network and fixed-wireless providers. This is not observed or guaranteed speed, take-up, price, reliability, latency, service quality or in-home performance. Premises use Ordnance Survey AddressBase Epoch 115. OAs absent from the residential file do not enter either premise count; matched-premise and OA-row coverage diagnostics are retained."
+    },
+    {
+      "id": "POP-ONS-CENSUS-2021-BUA24",
+      "workstream": "population",
+      "title": "Census 2021 usual residents aggregated to April 2024 built-up areas",
+      "publisher": "Office for National Statistics via Nomis",
+      "url": "https://www.nomisweb.co.uk/output/census/2021/census2021-ts001.zip",
+      "dataPeriod": "Census day 21 March 2021",
+      "retrievalDate": "2026-09-09",
+      "geography": "2021 Output Areas assigned to reviewed April 2024 built-up areas",
+      "coverage": "All 90 locations have complete expected population coverage",
+      "limitations": "Census usual-resident counts include disclosure-control perturbation. The April 2024 best-fit lookup assigns each Output Area wholly to one built-up area. The figures describe continuously built-up settlements rather than local authorities and are not current-year estimates."
     }
   ],
   "composite": {
@@ -14498,19 +16136,19 @@ window.FLATS_DATA = {
         "low": {
           "count": 27,
           "minimum": 45.3,
-          "maximum": 60.0
+          "maximum": 59.4
         },
         "mid": {
-          "count": 30,
-          "minimum": 60.6,
-          "maximum": 66.5
+          "count": 27,
+          "minimum": 60.0,
+          "maximum": 65.3
         },
         "high": {
-          "count": 26,
-          "minimum": 67.1,
+          "count": 29,
+          "minimum": 65.9,
           "maximum": 81.8
         },
-        "unknown": 0
+        "unknown": 7
       },
       "rent": {
         "low": {
@@ -14521,14 +16159,14 @@ window.FLATS_DATA = {
         "mid": {
           "count": 27,
           "minimum": 61.2,
-          "maximum": 66.5
+          "maximum": 65.9
         },
         "high": {
           "count": 29,
-          "minimum": 67.1,
+          "minimum": 66.5,
           "maximum": 80.0
         },
-        "unknown": 0
+        "unknown": 7
       }
     },
     "results": {
@@ -14678,30 +16316,30 @@ window.FLATS_DATA = {
         }
       },
       "bradford": {
-        "safety": 1.5,
+        "safety": 1.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 1.5,
+              "safety": 1.0,
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 2.0,
               "housing_cost": 4.5,
               "stock": 4
             },
-            "score": 61.2,
-            "band": "mid"
+            "score": 59.4,
+            "band": "low"
           },
           "rent": {
             "factors": {
-              "safety": 1.5,
+              "safety": 1.0,
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 2.0,
               "housing_cost": 4.0,
               "stock": 4
             },
-            "score": 59.4,
+            "score": 57.6,
             "band": "low"
           }
         }
@@ -14736,30 +16374,30 @@ window.FLATS_DATA = {
         }
       },
       "burton-on-trent": {
-        "safety": 5.0,
+        "safety": 4.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 5.0,
+              "safety": 4.5,
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 4.5,
               "housing_cost": 4.5,
               "stock": 3
             },
-            "score": 72.4,
+            "score": 70.6,
             "band": "high"
           },
           "rent": {
             "factors": {
-              "safety": 5.0,
+              "safety": 4.5,
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 4.5,
               "housing_cost": 3.5,
               "stock": 3
             },
-            "score": 68.8,
+            "score": 67.1,
             "band": "high"
           }
         }
@@ -14794,30 +16432,30 @@ window.FLATS_DATA = {
         }
       },
       "chester": {
-        "safety": 4.5,
+        "safety": 4.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 4.5,
+              "safety": 4.0,
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.5,
               "housing_cost": 2.0,
               "stock": 3
             },
-            "score": 66.5,
+            "score": 64.7,
             "band": "mid"
           },
           "rent": {
             "factors": {
-              "safety": 4.5,
+              "safety": 4.0,
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.5,
               "housing_cost": 2.5,
               "stock": 3
             },
-            "score": 68.2,
+            "score": 66.5,
             "band": "high"
           }
         }
@@ -14876,7 +16514,7 @@ window.FLATS_DATA = {
               "stock": 4
             },
             "score": 66.5,
-            "band": "mid"
+            "band": "high"
           }
         }
       },
@@ -14939,89 +16577,89 @@ window.FLATS_DATA = {
         }
       },
       "doncaster": {
-        "safety": 2.5,
+        "safety": 2.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 2.5,
+              "safety": 2.0,
               "local_transport": 3,
               "residential_environment": 1,
               "national_transport": 4.0,
               "housing_cost": 4.0,
               "stock": 3
             },
-            "score": 57.1,
+            "score": 55.3,
             "band": "low"
           },
           "rent": {
             "factors": {
-              "safety": 2.5,
+              "safety": 2.0,
               "local_transport": 3,
               "residential_environment": 1,
               "national_transport": 4.0,
               "housing_cost": 5.0,
               "stock": 3
             },
-            "score": 60.6,
+            "score": 58.8,
             "band": "low"
           }
         }
       },
       "gateshead": {
-        "safety": 4.5,
+        "safety": 4.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 4.5,
+              "safety": 4.0,
               "local_transport": 4,
               "residential_environment": 4,
               "national_transport": 1.0,
               "housing_cost": 4.5,
               "stock": 3
             },
-            "score": 72.9,
+            "score": 71.2,
             "band": "high"
           },
           "rent": {
             "factors": {
-              "safety": 4.5,
+              "safety": 4.0,
               "local_transport": 4,
               "residential_environment": 4,
               "national_transport": 1.0,
               "housing_cost": 4.0,
               "stock": 3
             },
-            "score": 71.2,
+            "score": 69.4,
             "band": "high"
           }
         }
       },
       "gloucester": {
-        "safety": 2.5,
+        "safety": 2.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 2.5,
+              "safety": 2.0,
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 4.5,
               "housing_cost": 2.5,
               "stock": 3
             },
-            "score": 67.1,
-            "band": "high"
+            "score": 65.3,
+            "band": "mid"
           },
           "rent": {
             "factors": {
-              "safety": 2.5,
+              "safety": 2.0,
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 4.5,
               "housing_cost": 2.5,
               "stock": 3
             },
-            "score": 67.1,
-            "band": "high"
+            "score": 65.3,
+            "band": "mid"
           }
         }
       },
@@ -15125,7 +16763,7 @@ window.FLATS_DATA = {
               "stock": 4
             },
             "score": 65.9,
-            "band": "mid"
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -15142,59 +16780,59 @@ window.FLATS_DATA = {
         }
       },
       "ipswich": {
-        "safety": 3.0,
+        "safety": 2.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 3.0,
+              "safety": 2.5,
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 3.0,
               "housing_cost": 2.5,
               "stock": 4
             },
-            "score": 58.2,
+            "score": 56.5,
             "band": "low"
           },
           "rent": {
             "factors": {
-              "safety": 3.0,
+              "safety": 2.5,
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 3.0,
               "housing_cost": 2.5,
               "stock": 4
             },
-            "score": 58.2,
+            "score": 56.5,
             "band": "low"
           }
         }
       },
       "kettering": {
-        "safety": 4.0,
+        "safety": 3.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 4.0,
+              "safety": 3.5,
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 4.5,
               "housing_cost": 3.0,
               "stock": 2
             },
-            "score": 67.1,
-            "band": "high"
+            "score": 65.3,
+            "band": "mid"
           },
           "rent": {
             "factors": {
-              "safety": 4.0,
+              "safety": 3.5,
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 4.5,
               "housing_cost": 3.0,
               "stock": 3
             },
-            "score": 70.6,
+            "score": 68.8,
             "band": "high"
           }
         }
@@ -15316,30 +16954,30 @@ window.FLATS_DATA = {
         }
       },
       "liverpool": {
-        "safety": 2.0,
+        "safety": 1.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 2.0,
+              "safety": 1.5,
               "local_transport": 4,
               "residential_environment": 4,
               "national_transport": 3.5,
               "housing_cost": 2.5,
               "stock": 5
             },
-            "score": 70.0,
+            "score": 68.2,
             "band": "high"
           },
           "rent": {
             "factors": {
-              "safety": 2.0,
+              "safety": 1.5,
               "local_transport": 4,
               "residential_environment": 4,
               "national_transport": 3.5,
               "housing_cost": 3.0,
               "stock": 5
             },
-            "score": 71.8,
+            "score": 70.0,
             "band": "high"
           }
         }
@@ -15415,7 +17053,7 @@ window.FLATS_DATA = {
               "stock": 1
             },
             "score": 60.0,
-            "band": "low"
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -15548,30 +17186,30 @@ window.FLATS_DATA = {
         }
       },
       "northampton": {
-        "safety": 2.5,
+        "safety": 2.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 2.5,
+              "safety": 2.0,
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 5.0,
               "housing_cost": 2.0,
               "stock": 4
             },
-            "score": 66.5,
+            "score": 64.7,
             "band": "mid"
           },
           "rent": {
             "factors": {
-              "safety": 2.5,
+              "safety": 2.0,
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 5.0,
               "housing_cost": 2.0,
               "stock": 4
             },
-            "score": 66.5,
+            "score": 64.7,
             "band": "mid"
           }
         }
@@ -15693,88 +17331,88 @@ window.FLATS_DATA = {
         }
       },
       "portsmouth": {
-        "safety": 1.5,
+        "safety": 1.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 1.5,
+              "safety": 1.0,
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 2.5,
               "housing_cost": 2.0,
               "stock": 4
             },
-            "score": 53.5,
+            "score": 51.8,
             "band": "low"
           },
           "rent": {
             "factors": {
-              "safety": 1.5,
+              "safety": 1.0,
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 2.5,
               "housing_cost": 1.5,
               "stock": 4
             },
-            "score": 51.8,
+            "score": 50.0,
             "band": "low"
           }
         }
       },
       "preston": {
-        "safety": 2.5,
+        "safety": 2.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 2.5,
+              "safety": 2.0,
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 3.5,
               "housing_cost": 4.0,
               "stock": 3
             },
-            "score": 66.5,
+            "score": 64.7,
             "band": "mid"
           },
           "rent": {
             "factors": {
-              "safety": 2.5,
+              "safety": 2.0,
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 3.5,
               "housing_cost": 4.0,
               "stock": 4
             },
-            "score": 70.0,
+            "score": 68.2,
             "band": "high"
           }
         }
       },
       "rotherham": {
-        "safety": 3.5,
+        "safety": 3.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 3.5,
+              "safety": 3.0,
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 3.5,
               "housing_cost": 4.0,
               "stock": 2
             },
-            "score": 59.4,
+            "score": 57.6,
             "band": "low"
           },
           "rent": {
             "factors": {
-              "safety": 3.5,
+              "safety": 3.0,
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 3.5,
               "housing_cost": 5.0,
               "stock": 3
             },
-            "score": 66.5,
+            "score": 64.7,
             "band": "mid"
           }
         }
@@ -15809,30 +17447,30 @@ window.FLATS_DATA = {
         }
       },
       "sheffield": {
-        "safety": 4.0,
+        "safety": 3.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 4.0,
+              "safety": 3.5,
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 4.0,
               "housing_cost": 2.5,
               "stock": 5
             },
-            "score": 74.7,
+            "score": 72.9,
             "band": "high"
           },
           "rent": {
             "factors": {
-              "safety": 4.0,
+              "safety": 3.5,
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 4.0,
               "housing_cost": 3.0,
               "stock": 5
             },
-            "score": 76.5,
+            "score": 74.7,
             "band": "high"
           }
         }
@@ -15908,7 +17546,7 @@ window.FLATS_DATA = {
               "stock": 2
             },
             "score": 60.0,
-            "band": "low"
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -15937,7 +17575,7 @@ window.FLATS_DATA = {
               "stock": 3
             },
             "score": 65.9,
-            "band": "mid"
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -16053,7 +17691,7 @@ window.FLATS_DATA = {
               "stock": 3
             },
             "score": 66.5,
-            "band": "mid"
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -16244,30 +17882,30 @@ window.FLATS_DATA = {
         }
       },
       "wigan": {
-        "safety": 3.5,
+        "safety": 3.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 3.5,
+              "safety": 3.0,
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 4.0,
               "housing_cost": 4.5,
               "stock": 2
             },
-            "score": 69.4,
+            "score": 67.6,
             "band": "high"
           },
           "rent": {
             "factors": {
-              "safety": 3.5,
+              "safety": 3.0,
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 4.0,
               "housing_cost": 4.5,
               "stock": 2
             },
-            "score": 69.4,
+            "score": 67.6,
             "band": "high"
           }
         }
@@ -16343,7 +17981,7 @@ window.FLATS_DATA = {
               "stock": 1
             },
             "score": 66.5,
-            "band": "mid"
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -16372,7 +18010,7 @@ window.FLATS_DATA = {
               "stock": 5
             },
             "score": 65.9,
-            "band": "mid"
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -16476,30 +18114,30 @@ window.FLATS_DATA = {
         }
       },
       "exeter": {
-        "safety": 2.0,
+        "safety": 1.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 2.0,
+              "safety": 1.5,
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 3.0,
               "housing_cost": 1.5,
               "stock": 4
             },
-            "score": 61.8,
+            "score": 60.0,
             "band": "mid"
           },
           "rent": {
             "factors": {
-              "safety": 2.0,
+              "safety": 1.5,
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 3.0,
               "housing_cost": 1.5,
               "stock": 3
             },
-            "score": 58.2,
+            "score": 56.5,
             "band": "low"
           }
         }
@@ -16737,30 +18375,30 @@ window.FLATS_DATA = {
         }
       },
       "bridgend": {
-        "safety": 4.5,
+        "safety": 4.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 4.5,
+              "safety": 4.0,
               "local_transport": 2,
               "residential_environment": 5,
               "national_transport": 3.0,
               "housing_cost": 3.5,
               "stock": 1
             },
-            "score": 63.5,
+            "score": 61.8,
             "band": "mid"
           },
           "rent": {
             "factors": {
-              "safety": 4.5,
+              "safety": 4.0,
               "local_transport": 2,
               "residential_environment": 5,
               "national_transport": 3.0,
               "housing_cost": 4.0,
               "stock": 1
             },
-            "score": 65.3,
+            "score": 63.5,
             "band": "mid"
           }
         }
@@ -16824,30 +18462,30 @@ window.FLATS_DATA = {
         }
       },
       "rhyl": {
-        "safety": 2.0,
+        "safety": 1.5,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 2.0,
+              "safety": 1.5,
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.0,
               "housing_cost": 4.5,
               "stock": 1
             },
-            "score": 58.2,
+            "score": 56.5,
             "band": "low"
           },
           "rent": {
             "factors": {
-              "safety": 2.0,
+              "safety": 1.5,
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.0,
               "housing_cost": 4.5,
               "stock": 1
             },
-            "score": 58.2,
+            "score": 56.5,
             "band": "low"
           }
         }
@@ -16882,30 +18520,30 @@ window.FLATS_DATA = {
         }
       },
       "durham": {
-        "safety": 3.5,
+        "safety": 3.0,
         "tenures": {
           "buy": {
             "factors": {
-              "safety": 3.5,
+              "safety": 3.0,
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 2.5,
               "housing_cost": 4.0,
               "stock": 1
             },
-            "score": 60.6,
-            "band": "mid"
+            "score": 58.8,
+            "band": "low"
           },
           "rent": {
             "factors": {
-              "safety": 3.5,
+              "safety": 3.0,
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 2.5,
               "housing_cost": 5.0,
               "stock": 1
             },
-            "score": 64.1,
+            "score": 62.4,
             "band": "mid"
           }
         }
@@ -16936,6 +18574,209 @@ window.FLATS_DATA = {
             },
             "score": 74.7,
             "band": "high"
+          }
+        }
+      },
+      "newbridge": {
+        "safety": 3.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": 2,
+              "residential_environment": 3,
+              "national_transport": null,
+              "housing_cost": null,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": 2,
+              "residential_environment": 3,
+              "national_transport": null,
+              "housing_cost": null,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "burford": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 1,
+              "residential_environment": 1,
+              "national_transport": null,
+              "housing_cost": null,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 1,
+              "residential_environment": 1,
+              "national_transport": null,
+              "housing_cost": null,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "rye": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 1,
+              "residential_environment": 3,
+              "national_transport": null,
+              "housing_cost": null,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 1,
+              "residential_environment": 3,
+              "national_transport": null,
+              "housing_cost": null,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "tenby": {
+        "safety": 3.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": 1,
+              "residential_environment": 3,
+              "national_transport": null,
+              "housing_cost": null,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": 1,
+              "residential_environment": 3,
+              "national_transport": null,
+              "housing_cost": null,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "chepstow": {
+        "safety": 4.5,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": 2,
+              "residential_environment": 5,
+              "national_transport": null,
+              "housing_cost": null,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 4.5,
+              "local_transport": 2,
+              "residential_environment": 5,
+              "national_transport": null,
+              "housing_cost": null,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "hay-on-wye": {
+        "safety": 5.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 1,
+              "residential_environment": 4,
+              "national_transport": null,
+              "housing_cost": null,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 5.0,
+              "local_transport": 1,
+              "residential_environment": 4,
+              "national_transport": null,
+              "housing_cost": null,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          }
+        }
+      },
+      "narberth": {
+        "safety": 3.0,
+        "tenures": {
+          "buy": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": 1,
+              "residential_environment": 4,
+              "national_transport": null,
+              "housing_cost": null,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
+          },
+          "rent": {
+            "factors": {
+              "safety": 3.0,
+              "local_transport": 1,
+              "residential_environment": 4,
+              "national_transport": null,
+              "housing_cost": null,
+              "stock": null
+            },
+            "score": null,
+            "band": "unknown"
           }
         }
       }
@@ -22250,6 +24091,454 @@ window.FLATS_DATA = {
       "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
       "rate_per_1000": "3.098",
       "force_unallocated_percent": "14.267",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "newbridge",
+      "category": "violence_against_person",
+      "local_authority_code": "W06000018",
+      "csp_code": "W14000018",
+      "csp_name": "Caerphilly",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "W15000002",
+      "force_name": "Gwent",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "6381",
+      "population": "176900",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "36.078364854550081",
+      "force_count": "22424",
+      "force_unallocated_count": "0",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H125; Table C4!G125; Table C4!J125",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "36.071",
+      "force_unallocated_percent": "0.000",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "newbridge",
+      "category": "sexual_offences",
+      "local_authority_code": "W06000018",
+      "csp_code": "W14000018",
+      "csp_name": "Caerphilly",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "W15000002",
+      "force_name": "Gwent",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "660",
+      "population": "176900",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.7316597404800271",
+      "force_count": "2338",
+      "force_unallocated_count": "0",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N125; Table C4!G125; Table C4!P125",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.731",
+      "force_unallocated_percent": "0.000",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "burford",
+      "category": "violence_against_person",
+      "local_authority_code": "E07000181",
+      "csp_code": "E22000315",
+      "csp_name": "West Oxfordshire",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000029",
+      "force_name": "Thames Valley",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "2282",
+      "population": "120900",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "18.868704574958038",
+      "force_count": "63490",
+      "force_unallocated_count": "377",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H371; Table C4!G371; Table C4!J371",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "18.875",
+      "force_unallocated_percent": "0.594",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "burford",
+      "category": "sexual_offences",
+      "local_authority_code": "E07000181",
+      "csp_code": "E22000315",
+      "csp_name": "West Oxfordshire",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000029",
+      "force_name": "Thames Valley",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "262",
+      "population": "120900",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "2.1663455734614399",
+      "force_count": "7345",
+      "force_unallocated_count": "128",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N371; Table C4!G371; Table C4!P371",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "2.167",
+      "force_unallocated_percent": "1.743",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "rye",
+      "category": "violence_against_person",
+      "local_authority_code": "E07000064",
+      "csp_code": "E22000300",
+      "csp_name": "Rother",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000033",
+      "force_name": "Sussex",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "2164",
+      "population": "96100",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "22.510480272122997",
+      "force_count": "46496",
+      "force_unallocated_count": "899",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H353; Table C4!G353; Table C4!J353",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "22.518",
+      "force_unallocated_percent": "1.933",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "rye",
+      "category": "sexual_offences",
+      "local_authority_code": "E07000064",
+      "csp_code": "E22000300",
+      "csp_name": "Rother",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "E23000033",
+      "force_name": "Sussex",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "270",
+      "population": "96100",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "2.8086089064109099",
+      "force_count": "5882",
+      "force_unallocated_count": "344",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N353; Table C4!G353; Table C4!P353",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "2.810",
+      "force_unallocated_percent": "5.848",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "tenby",
+      "category": "violence_against_person",
+      "local_authority_code": "W06000009",
+      "csp_code": "W14000009",
+      "csp_name": "Pembrokeshire",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "W15000004",
+      "force_name": "Dyfed-Powys",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "4383",
+      "population": "125800",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "34.851822107012509",
+      "force_count": "16746",
+      "force_unallocated_count": "1298",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H83; Table C4!G83; Table C4!J83",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "34.841",
+      "force_unallocated_percent": "7.751",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "tenby",
+      "category": "sexual_offences",
+      "local_authority_code": "W06000009",
+      "csp_code": "W14000009",
+      "csp_name": "Pembrokeshire",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "W15000004",
+      "force_name": "Dyfed-Powys",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "487",
+      "population": "125800",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.8724246785569454",
+      "force_count": "2047",
+      "force_unallocated_count": "175",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N83; Table C4!G83; Table C4!P83",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.871",
+      "force_unallocated_percent": "8.549",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "chepstow",
+      "category": "violence_against_person",
+      "local_authority_code": "W06000021",
+      "csp_code": "W14000021",
+      "csp_name": "Monmouthshire",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "W15000002",
+      "force_name": "Gwent",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "2242",
+      "population": "94900",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "23.617402296428946",
+      "force_count": "22424",
+      "force_unallocated_count": "0",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H126; Table C4!G126; Table C4!J126",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "23.625",
+      "force_unallocated_percent": "0.000",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "chepstow",
+      "category": "sexual_offences",
+      "local_authority_code": "W06000021",
+      "csp_code": "W14000021",
+      "csp_name": "Monmouthshire",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "W15000002",
+      "force_name": "Gwent",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "327",
+      "population": "94900",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.44464342146845",
+      "force_count": "2338",
+      "force_unallocated_count": "0",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N126; Table C4!G126; Table C4!P126",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.446",
+      "force_unallocated_percent": "0.000",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "hay-on-wye",
+      "category": "violence_against_person",
+      "local_authority_code": "W06000023",
+      "csp_code": "W14000007",
+      "csp_name": "Powys",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "W15000004",
+      "force_name": "Dyfed-Powys",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "3554",
+      "population": "135100",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "26.31442554735338",
+      "force_count": "16746",
+      "force_unallocated_count": "1298",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H84; Table C4!G84; Table C4!J84",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "26.306",
+      "force_unallocated_percent": "7.751",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "hay-on-wye",
+      "category": "sexual_offences",
+      "local_authority_code": "W06000023",
+      "csp_code": "W14000007",
+      "csp_name": "Powys",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "W15000004",
+      "force_name": "Dyfed-Powys",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "432",
+      "population": "135100",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.1986020924188687",
+      "force_count": "2047",
+      "force_unallocated_count": "175",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N84; Table C4!G84; Table C4!P84",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.198",
+      "force_unallocated_percent": "8.549",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "narberth",
+      "category": "violence_against_person",
+      "local_authority_code": "W06000009",
+      "csp_code": "W14000009",
+      "csp_name": "Pembrokeshire",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "W15000004",
+      "force_name": "Dyfed-Powys",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "4383",
+      "population": "125800",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "34.851822107012509",
+      "force_count": "16746",
+      "force_unallocated_count": "1298",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!H83; Table C4!G83; Table C4!J83",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "34.841",
+      "force_unallocated_percent": "7.751",
+      "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
+      "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
+      "missing_reason": ""
+    },
+    {
+      "location_id": "narberth",
+      "category": "sexual_offences",
+      "local_authority_code": "W06000009",
+      "csp_code": "W14000009",
+      "csp_name": "Pembrokeshire",
+      "boundary_vintage": "",
+      "boundary_basis": "ONS YE March 2026 C1/C2/C4; exact boundary vintage not stated",
+      "mapping_reason": "Source C2 LA name matches canonical localAuthority; CSP proxy for the place.",
+      "force_code": "W15000004",
+      "force_name": "Dyfed-Powys",
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "count": "487",
+      "population": "125800",
+      "population_period": "mid-2024",
+      "population_rounding": "nearest 100",
+      "published_rate_per_1000": "3.8724246785569454",
+      "force_count": "2047",
+      "force_unallocated_count": "175",
+      "coverage": "Published annual CSP total; monthly completeness not independently verified",
+      "evidence_id": "CRIME-ONS-2026-CSP",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/crimeandjustice/datasets/policeforceareadatatables/yearendingmarch2026/pfatablesyemarch2026.xlsx",
+      "retrieval_date": "2026-09-05",
+      "source_cells": "Table C2!N83; Table C4!G83; Table C4!P83",
+      "source_sha256": "27d7884ef0e07dad01e602e48a430871ea2db1f558dbaa496e1f1f22e06c307f",
+      "rate_per_1000": "3.871",
+      "force_unallocated_percent": "8.549",
       "transformation": "count / CSP population rounded to nearest 100 * 1000; rate rounded to 3 decimals",
       "review_status": "Reviewed separate CSP recorded-offence rate; no safety interpretation",
       "missing_reason": ""
