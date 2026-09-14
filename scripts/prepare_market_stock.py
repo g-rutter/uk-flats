@@ -11,6 +11,8 @@ from release_manifest import load
 
 ROOT = Path(__file__).resolve().parents[1]
 RELEASE = ROOT / 'data/raw/releases/2026-09-07-location-expansion'
+NEW_RELEASE = ROOT / 'data/raw/releases/2026-09-14-new-location-market-stock'
+NEW_MAPPINGS = ROOT / 'data/registry/new_location_market_mappings.csv'
 RESULT_COUNT = re.compile(r'"resultCount":"([0-9]+)"')
 LOCATIONS = {
     'bristol': [('bristol', '219', 'Bristol')],
@@ -60,9 +62,32 @@ def verify_resolver(manifest, component, region, name):
 
 
 def retained_observation(location_id):
-    """Return checked raw stock totals and hashes, or None outside this release."""
+    """Return checked raw stock totals and hashes from a retained supported release."""
     if location_id not in LOCATIONS:
-        return None
+        mappings = {row['location_id']: row for row in read(NEW_MAPPINGS)}
+        mapping = mappings.get(location_id)
+        if not mapping:
+            return None
+        manifest = load(NEW_RELEASE)
+        resolver_relative = f'market-stock/resolver/{location_id}.json'
+        matches = json.loads((NEW_RELEASE / resolver_relative).read_text(encoding='utf-8')).get('matches', [])
+        if not any(str(item.get('id')) == mapping['portal_region_id'] and
+                   item.get('type') == 'REGION' and item.get('displayName') == mapping['portal_region_name']
+                   for item in matches):
+            raise ValueError(f'{resolver_relative}: reviewed Rightmove REGION did not reproduce')
+        counts, hashes = {}, [manifest[resolver_relative]['sha256']]
+        for tenure in ('sale', 'rent'):
+            relative = f'market-stock/search/{location_id}-{tenure}.html'
+            if relative not in manifest:
+                raise ValueError(f'Manifest lacks {relative}')
+            found = RESULT_COUNT.findall((NEW_RELEASE / relative).read_text(encoding='utf-8'))
+            if len(found) != 1:
+                raise ValueError(f'{relative}: expected exactly one resultCount, found {len(found)}')
+            counts[tenure] = int(found[0])
+            hashes.append(manifest[relative]['sha256'])
+        return dict(sale=counts['sale'], rent=counts['rent'],
+                    portal_regions=f"REGION^{mapping['portal_region_id']} {mapping['portal_region_name']}",
+                    capture_hashes=';'.join(hashes))
     manifest = load(RELEASE)
     sale_total = rent_total = 0
     component_names, hashes = [], []

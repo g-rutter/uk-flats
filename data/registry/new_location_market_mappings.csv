@@ -1,0 +1,8 @@
+location_id,resolver_query,portal_region_id,portal_region_name,confidence,selection_reason
+newbridge,Newbridge,18167,"Newbridge, Newport, South Wales, Newport (County of)",Medium,"First matching South Wales REGION result; Rightmove's proprietary label does not match the canonical Caerphilly local authority."
+burford,Burford,248,"Burford, Oxfordshire",High,Direct named REGION result in the correct county.
+rye,Rye,1159,"Rye, East Sussex",High,Direct named REGION result in the correct county.
+tenby,Tenby,1326,"Tenby, Pembrokeshire, South West Wales",High,Direct named REGION result in the correct county.
+chepstow,Chepstow,309,"Chepstow, Monmouthshire",High,Direct named REGION result in the correct county.
+hay-on-wye,Hay on Wye,12165,"Hay-On-Wye, Hereford, Herefordshire",Medium,"Sole named REGION result; Rightmove's proprietary label places the Welsh town under Hereford and is retained as a limitation."
+narberth,Narberth,967,"Narberth, Pembrokeshire, South West Wales",High,Direct named REGION result in the correct county.

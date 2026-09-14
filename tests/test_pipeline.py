@@ -34,6 +34,32 @@ from rehydrate_raw import rehydrate
 
 
 class PipelineTests(unittest.TestCase):
+    def test_new_location_housing_reviews_match_canonical_inputs(self):
+        def indexed(path):
+            with path.open(newline='', encoding='utf-8') as source:
+                return {row['location_id']: row for row in csv.DictReader(source)}
+
+        buy = indexed(ROOT / 'data/inputs/buy.csv')
+        rent = indexed(ROOT / 'data/inputs/rent.csv')
+        buy_review = indexed(ROOT / 'data/derived/new_location_buy_review.csv')
+        rent_review = indexed(ROOT / 'data/derived/new_location_rent_review.csv')
+        newest = {'newbridge', 'burford', 'rye', 'tenby', 'chepstow', 'hay-on-wye', 'narberth'}
+        compatible_buy = newest - {'newbridge', 'hay-on-wye'}
+        self.assertEqual(set(buy_review), compatible_buy)
+        self.assertEqual(set(rent_review), newest)
+        for ident in compatible_buy:
+            self.assertEqual(buy[ident]['proxyMedian'], buy_review[ident]['proxyMedian'])
+            self.assertEqual(buy[ident]['transactions'], buy_review[ident]['transactions'])
+        self.assertEqual(buy['newbridge']['proxyMedian'], '')
+        self.assertEqual(buy['hay-on-wye']['proxyMedian'], '')
+        for ident in newest:
+            self.assertEqual(rent[ident]['proxyMonthly'], rent_review[ident]['proxyMonthly'])
+        market_audit = indexed(
+            ROOT / 'data/derived/new_location_market_stock_review.csv')
+        self.assertEqual({ident: (buy[ident]['oneBedCount'], rent[ident]['oneBedCount']) for ident in newest},
+                         {ident: (market_audit[ident]['sale_count'], market_audit[ident]['rent_count'])
+                          for ident in newest})
+
     def test_population_is_reproducible_for_every_current_location(self):
         release = ROOT / 'data/raw/releases/2026-09-09-local-transport'
         rows = prepare_population(
@@ -274,7 +300,10 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual({row['status'] for row in release_rows if row['topic'] == 'digitalConnectivity'}, {'ready'})
         self.assertEqual(sum(location['population']['population'] > 0 for location in payload['locations']), location_count)
         buy_statuses = {row['status'] for row in release_rows if row['topic'] == 'buy'}
-        self.assertEqual(buy_statuses, {'review-required', 'missing'})
+        self.assertEqual(buy_statuses, {'ready', 'review-required'})
+        market_by_id = {row['location_id']: row for row in release_rows if row['topic'] == 'market'}
+        for ident in {'newbridge', 'burford', 'rye', 'tenby', 'chepstow', 'hay-on-wye', 'narberth'}:
+            self.assertEqual(market_by_id[ident]['status'], 'ready')
 
     def test_registry_rejects_unretained_or_unresolved_accepted_mapping(self):
         with tempfile.TemporaryDirectory() as tmp:

@@ -9150,9 +9150,22 @@ window.FLATS_DATA = {
         "confidence": "High",
         "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Newbridge; Reviewed official BUA name and South Wales location correspond directly to the broad screen location."
       },
-      "buy": {},
-      "rent": {},
-      "market": {},
+      "buy": {
+        "proxyMedian": null,
+        "transactions": null,
+        "housingCostConfidence": "",
+        "oneBedCount": 0,
+        "housingCostReason": "No compatible exact Newbridge HMLR Town/City or District key was found, so the buying proxy remains unknown; the zero stock count is a dated Rightmove headline result, not a zero price."
+      },
+      "rent": {
+        "proxyMonthly": 548,
+        "housingCostConfidence": "High",
+        "oneBedCount": 0,
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Caerphilly LA; underlying observation count is not published in the table."
+      },
+      "market": {
+        "reason": "Rightmove's controlled 14 September 2026 filtered capture returned 0 sale and 0 rental results; these are headline counts, not deduplicated properties, and zero is the observed snapshot count. The proprietary resolver label references Newport rather than the canonical Caerphilly local authority."
+      },
       "localTransport": {
         "pt_connectivity_0_100": 55.0542,
         "national_percentile": 21.8,
@@ -9240,9 +9253,22 @@ window.FLATS_DATA = {
         "confidence": "High",
         "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Burford; Reviewed official BUA name corresponds directly to the broad screen location."
       },
-      "buy": {},
-      "rent": {},
-      "market": {},
+      "buy": {
+        "proxyMedian": 475000,
+        "transactions": 25,
+        "housingCostConfidence": "High",
+        "oneBedCount": 0,
+        "housingCostReason": "Median of 25 achieved standard flat/maisonette sales in the retained 2024-07-01 to 2026-06-30 HMLR files; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 946,
+        "housingCostConfidence": "High",
+        "oneBedCount": 0,
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for West Oxfordshire LA; underlying observation count is not published in the table."
+      },
+      "market": {
+        "reason": "Rightmove's controlled 14 September 2026 filtered capture returned 0 sale and 0 rental results; these are headline counts, not deduplicated properties, and zero is the observed snapshot count."
+      },
       "localTransport": {
         "pt_connectivity_0_100": 51.9174,
         "national_percentile": 17.9,
@@ -9330,9 +9356,22 @@ window.FLATS_DATA = {
         "confidence": "High",
         "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Rye; Reviewed official BUA name corresponds directly to the broad screen location in East Sussex."
       },
-      "buy": {},
-      "rent": {},
-      "market": {},
+      "buy": {
+        "proxyMedian": 201250,
+        "transactions": 30,
+        "housingCostConfidence": "High",
+        "oneBedCount": 2,
+        "housingCostReason": "Median of 30 achieved standard flat/maisonette sales in the retained 2024-07-01 to 2026-06-30 HMLR files; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 804,
+        "housingCostConfidence": "High",
+        "oneBedCount": 0,
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Rother LA; underlying observation count is not published in the table."
+      },
+      "market": {
+        "reason": "Rightmove's controlled 14 September 2026 filtered capture returned 2 sale and 0 rental results; these are headline counts, not deduplicated properties, and zero is the observed snapshot count."
+      },
       "localTransport": {
         "pt_connectivity_0_100": 50.7855,
         "national_percentile": 16.7,
@@ -9420,9 +9459,22 @@ window.FLATS_DATA = {
         "confidence": "High",
         "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Tenby; Reviewed official BUA name corresponds directly to the broad screen location."
       },
-      "buy": {},
-      "rent": {},
-      "market": {},
+      "buy": {
+        "proxyMedian": 210000,
+        "transactions": 76,
+        "housingCostConfidence": "High",
+        "oneBedCount": 12,
+        "housingCostReason": "Median of 76 achieved standard flat/maisonette sales in the retained 2024-07-01 to 2026-06-30 HMLR files; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 513,
+        "housingCostConfidence": "High",
+        "oneBedCount": 1,
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Pembrokeshire LA; underlying observation count is not published in the table."
+      },
+      "market": {
+        "reason": "Rightmove's controlled 14 September 2026 filtered capture returned 12 sale and 1 rental results; these are headline counts, not deduplicated properties."
+      },
       "localTransport": {
         "pt_connectivity_0_100": 52.8083,
         "national_percentile": 18.9,
@@ -9510,9 +9562,22 @@ window.FLATS_DATA = {
         "confidence": "High",
         "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Chepstow; Reviewed official BUA name corresponds directly to the broad screen location."
       },
-      "buy": {},
-      "rent": {},
-      "market": {},
+      "buy": {
+        "proxyMedian": 179950,
+        "transactions": 37,
+        "housingCostConfidence": "High",
+        "oneBedCount": 4,
+        "housingCostReason": "Median of 37 achieved standard flat/maisonette sales in the retained 2024-07-01 to 2026-06-30 HMLR files; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 729,
+        "housingCostConfidence": "High",
+        "oneBedCount": 3,
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Monmouthshire LA; underlying observation count is not published in the table."
+      },
+      "market": {
+        "reason": "Rightmove's controlled 14 September 2026 filtered capture returned 4 sale and 3 rental results; these are headline counts, not deduplicated properties."
+      },
       "localTransport": {
         "pt_connectivity_0_100": 59.2377,
         "national_percentile": 28.7,
@@ -9600,9 +9665,22 @@ window.FLATS_DATA = {
         "confidence": "High",
         "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Hay-on-Wye; Reviewed official BUA name corresponds directly to the broad screen location."
       },
-      "buy": {},
-      "rent": {},
-      "market": {},
+      "buy": {
+        "proxyMedian": null,
+        "transactions": null,
+        "housingCostConfidence": "",
+        "oneBedCount": 2,
+        "housingCostReason": "No compatible exact Hay-on-Wye HMLR Town/City or District key was found, so the buying proxy remains unknown; the stock count is a dated Rightmove headline result."
+      },
+      "rent": {
+        "proxyMonthly": 462,
+        "housingCostConfidence": "High",
+        "oneBedCount": 0,
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Powys LA; underlying observation count is not published in the table."
+      },
+      "market": {
+        "reason": "Rightmove's controlled 14 September 2026 filtered capture returned 2 sale and 0 rental results; these are headline counts, not deduplicated properties, and zero is the observed snapshot count. The proprietary resolver label places the Welsh town under Hereford."
+      },
       "localTransport": {
         "pt_connectivity_0_100": 39.7039,
         "national_percentile": 9.3,
@@ -9690,9 +9768,22 @@ window.FLATS_DATA = {
         "confidence": "High",
         "reason": "Sum of Census 2021 usual residents in Output Areas assigned by the official best-fit lookup to Narberth; Reviewed official BUA name corresponds directly to the broad screen location."
       },
-      "buy": {},
-      "rent": {},
-      "market": {},
+      "buy": {
+        "proxyMedian": 123000,
+        "transactions": 15,
+        "housingCostConfidence": "High",
+        "oneBedCount": 0,
+        "housingCostReason": "Median of 15 achieved standard flat/maisonette sales in the retained 2024-07-01 to 2026-06-30 HMLR files; this is an all-size flat proxy, not a one-bedroom estimate."
+      },
+      "rent": {
+        "proxyMonthly": 513,
+        "housingCostConfidence": "High",
+        "oneBedCount": 0,
+        "housingCostReason": "Official July 2026 one-bedroom modelled average for Pembrokeshire LA; underlying observation count is not published in the table."
+      },
+      "market": {
+        "reason": "Rightmove's controlled 14 September 2026 filtered capture returned 0 sale and 0 rental results; these are headline counts, not deduplicated properties, and zero is the observed snapshot count."
+      },
       "localTransport": {
         "pt_connectivity_0_100": 47.9696,
         "national_percentile": 14.2,
@@ -15527,6 +15618,171 @@ window.FLATS_DATA = {
       "location_id": "cheltenham",
       "topic": "environment",
       "url": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025"
+    },
+    {
+      "location_id": "burford",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "rye",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "tenby",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "chepstow",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "narberth",
+      "topic": "buy",
+      "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+    },
+    {
+      "location_id": "newbridge",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "burford",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "rye",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "tenby",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "chepstow",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "hay-on-wye",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "narberth",
+      "topic": "rent",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics"
+    },
+    {
+      "location_id": "newbridge",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Newbridge"
+    },
+    {
+      "location_id": "newbridge",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E18167&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&dontShow=retirement%2CsharedOwnership&mustHave=&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "newbridge",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E18167&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&dontShow=houseShare%2Cretirement&mustHave=&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "burford",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Burford"
+    },
+    {
+      "location_id": "burford",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E248&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&dontShow=retirement%2CsharedOwnership&mustHave=&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "burford",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E248&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&dontShow=houseShare%2Cretirement&mustHave=&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "rye",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Rye"
+    },
+    {
+      "location_id": "rye",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1159&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&dontShow=retirement%2CsharedOwnership&mustHave=&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "rye",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E1159&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&dontShow=houseShare%2Cretirement&mustHave=&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "tenby",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Tenby"
+    },
+    {
+      "location_id": "tenby",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1326&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&dontShow=retirement%2CsharedOwnership&mustHave=&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "tenby",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E1326&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&dontShow=houseShare%2Cretirement&mustHave=&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "chepstow",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Chepstow"
+    },
+    {
+      "location_id": "chepstow",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E309&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&dontShow=retirement%2CsharedOwnership&mustHave=&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "chepstow",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E309&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&dontShow=houseShare%2Cretirement&mustHave=&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "hay-on-wye",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Hay+on+Wye"
+    },
+    {
+      "location_id": "hay-on-wye",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E12165&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&dontShow=retirement%2CsharedOwnership&mustHave=&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "hay-on-wye",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E12165&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&dontShow=houseShare%2Cretirement&mustHave=&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "narberth",
+      "topic": "market",
+      "url": "https://los.rightmove.co.uk/typeahead?query=Narberth"
+    },
+    {
+      "location_id": "narberth",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E967&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=false&dontShow=retirement%2CsharedOwnership&mustHave=&furnishTypes=&keywords="
+    },
+    {
+      "location_id": "narberth",
+      "topic": "market",
+      "url": "https://www.rightmove.co.uk/property-to-rent/find.html?locationIdentifier=REGION%5E967&minBedrooms=1&maxBedrooms=1&propertyTypes=flat&includeSSTC=true&dontShow=houseShare%2Cretirement&mustHave=&furnishTypes=&keywords="
     }
   ],
   "evidence": [
@@ -15623,7 +15879,7 @@ window.FLATS_DATA = {
       "dataPeriod": "Sales dated 2024-07-01 to 2026-06-30; downloaded from release updated 2026-08-28",
       "retrievalDate": "2026-09-05",
       "geography": "HMLR Town/City field; Torbay uses district field",
-      "coverage": "All 63 locations; row-level counts are in affordability.json",
+      "coverage": "88 locations have values; the five newest compatible named-place observations have retained row-level audits, while Newbridge and Hay-on-Wye remain blank because no exact compatible key was found",
       "limitations": "All flat/maisonette sizes; no bedroom count. Standard category-A transactions only. Recent transactions may be incomplete because registration lags."
     },
     {
@@ -15635,7 +15891,7 @@ window.FLATS_DATA = {
       "dataPeriod": "2026-07",
       "retrievalDate": "2026-09-05",
       "geography": "Local authorities in England and Wales",
-      "coverage": "All 63 locations mapped to 63 local-authority proxies; observation counts not published in table",
+      "coverage": "All 90 locations mapped to local-authority proxies; observation counts not published in table",
       "limitations": "Modelled mean for the entire private rental stock, not a median or new-let asking rent. Some local authorities are broader than named towns; latest months are provisional and lower-level estimates may be volatile."
     },
     {
@@ -15673,6 +15929,18 @@ window.FLATS_DATA = {
       "geography": "Rightmove REGION identifiers retained per captured response",
       "coverage": "40 new broad comparison locations: separate sale and rent captures for 20 expansion locations; Bournemouth–Poole is the sum of two named portal regions",
       "limitations": "Controlled light-use capture; exact request URLs, timestamps and HTML response hashes are retained in the expansion release. Headline advertised-result counts are not deduplicated inventories or achieved transactions. Sale and rent exclusions differ. Bournemouth and Poole portal regions may overlap or omit parts of the broad comparison geography."
+    },
+    {
+      "id": "MT-RM-SEARCH-20260914",
+      "workstream": "market_thickness",
+      "title": "Rightmove controlled one-bedroom flat direct-HTTP captures",
+      "publisher": "Rightmove",
+      "url": "https://los.rightmove.co.uk/typeahead | https://www.rightmove.co.uk/property-for-sale.html | https://www.rightmove.co.uk/property-to-rent.html",
+      "dataPeriod": "Snapshot 2026-09-14",
+      "retrievalDate": "2026-09-14",
+      "geography": "Seven reviewed Rightmove REGION identifiers",
+      "coverage": "Separate resolver, sale and rent responses for the seven newest locations",
+      "limitations": "Controlled light-use direct HTTP capture; exact request URLs, timestamps, byte sizes and response hashes are retained. Headline counts are not deduplicated inventories or achieved transactions. Sale and rent exclusions differ. Newbridge and Hay-on-Wye portal labels conflict with canonical administrative context."
     },
     {
       "id": "MT-RM-LOS-20260907",
@@ -16043,89 +16311,89 @@ window.FLATS_DATA = {
           "maximum": 91250
         },
         "4.5": {
-          "count": 9,
+          "count": 10,
           "minimum": 94000,
-          "maximum": 104000
+          "maximum": 104625
         },
         "4.0": {
-          "count": 9,
-          "minimum": 104625,
-          "maximum": 113500
+          "count": 10,
+          "minimum": 108000,
+          "maximum": 115500
         },
         "3.5": {
           "count": 10,
-          "minimum": 114000,
-          "maximum": 125000
+          "minimum": 116000,
+          "maximum": 127500
         },
         "3.0": {
           "count": 9,
-          "minimum": 127500,
-          "maximum": 135000
+          "minimum": 128000,
+          "maximum": 137000
         },
         "2.5": {
-          "count": 9,
-          "minimum": 137000,
-          "maximum": 148000
+          "count": 11,
+          "minimum": 138500,
+          "maximum": 150000
         },
         "2.0": {
-          "count": 11,
-          "minimum": 148500,
-          "maximum": 165000
+          "count": 9,
+          "minimum": 155000,
+          "maximum": 172000
         },
         "1.5": {
-          "count": 7,
-          "minimum": 172000,
-          "maximum": 192500
+          "count": 10,
+          "minimum": 175000,
+          "maximum": 201250
         },
         "1.0": {
           "count": 9,
-          "minimum": 200000,
-          "maximum": 315000
+          "minimum": 210000,
+          "maximum": 475000
         }
       },
       "rent": {
         "5.0": {
-          "count": 9,
+          "count": 10,
           "minimum": 400,
           "maximum": 498
         },
         "4.5": {
           "count": 10,
           "minimum": 499,
-          "maximum": 545
+          "maximum": 538
         },
         "4.0": {
-          "count": 9,
-          "minimum": 546,
-          "maximum": 587
+          "count": 10,
+          "minimum": 541,
+          "maximum": 578
         },
         "3.5": {
-          "count": 9,
-          "minimum": 590,
-          "maximum": 629
+          "count": 10,
+          "minimum": 582,
+          "maximum": 617
         },
         "3.0": {
           "count": 10,
-          "minimum": 647,
-          "maximum": 689
+          "minimum": 629,
+          "maximum": 684
         },
         "2.5": {
-          "count": 9,
-          "minimum": 696,
+          "count": 11,
+          "minimum": 689,
           "maximum": 743
         },
         "2.0": {
           "count": 9,
           "minimum": 748,
-          "maximum": 825
+          "maximum": 819
         },
         "1.5": {
-          "count": 9,
-          "minimum": 869,
+          "count": 10,
+          "minimum": 825,
           "maximum": 917
         },
         "1.0": {
-          "count": 9,
+          "count": 10,
           "minimum": 919,
           "maximum": 1353
         }
@@ -16134,25 +16402,25 @@ window.FLATS_DATA = {
     "score_bands": {
       "buy": {
         "low": {
-          "count": 27,
-          "minimum": 45.3,
-          "maximum": 59.4
+          "count": 28,
+          "minimum": 47.1,
+          "maximum": 60.0
         },
         "mid": {
           "count": 27,
-          "minimum": 60.0,
-          "maximum": 65.3
+          "minimum": 60.6,
+          "maximum": 65.9
         },
         "high": {
-          "count": 29,
-          "minimum": 65.9,
+          "count": 28,
+          "minimum": 66.5,
           "maximum": 81.8
         },
         "unknown": 7
       },
       "rent": {
         "low": {
-          "count": 27,
+          "count": 28,
           "minimum": 47.6,
           "maximum": 60.6
         },
@@ -16162,7 +16430,7 @@ window.FLATS_DATA = {
           "maximum": 65.9
         },
         "high": {
-          "count": 29,
+          "count": 28,
           "minimum": 66.5,
           "maximum": 80.0
         },
@@ -16208,10 +16476,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 1,
               "national_transport": 4.5,
-              "housing_cost": 2.0,
+              "housing_cost": 2.5,
               "stock": 5
             },
-            "score": 56.5,
+            "score": 58.2,
             "band": "low"
           },
           "rent": {
@@ -16220,10 +16488,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 1,
               "national_transport": 4.5,
-              "housing_cost": 2.0,
+              "housing_cost": 1.5,
               "stock": 5
             },
-            "score": 56.5,
+            "score": 54.7,
             "band": "low"
           }
         }
@@ -16295,11 +16563,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 2,
               "national_transport": 2.5,
-              "housing_cost": 3.5,
+              "housing_cost": 4.0,
               "stock": 3
             },
-            "score": 58.8,
-            "band": "low"
+            "score": 60.6,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -16469,10 +16737,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 3,
               "national_transport": 4.5,
-              "housing_cost": 3.5,
+              "housing_cost": 4.0,
               "stock": 2
             },
-            "score": 58.2,
+            "score": 60.0,
             "band": "low"
           },
           "rent": {
@@ -16626,10 +16894,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 4,
               "national_transport": 1.0,
-              "housing_cost": 4.0,
+              "housing_cost": 3.5,
               "stock": 3
             },
-            "score": 69.4,
+            "score": 67.6,
             "band": "high"
           }
         }
@@ -16672,10 +16940,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 1,
               "national_transport": 2.0,
-              "housing_cost": 3.0,
+              "housing_cost": 3.5,
               "stock": 3
             },
-            "score": 45.3,
+            "score": 47.1,
             "band": "low"
           },
           "rent": {
@@ -16742,11 +17010,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 2.0,
-              "housing_cost": 4.0,
+              "housing_cost": 3.5,
               "stock": 4
             },
-            "score": 61.2,
-            "band": "mid"
+            "score": 59.4,
+            "band": "low"
           }
         }
       },
@@ -16763,7 +17031,7 @@ window.FLATS_DATA = {
               "stock": 4
             },
             "score": 65.9,
-            "band": "high"
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -16788,10 +17056,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 2,
               "national_transport": 3.0,
-              "housing_cost": 2.5,
+              "housing_cost": 3.0,
               "stock": 4
             },
-            "score": 56.5,
+            "score": 58.2,
             "band": "low"
           },
           "rent": {
@@ -17053,7 +17321,7 @@ window.FLATS_DATA = {
               "stock": 1
             },
             "score": 60.0,
-            "band": "mid"
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -17194,11 +17462,11 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 5.0,
-              "housing_cost": 2.0,
+              "housing_cost": 2.5,
               "stock": 4
             },
-            "score": 64.7,
-            "band": "mid"
+            "score": 66.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -17368,11 +17636,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 3.5,
-              "housing_cost": 4.0,
+              "housing_cost": 4.5,
               "stock": 3
             },
-            "score": 64.7,
-            "band": "mid"
+            "score": 66.5,
+            "band": "high"
           },
           "rent": {
             "factors": {
@@ -17467,10 +17735,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 4.0,
-              "housing_cost": 3.0,
+              "housing_cost": 2.5,
               "stock": 5
             },
-            "score": 74.7,
+            "score": 72.9,
             "band": "high"
           }
         }
@@ -17546,7 +17814,7 @@ window.FLATS_DATA = {
               "stock": 2
             },
             "score": 60.0,
-            "band": "mid"
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -17554,10 +17822,10 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 2,
               "national_transport": 4.5,
-              "housing_cost": 3.5,
+              "housing_cost": 3.0,
               "stock": 2
             },
-            "score": 60.0,
+            "score": 58.2,
             "band": "low"
           }
         }
@@ -17575,7 +17843,7 @@ window.FLATS_DATA = {
               "stock": 3
             },
             "score": 65.9,
-            "band": "high"
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -17716,10 +17984,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 2.0,
+              "housing_cost": 2.5,
               "stock": 4
             },
-            "score": 74.7,
+            "score": 76.5,
             "band": "high"
           },
           "rent": {
@@ -17902,11 +18170,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 4.0,
-              "housing_cost": 4.5,
+              "housing_cost": 4.0,
               "stock": 2
             },
-            "score": 67.6,
-            "band": "high"
+            "score": 65.9,
+            "band": "mid"
           }
         }
       },
@@ -18010,7 +18278,7 @@ window.FLATS_DATA = {
               "stock": 5
             },
             "score": 65.9,
-            "band": "high"
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -18035,11 +18303,11 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 3,
               "national_transport": 3.5,
-              "housing_cost": 1.5,
+              "housing_cost": 2.0,
               "stock": 5
             },
-            "score": 59.4,
-            "band": "low"
+            "score": 61.2,
+            "band": "mid"
           },
           "rent": {
             "factors": {
@@ -18126,7 +18394,7 @@ window.FLATS_DATA = {
               "stock": 4
             },
             "score": 60.0,
-            "band": "mid"
+            "band": "low"
           },
           "rent": {
             "factors": {
@@ -18238,10 +18506,10 @@ window.FLATS_DATA = {
               "local_transport": 4,
               "residential_environment": 1,
               "national_transport": 3.0,
-              "housing_cost": 1.0,
+              "housing_cost": 1.5,
               "stock": 4
             },
-            "score": 49.4,
+            "score": 51.2,
             "band": "low"
           },
           "rent": {
@@ -18482,10 +18750,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 4,
               "national_transport": 3.0,
-              "housing_cost": 4.5,
+              "housing_cost": 4.0,
               "stock": 1
             },
-            "score": 56.5,
+            "score": 54.7,
             "band": "low"
           }
         }
@@ -18557,10 +18825,10 @@ window.FLATS_DATA = {
               "local_transport": 3,
               "residential_environment": 5,
               "national_transport": 4.0,
-              "housing_cost": 1.0,
+              "housing_cost": 1.5,
               "stock": 4
             },
-            "score": 72.9,
+            "score": 74.7,
             "band": "high"
           },
           "rent": {
@@ -18587,7 +18855,7 @@ window.FLATS_DATA = {
               "residential_environment": 3,
               "national_transport": null,
               "housing_cost": null,
-              "stock": null
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -18598,8 +18866,8 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 3,
               "national_transport": null,
-              "housing_cost": null,
-              "stock": null
+              "housing_cost": 4.0,
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -18615,8 +18883,8 @@ window.FLATS_DATA = {
               "local_transport": 1,
               "residential_environment": 1,
               "national_transport": null,
-              "housing_cost": null,
-              "stock": null
+              "housing_cost": 1.0,
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -18627,8 +18895,8 @@ window.FLATS_DATA = {
               "local_transport": 1,
               "residential_environment": 1,
               "national_transport": null,
-              "housing_cost": null,
-              "stock": null
+              "housing_cost": 1.0,
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -18644,8 +18912,8 @@ window.FLATS_DATA = {
               "local_transport": 1,
               "residential_environment": 3,
               "national_transport": null,
-              "housing_cost": null,
-              "stock": null
+              "housing_cost": 1.5,
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -18656,8 +18924,8 @@ window.FLATS_DATA = {
               "local_transport": 1,
               "residential_environment": 3,
               "national_transport": null,
-              "housing_cost": null,
-              "stock": null
+              "housing_cost": 2.0,
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -18673,8 +18941,8 @@ window.FLATS_DATA = {
               "local_transport": 1,
               "residential_environment": 3,
               "national_transport": null,
-              "housing_cost": null,
-              "stock": null
+              "housing_cost": 1.0,
+              "stock": 2
             },
             "score": null,
             "band": "unknown"
@@ -18685,8 +18953,8 @@ window.FLATS_DATA = {
               "local_transport": 1,
               "residential_environment": 3,
               "national_transport": null,
-              "housing_cost": null,
-              "stock": null
+              "housing_cost": 4.5,
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -18702,8 +18970,8 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 5,
               "national_transport": null,
-              "housing_cost": null,
-              "stock": null
+              "housing_cost": 1.5,
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -18714,8 +18982,8 @@ window.FLATS_DATA = {
               "local_transport": 2,
               "residential_environment": 5,
               "national_transport": null,
-              "housing_cost": null,
-              "stock": null
+              "housing_cost": 2.5,
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -18732,7 +19000,7 @@ window.FLATS_DATA = {
               "residential_environment": 4,
               "national_transport": null,
               "housing_cost": null,
-              "stock": null
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -18743,8 +19011,8 @@ window.FLATS_DATA = {
               "local_transport": 1,
               "residential_environment": 4,
               "national_transport": null,
-              "housing_cost": null,
-              "stock": null
+              "housing_cost": 5.0,
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -18760,8 +19028,8 @@ window.FLATS_DATA = {
               "local_transport": 1,
               "residential_environment": 4,
               "national_transport": null,
-              "housing_cost": null,
-              "stock": null
+              "housing_cost": 3.5,
+              "stock": 1
             },
             "score": null,
             "band": "unknown"
@@ -18772,8 +19040,8 @@ window.FLATS_DATA = {
               "local_transport": 1,
               "residential_environment": 4,
               "national_transport": null,
-              "housing_cost": null,
-              "stock": null
+              "housing_cost": 4.5,
+              "stock": 1
             },
             "score": null,
             "band": "unknown"

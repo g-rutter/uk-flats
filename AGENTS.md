@@ -22,6 +22,12 @@ Run `python3 scripts/build.py` and `python3 -m unittest discover -s tests` after
 pipeline changes. Commit inputs, scripts and generated outputs together. Never
 hand-edit generated files.
 
+None of the current data-acquisition workflows require Playwright. Do not add a
+workflow that requires Playwright without explicit user approval, because browser
+automation is token-expensive. Playwright may be used without prior approval only
+for brief, one-time validation tasks; prefer direct HTTP requests, APIs or bulk
+downloads whenever feasible.
+
 ## Evidence rules
 
 Retain source URLs, original recorded retrieval dates, periods, geography, sample

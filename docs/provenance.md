@@ -199,6 +199,18 @@ existing canonical values after that documented rounding rule. Together with the
 already matching rent results, this validates the stated methods and mappings
 for this sample only; it does not make untested baseline rows reproducible.
 
+The same retained release and preparation scripts also support the first housing-cost
+tranche for the seven locations added on 14 September 2026. Reviewed mappings are
+in `data/registry/new_location_housing_mappings.csv`; separate buy and rent review
+lists prevent absent price keys from being treated as zero observations. The
+generated row-level results and source-cell/hash audits are retained in
+`data/derived/new_location_buy_review.csv`, `new_location_buy_audit.csv`,
+`new_location_rent_review.csv` and `new_location_rent_audit.csv`. All seven have
+official July 2026 one-bedroom LA mean rent proxies. Burford, Rye, Tenby, Chepstow
+and Narberth have exact named HMLR Town/City keys. Newbridge and Hay-on-Wye have no
+compatible exact Town/City or District key in the retained bulk files and therefore
+remain blank for buying rather than receiving a nearby-place or wider-area value.
+
 The three HMLR yearly CSVs exceed GitHub's per-file size limit and are therefore
 not in Git. Their committed release-manifest rows retain the URLs, retrieval
 times and SHA-256 values. After cloning, run
@@ -218,6 +230,17 @@ fields, `market.csv` and an ignored row-level staging audit. This is a dated
 advertised-stock snapshot, not an inventory. Bournemouth–Poole explicitly sums
 the separately resolved Bournemouth and Poole portal regions, whose proprietary
 boundaries may overlap or differ from the broad comparison geography.
+
+The seven-location 14 September release in
+`data/raw/releases/2026-09-14-new-location-market-stock/` uses the generic
+`acquire_market_stock.py` direct-HTTP workflow documented in
+`market-stock-methodology.md`. Browser automation is neither used nor required:
+the retained typeahead responses are JSON and the filtered result pages are HTML.
+The acquisition verifies each reviewed `REGION` mapping and the single headline
+`resultCount`, writes hashes and byte sizes to the manifest, and never opens
+listing pages. Newbridge and Hay-on-Wye retain Medium-confidence portal mappings
+because Rightmove's proprietary labels conflict with the canonical administrative
+context. Zero counts are observed snapshot values, not missing-data substitutes.
 
 ## Fresh crime research schema
 

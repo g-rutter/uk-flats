@@ -1,0 +1,8 @@
+location_id,price_query_field,price_query_value,rent_la_code,rent_la_name,mapping_reason
+newbridge,,,W06000018,Caerphilly,"Direct LA rent proxy. No compatible exact Newbridge Town/City or District key was found in the retained HMLR bulk files, so buying remains unknown."
+burford,Town/City,BURFORD,E07000181,West Oxfordshire,Direct named Town/City key and LA rent proxy verified in the retained source files.
+rye,Town/City,RYE,E07000064,Rother,Direct named Town/City key and LA rent proxy verified in the retained source files.
+tenby,Town/City,TENBY,W06000009,Pembrokeshire,Direct named Town/City key and LA rent proxy verified in the retained source files.
+chepstow,Town/City,CHEPSTOW,W06000021,Monmouthshire,Direct named Town/City key and LA rent proxy verified in the retained source files.
+hay-on-wye,,,W06000023,Powys,"Direct LA rent proxy. No compatible exact Hay-on-Wye Town/City or District key was found in the retained HMLR bulk files, so buying remains unknown."
+narberth,Town/City,NARBERTH,W06000009,Pembrokeshire,Direct named Town/City key and LA rent proxy verified in the retained source files.

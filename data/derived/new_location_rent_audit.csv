@@ -1,0 +1,8 @@
+location_id,rent_la_code,rent_la_name,sheet,source_row,source_cells,time_period,proxy_monthly,source_artifact,source_sha256,edition,provisional_status
+burford,E07000181,West Oxfordshire,Table 1,27108,Table 1!A27108;B27108;C27108;L27108,2026-07,946,rent/pipr-2026-08-19.xlsx,9e172e7d32a43c8c979a6d394d717d862f66775295f604d2f223b2035374223e,19 August 2026,See ONS workbook notes
+chepstow,W06000021,Monmouthshire,Table 1,48097,Table 1!A48097;B48097;C48097;L48097,2026-07,729,rent/pipr-2026-08-19.xlsx,9e172e7d32a43c8c979a6d394d717d862f66775295f604d2f223b2035374223e,19 August 2026,See ONS workbook notes
+hay-on-wye,W06000023,Powys,Table 1,48375,Table 1!A48375;B48375;C48375;L48375,2026-07,462,rent/pipr-2026-08-19.xlsx,9e172e7d32a43c8c979a6d394d717d862f66775295f604d2f223b2035374223e,19 August 2026,See ONS workbook notes
+narberth,W06000009,Pembrokeshire,Table 1,46568,Table 1!A46568;B46568;C46568;L46568,2026-07,513,rent/pipr-2026-08-19.xlsx,9e172e7d32a43c8c979a6d394d717d862f66775295f604d2f223b2035374223e,19 August 2026,See ONS workbook notes
+newbridge,W06000018,Caerphilly,Table 1,47680,Table 1!A47680;B47680;C47680;L47680,2026-07,548,rent/pipr-2026-08-19.xlsx,9e172e7d32a43c8c979a6d394d717d862f66775295f604d2f223b2035374223e,19 August 2026,See ONS workbook notes
+rye,E07000064,Rother,Table 1,14181,Table 1!A14181;B14181;C14181;L14181,2026-07,804,rent/pipr-2026-08-19.xlsx,9e172e7d32a43c8c979a6d394d717d862f66775295f604d2f223b2035374223e,19 August 2026,See ONS workbook notes
+tenby,W06000009,Pembrokeshire,Table 1,46568,Table 1!A46568;B46568;C46568;L46568,2026-07,513,rent/pipr-2026-08-19.xlsx,9e172e7d32a43c8c979a6d394d717d862f66775295f604d2f223b2035374223e,19 August 2026,See ONS workbook notes

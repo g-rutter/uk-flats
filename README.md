@@ -109,6 +109,9 @@ The national-rail comparison is an accepted dated station-to-station snapshot;
 its method and collection procedure are in the
 [national transport methodology](docs/national-transport-methodology.md) and
 [runbook](docs/national-transport-runbook.md).
+Rightmove market-stock snapshots use controlled direct HTTP requests; their fixed
+filters, retained artifacts and limitations are in the
+[market-stock methodology](docs/market-stock-methodology.md).
 The local public-transport factor is the DfT 2025 connectivity metric aggregated
 to reviewed built-up areas; its reproducible method is in the
 [local transport methodology](docs/local-transport-methodology.md).

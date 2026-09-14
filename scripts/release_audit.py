@@ -41,6 +41,7 @@ def metric_present(topic, row):
 
 
 def audit(inputs):
+    inputs = Path(inputs)
     locations = read(Path(inputs) / 'locations.csv')
     tables = {topic: index(read(Path(inputs) / FILES.get(topic, f'{topic}.csv')))
               for topic in TOPICS if topic != 'crime'}
@@ -48,6 +49,12 @@ def audit(inputs):
     for row in read(Path(inputs) / 'crime_observations.csv'):
         if row['category'] in ('violence_against_person', 'sexual_offences'):
             crime.setdefault(row['location_id'], []).append(row)
+    derived = inputs.parent / 'derived'
+    housing_audits = {}
+    for topic, name in (('buy', 'new_location_buy_audit.csv'),
+                        ('rent', 'new_location_rent_audit.csv')):
+        path = derived / name
+        housing_audits[topic] = index(read(path)) if path.is_file() else {}
     result = []
     for location in locations:
         ident = location['id']
@@ -80,6 +87,23 @@ def audit(inputs):
                     except (OSError, ValueError, KeyError):
                         status = 'review-required'
                         reason = 'Canonical observation does not match the hash-verified Census and BUA release'
+                elif topic in ('buy', 'rent') and present:
+                    review = housing_audits[topic].get(ident)
+                    value_field = 'proxyMedian' if topic == 'buy' else 'proxyMonthly'
+                    review_field = 'proxy_median' if topic == 'buy' else 'proxy_monthly'
+                    count_matches = topic == 'rent' or row.get('transactions') == review.get('selected_rows') if review else False
+                    if review and row.get(value_field) == review.get(review_field) and count_matches:
+                        status = 'ready'
+                        artifact_hash = review['source_sha256']
+                        period = (f"{review['period_start']} to {review['period_end']}"
+                                  if topic == 'buy' else review['time_period'])
+                        geography = (review['query_value'] if topic == 'buy' else review['rent_la_code'])
+                        reason = ''
+                    else:
+                        status = 'review-required'
+                        reason = ('No compatible buying-price geography is available'
+                                  if topic == 'buy' and not row.get('proxyMedian')
+                                  else 'Canonical observation has no matching retained row-level audit')
                 elif topic == 'market':
                     try:
                         from prepare_market_stock import retained_observation
